@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try {
+      document.querySelector('meta[name="color-scheme"]').content = localStorage.getItem("color-scheme") ?? "light dark";
+    } catch (_) {}
+  </script>
+  <title>OneOfMany — The Abundance &amp; Transition Atlas (2026–2040 &amp; 2026–2030 Leapfrog)</title>
+  <meta name="description" content="Interactive explorer for 85 pathways (170 deep reports and flexible storyboards) across Abundant Energy, Automation & Science, Social Transition, and Space.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <button id="mobile-menu-btn" class="icon-btn mobile-only" aria-label="Toggle navigation sidebar">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 12h18M3 6h18M3 18h18"/>
+        </svg>
+      </button>
+      <a href="#home" id="brand-link" class="brand">
+        <span class="brand-badge">ATLAS</span>
+        <span class="brand-title">OneOfMany</span>
+        <span class="brand-subtitle">Abundance &amp; Transition Pathways</span>
+      </a>
+    </div>
+
+    <div class="horizon-pills" role="tablist" aria-label="Horizon filter">
+      <button class="horizon-pill active" data-horizon="all" role="tab" aria-selected="true">
+        All Pathways <span class="pill-count" id="count-all">85</span>
+      </button>
+      <button class="horizon-pill" data-horizon="v1" role="tab" aria-selected="false">
+        <span class="dot dot-v1"></span>Vision 01: 2026–2040 <span class="pill-count" id="count-v1">38</span>
+      </button>
+      <button class="horizon-pill" data-horizon="v2" role="tab" aria-selected="false">
+        <span class="dot dot-v2"></span>Vision 02: 2026–2030 Leapfrog <span class="pill-count" id="count-v2">47</span>
+      </button>
+      <button class="horizon-pill" data-horizon="urgent" role="tab" aria-selected="false">
+        <span class="dot dot-urgent"></span>Urgent Social Triage <span class="pill-count" id="count-urgent">9</span>
+      </button>
+    </div>
+
+    <div class="topbar-right">
+      <div class="search-wrapper">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+        </svg>
+        <input
+          type="search"
+          id="global-search"
+          placeholder="Search 170 reports &amp; storyboards… (/)"
+          aria-label="Search reports and storyboards"
+          autocomplete="off"
+        >
+        <kbd class="search-kbd">/</kbd>
+      </div>
+
+      <button id="theme-toggle" class="icon-btn" type="button" title="Toggle light/dark theme">
+        <span class="theme-option theme-to-dark">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+          </svg>
+          <span class="sr-only">Switch to dark theme</span>
+        </span>
+        <span class="theme-option theme-to-light">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-14.93 1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2m-14.93 7.07 1.41-1.41m11.32-11.32 1.41-1.41"/>
+          </svg>
+          <span class="sr-only">Switch to light theme</span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <div class="workspace-shell">
+    <aside id="sidebar" class="sidebar" aria-label="Pathway directory">
+      <div class="sidebar-header">
+        <div class="track-filter-row" role="group" aria-label="Filter by track">
+          <button class="track-chip active" data-track="all">All</button>
+          <button class="track-chip" data-track="abundant-energy">⚡ Energy</button>
+          <button class="track-chip" data-track="automation">🤖 Automation</button>
+          <button class="track-chip" data-track="social">🤝 Social</button>
+          <button class="track-chip" data-track="space">🚀 Space</button>
+        </div>
+      </div>
+      <nav id="sidebar-nav" class="sidebar-nav"></nav>
+    </aside>
+
+    <main id="main-stage" class="main-stage">
+      <!-- HOME / ATLAS OVERVIEW VIEW -->
+      <section id="home-view" class="home-view">
+        <div class="hero-card">
+          <div class="hero-eyebrow">OPTIMISTIC, DATA-GROUNDED FUTURES • 85 SUBTOPICS • 170 DOCUMENTS</div>
+          <h1 id="main-heading" tabindex="-1" class="hero-title">
+            Believing in What Is Possible—And Designing the Bridge to Get There Without Panic
+          </h1>
+          <p class="hero-lead">
+            Explore two comprehensive horizons across <strong>Abundant Energy</strong>, <strong>Automation &amp; Science</strong>, <strong>Social &amp; Economic Transition</strong>, and <strong>Space Industrialization</strong>:
+            <strong>Vision 01 (2026–2040)</strong> traces the grounded engineering and institutional bridge to mid-century abundance, while
+            <strong>Vision 02 (2026–2030 Leapfrog)</strong> probes how the late-2026 intelligence explosion, automated science, and bold institutional creative destruction can compress progress into a 1-to-4-year "skip-the-landline" sprint.
+          </p>
+
+          <div class="thesis-grid">
+            <div class="thesis-item">
+              <div class="thesis-num">01 // CONVERGENCE FLY-WHEEL</div>
+              <h3>Scientific, Mathematical &amp; Physical Tooling</h3>
+              <p>Formal math verification (Lean 4), AI/quantum simulation, and robotic self-driving labs are converging consistently and rapidly—driving exponential cross-improvements across every physical domain.</p>
+            </div>
+            <div class="thesis-item">
+              <div class="thesis-num">02 // PHYSICAL ABUNDANCE</div>
+              <h3>Free Energy + Robotics &amp; Automation</h3>
+              <p>The combination of near-zero-marginal-cost clean energy and general-purpose/specialized automation solves most of humanity's physical scarcity bottlenecks in water, food, housing, materials, and manufacturing.</p>
+            </div>
+            <div class="thesis-item">
+              <div class="thesis-num">03 // SOCIAL MALLEABILITY</div>
+              <h3>Upgrading Human-Made Constructs</h3>
+              <p>Humanity struggles most to adapt our social "reality"—tax codes, safety nets, debt contracts, permitting, and metrics—even though social constructs are 100% human-invented and should be the most malleable domain of all.</p>
+            </div>
+            <div class="thesis-item thesis-highlight">
+              <div class="thesis-num">04 // IMMEDIATE HUMAN TRIAGE</div>
+              <h3>Rescuing the Present While Building the Future</h3>
+              <p>Addressing the immediate 2026–2029 shock head-on: bridging already-displaced workers, curing sociological <em>anomie</em>, ending street homelessness in 30-day villages, silencing addiction cravings biologically, and recasting household debt.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="search-results-banner" class="search-results-banner" hidden>
+          <div>
+            <strong id="search-results-count">0 matches</strong> for <span id="search-query-label" class="query-badge"></span>
+          </div>
+          <button id="clear-search-btn" class="text-btn">Clear filter ×</button>
+        </div>
+
+        <div id="catalog-sections" class="catalog-sections"></div>
+      </section>
+
+      <!-- DOCUMENT READER & COMPARISON VIEW -->
+      <section id="detail-view" class="detail-view" hidden>
+        <div class="detail-StickyBar">
+          <div class="detail-breadcrumbs">
+            <button id="back-to-atlas" class="back-btn" type="button">
+              ← Atlas Overview
+            </button>
+            <span class="crumb-sep">/</span>
+            <span id="detail-track-badge" class="track-pill"></span>
+            <span id="detail-horizon-badge" class="horizon-badge"></span>
+            <span id="detail-folder-path" class="folder-code"></span>
+          </div>
+
+          <div class="detail-mode-tabs" role="tablist" aria-label="Document view mode">
+            <button class="mode-tab active" data-mode="report" role="tab" aria-selected="true">
+              📘 Deep Report (REPORT.md)
+            </button>
+            <button class="mode-tab" data-mode="storyboard" role="tab" aria-selected="false">
+              🎬 Storyboard (STORYBOARD.md)
+            </button>
+            <button class="mode-tab" data-mode="split" role="tab" aria-selected="false">
+              ◫ Split: Report + Storyboard
+            </button>
+            <button id="compare-horizon-tab" class="mode-tab compare-tab" data-mode="compare" role="tab" aria-selected="false">
+              ⚡ Compare 2040 vs. 2030 Leapfrog
+            </button>
+          </div>
+        </div>
+
+        <div class="detail-header-banner">
+          <div class="detail-header-main">
+            <h1 id="detail-heading" tabindex="-1" class="detail-title"></h1>
+            <p id="detail-subtitle" class="detail-subtitle"></p>
+          </div>
+          <div id="counterpart-action-box" class="counterpart-box"></div>
+        </div>
+
+        <div id="reader-layout" class="reader-layout">
+          <div id="primary-pane" class="markdown-pane">
+            <div class="pane-label" id="primary-pane-label" hidden></div>
+            <article id="markdown-output" class="markdown-body"></article>
+          </div>
+
+          <div id="secondary-pane" class="markdown-pane secondary-pane" hidden>
+            <div class="pane-label" id="secondary-pane-label"></div>
+            <article id="secondary-markdown-output" class="markdown-body"></article>
+          </div>
+
+          <aside id="toc-rail" class="toc-rail" aria-label="Document table of contents">
+            <div class="toc-title">ON THIS PAGE</div>
+            <nav id="toc-list" class="toc-list"></nav>
+            <div class="doc-nav-SiblingBox" id="prev-next-box"></div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+  <script src="data/catalog.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

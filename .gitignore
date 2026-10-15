@@ -1,0 +1,20 @@
+# Exclude all earlier video explorations and media assets
+vision-01-abundant-energy/01-fusion-pathway/
+vision-01-abundant-energy/01-fusion-pathway-v2/
+vision-01-abundant-energy/01-fusion-pathway-v3/
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+**/videos/
+**/assets/veo_clips/
+**/renderer/build/
+
+# OS, Editor & Secret files
+.env
+.env.*
+.DS_Store
+__pycache__/
+node_modules/
