@@ -68,7 +68,7 @@
 * **Haptic Audio Cueing:** When showcasing **Intuitive Da Vinci 5** and **Amazon Vulcan** force feedback, use a delicate, resonant cello or glass-harmonic tone that rises subtly as the robotic finger makes contact with soft tissue or fragile glass.
 
 ### C. Recommended On-Camera Interview Archetypes
-1. **The Organic Agronomist & Co-Op Farmer:** Holds a handful of dark, earthworm-rich topsoil, explaining how laser weeding eliminated $100,000/year in chemical herbicides and restored the soil microbiome.
+1. **The Organic Agronomist & Co-Op Farmer:** Holds a handful of dark, earthworm-rich topsoil, explaining how laser weeding eliminated \$100,000/year in chemical herbicides and restored the soil microbiome.
 2. **The Cross-Embodiment AI Researcher:** Demonstrates how a single foundation model weight set transfers spatial reasoning from a 4-legged dog to a 6-axis surgical arm.
 3. **The Robotic Construction Architect:** Walks through a curved, mass-timber and 3D-printed neighborhood (**ICON Wolf Ranch / Phoenix**), showing how eliminating form-work waste cut home prices in half.
 4. **The Minimally Invasive Thoracic Surgeon:** Shows a 2-millimeter luminal catheter on camera, explaining how 10,000x onboard compute and force feedback brought scarless surgery to rural community clinics.

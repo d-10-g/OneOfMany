@@ -114,9 +114,9 @@ Because superhot geothermal uses **existing oilfield drillers** to repower **exi
 
 ```mermaid
 flowchart TD
-    Root["2029–2030 Superhot Geothermal Fleet (\$11–\$15/MWh Baseload + \$0.80/MMBtu Steam)"]
+    Root["2029–2030 Superhot Geothermal Fleet ($11–$15/MWh Baseload + $0.80/MMBtu Steam)"]
     Root --> T1["1. 14-Month Coal Station Revival<br>150+ Coal Plants Swap Boilers for 2-Acre Wellpads (-45% CAPEX)"]
-    Root --> T2["2. \$9/Month Heated Winter Cities<br>Cascade $130^\circ\text{C}$ Water Warms Homes, Greenhouses & Snow-Free Roads"]
+    Root --> T2["2. $9/Month Heated Winter Cities<br>Cascade 130°C Water Warms Homes, Greenhouses & Snow-Free Roads"]
     Root --> T3["3. 100% Oil & Coal Workforce Continuity<br>1,000+ Oilfield Rigs & Union Turbine Crews Lead the Boom"]
     Root --> T4["4. Zero-Pit Domestic Battery Minerals<br>Closed-Loop Wellhead DLE Extracts 30% of Global Lithium Supply"]
 ```

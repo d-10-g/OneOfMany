@@ -9,10 +9,10 @@
 
 ```mermaid
 flowchart LR
-    S1["Scene 1 (0:00–0:18)\nThe Outrage Mirage (2024)\nBot swarms & rage-bait algorithms pitting neighbors against each other"] --> S2["Scene 2 (0:18–0:38)\nThe Personal Epistemic Shield\nOn-device AI neutralizes a viral deepfake & strips rage-bait live"]
-    S2 --> S3["Scene 3 (0:38–1:00)\nThe 72-Hour Bridged Consensus Map\nPol.is math reveals an 86% cross-partisan supermajority in real time"]
-    S3 --> S4["Scene 4 (1:00–1:16)\nHardware Truth (C2PA + ZK-Human)\nBot farms evaporate; real local voices rise to the top"]
-    S4 --> S5["Scene 5 (1:16–1:30)\nNeighbors Again\nDavid and Maya break ground on the consensus trade & housing hub"]
+    S1["Scene 1 (0:00–0:18)<br/>The Outrage Mirage (2024)<br/>Bot swarms & rage-bait algorithms pitting neighbors against each other"] --> S2["Scene 2 (0:18–0:38)<br/>The Personal Epistemic Shield<br/>On-device AI neutralizes a viral deepfake & strips rage-bait live"]
+    S2 --> S3["Scene 3 (0:38–1:00)<br/>The 72-Hour Bridged Consensus Map<br/>Pol.is math reveals an 86% cross-partisan supermajority in real time"]
+    S3 --> S4["Scene 4 (1:00–1:16)<br/>Hardware Truth (C2PA + ZK-Human)<br/>Bot farms evaporate; real local voices rise to the top"]
+    S4 --> S5["Scene 5 (1:16–1:30)<br/>Neighbors Again<br/>David and Maya break ground on the consensus trade & housing hub"]
 
     style S1 fill:#3b1c1c,stroke:#ff6b6b,color:#ffffff
     style S2 fill:#1e293b,stroke:#38bdf8,color:#ffffff

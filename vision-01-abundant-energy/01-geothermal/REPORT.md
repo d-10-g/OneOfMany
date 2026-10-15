@@ -48,7 +48,7 @@ flowchart LR
 
     subgraph Future["2040 Universal Baseload & Heat"]
         F1["50–80 MWe per Supercritical Well (5–10x Power Density)"]
-        F2["Drop-In Coal Boiler Replacement (<\$18/MWh eventually <\$6/MWh)"]
+        F2["Drop-In Coal Boiler Replacement (<$18/MWh eventually <$6/MWh)"]
         F3["Co-Produced District Heat, Industrial Steam & Zero-Mine Lithium"]
     end
 
@@ -111,7 +111,7 @@ Unlike technologies that must build a brand-new workforce from scratch, next-gen
 
 ```mermaid
 flowchart TD
-    Root["Universal Superhot Geothermal (<\$8/MWh Power + <\$1/MMBtu Steam)"]
+    Root["Universal Superhot Geothermal (<$8/MWh Power + <$1/MMBtu Steam)"]
     Root --> T1["1. Zero-Disruption Workforce Transition<br>Oil/Gas Drillers & Coal Turbine Crews Keep High-Wage Jobs"]
     Root --> T2["2. Invisible Land Footprint<br>>10x More MWh per Acre Than Any Surface Renewable"]
     Root --> T3["3. Direct Industrial & Municipal Heat<br>Decarbonizes Paper, Chemicals, Food & Winter Cities"]

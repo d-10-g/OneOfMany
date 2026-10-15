@@ -114,9 +114,9 @@ Because this leapfrog happens between **2026 and 2030** through drop-in containe
 
 ```mermaid
 flowchart TD
-    Core["2029–2030 Containerized Fusion Fleet (\$9–\$14/MWh Baseload, ~\$3/MWh Off-Peak)"]
-    Core --> D1["1. Household Pocketbook Rescue<br>Utility Bills Drop 50%–75% to \$15/mo Flat Grid Fee"]
-    Core --> D2["2. Instant Municipal Water & Food<br>150M Liters/Day Desalination (<\$0.005/m³) + Local Vertical Farms"]
+    Core["2029–2030 Containerized Fusion Fleet ($9–$14/MWh Baseload, ~$3/MWh Off-Peak)"]
+    Core --> D1["1. Household Pocketbook Rescue<br>Utility Bills Drop 50%–75% to $15/mo Flat Grid Fee"]
+    Core --> D2["2. Instant Municipal Water & Food<br>150M Liters/Day Desalination (<$0.005/m³) + Local Vertical Farms"]
     Core --> D3["3. Zero-Queue Industrial Revival<br>Behind-the-Meter Green Steel, Fabs & AI Compute Clusters"]
     Core --> D4["4. 90-Day Coal-Town Repowering<br>120+ Retiring Plants Swapped In-Place with Zero Job Loss"]
 ```

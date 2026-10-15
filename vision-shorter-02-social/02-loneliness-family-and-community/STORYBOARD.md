@@ -9,10 +9,10 @@
 
 ```mermaid
 flowchart LR
-    S1["Scene 1 (0:00–0:18)\nThe Dual Desert (2025)\nEmpty corporate parking lots + exhausted isolated households"] --> S2["Scene 2 (0:18–0:38)\nThe 7-Month Adaptive Reuse Blitz\nAsphalt ripped up for orchards; offices become courtyard flats"]
-    S2 --> S3["Scene 3 (0:38–0:58)\nThe Intergenerational Exchange\nArthur earns Civic Care Credits mentoring kids in the Maker Shed"]
-    S3 --> S4["Scene 4 (0:58–1:16)\nThe 6:00 PM Village Hearth\n\$4.50 chef-prepared communal dinner replaces weeknight burnout"]
-    S4 --> S5["Scene 5 (1:16–1:30)\nThe Porch Light Renaissance\nCar-free twilight courtyard teeming with multi-age life"]
+    S1["Scene 1 (0:00–0:18)<br/>The Dual Desert (2025)<br/>Empty corporate parking lots + exhausted isolated households"] --> S2["Scene 2 (0:18–0:38)<br/>The 7-Month Adaptive Reuse Blitz<br/>Asphalt ripped up for orchards; offices become courtyard flats"]
+    S2 --> S3["Scene 3 (0:38–0:58)<br/>The Intergenerational Exchange<br/>Arthur earns Civic Care Credits mentoring kids in the Maker Shed"]
+    S3 --> S4["Scene 4 (0:58–1:16)<br/>The 6:00 PM Village Hearth<br/>$4.50 chef-prepared communal dinner replaces weeknight burnout"]
+    S4 --> S5["Scene 5 (1:16–1:30)<br/>The Porch Light Renaissance<br/>Car-free twilight courtyard teeming with multi-age life"]
 
     style S1 fill:#3b1c1c,stroke:#ff6b6b,color:#ffffff
     style S2 fill:#1e293b,stroke:#38bdf8,color:#ffffff

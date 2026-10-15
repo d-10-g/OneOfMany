@@ -43,7 +43,7 @@
 ## 3. VISUAL METAPHOR & PRODUCTION DESIGN BANK
 
 * **The Tuition Debt Ticker vs. The Builder Equity Ledger:**
-  * *Visual:* A recurring HUD graphic comparing the red spinning debt clock of a 2026 lecture hall (-\$$35/hour$ of sitting in a chair) against the green milestone equity ledger of a 2029 Earn-and-Build Fellow.
+  * *Visual:* A recurring HUD graphic comparing the red spinning debt clock of a 2026 lecture hall (-\$35/hour of sitting in a chair) against the green milestone equity ledger of a 2029 Earn-and-Build Fellow.
 * **The 10:00 AM Brass Latch:**
   * *Visual & Audio:* Heavy oak charging vault closing with a resonant mechanical *clack* at 10:00 AM, immediately cutting to the warm acoustic roar of human debate and workshop tools.
 * **Chalk Dust Under Pressure:**

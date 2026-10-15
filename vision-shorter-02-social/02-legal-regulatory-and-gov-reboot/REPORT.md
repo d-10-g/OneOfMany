@@ -17,7 +17,7 @@ flowchart TD
     subgraph Legacy["2025 Paper Bureaucracy & Court Backlog (3–6 Years)"]
         A["Builder / Citizen"] --> B["8,000-Page PDF Environmental & Zoning Filing"]
         B --> C["18-Month Sequential Agency Queue + NIMBY Lawsuits"]
-        C --> D["\$400/hr Legal Gatekeeping & 4-Year Civil Court Backlog"]
+        C --> D["$400/hr Legal Gatekeeping & 4-Year Civil Court Backlog"]
         D --> E["Stalled Housing, Dead Infrastructure & Unresolved Disputes"]
     end
 

@@ -43,12 +43,12 @@ flowchart LR
     subgraph Convergence["2024–2035 Tooling Convergence"]
         C1["AI High-Throughput Perovskite-Si Tandems (34%+ Eff.)"]
         C2["Autonomous Robotic Field Factories (Terabase / Maximo)"]
-        C3["\$25/kWh Sodium-Ion + 100-Hr Iron-Air & Thermal Storage"]
+        C3["$25/kWh Sodium-Ion + 100-Hr Iron-Air & Thermal Storage"]
     end
 
     subgraph Outcome["2040 Abundant Reality"]
-        O1["<\$0.06/W Modules & <\$0.35/W Installed"]
-        O2["<\$4/MWh Daytime / <\$14/MWh 24/7 Firm Power"]
+        O1["<$0.06/W Modules & <$0.35/W Installed"]
+        O2["<$4/MWh Daytime / <$14/MWh 24/7 Firm Power"]
         O3["Dual-Use Agrivoltaics & Desert HVDC Supergrids"]
     end
 
@@ -117,7 +117,7 @@ The true magic of terrestrial solar paired with robotics is that **it does not r
 
 ```mermaid
 flowchart TD
-    Core["Terawatt Tandem Solar + Storage Fleet (<\$4/MWh Daytime, <\$12/MWh 24/7)"]
+    Core["Terawatt Tandem Solar + Storage Fleet (<$4/MWh Daytime, <$12/MWh 24/7)"]
     Core --> D1["1. Harmonious Dual-Use Land<br>Agrivoltaics Boosts Crop Yields & Cuts Farm Water Use by 40%"]
     Core --> D2["2. Sun-Synchronized Heavy Industry<br>Desalination, Green Ammonia & DAC Surge on Near-Free Noon Power"]
     Core --> D3["3. Smooth Coal-Town Repowering<br>Reuses 2,400+ GW Switchyards & Trains High-Wage Robotics Crews"]

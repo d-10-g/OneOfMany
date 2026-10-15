@@ -9,10 +9,10 @@
 
 ```mermaid
 flowchart LR
-    S1["Scene 1 (0:00–0:18)\nThe Spreadsheet Sunset (2026)\nAI agents replace 45-hr drudgery; zero panic as safety net activates"] --> S2["Scene 2 (0:18–0:40)\nThe 6-Week Retooling Pod\nPaid 100% stipend; AI spatial tutor + hands-on robotics/ecological guild"]
-    S2 --> S3["Scene 3 (0:40–1:00)\nThe Twin-Income Dashboard (2028)\nPillar 1 Compute Dividend + Pillar 2 20-Hr High-Agency Work"]
-    S3 --> S4["Scene 4 (1:00–1:16)\nThe Human-Premium Economy\nMarcus orchestrates neighborhood microgrids & crafts custom furniture"]
-    S4 --> S5["Scene 5 (1:16–1:30)\n2:00 PM on a Wednesday\nMarcus coaches his daughter's soccer team—liberated from 40-hr drudgery"]
+    S1["Scene 1 (0:00–0:18)<br/>The Spreadsheet Sunset (2026)<br/>AI agents replace 45-hr drudgery; zero panic as safety net activates"] --> S2["Scene 2 (0:18–0:40)<br/>The 6-Week Retooling Pod<br/>Paid 100% stipend; AI spatial tutor + hands-on robotics/ecological guild"]
+    S2 --> S3["Scene 3 (0:40–1:00)<br/>The Twin-Income Dashboard (2028)<br/>Pillar 1 Compute Dividend + Pillar 2 20-Hr High-Agency Work"]
+    S3 --> S4["Scene 4 (1:00–1:16)<br/>The Human-Premium Economy<br/>Marcus orchestrates neighborhood microgrids & crafts custom furniture"]
+    S4 --> S5["Scene 5 (1:16–1:30)<br/>2:00 PM on a Wednesday<br/>Marcus coaches his daughter's soccer team—liberated from 40-hr drudgery"]
 
     style S1 fill:#3b1c1c,stroke:#ff6b6b,color:#ffffff
     style S2 fill:#1e293b,stroke:#38bdf8,color:#ffffff

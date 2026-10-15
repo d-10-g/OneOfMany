@@ -18,7 +18,7 @@ Post-1950 suburban zoning outlawed that human habitat. It split cities into ster
 flowchart TD
     subgraph Legacy["2025 Dual Crisis: Empty Offices + Isolated Households"]
         A["Half-Empty Suburban Office Parks & Dead Strip Malls"] --> B["Municipal Property Tax Collapse & Blight"]
-        C["Isolated Nuclear Families & Lonely Seniors"] --> D["\$2,200/mo Daycare + \$9,000/mo Elder Care + Burnout"]
+        C["Isolated Nuclear Families & Lonely Seniors"] --> D["$2,200/mo Daycare + $9,000/mo Elder Care + Burnout"]
         B --> E["Collapsing Birth Rates & Loneliness Epidemic"]
         D --> E
     end
@@ -28,7 +28,7 @@ flowchart TD
         G --> H["Family Flats + Senior Cottages + Young Adult Studios"]
         G --> I["Shared Commercial Dining Hall (Cuts Meal Cost & Time 50%)"]
         G --> J["Co-Op Drop-In Childcare + Maker/Woodworking Guilds"]
-        K["Tax-Free Civic Care Credits (\$1,200/mo)"] --> J
+        K["Tax-Free Civic Care Credits ($1,200/mo)"] --> J
     end
 
     style Legacy fill:#3b1c1c,stroke:#ff6b6b,color:#ffffff

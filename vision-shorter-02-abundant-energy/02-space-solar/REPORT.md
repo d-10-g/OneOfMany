@@ -75,7 +75,7 @@ flowchart LR
 
 | Real 2024–2026 Commercial Anchor | The 2026–2027 Cross-Pollination Catalyst | The 2027–2030 "Leapfrog" Breakthrough | Old-World Bottleneck Skipped |
 | :--- | :--- | :--- | :--- |
-| **Aetherflux (\$60M+ Series A, 2025–2026):** LEO sun-synchronous constellation beaming eye-safe IR laser power to ground solar cells. | **AI Adaptive Optics + Diode Laser Scaling:** Neural wavefront pre-correction cancels atmospheric turbulence at 50 kHz; fiber laser $/W drops 85%. | **Nighttime Illumination of Existing Solar Farms (2027–2029):** Swarms beam 1,064 nm power directly onto idle ground solar farms from 6 PM to 6 AM. | Skips building new ground receivers, new land permits & new grid substations. |
+| **Aetherflux (\$60M+ Series A, 2025–2026):** LEO sun-synchronous constellation beaming eye-safe IR laser power to ground solar cells. | **AI Adaptive Optics + Diode Laser Scaling:** Neural wavefront pre-correction cancels atmospheric turbulence at 50 kHz; fiber laser \$/W drops 85%. | **Nighttime Illumination of Existing Solar Farms (2027–2029):** Swarms beam 1,064 nm power directly onto idle ground solar farms from 6 PM to 6 AM. | Skips building new ground receivers, new land permits & new grid substations. |
 | **Caltech *SSPD-1 (MAPLE)* & NRL *PRAM*:** Flight-proven ultralight flexible phased-array power beaming from orbit (2023–2025). | **Generative AI Metamaterial Synthesis:** Self-driving labs print 3-layer PV-CMOS-RF sandwich films on 25-micron polyimide at **>2,200 W/kg**. | **Roll-Out 5 MW Origami Satellites (2028):** Centrifugally self-deploy in LEO in 12 minutes with zero spacewalk or tug assembly. | Skips 2040-era multi-billion-dollar in-space robotic truss construction. |
 | **SpaceX Starship / Super Heavy:** Orbital flight tests & rapid booster catch milestones (2024–2026). | **Full Rapid Reusability + Automated Fairing Dispensers:** 150-ton payload bays launch 60 flat-packed roll-out power satellites per flight. | **<\$50/kg Launch Cost to SSO/LEO (2028–2029):** 300 MW of orbital solar launched in a single afternoon for `<\$8M` launch cost. | Skips the \$20,000/kg launch wall that kept SBSP on paper since 1968. |
 | **Reflect Orbital & Virtus Solis (2025–2026):** Dawn/dusk orbital mirrors and modular hexagonal phased-array architectures. | **Precision Attitude Control + Ultralight Kapton Mirrors:** AI reaction-wheelless solar-pressure steering points beams with sub-meter accuracy. | **Dawn/Dusk Duck-Curve Eraser (2027–2028):** Extends full noon irradiance on utility solar farms by +4 hours every morning and evening. | Skips \$100B+ in natural gas peaker plants built just for the 4-hour evening ramp. |
@@ -114,7 +114,7 @@ By turning orbital sunlight into software-routed energy that plugs straight into
 
 ```mermaid
 flowchart TD
-    Orb["2029–2030 LEO/SSO Power-Beaming Swarm (\$15–\$22/MWh Nighttime & All-Weather Dispatch)"]
+    Orb["2029–2030 LEO/SSO Power-Beaming Swarm ($15–$22/MWh Nighttime & All-Weather Dispatch)"]
     Orb --> S1["1. Zero-Land-Use Baseload Flip<br>3+ TW of Existing Ground Solar Farms Boosted from 24% to 78% CF"]
     Orb --> S2["2. End of the 6 PM Peak Rate<br>Dawn/Dusk & Night Beaming Shuts Down Expensive Gas Peakers"]
     Orb --> S3["3. 90-Minute Disaster & Island Rescue<br>Encrypted Beacon Restores Hospital & Town Microgrids Worldwide"]

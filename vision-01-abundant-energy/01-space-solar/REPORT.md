@@ -33,20 +33,20 @@ Why did a concept invented by Dr. Peter Glaser in 1968 suddenly transition from 
 ```mermaid
 flowchart LR
     subgraph Barrier["1970–2020 Prohibitive Wall"]
-        L1["\$10,000–\$20,000/kg Launch Cost"]
+        L1["$10,000–$20,000/kg Launch Cost"]
         L2["Heavy Rigid Satellites (~20 kg/kW)"]
         L3["Mechanical Gimbal Dishes & High CAPEX"]
     end
 
     subgraph Convergence["2023–2035 Tooling Convergence"]
-        C1["Starship-Class Full Reusability (<\$50–\$100/kg to LEO)"]
+        C1["Starship-Class Full Reusability (<$50–$100/kg to LEO)"]
         C2["Ultralight Roll-to-Roll Phased Arrays (>1,000 W/kg)"]
         C3["AI Retrodirective Beam Control (Caltech MAPLE / Virtus / Aetherflux)"]
     end
 
     subgraph Reality["2040 Global Orbital Baseload"]
         R1["Modular Robotic In-Space Assembly (1–2 GW Arrays)"]
-        R2["99.7% Availability Weather-Proof Baseload (<\$18/MWh)"]
+        R2["99.7% Availability Weather-Proof Baseload (<$18/MWh)"]
         R3["Instant Electronic Peaking Across Any Rectenna on Earth"]
     end
 
@@ -113,7 +113,7 @@ When clean energy can be harvested continuously in space and beamed to cheap wir
 
 ```mermaid
 flowchart TD
-    Orb["24/7 Orbital Solar Fleet (<\$10/MWh Unfiltered Eternal Noon)"]
+    Orb["24/7 Orbital Solar Fleet (<$10/MWh Unfiltered Eternal Noon)"]
     Orb --> S1["1. Software-Defined Global Energy<br>Millisecond Electronic Beam Steering Across Continents & Time Zones"]
     Orb --> S2["2. Zero-Land-Scar Rectennas<br>90% Transparent Wire Mesh Over Pastures, Solar Farms & Offshore Wind"]
     Orb --> S3["3. Instant Disaster & Remote Power<br>Portable Rectennas Deliver Megawatts in <2 Hours Anywhere on Earth"]

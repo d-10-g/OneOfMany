@@ -126,7 +126,7 @@
     let processed = rawMd.replace(/```([\w-]*)\n([\s\S]*?)```/g, (_, lang, code) => {
       const idx = codeBlocks.length;
       codeBlocks.push({ lang: (lang || "").trim().toLowerCase(), code });
-      return `@@CODEBLOCK_${idx}@@`;
+      return `@@CODEBLOCK${idx}@@`;
     });
 
     // Protect inline code
@@ -134,27 +134,42 @@
     processed = processed.replace(/`([^`\n]+)`/g, (_, code) => {
       const idx = inlineCodes.length;
       inlineCodes.push(code);
-      return `@@INLINECODE_${idx}@@`;
+      return `@@INLINECODE${idx}@@`;
     });
 
     // Replace escaped dollar signs \$ with a placeholder so they don't trigger math
-    processed = processed.replace(/\\\$/g, "@@LITERAL_DOLLAR@@");
+    processed = processed.replace(/\\\$/g, "@@LITERALDOLLAR@@");
 
-    // Render display math $$...$$
+    // Render display math $$...$$ and inline math $...$ into protected tokens
+    const mathHtmls = [];
     if (window.katex) {
       processed = processed.replace(/\$\$([\s\S]+?)\$\$/g, (_, tex) => {
+        const cleanTex = tex.replace(/@@LITERALDOLLAR@@/g, "\\$").trim();
         try {
-          return window.katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false });
+          const rendered = window.katex.renderToString(cleanTex, {
+            displayMode: true,
+            throwOnError: false,
+          });
+          const idx = mathHtmls.length;
+          mathHtmls.push(rendered);
+          return `@@MATHTOKEN${idx}@@`;
         } catch (_) {
-          return `$$${tex}$$`;
+          return `$$${cleanTex}$$`;
         }
       });
 
       // Render inline math $...$ (avoid matching currency like $100)
-      processed = processed.replace(/\$([^\s$][^$\n]*?[^\s$]|[a-zA-Z0-9])\$/g, (full, tex) => {
+      processed = processed.replace(/\$([^\s$][^$\n]*?[^\s$]|[^\s$])\$/g, (full, tex) => {
         if (/^\d[\d,.]*$/.test(tex)) return full;
+        const cleanTex = tex.replace(/@@LITERALDOLLAR@@/g, "\\$").trim();
         try {
-          return window.katex.renderToString(tex.trim(), { displayMode: false, throwOnError: false });
+          const rendered = window.katex.renderToString(cleanTex, {
+            displayMode: false,
+            throwOnError: false,
+          });
+          const idx = mathHtmls.length;
+          mathHtmls.push(rendered);
+          return `@@MATHTOKEN${idx}@@`;
         } catch (_) {
           return full;
         }
@@ -162,28 +177,44 @@
     }
 
     // Restore literal dollar signs
-    processed = processed.replace(/@@LITERAL_DOLLAR@@/g, "$");
+    processed = processed.replace(/@@LITERALDOLLAR@@/g, "$");
 
     // Restore inline code
-    processed = processed.replace(/@@INLINECODE_(\d+)@@/g, (_, i) => {
+    processed = processed.replace(/@@INLINECODE(\d+)@@/g, (_, i) => {
       return "`" + inlineCodes[Number(i)] + "`";
     });
 
-    // Restore fenced code blocks (converting ```mermaid into .mermaid-wrapper)
-    processed = processed.replace(/@@CODEBLOCK_(\d+)@@/g, (_, i) => {
+    // Restore non-mermaid fenced code blocks before marked.parse; keep mermaid protected
+    processed = processed.replace(/@@CODEBLOCK(\d+)@@/g, (_, i) => {
       const blk = codeBlocks[Number(i)];
       if (blk.lang === "mermaid") {
-        const id = `mermaid-svg-${++mermaidCounter}`;
-        const escaped = blk.code
-          .replace(/&/g, "&amp;")
-          .replace(/</g, "&lt;")
-          .replace(/>/g, "&gt;");
-        return `<div class="mermaid-wrapper"><pre class="mermaid" id="${id}">${escaped}</pre></div>`;
+        return `\n\n@@MERMAIDBLOCK${i}@@\n\n`;
       }
       return "```" + blk.lang + "\n" + blk.code + "```";
     });
 
-    const html = window.marked ? window.marked.parse(processed) : processed;
+    let html = window.marked ? window.marked.parse(processed) : processed;
+
+    // Inject Mermaid blocks after marked.parse so blank lines or 4-space indentation inside diagrams are never split into <pre><code>
+    html = html.replace(/(?:<p>\s*)?@@MERMAIDBLOCK(\d+)@@(?:\s*<\/p>)?/g, (_, i) => {
+      const blk = codeBlocks[Number(i)];
+      const id = `mermaid-svg-${++mermaidCounter}`;
+      const cleaned = blk.code
+        .replace(/\\\$/g, "$")
+        .replace(/\\n/g, "<br/>")
+        .trim();
+      const escaped = cleaned
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+      return `<div class="mermaid-wrapper"><pre class="mermaid" id="${id}">${escaped}</pre></div>`;
+    });
+
+    // Inject rendered KaTeX HTML tokens
+    html = html.replace(/@@MATHTOKEN(\d+)@@/g, (_, i) => {
+      return mathHtmls[Number(i)];
+    });
+
     return html;
   }
 

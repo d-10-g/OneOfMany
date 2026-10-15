@@ -9,10 +9,10 @@
 
 ```mermaid
 flowchart LR
-    S1["Scene 1 (0:00–0:18)\nThe Ghosts of Billing Past\nSplit-screen: 2024 EOB denial stacks vs. 2028 portable health pass"] --> S2["Scene 2 (0:18–0:38)\nThe Neighborhood AI Pod\n10-minute multimodal scan & \$2 microfluidic chip"]
-    S2 --> S3["Scene 3 (0:38–0:58)\nThe Unhurried Healer\n45-min warm clinician visit with zero keyboards"]
-    S3 --> S4["Scene 4 (0:58–1:15)\nThe Flow-Chemistry Micro-Foundry\nRobotic on-site drug synthesis for \$3/dose"]
-    S4 --> S5["Scene 5 (1:15–1:30)\nThe New Horizon\nHealthy communities liberated from W-2 job-lock"]
+    S1["Scene 1 (0:00–0:18)<br/>The Ghosts of Billing Past<br/>Split-screen: 2024 EOB denial stacks vs. 2028 portable health pass"] --> S2["Scene 2 (0:18–0:38)<br/>The Neighborhood AI Pod<br/>10-minute multimodal scan & $2 microfluidic chip"]
+    S2 --> S3["Scene 3 (0:38–0:58)<br/>The Unhurried Healer<br/>45-min warm clinician visit with zero keyboards"]
+    S3 --> S4["Scene 4 (0:58–1:15)<br/>The Flow-Chemistry Micro-Foundry<br/>Robotic on-site drug synthesis for $3/dose"]
+    S4 --> S5["Scene 5 (1:15–1:30)<br/>The New Horizon<br/>Healthy communities liberated from W-2 job-lock"]
 
     style S1 fill:#3b1c1c,stroke:#ff6b6b,color:#ffffff
     style S2 fill:#1e293b,stroke:#38bdf8,color:#ffffff

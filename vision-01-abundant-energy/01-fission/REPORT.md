@@ -47,7 +47,7 @@ flowchart LR
     subgraph Outcome["2040 Gen IV Fleet"]
         O1["Walk-Away Passive Safety (Fence-Line Emergency Zone)"]
         O2["18–24 Month Site Installation at Retiring Coal Plants"]
-        O3["<\$18/MWh Baseload + 750°C Industrial Steam + 300-Yr Waste"]
+        O3["<$18/MWh Baseload + 750°C Industrial Steam + 300-Yr Waste"]
     end
 
     L1 --> C1 --> O1
@@ -108,7 +108,7 @@ When reactors shrink from 1,200 MWe stick-built civil monuments to 50–345 MWe 
 
 ```mermaid
 flowchart TD
-    Core["Gen IV Modular Fission Fleet (Walk-Away Safe, <\$12/MWh)"]
+    Core["Gen IV Modular Fission Fleet (Walk-Away Safe, <$12/MWh)"]
     Core --> B1["1. Eating Legacy Nuclear Waste<br>Fast Reactors Burn 96% Unused Energy in Old Spent Fuel Rods"]
     Core --> B2["2. Coal-to-Nuclear Community Revival<br>35% Lower CAPEX & Higher Salaries for Existing Plant Workers"]
     Core --> B3["3. High-Temperature Industrial Steam (750°C)<br>Direct Zero-Carbon Heat for Hydrogen, Chemicals, Cement & Steel"]

@@ -9,10 +9,10 @@
 
 ```mermaid
 flowchart LR
-    S1["Scene 1 (0:00–0:18)\nThe Paper Graveyard (2024)\n10,000-page NEPA/zoning binders & 4-year court queues"] --> S2["Scene 2 (0:18–0:40)\nThe 48-Hour CityTwin Permit\n3D physics, flood & ecological simulation issues permit live"]
-    S2 --> S3["Scene 3 (0:40–1:02)\nThe 7-Day Civil Justice Portal\nNadia resolves a \$28k dispute in 4 days with \$0 legal fees"]
-    S3 --> S4["Scene 4 (1:02–1:18)\nLive Public Ledger & Sunset Clock\nCitizens watch real-time budget ROI & expiring red tape"]
-    S4 --> S5["Scene 5 (1:18–1:30)\nGovernment at the Speed of Trust\nMateo's housing opens inside Nadia's thriving neighborhood"]
+    S1["Scene 1 (0:00–0:18)<br/>The Paper Graveyard (2024)<br/>10,000-page NEPA/zoning binders & 4-year court queues"] --> S2["Scene 2 (0:18–0:40)<br/>The 48-Hour CityTwin Permit<br/>3D physics, flood & ecological simulation issues permit live"]
+    S2 --> S3["Scene 3 (0:40–1:02)<br/>The 7-Day Civil Justice Portal<br/>Nadia resolves a $28k dispute in 4 days with $0 legal fees"]
+    S3 --> S4["Scene 4 (1:02–1:18)<br/>Live Public Ledger & Sunset Clock<br/>Citizens watch real-time budget ROI & expiring red tape"]
+    S4 --> S5["Scene 5 (1:18–1:30)<br/>Government at the Speed of Trust<br/>Mateo's housing opens inside Nadia's thriving neighborhood"]
 
     style S1 fill:#3b1c1c,stroke:#ff6b6b,color:#ffffff
     style S2 fill:#1e293b,stroke:#38bdf8,color:#ffffff

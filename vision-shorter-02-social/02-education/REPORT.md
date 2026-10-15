@@ -119,7 +119,7 @@ flowchart TD
 | **2. Room, Board & Debt Interest Carry** | **-\$64,000** (dorm markup + 7.5% compounding student loan interest) | **-\$28,000** (co-op loft in converted office tower at \$600/mo share) | **+\$36,000 Saved** |
 | **3. Stipend, Seed Grant & Project Revenue** | **+\$12,000** (part-time minimum-wage barista/campus jobs) | **+\$61,000** (\$25k Milestone Seed Grant + \$1,500/mo Fellowship Stipend) | **+\$49,000 Earned** |
 | **4. Shipped Equity & Verified Proof Assets** | **0 working builds**; generic B.A. resume filtered out by AI | **4 shipped hardware/civic systems** + live 60-min *Viva Voce* defense | **3 Immediate \$100k+ Offers** |
-| **NET WORTH AT AGE 21** | **-\$164,000 Total Cost (-\$\$65k–\$120k Debt)** | **+\$42,000 to +\$65,000 Liquid Equity & Savings** | **>\$200,000 Wealth Swing** |
+| **NET WORTH AT AGE 21** | **-\$164,000 Total Cost (-\$65k–\$120k Debt)** | **+\$42,000 to +\$65,000 Liquid Equity & Savings** | **>\$200,000 Wealth Swing** |
 
 ### What a 60-Minute Live Chalkboard *Viva Voce* Defense Actually Looks Like
 To understand why employers and licensing boards drop the 4-year college degree requirement between 2027 and 2029, follow the three mandatory phases of a 60-minute **Cryptographic *Viva Voce* Defense**:

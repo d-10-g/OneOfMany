@@ -113,8 +113,8 @@ Unlike centralized megaprojects that require sovereign debt and a decade of conc
 
 ```mermaid
 flowchart TD
-    Core["2029–2030 Printable 38% Solar Foil + Native-DC Microgrids (\$2/MWh Day, \$9/MWh 24/7)"]
-    Core --> D1["1. 3-Hour \$2,400 Home Independence<br>Peel-and-Stick Roof Skin + Garage Salt Battery"]
+    Core["2029–2030 Printable 38% Solar Foil + Native-DC Microgrids ($2/MWh Day, $9/MWh 24/7)"]
+    Core --> D1["1. 3-Hour $2,400 Home Independence<br>Peel-and-Stick Roof Skin + Garage Salt Battery"]
     Core --> D2["2. Zero-Queue Factory & Data Center Power<br>Weekend 10 MW Carpet Unrolling + Native-DC Bus"]
     Core --> D3["3. Drought-Proof Double-Income Farms<br>Translucent Agrivoltaic Ribbons (-42% Water) + On-Farm Ammonia"]
     Core --> D4["4. 48-Hour Global South Village Leapfrog<br>Containerized 2 MW Solar Carpets Skip National Grid Wait"]

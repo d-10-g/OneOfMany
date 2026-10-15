@@ -13,18 +13,18 @@ Rather than fighting a 20-year legislative trench war against insurance lobbies 
 
 ```mermaid
 flowchart TD
-    subgraph Legacy["2025 Legacy Fee-for-Service Trap (\$14,000/yr per capita)"]
+    subgraph Legacy["2025 Legacy Fee-for-Service Trap ($14,000/yr per capita)"]
         A["Sick Patient"] --> B["3-Week Wait for 12-Min Clinic Visit"]
         B --> C["Prior-Auth Denial & ICD-10 Coding Maze"]
-        C --> D["PBM Markup (\$300–\$1,000/mo Branded Generics)"]
+        C --> D["PBM Markup ($300–$1,000/mo Branded Generics)"]
         D --> E["Medical Debt or Employer Job-Lock"]
     end
 
-    subgraph Leapfrog["2026–2030 Direct-Care & AI Pod Leapfrog (\$1,800/yr per capita)"]
-        F["Citizen (Zero Job-Lock)"] --> G["Walk-In Neighborhood AI Diagnostic Pod (\$15/mo)"]
-        G --> H["10-Min Multimodal Scan + \$2 Microfluidic Lab Chip"]
+    subgraph Leapfrog["2026–2030 Direct-Care & AI Pod Leapfrog ($1,800/yr per capita)"]
+        F["Citizen (Zero Job-Lock)"] --> G["Walk-In Neighborhood AI Diagnostic Pod ($15/mo)"]
+        G --> H["10-Min Multimodal Scan + $2 Microfluidic Lab Chip"]
         H --> I["Human Clinician Warm Handoff (45-Min Unhurried Care)"]
-        I --> J["Municipal Robotic Flow-Chemistry Pharmacy (\$3/dose)"]
+        I --> J["Municipal Robotic Flow-Chemistry Pharmacy ($3/dose)"]
         H --> K["Universal Catastrophic Risk Pool (ICU / Oncology / Trauma)"]
     end
 
