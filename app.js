@@ -32,6 +32,8 @@
   const metaColorScheme = document.querySelector('meta[name="color-scheme"]');
   const themeToggleBtn = document.getElementById("theme-toggle");
   const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+  const sidebarCloseBtn = document.getElementById("sidebar-close-btn");
+  const sidebarBackdropEl = document.getElementById("sidebar-backdrop");
   const sidebarEl = document.getElementById("sidebar");
   const sidebarNavEl = document.getElementById("sidebar-nav");
   const globalSearchInput = document.getElementById("global-search");
@@ -50,6 +52,8 @@
   const detailSubtitleEl = document.getElementById("detail-subtitle");
   const counterpartBoxEl = document.getElementById("counterpart-action-box");
   const compareHorizonTabBtn = document.getElementById("compare-horizon-tab");
+  const mobileTocDetailsEl = document.getElementById("mobile-toc-details");
+  const mobileTocListEl = document.getElementById("mobile-toc-list");
   const readerLayoutEl = document.getElementById("reader-layout");
   const primaryPaneLabelEl = document.getElementById("primary-pane-label");
   const secondaryPaneEl = document.getElementById("secondary-pane");
@@ -59,6 +63,18 @@
   const tocListEl = document.getElementById("toc-list");
   const prevNextBoxEl = document.getElementById("prev-next-box");
   const mainHeadingEl = document.getElementById("main-heading");
+  const backToTopBtn = document.getElementById("back-to-top-btn");
+
+  function setDrawerOpen(isOpen) {
+    sidebarEl.classList.toggle("open", isOpen);
+    document.body.classList.toggle("drawer-open", isOpen);
+    if (sidebarBackdropEl) {
+      sidebarBackdropEl.hidden = !isOpen;
+    }
+    if (mobileMenuBtn) {
+      mobileMenuBtn.setAttribute("aria-expanded", String(isOpen));
+    }
+  }
 
   // 1. Dark Mode Toggle (modern-web-guidance compliant)
   function getSystemScheme() {
@@ -388,12 +404,21 @@
       });
     });
 
-    tocListEl.innerHTML = tocItems
+    const tocHtml = tocItems
       .map(
         (t) =>
           `<a href="#${state.activeItemId}" data-scroll-to="${t.id}" class="toc-link toc-${t.level}">${t.text}</a>`
       )
       .join("");
+
+    tocListEl.innerHTML = tocHtml;
+    if (mobileTocListEl) {
+      mobileTocListEl.innerHTML = tocHtml;
+    }
+    if (mobileTocDetailsEl) {
+      mobileTocDetailsEl.open = false;
+      mobileTocDetailsEl.hidden = tocItems.length === 0;
+    }
   }
 
   function renderDetailContent() {
@@ -454,6 +479,7 @@
       secondaryPaneLabelEl.textContent = `🎬 FLEXIBLE STORYBOARD (${item.relPath}/STORYBOARD.md)`;
       markdownOutputEl.innerHTML = renderRichMarkdown(item.reportMd);
       secondaryMarkdownOutputEl.innerHTML = renderRichMarkdown(item.storyboardMd);
+      buildTocAndIds(markdownOutputEl);
       runMermaidInContainer(markdownOutputEl);
       runMermaidInContainer(secondaryMarkdownOutputEl);
     } else if (state.docMode === "compare" && pair && pair.v1 && pair.v2) {
@@ -464,6 +490,7 @@
       secondaryPaneLabelEl.textContent = `VISION 02 (2026–2030 LEAPFROG) — ${pair.v2.relPath}/REPORT.md`;
       markdownOutputEl.innerHTML = renderRichMarkdown(pair.v1.reportMd);
       secondaryMarkdownOutputEl.innerHTML = renderRichMarkdown(pair.v2.reportMd);
+      buildTocAndIds(markdownOutputEl);
       runMermaidInContainer(markdownOutputEl);
       runMermaidInContainer(secondaryMarkdownOutputEl);
     }
@@ -500,7 +527,7 @@
         renderHomeCatalog();
       }
       renderSidebar();
-      sidebarEl.classList.remove("open");
+      setDrawerOpen(false);
     };
 
     const routeFocus = () => {
@@ -553,12 +580,14 @@
     btn.addEventListener("click", () => {
       state.horizonFilter = btn.dataset.horizon;
       document.querySelectorAll(".horizon-pill").forEach((b) => {
-        const active = b === btn;
+        const active = b.dataset.horizon === state.horizonFilter;
         b.classList.toggle("active", active);
         b.setAttribute("aria-selected", String(active));
       });
       renderSidebar();
-      if (!state.activeItemId) {
+      if (state.activeItemId) {
+        window.location.hash = "#home";
+      } else {
         renderHomeCatalog();
       }
     });
@@ -568,7 +597,7 @@
     btn.addEventListener("click", () => {
       state.trackFilter = btn.dataset.track;
       document.querySelectorAll(".track-chip").forEach((b) => {
-        b.classList.toggle("active", b === btn);
+        b.classList.toggle("active", b.dataset.track === state.trackFilter);
       });
       renderSidebar();
       if (!state.activeItemId) {
@@ -606,6 +635,8 @@
     if (e.key === "/" && document.activeElement !== globalSearchInput) {
       e.preventDefault();
       globalSearchInput.focus();
+    } else if (e.key === "Escape" && sidebarEl.classList.contains("open")) {
+      setDrawerOpen(false);
     }
   });
 
@@ -622,19 +653,52 @@
     });
   });
 
-  tocListEl.addEventListener("click", (e) => {
+  function handleTocClick(e) {
     const link = e.target.closest("[data-scroll-to]");
     if (!link) return;
     e.preventDefault();
+    if (mobileTocDetailsEl) {
+      mobileTocDetailsEl.open = false;
+    }
     const targetEl = document.getElementById(link.dataset.scrollTo);
     if (targetEl) {
       targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-  });
+  }
+
+  tocListEl.addEventListener("click", handleTocClick);
+  if (mobileTocListEl) {
+    mobileTocListEl.addEventListener("click", handleTocClick);
+  }
 
   mobileMenuBtn.addEventListener("click", () => {
-    sidebarEl.classList.toggle("open");
+    setDrawerOpen(!sidebarEl.classList.contains("open"));
   });
+
+  if (sidebarCloseBtn) {
+    sidebarCloseBtn.addEventListener("click", () => {
+      setDrawerOpen(false);
+    });
+  }
+
+  if (sidebarBackdropEl) {
+    sidebarBackdropEl.addEventListener("click", () => {
+      setDrawerOpen(false);
+    });
+  }
+
+  if (backToTopBtn) {
+    window.addEventListener(
+      "scroll",
+      () => {
+        backToTopBtn.hidden = window.scrollY < 450;
+      },
+      { passive: true }
+    );
+    backToTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
 
   // Initial render
   parseHashAndRoute();
