@@ -1,0 +1,1432 @@
+[
+  {
+    "slug": "post-scarcity-economics",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/post-scarcity-economics",
+    "v1Slug": "economics",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "From Austerity to Deflationary Abundance: Measuring Real Flourishing Beyond GDP",
+    "tagline": "Retiring 1934 GDP blindness for Real Household Flourishing Telemetry as clean energy and robotics collapse the cost of thriving by 70%.",
+    "cynicBelief": "Even if AI, robotics, and solar energy make goods radically cheaper, falling prices will trigger a 1930s debt-deflation crash, shrink tax revenues, bankrupt homeowners with fixed mortgages, and trap governments in permanent austerity.",
+    "breakthroughCounter": "Twentieth-century GDP (P × Q) missed trillions in consumer surplus when Wikipedia replaced $1,500 encyclopedias and solar fell 99.6%. By combining Stanford's GDP-B consumer-surplus accounting, New Zealand's Well-Being Budget, and a Dual-Regime Monetary Rule that locks nominal household cash inflows at +4%/yr while letting clean tech collapse essential living costs 60–80%, families stay 100% mortgage-solvent while gaining massive discretionary freedom.",
+    "socialNormShift": "Upgrading national and municipal scoreboards from raw corporate billing volume (1934 GDP) to the Thriving Basket Workweek—celebrating technological price drops as human time-wealth liberation.",
+    "humanStory": {
+      "protagonist": "Elena Vance, Public-School Cello Teacher & Mother of Two",
+      "location": "Denver, Colorado & Wellington Sister-Classroom Exchange",
+      "snippet": "While Elena's nominal family cash inflow grew steadily to $116,500—making her fixed $2,100 legacy mortgage effortless—her annual bill for power, food, housing, and preventative care plunged 72% to $15,400, cutting her household's survival workweek from 38.4 hours down to 14.2 hours."
+    },
+    "quote": {
+      "text": "GDP measures market transactions, not human well-being—when technology makes vital goods nearly free, our true prosperity soars even if traditional price gauges miss the miracle.",
+      "author": "Prof. Erik Brynjolfsson",
+      "role": "Director, Stanford Digital Economy Lab",
+      "url": "https://digitaleconomy.stanford.edu/"
+    },
+    "companiesAndLabs": [
+      "Stanford Digital Economy Lab (GDP-B)",
+      "Harvard Opportunity Insights",
+      "New Zealand Treasury Living Standards Desk",
+      "Bank for International Settlements (BIS)",
+      "US BEA & UK ONS Beyond-GDP Accounts",
+      "OECD Better Life Initiative"
+    ],
+    "globalPrecedents": [
+      "New Zealand Well-Being Budgets (2019–2026)",
+      "OECD Better Life Index & Bhutan Gross National Happiness",
+      "Swiss National Bank Supply-Deflation Stability",
+      "Wikipedia & 99.6% Solar PV Consumer Surplus Boom"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "universal-capital-dividends",
+      "abundant-beautiful-housing",
+      "cost-of-living-collapse"
+    ],
+    "infographic": {
+      "headlineMetric": "14.2 Hrs/Wk",
+      "headlineLabel": "Thriving Basket Survival Workweek",
+      "unit": "Median Work Hours Required for Full Thriving Basket (Hrs/Wk)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Scarcity Squeeze (Legacy GDP & Cartel Billing)",
+          "value": 38.4,
+          "display": "38.4 hrs/wk"
+        },
+        {
+          "year": 2029,
+          "label": "Parallel GDP-B & Dual-Regime Monetary Rule",
+          "value": 29.0,
+          "display": "29.0 hrs/wk"
+        },
+        {
+          "year": 2033,
+          "label": "Clean Power, CLT Homes & Bio-Prevention Scale",
+          "value": 19.5,
+          "display": "19.5 hrs/wk"
+        },
+        {
+          "year": 2036,
+          "label": "75% Deflated Essentials + +4% Nominal Cash Floor",
+          "value": 14.2,
+          "display": "14.2 hrs/wk"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Essential Basket Drop",
+          "value": "-72%",
+          "detail": "Housing, energy, food & preventative care cost collapse"
+        },
+        {
+          "label": "Nominal Cash Floor",
+          "value": "+4.2%/yr",
+          "detail": "Productivity-matched credits prevent mortgage defaults"
+        },
+        {
+          "label": "Unmeasured GDP-B Surplus",
+          "value": "+$16.5T/yr",
+          "detail": "Free open-weight AI, knowledge & preventative cures counted"
+        },
+        {
+          "label": "Telemetry Latency",
+          "value": "<60 Mins",
+          "detail": "Differential-privacy civic APIs replace 90-day phone polls"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Stanford Digital Economy Lab (GDP-B)",
+        "url": "https://digitaleconomy.stanford.edu/"
+      },
+      {
+        "name": "Harvard Opportunity Insights",
+        "url": "https://opportunityinsights.org/"
+      },
+      {
+        "name": "New Zealand Treasury Living Standards Desk",
+        "url": "https://www.treasury.govt.nz/information-and-services/nz-economy/higher-living-standards"
+      },
+      {
+        "name": "Bank for International Settlements (BIS)",
+        "url": "https://www.bis.org/"
+      },
+      {
+        "name": "US BEA & UK ONS Beyond-GDP Accounts",
+        "url": "https://www.bea.gov/"
+      },
+      {
+        "name": "OECD Better Life Initiative",
+        "url": "https://www.oecdbetterlifeindex.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "New Zealand Well-Being Budgets (2019–2026)",
+        "url": "https://www.treasury.govt.nz/information-and-services/nz-economy/higher-living-standards"
+      },
+      {
+        "name": "OECD Better Life Index & Bhutan Gross National Happiness",
+        "url": "https://www.oecdbetterlifeindex.org/"
+      },
+      {
+        "name": "Swiss National Bank Supply-Deflation Stability",
+        "url": "https://www.snb.ch/en/"
+      },
+      {
+        "name": "Wikipedia & 99.6% Solar PV Consumer Surplus Boom",
+        "url": "https://ourworldindata.org/cheap-renewables-growth"
+      }
+    ]
+  },
+  {
+    "slug": "universal-capital-dividends",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/universal-capital-dividends",
+    "v1Slug": "capital-ownership",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Everyone an Owner: Sovereign AI/Compute Wealth Funds & Universal Baby Bonds",
+    "tagline": "Wiring every newborn and worker directly into compounding AI, energy, and equity ownership via Norway, Alaska, and Connecticut's battle-tested rails.",
+    "cynicBelief": "Even if AI and humanoid robots create a $100 trillion productivity boom, five frontier AI corporations and a tiny billionaire caste will own 100% of the machines while ordinary workers own nothing.",
+    "breakthroughCounter": "Corporate charters and index trusts are upgradeable human inventions. Norway's $1.8+ Trillion Sovereign Fund (~$320,000 invested equity per citizen), conservative Alaska's 44-year Permanent Fund Dividend, Australia's $3.9T AUD Superannuation, Singapore's CPF, and Connecticut's automatic Baby Bonds prove every citizen can own compounding capital behind private fiduciary firewalls.",
+    "socialNormShift": "Moving from fragile wage-only survival to universal birthright capitalism—where every baby receives an invested index trust at birth and every adult collects quarterly Citizen Compute & Commons Dividends.",
+    "humanStory": {
+      "protagonist": "Marcus Okafor, 21-Year-Old Acoustic Woodworker",
+      "location": "Hartford, Connecticut",
+      "snippet": "Seeded automatically on his maternity-ward birth certificate under upgraded Baby Bonds, Marcus turns 21 with $94,600 in personal productive equity to open his woodworking studio debt-free—while his retired freight-driver parents collect $1,350/month per adult in Citizen Compute Dividends."
+    },
+    "quote": {
+      "text": "Wealth inequality persists when people start adulthood without capital; universal birthright equity gives every child a compounding stake in society's productive future.",
+      "author": "Prof. Darrick Hamilton",
+      "role": "Architect of Baby Bonds & Founding Director, Institute on Race, Power and Political Economy, The New School",
+      "url": "https://www.racepowerpolicy.org/"
+    },
+    "companiesAndLabs": [
+      "Norges Bank Investment Management (Norway GPFG)",
+      "Alaska Permanent Fund Corporation (APFC)",
+      "Connecticut Office of the Treasurer (CT Baby Bonds)",
+      "Temasek & Singapore Central Provident Fund (CPF)",
+      "The New School Institute on Race, Power & Political Economy",
+      "US Federal Thrift Savings Plan (TSP Fiduciary Model)"
+    ],
+    "globalPrecedents": [
+      "Norway $1.8T+ Sovereign Wealth Fund (~$320k/citizen)",
+      "Alaska Permanent Fund Universal Dividend (Since 1982)",
+      "Connecticut First-in-Nation Automatic Baby Bonds (2023–2026)",
+      "Australia $3.9T AUD Compulsory Superannuation & Singapore CPF"
+    ],
+    "synergyLinks": [
+      "general-purpose-humanoids",
+      "orbital-radiative-compute",
+      "abundant-beautiful-housing",
+      "sovereign-debt-jubilee"
+    ],
+    "infographic": {
+      "headlineMetric": "$94.6k–$118k",
+      "headlineLabel": "Age-21 Birthright Equity Launchpad",
+      "unit": "Median Bottom-50% Household Productive Equity ($2026)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Wage-Only Trap (<1% Stock Share for Bottom Half)",
+          "value": 4800,
+          "display": "$4,800"
+        },
+        {
+          "year": 2030,
+          "label": "Universal Baby Bonds + 2:1 Adult Catch-Up Match",
+          "value": 42000,
+          "display": "$42,000"
+        },
+        {
+          "year": 2035,
+          "label": "Portable 10% Superannuation + Compute Warrants",
+          "value": 165000,
+          "display": "$165,000"
+        },
+        {
+          "year": 2040,
+          "label": "Mature Sovereign Compute Fund & Vested Birth Cohorts",
+          "value": 340000,
+          "display": "$340,000+"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Norway Precedent",
+          "value": "$320,000",
+          "detail": "Invested global equity per Norwegian citizen ($1.8T+ fund)"
+        },
+        {
+          "label": "National Birth Seed Cost",
+          "value": "<0.4% Budget",
+          "detail": "$27B/yr seeds all 3.6M US newborns with $7,500 at birth"
+        },
+        {
+          "label": "Mature Citizen Dividend",
+          "value": "$1,350/mo",
+          "detail": "Quarterly passive yield from spectrum, orbital & AI parks"
+        },
+        {
+          "label": "Fiduciary Fee & Shield",
+          "value": "0.04% Fee",
+          "detail": "TSP-style statutory ban on political corporate voting"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Norges Bank Investment Management (Norway GPFG)",
+        "url": "https://www.nbim.no/"
+      },
+      {
+        "name": "Alaska Permanent Fund Corporation (APFC)",
+        "url": "https://apfc.org/"
+      },
+      {
+        "name": "Connecticut Office of the Treasurer (CT Baby Bonds)",
+        "url": "https://portal.ct.gov/ott/ct-baby-bonds"
+      },
+      {
+        "name": "Temasek & Singapore Central Provident Fund (CPF)",
+        "url": "https://www.cpf.gov.sg/"
+      },
+      {
+        "name": "The New School Institute on Race, Power & Political Economy",
+        "url": "https://www.racepowerpolicy.org/"
+      },
+      {
+        "name": "US Federal Thrift Savings Plan (TSP Fiduciary Model)",
+        "url": "https://www.tsp.gov/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Norway $1.8T+ Sovereign Wealth Fund (~$320k/citizen)",
+        "url": "https://www.nbim.no/"
+      },
+      {
+        "name": "Alaska Permanent Fund Universal Dividend (Since 1982)",
+        "url": "https://apfc.org/"
+      },
+      {
+        "name": "Connecticut First-in-Nation Automatic Baby Bonds (2023–2026)",
+        "url": "https://portal.ct.gov/ott/ct-baby-bonds"
+      },
+      {
+        "name": "Australia $3.9T AUD Compulsory Superannuation & Singapore CPF",
+        "url": "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super"
+      }
+    ]
+  },
+  {
+    "slug": "compute-commons-taxation",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/compute-commons-taxation",
+    "v1Slug": "tax",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Taxing Automated Commons & Land Value Instead of Human Sweat",
+    "tagline": "0% payroll and income tax on the first $100,000 of human craft—funded by evasion-proof Georgist land value capture, compute royalties, and 3-minute Estonian filing.",
+    "cynicBelief": "When AI and robots replace W-2 wage earners, government tax revenues will collapse—bankrupting cities while billionaires hide profits in offshore tax havens and working people get taxed harder.",
+    "breakthroughCounter": "Taxing human payrolls at 30%+ while taxing software/robots at <5% artificially subsidizes firing workers! Nobody can mail an acre of urban land or a 500-MW AI power line to the Cayman Islands. Proven in Singapore, Taiwan, Estonia, and Harrisburg PA, Land Value Taxes plus upstream compute/megawatt royalties fund thriving cities while untaxing the first $100k of human labor completely.",
+    "socialNormShift": "Flipping fiscal norms from penalizing human effort and home building to sharing the unearned location value of land, electromagnetic spectrum, and hyperscale automated throughput—confirmed in 180 seconds on an Estonia-style portal.",
+    "humanStory": {
+      "protagonist": "Priya Nair & Mateo Alvarez, Neighborhood Bakery & Bistro Co-Founders",
+      "location": "Harrisburg, Pennsylvania & Tallinn Sister-City Exchange",
+      "snippet": "With 0% payroll or income tax on the first $100,000 of human craft, Priya's twelve bakers got an instant 22% take-home raise; split-rate Land Value Tax turned the vacant speculator weed-lot next door into 48 sunlit timber apartments; and April 15th filing took Mateo 2 minutes and 10 seconds."
+    },
+    "quote": {
+      "text": "Taxing immobile land and natural or shared technological rents—rather than taxing human labor and effort—is both fairer and far more economically efficient.",
+      "author": "Prof. Joseph Stiglitz",
+      "role": "Nobel Laureate in Economics, Columbia University",
+      "url": "https://www8.gsb.columbia.edu/faculty/jstiglitz/"
+    },
+    "companiesAndLabs": [
+      "e-Estonia Tax and Customs Board (X-Road)",
+      "MIT Task Force on the Work of the Future",
+      "Lincoln Institute of Land Policy",
+      "Center for Property Tax Reform (Split-Rate LVT)",
+      "Singapore Land Authority & Urban Redevelopment Authority",
+      "Norwegian Resource Rent Tax Commission"
+    ],
+    "globalPrecedents": [
+      "Harrisburg, PA Split-Rate Land Value Tax (-88% Vacant Blight)",
+      "Estonia Pure Land Value Tax & 3-Minute Pre-Filled Filing",
+      "Singapore & Hong Kong Transit Land-Value Capture",
+      "Taiwan Constitutional Georgist Land Value Increment Tax"
+    ],
+    "synergyLinks": [
+      "abundant-beautiful-housing",
+      "displaced-worker-bridge",
+      "post-labor-meaning",
+      "fusion-power"
+    ],
+    "infographic": {
+      "headlineMetric": "$0 Tax <$100k",
+      "headlineLabel": "Tax-Free Human Craft, Care & Teaching Zone",
+      "unit": "Combined Payroll & Income Tax Wedge on Median Worker (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Anti-Human Tax Distortion (FICA + Income Wedge)",
+          "value": 31.2,
+          "display": "31.2% tax wedge"
+        },
+        {
+          "year": 2029,
+          "label": "50% Payroll Tax Cut + Offshore IP & Bot Loophole End",
+          "value": 16.5,
+          "display": "16.5% tax wedge"
+        },
+        {
+          "year": 2032,
+          "label": "Split-Rate LVT Wave + >5 MW Compute Royalty Live",
+          "value": 6.0,
+          "display": "6.0% tax wedge"
+        },
+        {
+          "year": 2035,
+          "label": "Full $100,000 Tax-Free Human Work Liberation",
+          "value": 0.0,
+          "display": "0.0% (<$100k)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Harrisburg LVT Proof",
+          "value": "-88% Blight",
+          "detail": "Vacant derelict structures fell from 4,200 to under 500"
+        },
+        {
+          "label": "Estonia Filing Time",
+          "value": "3 Minutes",
+          "detail": "Reclaims 6.5B hours & $140B/yr wasted on tax prep"
+        },
+        {
+          "label": "Modest Homeowner Tax",
+          "value": "-21% Lower",
+          "detail": "Homestead exemptions + 0% senior deferral protect families"
+        },
+        {
+          "label": "Offshore Evasion Rate",
+          "value": "0.0%",
+          "detail": "Urban land parcels & gigawatt substations cannot relocate"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "e-Estonia Tax and Customs Board (X-Road)",
+        "url": "https://e-estonia.com/"
+      },
+      {
+        "name": "MIT Task Force on the Work of the Future",
+        "url": "https://workofthefuture.mit.edu/"
+      },
+      {
+        "name": "Lincoln Institute of Land Policy",
+        "url": "https://www.lincolninst.edu/"
+      },
+      {
+        "name": "Center for Property Tax Reform (Split-Rate LVT)",
+        "url": "https://www.propertytax101.org/"
+      },
+      {
+        "name": "Singapore Land Authority & Urban Redevelopment Authority",
+        "url": "https://www.sla.gov.sg/"
+      },
+      {
+        "name": "Norwegian Resource Rent Tax Commission",
+        "url": "https://www.regjeringen.no/en/id4/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Harrisburg, PA Split-Rate Land Value Tax (-88% Vacant Blight)",
+        "url": "https://en.wikipedia.org/wiki/Land_value_tax_in_the_United_States"
+      },
+      {
+        "name": "Estonia Pure Land Value Tax & 3-Minute Pre-Filled Filing",
+        "url": "https://e-estonia.com/"
+      },
+      {
+        "name": "Singapore & Hong Kong Transit Land-Value Capture",
+        "url": "https://en.wikipedia.org/wiki/Value_capture"
+      },
+      {
+        "name": "Taiwan Constitutional Georgist Land Value Increment Tax",
+        "url": "https://en.wikipedia.org/wiki/Land_value_tax#Taiwan"
+      }
+    ]
+  },
+  {
+    "slug": "zero-cliff-safety-nets",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/zero-cliff-safety-nets",
+    "v1Slug": "social-programs",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Never Punished for Working: Dignified Zero-Cliff Universal Floors",
+    "tagline": "Replacing cruel 90% welfare cliffs and 40-page stigma audits with a smooth Negative Income Tax floor and Universal Child Dividend where every raise always pays.",
+    "cynicBelief": "Unconditional cash floors will make people quit their jobs and bankrupt the state—yet existing poverty programs are a permanent, unfixable bureaucratic swamp.",
+    "breakthroughCounter": "In 2026, low-income working parents face 75%–95% marginal 'welfare cliffs' (earning $100 extra costs thousands in lost childcare or Medicaid!). Uniting Milton Friedman and Martin Luther King Jr.'s Negative Income Tax math—proven in Stockton's SEED RCT (+12 pts full-time employment!), Kenya's GiveDirectly, and the 2021 US Child Tax Credit (-46% child poverty in 12 months)—guarantees workers always keep >=75 cents of every new dollar earned.",
+    "socialNormShift": "Retiring 80 paternalistic, asset-penalizing poverty silos behind bulletproof glass in favor of one automatic, stigma-free Friday 6:00 AM Zero-Cliff Floor and Universal Child Dividend.",
+    "humanStory": {
+      "protagonist": "Danielle Brooks, Pediatric Dental Clinic Coordinator & Single Mom",
+      "location": "Stockton, California",
+      "snippet": "Instead of turning down a $13,000 clinic promotion in tears to protect her sons' childcare and Medicaid like her cousin had to in 2026, Danielle's smooth 25% Zero-Cliff glide path leaves her family strictly $9,750/year richer the instant she says yes."
+    },
+    "quote": {
+      "text": "Poverty is not a character flaw—it is a lack of cash and stability. When you remove punitive cliffs and trust families, employment, health, and dignity rise together.",
+      "author": "Michael Tubbs",
+      "role": "Former Mayor of Stockton & Founder, Mayors for a Guaranteed Income",
+      "url": "https://www.mayorsforagi.org/"
+    },
+    "companiesAndLabs": [
+      "Stockton Economic Empowerment Demonstration (SEED)",
+      "Federal Reserve Bank of Atlanta (CLIFF Dashboard)",
+      "GiveDirectly (12-Year Global RCT Consortium)",
+      "Center on Poverty and Social Policy (Columbia University)",
+      "Kela (Social Insurance Institution of Finland)",
+      "Harvard / Princeton Behavioral Scarcity Lab"
+    ],
+    "globalPrecedents": [
+      "2021 US Expanded Child Tax Credit (-46% Child Poverty in 1 Yr)",
+      "Stockton SEED Guaranteed Income RCT (+12% Full-Time Jobs)",
+      "Canada Child Benefit (CCB) Permanent 40%+ Poverty Cut",
+      "Finland Basic Income Trial & GiveDirectly Kenya 2.5x Multiplier"
+    ],
+    "synergyLinks": [
+      "fab-commons-wealth",
+      "healthcare-without-billing",
+      "displaced-worker-bridge",
+      "ending-homelessness-villages"
+    ],
+    "infographic": {
+      "headlineMetric": "0 Welfare Cliffs",
+      "headlineLabel": "Keep >=75¢ of Every New Dollar Earned",
+      "unit": "Worst-Case Effective Marginal Cliff Penalty on Working Poor (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "80 Siloed Programs & Sudden Medicaid/Childcare Cutoffs",
+          "value": 92,
+          "display": "75%–95%+ cliff"
+        },
+        {
+          "year": 2028,
+          "label": "Asset-Cap Repeal & Universal $400/mo Child Dividend",
+          "value": 48,
+          "display": "48% max taper"
+        },
+        {
+          "year": 2031,
+          "label": "Unified Negative Income Tax Rail & Care Decoupling",
+          "value": 25,
+          "display": "25% smooth glide"
+        },
+        {
+          "year": 2035,
+          "label": "Deflation-Multiplied Floor + 0% Tax <$100k Synergy",
+          "value": 20,
+          "display": "20% smooth glide"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "US Child Poverty Cut",
+          "value": "-46% in 1 Yr",
+          "detail": "Proven by 2021 monthly Child Tax Credit (5.2% record low)"
+        },
+        {
+          "label": "Stockton SEED Work Gain",
+          "value": "28% -> 40%",
+          "detail": "Full-time employment jumped 2x faster than control group"
+        },
+        {
+          "label": "Cognitive Bandwidth",
+          "value": "+13 IQ Pts",
+          "detail": "Mental capacity restored when chronic cliff panic ends"
+        },
+        {
+          "label": "Admin Policing Waste",
+          "value": "<0.8%",
+          "detail": "Down from ~12% spent on 40-page forms & compliance churn"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Stockton Economic Empowerment Demonstration (SEED)",
+        "url": "https://www.stocktondemonstration.org/"
+      },
+      {
+        "name": "Federal Reserve Bank of Atlanta (CLIFF Dashboard)",
+        "url": "https://www.atlantafed.org/economic-mobility-and-resilience/advancing-careers-for-low-income-families/cliff-tool"
+      },
+      {
+        "name": "GiveDirectly (12-Year Global RCT Consortium)",
+        "url": "https://www.givedirectly.org/"
+      },
+      {
+        "name": "Center on Poverty and Social Policy (Columbia University)",
+        "url": "https://www.povertycenter.columbia.edu/"
+      },
+      {
+        "name": "Kela (Social Insurance Institution of Finland)",
+        "url": "https://www.kela.fi/english"
+      },
+      {
+        "name": "Harvard / Princeton Behavioral Scarcity Lab",
+        "url": "https://scholar.harvard.edu/sendhil/scarcity"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2021 US Expanded Child Tax Credit (-46% Child Poverty in 1 Yr)",
+        "url": "https://www.povertycenter.columbia.edu/"
+      },
+      {
+        "name": "Stockton SEED Guaranteed Income RCT (+12% Full-Time Jobs)",
+        "url": "https://www.stocktondemonstration.org/"
+      },
+      {
+        "name": "Canada Child Benefit (CCB) Permanent 40%+ Poverty Cut",
+        "url": "https://en.wikipedia.org/wiki/Canada_Child_Benefit"
+      },
+      {
+        "name": "Finland Basic Income Trial & GiveDirectly Kenya 2.5x Multiplier",
+        "url": "https://www.givedirectly.org/"
+      }
+    ]
+  },
+  {
+    "slug": "fab-commons-wealth",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/fab-commons-wealth",
+    "v1Slug": "wealth-redistribution",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Demonetizing the Essentials: When a Modest Income Buys a 2026 Millionaire's Life",
+    "tagline": "Collapsing the five scarce pillars of inequality by 80% while turning 17,000 neighborhood libraries into Helsinki Oodi-style Palaces for the People.",
+    "cynicBelief": "Unless society wages destructive zero-sum class warfare to confiscate fortunes, working families will always be locked out of concierge medicine, elite tutors, top legal defense, and creative tools.",
+    "breakthroughCounter": "A billionaire today uses the same penicillin and Wikipedia as a student—inequality only stings in five scarce bottlenecks: housing, top medical care, 1-on-1 tutoring, legal protection, and clean energy. When open-weight AI, outpatient CRISPR/peptides, robotic CLT homes, and $0.004/kWh clean power cut those five costs by 80%—paired with Helsinki Oodi-style Fab-Libraries in every zip code—lived deprivation vanishes peacefully.",
+    "socialNormShift": "Replacing dingy charity for the poor with 'Public Luxury'—architecturally breathtaking postal-code Palaces for the People offering free CNC labs, 3D printers, recording studios, sovereign AI compute, and pro-grade tool libraries to every citizen.",
+    "humanStory": {
+      "protagonist": "Malik Carter (Retired Bus Mechanic) & Granddaughter Maya",
+      "location": "Minneapolis, Minnesota & Helsinki Oodi Sister-Commons",
+      "snippet": "Living comfortably on a $42,000 pension, Malik reverses early arterial plaque with a $12 outpatient peptide tune-up, settles a roof-warranty dispute in 14 minutes via the city's open-weight legal shield, and spends Saturday with Maya machining a brass telescope mount for $0 inside their spruce-timber Oodi neighborhood library."
+    },
+    "quote": {
+      "text": "A great public commons shouldn't feel like charity for the poor—it should be a palace for the people where every citizen has free access to the best tools of creation.",
+      "author": "Tommi Laitio",
+      "role": "Architect of Helsinki's Oodi Central Library",
+      "url": "https://oodihelsinki.fi/en/"
+    },
+    "companiesAndLabs": [
+      "Helsinki Oodi Central Library (Kaupunkiverstas)",
+      "Deichman Bjørvika (Oslo) & Dokk1 (Aarhus)",
+      "EuroHPC LUMI & US NAIRR Public Compute Commons",
+      "Berkeley, Sacramento & Toronto Tool Lending Libraries",
+      "Chattanooga EPB Municipal 25-Gbps Fiber Grid",
+      "Open-Weight Sovereign AI Consortium"
+    ],
+    "globalPrecedents": [
+      "Helsinki Oodi Central Library (2.5M+ Visits/Yr, Free CNC & Studios)",
+      "200+ Municipal Libraries of Things (>98.5% Intact Tool Return)",
+      "Chattanooga EPB Community Fiber ($2.7B+ Local Civic Surplus)",
+      "Universal Mass-Manufactured Penicillin & Smartphone Equalization"
+    ],
+    "synergyLinks": [
+      "invivo-crispr-cures",
+      "two-sigma-guild-education",
+      "forty-eight-hour-governance",
+      "perovskite-tandem-solar"
+    ],
+    "infographic": {
+      "headlineMetric": "-82% Cost Drop",
+      "headlineLabel": "2026 Millionaire Capabilities Demonetized",
+      "unit": "Annual Cost to Access Elite 5-Pillar Thriving Standard ($/Yr)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "2026 Top-1% Bundle (Concierge Med, Tutor, Legal, Home)",
+          "value": 148000,
+          "display": "$148,000/yr"
+        },
+        {
+          "year": 2029,
+          "label": "Free Sovereign AI Tutors, Legal Shields & 5k Oodi Labs",
+          "value": 74000,
+          "display": "$74,000/yr"
+        },
+        {
+          "year": 2033,
+          "label": "Outpatient Bio-Prevention + $140k Robotic CLT Homes",
+          "value": 32000,
+          "display": "$32,000/yr"
+        },
+        {
+          "year": 2036,
+          "label": "Full 5-Pillar Demonetization + 17,000 Postal-Code Palaces",
+          "value": 18500,
+          "display": "$18,500/yr"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Helsinki Oodi Proof",
+          "value": "2.5M Visits/Yr",
+          "detail": "Free 3D printers, laser cutters & recording studios for all"
+        },
+        {
+          "label": "US Library Footprint",
+          "value": "17,000+ Sites",
+          "detail": "More existing branches than McDonald's ready to retrofit"
+        },
+        {
+          "label": "Tool Return Integrity",
+          "value": ">98.5%",
+          "detail": "Proven across 40+ years of municipal Tool Lending Libraries"
+        },
+        {
+          "label": "Material Clutter Saved",
+          "value": "-85% Waste",
+          "detail": "Shared pro German/Japanese tools replace 60 landfill drills"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Helsinki Oodi Central Library (Kaupunkiverstas)",
+        "url": "https://oodihelsinki.fi/en/"
+      },
+      {
+        "name": "Deichman Bjørvika (Oslo) & Dokk1 (Aarhus)",
+        "url": "https://deichman.no/in-english"
+      },
+      {
+        "name": "EuroHPC LUMI & US NAIRR Public Compute Commons",
+        "url": "https://eurohpc-ju.europa.eu/"
+      },
+      {
+        "name": "Berkeley, Sacramento & Toronto Tool Lending Libraries",
+        "url": "https://www.berkeleypubliclibrary.org/locations/tool-lending-library"
+      },
+      {
+        "name": "Chattanooga EPB Municipal 25-Gbps Fiber Grid",
+        "url": "https://epb.com/"
+      },
+      {
+        "name": "Open-Weight Sovereign AI Consortium",
+        "url": "https://huggingface.co/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Helsinki Oodi Central Library (2.5M+ Visits/Yr, Free CNC & Studios)",
+        "url": "https://oodihelsinki.fi/en/"
+      },
+      {
+        "name": "200+ Municipal Libraries of Things (>98.5% Intact Tool Return)",
+        "url": "https://en.wikipedia.org/wiki/Library_of_things"
+      },
+      {
+        "name": "Chattanooga EPB Community Fiber ($2.7B+ Local Civic Surplus)",
+        "url": "https://epb.com/"
+      },
+      {
+        "name": "Universal Mass-Manufactured Penicillin & Smartphone Equalization",
+        "url": "https://ourworldindata.org/antibiotics"
+      }
+    ]
+  },
+  {
+    "slug": "displaced-worker-bridge",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/displaced-worker-bridge",
+    "v1Slug": "existing-unemployed-bridge",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": true,
+    "title": "Rescuing Displaced Workers Today: Denmark's 90% Wage-Bridge & Rapid Craft Pivots",
+    "tagline": "Ending mid-career AI layoff terror immediately via Denmark's 90% Flexicurity paycheck bridge, portable mortgage pause valves, and 90-day paid guild pivots.",
+    "cynicBelief": "Between 2026 and 2029, AI will lay off millions of 45-year-old coders, call-center staff, paralegals, and truckers—stripping their family healthcare, crashing them onto $400/week unemployment checks, and costing them their homes.",
+    "breakthroughCounter": "Over 75% of Danish and Swedish workers welcome workplace automation because Denmark's 'Flexicurity' Golden Triangle guarantees up to 90% immediate wage continuity + portable healthcare, while Sweden's Job Security Councils re-employ 88% of displaced staff rapidly. Upgraded with 12-month mortgage pause valves and 70%-escrowed 90-day Craft Guilds, mid-career workers pivot fearlessly into grid, timber, and longevity roles.",
+    "socialNormShift": "Protecting human beings fiercely without freezing obsolete tasks—turning an AI layoff notice from a shameful kitchen-table crisis into a paid 90-day cohort fellowship with guaranteed employer placement.",
+    "humanStory": {
+      "protagonist": "David Kowalski, 44-Year-Old Former Freight Dispatcher",
+      "location": "Columbus, Ohio",
+      "snippet": "When autonomous routing agents closed his 90-person dispatch floor on a Friday in 2028, David kept 90% of his net paycheck and full family healthcare on Monday, joined an 18-peer Microgrid Commissioning Guild, and graduated in 90 days into a $92,000 untaxed field career without touching his 401(k)."
+    },
+    "quote": {
+      "text": "Whether new technologies create shared prosperity or hardship is never predetermined by the machines—it is decided by the institutions and worker transitions we choose to build.",
+      "author": "Prof. Daron Acemoglu",
+      "role": "2024 Nobel Laureate in Economics, MIT",
+      "url": "https://shapingwork.mit.edu/"
+    },
+    "companiesAndLabs": [
+      "Danish Agency for Labour Market and Recruitment (STAR)",
+      "TRR Trygghetsrådet (Sweden Job Security Councils)",
+      "Project QUEST (San Antonio 14-Year RCT)",
+      "MIT Shaping the Future of Work Initiative",
+      "Regional Clean-Grid & Mass-Timber Guild Consortium",
+      "Realkredit Denmark Covered-Bond Flexibility Model"
+    ],
+    "globalPrecedents": [
+      "Denmark Flexicurity Golden Triangle (Up to 90% Wage Bridge)",
+      "Sweden Job Security Councils (88% Re-Employed via 0.3% Pool)",
+      "Project QUEST San Antonio RCT (+$5k–$11k/yr Sustained Gain)",
+      "France/Italy Marcora Worker-Coop UI Capitalization"
+    ],
+    "synergyLinks": [
+      "superconducting-grids",
+      "compute-commons-taxation",
+      "purpose-craft-guilds",
+      "abundant-beautiful-housing"
+    ],
+    "infographic": {
+      "headlineMetric": "90% Pay Bridge",
+      "headlineLabel": "72-Hour Paycheck & Healthcare Continuity",
+      "unit": "Displaced Mid-Career Re-Employment at >=100% Prior Net Pay (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Legacy US UI (~35% Pay + Lost COBRA + Scam Videos)",
+          "value": 34,
+          "display": "34% keep >=100% pay"
+        },
+        {
+          "year": 2027,
+          "label": "Emergency 90% AI Wage-Bridge & Mortgage Valve Enacted",
+          "value": 58,
+          "display": "58% keep >=100% pay"
+        },
+        {
+          "year": 2029,
+          "label": "500 Outcome-Escrowed 90-Day Grid/Timber/Care Guilds",
+          "value": 79,
+          "display": "79% keep >=100% pay"
+        },
+        {
+          "year": 2032,
+          "label": "Full Flexicurity + 0% Tax <$100k Net Take-Home Boost",
+          "value": 88,
+          "display": "88% keep >=100% pay"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Denmark Wage Floor",
+          "value": "Up to 90%",
+          "detail": "Immediate paycheck continuity with portable family healthcare"
+        },
+        {
+          "label": "Sweden Council Proof",
+          "value": "88% Placed",
+          "detail": "Day-1 pre-layoff coaching funded by tiny 0.3% payroll pool"
+        },
+        {
+          "label": "Anti-Scam Guild Escrow",
+          "value": "70% Held",
+          "detail": "Tuition paid only after 6 months in verified $70k+ career"
+        },
+        {
+          "label": "Mortgage Foreclosures",
+          "value": "0% Spike",
+          "detail": "12-month penalty-free principal pause protects family homes"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Danish Agency for Labour Market and Recruitment (STAR)",
+        "url": "https://star.dk/en/"
+      },
+      {
+        "name": "TRR Trygghetsrådet (Sweden Job Security Councils)",
+        "url": "https://www.trr.se/"
+      },
+      {
+        "name": "Project QUEST (San Antonio 14-Year RCT)",
+        "url": "https://questsa.org/"
+      },
+      {
+        "name": "MIT Shaping the Future of Work Initiative",
+        "url": "https://shapingwork.mit.edu/"
+      },
+      {
+        "name": "Regional Clean-Grid & Mass-Timber Guild Consortium",
+        "url": "https://www.dol.gov/agencies/eta/apprenticeship"
+      },
+      {
+        "name": "Realkredit Denmark Covered-Bond Flexibility Model",
+        "url": "https://rd.dk/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Denmark Flexicurity Golden Triangle (Up to 90% Wage Bridge)",
+        "url": "https://denmark.dk/society-and-business/the-danish-labour-market"
+      },
+      {
+        "name": "Sweden Job Security Councils (88% Re-Employed via 0.3% Pool)",
+        "url": "https://www.trr.se/"
+      },
+      {
+        "name": "Project QUEST San Antonio RCT (+$5k–$11k/yr Sustained Gain)",
+        "url": "https://questsa.org/"
+      },
+      {
+        "name": "France/Italy Marcora Worker-Coop UI Capitalization",
+        "url": "https://en.wikipedia.org/wiki/Worker_cooperative"
+      }
+    ]
+  },
+  {
+    "slug": "post-labor-meaning",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/post-labor-meaning",
+    "v1Slug": "unemployment",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "The Great Uncoupling: Flourishing in a 24-Hour Workweek & Post-Drudgery World",
+    "tagline": "Why stepping from 45 hours of admin burnout down to a 24-hour mastery week unleashes parenting, music, sports, and entrepreneurship—not couch-rot.",
+    "cynicBelief": "Without 45+ hours a week of survival bosses and corporate pressure, ordinary humans will collapse onto couches in boredom, passive screen addiction, and purposeless decay.",
+    "breakthroughCounter": "When the workweek fell from 72 hours (1880) to 40 hours (1940), literacy, Little League, bands, and startups exploded! Between 2021 and 2026, Iceland's national shorter-week shift (86% of workers eligible) and the UK 61-company 4-day-week trial proved 71% lower burnout, 65% fewer sick days, +27% fatherhood childcare, *less* passive screen scrolling, and higher company revenue.",
+    "socialNormShift": "Retiring the 1926 Henry Ford 40-hour survival norm and performative 'busyness' status—replacing 'What do you do for a living?' with 'What are you building, growing, or teaching this season?'",
+    "humanStory": {
+      "protagonist": "Claire Moreau (Pediatric PT) & Jonas Lindholm (Acoustic Engineer)",
+      "location": "Bristol, UK & Reykjavik Sister-City Exchange",
+      "snippet": "With ambient AI handling 100% of clinical charting and CAD drudgery, Claire and Jonas complete thriving 24-hour workweeks by Wednesday afternoon—spending Thursdays teaching teen guitar luthiery, rehearsing in a 40-piece civic orchestra, hiking with Claire's 74-year-old dad, and sleeping 7.9 hours a night."
+    },
+    "quote": {
+      "text": "When people reclaim a full day of life every week without losing pay, they don't collapse into passivity—they sleep better, parent more deeply, volunteer, and create.",
+      "author": "Prof. Juliet Schor",
+      "role": "Economist & Lead Researcher, Global 4-Day Week Trials, Boston College",
+      "url": "https://www.4dayweek.com/"
+    },
+    "companiesAndLabs": [
+      "4 Day Week Global & Boston College Research Team",
+      "Autonomy Institute & Alda (Iceland National Trials)",
+      "University of Cambridge & Oxford Future of Work Labs",
+      "Microsoft Japan Work-Life Choice Benchmark",
+      "BSRB Federation of State & Municipal Employees (Iceland)",
+      "Flow Genome & Positive Psychology Research Consortium"
+    ],
+    "globalPrecedents": [
+      "Iceland National Shorter-Week Shift (86% Workforce Eligibility)",
+      "UK 61-Company 4-Day Trial (-71% Burnout, 92% Permanent Retention)",
+      "1880-to-1940 Workweek Compression (72 Hrs -> 40 Hrs Boom)",
+      "Microsoft Japan 4-Day Trial (+39.9% Productivity, -23% Power)"
+    ],
+    "synergyLinks": [
+      "post-scarcity-economics",
+      "purpose-craft-guilds",
+      "intergenerational-villages",
+      "sacred-worth-contemplation"
+    ],
+    "infographic": {
+      "headlineMetric": "24-Hr Workweek",
+      "headlineLabel": "3 Days Focused Mastery, 4 Days Human Life",
+      "unit": "Standard Full-Time Weekly Hours at 100% Thriving Pay (Hrs/Wk)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Time-Famine Baseline (40–48 Hrs + Admin Bloat)",
+          "value": 44,
+          "display": "44 hrs/wk"
+        },
+        {
+          "year": 2029,
+          "label": "National 100-80-100 4-Day Standard (Iceland/UK Model)",
+          "value": 32,
+          "display": "32 hrs/wk"
+        },
+        {
+          "year": 2033,
+          "label": "Dual-Crew 6-Day Civic Relay + AI Admin Elimination",
+          "value": 28,
+          "display": "28 hrs/wk"
+        },
+        {
+          "year": 2036,
+          "label": "24-Hour (3-Day) Mastery & Civic Renaissance Norm",
+          "value": 24,
+          "display": "24 hrs/wk"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Employee Burnout Drop",
+          "value": "-71%",
+          "detail": "Verified across 2,900 workers in UK 61-company trial"
+        },
+        {
+          "label": "Sick Days & Turnover",
+          "value": "-65% / -57%",
+          "detail": "Solves hospital nurse & K–12 teacher retention crises"
+        },
+        {
+          "label": "Employer Permanent Keep",
+          "value": "92%",
+          "detail": "Companies kept shorter week permanently (+1.4% avg revenue)"
+        },
+        {
+          "label": "Fatherhood & Flow Time",
+          "value": "+15 Hrs/Wk",
+          "detail": "Active hobbies, coaching & parenting surge as screen-rot falls"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "4 Day Week Global & Boston College Research Team",
+        "url": "https://www.4dayweek.com/"
+      },
+      {
+        "name": "Autonomy Institute & Alda (Iceland National Trials)",
+        "url": "https://autonomy.work/"
+      },
+      {
+        "name": "University of Cambridge & Oxford Future of Work Labs",
+        "url": "https://www.cam.ac.uk/"
+      },
+      {
+        "name": "Microsoft Japan Work-Life Choice Benchmark",
+        "url": "https://www.4dayweek.com/"
+      },
+      {
+        "name": "BSRB Federation of State & Municipal Employees (Iceland)",
+        "url": "https://autonomy.work/"
+      },
+      {
+        "name": "Flow Genome & Positive Psychology Research Consortium",
+        "url": "https://ppc.sas.upenn.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Iceland National Shorter-Week Shift (86% Workforce Eligibility)",
+        "url": "https://autonomy.work/"
+      },
+      {
+        "name": "UK 61-Company 4-Day Trial (-71% Burnout, 92% Permanent Retention)",
+        "url": "https://www.4dayweek.com/"
+      },
+      {
+        "name": "1880-to-1940 Workweek Compression (72 Hrs -> 40 Hrs Boom)",
+        "url": "https://ourworldindata.org/working-hours"
+      },
+      {
+        "name": "Microsoft Japan 4-Day Trial (+39.9% Productivity, -23% Power)",
+        "url": "https://www.4dayweek.com/"
+      }
+    ]
+  },
+  {
+    "slug": "purpose-craft-guilds",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/purpose-craft-guilds",
+    "v1Slug": "male-purpose-and-anomie",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": true,
+    "title": "Curing Sociological Anomie: Civic Builder Guilds, Physical Mastery & Neededness",
+    "tagline": "Ending isolated algorithmic despair through paid Swiss-style craft guilds, 21st-century CCC conservation crews, storm rescue, and visible civic honor.",
+    "cynicBelief": "Even with universal dividends, millions of young men and displaced breadwinners will retreat into lonely dark bedrooms—addicted to rage algorithms, gambling apps, and nihilism because machines made physical grit unnecessary.",
+    "breakthroughCounter": "Cash buys calories, never neededness! Grounded in Richard Reeves's (AIBM) research, Switzerland's revered dual-apprenticeship guilds (chosen by 65%+ of Swiss youth, including future CEOs!), the 1933 Civilian Conservation Corps (3 billion trees, 800+ parks), and Team Rubicon disaster brotherhoods, paid Civic Builder & Rescue Guilds forge real competence, mentorship, and pride.",
+    "socialNormShift": "Ending 40 years of desk-only credential snobbery by elevating hands-on Apprentice -> Journeyman -> Master Builder & Storm-Rescue charters to equal civic honor with elite universities.",
+    "humanStory": {
+      "protagonist": "Caleb Vance, 21-Year-Old Journeyman Timber & Storm-Rescue Steward",
+      "location": "Fayetteville, West Virginia",
+      "snippet": "At 18, Caleb spent 14 hours a day behind blackout curtains hooked on parlay apps feeling invisible; three years after joining the paid Appalachian Civic Timber & Rescue Guild—rescuing flooded neighbors and craning an 18-ton spruce bridge into place—he leads a 12-person brotherhood with $88,000 tax-free pay."
+    },
+    "quote": {
+      "text": "Human beings don't just need an income—we have a deep psychological need to be needed by our families and communities.",
+      "author": "Richard V. Reeves",
+      "role": "Founding President, American Institute for Boys and Men (AIBM)",
+      "url": "https://aibm.org/"
+    },
+    "companiesAndLabs": [
+      "American Institute for Boys and Men (AIBM)",
+      "Swiss State Secretariat for Education, Research & Innovation (VPET)",
+      "Team Rubicon Disaster Response",
+      "CareerWise Youth Apprenticeship Network",
+      "Harvard Study of Adult Development",
+      "California & Montana Conservation Corps"
+    ],
+    "globalPrecedents": [
+      "Switzerland Dual Apprenticeships (65%+ Youth, ~2.5% Unemployment)",
+      "1933–1942 US Civilian Conservation Corps (3M Men, 3B Trees, 800+ Parks)",
+      "German & Austrian Meister Craft Guild Charters",
+      "Team Rubicon (160,000+ Disaster Volunteers) & Volunteer Fire Halls"
+    ],
+    "synergyLinks": [
+      "abundant-beautiful-housing",
+      "two-sigma-guild-education",
+      "craving-reset-mental-health",
+      "cynicism-to-agency"
+    ],
+    "infographic": {
+      "headlineMetric": "-62% Youth Drift",
+      "headlineLabel": "Swiss-CCC Paid Builder & Rescue Guilds",
+      "unit": "Disconnected Youth & Prime-Age Anomie Rate (% NEET / Out-of-Work)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Algorithmic Isolation & Stripped High-School Shops",
+          "value": 14.2,
+          "display": "14.2% disconnected"
+        },
+        {
+          "year": 2029,
+          "label": "1,000 Paid Timber, Wildfire & Storm-Rescue Guilds Live",
+          "value": 9.4,
+          "display": "9.4% disconnected"
+        },
+        {
+          "year": 2032,
+          "label": "Age-16 Swiss Dual-Track Parity & Phone-Free Shop Revival",
+          "value": 6.1,
+          "display": "6.1% disconnected"
+        },
+        {
+          "year": 2036,
+          "label": "3,000 County Guild Halls + Master Co-op Equity Norm",
+          "value": 3.2,
+          "display": "3.2% (Swiss level)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Swiss Youth Guild Share",
+          "value": "65%–70%",
+          "detail": "Permeable track from age-16 apprentice to engineering CEO"
+        },
+        {
+          "label": "1933 CCC Benchmark",
+          "value": "3 Billion Trees",
+          "detail": "Built 800+ parks while boosting alumni longevity & earnings"
+        },
+        {
+          "label": "Tax-Free Guild Pay",
+          "value": "$48k -> $88k",
+          "detail": "Novice-to-Journeyman untaxed pay with zero student loan debt"
+        },
+        {
+          "label": "Mentor Emeritus Bridge",
+          "value": "55+ Masters",
+          "detail": "Retired carpenters & linemen paid to mentor 18-year-old crews"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "American Institute for Boys and Men (AIBM)",
+        "url": "https://aibm.org/"
+      },
+      {
+        "name": "Swiss State Secretariat for Education, Research & Innovation (VPET)",
+        "url": "https://www.sbfi.admin.ch/"
+      },
+      {
+        "name": "Team Rubicon Disaster Response",
+        "url": "https://teamrubiconusa.org/"
+      },
+      {
+        "name": "CareerWise Youth Apprenticeship Network",
+        "url": "https://www.careerwiseusa.org/"
+      },
+      {
+        "name": "Harvard Study of Adult Development",
+        "url": "https://www.adultdevelopmentstudy.org/"
+      },
+      {
+        "name": "California & Montana Conservation Corps",
+        "url": "https://ccc.ca.gov/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Switzerland Dual Apprenticeships (65%+ Youth, ~2.5% Unemployment)",
+        "url": "https://www.sbfi.admin.ch/"
+      },
+      {
+        "name": "1933–1942 US Civilian Conservation Corps (3M Men, 3B Trees, 800+ Parks)",
+        "url": "https://ccc.ca.gov/"
+      },
+      {
+        "name": "German & Austrian Meister Craft Guild Charters",
+        "url": "https://en.wikipedia.org/wiki/Meister"
+      },
+      {
+        "name": "Team Rubicon (160,000+ Disaster Volunteers) & Volunteer Fire Halls",
+        "url": "https://teamrubiconusa.org/"
+      }
+    ]
+  },
+  {
+    "slug": "abundant-beautiful-housing",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/abundant-beautiful-housing",
+    "v1Slug": "housing",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Ending the Housing Shortage: Robotic Mass-Timber Homes + Vienna, Singapore & Tokyo Norms",
+    "tagline": "Delivering warm, sunlit, fire-safe net-zero homes for $125,000–$165,000 in 30 days by uniting Tokyo by-right zoning, Vienna beauty trusts, and Swedish CLT factories.",
+    "cynicBelief": "Starter homes in desirable cities will always cost $700,000+ and swallow half a family's paycheck because NIMBY zoning boards block every build and construction productivity has been stuck since 1965.",
+    "breakthroughCounter": "Three capitals already solved housing: Vienna (60% of citizens in gorgeous €650/mo courtyard apartments with rooftop pools), Singapore (~89% homeownership via HDB/CPF), and Tokyo (national by-right zoning building 140k+ homes/yr, keeping rents flat for decades). Paired with Swedish-style robotic Cross-Laminated Timber factories (85% of Swedish homes are prefab!), sunlit 3-BR net-zero homes cost $140,000 in 30 days.",
+    "socialNormShift": "Treating sunlit, walkable family housing not as a scarce speculative stock-market chip gated by 24-month NIMBY lawsuits, but as pre-certified, factory-crafted civic infrastructure.",
+    "humanStory": {
+      "protagonist": "Hannah Lin (Teacher) & Devon Brooks (Botanical Park Steward)",
+      "location": "Portland, Oregon (Vienna-Tokyo Courtyard District)",
+      "snippet": "Approved in 36 hours via Digital Twin pattern-book zoning and milled to 0.5mm precision in a regional robotic Douglas-fir CLT factory, Hannah and Devon's whisper-quiet, sunlit 3-bedroom courtyard home craned together in four days for $142,000—costing $690/month (just 11% of income)."
+    },
+    "quote": {
+      "text": "In Vienna, beautiful, secure housing is treated not as a speculative commodity on a stock exchange, but as foundational civic infrastructure for everyone.",
+      "author": "Kathrin Gaál",
+      "role": "Deputy Mayor & Executive City Councillor for Housing, Vienna",
+      "url": "https://www.wienerwohnen.at/"
+    },
+    "companiesAndLabs": [
+      "Wiener Wohnen & Vienna Limited-Profit Housing (GBV)",
+      "Lindbäcks Bygg (Swedish Robotic Timber Apartments)",
+      "Intelligent City (Mass-Timber Robotic Prefab)",
+      "Cover, Boxabl & BoKlok Modular Systems",
+      "Singapore Housing & Development Board (HDB)",
+      "TallWood Design Institute"
+    ],
+    "globalPrecedents": [
+      "Vienna Municipal & Limited-Profit Housing (60% of Residents, ~€650/mo)",
+      "Tokyo National By-Right Zoning (More Homes Built Than CA or England)",
+      "Singapore HDB + CPF (~89% Homeownership & Sky-Garden Towns)",
+      "Sweden Indoor Timber Prefabrication (85% of Detached Homes)"
+    ],
+    "synergyLinks": [
+      "universal-capital-dividends",
+      "compute-commons-taxation",
+      "forty-eight-hour-governance",
+      "intergenerational-villages"
+    ],
+    "infographic": {
+      "headlineMetric": "$140k / 30 Days",
+      "headlineLabel": "Sunlit Net-Zero Mass-Timber Courtyard Home",
+      "unit": "Delivered Price of Urban 1,200 Sq Ft Family Home ($2026)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "24-Mo NIMBY Delays + Manual Outdoor Stick-Framing",
+          "value": 620000,
+          "display": "$620,000"
+        },
+        {
+          "year": 2029,
+          "label": "Tokyo 48-Hr By-Right Zoning + Single-Stair + Factory Code",
+          "value": 360000,
+          "display": "$360,000"
+        },
+        {
+          "year": 2032,
+          "label": "100 Regional Lindbäcks-Class Robotic CLT Factories",
+          "value": 195000,
+          "display": "$195,000"
+        },
+        {
+          "year": 2035,
+          "label": "Vienna Civic Land Trusts + Full Mass-Timber Scale",
+          "value": 140000,
+          "display": "$125k–$165k"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Vienna Rent Benchmark",
+          "value": "~€650/mo",
+          "detail": "60% of citizens live in architect-designed social/GBV homes"
+        },
+        {
+          "label": "Lindbäcks Factory Speed",
+          "value": "38 Minutes",
+          "detail": "Robotic indoor cycle time per finished timber apartment module"
+        },
+        {
+          "label": "Permit Approval Time",
+          "value": "48 Hours",
+          "detail": "Down from 24 months via pre-certified Digital Twin templates"
+        },
+        {
+          "label": "Household Shelter Share",
+          "value": "11%–14%",
+          "detail": "Down from 42%+ rent burden, freeing $24k+/yr per family"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Wiener Wohnen & Vienna Limited-Profit Housing (GBV)",
+        "url": "https://www.wienerwohnen.at/"
+      },
+      {
+        "name": "Lindbäcks Bygg (Swedish Robotic Timber Apartments)",
+        "url": "https://lindbacks.se/"
+      },
+      {
+        "name": "Intelligent City (Mass-Timber Robotic Prefab)",
+        "url": "https://en.wikipedia.org/wiki/Cross-laminated_timber"
+      },
+      {
+        "name": "Cover, Boxabl & BoKlok Modular Systems",
+        "url": "https://oklo.com/"
+      },
+      {
+        "name": "Singapore Housing & Development Board (HDB)",
+        "url": "https://www.hdb.gov.sg/"
+      },
+      {
+        "name": "TallWood Design Institute",
+        "url": "https://tallwoodinstitute.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Vienna Municipal & Limited-Profit Housing (60% of Residents, ~€650/mo)",
+        "url": "https://www.wienerwohnen.at/"
+      },
+      {
+        "name": "Tokyo National By-Right Zoning (More Homes Built Than CA or England)",
+        "url": "https://en.wikipedia.org/wiki/Urban_planning"
+      },
+      {
+        "name": "Singapore HDB + CPF (~89% Homeownership & Sky-Garden Towns)",
+        "url": "https://www.hdb.gov.sg/"
+      },
+      {
+        "name": "Sweden Indoor Timber Prefabrication (85% of Detached Homes)",
+        "url": "https://en.wikipedia.org/wiki/Prefabricated_home"
+      }
+    ]
+  },
+  {
+    "slug": "ending-homelessness-villages",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/ending-homelessness-villages",
+    "v1Slug": "homelessness",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": true,
+    "title": "Zero Unsheltered Neighbors in 30 Months: Finland Housing First + Austin Dignity Villages",
+    "tagline": "Ending sidewalk encampments in 30 months for one-third the cost of sweeps by uniting Helsinki's private keys, Houston's single dashboard, Austin's villages, and Tri-Track neuro-care.",
+    "cynicBelief": "Sidewalk tent encampments, open-air fentanyl tragedy, and transit psychosis are permanent in modern cities—we already spend billions and nothing works except endless sweeps or decay.",
+    "breakthroughCounter": "Cities burn $75,000/yr per unhoused neighbor on futile ER/jail sweeps! Meanwhile, Finland's Y-Foundation cut chronic homelessness >80% (virtually zero street sleeping in Helsinki, saving €15k/person/yr), Houston's unified Way Home dashboard housed 30,000+ people (-63% unsheltered), and Austin's Community First! Village hit 86% retention across sunlit micro-homes and artisan barns.",
+    "socialNormShift": "Replacing chaotic gym-mat cots and 5-year $750k condo bottlenecks with 30-day state-preempted $22k solar micro-cottages, one outcome-paid dashboard, and Compassionate Tri-Track care (rent bridge, GLP-1/LIFU addiction villages, and muscarinic garden villas).",
+    "humanStory": {
+      "protagonist": "Marcus Bell, 52-Year-Old Village Ceramist & Former Overpass Resident",
+      "location": "Seattle Evergreen Village & Austin Community First! Model",
+      "snippet": "After years of $78,000/yr ER-to-asphalt cycling, a peer navigator matched Marcus in 20 minutes via a Houston-style live tablet into a lockable cedar cottage, quieted his fentanyl cravings biologically with GLP-1 therapy, and welcomed him into the pottery barn—where he now earns $1,400/month, pays $380 rent proudly, and hosts Tuesday porch pancakes."
+    },
+    "quote": {
+      "text": "The catastrophic loss of family is the primary driver of homelessness—housing alone will never solve homelessness, but community will.",
+      "author": "Alan Graham",
+      "role": "Founder & CEO, Mobile Loaves & Fishes / Community First! Village",
+      "url": "https://mlf.org/community-first/"
+    },
+    "companiesAndLabs": [
+      "Community First! Village / Mobile Loaves & Fishes (Austin)",
+      "Y-Foundation / Y-Säätiö (Finland Housing First)",
+      "Coalition for the Homeless of Houston / Harris County (The Way Home)",
+      "Pallet Shelter & Eden Village Micro-Communities",
+      "WVU Rockefeller Neuroscience Institute (LIFU Addiction Reset)",
+      "Built for Zero (Community Solutions By-Name Network)"
+    ],
+    "globalPrecedents": [
+      "Finland Housing First (>80% Chronic Drop, €15k/yr Net Savings)",
+      "Houston Way Home Single Dashboard (30,000+ Housed, -63% Unsheltered)",
+      "Austin Community First! Village (51 -> 180+ Acres, 86%+ Retention)",
+      "20+ US Cities Reaching Built-for-Zero Veteran Functional Zero"
+    ],
+    "synergyLinks": [
+      "craving-reset-mental-health",
+      "abundant-beautiful-housing",
+      "zero-cliff-safety-nets",
+      "forty-eight-hour-governance"
+    ],
+    "infographic": {
+      "headlineMetric": "Zero in 30 Mos",
+      "headlineLabel": "86% Village Retention at -68% Taxpayer Cost",
+      "unit": "Unsheltered Street Homelessness per 10,000 Metro Residents",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "$75k/yr Sweep-ER-Jail Cycle & 200 Siloed Nonprofits",
+          "value": 28.0,
+          "display": "28.0 per 10k"
+        },
+        {
+          "year": 2027,
+          "label": "Houston Dashboard + 30-Day Preemption ($22k Cottages)",
+          "value": 14.5,
+          "display": "14.5 per 10k"
+        },
+        {
+          "year": 2028,
+          "label": "Austin Dignity Villages & GLP-1/Muscarinic Tri-Track Live",
+          "value": 4.2,
+          "display": "4.2 per 10k"
+        },
+        {
+          "year": 2029,
+          "label": "Month 30 Functional Zero (<48 Hrs to Private Door)",
+          "value": 0.4,
+          "display": "~0 (Helsinki Zero)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Finland Street Rough-Sleep",
+          "value": "~0 (-80%+)",
+          "detail": "Saves €15,000/person/yr by converting shelters to studios"
+        },
+        {
+          "label": "Houston Unified Cut",
+          "value": "-63%",
+          "detail": "30,000+ permanently housed via one live by-name dashboard"
+        },
+        {
+          "label": "Austin Village Retention",
+          "value": "86%+",
+          "detail": "Porches, resident mentors & paid craft heal social isolation"
+        },
+        {
+          "label": "Annual Taxpayer Savings",
+          "value": "$51M / 1,000",
+          "detail": "$24k/yr village cure vs. $75k/yr burned on ERs & sweeps"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Community First! Village / Mobile Loaves & Fishes (Austin)",
+        "url": "https://mlf.org/community-first/"
+      },
+      {
+        "name": "Y-Foundation / Y-Säätiö (Finland Housing First)",
+        "url": "https://ysaatio.fi/en/"
+      },
+      {
+        "name": "Coalition for the Homeless of Houston / Harris County (The Way Home)",
+        "url": "https://www.homelesshouston.org/"
+      },
+      {
+        "name": "Pallet Shelter & Eden Village Micro-Communities",
+        "url": "https://palletshelter.com/"
+      },
+      {
+        "name": "WVU Rockefeller Neuroscience Institute (LIFU Addiction Reset)",
+        "url": "https://rni.wvumedicine.org/"
+      },
+      {
+        "name": "Built for Zero (Community Solutions By-Name Network)",
+        "url": "https://community.solutions/built-for-zero/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Finland Housing First (>80% Chronic Drop, €15k/yr Net Savings)",
+        "url": "https://ysaatio.fi/en/housing-first/"
+      },
+      {
+        "name": "Houston Way Home Single Dashboard (30,000+ Housed, -63% Unsheltered)",
+        "url": "https://www.homelesshouston.org/"
+      },
+      {
+        "name": "Austin Community First! Village (51 -> 180+ Acres, 86%+ Retention)",
+        "url": "https://mlf.org/community-first/"
+      },
+      {
+        "name": "20+ US Cities Reaching Built-for-Zero Veteran Functional Zero",
+        "url": "https://community.solutions/built-for-zero/"
+      }
+    ]
+  }
+]

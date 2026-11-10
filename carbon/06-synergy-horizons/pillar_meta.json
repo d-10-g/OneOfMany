@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "cost-of-living-collapse",
+    "pillarId": "synergy-horizons",
+    "folderRel": "carbon/06-synergy-horizons/cost-of-living-collapse",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "The Household Abundance Dividend: How Energy × Robotics × Bio Slashes Family Costs 70%",
+    "tagline": "Walking line-by-line across a median family's kitchen table as clean energy, factory mass-timber homes, autonomous electric pods, precision biology, and 1.5% Homestead bonds drop monthly living costs from $7,400 to $2,150.",
+    "cynicBelief": "Future breakthroughs will only pad tech-monopoly stock prices while ordinary working families stay trapped paying $2,600 rents, $1,100 health insurance bills, $950 groceries, and $850 car notes forever.",
+    "breakthroughCounter": "85% of a family's 2026 budget sat trapped in five un-automated scarcity bottlenecks. When sub-penny solar/geothermal/fusion, robotic mass-timber homes on 1.5% Homestead bonds ($620/mo), local vertical/fermented organic foods ($380/mo), $0.20/mi electric pods ($160/mo), billing-free AI direct care ($65/mo), and free 2-Sigma + Guild schools converge simultaneously, core family thriving plunges from $7,400/mo to $1,374/mo ($2,150/mo including $776 of travel and arts!).",
+    "socialNormShift": "Pairing physical learning-curve abundance (Pillars 1–3) with speculator-free civic rules (Pillar 4) so 100% of technological deflation flows into 20-hour human workweeks, family baby booms, and Main Street joy.",
+    "humanStory": {
+      "protagonist": "Chidi (39, Watershed Restorer) & Nadia Okafor (37, Choral Director)",
+      "location": "Piedmont Courtyard Commons, Suburban Atlanta, Georgia",
+      "snippet": "In 2026, Chidi and Nadia ground out 90 hours/week in traffic to pay $7,350/month in bills; by 2035, a $620/mo mass-timber solar home, $14 utilities, $65 direct care, dawn-picked local berries, and +$1,100/mo Citizen Dividends let both work 22 joyful hours/week, welcome baby #3, and take every Friday afternoon off."
+    },
+    "quote": {
+      "text": "When clean energy, autonomous transport, robotics, and precision biology converge simultaneously, they don't just improve industries—they trigger a tenfold collapse in the cost of living.",
+      "author": "Dr. Tony Seba",
+      "role": "Co-Founder, RethinkX",
+      "url": "https://www.rethinkx.com/"
+    },
+    "companiesAndLabs": [
+      "RethinkX Disruption Modeling",
+      "Stanford Digital Economy Lab",
+      "NREL SolarAPP+ & Perovskite Tandem Labs",
+      "Lindbäcks & Robotic Mass-Timber Factories",
+      "Direct Primary Care Coalition",
+      "Waymo / Autonomous Pod Micro-Transit Networks"
+    ],
+    "globalPrecedents": [
+      "98% Deflation Curve in Computing, Solar PV & LEDs (1990–2026)",
+      "Vienna Gemeindebauten & Singapore HDB Universal Affordable Housing",
+      "Denmark 1.5%-Tier Covered Homestead Pass-Through Financing",
+      "Australian $0.90/W Installed Rooftop Solar Soft-Cost Benchmark"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "abundant-beautiful-housing",
+      "sovereign-debt-jubilee",
+      "healthcare-without-billing",
+      "precision-fermentation-rewilding",
+      "universal-capital-dividends"
+    ],
+    "infographic": {
+      "headlineMetric": "-71% Costs",
+      "headlineLabel": "Monthly Family Budget ($7,400 → $2,150/mo)",
+      "unit": "Median 4-Person Household Monthly Cost of Thriving ($/Month)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "The 80-Hr Squeeze ($2.6k Rent, $1.2k Care, $1.1k Health, $950 Food, $850 Cars)",
+          "value": 7400,
+          "display": "$7,400 / mo"
+        },
+        {
+          "year": 2029,
+          "label": "Medical Debt Wipeout, Direct Care, SolarAPP+ & One-Car Freedom",
+          "value": 4850,
+          "display": "$4,850 / mo"
+        },
+        {
+          "year": 2032,
+          "label": "Factory Mass-Timber 1.5% Homesteads, 2-Sigma Schools & $0.20/Mi Pods",
+          "value": 3100,
+          "display": "$3,100 / mo"
+        },
+        {
+          "year": 2035,
+          "label": "Full 6-Pillar Convergence ($1,374 Essentials + $776 Pure Joy/Travel)",
+          "value": 2150,
+          "display": "$2,150 / mo"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "3BR Timber Solar Home",
+          "value": "$620 / mo",
+          "detail": "Down from $2,600/mo via $145k factory build + 1.5% Homestead bond"
+        },
+        {
+          "label": "Power & Unlimited Water",
+          "value": "$14 / mo",
+          "detail": "Flat stewardship fee via 35.5% solar roof + 100-hr iron-air grid"
+        },
+        {
+          "label": "AI Direct Care + Gene Shield",
+          "value": "$65 / mo",
+          "detail": "Down from $1,100/mo by skipping 35% insurance billing bloat"
+        },
+        {
+          "label": "Core Survival Floor",
+          "value": "$1,374 / mo",
+          "detail": "Covered by ~18 hrs/wk guild work + Citizen Equity Dividends"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "RethinkX Disruption Modeling",
+        "url": "https://www.rethinkx.com/"
+      },
+      {
+        "name": "Stanford Digital Economy Lab",
+        "url": "https://digitaleconomy.stanford.edu/"
+      },
+      {
+        "name": "NREL SolarAPP+ & Perovskite Tandem Labs",
+        "url": "https://www.energy.gov/eere/solar/solar-energy-technologies-office"
+      },
+      {
+        "name": "Lindbäcks & Robotic Mass-Timber Factories",
+        "url": "https://lindbacks.se/"
+      },
+      {
+        "name": "Direct Primary Care Coalition",
+        "url": "https://www.dpcare.org/"
+      },
+      {
+        "name": "Waymo / Autonomous Pod Micro-Transit Networks",
+        "url": "https://waymo.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "98% Deflation Curve in Computing, Solar PV & LEDs (1990–2026)",
+        "url": "https://ourworldindata.org/cheap-renewables-growth"
+      },
+      {
+        "name": "Vienna Gemeindebauten & Singapore HDB Universal Affordable Housing",
+        "url": "https://en.wikipedia.org/wiki/Gemeindebau"
+      },
+      {
+        "name": "Denmark 1.5%-Tier Covered Homestead Pass-Through Financing",
+        "url": "https://en.wikipedia.org/wiki/Mortgage_industry_of_Denmark"
+      },
+      {
+        "name": "Australian $0.90/W Installed Rooftop Solar Soft-Cost Benchmark",
+        "url": "https://arena.gov.au/renewable-energy/solar-pv-rd/"
+      }
+    ]
+  },
+  {
+    "slug": "cynicism-to-agency",
+    "pillarId": "synergy-horizons",
+    "folderRel": "carbon/06-synergy-horizons/cynicism-to-agency",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "The Antidote to Doomerism: Why Cynicism Feels Smart, Why It's Empirically Wrong, and How We Build",
+    "tagline": "Unmasking Stanford's 'Cynic Illusion' with the 40-country Lost Wallet proof and humanity's 99.8% solar, Ozone, and child-survival victories—plus a 30-day Citizen Agency Playbook for your town.",
+    "cynicBelief": "Being cynical proves you're smart and realistic—strangers are selfish, global treaties always fail, lobbies block every clean breakthrough, and one ordinary citizen can't change anything.",
+    "breakthroughCounter": "Stanford psychologist Jamil Zaki proved 'the cynic illusion': while 70% of people assume cynics are smarter, 200,000-person studies show cynics score lower on cognitive ability and lie detection—and when researchers dropped 17,000 cash-filled wallets across 40 countries, 72% were returned intact! Meanwhile, humanity already healed the Ozone Layer (197/197 nations), cut U.S. acid rain 94%, slashed global child mortality >75%, and dropped solar PV costs 99.8%.",
+    "socialNormShift": "Trading midnight doomscrolling (unpaid PR for the status quo) for 'Hopeful Skepticism'—spending two hours a week running proven high-trust, housing, debt-relief, and clean-energy plays with neighbors whose names you know.",
+    "humanStory": {
+      "protagonist": "Maya (26, Structural Drafter & Former Midnight Doomscroller)",
+      "location": "Tacoma, Washington",
+      "snippet": "Almost texting 'What's the point?' at 11:45 PM, Maya showed up to a 14-neighbor meetup instead, sketched three-story mass-timber bungalows on a 7-day Polis poll that won 84% renter-and-homeowner consensus, and stood in a yellow hard hat 11 months later as 18 $780/mo starter homes rose beside cherry trees."
+    },
+    "quote": {
+      "text": "Cynicism masquerades as wisdom, but hope is not naive optimism—hopeful skepticism sees problems clearly and refuses to surrender our collective power to solve them.",
+      "author": "Prof. Jamil Zaki",
+      "role": "Professor of Psychology, Stanford University & Author of Hope for Cynics",
+      "url": "https://ssnl.stanford.edu/"
+    },
+    "companiesAndLabs": [
+      "Stanford Social Neuroscience Lab (Prof. Jamil Zaki)",
+      "Our World in Data (Oxford — Max Roser & Dr. Hannah Ritchie)",
+      "Gapminder Foundation (Hans Rosling — Factfulness)",
+      "UNEP / WMO Ozone Secretariat",
+      "Science Global Civic Honesty Consortium (Cohn et al.)",
+      "Solutions Journalism Network"
+    ],
+    "globalPrecedents": [
+      "1987 Montreal Protocol (197/197 Nations; 99%+ CFCs Phased Out; Ozone Healing)",
+      "1990 Clean Air Act (-94% U.S. Acid Rain SO2 at 1/4th Predicted Cost)",
+      "Global Under-5 Child Mortality Cut >75% & Smallpox Eradicated (100M+ Saved)",
+      "Solar PV 99.8% Price Drop Since 1976 (Beating 20 Straight Years of Forecasts)"
+    ],
+    "synergyLinks": [
+      "cost-of-living-collapse",
+      "bridging-consensus-trust",
+      "high-trust-civic-norms",
+      "forty-eight-hour-governance",
+      "sovereign-debt-jubilee",
+      "fusion-power"
+    ],
+    "infographic": {
+      "headlineMetric": "-99.8% Solar",
+      "headlineLabel": "& 72% Cash Wallets Returned Globally",
+      "unit": "Empirical Reality vs. Cynical Public Guess (% Positive Outcome)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 1987,
+          "label": "Montreal Protocol Signed by All 197 Nations (99%+ Ozone CFCs Eliminated)",
+          "value": 99,
+          "display": "99%+ CFCs out"
+        },
+        {
+          "year": 2019,
+          "label": "40-Country Science Wallet Test (Cynics Guessed <25%; Reality 72% Returned)",
+          "value": 72,
+          "display": "72% honest return"
+        },
+        {
+          "year": 2026,
+          "label": "Solar PV Down 99.8% Since 1976 & Global Child Survival Up 4x",
+          "value": 99.8,
+          "display": "-99.8% solar cost"
+        },
+        {
+          "year": 2035,
+          "label": "60 Carbon Pathways Scaled via Local Hopeful Skepticism",
+          "value": 100,
+          "display": "60/60 live SOTA"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Lost Cash Wallets Returned",
+          "value": "72% Intact",
+          "detail": "17,303-wallet Science study across 355 cities; more cash = more honesty"
+        },
+        {
+          "label": "Ozone Treaty Adoption",
+          "value": "197 / 197",
+          "detail": "Every nation on Earth cooperated; full ozone shield recovery on track"
+        },
+        {
+          "label": "Acid Rain SO2 Cut",
+          "value": "-94% (U.S.)",
+          "detail": "Solved at one-fourth predicted cost while economy grew 2.5x"
+        },
+        {
+          "label": "Solar Learning Curve",
+          "value": "-99.8%",
+          "detail": "Fell from >$100/W (1976) to <$0.09/W, beating 20 yrs of flat forecasts"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Stanford Social Neuroscience Lab (Prof. Jamil Zaki)",
+        "url": "https://ssnl.stanford.edu/"
+      },
+      {
+        "name": "Our World in Data (Oxford — Max Roser & Dr. Hannah Ritchie)",
+        "url": "https://ourworldindata.org/energy"
+      },
+      {
+        "name": "Gapminder Foundation (Hans Rosling — Factfulness)",
+        "url": "https://www.gapminder.org/"
+      },
+      {
+        "name": "UNEP / WMO Ozone Secretariat",
+        "url": "https://ozone.unep.org/"
+      },
+      {
+        "name": "Science Global Civic Honesty Consortium (Cohn et al.)",
+        "url": "https://www.science.org/doi/10.1126/science.aau8712"
+      },
+      {
+        "name": "Solutions Journalism Network",
+        "url": "https://www.solutionsjournalism.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "1987 Montreal Protocol (197/197 Nations; 99%+ CFCs Phased Out; Ozone Healing)",
+        "url": "https://ozone.unep.org/treaties/montreal-protocol"
+      },
+      {
+        "name": "1990 Clean Air Act (-94% U.S. Acid Rain SO2 at 1/4th Predicted Cost)",
+        "url": "https://www.epa.gov/acidrain/acid-rain-program"
+      },
+      {
+        "name": "Global Under-5 Child Mortality Cut >75% & Smallpox Eradicated (100M+ Saved)",
+        "url": "https://ourworldindata.org/child-mortality"
+      },
+      {
+        "name": "Solar PV 99.8% Price Drop Since 1976 (Beating 20 Straight Years of Forecasts)",
+        "url": "https://ourworldindata.org/cheap-renewables-growth"
+      }
+    ]
+  }
+]

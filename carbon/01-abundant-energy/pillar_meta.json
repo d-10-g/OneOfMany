@@ -1,0 +1,1432 @@
+[
+  {
+    "slug": "fusion-power",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/fusion-power",
+    "v1Slug": "fusion",
+    "v1TrackId": "abundant-energy",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Compact Commercial Fusion",
+    "tagline": "20-compact superconducting magnets and pulsed power shrink fusion cores 40x—repowering retired coal switchyards with 24/7 bottled starlight.",
+    "cynicBelief": "Fusion is thirty years away and always will be—a multi-billion-dollar government science project trapped in cathedral-sized tokamaks that burn taxpayer cash faster than deuterium.",
+    "breakthroughCounter": "REBCO 20T high-field superconducting tape (scaling fusion power density via B⁴) shrank plasma chambers >40x. By late 2026, CFS has raised ~$4B with SPARC 85%+ assembled in Massachusetts for 2027 net energy and a 400 MWe Virginia ARC plant contracted to Google, while Helion's Orion in Washington holds the world's first commercial fusion power license for a 2028 Microsoft PPA.",
+    "socialNormShift": "Regulating fusion like hospital particle accelerators (US NRC 10 CFR Part 30) and dropping compact cores into 2,400+ GW of retiring coal switchyards shifts electricity from anxious per-kilowatt scarcity metering to calm, flat-rate monthly abundance.",
+    "humanStory": {
+      "protagonist": "Mateo Vance, Third-Generation Substation Lineman",
+      "location": "Chesterfield County, Virginia",
+      "snippet": "Beside kayak docks that replaced six stories of coal ash, Mateo routes 400 MWe from a timber-clad ARC fusion hall through his grandfather's 1974 coal switchyard—while winter district warmth grows Meyer lemons down the street and families pay a flat $14/month grid membership."
+    },
+    "quote": {
+      "text": "Every energy source in human history is a form of hunting and gathering... If you know how to build a fusion plant, you can build one wherever it's needed. That turns energy into a technology, and technologies face far fewer limits on how fast they spread or who gets access.",
+      "author": "Dr. Bob Mumgaard",
+      "role": "Co-Founder & CEO, Commonwealth Fusion Systems",
+      "url": "https://cfs.energy/"
+    },
+    "companiesAndLabs": [
+      "Commonwealth Fusion Systems (CFS)",
+      "Helion Energy",
+      "Proxima Fusion",
+      "Pacific Fusion",
+      "Type One Energy",
+      "MIT PSFC & Max Planck IPP"
+    ],
+    "globalPrecedents": [
+      "US NRC Unanimous 10 CFR Part 30 Accelerator Rule",
+      "Washington State Orion Commercial Fusion License",
+      "UK Fusion Futures STEP Coal Repowering (West Burton)",
+      "Bavaria Gundremmingen Stellarator Repowering Plan"
+    ],
+    "synergyLinks": [
+      "superconducting-grids",
+      "synthetic-sky-fuels",
+      "aquifer-rivers-desalination",
+      "inverse-materials-design"
+    ],
+    "infographic": {
+      "headlineMetric": "40x Smaller Core",
+      "headlineLabel": "20T+ REBCO B⁴ Fusion Density",
+      "unit": "Firm Commercial Fusion LCOE ($/MWh)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "FOAK PPA Contracts (SPARC & Orion Build)",
+          "value": 95,
+          "display": "$85–$110/MWh"
+        },
+        {
+          "year": 2030,
+          "label": "First Grid MWe & Early Coal Switchyard Retrofits",
+          "value": 62,
+          "display": "$55–$70/MWh"
+        },
+        {
+          "year": 2035,
+          "label": "45+ GW Standardized Factory Core Fleet",
+          "value": 36,
+          "display": "$30–$42/MWh"
+        },
+        {
+          "year": 2040,
+          "label": "250+ GW Shipyard Serial Production + Heat Credit",
+          "value": 20,
+          "display": "$16–$24/MWh"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "SPARC Assembly",
+          "value": "85%+ Built",
+          "detail": "Devens, MA tokamak on track for 2027 Q > 1"
+        },
+        {
+          "label": "Helion Polaris / Orion",
+          "value": "150M °C",
+          "detail": "1st licensed commercial fusion plant (2028 MSFT PPA)"
+        },
+        {
+          "label": "Coal Switchyard Reuse",
+          "value": "2,400+ GW",
+          "detail": "Pre-wired global substations skip 8-yr grid queues"
+        },
+        {
+          "label": "Active Plasma Fuel",
+          "value": "<1 Gram",
+          "detail": "Zero chain-reaction meltdown physics (Part 30)"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Commonwealth Fusion Systems (CFS)",
+        "url": "https://cfs.energy/"
+      },
+      {
+        "name": "Helion Energy",
+        "url": "https://www.helionenergy.com/"
+      },
+      {
+        "name": "Proxima Fusion",
+        "url": "https://www.proximafusion.com/"
+      },
+      {
+        "name": "Pacific Fusion",
+        "url": "https://www.pacificfusion.com/"
+      },
+      {
+        "name": "Type One Energy",
+        "url": "https://typeoneenergy.com/"
+      },
+      {
+        "name": "MIT PSFC & Max Planck IPP",
+        "url": "https://www.psfc.mit.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "US NRC Unanimous 10 CFR Part 30 Accelerator Rule",
+        "url": "https://www.nrc.gov/materials/fusion-energy-systems.html"
+      },
+      {
+        "name": "Washington State Orion Commercial Fusion License",
+        "url": "https://www.helionenergy.com/"
+      },
+      {
+        "name": "UK Fusion Futures STEP Coal Repowering (West Burton)",
+        "url": "https://ccfe.ukaea.uk/"
+      },
+      {
+        "name": "Bavaria Gundremmingen Stellarator Repowering Plan",
+        "url": "https://www.proximafusion.com/"
+      }
+    ]
+  },
+  {
+    "slug": "perovskite-tandem-solar",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/perovskite-tandem-solar",
+    "v1Slug": "terrestrial-solar",
+    "v1TrackId": "abundant-energy",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "35.5% Perovskite-Silicon Tandems & Living Solar Skins",
+    "tagline": "Stacking sub-micron perovskite crystals onto silicon shatters the 29% ceiling—turning roofs, berry farms, and facades into <$8/MWh electron fountains.",
+    "cynicBelief": "Solar panels already hit their physics limit near 23%, pave over prime farmland with black glass, degrade in damp heat, and still cost American families $30,000 because of utility red tape.",
+    "breakthroughCounter": "LONGi certified a 35.5% crystalline silicon-perovskite tandem cell in 2026 while Oxford PV, Caelux, and Heliene ship 26%–28%+ commercial modules with IEC 61215 damp-heat armor. Combined with drought-shielding agrivoltaic canopies and 5-minute automated permitting, midday solar drops below $8/MWh.",
+    "socialNormShift": "Replacing four-month municipal paperwork with Australia/SolarAPP+ 5-minute instant digital permits, supermarket balcony plug-in solar, and 'Free Afternoon Power' tariffs democratizes clean wealth for farmers, homeowners, and apartment renters alike.",
+    "humanStory": {
+      "protagonist": "Elena Morales, Third-Generation Organic Berry Grower",
+      "location": "Pajaro Valley & Watsonville, California",
+      "snippet": "Beneath translucent ruby-tinted perovskite louvers, Elena's raspberries grow 22% plumper on 35% less irrigation water—while her farm's afternoon megawatts fund free town electric school buses and cooling centers."
+    },
+    "quote": {
+      "text": "For the first time in history, we can improve human wellbeing while reducing our environmental impact... abundance, not austerity, could define the next phase of climate progress.",
+      "author": "Hannah Ritchie",
+      "role": "Lead Researcher, Our World in Data & Author of Not the End of the World",
+      "url": "https://ourworldindata.org/energy"
+    },
+    "companiesAndLabs": [
+      "LONGi Green Energy",
+      "Oxford PV",
+      "Caelux & Heliene",
+      "Qcells & Swift Solar",
+      "Next2Sun & Sun'Agri",
+      "NREL (SolarAPP+)"
+    ],
+    "globalPrecedents": [
+      "Australia ~$0.90/W Instant-Permit Rooftop Solar (35%+ Homes)",
+      "California & US NREL SolarAPP+ 5-Minute Automated Permitting",
+      "Germany 1.5M+ Plug-In Balcony Solar Kits (Balkonkraftwerke)",
+      "Japan 4,000+ Dual-Harvest 'Solar Sharing' Agrivoltaic Farms"
+    ],
+    "synergyLinks": [
+      "iron-sodium-storage",
+      "synthetic-sky-fuels",
+      "aquifer-rivers-desalination",
+      "forty-eight-hour-governance"
+    ],
+    "infographic": {
+      "headlineMetric": "35.5% Record Cell",
+      "headlineLabel": "Perovskite-Silicon Tandem Efficiency",
+      "unit": "Sunny-Belt Wholesale Solar LCOE ($/MWh)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "27%–28.5% Early Tandems Shipping (35.5% Lab)",
+          "value": 22,
+          "display": "$18–$28/MWh"
+        },
+        {
+          "year": 2030,
+          "label": "31% Mainstream Tandems & Robotic Racking",
+          "value": 12,
+          "display": "$10–$14/MWh"
+        },
+        {
+          "year": 2035,
+          "label": "35% Mass Modules & Agrivoltaic Canopies",
+          "value": 7.5,
+          "display": "$6–$9/MWh"
+        },
+        {
+          "year": 2040,
+          "label": "37%+ Multi-Junction Living Building Skins",
+          "value": 4.5,
+          "display": "<$5/MWh"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Certified Cell SOTA",
+          "value": "35.5%",
+          "detail": "LONGi 2026 tandem (beats 29.4% silicon limit)"
+        },
+        {
+          "label": "Agrivoltaic Water Save",
+          "value": "-35% Water",
+          "detail": "Cooler crop shade + higher berry/vegetable yields"
+        },
+        {
+          "label": "Aussie / SolarAPP+ Roof",
+          "value": "~$0.90/W",
+          "detail": "5-minute automated permit slashes US soft costs"
+        },
+        {
+          "label": "Wright's Law Learning",
+          "value": "24% Drop",
+          "detail": "Cost reduction per cumulative global doubling"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "LONGi Green Energy",
+        "url": "https://www.longi.com/en/"
+      },
+      {
+        "name": "Oxford PV",
+        "url": "https://www.oxfordpv.com/"
+      },
+      {
+        "name": "Caelux & Heliene",
+        "url": "https://caelux.com/"
+      },
+      {
+        "name": "Qcells & Swift Solar",
+        "url": "https://us.qcells.com/"
+      },
+      {
+        "name": "Next2Sun & Sun'Agri",
+        "url": "https://next2sun.com/en/"
+      },
+      {
+        "name": "NREL (SolarAPP+)",
+        "url": "https://www.energy.gov/eere/solar/solar-energy-technologies-office"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Australia ~$0.90/W Instant-Permit Rooftop Solar (35%+ Homes)",
+        "url": "https://arena.gov.au/renewable-energy/solar-pv-rd/"
+      },
+      {
+        "name": "California & US NREL SolarAPP+ 5-Minute Automated Permitting",
+        "url": "https://www.energy.gov/eere/solar/solar-energy-technologies-office"
+      },
+      {
+        "name": "Germany 1.5M+ Plug-In Balcony Solar Kits (Balkonkraftwerke)",
+        "url": "https://en.wikipedia.org/wiki/Balcony_solar_power"
+      },
+      {
+        "name": "Japan 4,000+ Dual-Harvest 'Solar Sharing' Agrivoltaic Farms",
+        "url": "https://en.wikipedia.org/wiki/Agrivoltaics"
+      }
+    ]
+  },
+  {
+    "slug": "superhot-geothermal",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/superhot-geothermal",
+    "v1Slug": "geothermal",
+    "v1TrackId": "abundant-energy",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Everywhere Baseload: Enhanced & Superhot Rock Geothermal",
+    "tagline": "Horizontal diamond drilling and 400 °C+ superhot rock turn oilfield roughnecks into builders of 24/7 carbon-free power beneath any city.",
+    "cynicBelief": "Geothermal only works in rare volcanic postcards like Iceland or Yellowstone; drilling miles into dry granite chews up drill bits in hours, triggers earthquakes, and will never compete economically with natural gas.",
+    "breakthroughCounter": "Fervo Energy cut hard-granite drilling times >70% with synthetic diamond PDC bits, synchronized Cape Station (Utah)—the world's first commercial greenfield EGS—with the grid in 2026, and completed a $2.2B IPO, while Mazama and Quaise unlock 400 °C+ supercritical rock yielding 5x–10x power per well.",
+    "socialNormShift": "Rather than idling oil-and-gas towns, next-gen geothermal transfers 75% of oilfield rig skills directly into steady 40-year clean baseload, snow-free heated streets, and bipartisan fast-track permitting.",
+    "humanStory": {
+      "protagonist": "Wyatt Callahan, Former Permian Basin Directional Driller",
+      "location": "Milford & Beaver County, Utah",
+      "snippet": "Trading Texas oil-bust layoffs for Fervo's electric rigs at Cape Station, Wyatt walks ice-free geothermally warmed sidewalks past community greenhouses harvesting heirloom tomatoes in a January snowstorm."
+    },
+    "quote": {
+      "text": "By applying drilling technology from the oil and gas industry, we have proven that we can produce 24/7 carbon-free energy resources in new geographies across the world.",
+      "author": "Tim Latimer",
+      "role": "Co-Founder & CEO, Fervo Energy",
+      "url": "https://fervoenergy.com/"
+    },
+    "companiesAndLabs": [
+      "Fervo Energy",
+      "Mazama Energy",
+      "Quaise Energy",
+      "Eavor Technologies",
+      "Sage Geosystems",
+      "Vulcan Energy Resources"
+    ],
+    "globalPrecedents": [
+      "Iceland 90%+ Geothermal District Heating & Greenhouses",
+      "Cape Station Utah Commercial Greenfield EGS Grid Sync (2026)",
+      "Geretsried Bavaria Commercial Closed-Loop Eavor-Loop",
+      "US Bipartisan Federal Geothermal Categorical Exclusions"
+    ],
+    "synergyLinks": [
+      "geologic-hydrogen-harvesters",
+      "synthetic-sky-fuels",
+      "aquifer-rivers-desalination",
+      "displaced-worker-bridge"
+    ],
+    "infographic": {
+      "headlineMetric": "5x–10x MW / Well",
+      "headlineLabel": "400 °C+ Supercritical Rock Enthalpy",
+      "unit": "24/7 Dispatchable Geothermal LCOE ($/MWh)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Cape Station Live (5–8 MWe Horizontal EGS Wells)",
+          "value": 69,
+          "display": "$60–$78/MWh"
+        },
+        {
+          "year": 2030,
+          "label": "High-Temp EGS & Sealed Loops Undercut Gas",
+          "value": 48,
+          "display": "$42–$55/MWh"
+        },
+        {
+          "year": 2035,
+          "label": "Commercial 400 °C+ Superhot Wells (25–40 MWe)",
+          "value": 31,
+          "display": "$26–$36/MWh"
+        },
+        {
+          "year": 2040,
+          "label": "Deep Gyrotron + PDC Everywhere Baseload + Heat",
+          "value": 21,
+          "display": "$18–$25/MWh"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Drilling Speed Gain",
+          "value": ">70% Faster",
+          "detail": "PDC diamond bits + oilfield horizontal telemetry"
+        },
+        {
+          "label": "Fervo Cape Station",
+          "value": "$2.2B IPO",
+          "detail": "Grid-synced 2026 in Utah; Google & Meta PPAs"
+        },
+        {
+          "label": "Workforce Overlap",
+          "value": "75%+ Direct",
+          "detail": "Seamless transition for oil & gas rig crews"
+        },
+        {
+          "label": "Surface Footprint",
+          "value": "<10% Land",
+          "detail": "Closed-loop binary pads preserve wildlife habitat"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Fervo Energy",
+        "url": "https://fervoenergy.com/"
+      },
+      {
+        "name": "Mazama Energy",
+        "url": "https://www.energy.gov/eere/geothermal/enhanced-geothermal-systems"
+      },
+      {
+        "name": "Quaise Energy",
+        "url": "https://www.quaise.energy/"
+      },
+      {
+        "name": "Eavor Technologies",
+        "url": "https://www.eavor.com/"
+      },
+      {
+        "name": "Sage Geosystems",
+        "url": "https://www.sagegeosystems.com/"
+      },
+      {
+        "name": "Vulcan Energy Resources",
+        "url": "https://en.wikipedia.org/wiki/Direct_lithium_extraction"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Iceland 90%+ Geothermal District Heating & Greenhouses",
+        "url": "https://en.wikipedia.org/wiki/Geothermal_power_in_Iceland"
+      },
+      {
+        "name": "Cape Station Utah Commercial Greenfield EGS Grid Sync (2026)",
+        "url": "https://fervoenergy.com/"
+      },
+      {
+        "name": "Geretsried Bavaria Commercial Closed-Loop Eavor-Loop",
+        "url": "https://www.eavor.com/"
+      },
+      {
+        "name": "US Bipartisan Federal Geothermal Categorical Exclusions",
+        "url": "https://www.energy.gov/eere/geothermal/geothermal-basics"
+      }
+    ]
+  },
+  {
+    "slug": "space-solar-power",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/space-solar-power",
+    "v1Slug": "space-solar",
+    "v1TrackId": "abundant-energy",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Orbital Sunlight: 24/7 Space-Based Solar Beams",
+    "tagline": "Reusable super-heavy launch and solid-state phased arrays beam unfiltered 24/7 orbital sunshine through winter clouds to any spot on Earth.",
+    "cynicBelief": "Launching gigawatts of solar panels on rockets is absurdly expensive sci-fi—and beaming energy from orbit sounds like a giant orbital death ray that will fry birds in midair.",
+    "breakthroughCounter": "Starship's reusable heavy lift slashes orbital launch costs 20x–50x, Caltech's SSPD-1 MAPLE proved solid-state orbital beaming in space, Aetherflux is deploying LEO infrared power-beaming spacecraft, and JAXA/ESA phased-array microwave beams stay physics-locked near 245 W/m² (gentler than quarter-strength sunlight).",
+    "socialNormShift": "Just as satellite constellations brought instant internet to remote villages without trenching transoceanic fiber, software-steered orbital energy democratizes firm winter power and 2-second disaster relief without 10-year transmission clear-cuts.",
+    "humanStory": {
+      "protagonist": "Dr. Astrid Lindqvist, Arctic Microgrid Coordinator",
+      "location": "Kiruna, Swedish Lapland & Cebu Relief Partner",
+      "snippet": "During polar December darkness, reindeer graze calmly beneath Kiruna's translucent rectenna mesh as orbital sunshine powers zero-carbon steel—and spare megawatts reroute in two seconds to typhoon-struck island hospitals."
+    },
+    "quote": {
+      "text": "In the same way that the internet democratized access to information, we hope that wireless energy transfer democratizes access to energy.",
+      "author": "Prof. Ali Hajimiri",
+      "role": "Co-Director, Caltech Space Solar Power Project",
+      "url": "https://www.spacesolar.caltech.edu/"
+    },
+    "companiesAndLabs": [
+      "Caltech Space Solar Power Project",
+      "Aetherflux",
+      "JAXA (OHISAMA)",
+      "ESA SOLARIS",
+      "Space Solar (UK) & Reykjavik Energy",
+      "SpaceX (Starship Heavy Lift)"
+    ],
+    "globalPrecedents": [
+      "Caltech SSPD-1 MAPLE In-Orbit Wireless Power Steering Demo",
+      "JAXA OHISAMA & Long-Range Terrestrial Microwave Beaming",
+      "Iceland Reykjavik Energy + UK Space Solar 30 MW Pilot Pact",
+      "IEEE C95.1 Safe 245 W/m² Retrodirective Pilot-Beam Standard"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "orbital-radiative-compute",
+      "orbital-laser-mesh",
+      "aquifer-rivers-desalination"
+    ],
+    "infographic": {
+      "headlineMetric": "24/7 Unfiltered Sun",
+      "headlineLabel": "5x–8x Solar Harvest Above Clouds",
+      "unit": "Heavy-Lift Orbital Launch Cost ($/kg to LEO)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Falcon 9 Baseline & Early Starship Orbital Flights",
+          "value": 1200,
+          "display": "~$1,200/kg"
+        },
+        {
+          "year": 2030,
+          "label": "Routine Reusable Starship Cargo Cadence",
+          "value": 250,
+          "display": "$200–$300/kg"
+        },
+        {
+          "year": 2035,
+          "label": "High-Flight-Rate Spaceports & Ultralight Tiles",
+          "value": 110,
+          "display": "$80–$140/kg"
+        },
+        {
+          "year": 2040,
+          "label": "Commodity Orbital Freight (<$25/MWh Beamed Power)",
+          "value": 45,
+          "display": "<$50/kg"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "GEO Uptime",
+          "value": "99.7% / yr",
+          "detail": "Zero night, zero clouds, zero December slump"
+        },
+        {
+          "label": "Peak Beam Density",
+          "value": "~245 W/m²",
+          "detail": "1/4 noon summer sun; physics-locked & bird-safe"
+        },
+        {
+          "label": "Cloud Transparency",
+          "value": ">95% Pass",
+          "detail": "5.8 GHz RF pierces blizzards & monsoon storms"
+        },
+        {
+          "label": "Dual-Use Rectenna",
+          "value": "85% Daylight",
+          "detail": "Translucent mesh over grazing pastures & wind hubs"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Caltech Space Solar Power Project",
+        "url": "https://www.spacesolar.caltech.edu/"
+      },
+      {
+        "name": "Aetherflux",
+        "url": "https://www.aetherflux.com/"
+      },
+      {
+        "name": "JAXA (OHISAMA)",
+        "url": "https://global.jaxa.jp/"
+      },
+      {
+        "name": "ESA SOLARIS",
+        "url": "https://www.esa.int/"
+      },
+      {
+        "name": "Space Solar (UK) & Reykjavik Energy",
+        "url": "https://www.spacesolar.co.uk/"
+      },
+      {
+        "name": "SpaceX (Starship Heavy Lift)",
+        "url": "https://www.spacex.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Caltech SSPD-1 MAPLE In-Orbit Wireless Power Steering Demo",
+        "url": "https://www.spacesolar.caltech.edu/"
+      },
+      {
+        "name": "JAXA OHISAMA & Long-Range Terrestrial Microwave Beaming",
+        "url": "https://global.jaxa.jp/"
+      },
+      {
+        "name": "Iceland Reykjavik Energy + UK Space Solar 30 MW Pilot Pact",
+        "url": "https://www.spacesolar.co.uk/"
+      },
+      {
+        "name": "IEEE C95.1 Safe 245 W/m² Retrodirective Pilot-Beam Standard",
+        "url": "https://standards.ieee.org/ieee/C95.1/6006/"
+      }
+    ]
+  },
+  {
+    "slug": "advanced-fission",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/advanced-fission",
+    "v1Slug": "fission",
+    "v1TrackId": "abundant-energy",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Walk-Away-Safe Gen IV Fission & Microreactors",
+    "tagline": "Melt-proof 1,800 °C TRISO ceramic pebbles, atmospheric salt loops, and truck-delivered microreactors replace coal boilers and Arctic diesel.",
+    "cynicBelief": "Nuclear power means $35-billion bespoke concrete domes that run ten years behind schedule, require high-pressure water pipes that risk meltdowns if backup pumps fail, and leave behind ten-thousand-year waste.",
+    "breakthroughCounter": "TRISO silicon-carbide ceramic pebbles stay intact past 1,800 °C while passive Doppler physics halts reactions without pumps or valves. Kairos Power's atmospheric-pressure molten-salt reactors are rising in Oak Ridge for Google's 500 MW PPA, TerraPower's Natrium is repowering Kemmerer WY coal, and Radiant/Oklo microreactors fit on trucks.",
+    "socialNormShift": "Following France's 15-year Messmer Plan and the bipartisan US ADVANCE Act (88–2), standardized factory assembly and fence-line passive safety turn nuclear from terrifying one-off megaprojects into welcomed coal-town and off-grid industrial appliances.",
+    "humanStory": {
+      "protagonist": "Kendra Halvorsen, Former Coal-Plant Control Operator",
+      "location": "Kemmerer, Wyoming & Kotzebue, Alaska",
+      "snippet": "Fifty yards from her father's retired coal station, Kendra dispatches 500 MWe of molten-salt-buffered clean peaking from TerraPower's Natrium island—while in Arctic Alaska, a quiet container microreactor retires $9/gallon diesel barges forever."
+    },
+    "quote": {
+      "text": "To make nuclear affordable and abundant, we don't need miracle physics—we need rapid, iterative hardware engineering combined with intrinsic walk-away safety.",
+      "author": "Mike Laufer",
+      "role": "Co-Founder & CEO, Kairos Power",
+      "url": "https://kairospower.com/"
+    },
+    "companiesAndLabs": [
+      "Kairos Power",
+      "TerraPower (Natrium)",
+      "X-energy",
+      "Radiant Nuclear",
+      "Oklo",
+      "Idaho National Laboratory (DOME)"
+    ],
+    "globalPrecedents": [
+      "France 15-Year Messmer Plan (56 Standardized Reactors, <50g CO₂/kWh)",
+      "South Korea / UAE Barakah 4-Unit Serial Build (-35% Cost Curve)",
+      "US Bipartisan ADVANCE Act (88–2 Senate Vote) Licensing Reform",
+      "INL Walk-Away Loss-of-Cooling Live Reactor Safety Demonstrations"
+    ],
+    "synergyLinks": [
+      "iron-sodium-storage",
+      "synthetic-sky-fuels",
+      "aquifer-rivers-desalination",
+      "forty-eight-hour-governance"
+    ],
+    "infographic": {
+      "headlineMetric": "1,800 °C Melt-Proof",
+      "headlineLabel": "TRISO Ceramic Walk-Away Safety",
+      "unit": "Factory Gen IV Overnight Capital Cost ($/kW)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Legacy One-Off LWR Baseline vs. Hermes/Natrium Builds",
+          "value": 8500,
+          "display": "$8,000–$9,500/kW"
+        },
+        {
+          "year": 2030,
+          "label": "First Commercial Gen IV Fleet & Container Microreactors",
+          "value": 4200,
+          "display": "~$4,200/kW"
+        },
+        {
+          "year": 2035,
+          "label": "35+ GW Serial Factory SMRs on Coal & Chemical Sites",
+          "value": 2400,
+          "display": "~$2,400/kW"
+        },
+        {
+          "year": 2040,
+          "label": "Assembly-Line Modules & Spent-Fuel Fast Recycling",
+          "value": 1650,
+          "display": "$1,500–$1,800/kW"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Coolant Pressure",
+          "value": "1 atm",
+          "detail": "Molten salt & sodium replace 150-atm water domes"
+        },
+        {
+          "label": "Google Kairos PPA",
+          "value": "500 MW",
+          "detail": "Multi-reactor commercial fleet order through 2035"
+        },
+        {
+          "label": "Natrium Salt Surge",
+          "value": "500 MWe",
+          "detail": "5.5-hr thermal tank boosts 345 MWe Kemmerer core"
+        },
+        {
+          "label": "Fast Fuel Recycling",
+          "value": "95% Energy",
+          "detail": "Consumes used nuclear fuel; cuts waste life to ~300 yrs"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Kairos Power",
+        "url": "https://kairospower.com/"
+      },
+      {
+        "name": "TerraPower (Natrium)",
+        "url": "https://www.terrapower.com/"
+      },
+      {
+        "name": "X-energy",
+        "url": "https://x-energy.com/"
+      },
+      {
+        "name": "Radiant Nuclear",
+        "url": "https://www.radiantnuclear.com/"
+      },
+      {
+        "name": "Oklo",
+        "url": "https://oklo.com/"
+      },
+      {
+        "name": "Idaho National Laboratory (DOME)",
+        "url": "https://inl.gov/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "France 15-Year Messmer Plan (56 Standardized Reactors, <50g CO₂/kWh)",
+        "url": "https://en.wikipedia.org/wiki/Nuclear_power_in_France"
+      },
+      {
+        "name": "South Korea / UAE Barakah 4-Unit Serial Build (-35% Cost Curve)",
+        "url": "https://en.wikipedia.org/wiki/Barakah_nuclear_power_plant"
+      },
+      {
+        "name": "US Bipartisan ADVANCE Act (88–2 Senate Vote) Licensing Reform",
+        "url": "https://www.nrc.gov/about-nrc/governing-laws/advance-act.html"
+      },
+      {
+        "name": "INL Walk-Away Loss-of-Cooling Live Reactor Safety Demonstrations",
+        "url": "https://inl.gov/nuclear-energy/"
+      }
+    ]
+  },
+  {
+    "slug": "iron-sodium-storage",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/iron-sodium-storage",
+    "v1Slug": "battery",
+    "v1TrackId": "abundant-energy",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "100-Hour Rust, Salt & Glowing Carbon Storage",
+    "tagline": "Reversible-rusting iron-air (<$20/kWh), sea-salt sodium-ion, and 1,500 °C glowing carbon blocks turn four-day winter calms into rock-solid clean baseload.",
+    "cynicBelief": "Solar and wind hit a brick wall the moment a cloudy winter calm lasts four days: lithium-ion batteries fade after four hours, catch fire, and would bankrupt the planet trying to mine enough cobalt and lithium for a week of backup.",
+    "breakthroughCounter": "Form Energy's Weirton, WV factory is shipping 100-hour iron-air batteries (<$20/kWh) using domestic iron pellets, water, and air; CATL and Natron mass-produce non-flammable -40 °C sodium-ion packs without lithium or cobalt; and Antora plus Rondo store noon electrons in 1,500 °C glowing carbon and brick.",
+    "socialNormShift": "Following South Australia's Hornsdale grid-forming proof, rust-belt steel towns manufacture multi-day weather shields from domestic iron, salt, and clay—retiring inner-city fossil peaker plants forever.",
+    "humanStory": {
+      "protagonist": "Darnell Kowalski, Third-Generation Weirton Steelworker",
+      "location": "Weirton, West Virginia & Ohio River Valley",
+      "snippet": "On the exact brownfield where Weirton Steel's blast furnaces went cold, Darnell loads 100-hour American iron-air batteries onto freight trains while nearby mills swap fracked gas boilers for silent 1,500 °C glowing carbon heat blocks."
+    },
+    "quote": {
+      "text": "Lithium-ion is great for four hours. The grid needs a hundred hours. Reversible rusting turns the most abundant metal on Earth into multi-day clean baseload.",
+      "author": "Mateo Jaramillo",
+      "role": "Co-Founder & CEO, Form Energy",
+      "url": "https://formenergy.com/"
+    },
+    "companiesAndLabs": [
+      "Form Energy",
+      "CATL (Naxtra) & Natron Energy",
+      "Antora Energy",
+      "Rondo Energy",
+      "Energy Dome",
+      "MIT & Princeton LDES Grid Labs"
+    ],
+    "globalPrecedents": [
+      "South Australia Hornsdale 140ms Grid-Forming Inverter Proof",
+      "Form Factory 1 Steel-Town Revival in Weirton, West Virginia",
+      "Sardinia 20 MW / 200 MWh Commercial Closed-Loop CO₂ Battery",
+      "CAISO & ERCOT 10,000+ MW Routine Nightly Battery Dispatch"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "superconducting-grids",
+      "synthetic-sky-fuels",
+      "displaced-worker-bridge"
+    ],
+    "infographic": {
+      "headlineMetric": "<$20 / kWh",
+      "headlineLabel": "100-Hour Iron-Air Multi-Day Storage",
+      "unit": "Multi-Day Storage Capital Cost ($/kWh Capacity)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "4-Hr Li-Ion (~$110) vs. First 100-Hr Iron-Air Parks",
+          "value": 24,
+          "display": "~$20–$25/kWh"
+        },
+        {
+          "year": 2030,
+          "label": "Scaled Iron-Air & <$10/kWh-th Thermal Firebricks",
+          "value": 17,
+          "display": "$15–$19/kWh"
+        },
+        {
+          "year": 2035,
+          "label": "Fossil Gas Peakers Retired Across US/EU Grids",
+          "value": 12,
+          "display": "$10–$14/kWh"
+        },
+        {
+          "year": 2040,
+          "label": "Universal 100-Hour Weather-Proof Baseload Shield",
+          "value": 8.5,
+          "display": "<$9/kWh"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Discharge Duration",
+          "value": "100 Hours",
+          "detail": "Conquers 4-day winter wind & sun droughts"
+        },
+        {
+          "label": "Sodium-Ion Cold Spec",
+          "value": "-40 °C Safe",
+          "detail": "1,000x more abundant than Li; zero fire risk"
+        },
+        {
+          "label": "Thermal Carbon / Brick",
+          "value": "1,500 °C+",
+          "detail": "40%+ TPV power & zero-carbon industrial steam"
+        },
+        {
+          "label": "Grid-Forming Speed",
+          "value": "140 ms",
+          "detail": "30x faster frequency stabilization than steam"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Form Energy",
+        "url": "https://formenergy.com/"
+      },
+      {
+        "name": "CATL (Naxtra) & Natron Energy",
+        "url": "https://www.catl.com/en/"
+      },
+      {
+        "name": "Antora Energy",
+        "url": "https://antora.com/"
+      },
+      {
+        "name": "Rondo Energy",
+        "url": "https://rondo.com/"
+      },
+      {
+        "name": "Energy Dome",
+        "url": "https://energydome.com/"
+      },
+      {
+        "name": "MIT & Princeton LDES Grid Labs",
+        "url": "https://energy.mit.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "South Australia Hornsdale 140ms Grid-Forming Inverter Proof",
+        "url": "https://hornsdalepowerreserve.com.au/"
+      },
+      {
+        "name": "Form Factory 1 Steel-Town Revival in Weirton, West Virginia",
+        "url": "https://formenergy.com/"
+      },
+      {
+        "name": "Sardinia 20 MW / 200 MWh Commercial Closed-Loop CO₂ Battery",
+        "url": "https://energydome.com/"
+      },
+      {
+        "name": "CAISO & ERCOT 10,000+ MW Routine Nightly Battery Dispatch",
+        "url": "https://www.caiso.com/"
+      }
+    ]
+  },
+  {
+    "slug": "superconducting-grids",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/superconducting-grids",
+    "v1Slug": "grid-improvement",
+    "v1TrackId": "abundant-energy",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Lossless HTS Superhighways & Autonomous Microgrids",
+    "tagline": "Wrist-thin superconducting cables tucked beside existing railroads move 5x–10x the gigawatts with zero loss—while parked EVs earn families cash.",
+    "cynicBelief": "Clean energy will choke to death in an eight-year transmission interconnection queue: rural landowners block ugly 160-foot high-voltage towers, copper transformers are backlogged for years, and electrifying cars will crash neighborhood wires.",
+    "breakthroughCounter": "VEIR and MetOx thread liquid-nitrogen-cooled REBCO superconducting cables along narrow rail and highway shoulders at 5x–10x corridor density with zero resistive loss; Heimdall/LineVision sensors + carbon-core wires double existing tower capacity in months; and Octopus Kraken + Tesla Electric orchestrate gigawatt residential VPPs.",
+    "socialNormShift": "Ending utility 'concrete-bias' rules via FERC Order 1920 and rail right-of-way co-location eliminates 10-year farmland condemnation battles while flipping households from passive ratepayers into paid Virtual Power Plant partners.",
+    "humanStory": {
+      "protagonist": "Maya Delgado, Public Elementary School Teacher",
+      "location": "McAllen, Rio Grande Valley, Texas",
+      "snippet": "During a 40 °C August sunset, Maya's parked bidirectional crossover exports 10 kW for an hour—pinging her phone with a +$68.40 VPP credit—while a buried railroad-shoulder VEIR superconducting pipe refills her battery overnight with West Texas wind."
+    },
+    "quote": {
+      "text": "Superconducting transmission lets us move gigawatts of clean power through corridors a fraction the width of conventional lines—without waiting a decade for new rights-of-way.",
+      "author": "Tim Heidel",
+      "role": "Co-Founder & CEO, VEIR",
+      "url": "https://veir.com/"
+    },
+    "companiesAndLabs": [
+      "VEIR & MetOx",
+      "SuperNode & Nexans",
+      "Heimdall Power & LineVision",
+      "TS Conductor & CTC Global",
+      "Octopus Energy (Kraken)",
+      "Heron Power & DG Matrix"
+    ],
+    "globalPrecedents": [
+      "Essen Germany (AmpaCity) 10+ Yr Urban Superconducting Cable",
+      "Chicago ComEd Permanent Downtown Superconducting Microgrid Loop",
+      "SOO Green & US DOT Rail/Highway Right-of-Way Co-Location",
+      "UK Ofgem RIIO & Octopus Kraken 50M-Account VPP Platform"
+    ],
+    "synergyLinks": [
+      "fusion-power",
+      "perovskite-tandem-solar",
+      "iron-sodium-storage",
+      "forty-eight-hour-governance"
+    ],
+    "infographic": {
+      "headlineMetric": "5x–10x Corridor GW",
+      "headlineLabel": "Zero-Resistance HTS Rail Arteries",
+      "unit": "Clean Project Grid Interconnection Wait (Months)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Legacy 5–8 Year US/EU Queue Backlog",
+          "value": 72,
+          "display": "60–96 Months"
+        },
+        {
+          "year": 2030,
+          "label": "DLR Sensors, Carbon Reconductoring & SiC SSTs",
+          "value": 12,
+          "display": "<12 Months"
+        },
+        {
+          "year": 2035,
+          "label": "Pre-Permitted Rail HTS Superhighways & VPP Tariffs",
+          "value": 3,
+          "display": "<90 Days"
+        },
+        {
+          "year": 2040,
+          "label": "Autonomous Plug-and-Play Continental DC Mesh",
+          "value": 1,
+          "display": "<30 Days"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "DLR Sensor Unlock",
+          "value": "+30%–40%",
+          "detail": "Instant wind-cooled capacity on existing wires"
+        },
+        {
+          "label": "Carbon-Core Swap",
+          "value": "2x Power",
+          "detail": "Doubles megawatts on existing towers without sag"
+        },
+        {
+          "label": "DC Wire Resistance",
+          "value": "0 Ohms",
+          "detail": "70K liquid-nitrogen REBCO eliminates I²R heat loss"
+        },
+        {
+          "label": "Driver V2G Payout",
+          "value": "$400–$900/yr",
+          "detail": "Cash credits for 1-hr sunset VPP grid support"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "VEIR & MetOx",
+        "url": "https://veir.com/"
+      },
+      {
+        "name": "SuperNode & Nexans",
+        "url": "https://supernode.energy/"
+      },
+      {
+        "name": "Heimdall Power & LineVision",
+        "url": "https://heimdallpower.com/"
+      },
+      {
+        "name": "TS Conductor & CTC Global",
+        "url": "https://tsconductor.com/"
+      },
+      {
+        "name": "Octopus Energy (Kraken)",
+        "url": "https://octopus.energy/"
+      },
+      {
+        "name": "Heron Power & DG Matrix",
+        "url": "https://www.heronpower.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Essen Germany (AmpaCity) 10+ Yr Urban Superconducting Cable",
+        "url": "https://en.wikipedia.org/wiki/High-temperature_superconductivity"
+      },
+      {
+        "name": "Chicago ComEd Permanent Downtown Superconducting Microgrid Loop",
+        "url": "https://www.comed.com/"
+      },
+      {
+        "name": "SOO Green & US DOT Rail/Highway Right-of-Way Co-Location",
+        "url": "https://soogreen.com/"
+      },
+      {
+        "name": "UK Ofgem RIIO & Octopus Kraken 50M-Account VPP Platform",
+        "url": "https://kraken.tech/"
+      }
+    ]
+  },
+  {
+    "slug": "geologic-hydrogen-harvesters",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/geologic-hydrogen-harvesters",
+    "v1Slug": "other",
+    "v1TrackId": "abundant-energy",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "White Geologic Hydrogen, Blue Osmotic & Ambient Harvesters",
+    "tagline": "Earth's iron-rich crust brews <$0.50/kg natural hydrogen, river mouths yield 24/7 osmotic salt power, and nanophotonic roofs beam heat to outer space.",
+    "cynicBelief": "Clean hydrogen is an energy-losing thermodynamic trap that wastes mountains of renewable electricity in expensive electrolyzers—and 'ambient energy harvesting' is a gimmick barely strong enough to run a pocket calculator.",
+    "breakthroughCounter": "USGS confirmed vast crustal reserves of natural 'white' hydrogen (proven >12 years in Mali and drilled in France, Australia, and the US by Koloma toward <$0.50/kg), while Sweetch Energy harvests river-mouth salinity gradients on France's Rhône delta and SkyCool panels chill roofs below shade air at noon using zero watts.",
+    "socialNormShift": "Modernized natural-hydrogen mining laws (South Australia, France, USA) let farming belts and Global South nations drill clean local fertilizer and fuel directly—free from imported gas shocks or gigawatt electrolyzer strain.",
+    "humanStory": {
+      "protagonist": "Amadou Diallo, Microgrid & Agro-Processing Technician",
+      "location": "Bourakebougou, Mali & Rhône Delta, France",
+      "snippet": "Checking the 98%-pure natural hydrogen wellhead that has kept his Malian town lit and mango coolers humming smoke-free for twelve years, Amadou hosts drilling apprentices bringing the same gift to French and Nebraska farm co-ops."
+    },
+    "quote": {
+      "text": "There is a vast amount of natural hydrogen in the Earth's crust—even recovering a small fraction of it could supply clean fuel for centuries.",
+      "author": "Dr. Geoffrey Ellis",
+      "role": "Research Geochemist & Geologic Hydrogen Lead, U.S. Geological Survey",
+      "url": "https://www.usgs.gov/centers/central-energy-resources-science-center/science/geologic-hydrogen"
+    },
+    "companiesAndLabs": [
+      "Koloma",
+      "Hydroma (Mali) & FDE (Moselle)",
+      "Gold Hydrogen & Eden GeoPower",
+      "Sweetch Energy & CNR",
+      "SkyCool Systems & SpaceCool",
+      "USGS & US DOE ARPA-E"
+    ],
+    "globalPrecedents": [
+      "Bourakebougou Mali 12+ Years 98%-Pure White Hydrogen Village Grid",
+      "South Australia World-First Natural Hydrogen Regulated Licensing",
+      "Moselle France Multi-Million-Ton White Hydrogen Discovery",
+      "Rhône Delta Barcarin Nanoporous Osmotic Power Pilot (France)"
+    ],
+    "synergyLinks": [
+      "synthetic-sky-fuels",
+      "superhot-geothermal",
+      "aquifer-rivers-desalination",
+      "precision-fermentation-rewilding"
+    ],
+    "infographic": {
+      "headlineMetric": "<$0.50 / kg H₂",
+      "headlineLabel": "White & Stimulated Geologic Hydrogen",
+      "unit": "Delivered Clean Hydrogen Cost ($/kg H₂)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Green Electrolysis Baseline vs. Mali/US Appraisal Wells",
+          "value": 4.5,
+          "display": "$3.50–$5.50/kg"
+        },
+        {
+          "year": 2030,
+          "label": "Early Commercial White H₂ Basin Production",
+          "value": 0.95,
+          "display": "$0.75–$1.20/kg"
+        },
+        {
+          "year": 2035,
+          "label": "Scaled White & Carbon-Negative Orange Serpentinization",
+          "value": 0.52,
+          "display": "$0.40–$0.65/kg"
+        },
+        {
+          "year": 2040,
+          "label": "Abundant Wellhead Clean H₂ (+ Helium Credit)",
+          "value": 0.35,
+          "display": "<$0.40/kg"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Mali Field Purity",
+          "value": "98% Pure H₂",
+          "detail": "12+ years zero-carbon village power in Bourakebougou"
+        },
+        {
+          "label": "Koloma Capital",
+          "value": "$245M+",
+          "detail": "AI-guided Midcontinent Rift geologic H₂ drilling"
+        },
+        {
+          "label": "Estuary Salt Head",
+          "value": "270m Waterfall",
+          "detail": "0.8 kWh/m³ river-to-sea osmotic potential (Sweetch)"
+        },
+        {
+          "label": "Passive Sky Cooling",
+          "value": "-7 °C Noon",
+          "detail": "Beams heat through 8–13 µm window to 3K outer space"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Koloma",
+        "url": "https://koloma.com/"
+      },
+      {
+        "name": "Hydroma (Mali) & FDE (Moselle)",
+        "url": "https://en.wikipedia.org/wiki/Natural_hydrogen"
+      },
+      {
+        "name": "Gold Hydrogen & Eden GeoPower",
+        "url": "https://www.goldhydrogen.com.au/"
+      },
+      {
+        "name": "Sweetch Energy & CNR",
+        "url": "https://www.sweetch.energy/"
+      },
+      {
+        "name": "SkyCool Systems & SpaceCool",
+        "url": "https://www.skycoolsystems.com/"
+      },
+      {
+        "name": "USGS & US DOE ARPA-E",
+        "url": "https://www.usgs.gov/centers/central-energy-resources-science-center/science/geologic-hydrogen"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Bourakebougou Mali 12+ Years 98%-Pure White Hydrogen Village Grid",
+        "url": "https://en.wikipedia.org/wiki/Natural_hydrogen"
+      },
+      {
+        "name": "South Australia World-First Natural Hydrogen Regulated Licensing",
+        "url": "https://www.energymining.sa.gov.au/"
+      },
+      {
+        "name": "Moselle France Multi-Million-Ton White Hydrogen Discovery",
+        "url": "https://en.wikipedia.org/wiki/Natural_hydrogen"
+      },
+      {
+        "name": "Rhône Delta Barcarin Nanoporous Osmotic Power Pilot (France)",
+        "url": "https://www.sweetch.energy/"
+      }
+    ]
+  },
+  {
+    "slug": "synthetic-sky-fuels",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/synthetic-sky-fuels",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Turning Thin Air into Jet Fuel, Green Steel & Stone",
+    "tagline": "Sub-penny clean electrons turn captured sky CO₂ and water into soot-free jet fuel, zero-kiln cement, and molten-oxide steel whose only exhaust is oxygen.",
+    "cynicBelief": "Solar panels and batteries might run laptops and compact cars, but you can't fly a Boeing 787 across the Pacific on batteries, and modern civilization will always burn billions of tons of coal and oil to make jet fuel, steel, plastics, and concrete.",
+    "breakthroughCounter": "Twelve's Moses Lake AirPlant One synthesizes drop-in E-Jet fuel from air and water for major airlines; Boston Metal's Molten Oxide Electrolysis makes liquid steel with pure O₂ as the sole byproduct; Sublime Systems pours ambient-temperature electro-cement; and 44.01/Heirloom turn captured CO₂ into permanent solid rock.",
+    "socialNormShift": "Because 100% green steel adds <$300 (<0.8%) to a new car's price and EU ReFuelEU mandates scale synthetic aviation fuel, heavy industry flips from humanity's dirtiest smokestack into a planetary carbon-drawdown sponge without lifestyle austerity.",
+    "humanStory": {
+      "protagonist": "Captain Priya Nair, Transpacific Airline Pilot",
+      "location": "Moses Lake, Washington & Woburn, Massachusetts",
+      "snippet": "Climbing cleanly over Mount Rainier on crystal-clear E-Jet fuel stitched from Washington air and river water, Priya leaves minimal contrails overhead while Boston Metal crews below tap liquid steel whose exhaust pipe breathes pure oxygen."
+    },
+    "quote": {
+      "text": "Anything we currently make from fossil fuels, we can make from air, water, and renewable electricity—molecularly identical, without digging up a drop of oil.",
+      "author": "Dr. Etosha Cave",
+      "role": "Co-Founder & Chief Science Officer, Twelve",
+      "url": "https://www.twelve.co/"
+    },
+    "companiesAndLabs": [
+      "Twelve (E-Jet / AirPlant One)",
+      "Boston Metal & Stegra",
+      "Terraform Industries",
+      "Sublime Systems",
+      "Heirloom Carbon",
+      "44.01 (Oman Peridotite Lock)"
+    ],
+    "globalPrecedents": [
+      "Boden Sweden Gigawatt Green-Steel Pre-Purchase (Volvo, Mercedes, IKEA)",
+      "EU ReFuelEU Binding Synthetic Aviation Fuel Mandate & CBAM",
+      "Moses Lake WA Commercial AirPlant One CO₂-to-SAF Production",
+      "Oman 44.01 Subsurface Peridotite Permanent Mineralization (<12 Mos)"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "geologic-hydrogen-harvesters",
+      "fusion-power",
+      "self-driving-labs"
+    ],
+    "infographic": {
+      "headlineMetric": "Pure O₂ Exhaust",
+      "headlineLabel": "Air-to-Jet Fuel & Electro-Steel",
+      "unit": "Synthetic Drop-In E-Jet Fuel Cost ($/Gallon)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "First Commercial Air-to-SAF Plants (AirPlant One)",
+          "value": 6.4,
+          "display": "$5.50–$7.50/gal"
+        },
+        {
+          "year": 2030,
+          "label": "Paired with $10/MWh Tandems & $0.75/kg White H₂",
+          "value": 3.1,
+          "display": "$2.80–$3.50/gal"
+        },
+        {
+          "year": 2035,
+          "label": "Cost Parity with Fossil Jet-A (Zero Contrail Soot)",
+          "value": 1.9,
+          "display": "$1.65–$2.20/gal"
+        },
+        {
+          "year": 2040,
+          "label": "Global Sub-Crude Solar & Fusion Sky Refineries",
+          "value": 1.35,
+          "display": "<$1.40/gal"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Airline SAF Offtake",
+          "value": "260M Gal",
+          "detail": "Twelve 14-yr binding deal with IAG / British Airways"
+        },
+        {
+          "label": "MOE Steel Exhaust",
+          "value": "100% O₂",
+          "detail": "Boston Metal deletes coking coal & blast furnaces"
+        },
+        {
+          "label": "Green Steel Car Cost",
+          "value": "<0.8% (+$280)",
+          "detail": "Negligible sticker impact unlocks automaker pre-buys"
+        },
+        {
+          "label": "Peridotite Rock Lock",
+          "value": "<12 Months",
+          "detail": "44.01 turns injected CO₂ into solid calcite stone"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Twelve (E-Jet / AirPlant One)",
+        "url": "https://www.twelve.co/"
+      },
+      {
+        "name": "Boston Metal & Stegra",
+        "url": "https://www.bostonmetal.com/"
+      },
+      {
+        "name": "Terraform Industries",
+        "url": "https://terraformindustries.com/"
+      },
+      {
+        "name": "Sublime Systems",
+        "url": "https://sublimesystems.com/"
+      },
+      {
+        "name": "Heirloom Carbon",
+        "url": "https://www.heirloomcarbon.com/"
+      },
+      {
+        "name": "44.01 (Oman Peridotite Lock)",
+        "url": "https://4401.earth/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Boden Sweden Gigawatt Green-Steel Pre-Purchase (Volvo, Mercedes, IKEA)",
+        "url": "https://stegra.com/"
+      },
+      {
+        "name": "EU ReFuelEU Binding Synthetic Aviation Fuel Mandate & CBAM",
+        "url": "https://transport.ec.europa.eu/transport-modes/air/environment/refueleu-aviation_en"
+      },
+      {
+        "name": "Moses Lake WA Commercial AirPlant One CO₂-to-SAF Production",
+        "url": "https://www.twelve.co/"
+      },
+      {
+        "name": "Oman 44.01 Subsurface Peridotite Permanent Mineralization (<12 Mos)",
+        "url": "https://4401.earth/"
+      }
+    ]
+  },
+  {
+    "slug": "aquifer-rivers-desalination",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/aquifer-rivers-desalination",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Ending Drought Forever: Sub-Penny Desalination & Continental New Rivers",
+    "tagline": "Subsea pressure pods and ~1.9 kWh/m³ membranes powered by cheap solar purify 1,000 liters of seawater for ~$0.01 in energy while mining clean lithium from brine.",
+    "cynicBelief": "Climate change means permanent megadroughts and 'water wars' across the American West, Mediterranean, and Middle East—because ocean desalination guzzles fossil electricity, costs a fortune, and poisons coastal reefs with toxic salt brine.",
+    "breakthroughCounter": "Zwitterionic/aquaporin membranes and 400m subsea hydrostatic RO pods (OceanWell, Waterise, IDE) drive seawater purification down to ~1.8–2.2 kWh/m³. At $5/MWh clean power, 1,000 liters (264 gallons) costs ~$0.01 in energy, while zero-liquid-discharge brine mining harvests battery lithium and magnesium.",
+    "socialNormShift": "Modeled on Israel (87% wastewater recycling, $0.40/m³ Sorek 2 desalination, refilling the Sea of Galilee, and water-for-solar peace exports to Jordan), water transforms from a zero-sum drought ration into an inexhaustible engine of aquifer restoration and regional peace.",
+    "humanStory": {
+      "protagonist": "Sofia Alarcón, Fourth-Generation Citrus & Avocado Grower",
+      "location": "San Joaquin Valley, California & Sonora, Mexico",
+      "snippet": "Watching Sandhill cranes land on restored valley wetlands as crystal-clear Pacific water from 400-meter-deep offshore pods refills ancient gravel aquifers, Sofia irrigates thriving groves for pennies without a single beachfront smokestack."
+    },
+    "quote": {
+      "text": "When clean energy meets high-efficiency membranes, the ocean becomes an inexhaustible freshwater reservoir for coastal cities and inland agriculture alike.",
+      "author": "Prof. Menachem Elimelech",
+      "role": "Membrane & Desalination Pioneer, Sterling Professor Emeritus",
+      "url": "https://en.wikipedia.org/wiki/Menachem_Elimelech"
+    },
+    "companiesAndLabs": [
+      "IDE Technologies (Sorek 2)",
+      "OceanWell & Waterise",
+      "Energy Recovery Inc. & Aquaporin",
+      "Desolenator & Oneka",
+      "ElectraLith & Lilac Solutions",
+      "Captura (Ocean Alkalinity)"
+    ],
+    "globalPrecedents": [
+      "Israel 87% Wastewater Reuse + Sea of Galilee Desalinated Refill",
+      "Sorek 2 World-Record ~$0.40/m³ Turnkey Desalination Tariff",
+      "Israel–Jordan 100M+ m³/yr Water-for-Solar Peace Accord",
+      "Singapore NEWater <0.8 kWh/m³ Ultra-Pure Municipal Water Loop"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "fusion-power",
+      "geologic-hydrogen-harvesters",
+      "defensive-shields-peace"
+    ],
+    "infographic": {
+      "headlineMetric": "~$0.01 / 1,000 L",
+      "headlineLabel": "Clean-Energy Cost of Pure Water",
+      "unit": "Turnkey Desalinated Water Cost ($/m³ = 1,000 Liters)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Sorek 2 SOTA Benchmark vs. Legacy Coastal Plants",
+          "value": 0.45,
+          "display": "$0.40–$0.65/m³"
+        },
+        {
+          "year": 2030,
+          "label": "400m Subsea Pods + Solar & Brine Mineral Credits",
+          "value": 0.31,
+          "display": "$0.28–$0.36/m³"
+        },
+        {
+          "year": 2035,
+          "label": "Orchard-Competitive Inland New River Aqueducts",
+          "value": 0.19,
+          "display": "$0.15–$0.24/m³"
+        },
+        {
+          "year": 2040,
+          "label": "Mineral-Subsidized Near-Thermodynamic Floor Water",
+          "value": 0.12,
+          "display": "<$0.14/m³"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Specific Energy SOTA",
+          "value": "~1.9 kWh/m³",
+          "detail": "Nearing 1.06 kWh/m³ Gibbs thermodynamic limit"
+        },
+        {
+          "label": "Subsea Depth Savings",
+          "value": "-35% Power",
+          "detail": "400m ocean pressure = 40 bar free RO head; 0 beach land"
+        },
+        {
+          "label": "Israel Reuse Proof",
+          "value": "87% Recycled",
+          "detail": "Surplus desalinated water refills the Sea of Galilee"
+        },
+        {
+          "label": "Brine Co-Products",
+          "value": "Li + Mg + NaOH",
+          "detail": "Zero hypersaline waste; mines battery & cement minerals"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "IDE Technologies (Sorek 2)",
+        "url": "https://www.ide-tech.com/"
+      },
+      {
+        "name": "OceanWell & Waterise",
+        "url": "https://www.oceanwellwater.com/"
+      },
+      {
+        "name": "Energy Recovery Inc. & Aquaporin",
+        "url": "https://energyrecovery.com/"
+      },
+      {
+        "name": "Desolenator & Oneka",
+        "url": "https://www.desolenator.com/"
+      },
+      {
+        "name": "ElectraLith & Lilac Solutions",
+        "url": "https://lilacsolutions.com/"
+      },
+      {
+        "name": "Captura (Ocean Alkalinity)",
+        "url": "https://www.caltech.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Israel 87% Wastewater Reuse + Sea of Galilee Desalinated Refill",
+        "url": "https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Israel"
+      },
+      {
+        "name": "Sorek 2 World-Record ~$0.40/m³ Turnkey Desalination Tariff",
+        "url": "https://www.ide-tech.com/"
+      },
+      {
+        "name": "Israel–Jordan 100M+ m³/yr Water-for-Solar Peace Accord",
+        "url": "https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Israel"
+      },
+      {
+        "name": "Singapore NEWater <0.8 kWh/m³ Ultra-Pure Municipal Water Loop",
+        "url": "https://www.pub.gov.sg/Public/WaterLoop/OurWaterStory/NEWater"
+      }
+    ]
+  }
+]

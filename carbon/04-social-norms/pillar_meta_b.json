@@ -1,0 +1,1146 @@
+[
+  {
+    "slug": "sovereign-debt-jubilee",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/sovereign-debt-jubilee",
+    "v1Slug": "household-debt-and-jubilee",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": true,
+    "title": "Defusing the Household Debt Trap: 1.5% Homestead Mortgages & Medical Debt Abolition",
+    "tagline": "Replacing 29% credit-card usury, 7% mortgage traps, and hospital collection ruin with Denmark's 200-year covered bonds, 1-cent medical buyouts, and income-contingent HECS ledgers.",
+    "cynicBelief": "Millions of families drowning in 29% credit-card APRs, 7% starter mortgages, and medical bankruptcy is just the unchangeable math of banking—forgiving medical debt or offering 1.5% mortgages would collapse banks and inflate housing prices.",
+    "breakthroughCounter": "Every piece of a post-usury household ledger already works safely at scale: Denmark's 200-year Realkredit covered-bond system delivers transparent pass-through mortgages and penalty-free refinancing with <0.15% defaults; Undue Medical Debt and state compacts (Cook County, Toledo, NJ, North Carolina's 99 hospitals) erase billions in hospital bills at ~1 cent on the dollar; and Australia's HECS university loans require $0 payments below median wages.",
+    "socialNormShift": "Rewriting household finance from compounding extraction to family stability—locking 1.5% Homestead Covered Bonds strictly to one owner-occupied primary home per family, banning medical debt from credit reports forever, and capping revolving consumer APRs at 6%.",
+    "humanStory": {
+      "protagonist": "Marcus & Elena, Municipal Water Tech & Early-Childhood Guild Educator",
+      "location": "Toledo, Ohio",
+      "snippet": "After a bright yellow municipal Undue Medical Debt letter erased $11,400 in C-section bills for $115 of city funds, Marcus and Elena moved into a sunlit mass-timber home on a $740/month 1.5% Sovereign Homestead Bond—trading overtime debt stress for Saturday morning youth soccer."
+    },
+    "quote": {
+      "text": "No family should face financial ruin simply because someone got sick—abolishing predatory medical debt for pennies on the dollar liberates whole communities overnight.",
+      "author": "Allison Sesso",
+      "role": "President & CEO, Undue Medical Debt",
+      "url": "https://unduemedicaldebt.org/"
+    },
+    "companiesAndLabs": [
+      "Undue Medical Debt (formerly RIP Medical Debt)",
+      "Realkredit Danmark & Nykredit Covered Bonds",
+      "North Carolina DHHS Medical Debt Compact",
+      "Australian Taxation Office HECS-HELP",
+      "National Consumer Law Center (NCLC)",
+      "Credit Union National Homestead Pilots"
+    ],
+    "globalPrecedents": [
+      "Denmark's 200-Year Covered-Bond System (Est. 1797)",
+      "Cook County, Toledo, NJ & NC Medical Debt Buyouts ($15B+)",
+      "Australia's 35-Year Income-Contingent HECS-HELP Loans",
+      "U.S. Military SCRA 6.0% Statutory Interest Cap & 1933 HOLC"
+    ],
+    "synergyLinks": [
+      "abundant-beautiful-housing",
+      "healthcare-without-billing",
+      "universal-capital-dividends",
+      "cost-of-living-collapse"
+    ],
+    "infographic": {
+      "headlineMetric": "1.5% Rate",
+      "headlineLabel": "Primary Homestead Bond & $0 Medical Debt",
+      "unit": "Share of Median Family Take-Home Pay Lost to Fixed Debt Service (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "7% Mortgages, 29% Cards & $220B Medical Debt",
+          "value": 48,
+          "display": "48% of pay"
+        },
+        {
+          "year": 2028,
+          "label": "State Medical Debt Buyouts & 6% SCRA Cap Pilots",
+          "value": 27,
+          "display": "27% of pay"
+        },
+        {
+          "year": 2031,
+          "label": "1.5% Sovereign Homestead Window & HECS Conversion",
+          "value": 14,
+          "display": "14% of pay"
+        },
+        {
+          "year": 2035,
+          "label": "Post-Usury Modular Homestead Equilibrium",
+          "value": 9,
+          "display": "9% of pay"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Medical Debt Buyout Cost",
+          "value": "~$0.01 / $1",
+          "detail": "Secondary-market municipal & state portfolio abolitions"
+        },
+        {
+          "label": "Homestead Mortgage Rate",
+          "value": "1.5% Fixed",
+          "detail": "Locked to 1 owner-occupied home per household (0 investor LLCs)"
+        },
+        {
+          "label": "Danish Bond Default Rate",
+          "value": "<0.15%",
+          "detail": "200+ years of pass-through covered bonds with zero bank bailouts"
+        },
+        {
+          "label": "Consumer APR Ceiling",
+          "value": "6.0% Max",
+          "detail": "Expanding U.S. military SCRA statutory usury shield to all families"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Undue Medical Debt (formerly RIP Medical Debt)",
+        "url": "https://unduemedicaldebt.org/"
+      },
+      {
+        "name": "Realkredit Danmark & Nykredit Covered Bonds",
+        "url": "https://rd.dk/"
+      },
+      {
+        "name": "North Carolina DHHS Medical Debt Compact",
+        "url": "https://www.ncdhhs.gov/"
+      },
+      {
+        "name": "Australian Taxation Office HECS-HELP",
+        "url": "https://en.wikipedia.org/wiki/Tertiary_education_fees_in_Australia"
+      },
+      {
+        "name": "National Consumer Law Center (NCLC)",
+        "url": "https://www.nclc.org/"
+      },
+      {
+        "name": "Credit Union National Homestead Pilots",
+        "url": "https://americascreditunions.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Denmark's 200-Year Covered-Bond System (Est. 1797)",
+        "url": "https://en.wikipedia.org/wiki/Mortgage_industry_of_Denmark"
+      },
+      {
+        "name": "Cook County, Toledo, NJ & NC Medical Debt Buyouts ($15B+)",
+        "url": "https://unduemedicaldebt.org/"
+      },
+      {
+        "name": "Australia's 35-Year Income-Contingent HECS-HELP Loans",
+        "url": "https://en.wikipedia.org/wiki/Tertiary_education_fees_in_Australia"
+      },
+      {
+        "name": "U.S. Military SCRA 6.0% Statutory Interest Cap & 1933 HOLC",
+        "url": "https://www.justice.gov/servicemembers/servicemembers-civil-relief-act-scra"
+      }
+    ]
+  },
+  {
+    "slug": "two-sigma-guild-education",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/two-sigma-guild-education",
+    "v1Slug": "education",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "2-Sigma AI Mastery in the Morning, Hands-On Human Guilds in the Afternoon",
+    "tagline": "Solving Benjamin Bloom's 98th-percentile tutoring dream in two focused morning hours so every screen snaps shut at 10:45 AM for outdoor ecology, woodworking, theater, and human mentorship.",
+    "cynicBelief": "Bringing AI into K–12 education will glue children to dystopian screens all day, automate cheating, fire caring public-school teachers, and destroy adolescent social skills.",
+    "breakthroughCounter": "Benjamin Bloom proved in 1984 that 1-on-1 mastery tutoring lifts an average 50th-percentile student to the 98th percentile (2-Sigma). Today, verified Socratic AI tutors (Khanmigo, Alpha School's 2-hour academic blocks scoring in the top 1–2% of national NWEA MAP growth) compress core math, reading, and coding into two energized morning hours—cutting daily screen exposure 70% and freeing four phone-free afternoon hours for hands-on Human Guilds.",
+    "socialNormShift": "Retiring the 1893 seven-hour lecture-and-worksheet factory bell in favor of a bell-to-bell phone-free campus: personalized 2-Sigma morning mastery, zero K–8 nightly homework, and play-rich Finnish/Swiss afternoon craft, nature, and rhetoric guilds.",
+    "humanStory": {
+      "protagonist": "Mateo (Age 11) & Master Guide Ms. Alvarez",
+      "location": "Oak Creek Public Commons School, Raleigh, North Carolina",
+      "snippet": "Mateo masters 1.8 grade levels of algebra before 10:45 AM via skateboard-ramp ratios while Ms. Alvarez coaches classmates 1-on-1 without Sunday grading burnout—then every tablet clicks shut for hot Culinary Guild soup, creek ecology, solar woodworking, and zero backpack homework."
+    },
+    "quote": {
+      "text": "For the first time in history, we can give every child on Earth a patient, world-class personal tutor—freeing human teachers to mentor, inspire, and connect.",
+      "author": "Sal Khan",
+      "role": "Founder & CEO, Khan Academy",
+      "url": "https://www.khanacademy.org/"
+    },
+    "companiesAndLabs": [
+      "Khan Academy (Khanmigo Socratic Tutor)",
+      "Alpha School 2-Hour Mastery Campuses",
+      "Synthesis Tutor",
+      "High Tech High Project Studios",
+      "NWEA MAP Growth Psychometrics",
+      "Finnish National Agency for Education"
+    ],
+    "globalPrecedents": [
+      "Benjamin Bloom's 1984 2-Sigma Mastery Findings (Univ. of Chicago)",
+      "Finland's Play-Rich, Low-Stress Primary Model & Nordic Slöjd",
+      "Alpha School Brownsville & Austin Top-1% NWEA Growth Cohorts",
+      "Switzerland's Dual Apprenticeship Guild System (<3% Youth Joblessness)"
+    ],
+    "synergyLinks": [
+      "high-trust-civic-norms",
+      "intergenerational-villages",
+      "purpose-craft-guilds",
+      "orbital-laser-mesh"
+    ],
+    "infographic": {
+      "headlineMetric": "98th %ile",
+      "headlineLabel": "Bloom 2-Sigma Mastery in 2 Morning Hours",
+      "unit": "Median Student Academic Mastery Percentile (Bloom Curve)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "1893 Factory Lecture (1 Pace for 32 Kids + 2 Hrs Homework)",
+          "value": 50,
+          "display": "50th %ile (1.0x)"
+        },
+        {
+          "year": 2028,
+          "label": "Public District Socratic AI & Phone-Free Cubby Pilots",
+          "value": 74,
+          "display": "74th %ile (1.6x)"
+        },
+        {
+          "year": 2031,
+          "label": "2-Hr Morning Studio + 4-Hr Afternoon Human Guild Standard",
+          "value": 93,
+          "display": "93rd %ile (2.2x)"
+        },
+        {
+          "year": 2035,
+          "label": "Universal 2-Sigma Mastery + Zero K-8 Worksheet Homework",
+          "value": 98,
+          "display": "98th %ile (2.5x)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Morning Core Screen Block",
+          "value": "2.0 Hrs/Day",
+          "detail": "10:45 AM brass bell shuts all screens for the rest of the day"
+        },
+        {
+          "label": "Learning Velocity",
+          "value": "2.2x–2.6x",
+          "detail": "Verified NWEA MAP growth across high- and low-income cohorts"
+        },
+        {
+          "label": "Afternoon Human Guilds",
+          "value": "4.0+ Hrs/Day",
+          "detail": "100% phone-free robotics, timber, creek ecology, music & debate"
+        },
+        {
+          "label": "Teacher Grading Admin",
+          "value": "-85% Cut",
+          "detail": "Rescues Sunday nights so teachers mentor & lead guilds at high pay"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Khan Academy (Khanmigo Socratic Tutor)",
+        "url": "https://www.khanacademy.org/"
+      },
+      {
+        "name": "Alpha School 2-Hour Mastery Campuses",
+        "url": "https://alpha.school/"
+      },
+      {
+        "name": "Synthesis Tutor",
+        "url": "https://www.synthesis.com/"
+      },
+      {
+        "name": "High Tech High Project Studios",
+        "url": "https://www.hightechhigh.org/"
+      },
+      {
+        "name": "NWEA MAP Growth Psychometrics",
+        "url": "https://www.nwea.org/"
+      },
+      {
+        "name": "Finnish National Agency for Education",
+        "url": "https://www.oph.fi/en"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Benjamin Bloom's 1984 2-Sigma Mastery Findings (Univ. of Chicago)",
+        "url": "https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem"
+      },
+      {
+        "name": "Finland's Play-Rich, Low-Stress Primary Model & Nordic Slöjd",
+        "url": "https://www.oph.fi/en"
+      },
+      {
+        "name": "Alpha School Brownsville & Austin Top-1% NWEA Growth Cohorts",
+        "url": "https://alpha.school/"
+      },
+      {
+        "name": "Switzerland's Dual Apprenticeship Guild System (<3% Youth Joblessness)",
+        "url": "https://www.sbfi.admin.ch/"
+      }
+    ]
+  },
+  {
+    "slug": "intergenerational-villages",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/intergenerational-villages",
+    "v1Slug": "loneliness-family-and-community",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": true,
+    "title": "Curing the Loneliness Epidemic: Turning Dead Strip Malls into Walkable Village Commons",
+    "tagline": "Retrofitting 1.2 billion square feet of sun-baked strip malls and office asphalt into car-free mass-timber courtyards with shared supper halls, rent-free student fellows, and grandparents two doors away.",
+    "cynicBelief": "Modern loneliness is irreversible because people prefer scrolling alone behind two-car garages—seniors belong in $6,500/month facilities, young parents just have to burn out alone, and suburban sprawl can never become walkable.",
+    "breakthroughCounter": "Chronic loneliness equals smoking 15 cigarettes a day solely because post-1950 zoning outlawed the village. Today, Barcelona's Superblocks (-25% NO2, +30% local shops), Paris's 220+ car-free school streets, the Netherlands' Humanitas Deventer (rent-free university students living beside seniors for 30 hrs/mo of shared meals), and Arizona's car-free Culdesac Tempe prove community blooms wherever asphalt yields to courtyards.",
+    "socialNormShift": "Abolishing single-use strip-mall zoning and mandatory parking minimums for By-Right Courtyard Co-Villages—combining 100% private acoustic apartments with Danish Fælleshus $4.50 supper halls and three-generation daily proximity.",
+    "humanStory": {
+      "protagonist": "Hannah & David (Parents of Twins), Retired Cellist Arthur (74) & Nursing Student Maya (21)",
+      "location": "Sycamore Mall Commons, Suburban Columbus, Ohio",
+      "snippet": "On 28 acres of former bankrupt strip-mall asphalt, barefoot toddlers dance to widower Arthur's cello under lemon trees while student fellow Maya lives rent-free hosting $4.50 Thursday roast-chicken suppers inside the skylit former department-store atrium."
+    },
+    "quote": {
+      "text": "Human connection is as essential to our survival as food and water—rebuilding walkable, welcoming community spaces is one of the highest-return health interventions we have.",
+      "author": "Dr. Vivek Murthy",
+      "role": "U.S. Surgeon General & Author of Together",
+      "url": "https://www.hhs.gov/surgeongeneral/priorities/connection/index.html"
+    },
+    "companiesAndLabs": [
+      "Culdesac (Car-Free Neighborhoods, Tempe AZ)",
+      "Humanitas Deventer (Netherlands)",
+      "Barcelona Urban Ecology Agency (Superilles)",
+      "CoHousing Denmark (Bofællesskab)",
+      "Judson Manor Intergenerational Residence (Cleveland)",
+      "U.S. Surgeon General Social Connection Initiative"
+    ],
+    "globalPrecedents": [
+      "Barcelona Superilles (-25% NO2, 667 Premature Deaths/Yr Prevented)",
+      "Paris 220+ Pedestrianized Rues aux Écoles (School Plazas)",
+      "Humanitas Deventer Student–Senior Rent-Free Fellowship (Est. 2012)",
+      "Danish Bofællesskab Shared Supper-House Tradition (~8% of Housing)"
+    ],
+    "synergyLinks": [
+      "abundant-beautiful-housing",
+      "forty-eight-hour-governance",
+      "two-sigma-guild-education",
+      "epigenetic-healthspan"
+    ],
+    "infographic": {
+      "headlineMetric": "18+ Neighbors",
+      "headlineLabel": "Trusted First-Name Kin per Courtyard",
+      "unit": "Close Trusted Neighbors Within 3-Minute Walk (Households)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Cul-de-Sac Car Captivity & Dead Strip-Mall Asphalt",
+          "value": 1.4,
+          "display": "1.4 neighbors"
+        },
+        {
+          "year": 2028,
+          "label": "School Streets, Humanitas Fellowships & Mall Overlay Pilots",
+          "value": 7.5,
+          "display": "7.5 neighbors"
+        },
+        {
+          "year": 2031,
+          "label": "Mass-Timber Courtyard Co-Villages & $4.50 Supper Halls",
+          "value": 18.0,
+          "display": "18+ neighbors"
+        },
+        {
+          "year": 2035,
+          "label": "Universal 5-Minute Walkable Intergenerational Commons",
+          "value": 26.0,
+          "display": "26+ neighbors"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Loneliness Health Stake",
+          "value": "15 Cigs/Day",
+          "detail": "Premature mortality risk cured by daily walkable social ties"
+        },
+        {
+          "label": "Stranded Suburban Land",
+          "value": "1.2B+ Sq Ft",
+          "detail": "Vacant malls & office parks ready on transit/water corridors"
+        },
+        {
+          "label": "Humanitas Student Rent",
+          "value": "$0 / Month",
+          "detail": "Exchanged for 30 hrs/mo shared meals & senior neighbor joy"
+        },
+        {
+          "label": "Fælleshus Opt-In Supper",
+          "value": "$4.50 / Plate",
+          "detail": "3 nights/wk communal dining saves parents 12+ hrs/wk of chores"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Culdesac (Car-Free Neighborhoods, Tempe AZ)",
+        "url": "https://culdesac.com/"
+      },
+      {
+        "name": "Humanitas Deventer (Netherlands)",
+        "url": "https://www.humanitasdeventer.nl/"
+      },
+      {
+        "name": "Barcelona Urban Ecology Agency (Superilles)",
+        "url": "https://en.wikipedia.org/wiki/Superblocks"
+      },
+      {
+        "name": "CoHousing Denmark (Bofællesskab)",
+        "url": "https://en.wikipedia.org/wiki/Cohousing"
+      },
+      {
+        "name": "Judson Manor Intergenerational Residence (Cleveland)",
+        "url": "https://www.judsonsmartliving.org/"
+      },
+      {
+        "name": "U.S. Surgeon General Social Connection Initiative",
+        "url": "https://www.hhs.gov/surgeongeneral/priorities/connection/index.html"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Barcelona Superilles (-25% NO2, 667 Premature Deaths/Yr Prevented)",
+        "url": "https://en.wikipedia.org/wiki/Superblocks"
+      },
+      {
+        "name": "Paris 220+ Pedestrianized Rues aux Écoles (School Plazas)",
+        "url": "https://www.paris.fr/"
+      },
+      {
+        "name": "Humanitas Deventer Student–Senior Rent-Free Fellowship (Est. 2012)",
+        "url": "https://www.humanitasdeventer.nl/"
+      },
+      {
+        "name": "Danish Bofællesskab Shared Supper-House Tradition (~8% of Housing)",
+        "url": "https://en.wikipedia.org/wiki/Cohousing"
+      }
+    ]
+  },
+  {
+    "slug": "bridging-consensus-trust",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/bridging-consensus-trust",
+    "v1Slug": "information-trust-and-polarization",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": true,
+    "title": "Algorithms That Reward Common Ground Instead of Outrage",
+    "tagline": "Replacing rage-bait feeds and synthetic deepfakes with Taiwan's open-source Polis bridging math, silicon C2PA camera signatures, and lottery-selected Citizens' Assemblies.",
+    "cynicBelief": "Social media algorithms and AI deepfakes have permanently broken shared truth—humanity is doomed to tribal outrage, bot swarms, and 50/50 political gridlock unless governments set up censorship boards.",
+    "breakthroughCounter": "Polarization was an engineering bug in 2010s engagement math (+20% reach per moral attack word), not human nature. Taiwan's vTaiwan and open-source Polis deleted toxic reply-dunking and ranked cross-camp agreement instead—resolving 26+ fierce national disputes with >80% legislative consensus! Paired with Community Notes matrix factorization (96% accuracy), C2PA camera-chip provenance, and Ireland's Citizens' Assemblies, common ground wins without censors.",
+    "socialNormShift": "Moving from adversarial 3-minute town-hall shouting and rage-ranked social feeds to 7-day Polis bridge mapping + weekend lottery Citizens' Assemblies—discovering citizens already agree on 80% of practical solutions.",
+    "humanStory": {
+      "protagonist": "Coach Darnell & 45 Lottery-Drawn Neighbors",
+      "location": "Riverbend, Michigan",
+      "snippet": "After a riverfront housing plan imploded in shouting in 2026, Little League coach Darnell submitted a three-part bridge compromise on Riverbend Polis (owner-occupied timber homes + zero Wall Street landlords + four new riverside ballfields) that hit 89% cross-cluster agreement and passed 42-to-3."
+    },
+    "quote": {
+      "text": "When we design digital spaces without reply buttons for outrage and instead reward ideas that bridge divides, we discover people agree on eighty percent of what matters. The superintelligence we are looking for is already here—it's us.",
+      "author": "Audrey Tang",
+      "role": "Taiwan's First Minister of Digital Affairs & Civic Technologist",
+      "url": "https://www.plurality.net/"
+    },
+    "companiesAndLabs": [
+      "Computational Democracy Project (Polis Open Source)",
+      "vTaiwan & g0v Civic Tech Community",
+      "Coalition for Content Provenance & Authenticity (C2PA)",
+      "Plurality Institute (Audrey Tang & Glen Weyl)",
+      "Open-Source Bridging Matrix Contributors",
+      "More in Common (Perception Gap Research)"
+    ],
+    "globalPrecedents": [
+      "Taiwan vTaiwan / Polis (26+ National Disputes, >80% Consensus)",
+      "Ireland's Citizens' Assemblies (99 Lottery Citizens Solving Gridlock)",
+      "Ostbelgien Permanent Citizens' Council (Belgium, Est. 2019)",
+      "C2PA v2.1 Silicon Sensor Signing (Sony, Nikon, Leica, BBC, Qualcomm)"
+    ],
+    "synergyLinks": [
+      "forty-eight-hour-governance",
+      "high-trust-civic-norms",
+      "two-sigma-guild-education",
+      "cynicism-to-agency"
+    ],
+    "infographic": {
+      "headlineMetric": ">80% Bridge",
+      "headlineLabel": "Cross-Partisan Legislative Consensus (vTaiwan)",
+      "unit": "Cross-Group Policy Agreement & Provenance Verification Rate (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Outrage Feeds (+20%/Attack Word) & Unsigned Deepfakes",
+          "value": 24,
+          "display": "24% civic trust"
+        },
+        {
+          "year": 2028,
+          "label": "C2PA Camera Silicon + Municipal Polis Pilots (250+ Cities)",
+          "value": 55,
+          "display": "55% bridged"
+        },
+        {
+          "year": 2031,
+          "label": "Open Middleware Feeds + ZK-Human Polis + Citizens' Assemblies",
+          "value": 82,
+          "display": "82% consensus"
+        },
+        {
+          "year": 2035,
+          "label": "Universal Hardware Provenance & Deliberative Supermajorities",
+          "value": 89,
+          "display": "89% consensus"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "vTaiwan Enactment Rate",
+          "value": ">80%",
+          "detail": "26+ deadlocked national tech & civic fights resolved via Polis"
+        },
+        {
+          "label": "Bridging Note Accuracy",
+          "value": "96%+",
+          "detail": "PNAS/JAMA-verified accuracy when rival raters must agree"
+        },
+        {
+          "label": "C2PA Lens Signing",
+          "value": "<1 Millisec",
+          "detail": "Hardware cryptographic seal before pixels touch editable memory"
+        },
+        {
+          "label": "Bot Astroturf Weight",
+          "value": "0.0%",
+          "detail": "Zero-Knowledge voter tokens prove 1 local human = 1 private voice"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Computational Democracy Project (Polis Open Source)",
+        "url": "https://compdemocracy.org/"
+      },
+      {
+        "name": "vTaiwan & g0v Civic Tech Community",
+        "url": "https://info.vtaiwan.tw/"
+      },
+      {
+        "name": "Coalition for Content Provenance & Authenticity (C2PA)",
+        "url": "https://c2pa.org/"
+      },
+      {
+        "name": "Plurality Institute (Audrey Tang & Glen Weyl)",
+        "url": "https://www.plurality.net/"
+      },
+      {
+        "name": "Open-Source Bridging Matrix Contributors",
+        "url": "https://communitynotes.x.com/guide/en/under-the-hood/ranking-notes"
+      },
+      {
+        "name": "More in Common (Perception Gap Research)",
+        "url": "https://www.moreincommon.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Taiwan vTaiwan / Polis (26+ National Disputes, >80% Consensus)",
+        "url": "https://info.vtaiwan.tw/"
+      },
+      {
+        "name": "Ireland's Citizens' Assemblies (99 Lottery Citizens Solving Gridlock)",
+        "url": "https://citizensassembly.ie/"
+      },
+      {
+        "name": "Ostbelgien Permanent Citizens' Council (Belgium, Est. 2019)",
+        "url": "https://www.buergerdialog.be/en"
+      },
+      {
+        "name": "C2PA v2.1 Silicon Sensor Signing (Sony, Nikon, Leica, BBC, Qualcomm)",
+        "url": "https://c2pa.org/"
+      }
+    ]
+  },
+  {
+    "slug": "forty-eight-hour-governance",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/forty-eight-hour-governance",
+    "v1Slug": "legal-regulatory-and-gov-reboot",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": true,
+    "title": "The 48-Hour Digital State: Estonia X-Road, Physics Permits & 5-Minute Justice",
+    "tagline": "Ending four-year PDF permitting mazes, DMV lines, and $500/hr small-claims gatekeeping with Estonia's citizen-audited X-Road, Lean 4 physics auto-permits, and 24/7 online civil tribunals.",
+    "cynicBelief": "Government bureaucracy is inherently slow and unaccountable—permitting clean energy or housing will always take years of paper binders, digital ID means state surveillance, and civil justice belongs only to people who can afford $500-an-hour lawyers.",
+    "breakthroughCounter": "Estonia's decentralized X-Road has run 99%+ of public services online 24/7 for years—3-minute taxes, 15-minute business setup, saving 2% of GDP annually while giving every citizen an immutable audit log that fires any official who snoops on their file! Meanwhile, DOE/NREL's SolarAPP+ already cuts U.S. solar permits from 4 weeks to 0 seconds (-29% inspection errors), and British Columbia's online Civil Resolution Tribunal settles citizen disputes in days without lawyers.",
+    "socialNormShift": "Enacting Estonia's Once-Only law (illegal for agencies to ask twice for data you already gave), moving democratic debates up front into Rules-as-Code, and guaranteeing 48-hour deterministic permits plus $25 lawyer-free online small claims.",
+    "humanStory": {
+      "protagonist": "Samira (29, Sourdough Baker) & Leo (25, Renter & Graphic Designer)",
+      "location": "Cedar Falls",
+      "snippet": "Where Samira's uncle lost 19 months to paper binders in 2025, Samira uploads an Open-BIM 3D twin on Monday, fixes one 15-cm fire-stair landing flagged in 4 minutes by the physics engine, and holds her stamped bakery-and-duplex permit in 41 hours—while neighbor Leo resolves a $1,750 deposit refund over lunch via the online tribunal."
+    },
+    "quote": {
+      "text": "A proactive digital state should be invisible—citizens shouldn't spend their precious lives standing in government lines carrying pieces of paper from one desk to another.",
+      "author": "Kersti Kaljulaid",
+      "role": "Former President of Estonia",
+      "url": "https://e-estonia.com/"
+    },
+    "companiesAndLabs": [
+      "e-Estonia & Nordic Institute for Interoperability Solutions (X-Road)",
+      "U.S. DOE / NREL SolarAPP+ Consortium",
+      "British Columbia Civil Resolution Tribunal (CRT)",
+      "Singapore BCA CORENET X BIM Auto-Checking",
+      "Lean 4 Formal Rules-as-Code Initiative",
+      "South Bend & Raleigh Pre-Approved Housing Studios"
+    ],
+    "globalPrecedents": [
+      "Estonia X-Road (99%+ Online Services, 2% GDP Saved, Citizen Audit Log)",
+      "NREL SolarAPP+ (Hundreds of U.S. Cities: 0-Sec Permits, -29% Errors)",
+      "British Columbia Civil Resolution Tribunal (85%+ Satisfaction, 0 Lawyers)",
+      "Singapore CORENET X Unified 7-Agency BIM Submission"
+    ],
+    "synergyLinks": [
+      "ai-formal-mathematics",
+      "perovskite-tandem-solar",
+      "abundant-beautiful-housing",
+      "bridging-consensus-trust"
+    ],
+    "infographic": {
+      "headlineMetric": "<48 Hours",
+      "headlineLabel": "Physics-Verified Clean Energy & Housing Permits",
+      "unit": "Median Municipal Infill & Clean-Infrastructure Permit Turnaround (Days)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Sequential Manual PDF Binders Across 8 Siloed Agencies",
+          "value": 540,
+          "display": "540 days (18 mos)"
+        },
+        {
+          "year": 2028,
+          "label": "SolarAPP+ Zero-Second Energy + Pre-Approved BIM Pattern Books",
+          "value": 21,
+          "display": "21 days"
+        },
+        {
+          "year": 2031,
+          "label": "Open-BIM Physics Twins + Lean 4 Rules-as-Code + X-Road",
+          "value": 2,
+          "display": "2 days (48 hrs)"
+        },
+        {
+          "year": 2035,
+          "label": "Instant Deterministic Verification & Proactive e-State",
+          "value": 0.2,
+          "display": "<4 hours"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Estonia Bureaucracy Saved",
+          "value": "2.0% of GDP",
+          "detail": "99%+ services online 24/7; 3-minute annual citizen tax filing"
+        },
+        {
+          "label": "SolarAPP+ Permit Speed",
+          "value": "0 Seconds",
+          "detail": "Instant automated code check with 29% fewer field errors"
+        },
+        {
+          "label": "Online Civil Justice Fee",
+          "value": "$25 Flat",
+          "detail": "BC-style 24/7 plain-language tribunal replaces $500/hr retainers"
+        },
+        {
+          "label": "Citizen Data Audit Visibility",
+          "value": "100% Live",
+          "detail": "Every official database query logged cryptographically to citizen"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "e-Estonia & Nordic Institute for Interoperability Solutions (X-Road)",
+        "url": "https://e-estonia.com/"
+      },
+      {
+        "name": "U.S. DOE / NREL SolarAPP+ Consortium",
+        "url": "https://www.energy.gov/eere/solar/solar-energy-technologies-office"
+      },
+      {
+        "name": "British Columbia Civil Resolution Tribunal (CRT)",
+        "url": "https://civilresolutionbc.ca/"
+      },
+      {
+        "name": "Singapore BCA CORENET X BIM Auto-Checking",
+        "url": "https://www1.bca.gov.sg/"
+      },
+      {
+        "name": "Lean 4 Formal Rules-as-Code Initiative",
+        "url": "https://lean-lang.org/"
+      },
+      {
+        "name": "South Bend & Raleigh Pre-Approved Housing Studios",
+        "url": "https://southbendin.gov/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Estonia X-Road (99%+ Online Services, 2% GDP Saved, Citizen Audit Log)",
+        "url": "https://e-estonia.com/solutions/interoperability-services/x-road/"
+      },
+      {
+        "name": "NREL SolarAPP+ (Hundreds of U.S. Cities: 0-Sec Permits, -29% Errors)",
+        "url": "https://www.energy.gov/eere/solar/solar-energy-technologies-office"
+      },
+      {
+        "name": "British Columbia Civil Resolution Tribunal (85%+ Satisfaction, 0 Lawyers)",
+        "url": "https://civilresolutionbc.ca/"
+      },
+      {
+        "name": "Singapore CORENET X Unified 7-Agency BIM Submission",
+        "url": "https://www1.bca.gov.sg/"
+      }
+    ]
+  },
+  {
+    "slug": "sacred-worth-contemplation",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/sacred-worth-contemplation",
+    "v1Slug": "religion",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Sacred Human Worth in an Age of Thinking Machines: Contemplative Wisdom & Shared Sabbath",
+    "tagline": "Healing the 200-year industrial confusion between market output and human dignity through pluralistic weekly Unplugged Sabbaths, Camino-style foot pilgrimages, choral awe, and neighborhood hospitality tables.",
+    "cynicBelief": "Once AI out-thinks us and robots out-build us, human beings will feel utterly useless—collapsing into existential nihilism, status despair, or lonely virtual-reality sedation.",
+    "breakthroughCounter": "Equating human worth with factory output was a brief 19th-century anomaly: a newborn baby or a dying grandparent generates $0 of GDP yet carries infinite intrinsic worth. Across millennia and modern epidemiology alike—Harvard public-health studies showing weekly communal Sabbath/sanctuary cuts deaths of despair 33%–68%, UC Berkeley awe science lowering IL-6 inflammation, and 500,000 annual pilgrims walking Spain's Camino de Santiago—contemplative traditions hold the exact blueprint for post-labor flourishing.",
+    "socialNormShift": "Decoupling human reverence from wage rank—coordinating voluntary citywide 24-hour Unplugged Sabbath Sanctuaries (religious and secular side-by-side), regional hut-to-hut foot pilgrimages, and job-title-free hospitality tables.",
+    "humanStory": {
+      "protagonist": "Caleb (42, Former Logistics Scheduler & Trail Steward)",
+      "location": "Asheville, North Carolina",
+      "snippet": "Healed from post-automation identity drift, Caleb locks his devices inside a carved mantel Sabbath Box every Saturday at sundown alongside 70% of his block—singing four-part folk harmonies in a timber hall on Sunday morning and breaking warm cornbread at a quarter-mile interfaith-and-humanist oak table."
+    },
+    "quote": {
+      "text": "Technology gives us power, but wisdom and sacred community tell us how to use that power to honor the irreplaceable dignity of every human face.",
+      "author": "Rabbi Jonathan Sacks",
+      "role": "Philosopher & Author of The Home We Build Together",
+      "url": "https://rabbisacks.org/"
+    },
+    "companiesAndLabs": [
+      "Harvard Human Flourishing Program (Tyler VanderWeele)",
+      "UC Berkeley Greater Good Science Center (Dacher Keltner)",
+      "Center for Healthy Minds (UW–Madison, Richard Davidson)",
+      "Shabbat Manifesto / Tech Shabbat Movement",
+      "Oficina del Peregrino (Camino de Santiago)",
+      "Sunday Assembly & Interfaith Hospitality Networks"
+    ],
+    "globalPrecedents": [
+      "Jewish Shabbat ('A Palace in Time' — 25 Weekly Uncommodified Hours)",
+      "Camino de Santiago (~500,000 Annual Believer & Secular Foot Pilgrims)",
+      "Ubuntu ('I Am Because We Are') & Contemplative Sangha / Monastic Hospitality",
+      "French & Belgian Statutory Right-to-Disconnect & Quiet Sunday Commons"
+    ],
+    "synergyLinks": [
+      "post-labor-meaning",
+      "high-trust-civic-norms",
+      "precision-fermentation-rewilding",
+      "spinning-orbital-gardens"
+    ],
+    "infographic": {
+      "headlineMetric": "24 Hrs/Wk",
+      "headlineLabel": "Coordinated Unplugged Sabbath Sanctuary",
+      "unit": "Households Practicing Shared Weekly 24-Hour Screen Sabbath & Gathering (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "24/7 Notification Striving & Utility-Based Identity Anxiety",
+          "value": 6,
+          "display": "6% of homes"
+        },
+        {
+          "year": 2028,
+          "label": "Three-Family Sabbath Box Pacts & Right-to-Disconnect Laws",
+          "value": 20,
+          "display": "20% of homes"
+        },
+        {
+          "year": 2031,
+          "label": "Pluralistic Citywide Quiet Sundays & Regional Pilgrimage Trails",
+          "value": 48,
+          "display": "48% of homes"
+        },
+        {
+          "year": 2035,
+          "label": "Cherished Post-Utilitarian Norm Across Faith & Secular Circles",
+          "value": 72,
+          "display": "72% of homes"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Deaths of Despair Drop",
+          "value": "-33% to -68%",
+          "detail": "Harvard longitudinal finding on weekly communal sanctuary life"
+        },
+        {
+          "label": "Camino Foot Pilgrims",
+          "value": "~500,000/yr",
+          "detail": "Record surge proving humans choose effortful meaning over passive VR"
+        },
+        {
+          "label": "Biomarker of Shared Awe",
+          "value": "Lower IL-6",
+          "detail": "Choral harmony & nature vastness measurably calm inflammation"
+        },
+        {
+          "label": "Conscience Freedom",
+          "value": "100% Plural",
+          "detail": "Zero state dogma; equal sanctuary for faith & secular humanism"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Harvard Human Flourishing Program (Tyler VanderWeele)",
+        "url": "https://hfh.fas.harvard.edu/"
+      },
+      {
+        "name": "UC Berkeley Greater Good Science Center (Dacher Keltner)",
+        "url": "https://greatergood.berkeley.edu/"
+      },
+      {
+        "name": "Center for Healthy Minds (UW–Madison, Richard Davidson)",
+        "url": "https://centerhealthyminds.org/"
+      },
+      {
+        "name": "Shabbat Manifesto / Tech Shabbat Movement",
+        "url": "https://en.wikipedia.org/wiki/Shabbat"
+      },
+      {
+        "name": "Oficina del Peregrino (Camino de Santiago)",
+        "url": "https://oficinadelperegrino.com/en/"
+      },
+      {
+        "name": "Sunday Assembly & Interfaith Hospitality Networks",
+        "url": "https://www.sundayassembly.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Jewish Shabbat ('A Palace in Time' — 25 Weekly Uncommodified Hours)",
+        "url": "https://en.wikipedia.org/wiki/Shabbat"
+      },
+      {
+        "name": "Camino de Santiago (~500,000 Annual Believer & Secular Foot Pilgrims)",
+        "url": "https://oficinadelperegrino.com/en/"
+      },
+      {
+        "name": "Ubuntu ('I Am Because We Are') & Contemplative Sangha / Monastic Hospitality",
+        "url": "https://en.wikipedia.org/wiki/Ubuntu_philosophy"
+      },
+      {
+        "name": "French & Belgian Statutory Right-to-Disconnect & Quiet Sunday Commons",
+        "url": "https://en.wikipedia.org/wiki/Right_to_disconnect"
+      }
+    ]
+  },
+  {
+    "slug": "defensive-shields-peace",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/defensive-shields-peace",
+    "v1Slug": "wars",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Making Conquest Obsolete: Resource Sovereignty & Asymmetric Defensive Shields",
+    "tagline": "Ending 5,000 years of oil, water, and mineral wars via domestic clean-resource autarky while $1.50-per-shot solid-state laser shields and cloud-piercing SAR satellites render invasion futile.",
+    "cynicBelief": "Humanity is hardwired for war—the 21st century is guaranteed to erupt into catastrophic superpower resource wars over oil straits, lithium/cobalt mines, river dams, and cheap drone swarms.",
+    "breakthroughCounter": "Late-2026 breakthroughs simultaneously broke both ancient pillars of conquest: (1) Domestic resource autarky—35.5% solar, deep geothermal, fusion, sodium-ion salt batteries, iron-nitride magnets, and <$0.40/m³ solar desalination—gives every nation unlimited energy, water, and materials inside its own borders (zero loot prize); (2) $1.50-per-shot solid-state lasers (Iron Beam, UK DragonFire) and 20-cm cloud-piercing SAR constellations shift military math overwhelmingly toward peaceful defense.",
+    "socialNormShift": "Transitioning geopolitics from zero-sum resource sphere-of-influence paranoia to open-sky C2PA treaty verification, cooperative desalination/grid trade, and purely defensive municipal sky shields that unlock a $1.5T/year Peace Dividend.",
+    "humanStory": {
+      "protagonist": "Tariq (38, Jordanian Hydrologist) & Maarja (31, Estonian Sky-Shield Technician)",
+      "location": "Gulf of Aqaba, Jordan & Tartu, Estonia",
+      "snippet": "Where Tariq's father feared a Jordan River water war, sub-penny desert solar pumps 600M m³/yr of desalinated Red Sea water into Amman olive groves—while in Estonia, Maarja stewards a bolted-down, non-offensive photonic shield and 10-minute open SAR border feed that make surprise attack impossible."
+    },
+    "quote": {
+      "text": "When trade, transparent verification, and domestic technological abundance make live neighbors vastly more valuable than conquered territory, war shifts from an inevitability to an obsolete folly.",
+      "author": "Steven Pinker",
+      "role": "Johnstone Family Professor of Psychology, Harvard University",
+      "url": "https://stevenpinker.com/"
+    },
+    "companiesAndLabs": [
+      "UK Ministry of Defence Dstl (DragonFire Laser)",
+      "Rafael Advanced Defense Systems (Iron Beam 100kW HEL)",
+      "Capella Space, Umbra & ICEYE (Sub-Meter SAR)",
+      "Planet Labs",
+      "Niron Magnetics (Clean Iron-Nitride Magnets)",
+      "IDE Technologies (Solar Desalination)"
+    ],
+    "globalPrecedents": [
+      "UK DragonFire Trials (£1-Coin Precision at 1 km for <$13/Shot)",
+      "Iron Beam Operational Solid-State Air Defense (~$1.50–$3.00/Intercept)",
+      "Israel–Jordan Cooperative Desalination-for-Solar Water Exchanges",
+      "Commercial Sub-25cm All-Weather SAR Exposing Surprise Armor Massing"
+    ],
+    "synergyLinks": [
+      "fusion-power",
+      "aquifer-rivers-desalination",
+      "inverse-materials-design",
+      "earth-digital-twin-canopy"
+    ],
+    "infographic": {
+      "headlineMetric": "$1.50 / Shot",
+      "headlineLabel": "Speed-of-Light Photonic Defense & Full Autarky",
+      "unit": "Defender-to-Attacker Cost Advantage Ratio (Higher Favors Peaceful Defense)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Legacy $2M Missiles vs. $50k Drones (Offense Favored 40:1)",
+          "value": 2,
+          "display": "0.025x (40:1 loss)"
+        },
+        {
+          "year": 2028,
+          "label": "First 100kW Solid-State Lasers (DragonFire / Iron Beam) + Micro-Interceptors",
+          "value": 25,
+          "display": "15x defender edge"
+        },
+        {
+          "year": 2031,
+          "label": "250kW Grid Photonic Meshes + 10-Min Open SAR Sky Verification",
+          "value": 500,
+          "display": "500x defender edge"
+        },
+        {
+          "year": 2035,
+          "label": "Universal Energy/Water/Salt-Iron Autarky + Speed-of-Light Shields",
+          "value": 1500,
+          "display": "1,500x+ peace lock"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Laser Intercept Cost",
+          "value": "~$1.50–$13",
+          "detail": "Unlimited electrical magazine replacing $2,000,000 missiles"
+        },
+        {
+          "label": "Cloud-Piercing SAR",
+          "value": "16–25 cm",
+          "detail": "24/7 commercial radar ends secret tank or launcher massing"
+        },
+        {
+          "label": "Conflict Mineral Need",
+          "value": "Near 0%",
+          "detail": "Sodium-ion salt batteries & iron-nitride magnets replace cobalt/Nd"
+        },
+        {
+          "label": "Global Peace Dividend",
+          "value": "$1.5T+ / Yr",
+          "detail": "Freed from arms races into healthspan, rewilding & civic abundance"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "UK Ministry of Defence Dstl (DragonFire Laser)",
+        "url": "https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first"
+      },
+      {
+        "name": "Rafael Advanced Defense Systems (Iron Beam 100kW HEL)",
+        "url": "https://www.rafael.co.il/"
+      },
+      {
+        "name": "Capella Space, Umbra & ICEYE (Sub-Meter SAR)",
+        "url": "https://www.capellaspace.com/"
+      },
+      {
+        "name": "Planet Labs",
+        "url": "https://www.planet.com/"
+      },
+      {
+        "name": "Niron Magnetics (Clean Iron-Nitride Magnets)",
+        "url": "https://www.nironmagnetics.com/"
+      },
+      {
+        "name": "IDE Technologies (Solar Desalination)",
+        "url": "https://www.ide-tech.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "UK DragonFire Trials (£1-Coin Precision at 1 km for <$13/Shot)",
+        "url": "https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first"
+      },
+      {
+        "name": "Iron Beam Operational Solid-State Air Defense (~$1.50–$3.00/Intercept)",
+        "url": "https://www.rafael.co.il/"
+      },
+      {
+        "name": "Israel–Jordan Cooperative Desalination-for-Solar Water Exchanges",
+        "url": "https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Israel"
+      },
+      {
+        "name": "Commercial Sub-25cm All-Weather SAR Exposing Surprise Armor Massing",
+        "url": "https://www.capellaspace.com/"
+      }
+    ]
+  },
+  {
+    "slug": "high-trust-civic-norms",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/high-trust-civic-norms",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "From Cynical Atomization to High-Trust Joy: Everyday Norms That Change Everything",
+    "tagline": "How phone-free childhood compacts, 15-minute Japanese school O-soji stewardship, Nordic Friluftsliv, and Saturday block-waffle Dugnads rebuild high-trust neighborhoods fast.",
+    "cynicBelief": "Solo 7-year-old subway riders in Tokyo, strollers parked outside Copenhagen cafés, and unlocked cabins in Norway only work in homogeneous fairy-tale societies—diverse modern cities are stuck with locked pharmacy plexiglass forever.",
+    "breakthroughCounter": "Historical sociology proves high trust is built, not genetic: 1850s Denmark was poor and low-trust until citizens created Folk High Schools and cooperatives. In 2025–2026, bell-to-bell phone-free schools across 30+ U.S. states, the UK, France, and the Netherlands—paired with Wait-Until-14 parent pacts, Japanese 12-minute school O-soji care, and block Dugnad workdays—are restoring playground laughter and neighbor trust across diverse communities within months.",
+    "socialNormShift": "Breaking collective-action traps together: whole school grades delaying smartphones in unison, children tidying shared commons with pride alongside principals, and rotating Block Stewards hosting twice-yearly street-care and waffle mornings.",
+    "humanStory": {
+      "protagonist": "Retired Machinist Mr. Kowalski (79), Coders Linh & Nam, and 10-Year-Old Leo",
+      "location": "Maple Street, Suburban Minneapolis, Minnesota",
+      "snippet": "After 65% of third-grade parents signed a mutual Wait-Until-14 pact, eight bikes piled up by the creek again; on autumn Saturday Dugnad morning, 38 diverse neighbors sweep storm drains and plant 200 tulip bulbs before sharing cast-iron street waffles—and the corner pharmacy unbolts its old plexiglass."
+    },
+    "quote": {
+      "text": "When communities act together to restore real-world free play, shared rituals, and face-to-face neighborhood trust, childhood anxiety plummets and civic joy comes rushing back.",
+      "author": "Jonathan Haidt",
+      "role": "Social Psychologist, NYU Stern & Author of The Anxious Generation",
+      "url": "https://www.anxiousgeneration.com/"
+    },
+    "companiesAndLabs": [
+      "The Anxious Generation Movement (Jonathan Haidt)",
+      "Let Grow Childhood Independence Project (Lenore Skenazy)",
+      "Smartphone Free Childhood (Global Parent Pacts)",
+      "Den Norske Turistforening (DNT Honor Cabins, Norway)",
+      "Nordic Secret / Folkehøjskoler Network",
+      "Northeastern Univ. Social Capital Lab (Daniel Aldrich)"
+    ],
+    "globalPrecedents": [
+      "Bell-to-Bell Phone-Free Schools (30+ U.S. States, UK, France, NL, Brazil)",
+      "Japanese Daily 15-Minute School O-soji Stewardship & Solo Kid Commutes",
+      "Norway's 550+ Unlocked Stocked DNT Mountain Cabins (>98% Honor Pay)",
+      "19th-Century Danish Folk High Schools & Japanese Chonaikai Block Captains"
+    ],
+    "synergyLinks": [
+      "two-sigma-guild-education",
+      "intergenerational-villages",
+      "sacred-worth-contemplation",
+      "cynicism-to-agency"
+    ],
+    "infographic": {
+      "headlineMetric": "75% Trust",
+      "headlineLabel": "Nordic/Tokyo Civic Trust Rebuilt Locally",
+      "unit": "Neighborhood Interpersonal Trust & Phone-Free Childhood Norm (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Bedroom Phone Captivity, Earbud Armor & Plexiglass Retail",
+          "value": 32,
+          "display": "32% trust baseline"
+        },
+        {
+          "year": 2028,
+          "label": "80% Phone-Free Schools + Grade-Level Wait-Until-14 Pacts",
+          "value": 46,
+          "display": "46% rising trust"
+        },
+        {
+          "year": 2031,
+          "label": "Daily School O-soji + Block Captains + Free-Range Kid Corridors",
+          "value": 63,
+          "display": "63% high trust"
+        },
+        {
+          "year": 2035,
+          "label": "Unlocked Tool Libraries, Stroller Cafés & 75% Civic Solidarity",
+          "value": 75,
+          "display": "75% Nordic-tier trust"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Phone-Free K–12 Wave",
+          "value": "30+ States & EU",
+          "detail": "Restores hallway laughter, eye contact & +15–20% focus in 1 term"
+        },
+        {
+          "label": "Daily School O-soji",
+          "value": "12–15 Mins",
+          "detail": "Students & principals tidy together; school vandalism drops >90%"
+        },
+        {
+          "label": "Norway DNT Cabins",
+          "value": "550+ Unlocked",
+          "detail": "Unstaffed mountain huts stocked with food on >98% honor system"
+        },
+        {
+          "label": "FOMO Tipping Point",
+          "value": "50% of Grade",
+          "detail": "Once half a class delays smartphones together, whole friend pack plays outdoors"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "The Anxious Generation Movement (Jonathan Haidt)",
+        "url": "https://www.anxiousgeneration.com/"
+      },
+      {
+        "name": "Let Grow Childhood Independence Project (Lenore Skenazy)",
+        "url": "https://letgrow.org/"
+      },
+      {
+        "name": "Smartphone Free Childhood (Global Parent Pacts)",
+        "url": "https://smartphonefreechildhood.co.uk/"
+      },
+      {
+        "name": "Den Norske Turistforening (DNT Honor Cabins, Norway)",
+        "url": "https://www.dnt.no/om-dnt/english/"
+      },
+      {
+        "name": "Nordic Secret / Folkehøjskoler Network",
+        "url": "https://danishfolkhighschools.com/"
+      },
+      {
+        "name": "Northeastern Univ. Social Capital Lab (Daniel Aldrich)",
+        "url": "https://cssh.northeastern.edu/faculty/daniel-aldrich/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Bell-to-Bell Phone-Free Schools (30+ U.S. States, UK, France, NL, Brazil)",
+        "url": "https://www.anxiousgeneration.com/"
+      },
+      {
+        "name": "Japanese Daily 15-Minute School O-soji Stewardship & Solo Kid Commutes",
+        "url": "https://en.wikipedia.org/wiki/Education_in_Japan"
+      },
+      {
+        "name": "Norway's 550+ Unlocked Stocked DNT Mountain Cabins (>98% Honor Pay)",
+        "url": "https://www.dnt.no/om-dnt/english/"
+      },
+      {
+        "name": "19th-Century Danish Folk High Schools & Japanese Chonaikai Block Captains",
+        "url": "https://danishfolkhighschools.com/"
+      }
+    ]
+  }
+]

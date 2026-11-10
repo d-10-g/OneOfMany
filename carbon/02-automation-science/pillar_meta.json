@@ -1,0 +1,1718 @@
+[
+  {
+    "slug": "general-purpose-humanoids",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/general-purpose-humanoids",
+    "v1Slug": "humanoid",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Helpful Mechanical Hands: General-Purpose Humanoid Teammates",
+    "tagline": "Vision-Language-Action brains and $12k–$18k EV actuator supply chains turn soft-bodied humanoids into gentle eldercare aides and worker-owned trade crews.",
+    "cynicBelief": "Humanoid robots are viral parkour stunts stitched together with hidden teleoperators—overpriced toys that will either stumble over a bathmat or dystopically strip working people of their livelihoods.",
+    "breakthroughCounter": "Between 2024 and late 2026, Vision-Language-Action (VLA) foundation models (Physical Intelligence π₀, NVIDIA GR00T, Google DeepMind Gemini Robotics) replaced rigid choreography with generalist physical reasoning, while Figure 02/03 on BMW lines, all-electric Atlas, Digit, Optimus, and soft-tendon 1X NEO rode EV supply chains toward $12,000–$18,000 hardware BOMs.",
+    "socialNormShift": "Pairing municipal aging-in-place care leases (modeled on Japan's KAIGO and Nordic home care) with credit-union worker-owned trade cooperatives turns humanoids into dignity-preserving care aides and spine-saving construction teammates.",
+    "humanStory": {
+      "protagonist": "Kenji Takahashi (Retired Shipwright) & Daughter Haruka",
+      "location": "Fukuoka, Japan",
+      "snippet": "Leased for $110/month through Fukuoka's Long-Term Care cooperative, a soft-knit 1X-class assistant steadies 79-year-old Kenji's morning walk, washes heavy bedding, and scrubs the deep soaking tub—so Haruka spends her morning visit sketching garden trellises over hojicha tea instead of nursing caregiver burnout."
+    },
+    "quote": {
+      "text": "There are not enough humans to do the physical work the world needs—embodied AI lets us unlock abundance across every physical industry, until eventually physical labor becomes optional, freeing billions of people to spend their lives doing what they actually choose to do.",
+      "author": "Brett Adcock",
+      "role": "Founder & CEO, Figure AI",
+      "url": "https://www.figure.ai/"
+    },
+    "companiesAndLabs": [
+      "Figure AI (Figure 02/03 & Helix)",
+      "Physical Intelligence (π₀ / π₀.₅)",
+      "Boston Dynamics (All-Electric Atlas) & Google DeepMind",
+      "Agility Robotics (Digit & RoboFab)",
+      "1X Technologies (NEO)",
+      "Tesla (Optimus) & Sanctuary AI"
+    ],
+    "globalPrecedents": [
+      "Japan MHLW & AMED KAIGO Nursing-Care Robot Subsidies (up to 80%)",
+      "Nordic Municipal Aging-in-Place Welfare-Tech Hubs (Odense & Västerås)",
+      "ISO 13482 Personal Care Robot Intrinsic Force-Limiting Standard",
+      "German Automotive Works-Council Ergonomic Co-Determination Pilots"
+    ],
+    "synergyLinks": [
+      "inverse-materials-design",
+      "ai-formal-mathematics",
+      "intergenerational-villages",
+      "displaced-worker-bridge"
+    ],
+    "infographic": {
+      "headlineMetric": "$12k–$18k BOM",
+      "headlineLabel": "EV-Scaled Generalist VLA Humanoid Cost",
+      "unit": "All-In Physical Robotic Labor Cost ($/hr)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Early Single-Task Tote Pilots & Teleop Rigs",
+          "value": 14.0,
+          "display": "$14.00/hr"
+        },
+        {
+          "year": 2026,
+          "label": "VLA Foundation Brains + Auto/3PL Factory Fleets",
+          "value": 3.2,
+          "display": "$3.20/hr"
+        },
+        {
+          "year": 2029,
+          "label": "Certified Soft-Body Home Eldercare & Trade Co-ops",
+          "value": 0.95,
+          "display": "$0.95/hr"
+        },
+        {
+          "year": 2033,
+          "label": "20M+ Fleet & Optional Dangerous Drudgery",
+          "value": 0.45,
+          "display": "$0.45/hr"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "VLA Control Loop",
+          "value": "500 Hz",
+          "detail": "On-device tactile slip & compliant force control"
+        },
+        {
+          "label": "Volume Hardware BOM",
+          "value": "$12k–$18k",
+          "detail": "Down >90% from $150k+ aerospace prototypes via EV parts"
+        },
+        {
+          "label": "Jobsite Back Injuries",
+          "value": "-75%+",
+          "detail": "Projected orthopedic strain drop in worker-owned crews"
+        },
+        {
+          "label": "Home Chores Reclaimed",
+          "value": "16 hrs/wk",
+          "detail": "Laundry, heavy transfers & scrubbing offloaded per family"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Figure AI (Figure 02/03 & Helix)",
+        "url": "https://www.figure.ai/"
+      },
+      {
+        "name": "Physical Intelligence (π₀ / π₀.₅)",
+        "url": "https://www.physicalintelligence.company/"
+      },
+      {
+        "name": "Boston Dynamics (All-Electric Atlas) & Google DeepMind",
+        "url": "https://bostondynamics.com/"
+      },
+      {
+        "name": "Agility Robotics (Digit & RoboFab)",
+        "url": "https://agilityrobotics.com/"
+      },
+      {
+        "name": "1X Technologies (NEO)",
+        "url": "https://www.1x.tech/"
+      },
+      {
+        "name": "Tesla (Optimus) & Sanctuary AI",
+        "url": "https://www.sanctuary.ai/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Japan MHLW & AMED KAIGO Nursing-Care Robot Subsidies (up to 80%)",
+        "url": "https://www.amed.go.jp/en/"
+      },
+      {
+        "name": "Nordic Municipal Aging-in-Place Welfare-Tech Hubs (Odense & Västerås)",
+        "url": "https://denmark.dk/"
+      },
+      {
+        "name": "ISO 13482 Personal Care Robot Intrinsic Force-Limiting Standard",
+        "url": "https://www.iso.org/standard/53820.html"
+      },
+      {
+        "name": "German Automotive Works-Council Ergonomic Co-Determination Pilots",
+        "url": "https://en.wikipedia.org/wiki/Works_council"
+      }
+    ]
+  },
+  {
+    "slug": "specialized-swarm-robotics",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/specialized-swarm-robotics",
+    "v1Slug": "other-form-factor",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Symphonic Swarms: Chemical-Free Farms, Ocean & Wildfire Rescue Bots",
+    "tagline": "Sub-millimeter laser weeders zapping 200,000+ weeds/hour, night-flying wildfire swarms, ocean coral planters, and sewer crawlers heal soil and save lives.",
+    "cynicBelief": "Swarm robotics sounds like sci-fi drone shows or surveillance nightmares—meanwhile real farms stay addicted to toxic herbicides and workers still suffocate in confined sewers.",
+    "breakthroughCounter": "Carbon Robotics' LaserWeeders already vaporize 200,000+ weeds per hour with millimeter-accurate thermal pulses and zero chemicals across hundreds of thousands of acres, while autonomous night-flying wildfire tankers, Reefgen seagrass/coral underwater bots, magnetic stroke micro-catheters, and Gecko ultrasonic crawlers thrive where human bodies cannot.",
+    "socialNormShift": "Modeled on France's 11,500+ CUMA farmer machinery cooperatives and European aquifer-protection compacts, shared precision swarms make chemical-free regenerative polyculture cheaper than toxic industrial monoculture—while outlawing deadly human confined-space entry.",
+    "humanStory": {
+      "protagonist": "Elena Morales, Third-Generation Organic Grower",
+      "location": "Salinas Valley, California",
+      "snippet": "Watching ruby thermal flashes beneath three quiet autonomous LaserWeeders at midnight, Elena grows chemical-free baby carrots with thriving earthworms while her former hand-weeding crew directs regional solar field swarms from shaded cabs at $44/hour."
+    },
+    "quote": {
+      "text": "When sub-millimeter computer vision meets high-power lasers, farmers eliminate chemical herbicides completely while restoring living soil.",
+      "author": "Paul Mikesell",
+      "role": "Founder & CEO, Carbon Robotics",
+      "url": "https://carbonrobotics.com/"
+    },
+    "companiesAndLabs": [
+      "Carbon Robotics (LaserWeeder)",
+      "Aigen (Solar Field Swarm)",
+      "Rain & Sikorsky Matrix (Night Wildfire Rotorcraft)",
+      "Shark Robotics (Colossus Fire Mules)",
+      "Reefgen (Underwater Seagrass & Coral Bots)",
+      "Gecko Robotics & Flyability (Confined-Space Crawlers)"
+    ],
+    "globalPrecedents": [
+      "France's 11,500+ CUMA Democratic Farm Equipment Cooperatives",
+      "Danish & German Municipal Water-Utility Non-Chemical Farming Subsidies",
+      "ALERTCalifornia 1,050+ Camera AI Wildfire Early-Detection Backbone",
+      "OSHA / EU Zero-Human Confined-Space Robotic Inspection Mandates"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "assisted-coral-cryobanks",
+      "earth-digital-twin-canopy",
+      "self-driving-labs"
+    ],
+    "infographic": {
+      "headlineMetric": "200k+ Weeds/Hr",
+      "headlineLabel": "Sub-Millimeter Laser Weeding (0% Herbicide)",
+      "unit": "Chemical Herbicide Eliminated on Swarm-Tended Farms (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Early Specialty Vegetable LaserWeeder Adopters",
+          "value": 8,
+          "display": "8% Regional Share"
+        },
+        {
+          "year": 2026,
+          "label": "100+ Crop Models & Solar Row-Crop Swarms",
+          "value": 24,
+          "display": "24% Specialty Share"
+        },
+        {
+          "year": 2029,
+          "label": "Rural Farm Co-op Pools + 10-Min Night Wildfire Nets",
+          "value": 55,
+          "display": "55% Co-op Share"
+        },
+        {
+          "year": 2034,
+          "label": "Default Chemical-Free Regenerative Polyculture",
+          "value": 85,
+          "display": "85%+ Herbicide Cut"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Laser Targeting",
+          "value": "<1.5 mm",
+          "detail": "42 onboard GPUs spare crop shoots 2 mm away"
+        },
+        {
+          "label": "Solar Rover Mass",
+          "value": "150 lbs",
+          "detail": "Replaces 30,000-lb diesel sprayers with zero soil compaction"
+        },
+        {
+          "label": "Night Fire Dispatch",
+          "value": "<15 Min",
+          "detail": "LiDAR/thermal rotorcraft fly through midnight smoke"
+        },
+        {
+          "label": "Reef/Seagrass Speed",
+          "value": "10x Divers",
+          "detail": "Reefgen benthic AUVs rebuild coastal storm buffers"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Carbon Robotics (LaserWeeder)",
+        "url": "https://carbonrobotics.com/"
+      },
+      {
+        "name": "Aigen (Solar Field Swarm)",
+        "url": "https://www.aigen.io/"
+      },
+      {
+        "name": "Rain & Sikorsky Matrix (Night Wildfire Rotorcraft)",
+        "url": "https://www.lockheedmartin.com/"
+      },
+      {
+        "name": "Shark Robotics (Colossus Fire Mules)",
+        "url": "https://www.shark-robotics.com/"
+      },
+      {
+        "name": "Reefgen (Underwater Seagrass & Coral Bots)",
+        "url": "https://www.reefgen.io/"
+      },
+      {
+        "name": "Gecko Robotics & Flyability (Confined-Space Crawlers)",
+        "url": "https://www.geckorobotics.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "France's 11,500+ CUMA Democratic Farm Equipment Cooperatives",
+        "url": "https://en.wikipedia.org/wiki/Agricultural_cooperative"
+      },
+      {
+        "name": "Danish & German Municipal Water-Utility Non-Chemical Farming Subsidies",
+        "url": "https://agriculture.ec.europa.eu/farming/organic-farming_en"
+      },
+      {
+        "name": "ALERTCalifornia 1,050+ Camera AI Wildfire Early-Detection Backbone",
+        "url": "https://alertcalifornia.org/"
+      },
+      {
+        "name": "OSHA / EU Zero-Human Confined-Space Robotic Inspection Mandates",
+        "url": "https://www.osha.gov/confined-spaces"
+      }
+    ]
+  },
+  {
+    "slug": "self-driving-labs",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/self-driving-labs",
+    "v1Slug": "automated-physical-sciences",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "10,000 Experiments Before Breakfast: Autonomous Physical Wet & Solid Labs",
+    "tagline": "Closed-loop AI scientists run 24/7 nanoliter fluidics, solid-state furnaces, and inline X-ray/mass-spec—turning 15-year lab slog into weekend reproducible cures.",
+    "cynicBelief": "AI only shuffles digital text—discovering real medicines, catalysts, or battery crystals will always take fifteen years, two billion dollars, and exhausted PhDs pipetting by hand.",
+    "breakthroughCounter": "Lawrence Berkeley Lab's A-Lab autonomously synthesized 41 novel inorganic crystals in 17 days, Liverpool's mobile robotic chemist ran 688 catalyst experiments in the dark, and Emerald Cloud Lab, Lila Sciences, Radical AI, Glasgow's XDL Chemputer, and AutoDNA biofoundries compress physical discovery 10x–100x.",
+    "socialNormShift": "Browser-accessible Cloud Wet Labs and universal Chemical Description Language (.xdl) end the preclinical reproducibility crisis, rescue unpublished 'dark data,' and let Global South universities and 50-family rare-disease charities run Big-Pharma-grade assays without $80M cleanrooms.",
+    "humanStory": {
+      "protagonist": "Dr. Ama Mensah, Computational Biochemist",
+      "location": "KNUST, Kumasi, Ghana",
+      "snippet": "Uploading a 20-line stability spec before heading home Friday at 5:40 PM, Ama lets a federated Cloud Self-Driving Lab execute four self-correcting Bayesian generations (4,200 nanoliter assays) all weekend—returning Monday morning to a verified 40°C-stable pediatric vaccine excipient."
+    },
+    "quote": {
+      "text": "Digitizing chemistry means a life-saving molecule discovered in one automated lab in the morning can be synthesized locally in a hospital across the world that afternoon.",
+      "author": "Prof. Lee Cronin",
+      "role": "Regius Chair of Chemistry, University of Glasgow & Creator of the Chemputer",
+      "url": "https://www.chem.gla.ac.uk/cronin/"
+    },
+    "companiesAndLabs": [
+      "Lawrence Berkeley National Lab (A-Lab)",
+      "Emerald Cloud Lab (ECL)",
+      "Lila Sciences & Radical AI",
+      "University of Liverpool (Mobile Robotic Chemist)",
+      "University of Glasgow (Chemputer / XDL)",
+      "U of Toronto Acceleration Consortium & Argonne Polybot"
+    ],
+    "globalPrecedents": [
+      "Canada's $200M+ Open Acceleration Consortium SDL Standards",
+      "US DOE Autonomous National Lab Beamline & Synthesis Networks",
+      "Global Biofoundries Alliance (30+ Non-Profit AutoDNA Hubs)",
+      "Universal Chemical Description Language (.xdl) Open Execution Spec"
+    ],
+    "synergyLinks": [
+      "inverse-materials-design",
+      "protein-atomic-nanofabrication",
+      "invivo-crispr-cures",
+      "general-purpose-humanoids"
+    ],
+    "infographic": {
+      "headlineMetric": "10x–100x Faster",
+      "headlineLabel": "24/7 Closed-Loop Bayesian Physical Discovery",
+      "unit": "Cost per Fully Characterized Physical Assay ($)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Artisanal Manual Pipetting & Core Queues",
+          "value": 280.0,
+          "display": "$150–$400/assay"
+        },
+        {
+          "year": 2026,
+          "label": "A-Lab, Cloud Wet Labs & Bayesian Active Loops",
+          "value": 14.0,
+          "display": "$8–$25/assay"
+        },
+        {
+          "year": 2029,
+          "label": "Federated Acoustic Nanoliter + Inline Mass-Spec SDLs",
+          "value": 1.4,
+          "display": "$0.80–$2.50/assay"
+        },
+        {
+          "year": 2033,
+          "label": "10,000+ Daily Microfluidic Loops & Instant XDL Replay",
+          "value": 0.12,
+          "display": "<$0.15/assay"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "LBNL A-Lab Run",
+          "value": "41 Solids",
+          "detail": "Novel inorganic compounds synthesized autonomously in 17 days"
+        },
+        {
+          "label": "Reagent Volume",
+          "value": "1,000x Less",
+          "detail": "2.5-nanoliter acoustic sound-wave droplets vs. manual pipettes"
+        },
+        {
+          "label": "Replication Rate",
+          "value": ">98.5%",
+          "detail": "Cryptographic sensor logs end the ~50% reproducibility crisis"
+        },
+        {
+          "label": "Trial Reduction",
+          "value": "-90% to -99%",
+          "detail": "Active Bayesian learning logs 100% of negative 'dark data'"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Lawrence Berkeley National Lab (A-Lab)",
+        "url": "https://www.lbl.gov/"
+      },
+      {
+        "name": "Emerald Cloud Lab (ECL)",
+        "url": "https://www.emeraldcloudlab.com/"
+      },
+      {
+        "name": "Lila Sciences & Radical AI",
+        "url": "https://www.lila.ai/"
+      },
+      {
+        "name": "University of Liverpool (Mobile Robotic Chemist)",
+        "url": "https://www.liverpool.ac.uk/"
+      },
+      {
+        "name": "University of Glasgow (Chemputer / XDL)",
+        "url": "https://www.chem.gla.ac.uk/cronin/"
+      },
+      {
+        "name": "U of Toronto Acceleration Consortium & Argonne Polybot",
+        "url": "https://acceleration.utoronto.ca/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Canada's $200M+ Open Acceleration Consortium SDL Standards",
+        "url": "https://acceleration.utoronto.ca/"
+      },
+      {
+        "name": "US DOE Autonomous National Lab Beamline & Synthesis Networks",
+        "url": "https://www.energy.gov/science/office-science"
+      },
+      {
+        "name": "Global Biofoundries Alliance (30+ Non-Profit AutoDNA Hubs)",
+        "url": "https://biofoundries.org/"
+      },
+      {
+        "name": "Universal Chemical Description Language (.xdl) Open Execution Spec",
+        "url": "https://www.chem.gla.ac.uk/cronin/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-formal-mathematics",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/ai-formal-mathematics",
+    "v1Slug": "automated-research",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Hallucination-Free Genius: Lean 4, AlphaProof & Co-Pilot Discovery",
+    "tagline": "Coupling creative reasoning models with Lean 4's uncheatable proof kernel eliminates AI hallucinations forever—unlocking polymath math and zero-bug critical software.",
+    "cynicBelief": "Large language models are fluent BS artists—they hallucinate subtle bugs and fake logic, so they can never be trusted with deep proofs, hospital devices, or aircraft controls.",
+    "breakthroughCounter": "By late 2026, Lean 4's Mathlib surpassed 290,000 formally verified theorems and 130,000 definitions, DeepMind's AlphaProof and AlphaGeometry solved Olympiad challenges, AWS formally verified its Cedar global cloud security engine in Lean 4, and Terence Tao's Lean Blueprints compressed multi-year refereeing into 3-week global collaborations.",
+    "socialNormShift": "Tiny auditable proof kernels abolish academic pedigree gatekeeping—letting students anywhere contribute verified lemmas alongside Fields Medalists—while replacing 'patch Tuesday' hospital ransomware and crash bugs with mandatory machine-checked safety certificates.",
+    "humanStory": {
+      "protagonist": "Captain Lukas Weber (Zürich) & Student Mateo Ríos (Mérida)",
+      "location": "Zürich Airport & Mérida, Mexico",
+      "snippet": "While Lukas lands an airliner through midnight Alpine wind shear protected by Lean-verified zero-bug flight envelopes, 19-year-old community-college student Mateo pushes a machine-checked fluid-dynamics lemma from a Mérida café—turning green on Terence Tao's global Blueprint in ten seconds with zero elitist gatekeeping."
+    },
+    "quote": {
+      "text": "In 10 to 15 years' time, we'll be in a new golden era of discovery—an era of incredible productivity and radical abundance.",
+      "author": "Sir Demis Hassabis",
+      "role": "Co-Founder & CEO, Google DeepMind & 2024 Nobel Laureate",
+      "url": "https://deepmind.google/"
+    },
+    "companiesAndLabs": [
+      "Lean FRO & Global Mathlib Community (Leonardo de Moura)",
+      "Google DeepMind (AlphaProof & AlphaGeometry 2)",
+      "Terence Tao & Open Lean Blueprint Consortia",
+      "Amazon Web Services (Cedar Verified in Lean 4)",
+      "Harmonic (Aristotle), LeanDojo & DeepSeek-Prover",
+      "seL4 Foundation & DARPA TRACTOR Verified Systems"
+    ],
+    "globalPrecedents": [
+      "Non-Profit Lean Focused Research Organization (100% Open Bedrock)",
+      "AWS Production Formal Verification of Global Cedar Security Policies",
+      "FAA DO-178C Formal Methods Certification Credit in Aviation",
+      "3-Week Global Polymath PFR & Equational Theories Blueprint Sprints"
+    ],
+    "synergyLinks": [
+      "general-purpose-humanoids",
+      "autonomous-ground-mobility",
+      "quantum-logical-simulation",
+      "defensive-shields-peace"
+    ],
+    "infographic": {
+      "headlineMetric": "290,000+ Theorems",
+      "headlineLabel": "Unified Contradiction-Free Lean 4 Mathlib",
+      "unit": "Formally Verified Theorems in Open Mathlib (Thousands)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "Manual PhD Proof Engineering Era",
+          "value": 90,
+          "display": "90k Theorems"
+        },
+        {
+          "year": 2026,
+          "label": "Lean 4 + AlphaProof + Tao Blueprint Breakout",
+          "value": 295,
+          "display": "290k+ Theorems"
+        },
+        {
+          "year": 2029,
+          "label": "Auto-Formalized STEM & Zero-Bug Critical CI/CD",
+          "value": 1800,
+          "display": "1.8M+ Theorems"
+        },
+        {
+          "year": 2033,
+          "label": "Universal Verified Physics, Control & Infrastructure",
+          "value": 8500,
+          "display": "8.5M+ Theorems"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Accepted Hallucinations",
+          "value": "0.00%",
+          "detail": "~2,500-line auditable Lean kernel rejects every invalid step"
+        },
+        {
+          "label": "Mathlib Definitions",
+          "value": "130,000+",
+          "detail": "Single unified open dependency graph in late 2026"
+        },
+        {
+          "label": "Peer-Review Wait",
+          "value": "<15 Sec",
+          "detail": "Replaces 3–5 year human journal referee bottlenecks"
+        },
+        {
+          "label": "Memory-Bug CVEs",
+          "value": "-70% to -95%",
+          "detail": "Auto-formalized Rust + Lean eliminates buffer overflows"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Lean FRO & Global Mathlib Community (Leonardo de Moura)",
+        "url": "https://lean-lang.org/"
+      },
+      {
+        "name": "Google DeepMind (AlphaProof & AlphaGeometry 2)",
+        "url": "https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/"
+      },
+      {
+        "name": "Terence Tao & Open Lean Blueprint Consortia",
+        "url": "https://terrytao.wordpress.com/"
+      },
+      {
+        "name": "Amazon Web Services (Cedar Verified in Lean 4)",
+        "url": "https://lean-lang.org/"
+      },
+      {
+        "name": "Harmonic (Aristotle), LeanDojo & DeepSeek-Prover",
+        "url": "https://leandojo.org/"
+      },
+      {
+        "name": "seL4 Foundation & DARPA TRACTOR Verified Systems",
+        "url": "https://sel4.systems/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Non-Profit Lean Focused Research Organization (100% Open Bedrock)",
+        "url": "https://lean-lang.org/"
+      },
+      {
+        "name": "AWS Production Formal Verification of Global Cedar Security Policies",
+        "url": "https://www.cedarpolicy.com/"
+      },
+      {
+        "name": "FAA DO-178C Formal Methods Certification Credit in Aviation",
+        "url": "https://en.wikipedia.org/wiki/DO-178C"
+      },
+      {
+        "name": "3-Week Global Polymath PFR & Equational Theories Blueprint Sprints",
+        "url": "https://leanprover-community.github.io/"
+      }
+    ]
+  },
+  {
+    "slug": "inverse-materials-design",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/inverse-materials-design",
+    "v1Slug": "materials-science",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Designing Matter Backwards: AI Super-Materials Without Rare-Earth Scars",
+    "tagline": "3D crystal diffusion models generate custom magnets, desert-water sponges, and zero-watt cool roofs backwards from iron, sand, salt, and air—ending rare-earth strip mines.",
+    "cynicBelief": "Every clean-energy promise is an ecological shell game—trading oil wells for toxic neodymium strip mines and cobalt pits because finding new materials takes twenty years of luck.",
+    "breakthroughCounter": "DeepMind's GNoME mapped 2.2M stable crystals (800 years of discovery), Microsoft's MatterGen, CuspAI, and Orbital Materials diffuse custom lattices backwards from abundant crustal elements 1,000,000x faster than quantum DFT, and Niron Magnetics' Clean Earth Magnet already replaces mined rare earths with common iron and atmospheric nitrogen.",
+    "socialNormShift": "Constraining generative models to Earth's 12 most abundant, non-toxic elements designs geopolitical resource wars and mining sacrifice zones out at the atomic root—while $50 radiative-cooling nanopaints protect tropical schools with zero electricity.",
+    "humanStory": {
+      "protagonist": "Meera Sharma, Public Middle-School Physics Teacher",
+      "location": "Jaipur, India & Sartell, Minnesota",
+      "snippet": "On a 44°C pre-monsoon afternoon in Jaipur, Meera places her bare palm on a cool school roof coated with AI-designed barium-sulfate nanopaint—keeping 60 students comfortable at 26°C on zero watts while a courtyard MOF drum harvests 90 liters of pure drinking water from 18%-humidity desert night air."
+    },
+    "quote": {
+      "text": "For centuries, humanity discovered materials by trial, error, and serendipity; inverse AI design lets us ask nature for the exact atomic lattice our clean future requires.",
+      "author": "Prof. Kristin Persson",
+      "role": "Director, The Materials Project, Lawrence Berkeley National Laboratory",
+      "url": "https://next-gen.materialsproject.org/"
+    },
+    "companiesAndLabs": [
+      "Niron Magnetics (Clean Earth Fe₁₆N₂ Magnets)",
+      "LBNL Materials Project & Google DeepMind (GNoME)",
+      "Microsoft Research (MatterGen & MatterSim)",
+      "CuspAI & Svante (CALF-20 MOF Sponges)",
+      "Orbital Materials (Orb Force Fields)",
+      "SkyCool Systems (Radiative Sky-Cooling Films)"
+    ],
+    "globalPrecedents": [
+      "US DOE Open Materials Project Commons (300,000+ Global Researchers)",
+      "Indian Municipal Cool-Roof Mandates (Hyderabad & Ahmedabad)",
+      "EU Critical Raw Materials Substitution & Circular Blade Directives",
+      "Niron Sartell Commercial Rare-Earth-Free Magnet Plant Launch"
+    ],
+    "synergyLinks": [
+      "iron-sodium-storage",
+      "perovskite-tandem-solar",
+      "self-driving-labs",
+      "general-purpose-humanoids"
+    ],
+    "infographic": {
+      "headlineMetric": "2.2M+ Crystals",
+      "headlineLabel": "Inverse AI Lattices Built From Abundant Elements",
+      "unit": "Rare-Earth Mining Dependency in New Clean Motors & Grids (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "NdFeB & Cobalt-Locked Forward Screening Era",
+          "value": 95,
+          "display": "95% Rare-Earth Locked"
+        },
+        {
+          "year": 2026,
+          "label": "GNoME, MatterGen & Commercial Niron Fe₁₆N₂ Launch",
+          "value": 84,
+          "display": "84% (Substitutes Live)"
+        },
+        {
+          "year": 2029,
+          "label": "Mass Iron-Nitride Motors, Sodium Grids & Cool Roofs",
+          "value": 52,
+          "display": "52% Rare-Earth Share"
+        },
+        {
+          "year": 2034,
+          "label": "Abundant Crustal-Element Default Across Clean Tech",
+          "value": 16,
+          "display": "<20% (>80% Eliminated)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Niron Magnet Feed",
+          "value": "Iron + Air",
+          "detail": "α''-Fe₁₆N₂ eliminates neodymium & dysprosium mining"
+        },
+        {
+          "label": "Passive Roof Drop",
+          "value": "-6°C to -8°C",
+          "detail": "Radiative nanopaints beam indoor heat to space on 0 watts"
+        },
+        {
+          "label": "1 Gram MOF Sponge",
+          "value": "7,000 m²",
+          "detail": "Soccer-pitch internal pore area captures CO₂ & desert water"
+        },
+        {
+          "label": "Sim Acceleration",
+          "value": "1,000,000x",
+          "detail": "ML force fields (MatterSim/Orb) vs. legacy quantum DFT"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Niron Magnetics (Clean Earth Fe₁₆N₂ Magnets)",
+        "url": "https://www.nironmagnetics.com/"
+      },
+      {
+        "name": "LBNL Materials Project & Google DeepMind (GNoME)",
+        "url": "https://next-gen.materialsproject.org/"
+      },
+      {
+        "name": "Microsoft Research (MatterGen & MatterSim)",
+        "url": "https://www.microsoft.com/en-us/research/"
+      },
+      {
+        "name": "CuspAI & Svante (CALF-20 MOF Sponges)",
+        "url": "https://cusp.ai/"
+      },
+      {
+        "name": "Orbital Materials (Orb Force Fields)",
+        "url": "https://www.orbitalmaterials.com/"
+      },
+      {
+        "name": "SkyCool Systems (Radiative Sky-Cooling Films)",
+        "url": "https://www.skycoolsystems.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "US DOE Open Materials Project Commons (300,000+ Global Researchers)",
+        "url": "https://next-gen.materialsproject.org/"
+      },
+      {
+        "name": "Indian Municipal Cool-Roof Mandates (Hyderabad & Ahmedabad)",
+        "url": "https://www.nrdc.org/"
+      },
+      {
+        "name": "EU Critical Raw Materials Substitution & Circular Blade Directives",
+        "url": "https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials_en"
+      },
+      {
+        "name": "Niron Sartell Commercial Rare-Earth-Free Magnet Plant Launch",
+        "url": "https://www.nironmagnetics.com/"
+      }
+    ]
+  },
+  {
+    "slug": "quantum-logical-simulation",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/quantum-logical-simulation",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Fault-Tolerant Quantum + AI Chemistry Simulators",
+    "tagline": "Crossing the below-threshold logical qubit milestone gives humanity a native quantum telescope to crack bacterial nitrogenase—brewing room-temperature solar fertilizer for every farm.",
+    "cynicBelief": "Quantum computing has been ten years away for thirty years—fragile cryogenic chandeliers drowned in noise that only threaten bank passwords without helping ordinary families.",
+    "breakthroughCounter": "In 2024–2026, quantum crossed its Kitty Hawk threshold: Google's Willow proved exponential error suppression as logical grids grew, QuEra neutral atoms and Quantinuum trapped ions scaled 48–800x cleaner logical gates, IBM qLDPC slashed qubit overhead 90%, and NIST Post-Quantum Cryptography already secured civilian encryption.",
+    "socialNormShift": "Public cloud 'CERNs for Chemistry' use 150–300 logical qubits to compute exact energies for entangled catalytic cores like FeMo-co—training open AI force fields so rural farm co-ops brew $0.12/kg solar fertilizer out of rain and air instead of burning fossil gas at 200 atmospheres.",
+    "humanStory": {
+      "protagonist": "Samuel Kiprop, Smallholder Cooperative Agronomist",
+      "location": "Nakuru, Great Rift Valley, Kenya",
+      "snippet": "Flipping on a silent solar electro-catalysis shipping container stamped with a quantum-designed iron-molybdenum sulfide mesh, Samuel brews zero-carbon fertilizer from rainwater and thin air at 28°C—insulating Rift Valley harvests from distant natural-gas price shocks forever."
+    },
+    "quote": {
+      "text": "Nature is quantum mechanical at its foundation; fault-tolerant logical qubits give us a native telescope into the exact chemistry of catalysis, energy, and medicine.",
+      "author": "Dr. Hartmut Neven",
+      "role": "Founder & Lead, Google Quantum AI",
+      "url": "https://quantumai.google/"
+    },
+    "companiesAndLabs": [
+      "Google Quantum AI (Willow & AlphaQubit)",
+      "QuEra Computing & Harvard/MIT Neutral-Atom Labs",
+      "Quantinuum (Helios / H2) & Microsoft",
+      "IBM Quantum (Heron & Starling qLDPC Roadmap)",
+      "PsiQuantum & Riverlane",
+      "Phasecraft & QSimulate (Quantum-AI Chemistry)"
+    ],
+    "globalPrecedents": [
+      "NIST Post-Quantum Cryptography Standards Live (FIPS 203/204/205)",
+      "Japan RIKEN Fugaku + Quantum-Centric Public HPC Supercenter",
+      "EuroHPC & US DOE Open National Quantum Chemistry Testbeds",
+      "Wellcome Leap & Novo Nordisk Foundation $200M+ Quantum-Bio Commons"
+    ],
+    "synergyLinks": [
+      "inverse-materials-design",
+      "protein-atomic-nanofabrication",
+      "superconducting-grids",
+      "synthetic-sky-fuels"
+    ],
+    "infographic": {
+      "headlineMetric": "Below-Threshold QEC",
+      "headlineLabel": "Verified Logical Qubits Unlocking Exact Catalysis",
+      "unit": "Verified Error-Corrected Logical Qubits in Chemistry Hubs",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "Noisy Physical NISQ Era (0 Logical Qubits)",
+          "value": 1,
+          "display": "0 Logical (Noisy)"
+        },
+        {
+          "year": 2026,
+          "label": "Willow, QuEra & Quantinuum Below-Threshold Proof",
+          "value": 50,
+          "display": "12–50+ Logical Qubits"
+        },
+        {
+          "year": 2029,
+          "label": "qLDPC & Neutral-Atom FeMo-co Active-Site Oracles",
+          "value": 250,
+          "display": "200–300 Logical Qubits"
+        },
+        {
+          "year": 2033,
+          "label": "Utility Fault-Tolerant Photochemistry & High-Tc Engines",
+          "value": 2500,
+          "display": "2,000+ Logical Qubits"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Logical Error Cut",
+          "value": "800x Cleaner",
+          "detail": "Active syndrome decoding beats raw physical qubit lifetimes"
+        },
+        {
+          "label": "Haber-Bosch CO₂",
+          "value": "~2% Global",
+          "detail": "Fossil 200-bar fertilizer emissions targeted by FeMo-co catalysts"
+        },
+        {
+          "label": "qLDPC Savings",
+          "value": "-90% Overhead",
+          "detail": "High-rate codes slash physical qubits needed per logical qubit"
+        },
+        {
+          "label": "Chemical Accuracy",
+          "value": "<1 kcal/mol",
+          "detail": "Exact active-site oracle labels train million-atom AI models"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Google Quantum AI (Willow & AlphaQubit)",
+        "url": "https://quantumai.google/"
+      },
+      {
+        "name": "QuEra Computing & Harvard/MIT Neutral-Atom Labs",
+        "url": "https://www.quera.com/"
+      },
+      {
+        "name": "Quantinuum (Helios / H2) & Microsoft",
+        "url": "https://www.quantinuum.com/"
+      },
+      {
+        "name": "IBM Quantum (Heron & Starling qLDPC Roadmap)",
+        "url": "https://www.ibm.com/quantum"
+      },
+      {
+        "name": "PsiQuantum & Riverlane",
+        "url": "https://www.psiquantum.com/"
+      },
+      {
+        "name": "Phasecraft & QSimulate (Quantum-AI Chemistry)",
+        "url": "https://www.phasecraft.io/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "NIST Post-Quantum Cryptography Standards Live (FIPS 203/204/205)",
+        "url": "https://csrc.nist.gov/projects/post-quantum-cryptography"
+      },
+      {
+        "name": "Japan RIKEN Fugaku + Quantum-Centric Public HPC Supercenter",
+        "url": "https://www.riken.jp/en/"
+      },
+      {
+        "name": "EuroHPC & US DOE Open National Quantum Chemistry Testbeds",
+        "url": "https://eurohpc-ju.europa.eu/"
+      },
+      {
+        "name": "Wellcome Leap & Novo Nordisk Foundation $200M+ Quantum-Bio Commons",
+        "url": "https://wellcomeleap.org/"
+      }
+    ]
+  },
+  {
+    "slug": "holographic-bio-microassembly",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/holographic-bio-microassembly",
+    "v1Slug": "micro-assembly",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Sculpting with Light & Sound: Volumetric & Acoustic Micro-Fabrication",
+    "tagline": "Computed Axial Lithography and ultrasonic holograms solidify vascularized living grafts, micro-optics, and dental crowns all at once in under 30 seconds.",
+    "cynicBelief": "3D printing still crawls along oozing rough plastic spaghetti one slow slice at a time—crushing living cells in nozzles and useless for smooth optics or real clinic grafts.",
+    "breakthroughCounter": "Computed Axial Lithography (UC Berkeley, LLNL, Readily3D, Vitro3D, Xolo) runs CT scanning in reverse—projecting 3D light fields into rotating hydrogels to solidify entire complex lenses and vascularized organoids in 12–30 seconds with >95% cell survival, paired with contactless acoustic cell tweezers and Nanoscribe two-photon sub-micron lasers.",
+    "socialNormShift": "Backed by the FDA Modernization Act ending mandatory animal drug tests, 20-second human liver and heart organoid plates replace cruel, inaccurate rodent toxicology while bringing $35 single-visit dental crowns and $8 custom lenses to rural clinics.",
+    "humanStory": {
+      "protagonist": "Clara Favre, 42-Year-Old Mountain Trail Runner",
+      "location": "University Hospital Lausanne, Switzerland",
+      "snippet": "Awake under local knee anesthesia, Clara watches ultrasonic waves align her own cartilage cells inside a spinning quartz vial before violet holographic light solidifies a living, micro-vascularized meniscus graft in 22 seconds—implanted the same morning."
+    },
+    "quote": {
+      "text": "Volumetric printing solidifies an entire three-dimensional object all at once in fields of light—turning hours of fragile layer-by-layer build time into seconds.",
+      "author": "Prof. Hayden Taylor",
+      "role": "Co-Inventor of Computed Axial Lithography, UC Berkeley",
+      "url": "https://me.berkeley.edu/"
+    },
+    "companiesAndLabs": [
+      "UC Berkeley & Lawrence Livermore National Lab (CAL)",
+      "Readily3D (Tomolite Living Bioprinter — EPFL)",
+      "Vitro3D (Volumetric Well-Plate & Dental Arrays)",
+      "Xolo (Xolography Dual-Wavelength Volumetric)",
+      "Nanoscribe & UpNano (Two-Photon Sub-Micron)",
+      "Max Planck / ETH / Utrecht Acoustic & Biofabrication Labs"
+    ],
+    "globalPrecedents": [
+      "US FDA Modernization Act 2.0/3.0 Ending Mandatory Animal Drug Testing",
+      "EU Horizon ENLIGHT Living Organoid Bioprinting Consortium",
+      "Point-of-Care Closed-Vial Hospital Sterile Additive Frameworks",
+      "Freiburg & Berkeley Sub-Nanometer Volumetric Fused-Silica Glass"
+    ],
+    "synergyLinks": [
+      "organ-bioprinting-bionics",
+      "self-driving-labs",
+      "protein-atomic-nanofabrication",
+      "zero-g-biomanufacturing"
+    ],
+    "infographic": {
+      "headlineMetric": "<30 Seconds",
+      "headlineLabel": "Simultaneous 3D Volumetric Light Solidification",
+      "unit": "Build Time for Complex 2 cm Vascularized / Optical Part (Seconds)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "Layer-by-Layer Extrusion / SLA (3–4 Hours)",
+          "value": 10800,
+          "display": "10,800 sec (3 hrs)"
+        },
+        {
+          "year": 2026,
+          "label": "Commercial CAL & Xolography Bio/Optical Chambers",
+          "value": 24,
+          "display": "20–30 seconds"
+        },
+        {
+          "year": 2029,
+          "label": "Acoustic Hologram + Multi-Wavelength Volumetric",
+          "value": 9,
+          "display": "8–12 seconds"
+        },
+        {
+          "year": 2033,
+          "label": "Point-of-Care Chairside Graft & Micro-Optic Cartridges",
+          "value": 4,
+          "display": "<5 seconds"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Living Cell Survival",
+          "value": ">95%",
+          "detail": "Zero extrusion-needle shear stress or multi-hour hypoxia"
+        },
+        {
+          "label": "Optical Roughness",
+          "value": "<1 nm",
+          "detail": "Lenses emerge mirror-smooth without mechanical grinding"
+        },
+        {
+          "label": "2-Photon Detail",
+          "value": "100 nm",
+          "detail": "Prints AI chip photonics & painless vaccine microneedles"
+        },
+        {
+          "label": "Animal Tests Cut",
+          "value": ">60% Target",
+          "detail": "96-well vascularized human mini-livers beat rodent models"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "UC Berkeley & Lawrence Livermore National Lab (CAL)",
+        "url": "https://www.llnl.gov/"
+      },
+      {
+        "name": "Readily3D (Tomolite Living Bioprinter — EPFL)",
+        "url": "https://readily3d.com/"
+      },
+      {
+        "name": "Vitro3D (Volumetric Well-Plate & Dental Arrays)",
+        "url": "https://en.wikipedia.org/wiki/Computed_axial_lithography"
+      },
+      {
+        "name": "Xolo (Xolography Dual-Wavelength Volumetric)",
+        "url": "https://www.xolo3d.com/"
+      },
+      {
+        "name": "Nanoscribe & UpNano (Two-Photon Sub-Micron)",
+        "url": "https://www.nanoscribe.com/en/"
+      },
+      {
+        "name": "Max Planck / ETH / Utrecht Acoustic & Biofabrication Labs",
+        "url": "https://ethz.ch/en.html"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "US FDA Modernization Act 2.0/3.0 Ending Mandatory Animal Drug Testing",
+        "url": "https://www.fda.gov/"
+      },
+      {
+        "name": "EU Horizon ENLIGHT Living Organoid Bioprinting Consortium",
+        "url": "https://enlight-project.eu/"
+      },
+      {
+        "name": "Point-of-Care Closed-Vial Hospital Sterile Additive Frameworks",
+        "url": "https://www.fda.gov/medical-devices"
+      },
+      {
+        "name": "Freiburg & Berkeley Sub-Nanometer Volumetric Fused-Silica Glass",
+        "url": "https://www.berkeley.edu/"
+      }
+    ]
+  },
+  {
+    "slug": "protein-atomic-nanofabrication",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/protein-atomic-nanofabrication",
+    "v1Slug": "atomic-level-building",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "De Novo Protein Machines & Atomic-Precision Manufacturing",
+    "tagline": "Crowned by the 2024 Chemistry Nobel, generative AI compiles custom enzymes and mini-proteins from scratch to unzip plastic waste, neutralize snakebites at 45°C, and place single atoms.",
+    "cynicBelief": "Nanotech is vaporware, plastic recycling is a greenwashing myth, and biology is too messy to design from scratch without fragile cold chains.",
+    "breakthroughCounter": "RFdiffusion, AlphaFold 3, AlphaProteo, ESM3, and Cradle leaped first-try de novo protein binder hit rates >200x—creating 95°C-stable synthetic snake antivenoms, Carbios enzymes that unzip dirty polyester back into 97% pure virgin monomers in warm water, and Zyvex STM tips placing single silicon atoms at 0.38 nm precision.",
+    "socialNormShift": "Open-weight protein models (used by 2M+ researchers in 190 countries) democratize neglected tropical antidotes, while cell-free industrial enzyme vats replace 500°C toxic petrochemical solvents with clean room-temperature circular biomanufacturing.",
+    "humanStory": {
+      "protagonist": "Kwame Boateng, 17-Year-Old Student",
+      "location": "Tamale, Northern Ghana & Marseille, France",
+      "snippet": "Bitten by a saw-scaled viper three hours from a powered fridge, Kwame is saved in minutes by a $4 unrefrigerated autoinjector of RFdiffusion-designed mini-proteins—while in Marseille, AI-engineered enzymes turn murky ocean PET trash into crystal-clear medical bottles."
+    },
+    "quote": {
+      "text": "The wondrous diversity in nature provides inspiration for a whole new world of designed proteins to cure disease, degrade plastics and other pollutants, and help us adjust to a changing climate.",
+      "author": "Prof. David Baker",
+      "role": "2024 Nobel Laureate in Chemistry & Director, UW Institute for Protein Design",
+      "url": "https://www.ipd.uw.edu/"
+    },
+    "companiesAndLabs": [
+      "UW Institute for Protein Design (RFdiffusion / ProteinMPNN)",
+      "Google DeepMind & Isomorphic Labs (AlphaFold 3 & AlphaProteo)",
+      "Carbios & Protein Evolution (Enzymatic PET/Textile Upcycling)",
+      "EvolutionaryScale (ESM3) & Profluent (OpenCRISPR)",
+      "Cradle Bio (Generative Industrial Enzymes)",
+      "Zyvex Labs & UNSW Silicon Quantum Computing (0.38 nm STM)"
+    ],
+    "globalPrecedents": [
+      "EMBL-EBI Open AlphaFold DB (200M+ Structures, 190 Countries)",
+      "WHO & Wellcome Trust Recombinant Snakebite Antivenom Consortia",
+      "France & EU Mandatory Circular Food-Grade PET Packaging Targets",
+      "International Gene Synthesis Consortium Cryptographic Biosecurity"
+    ],
+    "synergyLinks": [
+      "forever-chemical-cleanup",
+      "precision-fermentation-rewilding",
+      "self-driving-labs",
+      "local-microfactories"
+    ],
+    "infographic": {
+      "headlineMetric": "97% Virgin PET",
+      "headlineLabel": "De Novo Enzymes & 0.38 nm Atomic Precision",
+      "unit": "First-Plate Experimental Hit Rate for De Novo Designed Binders (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2020,
+          "label": "Pre-Diffusion Random Screening (<0.1% Hits)",
+          "value": 0.1,
+          "display": "<0.1% Hit Rate"
+        },
+        {
+          "year": 2026,
+          "label": "RFdiffusion, AlphaProteo & ESM3 Breakout",
+          "value": 35,
+          "display": "20%–50% Hit Rate"
+        },
+        {
+          "year": 2029,
+          "label": "Multi-Step Custom Metallo-Enzymes & Cheap Bio-PET",
+          "value": 75,
+          "display": "75%+ Hit Rate"
+        },
+        {
+          "year": 2034,
+          "label": "Deterministic Sequence-to-Molecular-Machine Compiler",
+          "value": 92,
+          "display": ">90% Compiler Grade"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Antivenom Stability",
+          "value": ">90°C",
+          "detail": "$4 shelf-stable mini-proteins need zero refrigeration or horses"
+        },
+        {
+          "label": "Plastic Un-Making",
+          "value": "97% Yield",
+          "detail": "68°C warm-water enzymes turn mixed polyester to pure monomers"
+        },
+        {
+          "label": "CO₂ Mineralization",
+          "value": "1,000,000x",
+          "detail": "Engineered carbonic anhydrase turns flue gas to solid limestone"
+        },
+        {
+          "label": "STM Silicon Precision",
+          "value": "0.38 nm",
+          "detail": "Single-atom deterministic hydrogen-depassivation lithography"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "UW Institute for Protein Design (RFdiffusion / ProteinMPNN)",
+        "url": "https://www.ipd.uw.edu/"
+      },
+      {
+        "name": "Google DeepMind & Isomorphic Labs (AlphaFold 3 & AlphaProteo)",
+        "url": "https://alphafold.ebi.ac.uk/"
+      },
+      {
+        "name": "Carbios & Protein Evolution (Enzymatic PET/Textile Upcycling)",
+        "url": "https://en.wikipedia.org/wiki/PETase"
+      },
+      {
+        "name": "EvolutionaryScale (ESM3) & Profluent (OpenCRISPR)",
+        "url": "https://www.evolutionaryscale.ai/"
+      },
+      {
+        "name": "Cradle Bio (Generative Industrial Enzymes)",
+        "url": "https://www.cradle.bio/"
+      },
+      {
+        "name": "Zyvex Labs & UNSW Silicon Quantum Computing (0.38 nm STM)",
+        "url": "https://www.zyvexlabs.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "EMBL-EBI Open AlphaFold DB (200M+ Structures, 190 Countries)",
+        "url": "https://alphafold.ebi.ac.uk/"
+      },
+      {
+        "name": "WHO & Wellcome Trust Recombinant Snakebite Antivenom Consortia",
+        "url": "https://www.who.int/health-topics/snakebite"
+      },
+      {
+        "name": "France & EU Mandatory Circular Food-Grade PET Packaging Targets",
+        "url": "https://environment.ec.europa.eu/topics/plastics_en"
+      },
+      {
+        "name": "International Gene Synthesis Consortium Cryptographic Biosecurity",
+        "url": "https://genesynthesisconsortium.org/"
+      }
+    ]
+  },
+  {
+    "slug": "autonomous-ground-mobility",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/autonomous-ground-mobility",
+    "v1Slug": "self-driving",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Streets Returned to People: Safe Autonomous Mobility & Green Boulevards",
+    "tagline": "With 500,000+ weekly driverless rides and 85%+ fewer injury crashes already proven, $0.25/mile shared electric pods reclaim 30% of paved parking land for parks and homes.",
+    "cynicBelief": "Self-driving cars can't handle real city chaos, and even if they ever work, they'll just pack streets with empty zombie robotaxis.",
+    "breakthroughCounter": "By late 2026, Waymo surpassed 500,000 paid 100%-driverless rides per week across six major U.S. metros with Swiss Re insurance data verifying an 85%–88% drop in injury crashes, joined by Zoox symmetrical lounge pods, solid-state $350 LiDAR chips, and Waabi/Aurora hub-to-hub freight.",
+    "socialNormShift": "Bundling $0.12–$0.25/mile pooled autonomous shuttles onto public rail cards—paired with curb occupancy pricing and Barcelona Superblock zoning—eliminates private two-car debt ($9,800/yr saved) and turns scorching downtown parking lots into shaded mass-timber housing and cafés.",
+    "humanStory": {
+      "protagonist": "Marcus Vance, Blind Pediatric Music Therapist",
+      "location": "East Cesar Chavez Street, Austin, Texas",
+      "snippet": "Stepping from a live-oak courtyard built over a former two-acre parking lot, Marcus summons a ramp-level electric pod in 90 seconds on his $145/month municipal pass—riding safely down a calm boulevard that hasn't seen a pedestrian fatality in eighteen months."
+    },
+    "quote": {
+      "text": "Autonomous driving isn't about gadgets—it's about saving tens of thousands of lives lost on roads every year and giving mobility independence to the blind, seniors, and families.",
+      "author": "Tekedra Mawakana",
+      "role": "Co-CEO, Waymo",
+      "url": "https://waymo.com/"
+    },
+    "companiesAndLabs": [
+      "Waymo (6th-Gen Urban Driverless Fleet)",
+      "Zoox (Bidirectional Symmetrical Carriage Pods)",
+      "Waabi & Aurora Innovation (Middle-Mile Freight)",
+      "Wayve (End-to-End VLA Mapless Driving)",
+      "May Mobility & Holon (ADA Public Transit Feeders)",
+      "Baidu Apollo Go, Pony.ai & WeRide"
+    ],
+    "globalPrecedents": [
+      "Swiss Re Actuarial Study: 85%–88% Injury-Crash Claim Reduction",
+      "Barcelona Superblocks (Superilles) & Paris School Streets",
+      "Oslo & Helsinki Zero-Pedestrian-Fatality Vision Zero Years",
+      "OECD / ITF Lisbon Model: 90% Fewer Cars Needed via Shared Pods + Rail"
+    ],
+    "synergyLinks": [
+      "abundant-beautiful-housing",
+      "cost-of-living-collapse",
+      "iron-sodium-storage",
+      "aerial-hyperlocal-logistics"
+    ],
+    "infographic": {
+      "headlineMetric": "-85% Crashes",
+      "headlineLabel": "500k+ Weekly Driverless Rides & Reclaimed Streets",
+      "unit": "Shared Autonomous Electric Ride Cost ($/Passenger-Mile)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "Early Safety-Driver & R&D Geofence Pilots",
+          "value": 2.8,
+          "display": "$2.80/mile"
+        },
+        {
+          "year": 2026,
+          "label": "500k+ Weekly Waymo Rides & Sub-$30k Gen-6 Pods",
+          "value": 1.65,
+          "display": "$1.40–$1.90/mi"
+        },
+        {
+          "year": 2029,
+          "label": "Mass Transit Rail Feeders & Purpose-Built Shuttles",
+          "value": 0.48,
+          "display": "$0.40–$0.55/mi"
+        },
+        {
+          "year": 2034,
+          "label": "Ubiquitous Solar Pods ($0.12 Pooled) & 30% Less Parking",
+          "value": 0.24,
+          "display": "$0.20–$0.28/mi"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Injury Crashes",
+          "value": "-85% to -88%",
+          "detail": "Independently verified by Swiss Re across millions of miles"
+        },
+        {
+          "label": "Weekly Paid Rides",
+          "value": "500,000+",
+          "detail": "Waymo commercial rider-only scale in late 2026 (targeting 1M+)"
+        },
+        {
+          "label": "City Land Freed",
+          "value": "Up to 30%",
+          "detail": "Empty asphalt parking reborn as parks, bikes & timber housing"
+        },
+        {
+          "label": "Family Savings",
+          "value": "$9,800/yr",
+          "detail": "Household dividend vs. $12,200/yr AAA private car ownership"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Waymo (6th-Gen Urban Driverless Fleet)",
+        "url": "https://waymo.com/"
+      },
+      {
+        "name": "Zoox (Bidirectional Symmetrical Carriage Pods)",
+        "url": "https://zoox.com/"
+      },
+      {
+        "name": "Waabi & Aurora Innovation (Middle-Mile Freight)",
+        "url": "https://waabi.ai/"
+      },
+      {
+        "name": "Wayve (End-to-End VLA Mapless Driving)",
+        "url": "https://wayve.ai/"
+      },
+      {
+        "name": "May Mobility & Holon (ADA Public Transit Feeders)",
+        "url": "https://maymobility.com/"
+      },
+      {
+        "name": "Baidu Apollo Go, Pony.ai & WeRide",
+        "url": "https://en.wikipedia.org/wiki/Autonomous_car"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Swiss Re Actuarial Study: 85%–88% Injury-Crash Claim Reduction",
+        "url": "https://waymo.com/safety/impact/"
+      },
+      {
+        "name": "Barcelona Superblocks (Superilles) & Paris School Streets",
+        "url": "https://en.wikipedia.org/wiki/Superblocks"
+      },
+      {
+        "name": "Oslo & Helsinki Zero-Pedestrian-Fatality Vision Zero Years",
+        "url": "https://en.wikipedia.org/wiki/Vision_Zero"
+      },
+      {
+        "name": "OECD / ITF Lisbon Model: 90% Fewer Cars Needed via Shared Pods + Rail",
+        "url": "https://www.itf-oecd.org/urban-mobility-system-upgrade-1"
+      }
+    ]
+  },
+  {
+    "slug": "evtol-3d-transit",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/evtol-3d-transit",
+    "v1Slug": "drone-human-transportation",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Whisper-Quiet Skies: Electric Air Taxis & Regional Medical Wings",
+    "tagline": "NASA-verified at ~45 dBA overhead—100x quieter than helicopters—distributed electric tilt-wings connect rural clinics and island towns in 18 minutes without new highway concrete.",
+    "cynicBelief": "Flying cars are deafening helicopter toys for billionaires that will rattle windows, guzzle energy, and never help a rural nurse or family.",
+    "breakthroughCounter": "Joby Aviation (measured at 45.2 dBA overhead by NASA and 523 miles nonstop on liquid hydrogen), Archer Midnight (Stellantis mass factory), Beta ALIA (50+ airport chargers & organ flights), and autonomous Wisk Gen 6 replace loud helicopter gearboxes with redundant, ultra-quiet electric wings.",
+    "socialNormShift": "Cutting air-ambulance operating costs 85% brings Level-1 trauma centers within 20 minutes of rural mountain and island clinics, while connecting regions from two $250k solar grass pads instead of bulldozing $4B highways through wildlife corridors.",
+    "humanStory": {
+      "protagonist": "Thomas & Evelyn Greene",
+      "location": "Boone to Charlotte, Blue Ridge Mountains, NC",
+      "snippet": "When retired mechanic Thomas suffers a morning heart attack above storm-damaged mountain roads, a solar-charged electric medevac wing lifts off quieter than pine wind—delivering him to a Charlotte cardiac cath lab in 18 minutes on $18 of clean electricity."
+    },
+    "quote": {
+      "text": "We engineered aircraft quiet enough to blend into the background breeze of a city—connecting communities through the sky while leaving the land beneath green and whole.",
+      "author": "JoeBen Bevirt",
+      "role": "Founder & CEO, Joby Aviation",
+      "url": "https://www.jobyaviation.com/"
+    },
+    "companiesAndLabs": [
+      "Joby Aviation (S4 Electric & SHy4 Hydrogen-Electric)",
+      "Archer Aviation (Midnight + Stellantis Factory)",
+      "Beta Technologies (ALIA Organ/Cargo & Charge Net)",
+      "Wisk Aero (Gen 6 Autonomous 4-Seat Air Taxi)",
+      "Eve Air Mobility & Heart Aerospace",
+      "NASA Aero-Acoustics & FAA Powered-Lift SFAR"
+    ],
+    "globalPrecedents": [
+      "FAA Final Powered-Lift SFAR Commercial Rulemaking (2024–2026)",
+      "NASA 45.2 dBA Overhead Acoustic Array Verification",
+      "Norway Avinor & Swedish Zero-Emission Fjord/Island Compacts",
+      "United Therapeutics Cross-Country Electric Organ Transplant Flights"
+    ],
+    "synergyLinks": [
+      "synthetic-sky-fuels",
+      "inverse-materials-design",
+      "organ-bioprinting-bionics",
+      "autonomous-ground-mobility"
+    ],
+    "infographic": {
+      "headlineMetric": "45 dBA Whisper",
+      "headlineLabel": "100x Quieter Than Helicopters (Zero Concrete)",
+      "unit": "40-Mile Regional Hop Cost per Passenger Seat ($)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2023,
+          "label": "Legacy Jet-Fuel Turbine Helicopter Charter",
+          "value": 450,
+          "display": "$350–$600/seat"
+        },
+        {
+          "year": 2026,
+          "label": "Initial Certified eVTOL Airport & Medical Corridors",
+          "value": 135,
+          "display": "$110–$160/seat"
+        },
+        {
+          "year": 2029,
+          "label": "Automotive-Line Scaling (Toyota/Stellantis) & EMS Nets",
+          "value": 52,
+          "display": "$45–$65/seat"
+        },
+        {
+          "year": 2034,
+          "label": "Autonomous 4–9 Seaters & 500-Mi H₂ Regional Wings",
+          "value": 28,
+          "display": "$22–$35/seat"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Overhead Sound",
+          "value": "45.2 dBA",
+          "detail": "100x quieter than 87 dBA helicopters; blends into breeze"
+        },
+        {
+          "label": "Winged Efficiency",
+          "value": "0.12 kWh/mi",
+          "detail": "Per passenger-mile—beats solo EV on winding mountain roads"
+        },
+        {
+          "label": "H₂-Electric Record",
+          "value": "523 Miles",
+          "detail": "Nonstop zero-emission regional flight (pure water exhaust)"
+        },
+        {
+          "label": "Ground Pavement",
+          "value": "-99.99%",
+          "detail": "Two solar grass pads replace billion-dollar forest highways"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Joby Aviation (S4 Electric & SHy4 Hydrogen-Electric)",
+        "url": "https://www.jobyaviation.com/"
+      },
+      {
+        "name": "Archer Aviation (Midnight + Stellantis Factory)",
+        "url": "https://www.archer.com/"
+      },
+      {
+        "name": "Beta Technologies (ALIA Organ/Cargo & Charge Net)",
+        "url": "https://www.beta.team/"
+      },
+      {
+        "name": "Wisk Aero (Gen 6 Autonomous 4-Seat Air Taxi)",
+        "url": "https://wisk.aero/"
+      },
+      {
+        "name": "Eve Air Mobility & Heart Aerospace",
+        "url": "https://heartaerospace.com/"
+      },
+      {
+        "name": "NASA Aero-Acoustics & FAA Powered-Lift SFAR",
+        "url": "https://www.faa.gov/air-taxis"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "FAA Final Powered-Lift SFAR Commercial Rulemaking (2024–2026)",
+        "url": "https://www.faa.gov/air-taxis"
+      },
+      {
+        "name": "NASA 45.2 dBA Overhead Acoustic Array Verification",
+        "url": "https://www.nasa.gov/aeroresearch/"
+      },
+      {
+        "name": "Norway Avinor & Swedish Zero-Emission Fjord/Island Compacts",
+        "url": "https://avinor.no/en/"
+      },
+      {
+        "name": "United Therapeutics Cross-Country Electric Organ Transplant Flights",
+        "url": "https://www.unither.com/"
+      }
+    ]
+  },
+  {
+    "slug": "aerial-hyperlocal-logistics",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/aerial-hyperlocal-logistics",
+    "v1Slug": "drone-delivery",
+    "v1TrackId": "automation",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "No More 4,000-Pound Cars for a 2-Pound Medicine: Whisper Droids & Hyper-Logistics",
+    "tagline": "300-foot tethered whisper droids and 12-inch underground sidewalk utility tubes deliver prescriptions, blood, and local bakery bread in 7 minutes on 2 cents of solar power.",
+    "cynicBelief": "Delivery drones are buzzing backyard annoyances just for cold fast food, clogging skies while doing nothing for public health or Main Street.",
+    "breakthroughCounter": "Zipline ($21.5B valuation) already slashed hospital maternal bleeding deaths >50% across Rwanda and Ghana and launched silent 300-ft tethered P2 hover-droids for U.S. health systems, while Alphabet Wing surpassed 1,000,000 U.S. home drops and Pipedream Labs moves 40-lb grocery totes through 12-inch pipes beneath sidewalks.",
+    "socialNormShift": "Replacing 4,000-pound car trips with 100-watt-hour droids and sidewalk utility tubes clears double-parked vans from school zones, dispatches flying AED defibrillators ahead of ambulances, and lets independent Main Street hardware stores beat overnight mega-warehouses with 8-minute $1 drops.",
+    "humanStory": {
+      "protagonist": "David Ortiz & 4-Year-Old Daughter Maya",
+      "location": "Fort Worth, Texas & Muhanga, Rwanda",
+      "snippet": "Instead of strapping feverish Maya into a car seat at 11:42 PM in winter rain, David watches a tethered Zipline P2 droid lower liquid amoxicillin silently from 300 feet onto his porch stone in seven minutes—using the same network saving Rwandan mothers every dawn."
+    },
+    "quote": {
+      "text": "Every day, millions of meals travel across cities in 4,000-pound cars to drop off food that weighs less than five. We're using a private taxi for your burrito. There has to be a better way.",
+      "author": "Keller Rinaudo Cliffton",
+      "role": "Co-Founder & CEO, Zipline",
+      "url": "https://www.flyzipline.com/"
+    },
+    "companiesAndLabs": [
+      "Zipline (Platform 1 Medical Nets & P2 Tethered Hover-Droid)",
+      "Alphabet Wing (1M+ U.S. Deliveries & Fort Worth Gigafactory)",
+      "Pipedream Labs (12-Inch Underground Sidewalk Utility Tubes)",
+      "Manna Drone Delivery (Suburban Main-Street Micro-Hubs)",
+      "Matternet (Hospital Specimen Sky-Bridges) & Everdrone (AED)",
+      "FAA Shared Automated UTM BVLOS Metro Airspace"
+    ],
+    "globalPrecedents": [
+      "Lancet Global Health Verified: -51% Rwandan Maternal Bleeding Deaths",
+      "Sweden Emergency 112 Autonomous AED Cardiac Drone Dispatch",
+      "Dallas–Fort Worth Multi-Operator Shared BVLOS Metro Skyway",
+      "Dublin Suburban Manna Hubs Doubling Independent Local Shop Orders"
+    ],
+    "synergyLinks": [
+      "autonomous-ground-mobility",
+      "local-microfactories",
+      "healthcare-without-billing",
+      "cost-of-living-collapse"
+    ],
+    "infographic": {
+      "headlineMetric": "-51% Maternal Deaths",
+      "headlineLabel": "100 Wh Whisper Droids & Sidewalk Tubes vs. 2-Ton Cars",
+      "unit": "Marginal Cost per 3-Pound Local Prescription / Meal Drop ($)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "4,000-Lb Gig-Car Delivery (4,500 Wh Energy)",
+          "value": 11.5,
+          "display": "$9–$15/drop"
+        },
+        {
+          "year": 2026,
+          "label": "Wing 1M+ Drops & Zipline P2 Hospital/Retail Rollout",
+          "value": 3.4,
+          "display": "$2.80–$4.20/drop"
+        },
+        {
+          "year": 2029,
+          "label": "High-Density Main-Street Docks + AED Emergency Nets",
+          "value": 1.1,
+          "display": "$0.95–$1.40/drop"
+        },
+        {
+          "year": 2034,
+          "label": "Seamless Sky-Droid + 12-In Underground Sidewalk Tubes",
+          "value": 0.5,
+          "display": "$0.35–$0.75/drop"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Energy per Drop",
+          "value": "~100 Wh",
+          "detail": "97% less energy than a 4,200-lb car (= boiling 1 tea kettle)"
+        },
+        {
+          "label": "Door-to-Door Time",
+          "value": "6–10 Min",
+          "detail": "300-ft silent cruise + dinner-plate-accurate tether drop"
+        },
+        {
+          "label": "Rwanda Blood Proof",
+          "value": "-51% Deaths",
+          "detail": "Postpartum hemorrhage hospital mortality cut + 67% less waste"
+        },
+        {
+          "label": "U.S. Scale Passed",
+          "value": "1,000,000+",
+          "detail": "Residential autonomous deliveries completed with shared UTM"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Zipline (Platform 1 Medical Nets & P2 Tethered Hover-Droid)",
+        "url": "https://www.flyzipline.com/"
+      },
+      {
+        "name": "Alphabet Wing (1M+ U.S. Deliveries & Fort Worth Gigafactory)",
+        "url": "https://wing.com/"
+      },
+      {
+        "name": "Pipedream Labs (12-Inch Underground Sidewalk Utility Tubes)",
+        "url": "https://www.pipedreamlabs.co/"
+      },
+      {
+        "name": "Manna Drone Delivery (Suburban Main-Street Micro-Hubs)",
+        "url": "https://www.manna.aero/"
+      },
+      {
+        "name": "Matternet (Hospital Specimen Sky-Bridges) & Everdrone (AED)",
+        "url": "https://mttr.net/"
+      },
+      {
+        "name": "FAA Shared Automated UTM BVLOS Metro Airspace",
+        "url": "https://www.faa.gov/uas"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Lancet Global Health Verified: -51% Rwandan Maternal Bleeding Deaths",
+        "url": "https://www.thelancet.com/journals/langlo/home"
+      },
+      {
+        "name": "Sweden Emergency 112 Autonomous AED Cardiac Drone Dispatch",
+        "url": "https://everdrone.com/"
+      },
+      {
+        "name": "Dallas–Fort Worth Multi-Operator Shared BVLOS Metro Skyway",
+        "url": "https://www.faa.gov/uas"
+      },
+      {
+        "name": "Dublin Suburban Manna Hubs Doubling Independent Local Shop Orders",
+        "url": "https://www.manna.aero/"
+      }
+    ]
+  },
+  {
+    "slug": "local-microfactories",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/local-microfactories",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Neighborhood Fab-Commons: Custom, Repairable Goods Made Two Blocks Away",
+    "tagline": "Fixtureless metal printers, 3D zero-waste looms, CNC timber cells, and robotic unscrewers turn vacant strip malls into circular neighborhood microfactories.",
+    "cynicBelief": "Consumer goods will always come from 8,000-mile container ships with glued-shut planned obsolescence so a broken $2 plastic latch forces a $700 washer into the dump.",
+    "breakthroughCounter": "Divergent 3D generative aluminum-alloy nodes (zero $50M stamping dies), high-speed Prusa/Bambu polymer farms, Shima Seiki 28-minute zero-waste 3D knitters, WikiHouse CNC timber cells, and Apple Daisy / Molg 200-device/hr unscrewing robots fit a multi-product circular factory inside one vacant storefront.",
+    "socialNormShift": "Inspired by France's Repairability Index, EU Digital Product Passports, Sweden's tax-free repairs, and Barcelona's public Ateneus Fab Labs, towns co-locate Tool Libraries & Fab-Commons where a public library card unlocks $4.50 15-minute spare parts and $65 custom kids' prosthetics.",
+    "humanStory": {
+      "protagonist": "Ingrid Lindqvist (Retiree), Samir (Age 11) & Framebuilder Freja",
+      "location": "Kirseberg Fab-Commons, Malmö, Sweden",
+      "snippet": "Inside a sunlit former electronics big-box store, Ingrid prints a $4.50 carbon-PEEK cam from her 14-year-old dishwasher's QR Passport in 12 minutes, 11-year-old Samir gets a custom-scanned $65 bionic socket before lunch, and Freja slots recycled-can aluminum nodes into a cargo e-bike."
+    },
+    "quote": {
+      "text": "Instead of shipping atoms across oceans in container ships, global Fab Labs let cities transmit bits at the speed of light and fabricate locally from circular materials.",
+      "author": "Prof. Neil Gershenfeld",
+      "role": "Director, MIT Center for Bits and Atoms",
+      "url": "https://cba.mit.edu/"
+    },
+    "companiesAndLabs": [
+      "Divergent Technologies (DAPS Generative Metal + Robot Cells)",
+      "MIT Center for Bits and Atoms & Global Fab City Network",
+      "Prusa Pro AFS & Bambu Lab Automated Print Farms",
+      "Apple (Daisy) & Molg Robotics (Circular Disassembly)",
+      "Shima Seiki (WholeGarment Zero-Waste 3D Knitting)",
+      "WikiHouse & OpenDesk (Open CNC Timber Joinery)"
+    ],
+    "globalPrecedents": [
+      "France Mandatory Repairability Index & €15–€60 Instant Repair Bonus",
+      "Sweden Repair VAT Exemption & Vienna 50% Reparaturbon Vouchers",
+      "EU Ecodesign Digital Product Passport Right-to-Repair Mandate",
+      "Barcelona Municipal Ateneus de Fabricació & 50+ Pledged Fab Cities"
+    ],
+    "synergyLinks": [
+      "fab-commons-wealth",
+      "protein-atomic-nanofabrication",
+      "general-purpose-humanoids",
+      "aerial-hyperlocal-logistics"
+    ],
+    "infographic": {
+      "headlineMetric": "$0 Hard Tooling",
+      "headlineLabel": "Global Open Bits, <5-Mile Circular Local Atoms",
+      "unit": "Share of Durable Household Spares, Furniture & Knitwear Made/Repaired Locally (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "7,500-Mile Disposable Container-Ship Baseline",
+          "value": 4,
+          "display": "4% Local / Repaired"
+        },
+        {
+          "year": 2026,
+          "label": "EU Repair Passports + 2,700 Fab Labs + Print Farms",
+          "value": 15,
+          "display": "15% in Pioneer Cities"
+        },
+        {
+          "year": 2029,
+          "label": "Vacant Big-Box Municipal Fab-Commons & 3D Knit Hubs",
+          "value": 42,
+          "display": "42% Local / Circular"
+        },
+        {
+          "year": 2034,
+          "label": "Default Circular Town Manufacturing & >80% Repair Life",
+          "value": 76,
+          "display": "76%+ Circular Local"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Spare-Part Print",
+          "value": "$4.50 / 12m",
+          "detail": "QR Digital Passports end 'part discontinued' appliance trash"
+        },
+        {
+          "label": "Kids' Prosthetic",
+          "value": "$65 / 90m",
+          "detail": "Optical scan to custom bionic socket (down from $8,000)"
+        },
+        {
+          "label": "Unsold Apparel",
+          "value": "0% Waste",
+          "detail": "28-min WholeGarment 3D knitting vs. 30% legacy fashion trash"
+        },
+        {
+          "label": "Robotic Un-Making",
+          "value": "200/hr",
+          "detail": "Daisy & Molg unscrewing cells recover >90% pure alloys/polymers"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Divergent Technologies (DAPS Generative Metal + Robot Cells)",
+        "url": "https://en.wikipedia.org/wiki/3D_printing"
+      },
+      {
+        "name": "MIT Center for Bits and Atoms & Global Fab City Network",
+        "url": "https://cba.mit.edu/"
+      },
+      {
+        "name": "Prusa Pro AFS & Bambu Lab Automated Print Farms",
+        "url": "https://www.prusa3d.com/"
+      },
+      {
+        "name": "Apple (Daisy) & Molg Robotics (Circular Disassembly)",
+        "url": "https://www.apple.com/environment/"
+      },
+      {
+        "name": "Shima Seiki (WholeGarment Zero-Waste 3D Knitting)",
+        "url": "https://www.shimaseiki.com/"
+      },
+      {
+        "name": "WikiHouse & OpenDesk (Open CNC Timber Joinery)",
+        "url": "https://www.wikihouse.cc/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "France Mandatory Repairability Index & €15–€60 Instant Repair Bonus",
+        "url": "https://en.wikipedia.org/wiki/Repairability"
+      },
+      {
+        "name": "Sweden Repair VAT Exemption & Vienna 50% Reparaturbon Vouchers",
+        "url": "https://www.reparaturbonus.at/"
+      },
+      {
+        "name": "EU Ecodesign Digital Product Passport Right-to-Repair Mandate",
+        "url": "https://environment.ec.europa.eu/topics/circular-economy_en"
+      },
+      {
+        "name": "Barcelona Municipal Ateneus de Fabricació & 50+ Pledged Fab Cities",
+        "url": "https://fab.city/"
+      }
+    ]
+  }
+]

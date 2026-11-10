@@ -1,0 +1,1427 @@
+[
+  {
+    "slug": "orbital-laser-mesh",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/orbital-laser-mesh",
+    "v1Slug": "communications",
+    "v1TrackId": "space",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Zero Dead Zones on Earth: Direct-to-Cell & Vacuum Optical Laser Backbones",
+    "tagline": "Connecting 2.5 billion offline students, clinics, and farmers on unmodified pocket phones via vacuum space lasers traveling 47% faster than subsea glass fiber—without bulldozing a single mile of rainforest.",
+    "cynicBelief": "Why waste billions launching thousands of satellites when we have unconnected rural schools on Earth? Satellite internet is just a laggy luxury toy for yachts while real infrastructure means burying fiber cables in the dirt.",
+    "breakthroughCounter": "Light travels 47% faster in space vacuum (300,000 km/s) than in silica glass fiber (204,000 km/s). In 2025–2026, Starlink's 9,000+ optical space lasers and Direct-to-Cell service alongside AST SpaceMobile's 223 m² unfolding phased arrays and Amazon Kuiper are already linking unmodified everyday smartphones across mountains, oceans, and hurricane zones at ~90% lower cost than rural fiber trenching.",
+    "socialNormShift": "From accepting dead zones, predatory roaming fees, and destructive wilderness cable trenching as inevitable to treating universal sub-20ms planetary broadband as an ambient, disaster-immune human birthright.",
+    "humanStory": {
+      "protagonist": "Elena Quispe, Community Midwife",
+      "location": "Apurímac Highlands, Peruvian Andes (4,100 m)",
+      "snippet": "Using an unmodified $110 market Android phone with zero cell towers for a hundred miles, Elena streams a live 145 Mbps 3D obstetric ultrasound straight via a 340 km orbital phased-array mirror to specialists in Lima while village children study alongside 2-Sigma AI tutors next door."
+    },
+    "quote": {
+      "text": "We go to space to improve life on Earth—almost every modern tool we rely on to connect, navigate, and protect our planet lives in orbit.",
+      "author": "Sir Peter Beck",
+      "role": "Founder & CEO, Rocket Lab",
+      "url": "https://www.rocketlabusa.com/"
+    },
+    "companiesAndLabs": [
+      "SpaceX Starlink (V3 & Direct-to-Cell)",
+      "AST SpaceMobile (BlueBird)",
+      "Amazon Project Kuiper",
+      "ESA HydRON & EU IRIS²",
+      "Rocket Lab",
+      "NASA TBIRD & DSOC",
+      "Telesat Lightspeed"
+    ],
+    "globalPrecedents": [
+      "FCC Supplemental Coverage from Space (SCS) Framework",
+      "3GPP Release 18/19 Non-Terrestrial Networks (NTN)",
+      "Hurricane Helene & Tonga Cable-Cut Orbital Lifelines",
+      "IAU Dark-Sky Dielectric Mirror Standards"
+    ],
+    "synergyLinks": [
+      "two-sigma-guild-education",
+      "earth-digital-twin-canopy",
+      "healthcare-without-billing",
+      "specialized-swarm-robotics"
+    ],
+    "infographic": {
+      "headlineMetric": "+47% Faster",
+      "headlineLabel": "Vacuum Laser Speed vs. Subsea Glass",
+      "unit": "Peak Direct-to-Unmodified-Smartphone Throughput (Mbps)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": "2024",
+          "label": "Initial Emergency SMS & Early Direct-to-Cell Tests",
+          "value": 10,
+          "display": "10 Mbps"
+        },
+        {
+          "year": "2026",
+          "label": "AST BlueBird Block 2 & Starlink Direct-to-Cell Live",
+          "value": 120,
+          "display": "120 Mbps"
+        },
+        {
+          "year": "2029",
+          "label": "Starship V3 VLEO Shell & 1 Tbps Coherent Laser Mesh",
+          "value": 250,
+          "display": "250 Mbps"
+        },
+        {
+          "year": "2035",
+          "label": "HydRON-Class 10 Tbps Photonic Canopy (Zero Offline)",
+          "value": 650,
+          "display": "650+ Mbps"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Vacuum Light Speed",
+          "value": "300,000 km/s",
+          "detail": "46.8% faster than 204,000 km/s subsea silica glass"
+        },
+        {
+          "label": "People Connected",
+          "value": "2.5 Billion",
+          "detail": "Rural students, clinics & farmers online with zero trenching"
+        },
+        {
+          "label": "London ↔ Tokyo Ping",
+          "value": "68 ms RTT",
+          "detail": "Cut from ~158 ms on legacy undersea fiber routes"
+        },
+        {
+          "label": "Rural CAPEX Saved",
+          "value": "~90% Less",
+          "detail": "Skips $50,000/km rainforest & mountain bulldozing"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "SpaceX Starlink (V3 & Direct-to-Cell)",
+        "url": "https://www.starlink.com/"
+      },
+      {
+        "name": "AST SpaceMobile (BlueBird)",
+        "url": "https://ast-science.com/"
+      },
+      {
+        "name": "Amazon Project Kuiper",
+        "url": "https://www.aboutamazon.com/what-we-do/devices-services/project-kuiper"
+      },
+      {
+        "name": "ESA HydRON & EU IRIS²",
+        "url": "https://connectivity.esa.int/projects/hydron"
+      },
+      {
+        "name": "Rocket Lab",
+        "url": "https://www.rocketlabusa.com/"
+      },
+      {
+        "name": "NASA TBIRD & DSOC",
+        "url": "https://www.nasa.gov/"
+      },
+      {
+        "name": "Telesat Lightspeed",
+        "url": "https://www.telesat.com/leo-satellites/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "FCC Supplemental Coverage from Space (SCS) Framework",
+        "url": "https://www.fcc.gov/space"
+      },
+      {
+        "name": "3GPP Release 18/19 Non-Terrestrial Networks (NTN)",
+        "url": "https://www.3gpp.org/technologies/ntn-overview"
+      },
+      {
+        "name": "Hurricane Helene & Tonga Cable-Cut Orbital Lifelines",
+        "url": "https://www.starlink.com/"
+      },
+      {
+        "name": "IAU Dark-Sky Dielectric Mirror Standards",
+        "url": "https://cps.iau.org/"
+      }
+    ]
+  },
+  {
+    "slug": "orbital-radiative-compute",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/orbital-radiative-compute",
+    "v1Slug": "data-centers",
+    "v1TrackId": "space",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Cooling AI in the Deep Freeze of Space: Orbital Solar-Radiative Data Centers",
+    "tagline": "Powering frontier AI with 24/7 unfiltered dawn-dusk orbital sunshine while radiating GPU heat straight into the 3 Kelvin cosmic sink—using zero drops of Earth's rivers and zero local grid power.",
+    "cynicBelief": "AI data centers will guzzle drought-stricken municipal rivers, overload neighborhood power grids, keep coal plants burning, and jack up household electric bills!",
+    "breakthroughCounter": "In a 650 km sun-synchronous dawn-dusk orbit, roll-out solar arrays receive continuous 1,361 W/m² sunlight 24/7 with zero clouds, night, or giant battery banks, while shaded radiators shed >1,750 W/m² of heat straight into 3 Kelvin (-270°C) space using zero liters of Earth's water—pioneered in 2025–2026 by Starcloud, Axiom Space, and Lonestar Data Holdings.",
+    "socialNormShift": "From pitting AI medical discovery against municipal water boards and residential electric ratepayers to placing hot, gigawatt-scale compute upstairs in eternal sunlight and cosmic cold.",
+    "humanStory": {
+      "protagonist": "Dr. Maya Lin, Pediatric Oncologist",
+      "location": "Phoenix, Arizona (Salt River Watershed)",
+      "snippet": "On a 42°C July afternoon, Dr. Lin runs an exascale protein-folding immunotherapy simulation via optical laser uplink to a dawn-dusk orbital GPU wing—consuming zero gallons of Colorado River water and adding zero load to Phoenix's summer neighborhood power grid."
+    },
+    "quote": {
+      "text": "In space, solar energy is continuous and unlimited, and cooling radiates straight into deep space without consuming a drop of Earth's water or straining local power grids.",
+      "author": "Philip Johnston",
+      "role": "Co-Founder & CEO, Starcloud",
+      "url": "https://www.starcloud.com/"
+    },
+    "companiesAndLabs": [
+      "Starcloud (formerly Lumen Orbit)",
+      "Lonestar Data Holdings",
+      "Axiom Space (Orbital Data Center)",
+      "Thales Alenia Space (ASCEND)",
+      "SpaceX Starship",
+      "Kepler Communications",
+      "OrbitsEdge"
+    ],
+    "globalPrecedents": [
+      "EU Horizon Europe ASCEND Green Orbital Cloud Study",
+      "Lonestar Cislunar & Lunar SSD Vault Flights (IM-1/IM-2)",
+      "James Webb Space Telescope Passive Deep-Space Cryo-Shielding"
+    ],
+    "synergyLinks": [
+      "space-solar-power",
+      "orbital-laser-mesh",
+      "earth-digital-twin-canopy",
+      "aquifer-rivers-desalination"
+    ],
+    "infographic": {
+      "headlineMetric": "0 Liters",
+      "headlineLabel": "Terrestrial Freshwater Used for Cooling",
+      "unit": "Single-Cluster Dawn-Dusk Orbital Compute Capacity (MW)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": "2026",
+          "label": "Starcloud & Axiom LEO Pathfinder GPU Nodes",
+          "value": 1,
+          "display": "0.1–1 MW"
+        },
+        {
+          "year": "2029",
+          "label": "Starship Flat-Pack Modular Solar-Radiator Blades",
+          "value": 15,
+          "display": "15 MW"
+        },
+        {
+          "year": "2033",
+          "label": "Robotically Docked Dawn-Dusk AI Training Farms",
+          "value": 150,
+          "display": "150 MW"
+        },
+        {
+          "year": "2038",
+          "label": "Gigawatt Sun-Synchronous & Lunar Crater Cloud",
+          "value": 1000,
+          "display": "1,000 MW (1 GW)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Orbital Solar Flux",
+          "value": "1,361 W/m²",
+          "detail": "99%+ continuous 24/7 dawn-dusk sun (~5x ground yield)"
+        },
+        {
+          "label": "Cosmic Heat Sink",
+          "value": "3 Kelvin",
+          "detail": "-270°C infrared radiation sheds >1,750 W/m² passively"
+        },
+        {
+          "label": "Cooling PUE",
+          "value": "1.02 PUE",
+          "detail": "Zero chillers, fans, or evaporative water towers"
+        },
+        {
+          "label": "Grid Queue Bypassed",
+          "value": "5–8 Years",
+          "detail": "Skips strained municipal transmission bottlenecks"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Starcloud (formerly Lumen Orbit)",
+        "url": "https://www.starcloud.com/"
+      },
+      {
+        "name": "Lonestar Data Holdings",
+        "url": "https://lonestarlunar.com/"
+      },
+      {
+        "name": "Axiom Space (Orbital Data Center)",
+        "url": "https://www.axiomspace.com/"
+      },
+      {
+        "name": "Thales Alenia Space (ASCEND)",
+        "url": "https://www.thalesaleniaspace.com/en"
+      },
+      {
+        "name": "SpaceX Starship",
+        "url": "https://www.spacex.com/"
+      },
+      {
+        "name": "Kepler Communications",
+        "url": "https://kepler.space/"
+      },
+      {
+        "name": "OrbitsEdge",
+        "url": "https://www.orbitsedge.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "EU Horizon Europe ASCEND Green Orbital Cloud Study",
+        "url": "https://www.thalesaleniaspace.com/en"
+      },
+      {
+        "name": "Lonestar Cislunar & Lunar SSD Vault Flights (IM-1/IM-2)",
+        "url": "https://lonestarlunar.com/"
+      },
+      {
+        "name": "James Webb Space Telescope Passive Deep-Space Cryo-Shielding",
+        "url": "https://webb.nasa.gov/"
+      }
+    ]
+  },
+  {
+    "slug": "zero-g-biomanufacturing",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/zero-g-biomanufacturing",
+    "v1Slug": "zero-g-science-manufacturing",
+    "v1TrackId": "space",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Miracles Only Microgravity Can Grow: Flawless Drug Crystals, ZBLAN Fiber & Printed Hearts",
+    "tagline": "Turning off Earth's buoyancy and sedimentation to formulate 10-second home cancer injections, 200-layer sight-restoring retinas, 3D-bioprinted cardiac tissue, and 100x-clearer optical fiber.",
+    "cynicBelief": "Zero-gravity space factories are an overpriced science-fair gimmick! Nothing manufactured in orbit could ever pay for rocket fuel when we can build pharmaceutical labs right here on Earth.",
+    "breakthroughCounter": "You cannot turn off 9.81 m/s² gravity on Earth, where convection warps biologic crystals and crushes soft 3D-printed capillaries. Varda Space Industries is already landing autonomous orbital drug capsules in Utah and Australia, Redwire has 3D-bioprinted human knee menisci and heart tissue in orbit, and LambdaVision is assembling 200-layer artificial retinas worth >$10M/kg.",
+    "socialNormShift": "From enduring 4-hour hospital IV cancer drips and multi-year organ transplant waitlists to routine microgravity-seeded home autoinjectors and scaffold-free printed grafts from a patient's own stem cells.",
+    "humanStory": {
+      "protagonist": "Arthur Miller, 68, Retired Teacher",
+      "location": "Columbus, Ohio",
+      "snippet": "Instead of driving two hours to sit tethered to an oncology IV pole for four exhausting hours, Arthur clicks a room-temperature-stable biologic pen—formulated from flawless microgravity polymorph seed crystals—against his thigh for ten painless seconds and walks out to tend his tomatoes."
+    },
+    "quote": {
+      "text": "Turning off gravity is a fundamental new knob for manufacturing—allowing us to formulate life-saving medicines and materials in orbit that physics simply won't permit on Earth.",
+      "author": "Will Bruey",
+      "role": "Co-Founder & CEO, Varda Space Industries",
+      "url": "https://www.varda.com/"
+    },
+    "companiesAndLabs": [
+      "Varda Space Industries",
+      "Redwire Space (BioFabrication Facility & PIL-BOX)",
+      "LambdaVision",
+      "Flawless Photonics",
+      "Space Forge",
+      "Merck (Microgravity Keytruda Research)",
+      "Sierra Space (Dream Chaser Gentle Return)"
+    ],
+    "globalPrecedents": [
+      "Varda W-Series FAA/ASA Licensed Hypersonic Capsule Recoveries (Utah & South Australia)",
+      "Merck ISS Pembrolizumab (Keytruda) Microgravity Polymorph Breakthrough",
+      "Redwire First-in-Orbit 3D-Printed Human Knee Meniscus"
+    ],
+    "synergyLinks": [
+      "organ-bioprinting-bionics",
+      "invivo-crispr-cures",
+      "self-driving-labs",
+      "suborbital-earth-hops"
+    ],
+    "infographic": {
+      "headlineMetric": "10 sec",
+      "headlineLabel": "Home Cancer Pen vs. 4-Hr Hospital IV",
+      "unit": "Patient Biologic Infusion Duration (Minutes)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": "2024",
+          "label": "Legacy 1-G Slurry IV Hospital Drip (240 Mins)",
+          "value": 240,
+          "display": "240 min (4 hr)"
+        },
+        {
+          "year": "2026",
+          "label": "Varda W-Series & Redwire PIL-BOX Seed Runs",
+          "value": 60,
+          "display": "Clinical Trials"
+        },
+        {
+          "year": "2030",
+          "label": "Outpatient Subcutaneous Orbital-Polymorph Syringe",
+          "value": 5,
+          "display": "<5 min Clinic"
+        },
+        {
+          "year": "2034",
+          "label": "Room-Temp Shelf-Stable Home Autoinjector Pen",
+          "value": 1,
+          "display": "0.17 min (10 s)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Microgravity Purity",
+          "value": "<10⁻⁶ g",
+          "detail": "Silences buoyancy convection & crystal sedimentation"
+        },
+        {
+          "label": "Artificial Retina",
+          "value": "200 Layers",
+          "detail": "LambdaVision defect-free protein film for blindness"
+        },
+        {
+          "label": "ZBLAN Fiber Clarity",
+          "value": "10x–100x",
+          "detail": "Lower intrinsic signal loss than terrestrial silica glass"
+        },
+        {
+          "label": "Launch Cost Share",
+          "value": "<0.01%",
+          "detail": "Sub-$500/kg lift vs. >$10M/kg pharmaceutical value"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Varda Space Industries",
+        "url": "https://www.varda.com/"
+      },
+      {
+        "name": "Redwire Space (BioFabrication Facility & PIL-BOX)",
+        "url": "https://redwirespace.com/"
+      },
+      {
+        "name": "LambdaVision",
+        "url": "https://www.lambdavision.com/"
+      },
+      {
+        "name": "Flawless Photonics",
+        "url": "https://flawlessphotonics.com/"
+      },
+      {
+        "name": "Space Forge",
+        "url": "https://www.spaceforge.com/"
+      },
+      {
+        "name": "Merck (Microgravity Keytruda Research)",
+        "url": "https://www.issnationallab.org/"
+      },
+      {
+        "name": "Sierra Space (Dream Chaser Gentle Return)",
+        "url": "https://www.sierraspace.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Varda W-Series FAA/ASA Licensed Hypersonic Capsule Recoveries (Utah & South Australia)",
+        "url": "https://www.varda.com/"
+      },
+      {
+        "name": "Merck ISS Pembrolizumab (Keytruda) Microgravity Polymorph Breakthrough",
+        "url": "https://www.issnationallab.org/"
+      },
+      {
+        "name": "Redwire First-in-Orbit 3D-Printed Human Knee Meniscus",
+        "url": "https://redwirespace.com/"
+      }
+    ]
+  },
+  {
+    "slug": "lunar-south-pole",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/lunar-south-pole",
+    "v1Slug": "moon",
+    "v1TrackId": "space",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "The Shackleton Peak-of-Eternal-Light Base: Humanity's First Cislunar Commons",
+    "tagline": "Living off the land where sunlit polar ridges meet ancient crater water ice—turning grey lunar dirt into pure breathing oxygen, zero-chemical solar arrays, and an Antarctic-style peaceful science commons.",
+    "cynicBelief": "Going back to the Moon is nostalgic Cold War flag-planting on a dead rock! Hauling water and tin cans 384,000 km away wastes money that could solve resource problems on Earth.",
+    "breakthroughCounter": "Shackleton Ridge receives 85–90%+ continuous sunlight beside permanently shadowed craters holding hundreds of millions of tons of water ice, and lunar dirt is 42% pure oxygen by mass. With Firefly Blue Ghost & Intuitive Machines landings, Starship HLS & Blue Moon heavy landers, ICON regolith sintering, and Blue Alchemist smelting solar cells and O₂ directly from Moon dust, Shackleton becomes a self-sustaining cislunar McMurdo Station.",
+    "socialNormShift": "From Cold War superpower space races to an open, demilitarized, 45+-nation Artemis Accords research commons modeled on Antarctica's McMurdo Station—spinning zero-carbon green-steel and closed-loop water tech straight back to Earth.",
+    "humanStory": {
+      "protagonist": "Dr. Aarav Nair, Electrochemist & Glaciologist",
+      "location": "Shackleton Connecting Ridge (89.5°S, Moon)",
+      "snippet": "Inside a two-meter-thick sintered lunar stone vault where blue Earth never sets on the horizon, Aarav breathes crisp oxygen split from melted Moon dust and checks the green-steel electrolysis telemetry licensed back to steel mills in India and Pittsburgh."
+    },
+    "quote": {
+      "text": "Learning to live off the land at the lunar south pole—turning regolith and ice into oxygen, power, and shelter—transforms the Moon into humanity's stepping stone to the solar system.",
+      "author": "Dr. Bhavya Lal",
+      "role": "Former NASA Associate Administrator for Technology, Policy, and Strategy",
+      "url": "https://www.nasa.gov/"
+    },
+    "companiesAndLabs": [
+      "SpaceX (Starship HLS)",
+      "Blue Origin (Blue Moon & Blue Alchemist)",
+      "Firefly Aerospace (Blue Ghost)",
+      "Intuitive Machines",
+      "ICON (Project Olympus)",
+      "JAXA & Toyota (Lunar Cruiser)",
+      "NASA Artemis & ESA Argonaut"
+    ],
+    "globalPrecedents": [
+      "Antarctic Treaty & McMurdo Cooperative Research Station (65+ Years)",
+      "Artemis Accords (45+ Signatory Nations Across 6 Continents)",
+      "Firefly Blue Ghost & Intuitive Machines Commercial CLPS Landings"
+    ],
+    "synergyLinks": [
+      "space-solar-power",
+      "inverse-materials-design",
+      "aquifer-rivers-desalination",
+      "heavy-industry-off-earth"
+    ],
+    "infographic": {
+      "headlineMetric": "42% O₂",
+      "headlineLabel": "Pure Oxygen Bound Inside Lunar Dirt",
+      "unit": "Landed Cost per Kilogram to Lunar South Pole (USD/kg)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": "1972",
+          "label": "Apollo Expendable Equatorial Sortie Equivalent",
+          "value": 100000,
+          "display": "~$100,000/kg"
+        },
+        {
+          "year": "2026",
+          "label": "Commercial CLPS Robotic Landers (Firefly / IM)",
+          "value": 25000,
+          "display": "~$25,000/kg"
+        },
+        {
+          "year": "2030",
+          "label": "Reusable Starship HLS & Blue Moon Heavy Cargo",
+          "value": 2000,
+          "display": "~$2,000/kg"
+        },
+        {
+          "year": "2036",
+          "label": "Local Shackleton ISRU Water, O₂ & Sintered Stone",
+          "value": 150,
+          "display": "<$150/kg ISRU"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Polar Peak Sunlight",
+          "value": "85–92%",
+          "detail": "Near-continuous solar harvest along Shackleton rims"
+        },
+        {
+          "label": "Shadow Crater Ice",
+          "value": ">100M Tons",
+          "detail": "Ancient water ice preserved in 40 K polar cryo-traps"
+        },
+        {
+          "label": "Gravity Discount",
+          "value": "22x Lower",
+          "detail": "Escape energy off Moon vs. deep Earth gravity well"
+        },
+        {
+          "label": "Earth Water Spinoff",
+          "value": "99.8% Loop",
+          "detail": "Closed-loop recycling & zero-CO₂ oxide steelmaking"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "SpaceX (Starship HLS)",
+        "url": "https://www.spacex.com/"
+      },
+      {
+        "name": "Blue Origin (Blue Moon & Blue Alchemist)",
+        "url": "https://www.blueorigin.com/"
+      },
+      {
+        "name": "Firefly Aerospace (Blue Ghost)",
+        "url": "https://fireflyspace.com/"
+      },
+      {
+        "name": "Intuitive Machines",
+        "url": "https://en.wikipedia.org/wiki/Intuitive_Machines"
+      },
+      {
+        "name": "ICON (Project Olympus)",
+        "url": "https://www.iconbuild.com/"
+      },
+      {
+        "name": "JAXA & Toyota (Lunar Cruiser)",
+        "url": "https://global.jaxa.jp/"
+      },
+      {
+        "name": "NASA Artemis & ESA Argonaut",
+        "url": "https://www.nasa.gov/humans-in-space/artemis/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Antarctic Treaty & McMurdo Cooperative Research Station (65+ Years)",
+        "url": "https://www.ats.aq/"
+      },
+      {
+        "name": "Artemis Accords (45+ Signatory Nations Across 6 Continents)",
+        "url": "https://www.nasa.gov/artemis-accords/"
+      },
+      {
+        "name": "Firefly Blue Ghost & Intuitive Machines Commercial CLPS Landings",
+        "url": "https://fireflyspace.com/"
+      }
+    ]
+  },
+  {
+    "slug": "asteroid-cislunar-resources",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/asteroid-cislunar-resources",
+    "v1Slug": "mining",
+    "v1TrackId": "space",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Trillions of Tons Without Cutting Down a Single Tree: Asteroid Metals & Water Propellant",
+    "tagline": "Harvesting pure platinum-group catalysts and orbital rocket water from sterile Near-Earth Asteroids where zero birds, rivers, or rainforests exist—retiring toxic strip mines on Earth.",
+    "cynicBelief": "Asteroid mining is billionaire greed that will either go bankrupt chasing distant rocks past Mars or crash metal markets while we still dig open-pit mines on Earth!",
+    "breakthroughCounter": "Thousands of Near-Earth Asteroids require less rocket Δv (~4 km/s) than landing on the Moon and hold 10x–100x richer platinum-group metals and 10–20% clay-bound water (proven by NASA OSIRIS-REx & JAXA Hayabusa2). In 2025–2026, nimble $20M-class pioneers AstroForge, Karman+, and TransAstra are commercializing zero-acid vacuum refining and solar water extraction.",
+    "socialNormShift": "From tearing up 300,000 tons of tropical rainforest and indigenous watersheds per kilogram of clean-tech catalyst metal to harvesting lifeless space boulders in pure sunlight with zero biosphere harm.",
+    "humanStory": {
+      "protagonist": "Siti Rahmawati, Reef Ecologists & Reforestation Lead",
+      "location": "Morowali Coast, Central Sulawesi, Indonesia",
+      "snippet": "As space-refined iridium and nickel catalysts relieve pressure on terrestrial strip mining, Siti's conservation trust plants native ironwood saplings across terraced former mine hills while downstream coral reefs run crystal clear again."
+    },
+    "quote": {
+      "text": "Every ounce of platinum-group metal we refine cleanly in deep space is a toxic open-pit mine we never have to dig into Earth's living ecosystems.",
+      "author": "Matt Gialich",
+      "role": "Co-Founder & CEO, AstroForge",
+      "url": "https://www.astroforge.com/"
+    },
+    "companiesAndLabs": [
+      "AstroForge (Odin & Vestri)",
+      "Karman+",
+      "TransAstra (Omnivore & Capture Bag)",
+      "NASA OSIRIS-REx (Bennu) & Psyche",
+      "JAXA Hayabusa2 (Ryugu)",
+      "ESA Hera",
+      "Colorado School of Mines Space Resources"
+    ],
+    "globalPrecedents": [
+      "JAXA Hayabusa2 & NASA OSIRIS-REx Pristine Asteroid Sample Returns",
+      "U.S., Luxembourg, UAE & Japan Peaceful Space Resources Legal Frameworks",
+      "Artemis Accords Transparent ISRU Non-Interference Provisions"
+    ],
+    "synergyLinks": [
+      "synthetic-sky-fuels",
+      "geologic-hydrogen-harvesters",
+      "heavy-industry-off-earth",
+      "precision-fermentation-rewilding"
+    ],
+    "infographic": {
+      "headlineMetric": "0 Trees Cut",
+      "headlineLabel": "Living Species Harmed on Sterile NEAs",
+      "unit": "Living Earth Crust Blasted per kg of Platinum Catalyst (Tons)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": "2025",
+          "label": "Terrestrial Deep-Shaft / Strip Mining Baseline",
+          "value": 350,
+          "display": "350 Tons Earth Ore"
+        },
+        {
+          "year": "2027",
+          "label": "AstroForge & Karman+ NEA Assay & Refining Demos",
+          "value": 250,
+          "display": "First Space Proofs"
+        },
+        {
+          "year": "2031",
+          "label": "Suitcase PGM Capsule Returns for Green Hydrogen",
+          "value": 80,
+          "display": "-75% New Pit Growth"
+        },
+        {
+          "year": "2038",
+          "label": "Full Cislunar Catalyst & Water Depot Maturity",
+          "value": 5,
+          "display": "0 New Wilderness Pits"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Asteroid PGM Grade",
+          "value": "10x–100x",
+          "detail": "Higher siderophile concentration than Earth's crust"
+        },
+        {
+          "label": "Round-Trip Δv",
+          "value": "~4.0 km/s",
+          "detail": "Lower rocket energy from LEO than lunar surface (~9 km/s)"
+        },
+        {
+          "label": "Clay-Bound Water",
+          "value": "10%–20%",
+          "detail": "Confirmed inside Bennu/Ryugu carbonaceous asteroids"
+        },
+        {
+          "label": "Acid Tailings",
+          "value": "0.0 Liters",
+          "detail": "100% dry solar-thermal & vacuum distillation"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "AstroForge (Odin & Vestri)",
+        "url": "https://www.astroforge.com/"
+      },
+      {
+        "name": "Karman+",
+        "url": "https://karmanplus.com/"
+      },
+      {
+        "name": "TransAstra (Omnivore & Capture Bag)",
+        "url": "https://www.transastra.com/"
+      },
+      {
+        "name": "NASA OSIRIS-REx (Bennu) & Psyche",
+        "url": "https://science.nasa.gov/mission/osiris-rex/"
+      },
+      {
+        "name": "JAXA Hayabusa2 (Ryugu)",
+        "url": "https://www.hayabusa2.jaxa.jp/en/"
+      },
+      {
+        "name": "ESA Hera",
+        "url": "https://www.esa.int/Space_Safety/Hera"
+      },
+      {
+        "name": "Colorado School of Mines Space Resources",
+        "url": "https://space.mines.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "JAXA Hayabusa2 & NASA OSIRIS-REx Pristine Asteroid Sample Returns",
+        "url": "https://science.nasa.gov/mission/osiris-rex/"
+      },
+      {
+        "name": "U.S., Luxembourg, UAE & Japan Peaceful Space Resources Legal Frameworks",
+        "url": "https://spaceresources.public.lu/en.html"
+      },
+      {
+        "name": "Artemis Accords Transparent ISRU Non-Interference Provisions",
+        "url": "https://www.nasa.gov/artemis-accords/"
+      }
+    ]
+  },
+  {
+    "slug": "heavy-industry-off-earth",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/heavy-industry-off-earth",
+    "v1Slug": "off-earth-dirty-industry",
+    "v1TrackId": "space",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Zoning Earth as a Garden Park: Graduating Heavy Refining Above the Biosphere",
+    "tagline": "Climbing a practical, self-funding 2026–2042 ladder from ultra-vacuum orbital chip fabs to solar-mirror cislunar metallurgy—so Earth's fragile 10-km biosphere can be zoned residential and wild sanctuary.",
+    "cynicBelief": "Moving heavy industry off Earth is centuries-away fantasy! Nobody is going to launch smoky blast furnaces into orbit just to pretend they care about pollution.",
+    "breakthroughCounter": "Space isn't where we haul old coal furnaces—it's where next-generation refining naturally belongs: wake shields create free 10⁻¹² Torr ultra-high vacuum (10,000x cleaner than $10B terrestrial chip pumps), whisper-thin mirrors focus 2,500°C 24/7 solar heat, and 99% of raw ore comes from lifeless lunar/asteroid rock—led on Rungs 1–3 today by Space Forge, Starcloud, and Blue Alchemist.",
+    "socialNormShift": "Just as 20th-century cities zoned toxic slaughterhouses and coal foundries out of residential downtowns to create clean parks, 21st-century civilization gradually zones primary refining above the biosphere altogether.",
+    "humanStory": {
+      "protagonist": "Lukas Weber, Tele-Metallurgy Guild Lead",
+      "location": "Duisburg Riverfront Park, Ruhr Valley, Germany",
+      "snippet": "Beside a kayak-filled marsh where smoky sinter plants once stood, Lukas sits in a sunlit timber studio piloting robotic electron-beam welders and wake-shield GaN crystal furnaces in cislunar orbit—zero heat stroke, zero acid ponds, and 50%-more-efficient power chips gliding home."
+    },
+    "quote": {
+      "text": "We have sent robotic probes to every planet in this solar system, and Earth is the best one by a huge margin—heavy industry belongs in space so Earth can be zoned residential and light industry, preserved as the gem that it is.",
+      "author": "Jeff Bezos",
+      "role": "Founder, Blue Origin",
+      "url": "https://www.blueorigin.com/"
+    },
+    "companiesAndLabs": [
+      "Blue Origin (Blue Alchemist & New Glenn)",
+      "Space Forge (ForgeStar & Pridwen)",
+      "ThinkOrbital",
+      "Redwire Space",
+      "AstroForge",
+      "Starcloud",
+      "Space Studies Institute (O'Neill Legacy)"
+    ],
+    "globalPrecedents": [
+      "NASA Wake Shield Facility Ultra-Vacuum Epitaxy Flights",
+      "Space Forge Orbital Semiconductor & Reusable Alloy Shield Missions",
+      "Ruhr Valley (Emscher Park) Industrial-to-Ecological Riverfront Rebirth"
+    ],
+    "synergyLinks": [
+      "superconducting-grids",
+      "asteroid-cislunar-resources",
+      "lunar-south-pole",
+      "displaced-worker-bridge"
+    ],
+    "infographic": {
+      "headlineMetric": "10⁻¹² Torr",
+      "headlineLabel": "Free Orbital Wake-Shield Ultra-Vacuum",
+      "unit": "Share of New Clean-Tech Primary Refining Sited Off-Earth (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": "2026",
+          "label": "Rung 1: Space Forge GaN/Diamond Seed Wafers",
+          "value": 2,
+          "display": "Rung 1 Seeds"
+        },
+        {
+          "year": "2031",
+          "label": "Rung 2: Orbital AI Compute & Vacuum PGM Ingots",
+          "value": 15,
+          "display": "15% Frontier Share"
+        },
+        {
+          "year": "2037",
+          "label": "Rung 3: Cislunar Solar Silicon & Rare-Earth Magnets",
+          "value": 45,
+          "display": "45% Upstream Share"
+        },
+        {
+          "year": "2045",
+          "label": "Rung 4: Heavy Solar-Mirror Metallurgy Upstairs",
+          "value": 80,
+          "display": "80%+ Biosphere Spared"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Vacuum Purity",
+          "value": "10,000x",
+          "detail": "Cleaner behind orbital wake shield than terrestrial fab pumps"
+        },
+        {
+          "label": "Solar Process Heat",
+          "value": "2,500°C",
+          "detail": "Zero-carbon 24/7 foil mirrors (<0.5 kg/kW)"
+        },
+        {
+          "label": "Grid Waste Saved",
+          "value": "-50% Loss",
+          "detail": "From defect-free orbital GaN & diamond power wafers"
+        },
+        {
+          "label": "Slag in Biosphere",
+          "value": "0.0 kg",
+          "detail": "99% of raw ore stays in space; slag becomes radiation armor"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Blue Origin (Blue Alchemist & New Glenn)",
+        "url": "https://www.blueorigin.com/"
+      },
+      {
+        "name": "Space Forge (ForgeStar & Pridwen)",
+        "url": "https://www.spaceforge.com/"
+      },
+      {
+        "name": "ThinkOrbital",
+        "url": "https://www.thinkorbital.com/"
+      },
+      {
+        "name": "Redwire Space",
+        "url": "https://redwirespace.com/"
+      },
+      {
+        "name": "AstroForge",
+        "url": "https://www.astroforge.com/"
+      },
+      {
+        "name": "Starcloud",
+        "url": "https://www.starcloud.com/"
+      },
+      {
+        "name": "Space Studies Institute (O'Neill Legacy)",
+        "url": "https://ssi.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "NASA Wake Shield Facility Ultra-Vacuum Epitaxy Flights",
+        "url": "https://en.wikipedia.org/wiki/Wake_Shield_Facility"
+      },
+      {
+        "name": "Space Forge Orbital Semiconductor & Reusable Alloy Shield Missions",
+        "url": "https://www.spaceforge.com/"
+      },
+      {
+        "name": "Ruhr Valley (Emscher Park) Industrial-to-Ecological Riverfront Rebirth",
+        "url": "https://en.wikipedia.org/wiki/Ruhr"
+      }
+    ]
+  },
+  {
+    "slug": "suborbital-earth-hops",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/suborbital-earth-hops",
+    "v1Slug": "terrestrial-transportation",
+    "v1TrackId": "space",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Anywhere on Earth in 45 Minutes: Clean Point-to-Point & Hypersonic Strata-Cruisers",
+    "tagline": "Delivering 3D-bioprinted transplant hearts, earthquake trauma teams, and cross-ocean family hugs in under an hour via zero-carbon hydrogen strata-cruisers and offshore solar-methalox sea-pads.",
+    "cynicBelief": "Forty-minute rocket flights across Earth are a deafening, carbon-belching gimmick for billionaires that will rattle city windows with sonic booms!",
+    "breakthroughCounter": "Coasting above 100 km in zero-drag vacuum or cruising above 30 km on Rotating Detonation & green-hydrogen engines slashes aerodynamic drag, burns 100% net-zero air-captured methalox or pure-water-exhaust LH₂, and operates from offshore sea-pads 30 km out at sea (zero urban sonic booms!)—pioneered by SpaceX Starship, Hermeus, Venus Aerospace, and Destinus.",
+    "socialNormShift": "From losing two exhausting days in fossil-kerosene tubes (and letting transplant organs expire across oceans) to a single 45-minute planetary Golden Hour for emergency medicine and global kinship.",
+    "humanStory": {
+      "protagonist": "Dr. Kenji Sato, Pediatric Cardiac Surgeon",
+      "location": "Tokyo Bay Offshore Pier & Children's Hospital, Japan",
+      "snippet": "Thirty-eight minutes after a custom tissue-engineered heart valve lifted off from Europe aboard a zero-carbon hypersonic courier, Dr. Sato unseals the warm perfusion pod in Tokyo—hours inside the cold-ischemia window—saving a seven-year-old's life."
+    },
+    "quote": {
+      "text": "Every time humanity has doubled the speed of global travel, we haven't just saved hours—we've woven distant economies and families into a closer neighborhood.",
+      "author": "AJ Piplica",
+      "role": "Co-Founder & CEO, Hermeus",
+      "url": "https://www.hermeus.com/"
+    },
+    "companiesAndLabs": [
+      "SpaceX (Starship Point-to-Point)",
+      "Hermeus (Quarterhorse & Halcyon)",
+      "Venus Aerospace (RDRE & VDR2)",
+      "Destinus (Liquid-Hydrogen Cruisers)",
+      "Boom Supersonic (Mach Cutoff Physics)",
+      "NASA Quesst / X-59 Low-Boom Program"
+    ],
+    "globalPrecedents": [
+      "SpaceX Super Heavy Precision Mechazilla Tower Catch & Rapid Reuse",
+      "Boom XB-1 2025 Boomless Supersonic Mach-Cutoff Flights",
+      "Venus Aerospace High-Efficiency Rotating Detonation Engine Flights"
+    ],
+    "synergyLinks": [
+      "synthetic-sky-fuels",
+      "organ-bioprinting-bionics",
+      "zero-g-biomanufacturing",
+      "intergenerational-villages"
+    ],
+    "infographic": {
+      "headlineMetric": "38 min",
+      "headlineLabel": "Zurich to Tokyo Clean Organ & Passenger Hop",
+      "unit": "Transoceanic Travel Time: Europe ↔ East Asia (Minutes)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": "2025",
+          "label": "Subsonic Mach 0.85 Widebody Jetliner (14 Hours)",
+          "value": 840,
+          "display": "840 min (14 hr)"
+        },
+        {
+          "year": "2029",
+          "label": "Uncrewed Medical & Organ Hypersonic Couriers",
+          "value": 120,
+          "display": "120 min (2 hr)"
+        },
+        {
+          "year": "2033",
+          "label": "Mach 5–6 Green-LH₂ & SAF Runway Strata-Cruisers",
+          "value": 95,
+          "display": "95 min"
+        },
+        {
+          "year": "2038",
+          "label": "Offshore Solar-Methalox Suborbital Vacuum Arc",
+          "value": 38,
+          "display": "38 min"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Net Fossil CO₂",
+          "value": "0.0 Grams",
+          "detail": "Green LH₂ (water exhaust) & air-captured solar methalox"
+        },
+        {
+          "label": "City Sonic Boom",
+          "value": "0 dB Urban",
+          "detail": "30 km offshore sea-pads + upward Mach-cutoff refraction"
+        },
+        {
+          "label": "Vacuum Coast Share",
+          "value": "85% Drag-Free",
+          "detail": "3-min boost followed by silent zero-drag Keplerian glide"
+        },
+        {
+          "label": "Disaster Reach",
+          "value": "<60 Minutes",
+          "detail": "Planetary Golden-Hour trauma & water teams anywhere"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "SpaceX (Starship Point-to-Point)",
+        "url": "https://www.spacex.com/"
+      },
+      {
+        "name": "Hermeus (Quarterhorse & Halcyon)",
+        "url": "https://www.hermeus.com/"
+      },
+      {
+        "name": "Venus Aerospace (RDRE & VDR2)",
+        "url": "https://www.venusaero.com/"
+      },
+      {
+        "name": "Destinus (Liquid-Hydrogen Cruisers)",
+        "url": "https://destinus.com/"
+      },
+      {
+        "name": "Boom Supersonic (Mach Cutoff Physics)",
+        "url": "https://boomsupersonic.com/"
+      },
+      {
+        "name": "NASA Quesst / X-59 Low-Boom Program",
+        "url": "https://www.nasa.gov/mission/quesst/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "SpaceX Super Heavy Precision Mechazilla Tower Catch & Rapid Reuse",
+        "url": "https://www.spacex.com/"
+      },
+      {
+        "name": "Boom XB-1 2025 Boomless Supersonic Mach-Cutoff Flights",
+        "url": "https://boomsupersonic.com/xb-1"
+      },
+      {
+        "name": "Venus Aerospace High-Efficiency Rotating Detonation Engine Flights",
+        "url": "https://www.venusaero.com/"
+      }
+    ]
+  },
+  {
+    "slug": "spinning-orbital-gardens",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/spinning-orbital-gardens",
+    "v1Slug": "spinning-habitats",
+    "v1TrackId": "space",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Sunlight, Cedar & 1-G Spin: From Vast Haven to Tethered Orbital Villages",
+    "tagline": "Trading cramped zero-G aluminum cans for warm maple-and-cedar woven lofts gently waltzing on a 450-meter tether at 2 RPM—unlocking full Earth gravity, real showers, and zero bone loss in the 2030s.",
+    "cynicBelief": "Space living means floating miserably in cramped, noisy tin cans while your bones dissolve—comfortable 1-G spinning space stations like science fiction won't exist for two hundred years!",
+    "breakthroughCounter": "You don't need a billion-ton giant wheel to get Earth gravity: linking two Starship-launched Sierra Space LIFE woven habitats (burst-tested past 4x NASA margins) across a 3-ton, 450-meter Zylon tether spinning at a gentle 2 RPM delivers full 1.0g comfort right in the 2030s, building directly on Vast's maple-lined Haven-1/Haven-2 and 100m spinning-stick roadmap.",
+    "socialNormShift": "From viewing spaceflight as a grueling centrifuge endurance test for military pilots to welcoming grandparents, schoolteachers, botanists, artists, and 0.3g cardiac-rehab patients in sunlit wooden garden lofts.",
+    "humanStory": {
+      "protagonist": "Clara Lindqvist, High-School Art Teacher & Fellow",
+      "location": "450 km Sunlit Orbit (Twin-Pod Cedar Conservatory)",
+      "snippet": "Standing barefoot on warm maple floorboards at full 1.0g Earth gravity, Clara pours hot jasmine tea into a real ceramic mug and paints watercolors of borderless Greece drifting calmly beneath the cupola—with zero motion sickness and zero bone loss."
+    },
+    "quote": {
+      "text": "To become a true spacefaring civilization where millions can live and thrive without microgravity health decline, artificial-gravity spinning habitats are the essential breakthrough.",
+      "author": "Max Haot",
+      "role": "CEO, Vast",
+      "url": "https://www.vastspace.com/"
+    },
+    "companiesAndLabs": [
+      "Vast (Haven-1, Haven-2 & 100m Spinning Stick)",
+      "Sierra Space (LIFE Woven Vectran Habitats)",
+      "Starlab Space (Voyager / Airbus / Mitsubishi)",
+      "Axiom Space",
+      "Tethers Unlimited (Hoytether Architecture)",
+      "ESA MELiSSA Bioregenerative Consortium"
+    ],
+    "globalPrecedents": [
+      "Sierra Space Full-Scale Ultimate Burst-Pressure Qualification (>4x NASA Margin)",
+      "Gemini 11 Pioneer Tether-Spin Demonstration & Vast Haven Artificial-G Roadmap",
+      "NASA Commercial LEO Destinations (CLD) Transition Program"
+    ],
+    "synergyLinks": [
+      "epigenetic-healthspan",
+      "intergenerational-villages",
+      "cynicism-to-agency",
+      "lunar-south-pole"
+    ],
+    "infographic": {
+      "headlineMetric": "1.0 G @ 2 RPM",
+      "headlineLabel": "Full Earth Comfort via 450m Twin-Pod Tether",
+      "unit": "Pressurized Sunlit Living Volume per Orbital Complex (m³)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": "2026",
+          "label": "Vast Haven-1 Maple Cabin & Single-Launch Modules",
+          "value": 340,
+          "display": "100–340 m³"
+        },
+        {
+          "year": "2030",
+          "label": "Vast 100m Spinning Stick & LIFE 1,400 m³ Hulls",
+          "value": 1400,
+          "display": "1,400 m³ (0.38g)"
+        },
+        {
+          "year": "2034",
+          "label": "Twin-Pod 450m Zylon Tether Garden Loft (Full 1.0g)",
+          "value": 2800,
+          "display": "2,800 m³ (1.0g)"
+        },
+        {
+          "year": "2039",
+          "label": "6-Spoke Hexagonal Tether Village & 0.3g Rehab Ward",
+          "value": 10000,
+          "display": "10,000+ m³"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Bone & Eye Loss",
+          "value": "0.0% / Mo",
+          "detail": "Eliminates 1.5%/mo zero-G bone loss & SANS eye pressure"
+        },
+        {
+          "label": "Spin Rate",
+          "value": "2.0 RPM",
+          "detail": "224m tether radius prevents inner-ear Coriolis dizziness"
+        },
+        {
+          "label": "Cabin Quietness",
+          "value": "<42 dBA",
+          "detail": "Library-quiet cedar & maple suites vs. 65 dBA tin cans"
+        },
+        {
+          "label": "Burst Safety Factor",
+          "value": ">4x Margin",
+          "detail": "Woven Vectran softgoods stronger pound-for-pound than steel"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Vast (Haven-1, Haven-2 & 100m Spinning Stick)",
+        "url": "https://www.vastspace.com/"
+      },
+      {
+        "name": "Sierra Space (LIFE Woven Vectran Habitats)",
+        "url": "https://www.sierraspace.com/"
+      },
+      {
+        "name": "Starlab Space (Voyager / Airbus / Mitsubishi)",
+        "url": "https://starlab-space.com/"
+      },
+      {
+        "name": "Axiom Space",
+        "url": "https://www.axiomspace.com/"
+      },
+      {
+        "name": "Tethers Unlimited (Hoytether Architecture)",
+        "url": "https://en.wikipedia.org/wiki/Hoytether"
+      },
+      {
+        "name": "ESA MELiSSA Bioregenerative Consortium",
+        "url": "https://www.melissafoundation.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Sierra Space Full-Scale Ultimate Burst-Pressure Qualification (>4x NASA Margin)",
+        "url": "https://www.sierraspace.com/"
+      },
+      {
+        "name": "Gemini 11 Pioneer Tether-Spin Demonstration & Vast Haven Artificial-G Roadmap",
+        "url": "https://www.vastspace.com/"
+      },
+      {
+        "name": "NASA Commercial LEO Destinations (CLD) Transition Program",
+        "url": "https://www.nasa.gov/humans-in-space/"
+      }
+    ]
+  },
+  {
+    "slug": "planetary-defense-propulsion",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/planetary-defense-propulsion",
+    "v1Slug": "other-space",
+    "v1TrackId": "space",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "Planetary Guardians: Asteroid Deflection, Orbital Debris Sweepers & Pulsed Fusion Drives",
+    "tagline": "Retiring 66 million years of dinosaur-style extinction risk with DART/Hera deflection and NEO Surveyor infrared eyes, towing orbital debris clean, and slashing Mars transit to 50 days with pulsed fusion.",
+    "cynicBelief": "Asteroid defense is Hollywood sci-fi hype, space junk will trap us in a permanent Kessler trash cloud anyway, and fusion rockets are centuries away!",
+    "breakthroughCounter": "NASA's DART shifted asteroid Dimorphos's orbit by 33 minutes (β = 3.61) with ESA's Hera arriving in late 2026 to finalize our deflection textbook alongside NASA's NEO Surveyor infrared sentry. Meanwhile, Astroscale's ADRAS-J has already inspected tumbling orbital rocket bodies from 15 meters away, and Helicity Space, Princeton Fusion, and Howe Industries are testing pulsed drives targeting Isp > 5,000–10,000 s.",
+    "socialNormShift": "From passive fatalism before cosmic impacts and Cold War orbital littering to active, multilateral planetary guardianship—insuring all Earth species for <$0.40 per human and towing orbital bridges clean.",
+    "humanStory": {
+      "protagonist": "Kenji Takahashi, Orbital Tow-Truck Flight Director",
+      "location": "Tokyo & Darmstadt Joint Stewardship Desk",
+      "snippet": "Watching live LiDAR feeds from 780 km altitude, Kenji's team guides an electric Astroscale servicing tug to match the tumble of a derelict 3-ton rocket stage and tow it safely to an orbital aluminum recycler—keeping the highway clear for FireSat and rural 5G shells below."
+    },
+    "quote": {
+      "text": "Orbital highways are a shared planetary commons—just as we tow stalled cars off bridges on Earth, active debris removal keeps space safe and sustainable for generations.",
+      "author": "Nobu Okada",
+      "role": "Founder & CEO, Astroscale",
+      "url": "https://astroscale.com/"
+    },
+    "companiesAndLabs": [
+      "NASA Planetary Defense (DART & NEO Surveyor)",
+      "ESA Hera & Ramses",
+      "Astroscale (ADRAS-J & ELSA-M)",
+      "ClearSpace & Starfish Space",
+      "Helicity Space",
+      "Princeton Fusion Systems (PFRC)",
+      "Howe Industries (Pulsed Plasma Rocket)"
+    ],
+    "globalPrecedents": [
+      "NASA DART 33-Minute Asteroid Orbit Deflection & ESA Hera Late-2026 Rendezvous",
+      "FCC 5-Year Deorbit Rule & ESA Zero Debris Charter",
+      "UN International Asteroid Warning Network (IAWN) Multilateral Protocol"
+    ],
+    "synergyLinks": [
+      "fusion-power",
+      "defensive-shields-peace",
+      "asteroid-cislunar-resources",
+      "earth-digital-twin-canopy"
+    ],
+    "infographic": {
+      "headlineMetric": "-33 min",
+      "headlineLabel": "Dimorphos Asteroid Orbit Shifted by DART",
+      "unit": "One-Way Crew & Rapid-Response Transit to Mars (Days)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": "2025",
+          "label": "Conventional Chemical Hohmann Transfer (Isp 380s)",
+          "value": 240,
+          "display": "240 Days (8 Mo)"
+        },
+        {
+          "year": "2029",
+          "label": "Nuclear Thermal / High-Power Solar-Electric Tugs",
+          "value": 135,
+          "display": "135 Days"
+        },
+        {
+          "year": "2034",
+          "label": "Pulsed Plasma & Early Magneto-Inertial Fusion",
+          "value": 75,
+          "display": "75 Days"
+        },
+        {
+          "year": "2040",
+          "label": "Mature Pulsed Magnetic-Nozzle Fusion (Isp 10,000s)",
+          "value": 50,
+          "display": "45–55 Days"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Warning Horizon",
+          "value": "10–50 Yrs",
+          "detail": "NEO Surveyor L1 infrared spots dark 140m rocks early"
+        },
+        {
+          "label": "Biosphere Insurance",
+          "value": "<$0.40",
+          "detail": "Total planetary sentry cost per human on Earth"
+        },
+        {
+          "label": "Debris RPO Lock",
+          "value": "15 Meters",
+          "detail": "Proven uncooperative rocket-stage flyaround (ADRAS-J)"
+        },
+        {
+          "label": "Pulsed Fusion Isp",
+          "value": "10,000 sec",
+          "detail": "Cuts deep-space crew cosmic radiation exposure by 75%"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "NASA Planetary Defense (DART & NEO Surveyor)",
+        "url": "https://science.nasa.gov/mission/dart/"
+      },
+      {
+        "name": "ESA Hera & Ramses",
+        "url": "https://www.esa.int/Space_Safety/Hera"
+      },
+      {
+        "name": "Astroscale (ADRAS-J & ELSA-M)",
+        "url": "https://astroscale.com/"
+      },
+      {
+        "name": "ClearSpace & Starfish Space",
+        "url": "https://clearspace.today/"
+      },
+      {
+        "name": "Helicity Space",
+        "url": "https://www.helicityspace.com/"
+      },
+      {
+        "name": "Princeton Fusion Systems (PFRC)",
+        "url": "https://www.psatellite.com/"
+      },
+      {
+        "name": "Howe Industries (Pulsed Plasma Rocket)",
+        "url": "https://www.howeindustries.net/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "NASA DART 33-Minute Asteroid Orbit Deflection & ESA Hera Late-2026 Rendezvous",
+        "url": "https://www.esa.int/Space_Safety/Hera"
+      },
+      {
+        "name": "FCC 5-Year Deorbit Rule & ESA Zero Debris Charter",
+        "url": "https://www.esa.int/Space_Safety/Clean_Space"
+      },
+      {
+        "name": "UN International Asteroid Warning Network (IAWN) Multilateral Protocol",
+        "url": "https://iawn.net/"
+      }
+    ]
+  },
+  {
+    "slug": "earth-digital-twin-canopy",
+    "pillarId": "space-frontier",
+    "folderRel": "carbon/05-space-frontier/earth-digital-twin-canopy",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Earth's Protective Canopy: Catching Wildfires in 3 Minutes & Plugging Methane Leaks from Orbit",
+    "tagline": "Spotting classroom-sized 5x5m lightning sparks within minutes before megafires ignite, painting invisible methane super-emitters in vivid color for same-day valve shutoffs, and guarding reefs through storm clouds.",
+    "cynicBelief": "Don't spend a dime on satellites while forests are burning into orange smoke clouds and invisible methane leaks are cooking the climate right here on Earth!",
+    "breakthroughCounter": "You cannot watch 4 billion hectares of remote forest from the ground—from 500 km up, Earth Fire Alliance & Muon Space's FireSat constellation spots 5x5-meter sparks in 3–20 minutes, Carbon Mapper's Tanager-1 & GHGSat pinpoint methane leaks down to individual valves, and NASA-ISRO NISAR radar & Global Fishing Watch catch illegal logging and dark-fleet trawlers through clouds and midnight.",
+    "socialNormShift": "From helplessly breathing orange PM2.5 megafire smoke every August and guessing where methane leaks hide to a free, privacy-safe planetary reflex loop that extinguishes sparks at campfire size.",
+    "humanStory": {
+      "protagonist": "Capt. Rosa Delgado, Volunteer Wildland Fire Chief",
+      "location": "Plumas National Forest Foothills, California",
+      "snippet": "Three minutes after dry lightning strikes a roadless canyon pine, Rosa's tablet chimes with a 5x5-meter FireSat infrared lock—dispatching an autonomous water-drop glider that douses the snag in fourteen minutes while kids in town keep playing soccer under clear blue skies."
+    },
+    "quote": {
+      "text": "When orbital infrared sensors spot a wildfire while it's still the size of a backyard campfire, we stop catastrophic megafires before forests, towns, and lungs are ever harmed.",
+      "author": "Brian Collins",
+      "role": "Executive Director, Earth Fire Alliance",
+      "url": "https://www.earthfirealliance.org/"
+    },
+    "companiesAndLabs": [
+      "Earth Fire Alliance & Muon Space (FireSat)",
+      "Carbon Mapper & NASA JPL (Tanager-1)",
+      "GHGSat & EDF MethaneSAT",
+      "Planet Labs",
+      "NASA-ISRO NISAR & ESA Copernicus Sentinel",
+      "Global Fishing Watch",
+      "Google.org & Gordon and Betty Moore Foundation"
+    ],
+    "globalPrecedents": [
+      "Muon Space / Earth Fire Alliance 2025–2026 FireSat Pathfinder Launch",
+      "Carbon Mapper Tanager-1 Open Public Methane Plume Portal (Thousands Detected)",
+      "Global Fishing Watch Nature Study Exposing 75% of Hidden Dark-Fleet Vessels"
+    ],
+    "synergyLinks": [
+      "orbital-laser-mesh",
+      "orbital-radiative-compute",
+      "specialized-swarm-robotics",
+      "precision-fermentation-rewilding"
+    ],
+    "infographic": {
+      "headlineMetric": "3–20 min",
+      "headlineLabel": "Classroom-Sized (5x5m) Wildfire Spark Lock",
+      "unit": "Remote Wildfire Detection Latency from Ignition (Minutes)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": "2022",
+          "label": "Legacy Polar Satellites & Smoke-Tower Spotting",
+          "value": 360,
+          "display": "180–720 min"
+        },
+        {
+          "year": "2026",
+          "label": "FireSat Pathfinder & Early Block-1 Thermal Shell",
+          "value": 60,
+          "display": "~60 min"
+        },
+        {
+          "year": "2028",
+          "label": "Full 50+ FireSat Constellation Global Revisit",
+          "value": 18,
+          "display": "<20 min Global"
+        },
+        {
+          "year": "2031",
+          "label": "Laser-Linked Orbital AI + Autonomous Water Drones",
+          "value": 3,
+          "display": "3 min Peak Zones"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Fire Pixel Precision",
+          "value": "5m × 5m",
+          "detail": "160,000x finer area than coarse 2 km weather pixels"
+        },
+        {
+          "label": "Methane Resolution",
+          "value": "<25 Meters",
+          "detail": "Pinpoints individual leaking valves & landfill vents"
+        },
+        {
+          "label": "All-Weather Radar",
+          "value": "Millimeter",
+          "detail": "NISAR pierces clouds & night to track aquifers & logging"
+        },
+        {
+          "label": "Civic Benefit ROI",
+          "value": ">500x",
+          "detail": "Sub-$500M canopy prevents hundreds of billions in smoke/fire loss"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Earth Fire Alliance & Muon Space (FireSat)",
+        "url": "https://www.earthfirealliance.org/"
+      },
+      {
+        "name": "Carbon Mapper & NASA JPL (Tanager-1)",
+        "url": "https://carbonmapper.org/"
+      },
+      {
+        "name": "GHGSat & EDF MethaneSAT",
+        "url": "https://www.methanesat.org/"
+      },
+      {
+        "name": "Planet Labs",
+        "url": "https://www.planet.com/"
+      },
+      {
+        "name": "NASA-ISRO NISAR & ESA Copernicus Sentinel",
+        "url": "https://nisar.jpl.nasa.gov/"
+      },
+      {
+        "name": "Global Fishing Watch",
+        "url": "https://globalfishingwatch.org/"
+      },
+      {
+        "name": "Google.org & Gordon and Betty Moore Foundation",
+        "url": "https://www.google.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Muon Space / Earth Fire Alliance 2025–2026 FireSat Pathfinder Launch",
+        "url": "https://www.earthfirealliance.org/"
+      },
+      {
+        "name": "Carbon Mapper Tanager-1 Open Public Methane Plume Portal (Thousands Detected)",
+        "url": "https://carbonmapper.org/"
+      },
+      {
+        "name": "Global Fishing Watch Nature Study Exposing 75% of Hidden Dark-Fleet Vessels",
+        "url": "https://globalfishingwatch.org/"
+      }
+    ]
+  }
+]

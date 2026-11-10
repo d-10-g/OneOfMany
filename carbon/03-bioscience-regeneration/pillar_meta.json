@@ -1,0 +1,1146 @@
+[
+  {
+    "slug": "epigenetic-healthspan",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/epigenetic-healthspan",
+    "v1Slug": "longevity",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": false,
+    "title": "100 Vibrant Years: Epigenetic Rejuvenation & Preventative Healthspan",
+    "tagline": "Transient epigenetic reprogramming, zombie-cell clearance, and multi-organ clocks compress late-life frailty so 85 feels biologically like 48.",
+    "cynicBelief": "Longevity science is a vanity project for billionaires chasing immortality in glass towers—while ordinary families still watch their parents spend their final twelve years trapped in wheelchairs, memory-care wards, and bankrupting hospital beds.",
+    "breakthroughCounter": "Aging is largely reversible epigenetic static rather than deleted DNA hardware. Between 2024 and late 2026, partial Yamanaka OSK reprogramming (Life Biosciences ER-100) restored lost optic-nerve vision in primates without erasing cell identity, targeted senolytics cleared inflammatory zombie cells, thymic regeneration rebuilt naive T-cells, and GLP-1 clinical trials measurably reversed multi-organ DNA methylation aging clocks.",
+    "socialNormShift": "Retiring Bismarck's 1930s 'shelf-life at 65' cliff in favor of Okinawa- and Singapore-style multi-chapter lives—where universal sub-$400/year preventative rejuvenation rescues Medicare and national pensions from chronic-care insolvency.",
+    "humanStory": {
+      "protagonist": "Keiko Takahashi, 84-Year-Old Botanical Illustrator & Woodwork Mentor",
+      "location": "Kyoto, Japan",
+      "snippet": "Cycling three miles uphill beside the Kamogawa River at dawn, Keiko inks millimeter-fine orchid plates with bare 20/20 eyes restored by a localized ER-100 epigenetic pulse—sharing lunch with her multi-age moai circle before teaching joinery to twenty-nine-year-old apprentices."
+    },
+    "quote": {
+      "text": "Aging is not a one-way street etched in stone; the youthful blueprint remains intact inside old cells, waiting for epigenetic resets to restore tissue health.",
+      "author": "Dr. Juan Carlos Izpisua Belmonte",
+      "role": "Founding Institute Director, Altos Labs San Diego Institute of Science",
+      "url": "https://altoslabs.com/"
+    },
+    "companiesAndLabs": [
+      "Life Biosciences (ER-100)",
+      "Altos Labs",
+      "Retro Biosciences",
+      "NewLimit & Turn Biotechnologies",
+      "Intervene Immune (TRIIM)",
+      "Rubedo Life Sciences & Oisín Biotechnologies"
+    ],
+    "globalPrecedents": [
+      "Singapore Healthier SG & Active Ageing Centres",
+      "Okinawa Ikigai & Moai Lifelong Mutual-Aid Circles",
+      "FDA Modernization Act 2.0/3.0 Organoid-Chip Pathway",
+      "SELECT & FLOW GLP-1 Epigenetic Clock Substudies"
+    ],
+    "synergyLinks": [
+      "healthcare-without-billing",
+      "invivo-crispr-cures",
+      "intergenerational-villages",
+      "general-purpose-humanoids"
+    ],
+    "infographic": {
+      "headlineMetric": "<2 Sick Years",
+      "headlineLabel": "Morbidity Compressed From 12 Frail Years",
+      "unit": "Average Years of Late-Life Chronic Disability",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Reactive Geriatric Sick-Care Baseline",
+          "value": 12.0,
+          "display": "~12.0 Sick Years"
+        },
+        {
+          "year": 2026,
+          "label": "GLP-1 Clock Reversal & First Ocular OSK Trials",
+          "value": 10.4,
+          "display": "~10.4 Sick Years"
+        },
+        {
+          "year": 2030,
+          "label": "Outpatient LNP Epigenetic, Senolytic & Thymic Tune-Ups",
+          "value": 5.2,
+          "display": "~5.2 Sick Years"
+        },
+        {
+          "year": 2035,
+          "label": "Universal Preventative Healthspan (<$350/Yr Public Pass)",
+          "value": 1.6,
+          "display": "<2.0 Sick Years"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Primate Vision Reset",
+          "value": "ER-100 OSK",
+          "detail": "Restored optic nerve function with zero cell-identity loss"
+        },
+        {
+          "label": "Cardio-Renal Shield",
+          "value": "-20% to -24%",
+          "detail": "MACE & kidney progression cut alongside methylation reversal"
+        },
+        {
+          "label": "Organ Aging Clocks",
+          "value": "11 Organs",
+          "detail": "Single blood draw flags vascular, brain & immune drift early"
+        },
+        {
+          "label": "Medicare Rescue",
+          "value": "$800B+/Yr",
+          "detail": "Projected savings from avoided ICU, dialysis & memory wards"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Life Biosciences (ER-100)",
+        "url": "https://www.lifebiosciences.com/"
+      },
+      {
+        "name": "Altos Labs",
+        "url": "https://altoslabs.com/"
+      },
+      {
+        "name": "Retro Biosciences",
+        "url": "https://retrobio.com/"
+      },
+      {
+        "name": "NewLimit & Turn Biotechnologies",
+        "url": "https://www.newlimit.com/"
+      },
+      {
+        "name": "Intervene Immune (TRIIM)",
+        "url": "https://www.interveneimmune.com/"
+      },
+      {
+        "name": "Rubedo Life Sciences & Oisín Biotechnologies",
+        "url": "https://www.rubedolife.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Singapore Healthier SG & Active Ageing Centres",
+        "url": "https://www.healthiersg.gov.sg/"
+      },
+      {
+        "name": "Okinawa Ikigai & Moai Lifelong Mutual-Aid Circles",
+        "url": "https://en.wikipedia.org/wiki/Blue_zone"
+      },
+      {
+        "name": "FDA Modernization Act 2.0/3.0 Organoid-Chip Pathway",
+        "url": "https://www.fda.gov/"
+      },
+      {
+        "name": "SELECT & FLOW GLP-1 Epigenetic Clock Substudies",
+        "url": "https://www.nejm.org/"
+      }
+    ]
+  },
+  {
+    "slug": "invivo-crispr-cures",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/invivo-crispr-cures",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "One-Dose Genetic Cures: In Vivo CRISPR & Base Editing for All",
+    "tagline": "Sixty-minute outpatient lipid-nanoparticle infusions permanently fix lethal genetic mutations and slash heart-attack risk without hospital chemo.",
+    "cynicBelief": "Gene therapy is a two-million-dollar boutique miracle trapped inside elite transplant hospitals—requiring brutal bone-marrow chemotherapy and price tags that would bankrupt any public health system on Earth.",
+    "breakthroughCounter": "Moving beyond $2.2M ex vivo hospital stays (Casgevy), 2025–2026 human clinical trials proved single-dose intravenous in vivo LNP editors work in 60 minutes in an outpatient chair: Intellia (NTLA-2002) cut hereditary angioedema attacks >95%, CRISPR Therapeutics (CTX310) and Verve (VERVE-102) durably slashed heart-attack lipids up to 80%, and CHOP/Penn delivered Baby KJ's custom N-of-1 base-editing cure in just 6 months.",
+    "socialNormShift": "Platform-vector FDA master files and Netflix-style Sovereign Subscription Pools delink R&D rewards from per-vial monopoly pricing—turning $2M orphan miracles into $400 universal outpatient immunizations against genetic heartbreak.",
+    "humanStory": {
+      "protagonist": "Amara Mensah, 19-Year-Old Architecture Student",
+      "location": "Accra, Ghana & Philadelphia, USA",
+      "snippet": "Sketching a courtyard pavilion in Chair Four of Accra's genomic day clinic, Amara receives a 55-minute stem-cell-targeted LNP base-editing drip that permanently cures her sickle-cell disease with zero chemotherapy—making her afternoon studio critique on time."
+    },
+    "quote": {
+      "text": "Achieving safe, targeted in vivo genome editing—delivering editors straight to the cells that need them—turns genetic medicine from a rare luxury into an accessible cure for all.",
+      "author": "Prof. Jennifer Doudna",
+      "role": "2020 Nobel Laureate in Chemistry & Founder, Innovative Genomics Institute",
+      "url": "https://innovativegenomics.org/"
+    },
+    "companiesAndLabs": [
+      "Innovative Genomics Institute (IGI)",
+      "CRISPR Therapeutics (CTX310 & Casgevy)",
+      "Intellia Therapeutics (NTLA-2001 & NTLA-2002)",
+      "Verve Therapeutics (VERVE-102)",
+      "Beam Therapeutics (BEAM-302) & Prime Medicine",
+      "CHOP & Penn Medicine N-of-1 Base Editing Team"
+    ],
+    "globalPrecedents": [
+      "2025 CHOP/Penn 6-Month Custom Infant Base Edit (Baby KJ)",
+      "FDA Platform Technology Designation Program",
+      "Louisiana & Australia 'Netflix-Model' Curative Subscriptions",
+      "IGI & Gates Foundation Sub-$500 In Vivo Sickle-Cell Initiative"
+    ],
+    "synergyLinks": [
+      "epigenetic-healthspan",
+      "healthcare-without-billing",
+      "organ-bioprinting-bionics",
+      "self-driving-labs"
+    ],
+    "infographic": {
+      "headlineMetric": "60-Min Drip",
+      "headlineLabel": "Outpatient In Vivo LNP Cure ($400 Target)",
+      "unit": "All-In Curative Gene Editing Point-of-Care Cost ($ USD)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Ex Vivo Chemo + Transplant Ward (Casgevy)",
+          "value": 2200000,
+          "display": "$2,200,000"
+        },
+        {
+          "year": 2026,
+          "label": "First In Vivo Hepatic LNP & 6-Mo N-of-1 Cures",
+          "value": 250000,
+          "display": "~$250,000"
+        },
+        {
+          "year": 2030,
+          "label": "Extrahepatic SORT LNPs + Sovereign Subscription Pools",
+          "value": 1800,
+          "display": "$1,800"
+        },
+        {
+          "year": 2034,
+          "label": "Automated Bio-Foundry Universal Public Benefit",
+          "value": 400,
+          "display": "$400 / Cure"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Angioedema Freedom",
+          "value": ">95% Drop",
+          "detail": "NTLA-2002 single IV dose eliminates HAE swelling attacks"
+        },
+        {
+          "label": "Lipid / Heart Shield",
+          "value": "-50% to -80%",
+          "detail": "CTX310 & VERVE-102 permanently lower ANGPTL3 / PCSK9"
+        },
+        {
+          "label": "Bespoke Infant Cure",
+          "value": "6 Months",
+          "detail": "CHOP/Penn 2025 Baby KJ custom CPS1 base-editor precedent"
+        },
+        {
+          "label": "Raw Vial Chemistry",
+          "value": "<$80 API",
+          "detail": "Microfluidic mRNA + LNP synthesis enables global access"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Innovative Genomics Institute (IGI)",
+        "url": "https://innovativegenomics.org/"
+      },
+      {
+        "name": "CRISPR Therapeutics (CTX310 & Casgevy)",
+        "url": "https://crisprtx.com/"
+      },
+      {
+        "name": "Intellia Therapeutics (NTLA-2001 & NTLA-2002)",
+        "url": "https://www.intelliatx.com/"
+      },
+      {
+        "name": "Verve Therapeutics (VERVE-102)",
+        "url": "https://www.vervetx.com/"
+      },
+      {
+        "name": "Beam Therapeutics (BEAM-302) & Prime Medicine",
+        "url": "https://beamtx.com/"
+      },
+      {
+        "name": "CHOP & Penn Medicine N-of-1 Base Editing Team",
+        "url": "https://www.chop.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2025 CHOP/Penn 6-Month Custom Infant Base Edit (Baby KJ)",
+        "url": "https://www.chop.edu/"
+      },
+      {
+        "name": "FDA Platform Technology Designation Program",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/platform-technology-designation-program-drug-development"
+      },
+      {
+        "name": "Louisiana & Australia 'Netflix-Model' Curative Subscriptions",
+        "url": "https://en.wikipedia.org/wiki/Subscription_business_model"
+      },
+      {
+        "name": "IGI & Gates Foundation Sub-$500 In Vivo Sickle-Cell Initiative",
+        "url": "https://innovativegenomics.org/"
+      }
+    ]
+  },
+  {
+    "slug": "craving-reset-mental-health",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/craving-reset-mental-health",
+    "v1Slug": "drug-abuse-and-mental-health",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": true,
+    "title": "Silencing the Hijacked Brain: GLP-1 Craving Reset, Focused Ultrasound & Restorative Psychiatry",
+    "tagline": "Neuro-metabolic peptides, 30-minute incisionless focused ultrasound, 5-day SAINT neuromodulation, and Trieste open sanctuaries heal addiction and despair.",
+    "cynicBelief": "Fentanyl, meth, and severe mental illness are untreatable black holes—85% of rehab patients relapse, psychiatric drugs numb people into zombies, and cities are stuck choosing between cruel jails or street encampments.",
+    "breakthroughCounter": "Addiction is a physical hijacking of subcortical reward circuits, not a moral failure. In 2024–2026 clinical studies, GLP-1/GIP agonists cut opioid and alcohol cravings 40–60%, WVU's 30-minute Focused Ultrasound (LIFU) helmet silenced refractory fentanyl cravings without surgery, Stanford SAINT fMRI-TMS achieved ~79% depression remission in 5 days, and Cobenfy delivered the first non-dopamine schizophrenia relief in 70 years.",
+    "socialNormShift": "Replacing handcuffs, 8-week waitlists, and willpower lectures with same-hour open-door neuro-sanctuaries and salaried Trieste-style craft cooperatives—eliminating the Day 29 loneliness relapse cliff.",
+    "humanStory": {
+      "protagonist": "Marcus Vance, 34-Year-Old Former Machinist & Army Veteran",
+      "location": "Morgantown, West Virginia",
+      "snippet": "Halfway through an incisionless 30-minute Focused Ultrasound helmet session paired with a monthly GLP-1 shield, Marcus watches fentanyl trigger photos with a steady 64-BPM pulse—whispering 'the radio static in my skull just switched off' before joining a salaried timber-restoration crew."
+    },
+    "quote": {
+      "text": "Addiction is a treatable medical disorder of brain reward and self-regulation circuits—and for the first time, new neuro-metabolic and neuromodulation tools let us quiet the craving itself.",
+      "author": "Dr. Nora Volkow",
+      "role": "Director, National Institute on Drug Abuse (NIDA), NIH",
+      "url": "https://nida.nih.gov/"
+    },
+    "companiesAndLabs": [
+      "WVU Rockefeller Neuroscience Institute (Dr. Ali Rezai)",
+      "National Institute on Drug Abuse (NIDA) & VA Cohorts",
+      "Stanford Brain Stimulation Lab (SAINT / Magnus Medical)",
+      "Karuna / Bristol Myers Squibb (Cobenfy / KarXT)",
+      "Insightec Non-Invasive Focused Ultrasound",
+      "WHO Collaborating Centre Trieste"
+    ],
+    "globalPrecedents": [
+      "Trieste Open-Door 24/7 Psychiatry & Type-B Social Co-ops",
+      "Portugal Health-First Dissuasion & Recovery Commissions",
+      "Iceland Planet Youth Universal After-School Guild Model",
+      "FDA Clearance of Stanford SAINT & Cobenfy (KarXT)"
+    ],
+    "synergyLinks": [
+      "healthcare-without-billing",
+      "ending-homelessness-villages",
+      "purpose-craft-guilds",
+      "epigenetic-healthspan"
+    ],
+    "infographic": {
+      "headlineMetric": "80%+ Recovery",
+      "headlineLabel": "Sustained 1-Yr Remission (Up From ~15%)",
+      "unit": "12-Month Sustained Addiction Remission Rate (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Willpower-Only 28-Day Detox & Waitlists",
+          "value": 15,
+          "display": "15% Remission"
+        },
+        {
+          "year": 2026,
+          "label": "GLP-1 Craving Cohorts & Academic LIFU/SAINT Hubs",
+          "value": 52,
+          "display": "52% Remission"
+        },
+        {
+          "year": 2030,
+          "label": "Walk-In Neuro-Sanctuaries + Salaried Social Co-ops",
+          "value": 78,
+          "display": "78% Remission"
+        },
+        {
+          "year": 2034,
+          "label": "Universal Biological Reset + Planet Youth Shield",
+          "value": 86,
+          "display": "86%+ Remission"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "GLP-1 Craving Cut",
+          "value": "-40% to -60%",
+          "detail": "Lower opioid overdose & heavy alcohol days in VA/RCT studies"
+        },
+        {
+          "label": "Focused Ultrasound",
+          "value": "30 Minutes",
+          "detail": "Incisionless WVU LIFU helmet silences nucleus accumbens craving"
+        },
+        {
+          "label": "SAINT TMS Remission",
+          "value": "~79% in 5d",
+          "detail": "Personalized fMRI-guided relief in severe suicidal depression"
+        },
+        {
+          "label": "Cobenfy (KarXT)",
+          "value": "1st in 70 Yrs",
+          "detail": "Muscarinic schizophrenia relief without dopamine numbness"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "WVU Rockefeller Neuroscience Institute (Dr. Ali Rezai)",
+        "url": "https://rni.wvumedicine.org/"
+      },
+      {
+        "name": "National Institute on Drug Abuse (NIDA) & VA Cohorts",
+        "url": "https://nida.nih.gov/"
+      },
+      {
+        "name": "Stanford Brain Stimulation Lab (SAINT / Magnus Medical)",
+        "url": "https://med.stanford.edu/bsl.html"
+      },
+      {
+        "name": "Karuna / Bristol Myers Squibb (Cobenfy / KarXT)",
+        "url": "https://www.bms.com/"
+      },
+      {
+        "name": "Insightec Non-Invasive Focused Ultrasound",
+        "url": "https://insightec.com/"
+      },
+      {
+        "name": "WHO Collaborating Centre Trieste",
+        "url": "https://en.wikipedia.org/wiki/Basaglia_Law"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Trieste Open-Door 24/7 Psychiatry & Type-B Social Co-ops",
+        "url": "https://en.wikipedia.org/wiki/Basaglia_Law"
+      },
+      {
+        "name": "Portugal Health-First Dissuasion & Recovery Commissions",
+        "url": "https://en.wikipedia.org/wiki/Drug_policy_of_Portugal"
+      },
+      {
+        "name": "Iceland Planet Youth Universal After-School Guild Model",
+        "url": "https://planetyouth.org/"
+      },
+      {
+        "name": "FDA Clearance of Stanford SAINT & Cobenfy (KarXT)",
+        "url": "https://med.stanford.edu/bsl.html"
+      }
+    ]
+  },
+  {
+    "slug": "healthcare-without-billing",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/healthcare-without-billing",
+    "v1Slug": "healthcare-and-insurance-leapfrog",
+    "v1TrackId": "social",
+    "isNewInCarbon": false,
+    "isUrgentSocial": true,
+    "title": "Skipping the $1.2 Trillion Billing Maze: Continuous AI Diagnostics & Universal Direct Care",
+    "tagline": "Ambient AI scribes, $75/month zero-claim Direct Primary Care, Cost Plus generics, and Singapore-style catastrophic pools return eye contact to medicine.",
+    "cynicBelief": "Healthcare is permanently captured by insurance cartels, hospital billing armies, and PBMs—dooming working families to $7,500 deductibles, prior-authorization denials, rushed ten-minute visits, and medical bankruptcy.",
+    "breakthroughCounter": "Nearly 30% of US health spending (~$1.2T/yr) is pure billing and PBM middleman friction. Between 2024 and 2026, 2,500+ Direct Primary Care clinics, Mark Cuban Cost Plus Drugs (15%-markup generics), ambient AI scribes cutting EHR typing 60%+, $50-trajectory cfDNA multi-cancer liquid biopsies, and Singapore's 4.5%-of-GDP Medisave + MediShield Life proved communities can walk right around the billing complex.",
+    "socialNormShift": "Decoupling health security from corporate W-2 jobs: every citizen holds a portable $75/month Direct Primary Care membership for unhurried 45-minute care plus an automatic Universal Catastrophic Shield—making insurance claims for routine checkups as obsolete as filing auto insurance for windshield wipers.",
+    "humanStory": {
+      "protagonist": "Dr. Priya Nair & Self-Employed Carpenter David Miller",
+      "location": "Columbus, Ohio",
+      "snippet": "Without a laptop or insurance card between them, Dr. Nair spends forty-two eye-to-eye minutes examining David with a pocket ultrasound while ambient AI writes the chart—dispensing two 90-day Cost-Plus generics for $11.40 and running his $50 annual multi-cancer blood screen."
+    },
+    "quote": {
+      "text": "The greatest gift of medical AI isn't faster machines—it's giving doctors and nurses back the time to listen, touch, and care for human beings while catching disease years before tragedy strikes.",
+      "author": "Dr. Eric Topol",
+      "role": "Founder & Director, Scripps Research Translational Institute",
+      "url": "https://www.scripps.edu/science-and-medicine/translational-institute/"
+    },
+    "companiesAndLabs": [
+      "Mark Cuban Cost Plus Drug Company & Civica Rx",
+      "Abridge, Nuance DAX & Open Clinical AI Scribes",
+      "Direct Primary Care Coalition (2,500+ Clinics)",
+      "GRAIL (Galleri), Exact Sciences & Ultima Genomics",
+      "Butterfly Network (Solid-State Pocket Ultrasound)",
+      "Surgery Center of Oklahoma & RosenCare"
+    ],
+    "globalPrecedents": [
+      "Singapore 3M System (Medisave + MediShield Life + MediFund)",
+      "UK NHS 140,000-Patient Multi-Cancer Liquid Biopsy Trial",
+      "Rosen Hotels Zero-PBM Direct Care ($500M+ Saved)",
+      "Switzerland Universal Portable Non-Employer Coverage"
+    ],
+    "synergyLinks": [
+      "epigenetic-healthspan",
+      "craving-reset-mental-health",
+      "cost-of-living-collapse",
+      "zero-cliff-safety-nets"
+    ],
+    "infographic": {
+      "headlineMetric": "$4,420 / Yr",
+      "headlineLabel": "All-In Family Care (Down From $26,500 Maze)",
+      "unit": "Share of Healthcare Spend Lost to Billing & Admin (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Legacy ICD-10, Prior-Auth & PBM Spread Maze",
+          "value": 30,
+          "display": "~30% Admin Waste"
+        },
+        {
+          "year": 2026,
+          "label": "Ambient AI Scribes + Cost Plus + 2,500 DPC Clinics",
+          "value": 24,
+          "display": "24% Admin Share"
+        },
+        {
+          "year": 2030,
+          "label": "Portable DPC Safe Harbors + Bundled Surgery Menus",
+          "value": 11,
+          "display": "11% Admin Share"
+        },
+        {
+          "year": 2034,
+          "label": "Singapore-Parity Direct Care + Catastrophic Shield",
+          "value": 5.5,
+          "display": "<6% Overhead"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Singapore Benchmark",
+          "value": "4.5% GDP",
+          "detail": "Vs. 17.5% US spend, with longer 84+ yr life expectancy"
+        },
+        {
+          "label": "Doctor Eye Contact",
+          "value": "45 Minutes",
+          "detail": "Ambient AI scribes cut physician EHR typing by 50–70%"
+        },
+        {
+          "label": "Cost-Plus Generics",
+          "value": "-70% to -98%",
+          "detail": "Transparent 15% markup eliminates PBM spread pricing"
+        },
+        {
+          "label": "Stage-I Cancer Screen",
+          "value": "$50 Target",
+          "detail": "Annual cfDNA blood biopsy catches 50+ cancers years early"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Mark Cuban Cost Plus Drug Company & Civica Rx",
+        "url": "https://www.costplusdrugs.com/"
+      },
+      {
+        "name": "Abridge, Nuance DAX & Open Clinical AI Scribes",
+        "url": "https://www.abridge.com/"
+      },
+      {
+        "name": "Direct Primary Care Coalition (2,500+ Clinics)",
+        "url": "https://www.dpcare.org/"
+      },
+      {
+        "name": "GRAIL (Galleri), Exact Sciences & Ultima Genomics",
+        "url": "https://grail.com/"
+      },
+      {
+        "name": "Butterfly Network (Solid-State Pocket Ultrasound)",
+        "url": "https://www.butterflynetwork.com/"
+      },
+      {
+        "name": "Surgery Center of Oklahoma & RosenCare",
+        "url": "https://surgerycenterok.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Singapore 3M System (Medisave + MediShield Life + MediFund)",
+        "url": "https://www.moh.gov.sg/"
+      },
+      {
+        "name": "UK NHS 140,000-Patient Multi-Cancer Liquid Biopsy Trial",
+        "url": "https://www.nhs-galleri.org/"
+      },
+      {
+        "name": "Rosen Hotels Zero-PBM Direct Care ($500M+ Saved)",
+        "url": "https://en.wikipedia.org/wiki/Harris_Rosen"
+      },
+      {
+        "name": "Switzerland Universal Portable Non-Employer Coverage",
+        "url": "https://en.wikipedia.org/wiki/Healthcare_in_Switzerland"
+      }
+    ]
+  },
+  {
+    "slug": "organ-bioprinting-bionics",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/organ-bioprinting-bionics",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Ending the Transplant Waitlist & Restoring Sight, Speech, and Motion",
+    "tagline": "Gene-edited bridge organs, 44-trillion-voxel autologous bioprinted scaffolds, 78-wpm speech BCIs, and wireless spinal bridges end biological rationing.",
+    "cynicBelief": "3D-printed organs and curing paralysis are forever 'twenty years away'—leaving a hundred thousand patients to die waiting on donor lists while ALS, blindness, and spinal cord injury remain lifelong prisons.",
+    "breakthroughCounter": "Between 2024 and late 2026, United Therapeutics and eGenesis entered formal FDA clinical trials with multiplex CRISPR xenotransplant kidneys while bioprinting 44-trillion-voxel vascularized lung scaffolds; UC Davis/BrainGate neural prostheses decoded ALS speech at 62–78 wpm in patients' own voices; Courtine/ONWARD bridges restored walking; and Science Corp's PRIMA chip restored reading vision in macular degeneration.",
+    "socialNormShift": "Moving from tragic donor rationing and $95,000/year dialysis maintenance to Spain-style universal scheduled organ replacement (requiring zero lifelong immunosuppressants) protected by strict patient-owned Neurorights.",
+    "humanStory": {
+      "protagonist": "Elena Morales, 42-Year-Old History Teacher Living With ALS",
+      "location": "Davis, California & Lausanne, Switzerland",
+      "snippet": "Curled on the living-room sofa, Elena reads Charlotte's Web aloud to her eight-year-old daughter at 76 words per minute in her own warm, laughing pre-ALS voice—decoded effortlessly from a flush wireless motor-cortex sensor."
+    },
+    "quote": {
+      "text": "No human being should ever die waiting on an organ list when biotechnology and 3D cellular manufacturing can create an unlimited supply of tolerable, life-saving organs.",
+      "author": "Dr. Martine Rothblatt",
+      "role": "Founder, Chair & CEO, United Therapeutics",
+      "url": "https://www.unither.com/"
+    },
+    "companiesAndLabs": [
+      "United Therapeutics, Lung Biotechnology & PrintBio",
+      "eGenesis (69-Edit CRISPR Xenotransplants)",
+      "UC Davis Neuroprosthetics Lab & BrainGate2",
+      "EPFL / CHUV .NeuroRestore & ONWARD Medical",
+      "Science Corporation (PRIMA Retinal Implant)",
+      "Synchron (Endovascular Stentrode)"
+    ],
+    "globalPrecedents": [
+      "Spain Organización Nacional de Trasplantes (ONT) Equity Model",
+      "2025–2026 FDA IND Xenokidney Clinical Trials",
+      "Medicare Universal ESRD Renal Entitlement",
+      "Chile Constitutional Neurorights Privacy Framework"
+    ],
+    "synergyLinks": [
+      "invivo-crispr-cures",
+      "holographic-bio-microassembly",
+      "zero-g-biomanufacturing",
+      "epigenetic-healthspan"
+    ],
+    "infographic": {
+      "headlineMetric": "0 Waitlist",
+      "headlineLabel": "Unlimited Tolerable Manufactured Organs",
+      "unit": "Patients Dying or Deteriorating on US Organ Waitlists (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "100k+ Waiting; 17 Deaths/Day & Lifelong Rejection Pills",
+          "value": 100,
+          "display": "100% Scarcity Baseline"
+        },
+        {
+          "year": 2026,
+          "label": "FDA Xenokidney Trials + 78-WPM Speech BCI + PRIMA Sight",
+          "value": 88,
+          "display": "First Dialysis Exits"
+        },
+        {
+          "year": 2030,
+          "label": "Scaled Xeno-Bridge + First Autologous iPSC Printed Organs",
+          "value": 35,
+          "display": "-65% Waitlist Backlog"
+        },
+        {
+          "year": 2034,
+          "label": "Scheduled Zero-Rejection Autologous Solid Organ Standard",
+          "value": 0,
+          "display": "0 Waitlist Deaths"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "3D Lung Resolution",
+          "value": "44T Voxels",
+          "detail": "PrintBio vascularized airways seeded with patient stem cells"
+        },
+        {
+          "label": "ALS Voice Restore",
+          "value": "62–78 WPM",
+          "detail": "97.5% accuracy across 125k words in patient's real voice"
+        },
+        {
+          "label": "Spinal & Hand Bridge",
+          "value": "72% Respond",
+          "detail": "FDA-cleared ONWARD ARC-EX + wireless Lausanne walking bridge"
+        },
+        {
+          "label": "Macular Sight Chip",
+          "value": "2×2 mm PRIMA",
+          "detail": "Restores central letter & book reading in blind GA patients"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "United Therapeutics, Lung Biotechnology & PrintBio",
+        "url": "https://www.unither.com/"
+      },
+      {
+        "name": "eGenesis (69-Edit CRISPR Xenotransplants)",
+        "url": "https://egenesisbio.com/"
+      },
+      {
+        "name": "UC Davis Neuroprosthetics Lab & BrainGate2",
+        "url": "https://www.braingate.org/"
+      },
+      {
+        "name": "EPFL / CHUV .NeuroRestore & ONWARD Medical",
+        "url": "https://www.onwd.com/"
+      },
+      {
+        "name": "Science Corporation (PRIMA Retinal Implant)",
+        "url": "https://science.xyz/"
+      },
+      {
+        "name": "Synchron (Endovascular Stentrode)",
+        "url": "https://synchron.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Spain Organización Nacional de Trasplantes (ONT) Equity Model",
+        "url": "https://en.wikipedia.org/wiki/Organizaci%C3%B3n_Nacional_de_Trasplantes"
+      },
+      {
+        "name": "2025–2026 FDA IND Xenokidney Clinical Trials",
+        "url": "https://egenesisbio.com/"
+      },
+      {
+        "name": "Medicare Universal ESRD Renal Entitlement",
+        "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/overview/end-stage-renal-disease-esrd"
+      },
+      {
+        "name": "Chile Constitutional Neurorights Privacy Framework",
+        "url": "https://neurorightsfoundation.org/"
+      }
+    ]
+  },
+  {
+    "slug": "precision-fermentation-rewilding",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/precision-fermentation-rewilding",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "The Billion-Hectare Rewilding: Solar Proteins, Vertical Orchards & Returning Half the Earth to Wild Nature",
+    "tagline": "Microbial solar proteins, carbon-forged butter, and vertical berry orchards feed ten billion deliciously on 95% less land—giving a billion hectares back to wildlife.",
+    "cynicBelief": "Feeding ten billion people inevitably requires burning the last tropical rainforests, draining rivers dry, and wiping out wild animals—unless humanity accepts joyless synthetic eco-austerity.",
+    "breakthroughCounter": "Half of all habitable land (~4 billion hectares) is currently tied up in 1%-efficient pasture and feed crops. In 2024–2026, Solar Foods (Solein) opened commercial biorefineries brewing complete protein from air CO2, water, and solar power at 20x soybean and 200x beef efficiency; Savor synthesized real butterfat without farmland or palm oil; and Plenty/Oishii vertical berry towers cut water and land use by 95–99%.",
+    "socialNormShift": "Winning on gourmet taste and sub-commodity cost while redirecting farm subsidies into Costa Rica-style Ecosystem Stewardship Salaries—paying rural ranching families generously to rewild 1+ billion hectares of cloud forests, bison prairies, and wetlands.",
+    "humanStory": {
+      "protagonist": "Mateo Solís, Former Cattle Rancher Turned Cloud-Forest Corridor Steward",
+      "location": "Guanacaste, Costa Rica & Helsinki, Finland",
+      "snippet": "Earning 40% higher family income through ecosystem stewardship salaries than cattle ever paid, Mateo watches a wild jaguar mother and two cubs pad beneath giant ceiba trees on his restored pasture—while Helsinki bakeries pull flaky carbon-butter and Solein croissants from deck ovens."
+    },
+    "quote": {
+      "text": "Disconnect food production from weather and land use, and humanity can feed ten billion people deliciously while letting forests and wildlife reclaim half the planet.",
+      "author": "Dr. Pasi Vainikka",
+      "role": "Co-Founder & CEO, Solar Foods",
+      "url": "https://solarfoods.com/"
+    },
+    "companiesAndLabs": [
+      "Solar Foods (Solein — Factory 01 Finland)",
+      "Savor (Thermochemical Carbon-to-Butter)",
+      "Perfect Day, Vivici & Formo (Precision Dairy)",
+      "Plenty Unlimited & Oishii (Vertical Berry Orchards)",
+      "Pivot Bio & Veramaris (Algal Marine Omega-3s)",
+      "Rewilding Europe & American Prairie"
+    ],
+    "globalPrecedents": [
+      "Costa Rica Pagos por Servicios Ambientales (Forest Doubled to >57%)",
+      "Singapore Food Agency Novel-Food Approval Standard",
+      "UK Environmental Land Management (Public Money for Public Goods)",
+      "UN High Seas Treaty & Kunming-Montreal 30x30 Accord"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "assisted-coral-cryobanks",
+      "forever-chemical-cleanup",
+      "aquifer-rivers-desalination"
+    ],
+    "infographic": {
+      "headlineMetric": "1B+ Hectares",
+      "headlineLabel": "Farmland Returned to Wild Forests & Prairies",
+      "unit": "Cumulative Former Ag Land Rewilded Globally (Million Hectares)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Peak ~4B Hectare Pasture & Feed-Crop Footprint",
+          "value": 15,
+          "display": "15M ha Pilot Corridors"
+        },
+        {
+          "year": 2026,
+          "label": "Solein Factory 01 + Savor Fats + Vertical Berry Campuses",
+          "value": 45,
+          "display": "45M ha Early Shift"
+        },
+        {
+          "year": 2032,
+          "label": "$0.02/kWh Solar Drops Brewed Protein & Fats Below Beef/Palm",
+          "value": 480,
+          "display": "480M ha Rewilding"
+        },
+        {
+          "year": 2038,
+          "label": "Global PSA Stewardship Salaries & 400+ Gt Carbon Sink",
+          "value": 1050,
+          "display": "1.05B+ ha Rewilded"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Solar Land Leap",
+          "value": "20× to 200×",
+          "detail": "Solein protein yield per hectare vs. soybeans (20×) & beef (200×)"
+        },
+        {
+          "label": "Vertical Orchards",
+          "value": "-97% Water",
+          "detail": "Plenty & Oishii grow pesticide-free berries on >90% less land"
+        },
+        {
+          "label": "Costa Rica Proof",
+          "value": "26% → 57%+",
+          "detail": "National forest cover more than doubled via landowner PSA pay"
+        },
+        {
+          "label": "Living CO₂ Drawdown",
+          "value": "350–500 Gt",
+          "detail": "Legacy atmospheric carbon soaked up by 1B+ rewilded hectares"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Solar Foods (Solein — Factory 01 Finland)",
+        "url": "https://solarfoods.com/"
+      },
+      {
+        "name": "Savor (Thermochemical Carbon-to-Butter)",
+        "url": "https://www.savor.it/"
+      },
+      {
+        "name": "Perfect Day, Vivici & Formo (Precision Dairy)",
+        "url": "https://perfectday.com/"
+      },
+      {
+        "name": "Plenty Unlimited & Oishii (Vertical Berry Orchards)",
+        "url": "https://www.plenty.ag/"
+      },
+      {
+        "name": "Pivot Bio & Veramaris (Algal Marine Omega-3s)",
+        "url": "https://www.pivotbio.com/"
+      },
+      {
+        "name": "Rewilding Europe & American Prairie",
+        "url": "https://rewildingeurope.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Costa Rica Pagos por Servicios Ambientales (Forest Doubled to >57%)",
+        "url": "https://www.fonafifo.go.cr/en/"
+      },
+      {
+        "name": "Singapore Food Agency Novel-Food Approval Standard",
+        "url": "https://www.sfa.gov.sg/"
+      },
+      {
+        "name": "UK Environmental Land Management (Public Money for Public Goods)",
+        "url": "https://www.gov.uk/government/publications/environmental-land-management-update-how-government-will-pay-for-land-based-environment-and-climate-goods-and-services"
+      },
+      {
+        "name": "UN High Seas Treaty & Kunming-Montreal 30x30 Accord",
+        "url": "https://www.cbd.int/gbf"
+      }
+    ]
+  },
+  {
+    "slug": "forever-chemical-cleanup",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/forever-chemical-cleanup",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Healing a Toxified Planet: Supercritical PFAS Destruction, Plastic-Eating Enzymes & Clean Rivers",
+    "tagline": "Supercritical water at 374°C shatters PFAS bonds in seconds, AI enzymes unzip dirty plastic into virgin monomers, and solar Interceptors seal 1,000 rivers.",
+    "cynicBelief": "Forever chemicals and microplastics are an irreversible curse in our blood, soils, and rainwater—recycling was always a scam, and nothing can ever break carbon–fluorine pollution down.",
+    "breakthroughCounter": "'Forever' only meant 'resistant to 20th-century ambient bacteria.' Between 2024 and late 2026, 374Water (AirSCWO) and Revive Environmental deployed Supercritical Water Oxidation (374°C+, 221 bar) destroying >99.99% of PFAS into pure water and benign fluoride salts in seconds; Carbios scaled AI-engineered enzymes in France unzipping mixed PET waste at 97% conversion; and The Ocean Cleanup Interceptors choked off river plastic at the source.",
+    "socialNormShift": "Polluter-pays Extended Producer Responsibility (EPR) superfunds and $14B+ fluorochemical settlements finance municipal SCWO reactors at every water utility and landfill—turning toxic sewage sludge into sterile water, clean energy, and recovered farm phosphorus.",
+    "humanStory": {
+      "protagonist": "Maya Lin-Kowalski, Municipal Water Resource Engineer",
+      "location": "Grand Rapids, Michigan & Longlaville, France",
+      "snippet": "Watching her nine-year-old twins cannonball off a Grand River dock where PFAS foam advisories once stood, Maya checks live municipal telemetry reading 0.0 ppt—ten seconds after a containerized supercritical water reactor snapped concentrated forever chemicals into harmless mineral salt."
+    },
+    "quote": {
+      "text": "Technology got us into this mess, and smart, scalable engineering—deployed with optimism and persistence—can clean the world's rivers and oceans within our lifetime.",
+      "author": "Boyan Slat",
+      "role": "Founder & CEO, The Ocean Cleanup",
+      "url": "https://theoceancleanup.com/"
+    },
+    "companiesAndLabs": [
+      "374Water (AirSCWO Municipal Reactors)",
+      "Revive Environmental & Battelle (PFAS Annihilator)",
+      "Carbios (Enzymatic PET Biorefinery) & Epoch Biodesign",
+      "The Ocean Cleanup (Interceptors & System 03)",
+      "Aclarity & Claros Electrochemical Destruction",
+      "UT Austin FAST-PETase Protein Engineering Lab"
+    ],
+    "globalPrecedents": [
+      "US EPA 4.0 ppt PFAS Drinking Water Standard & $14B+ Settlements",
+      "CDC NHANES Proof (>85% Human Blood PFOS Drop Post-Phaseout)",
+      "Denmark & EU Upstream PFAS Phaseout Mandates",
+      "Norway Infinitum 92%+ Container Deposit-Return System"
+    ],
+    "synergyLinks": [
+      "self-driving-labs",
+      "protein-atomic-nanofabrication",
+      "aquifer-rivers-desalination",
+      "assisted-coral-cryobanks"
+    ],
+    "infographic": {
+      "headlineMetric": "99.99%+ Gone",
+      "headlineLabel": "10-Second Supercritical PFAS Mineralization",
+      "unit": "Global River Plastic & Municipal PFAS Point-Source Escape (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Landfilled PFAS Filters & <10% Mechanical Downcycling",
+          "value": 100,
+          "display": "100% Baseline Escape"
+        },
+        {
+          "year": 2026,
+          "label": "EPA 4-ppt Rule + First Municipal AirSCWO + Carbios Plant",
+          "value": 82,
+          "display": "-18% Early Intercept"
+        },
+        {
+          "year": 2030,
+          "label": "Top 1,000 Polluting Rivers Sealed + Superfund SCWO Hubs",
+          "value": 28,
+          "display": "-72% Toxin & Trash Flow"
+        },
+        {
+          "year": 2035,
+          "label": "Closed-Loop Enzymatic Monomers & Zero-Sludge Watersheds",
+          "value": 6,
+          "display": ">94% Eliminated"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "PFAS Bond Cleavage",
+          "value": ">99.99%",
+          "detail": "374°C / 221-bar supercritical water yields H2O + fluoride salt"
+        },
+        {
+          "label": "Enzymatic PET Loop",
+          "value": "97% in Hrs",
+          "detail": "Carbios 65°C cutinase unzips colored trays & polyester clothes"
+        },
+        {
+          "label": "Pareto River Lever",
+          "value": "1,000 Rivers",
+          "detail": "Sealing <1% of rivers stops 80% of ocean-bound plastic"
+        },
+        {
+          "label": "Human Blood PFOS",
+          "value": "-85% Proven",
+          "detail": "CDC biomonitoring confirms human bodies clear PFAS after cutoff"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "374Water (AirSCWO Municipal Reactors)",
+        "url": "https://374water.com/"
+      },
+      {
+        "name": "Revive Environmental & Battelle (PFAS Annihilator)",
+        "url": "https://revive-environmental.com/"
+      },
+      {
+        "name": "Carbios (Enzymatic PET Biorefinery) & Epoch Biodesign",
+        "url": "https://en.wikipedia.org/wiki/PETase"
+      },
+      {
+        "name": "The Ocean Cleanup (Interceptors & System 03)",
+        "url": "https://theoceancleanup.com/"
+      },
+      {
+        "name": "Aclarity & Claros Electrochemical Destruction",
+        "url": "https://www.aclaritywater.com/"
+      },
+      {
+        "name": "UT Austin FAST-PETase Protein Engineering Lab",
+        "url": "https://www.utexas.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "US EPA 4.0 ppt PFAS Drinking Water Standard & $14B+ Settlements",
+        "url": "https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas"
+      },
+      {
+        "name": "CDC NHANES Proof (>85% Human Blood PFOS Drop Post-Phaseout)",
+        "url": "https://www.cdc.gov/nchs/nhanes/index.htm"
+      },
+      {
+        "name": "Denmark & EU Upstream PFAS Phaseout Mandates",
+        "url": "https://echa.europa.eu/hot-topics/perfluoroalkyl-chemicals-pfas"
+      },
+      {
+        "name": "Norway Infinitum 92%+ Container Deposit-Return System",
+        "url": "https://en.wikipedia.org/wiki/Container-deposit_legislation"
+      }
+    ]
+  },
+  {
+    "slug": "assisted-coral-cryobanks",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/assisted-coral-cryobanks",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Saving Every Living Lineage: Heat-Evolved Coral Reefs, AI Bio-Acoustics & Living Biobanks",
+    "tagline": "Heat-tolerant corals growing 50x faster, 60-second solar AI poaching shields, whale language decoding, and -196°C living cryobanks refuse extinction.",
+    "cynicBelief": "The Sixth Mass Extinction is unstoppable—coral reefs are bleached ghosts, poachers outrun rangers, inbred endangered species are doomed, and conservationists are merely writing polite obituaries.",
+    "breakthroughCounter": "Conservation has shifted from passive mourning to active biological defense. In 2024–2026, AIMS and Coral Vita bred +2°C heat-tolerant corals outplanted at 50x natural growth speeds; Rainforest Connection and Earth Species Project caught illegal chainsaws in <60s while decoding whale and elephant calls; and San Diego's Frozen Zoo + Revive & Restore birthed healthy black-footed ferret kits cloned from 1988 frozen cells.",
+    "socialNormShift": "Pricing coral reefs and rainforests as storm-insurance infrastructure (blocking 97% of wave energy), paying Indigenous guardians steady 30x30 biodiversity salaries via verified bio-acoustic/eDNA telemetry, and backing up 50,000+ local lineages in sovereign continental BioVaults.",
+    "humanStory": {
+      "protagonist": "Dr. Talia Marika, Reef Geneticist & Sea-Country Ranger Partner",
+      "location": "Moore Reef, Great Barrier Reef & Odzala Basin, Gabon",
+      "snippet": "Swimming beside an autonomous yellow LarvalBot beneath a November full moon, Talia watches +2°C heat-evolved corals erupt in a pink snowstorm of living spawn—while in Gabon, a canopy AI microphone texts chainsaw GPS coordinates in 44 seconds so rangers save a 400-year-old mahogany."
+    },
+    "quote": {
+      "text": "When AI helps us listen to the rest of life on Earth, conservation shifts from managing silent resources to protecting fellow intelligent communities.",
+      "author": "Aza Raskin",
+      "role": "Co-Founder & President, Earth Species Project",
+      "url": "https://www.earthspecies.org/"
+    },
+    "companiesAndLabs": [
+      "Australian Institute of Marine Science (AIMS / SeaSim)",
+      "Coral Vita (50x Micro-Fragmentation Farms)",
+      "Earth Species Project (NatureLM-Audio) & Project CETI",
+      "Rainforest Connection (RFCx Solar Guardians)",
+      "San Diego Zoo Wildlife Alliance Frozen Zoo",
+      "Revive & Restore, BioRescue & Colossal Foundation"
+    ],
+    "globalPrecedents": [
+      "2024 Cloned Black-Footed Ferret Antonia Births Healthy Kits",
+      "Quintana Roo Parametric Coral Reef Storm-Insurance Policy",
+      "Kunming-Montreal 30x30 Global Biodiversity Framework",
+      "Indigenous Tembé & Australian Sea-Country Acoustic Co-Stewardship"
+    ],
+    "synergyLinks": [
+      "precision-fermentation-rewilding",
+      "forever-chemical-cleanup",
+      "earth-digital-twin-canopy",
+      "invivo-crispr-cures"
+    ],
+    "infographic": {
+      "headlineMetric": "50,000+ Arks",
+      "headlineLabel": "Threatened Lineages Backed Up & Defended",
+      "unit": "Living Species Safeguarded in Distributed Cryo-BioVaults",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "San Diego Frozen Zoo (~1,200 Species) & Cloned Ferret Kits",
+          "value": 1200,
+          "display": "1,200 Banked Species"
+        },
+        {
+          "year": 2026,
+          "label": "Regional BioVaults + +2°C Reef Seeding + NatureLM-Audio",
+          "value": 3800,
+          "display": "3,800 Banked Species"
+        },
+        {
+          "year": 2031,
+          "label": "Sovereign Continental Cryo-Arks + Storm-Insured Coral Belts",
+          "value": 24000,
+          "display": "24,000 Banked Species"
+        },
+        {
+          "year": 2036,
+          "label": "Universal Threatened Lineage Backup & Genetic Rescue",
+          "value": 55000,
+          "display": "55,000+ Lineages Safe"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Coral Growth Leap",
+          "value": "25× to 50×",
+          "detail": "Micro-fragmentation + AIMS +2°C heat-evolved symbionts"
+        },
+        {
+          "label": "Wave Energy Shield",
+          "value": "-97% Force",
+          "detail": "Healthy coral crests finance restoration via flood insurance"
+        },
+        {
+          "label": "Canopy Poacher Alert",
+          "value": "<60 Seconds",
+          "detail": "Solar RFCx AI sensors alert Indigenous rangers across 35+ nations"
+        },
+        {
+          "label": "Frozen Cell Revival",
+          "value": "36-Yr Cells",
+          "detail": "1988 banked ferret cells restored 3x genetic variation in live kits"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Australian Institute of Marine Science (AIMS / SeaSim)",
+        "url": "https://en.wikipedia.org/wiki/Australian_Institute_of_Marine_Science"
+      },
+      {
+        "name": "Coral Vita (50x Micro-Fragmentation Farms)",
+        "url": "https://www.coralvita.co/"
+      },
+      {
+        "name": "Earth Species Project (NatureLM-Audio) & Project CETI",
+        "url": "https://www.earthspecies.org/"
+      },
+      {
+        "name": "Rainforest Connection (RFCx Solar Guardians)",
+        "url": "https://rfcx.org/"
+      },
+      {
+        "name": "San Diego Zoo Wildlife Alliance Frozen Zoo",
+        "url": "https://science.sandiegozoo.org/resources/frozen-zoo%C2%AE"
+      },
+      {
+        "name": "Revive & Restore, BioRescue & Colossal Foundation",
+        "url": "https://reviverestore.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2024 Cloned Black-Footed Ferret Antonia Births Healthy Kits",
+        "url": "https://reviverestore.org/projects/black-footed-ferret/"
+      },
+      {
+        "name": "Quintana Roo Parametric Coral Reef Storm-Insurance Policy",
+        "url": "https://www.nature.org/en-us/what-we-do/our-insights/perspectives/insuring-nature-to-ensure-a-resilient-future/"
+      },
+      {
+        "name": "Kunming-Montreal 30x30 Global Biodiversity Framework",
+        "url": "https://www.cbd.int/gbf"
+      },
+      {
+        "name": "Indigenous Tembé & Australian Sea-Country Acoustic Co-Stewardship",
+        "url": "https://rfcx.org/"
+      }
+    ]
+  }
+]

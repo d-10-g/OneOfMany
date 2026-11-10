@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try {
+      document.querySelector('meta[name="color-scheme"]').content = localStorage.getItem("color-scheme") ?? "light dark";
+    } catch (_) {}
+  </script>
+  <script>window.__CARBON_SUBPATH_ENTRY__ = true;</script>
+  <title>OneOfMany: Carbon Edition (/carbon/) — A Bold, Data-Grounded Atlas of a Delightful Future</title>
+  <meta name="description" content="Explore 60 SOTA pathways (120 deep reports and visual storyboards) countering modern cynicism with real 2026 breakthroughs, global civic proofs, human stories, and interactive infographics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header id="app-topbar" class="topbar">
+    <div class="topbar-left">
+      <button id="sidebar-toggle-btn" class="sidebar-toggle-btn" type="button" aria-label="Toggle pathway directory sidebar" aria-expanded="false" aria-controls="sidebar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="3"/>
+          <path d="M9 3v18"/>
+        </svg>
+        <span class="sidebar-toggle-label">Pathways</span>
+      </button>
+      <a href="#home" id="brand-link" class="brand">
+        <span class="brand-hex" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 32 32" fill="none">
+            <polygon points="16,2 28,9 28,23 16,30 4,23 4,9" stroke="currentColor" stroke-width="2.2" fill="rgba(16,185,129,0.15)"/>
+            <circle cx="16" cy="16" r="4.5" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text-wrap">
+          <span class="brand-row">
+            <span class="brand-title">OneOfMany</span>
+            <span class="brand-badge">CARBON</span>
+          </span>
+          <span class="brand-subtitle">SOTA Breakthroughs &amp; Reimagined Norms</span>
+        </span>
+      </a>
+    </div>
+
+    <nav class="section-jump-nav" aria-label="Interactive sections">
+      <a href="#home" class="jump-pill" data-jump="hero-anchor">Overview</a>
+      <a href="#home" class="jump-pill" data-jump="mythbuster-section">Myth-Busters</a>
+      <a href="#home" class="jump-pill" data-jump="synergy-section">Synergies</a>
+      <a href="#home" class="jump-pill" data-jump="budget-section">2036 Budget</a>
+      <a href="#home" class="jump-pill" data-jump="voices-section">Voices &amp; Stories</a>
+      <a href="#home" class="jump-pill" data-jump="global-section">Global Proof</a>
+      <a href="#home" class="jump-pill" data-jump="atlas-directory">60 Pathways</a>
+    </nav>
+
+    <div class="topbar-right">
+      <search class="search-landmark">
+        <div class="search-wrapper">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+          <input
+            type="search"
+            id="global-search"
+            placeholder="Search 60 pathways, companies, quotes…"
+            aria-label="Search Carbon pathways, companies, quotes, and global solutions"
+          >
+          <kbd class="search-kbd" aria-hidden="true">/</kbd>
+        </div>
+      </search>
+
+      <button id="surprise-hope-btn" class="action-pill-btn" type="button">
+        <span aria-hidden="true">✨</span>
+        <span class="hide-compact">Dose of Hope</span>
+      </button>
+
+      <button id="motion-toggle" class="motion-pill-btn" type="button" aria-pressed="false" aria-label="Pause ambient animations">
+        <svg id="motion-pause-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+          <rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/>
+        </svg>
+        <svg id="motion-play-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" hidden>
+          <polygon points="6,4 20,12 6,20" fill="currentColor"/>
+        </svg>
+        <span id="motion-toggle-label" class="hide-compact">Motion</span>
+      </button>
+
+      <button id="theme-toggle" class="icon-btn" type="button">
+        <span class="theme-option theme-to-dark">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+          </svg>
+          <span class="sr-only">Switch to dark theme</span>
+        </span>
+        <span class="theme-option theme-to-light">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-14.93 1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2m-14.93 7.07 1.41-1.41m11.32-11.32 1.41-1.41"/>
+          </svg>
+          <span class="sr-only">Switch to light theme</span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <div id="sidebar-backdrop" class="sidebar-backdrop" hidden></div>
+
+  <div id="workspace-shell" class="workspace-shell">
+    <aside id="sidebar" class="sidebar" aria-label="Carbon pathway directory" hidden inert>
+      <div class="sidebar-header">
+        <div class="sidebar-top-row">
+          <span class="sidebar-mobile-title">Carbon Atlas (60 Pathways)</span>
+          <button id="sidebar-close-btn" class="sidebar-collapse-btn" type="button" aria-label="Collapse pathway directory">
+            <span aria-hidden="true">⟨</span> Hide
+          </button>
+        </div>
+
+        <div class="pillar-chip-grid" role="group" aria-label="Filter directory by pillar">
+          <button class="pillar-chip active" type="button" data-pillar="all">All <span id="side-count-all" class="chip-num">60</span></button>
+          <button class="pillar-chip" type="button" data-pillar="abundant-energy">⚡ Energy</button>
+          <button class="pillar-chip" type="button" data-pillar="automation-science">🤖 Robotics</button>
+          <button class="pillar-chip" type="button" data-pillar="bioscience-regeneration">🧬 Bio</button>
+          <button class="pillar-chip" type="button" data-pillar="social-norms">🤝 Society</button>
+          <button class="pillar-chip" type="button" data-pillar="space-frontier">🚀 Space</button>
+          <button class="pillar-chip" type="button" data-pillar="synergy-horizons">🌈 Synergy</button>
+        </div>
+
+        <div class="lens-filter-row" role="group" aria-label="Special filter lenses">
+          <button class="lens-btn active" type="button" data-lens="all">All</button>
+          <button class="lens-btn" type="button" data-lens="new">✨ New SOTA</button>
+          <button class="lens-btn" type="button" data-lens="urgent">🚨 Triage</button>
+        </div>
+      </div>
+
+      <nav id="sidebar-nav" class="sidebar-nav" aria-label="Pathway links"></nav>
+
+      <div class="sidebar-footer">
+        <a href="../v1/" class="sidebar-v1-card">
+          <span class="sidebar-v1-title">🕰️ Looking for Version 1?</span>
+          <span class="sidebar-v1-sub">Browse all 85 original reports &amp; storyboards →</span>
+        </a>
+      </div>
+    </aside>
+
+    <main id="main-stage" class="main-stage">
+      <!-- ==================== HOME / INTERACTIVE CARBON ATLAS ==================== -->
+      <section id="home-view" class="home-view">
+        <!-- HERO BANNER WITH LIVING SOLAR-CARBON ILLUSTRATION -->
+        <div id="hero-anchor" class="carbon-hero">
+          <div class="hero-ambient-glow" aria-hidden="true"></div>
+          <div class="hero-grid-layout">
+            <div class="hero-copy-col">
+              <div class="hero-eyebrow-row">
+                <span class="eyebrow-pill"><span class="live-pulse-dot" aria-hidden="true"></span> 🌱 CARBON EDITION • NOVEMBER 2026 SOTA</span>
+                <span class="eyebrow-pill subtle">60 PATHWAYS • 120 REPORTS &amp; STORYBOARDS</span>
+              </div>
+              <h1 id="main-heading" tabindex="-1" class="hero-display-title">
+                A Vastly Brighter Future Is Already Being Built—Here Are the Receipts.
+              </h1>
+              <p class="hero-lead-text">
+                Modern culture mistakes cynicism for wisdom. Yet between 2024 and late 2026, independent breakthroughs in
+                <a href="#carbon-abundant-energy-fusion-power?mode=report" class="inline-ref-link"><strong>20-compact fusion</strong></a>,
+                <a href="#carbon-abundant-energy-perovskite-tandem-solar?mode=report" class="inline-ref-link"><strong>35.5% tandem solar</strong></a>,
+                <a href="#carbon-abundant-energy-superhot-geothermal?mode=report" class="inline-ref-link"><strong>commercial enhanced geothermal</strong></a>,
+                <a href="#carbon-automation-science-self-driving-labs?mode=report" class="inline-ref-link"><strong>self-driving wet labs</strong></a>,
+                <a href="#carbon-bioscience-regeneration-invivo-crispr-cures?mode=report" class="inline-ref-link"><strong>one-dose <em>in vivo</em> CRISPR cures</strong></a>, and
+                <a href="#carbon-space-frontier-orbital-radiative-compute?mode=report" class="inline-ref-link"><strong>orbital radiative compute</strong></a>
+                crossed from laboratory dreams into steel and clinical reality. Paired with <strong>boldly reimagined social norms</strong> already proven in places like
+                <a href="#carbon-social-norms-abundant-beautiful-housing?mode=report" class="inline-ref-link">Vienna</a>,
+                <a href="#carbon-bioscience-regeneration-healthcare-without-billing?mode=report" class="inline-ref-link">Singapore</a>,
+                <a href="#carbon-social-norms-ending-homelessness-villages?mode=report" class="inline-ref-link">Finland</a>,
+                <a href="#carbon-social-norms-bridging-consensus-trust?mode=report" class="inline-ref-link">Taiwan</a>, and
+                <a href="#carbon-social-norms-forty-eight-hour-governance?mode=report" class="inline-ref-link">Estonia</a>,
+                humanity has every tool needed to build a joyful, restorative, post-scarcity civilization.
+              </p>
+
+              <div class="hero-cta-row">
+                <button id="cta-explore-atlas" class="hero-btn primary" type="button">
+                  Explore All 60 Pathways ↓
+                </button>
+                <button id="cta-random-pathway" class="hero-btn secondary" type="button">
+                  ✨ Open a Delightful Breakthrough
+                </button>
+              </div>
+
+              <div class="hero-kpi-strip">
+                <a href="#atlas-directory" class="hero-kpi hero-kpi-link">
+                  <span class="hero-kpi-val">60 / 120</span>
+                  <span class="hero-kpi-lbl">Pathways &amp; Artifacts</span>
+                </a>
+                <a href="#carbon-abundant-energy-fusion-power?mode=report" class="hero-kpi hero-kpi-link">
+                  <span class="hero-kpi-val">$0.003/kWh</span>
+                  <span class="hero-kpi-lbl">Clean Energy Horizon</span>
+                </a>
+                <a href="#carbon-bioscience-regeneration-precision-fermentation-rewilding?mode=report" class="hero-kpi hero-kpi-link">
+                  <span class="hero-kpi-val">1B Hectares</span>
+                  <span class="hero-kpi-lbl">Returned to Wild Forests</span>
+                </a>
+                <a href="#carbon-synergy-horizons-cost-of-living-collapse?mode=report" class="hero-kpi hero-kpi-link">
+                  <span class="hero-kpi-val">-70%</span>
+                  <span class="hero-kpi-lbl">Household Cost Squeeze</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-art-col" aria-hidden="true">
+              <svg id="hero-solar-svg" class="hero-solar-svg" viewBox="0 0 460 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <radialGradient id="sunCoreGrad" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#fde68a"/>
+                    <stop offset="45%" stop-color="#f59e0b"/>
+                    <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+                  </radialGradient>
+                  <linearGradient id="riverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#38bdf8"/>
+                    <stop offset="100%" stop-color="#10b981"/>
+                  </linearGradient>
+                  <linearGradient id="archGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#34d399" stop-opacity="0.35"/>
+                    <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.25"/>
+                  </linearGradient>
+                </defs>
+                <!-- Ambient Sun / Fusion Torus -->
+                <circle class="svg-pulse-slow" cx="230" cy="175" r="138" fill="url(#sunCoreGrad)" opacity="0.5"/>
+                <g class="svg-orbit-cw">
+                  <ellipse cx="230" cy="175" rx="158" ry="62" transform="rotate(-22 230 175)" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="6 8" opacity="0.82"/>
+                  <circle cx="84" cy="233" r="6.5" fill="#38bdf8"/>
+                  <circle cx="376" cy="117" r="5.5" fill="#a78bfa"/>
+                </g>
+                <g class="svg-orbit-ccw">
+                  <ellipse cx="230" cy="175" rx="126" ry="126" stroke="#10b981" stroke-width="1.6" stroke-dasharray="4 8" opacity="0.72"/>
+                  <polygon points="230,43 237,55 223,55" fill="#fbbf24"/>
+                  <circle cx="230" cy="301" r="5" fill="#34d399"/>
+                </g>
+                <!-- Central Carbon Hexagonal Lattice -->
+                <g class="svg-float">
+                  <polygon points="230,96 298,135 298,215 230,254 162,215 162,135" fill="url(#archGrad)" stroke="#10b981" stroke-width="2.2"/>
+                  <polygon points="230,122 276,148 276,202 230,228 184,202 184,148" fill="rgba(251,191,36,0.16)" stroke="#fbbf24" stroke-width="1.8"/>
+                  <circle cx="230" cy="175" r="22" fill="#f59e0b" opacity="0.9"/>
+                  <circle cx="230" cy="175" r="10" fill="#fffbeb"/>
+                  <!-- Six Carbon Lattice Nodes -->
+                  <circle cx="230" cy="96" r="7" fill="#f59e0b"/>
+                  <circle cx="298" cy="135" r="7" fill="#38bdf8"/>
+                  <circle cx="298" cy="215" r="7" fill="#34d399"/>
+                  <circle cx="230" cy="254" r="7" fill="#fb7185"/>
+                  <circle cx="162" cy="215" r="7" fill="#a78bfa"/>
+                  <circle cx="162" cy="135" r="7" fill="#2dd4bf"/>
+                </g>
+                <!-- Terraced Botanical City & Desalination River Below -->
+                <path d="M35 338 Q135 292 235 322 T425 305 L425 390 L35 390 Z" fill="rgba(16,185,129,0.2)" stroke="#10b981" stroke-width="1.6"/>
+                <path d="M55 366 Q165 325 265 352 T415 340" stroke="url(#riverGrad)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.45"/>
+                <path class="svg-river-flow" d="M55 366 Q165 325 265 352 T415 340" stroke="#38bdf8" stroke-width="3.5" stroke-dasharray="14 14" stroke-linecap="round" fill="none"/>
+                <!-- Mass Timber Solar Pavilions -->
+                <rect x="112" y="294" width="36" height="32" rx="5" fill="#f59e0b" opacity="0.82"/>
+                <rect x="158" y="278" width="44" height="46" rx="6" fill="#10b981" opacity="0.85"/>
+                <rect x="262" y="286" width="40" height="40" rx="6" fill="#0ea5e9" opacity="0.85"/>
+                <rect x="312" y="298" width="32" height="28" rx="5" fill="#8b5cf6" opacity="0.82"/>
+                <!-- Floating Labels -->
+                <g font-family="JetBrains Mono, monospace" font-size="10" font-weight="700" fill="currentColor" opacity="0.82">
+                  <text x="190" y="78">20T FUSION • 35.5% SOLAR</text>
+                  <text x="312" y="140">AI LABS</text>
+                  <text x="310" y="222">CRISPR BIO</text>
+                  <text x="68" y="140">ORBITAL</text>
+                  <text x="64" y="222">CIVIC TRUST</text>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEARCH / FILTER ACTIVE BANNER -->
+        <div id="search-results-banner" class="search-results-banner" hidden>
+          <div class="search-banner-left">
+            <strong id="search-results-count">0 pathways</strong> matching <span id="search-query-label" class="query-badge"></span>
+          </div>
+          <button id="clear-search-btn" class="text-btn" type="button">Reset all filters ×</button>
+        </div>
+
+        <!-- INTERACTIVE MODULE 1: CYNIC MYTH-BUSTER FLIP DECK -->
+        <section id="mythbuster-section" class="interactive-section scroll-reveal" aria-labelledby="mythbuster-heading">
+          <div class="section-header-row">
+            <div>
+              <span class="section-kicker">01 // COUNTERING MODERN DOOMERISM</span>
+              <h2 id="mythbuster-heading" class="section-title">“That Will Never Happen Because…” — Tap Any Myth to See What Already Broke Through</h2>
+              <p class="section-sub">Cynical conventional wisdom is almost always five years out of date. Click any card below to flip from tired fatalism to verified 2025–2026 engineering and international proof.</p>
+            </div>
+            <button id="flip-all-myths-btn" class="secondary-pill-btn" type="button">Flip All 6 Myths ↻</button>
+          </div>
+          <div id="mythbuster-grid" class="mythbuster-grid"></div>
+        </section>
+
+        <!-- INTERACTIVE MODULE 2: THE SYNERGY REACTOR -->
+        <section id="synergy-section" class="interactive-section scroll-reveal" aria-labelledby="synergy-heading">
+          <div class="section-header-row">
+            <div>
+              <span class="section-kicker">02 // CROSS-DOMAIN CONVERGENCE</span>
+              <h2 id="synergy-heading" class="section-title">The Synergy Reactor: Why Exponential Curves Multiply Instead of Add</h2>
+              <p class="section-sub">Pessimists analyze technologies in isolation. Select any convergence recipe below to trace how cheap clean energy, autonomous science, precision biology, and upgraded civic rules unlock miracles none could achieve alone.</p>
+            </div>
+          </div>
+          <div class="synergy-reactor-shell">
+            <div class="synergy-recipes-list" id="synergy-recipes-list" role="tablist" aria-label="Synergy recipes"></div>
+            <div class="synergy-stage-card" id="synergy-stage-card" role="tabpanel"></div>
+          </div>
+        </section>
+
+        <!-- INTERACTIVE MODULE 3: 2026 vs 2036 HOUSEHOLD ABUNDANCE SLIDER -->
+        <section id="budget-section" class="interactive-section scroll-reveal" aria-labelledby="budget-heading">
+          <div class="section-header-row">
+            <div>
+              <span class="section-kicker">03 // DEFLATIONARY ABUNDANCE AT YOUR KITCHEN TABLE</span>
+              <h2 id="budget-heading" class="section-title">Interactive Simulator: Your Household Life from the 2026 Squeeze to 2036 Abundance</h2>
+              <p class="section-sub">Drag the timeline slider to see how factory mass-timber housing, sub-penny clean power, local vertical &amp; fermented foods, billing-free AI direct care, and shared electric pods transform a median family's monthly budget and free time.</p>
+            </div>
+          </div>
+
+          <div class="budget-simulator-card">
+            <div class="budget-controls-bar">
+              <div class="slider-group">
+                <label for="year-slider" class="slider-label">
+                  Projected Year: <strong id="selected-year-badge" class="year-pill">2035</strong>
+                </label>
+                <input type="range" id="year-slider" min="2026" max="2036" step="1" value="2035">
+                <div class="slider-ticks" aria-hidden="true">
+                  <span>2026 Squeeze</span>
+                  <span>2029 Triage</span>
+                  <span>2032 Sprint</span>
+                  <span>2036 Abundance</span>
+                </div>
+              </div>
+              <div class="budget-presets">
+                <button class="preset-btn" type="button" data-year="2026">2026 Baseline</button>
+                <button class="preset-btn" type="button" data-year="2030">2030 Leapfrog</button>
+                <button class="preset-btn active" type="button" data-year="2035">2035 Flourishing</button>
+              </div>
+            </div>
+
+            <div class="budget-summary-strip" id="budget-summary-strip"></div>
+            <div class="budget-bars-grid" id="budget-bars-grid"></div>
+          </div>
+        </section>
+
+        <!-- INTERACTIVE MODULE 4: VOICES FROM THE FRONTIER & HUMAN STORIES -->
+        <section id="voices-section" class="interactive-section scroll-reveal" aria-labelledby="voices-heading">
+          <div class="section-header-row">
+            <div>
+              <span class="section-kicker">04 // REAL BUILDERS &amp; LIVED TOMORROWS</span>
+              <h2 id="voices-heading" class="section-title">Voices from the Frontier &amp; Human Postcards from the Near Future</h2>
+              <p class="section-sub">Authentic perspectives from Nobel laureates, lab directors, company founders, and civic pioneers—paired with vivid stories of everyday lives transformed.</p>
+            </div>
+            <div class="sub-tab-pills" role="tablist" aria-label="Switch between Researcher Quotes and Human Stories">
+              <button class="sub-tab active" type="button" data-voice-tab="quotes" role="tab" aria-selected="true">🎙️ Researcher &amp; Founder Quotes</button>
+              <button class="sub-tab" type="button" data-voice-tab="stories" role="tab" aria-selected="false">🌅 Human Postcards from Tomorrow</button>
+            </div>
+          </div>
+          <div id="voices-quotes-panel" class="quotes-masonry"></div>
+          <div id="voices-stories-panel" class="stories-grid" hidden></div>
+        </section>
+
+        <!-- INTERACTIVE MODULE 5: ALREADY WORKING SOMEWHERE ON EARTH -->
+        <section id="global-section" class="interactive-section scroll-reveal" aria-labelledby="global-heading">
+          <div class="section-header-row">
+            <div>
+              <span class="section-kicker">05 // REIMAGINING SOCIAL CONVENTIONS</span>
+              <h2 id="global-heading" class="section-title">“Politics &amp; Human Nature Will Never Allow That” — 10 Places Already Doing It Today</h2>
+              <p class="section-sub">Every time someone calls universal housing, zero street homelessness, 3-minute digital governance, or non-polarized consensus “utopian,” point them to a country or city where it is already Tuesday morning.</p>
+            </div>
+          </div>
+          <div id="global-proof-grid" class="global-proof-grid"></div>
+        </section>
+
+        <!-- DIRECTORY OF ALL 60 CARBON PATHWAYS -->
+        <section id="atlas-directory" class="interactive-section" aria-labelledby="directory-heading">
+          <div class="section-header-row">
+            <div>
+              <span class="section-kicker">06 // THE COMPLETE CARBON LIBRARY</span>
+              <h2 id="directory-heading" class="section-title">Explore All 60 Pathways (120 Deep Reports &amp; Visual Storyboards)</h2>
+              <p class="section-sub">Every pathway pairs a thorough late-2026 SOTA examination, verified company &amp; research links, global precedents, human stories, and quantitative trajectories with a cinematic 3-act storyboard.</p>
+            </div>
+          </div>
+
+          <div class="inline-pillar-bar" role="group" aria-label="Quick filter by pillar">
+            <button class="pillar-chip active" type="button" data-pillar="all">All (60)</button>
+            <button class="pillar-chip" type="button" data-pillar="abundant-energy">⚡ Energy</button>
+            <button class="pillar-chip" type="button" data-pillar="automation-science">🤖 Robotics</button>
+            <button class="pillar-chip" type="button" data-pillar="bioscience-regeneration">🧬 Bio</button>
+            <button class="pillar-chip" type="button" data-pillar="social-norms">🤝 Society</button>
+            <button class="pillar-chip" type="button" data-pillar="space-frontier">🚀 Space</button>
+            <button class="pillar-chip" type="button" data-pillar="synergy-horizons">🌈 Synergy</button>
+          </div>
+
+          <div id="catalog-sections" class="catalog-sections"></div>
+        </section>
+      </section>
+
+      <!-- ==================== DETAIL READER & INFOGRAPHIC VIEW ==================== -->
+      <section id="detail-view" class="detail-view" hidden>
+        <div class="detail-sticky-bar">
+          <div class="detail-breadcrumbs">
+            <button id="back-to-atlas" class="back-btn" type="button">
+              ← Carbon Atlas
+            </button>
+            <span class="crumb-sep" aria-hidden="true">/</span>
+            <span id="detail-pillar-badge" class="pillar-badge"></span>
+            <span id="detail-new-badge" class="new-sota-badge" hidden>✨ NEW IN CARBON</span>
+            <span id="detail-folder-path" class="folder-code"></span>
+          </div>
+
+          <div class="detail-mode-tabs" role="tablist" aria-label="Document view mode">
+            <button class="mode-tab active" type="button" data-mode="report" role="tab" aria-selected="true">
+              📘 Deep Report
+            </button>
+            <button class="mode-tab" type="button" data-mode="storyboard" role="tab" aria-selected="false">
+              🎬 Storyboard
+            </button>
+            <button class="mode-tab" type="button" data-mode="infographic" role="tab" aria-selected="false">
+              📊 Infographic Dossier
+            </button>
+            <button class="mode-tab" type="button" data-mode="split" role="tab" aria-selected="false">
+              ◫ Split View
+            </button>
+          </div>
+        </div>
+
+        <!-- RICH PATHWAY VISUAL HEADER & INFOGRAPHIC DOSSIER -->
+        <div class="detail-hero-card">
+          <div class="detail-hero-top">
+            <div>
+              <div id="detail-read-meta" class="detail-read-meta"></div>
+              <h1 id="detail-heading" tabindex="-1" class="detail-title"></h1>
+              <p id="detail-tagline" class="detail-tagline"></p>
+            </div>
+            <div id="detail-headline-stat" class="detail-headline-stat"></div>
+          </div>
+
+          <div id="detail-dossier-mount" class="detail-dossier-mount"></div>
+        </div>
+
+        <details id="mobile-toc-details" class="mobile-toc-details">
+          <summary class="mobile-toc-summary">
+            <span>📑 Jump to Section on This Page</span>
+            <span class="mobile-toc-chevron" aria-hidden="true">▾</span>
+          </summary>
+          <nav id="mobile-toc-list" class="toc-list mobile-toc-list" aria-label="Mobile table of contents"></nav>
+        </details>
+
+        <div id="reader-layout" class="reader-layout">
+          <div id="primary-pane" class="markdown-pane">
+            <div class="pane-label" id="primary-pane-label" hidden></div>
+            <article id="markdown-output" class="markdown-body"></article>
+          </div>
+
+          <div id="secondary-pane" class="markdown-pane secondary-pane" hidden>
+            <div class="pane-label" id="secondary-pane-label"></div>
+            <article id="secondary-markdown-output" class="markdown-body"></article>
+          </div>
+
+          <aside id="toc-rail" class="toc-rail" aria-label="Document table of contents">
+            <div class="toc-title">ON THIS PAGE</div>
+            <nav id="toc-list" class="toc-list"></nav>
+            <div class="doc-nav-siblings" id="prev-next-box"></div>
+          </aside>
+        </div>
+      </section>
+
+      <footer class="carbon-footer">
+        <div class="footer-inner">
+          <div>
+            <strong>OneOfMany — Carbon Edition (Nov 2026)</strong>
+            <p>60 SOTA Pathways • 120 Deep Reports &amp; Visual Storyboards • Grounded in real physics, clinical data, and global civic proofs.</p>
+          </div>
+          <div class="footer-links">
+            <a href="../">Root Flagship (<code>/</code>)</a>
+            <a href="https://github.com/d-10-g/OneOfMany" target="_blank" rel="noopener noreferrer">GitHub Repository ↗</a>
+            <a href="#home">Back to Top ↑</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- LIGHT-DISMISS HOPE SPOTLIGHT DIALOG (modern-web-guidance compliant) -->
+  <dialog id="hope-modal" class="hope-dialog" closedby="any" aria-labelledby="hope-modal-title">
+    <div class="hope-dialog-inner">
+      <div class="hope-dialog-top">
+        <span class="eyebrow-pill">✨ ANTIDOTE TO CYNICISM</span>
+        <form method="dialog">
+          <button class="icon-btn" type="submit" aria-label="Close spotlight dialog">✕</button>
+        </form>
+      </div>
+      <h2 id="hope-modal-title" class="hope-dialog-title">Loading breakthrough…</h2>
+      <div id="hope-modal-body" class="hope-dialog-body"></div>
+      <div class="hope-dialog-actions">
+        <button id="hope-shuffle-btn" class="hero-btn secondary" type="button">🎲 Another Breakthrough</button>
+        <a id="hope-open-btn" href="#home" class="hero-btn primary">Explore Full Pathway →</a>
+      </div>
+    </div>
+  </dialog>
+
+  <button id="back-to-top-btn" class="back-to-top-btn" type="button" aria-label="Scroll back to top" hidden>
+    ↑ Top
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+  <script src="../data/carbon-catalog.js"></script>
+  <script src="../app.js"></script>
+</body>
+</html>
