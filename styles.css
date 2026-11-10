@@ -104,7 +104,7 @@
   }
 }
 
-/* Reduced Motion & Explicit User Pause Control */
+/* Reduced Motion Accessibility */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: var(--animation-reduced) !important;
@@ -116,15 +116,8 @@
   }
 }
 
-body.motion-paused *,
-body.motion-paused *::before,
-body.motion-paused *::after {
-  animation-play-state: paused !important;
-  transition-duration: 0s !important;
-}
-
-html:has(body.motion-paused) {
-  scroll-behavior: auto;
+[hidden] {
+  display: none !important;
 }
 
 *, *::before, *::after {
@@ -199,6 +192,7 @@ button, a, summary, input[type="range"] {
   align-items: center;
   gap: 0.65rem;
   min-width: 0;
+  overflow: hidden;
 }
 
 .brand {
@@ -208,6 +202,7 @@ button, a, summary, input[type="range"] {
   text-decoration: none;
   color: var(--text-primary);
   min-width: 0;
+  overflow: hidden;
 }
 
 .brand-hex {
@@ -221,12 +216,14 @@ button, a, summary, input[type="range"] {
   flex-direction: column;
   line-height: 1.15;
   min-width: 0;
+  overflow: hidden;
 }
 
 .brand-row {
   display: flex;
   align-items: center;
   gap: 0.45rem;
+  min-width: 0;
 }
 
 .brand-title {
@@ -383,19 +380,6 @@ button, a, summary, input[type="range"] {
 }
 
 .sidebar-toggle-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.38rem;
-  padding: 0.42rem 0.78rem;
-  border-radius: 999px;
-  border: 1px solid var(--border-strong);
-  background: var(--bg-surface);
-  color: var(--text-primary);
-  font-family: var(--font-sans);
-  font-size: 0.79rem;
-  font-weight: 700;
-  cursor: pointer;
-  flex-shrink: 0;
   transition: background 0.16s ease, border-color 0.16s ease, color 0.16s ease;
 }
 
@@ -408,34 +392,6 @@ button, a, summary, input[type="range"] {
   background: var(--accent-emerald-soft);
   color: var(--accent-emerald);
   border-color: var(--accent-emerald);
-}
-
-.motion-pill-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.34rem;
-  padding: 0.42rem 0.74rem;
-  border-radius: 999px;
-  border: 1px solid var(--border-strong);
-  background: var(--bg-surface);
-  color: var(--text-primary);
-  font-family: var(--font-sans);
-  font-size: 0.77rem;
-  font-weight: 700;
-  cursor: pointer;
-  flex-shrink: 0;
-  white-space: nowrap;
-}
-
-.motion-pill-btn:hover {
-  background: var(--bg-elevated);
-  border-color: var(--accent-emerald);
-}
-
-.motion-pill-btn[aria-pressed="true"] {
-  background: var(--accent-rose-soft);
-  color: var(--accent-rose);
-  border-color: var(--accent-rose);
 }
 
 /* ==================== LAYOUT & COLLAPSIBLE SIDEBAR ==================== */
@@ -2404,6 +2360,35 @@ a.myth-proof-pill:hover {
 }
 
 @media (max-width: 960px) {
+  .topbar {
+    gap: 0.5rem;
+    padding: 0.42rem 0.85rem;
+  }
+  .topbar-left {
+    gap: 0.45rem;
+  }
+  .brand {
+    gap: 0.42rem;
+  }
+  .brand-subtitle,
+  .search-kbd,
+  .hide-compact {
+    display: none;
+  }
+  .action-pill-btn {
+    width: 2.3rem;
+    height: 2.3rem;
+    padding: 0;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  #global-search {
+    width: 145px;
+    padding: 0.42rem 0.65rem 0.42rem 1.9rem;
+  }
+  #global-search:focus {
+    width: 175px;
+  }
   .workspace-shell,
   .workspace-shell.sidebar-open {
     grid-template-columns: minmax(0, 1fr);
@@ -2417,9 +2402,6 @@ a.myth-proof-pill:hover {
     height: 100dvh;
     z-index: 50;
     box-shadow: var(--shadow-md);
-  }
-  .sidebar-toggle-label {
-    display: none;
   }
   .hero-grid-layout,
   .synergy-reactor-shell {
@@ -2437,15 +2419,6 @@ a.myth-proof-pill:hover {
   .markdown-pane {
     padding: 1.35rem 1.15rem;
   }
-  .hide-compact {
-    display: none;
-  }
-  #global-search {
-    width: 155px;
-  }
-  #global-search:focus {
-    width: 185px;
-  }
   .inline-pillar-bar {
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -2453,5 +2426,40 @@ a.myth-proof-pill:hover {
   }
   .traj-row {
     grid-template-columns: 110px minmax(0, 1fr) 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    padding: 0.4rem 0.7rem;
+    gap: 0.4rem;
+  }
+  .topbar-right {
+    gap: 0.35rem;
+  }
+  .brand-badge {
+    display: none;
+  }
+  .brand-title {
+    font-size: 1.02rem;
+  }
+  .icon-btn,
+  .action-pill-btn {
+    width: 2.15rem;
+    height: 2.15rem;
+  }
+  .search-icon {
+    left: 0.52rem;
+  }
+  #global-search {
+    width: clamp(96px, 28vw, 134px);
+    font-size: 0.8rem;
+    padding: 0.38rem 0.55rem 0.38rem 1.8rem;
+  }
+  .topbar:has(#global-search:focus) .brand-text-wrap {
+    display: none;
+  }
+  .topbar:has(#global-search:focus) #global-search {
+    width: min(56vw, 215px);
   }
 }

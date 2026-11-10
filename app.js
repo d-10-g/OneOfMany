@@ -34,11 +34,6 @@
   const appTopbarEl = document.getElementById("app-topbar");
   const workspaceShellEl = document.getElementById("workspace-shell");
   const themeToggleBtn = document.getElementById("theme-toggle");
-  const motionToggleBtn = document.getElementById("motion-toggle");
-  const motionPauseIcon = document.getElementById("motion-pause-icon");
-  const motionPlayIcon = document.getElementById("motion-play-icon");
-  const motionToggleLabel = document.getElementById("motion-toggle-label");
-  const heroSolarSvg = document.getElementById("hero-solar-svg");
   const sidebarToggleBtn = document.getElementById("sidebar-toggle-btn");
   const sidebarCloseBtn = document.getElementById("sidebar-close-btn");
   const sidebarBackdropEl = document.getElementById("sidebar-backdrop");
@@ -184,35 +179,6 @@
       metaColorScheme.content = e.newValue ?? "light dark";
       initMermaidTheme();
     }
-  });
-
-  function applyMotionPaused(paused) {
-    document.body.classList.toggle("motion-paused", paused);
-    if (motionToggleBtn) {
-      motionToggleBtn.setAttribute("aria-pressed", String(paused));
-      motionToggleBtn.setAttribute(
-        "aria-label",
-        paused ? "Resume ambient animations" : "Pause ambient animations"
-      );
-    }
-    if (motionToggleLabel) {
-      motionToggleLabel.textContent = paused ? "Paused" : "Motion";
-    }
-    if (motionPauseIcon) motionPauseIcon.hidden = paused;
-    if (motionPlayIcon) motionPlayIcon.hidden = !paused;
-
-    if (heroSolarSvg) {
-      if (paused && typeof heroSolarSvg.pauseAnimations === "function") {
-        heroSolarSvg.pauseAnimations();
-      } else if (!paused && typeof heroSolarSvg.unpauseAnimations === "function") {
-        heroSolarSvg.unpauseAnimations();
-      }
-    }
-  }
-
-  motionToggleBtn?.addEventListener("click", () => {
-    const nextPaused = !document.body.classList.contains("motion-paused");
-    applyMotionPaused(nextPaused);
   });
 
   // ==================== 3. SCROLL-DRIVEN FALLBACK (IntersectionObserver) ====================
