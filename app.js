@@ -258,8 +258,62 @@
     return `<span class="quote-author">${escapeHtml(quote?.author)}</span>`;
   }
 
+  const HOPE_DECK_STORAGE_KEY = "oom_carbon_hope_deck_v1";
+
+  const hopeDeck = (function loadHopeDeck() {
+    try {
+      const raw = sessionStorage.getItem(HOPE_DECK_STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        const seenInQueue = new Set();
+        const validQueue = Array.isArray(parsed?.queue)
+          ? parsed.queue.filter((id) => {
+              if (!itemsById.has(id) || seenInQueue.has(id)) return false;
+              seenInQueue.add(id);
+              return true;
+            })
+          : [];
+        const validLastId =
+          typeof parsed?.lastId === "string" && itemsById.has(parsed.lastId)
+            ? parsed.lastId
+            : null;
+        return { queue: validQueue, lastId: validLastId };
+      }
+    } catch (_) {}
+    return { queue: [], lastId: null };
+  })();
+
+  function saveHopeDeck() {
+    try {
+      sessionStorage.setItem(HOPE_DECK_STORAGE_KEY, JSON.stringify(hopeDeck));
+    } catch (_) {}
+  }
+
+  function drawNextBreakthroughItem() {
+    if (catalog.items.length === 0) return null;
+
+    if (hopeDeck.queue.length === 0) {
+      const shuffledIds = catalog.items.map((item) => item.id);
+      for (let i = shuffledIds.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledIds[i], shuffledIds[j]] = [shuffledIds[j], shuffledIds[i]];
+      }
+      // Prevent back-to-back repeat right across the reshuffle boundary
+      if (shuffledIds.length > 1 && shuffledIds[0] === hopeDeck.lastId) {
+        const swapIdx = 1 + Math.floor(Math.random() * (shuffledIds.length - 1));
+        [shuffledIds[0], shuffledIds[swapIdx]] = [shuffledIds[swapIdx], shuffledIds[0]];
+      }
+      hopeDeck.queue = shuffledIds;
+    }
+
+    const nextId = hopeDeck.queue.shift();
+    hopeDeck.lastId = nextId;
+    saveHopeDeck();
+    return itemsById.get(nextId) ?? catalog.items[0];
+  }
+
   function populateHopeModal() {
-    const randomItem = catalog.items[Math.floor(Math.random() * catalog.items.length)];
+    const randomItem = drawNextBreakthroughItem();
     if (!randomItem || !hopeDialogEl) return;
     hopeModalTitleEl.textContent = `${randomItem.pillarEmoji} ${randomItem.title}`;
     const citeAttr = randomItem.quote?.url ? ` cite="${escapeHtml(randomItem.quote.url)}"` : "";
@@ -287,17 +341,21 @@
       </div>
     `;
     hopeOpenBtn.href = `#${randomItem.id}?mode=report`;
+    hopeDialogEl.scrollTop = 0;
   }
 
-  surpriseHopeBtn?.addEventListener("click", () => {
+  function openHopeModal() {
+    if (!hopeDialogEl) return;
     populateHopeModal();
-    hopeDialogEl?.showModal();
-  });
+    if (!hopeDialogEl.open) {
+      try {
+        hopeDialogEl.showModal();
+      } catch (_) {}
+    }
+  }
 
-  ctaRandomBtn?.addEventListener("click", () => {
-    populateHopeModal();
-    hopeDialogEl?.showModal();
-  });
+  surpriseHopeBtn?.addEventListener("click", openHopeModal);
+  ctaRandomBtn?.addEventListener("click", openHopeModal);
 
   hopeShuffleBtn?.addEventListener("click", populateHopeModal);
   hopeOpenBtn?.addEventListener("click", () => {
@@ -1650,4 +1708,10 @@
   renderVoicesAndStories();
   renderGlobalProofs();
   parseHashAndRoute();
+
+  // Immediately open a random breakthrough spotlight on the landing page
+  const initialHash = window.location.hash.replace(/^#/, "");
+  if (!state.activeItemId && (!initialHash || initialHash === "home")) {
+    openHopeModal();
+  }
 })();

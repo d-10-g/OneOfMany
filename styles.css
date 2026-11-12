@@ -64,7 +64,8 @@
   .story-card,
   .global-card,
   .detail-hero-card,
-  .markdown-pane {
+  .markdown-pane,
+  .hope-dialog {
     border: 1px solid CanvasText;
   }
   .pillar-chip.active,
@@ -2261,7 +2262,13 @@ a.myth-proof-pill:hover {
   box-shadow: var(--shadow-md);
 }
 
+.hope-dialog:modal {
+  overscroll-behavior: contain;
+}
+
 .hope-dialog::backdrop {
+  overflow: hidden;
+  overscroll-behavior: contain;
   background: rgba(7, 16, 20, 0.62);
   backdrop-filter: blur(4px);
 }
@@ -2274,7 +2281,16 @@ a.myth-proof-pill:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.hope-dialog-nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0.95rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 .hope-dialog-title {
@@ -2461,5 +2477,12 @@ a.myth-proof-pill:hover {
   }
   .topbar:has(#global-search:focus) #global-search {
     width: min(56vw, 215px);
+  }
+  .hope-dialog-inner {
+    padding: 1.25rem 1.25rem;
+  }
+  .hope-dialog-nav-top .hero-btn,
+  .hope-dialog-actions .hero-btn {
+    width: 100%;
   }
 }
