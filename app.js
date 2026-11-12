@@ -323,7 +323,7 @@
         <p style="margin:0;font-size:0.9rem;">“${escapeHtml(randomItem.cynicBelief)}”</p>
       </div>
       <div class="dossier-box reality-box" style="margin-bottom:0.85rem;">
-        <span class="dossier-label">🌱 What Actually Broke Through (2025–2026)</span>
+        <span class="dossier-label">🌱 What Actually Broke Through</span>
         <p style="margin:0;font-size:0.9rem;">${escapeHtml(randomItem.breakthroughCounter)}</p>
       </div>
       <figure class="quote-card" style="padding:1rem;margin-bottom:0.8rem;">

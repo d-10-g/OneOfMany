@@ -2281,16 +2281,8 @@ a.myth-proof-pill:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.75rem;
-}
-
-.hope-dialog-nav-top {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 0.95rem;
-  padding-bottom: 0.9rem;
-  border-bottom: 1px solid var(--border-subtle);
+  gap: 0.65rem;
+  margin-bottom: 0.8rem;
 }
 
 .hope-dialog-title {
@@ -2479,9 +2471,25 @@ a.myth-proof-pill:hover {
     width: min(56vw, 215px);
   }
   .hope-dialog-inner {
-    padding: 1.25rem 1.25rem;
+    padding: 1rem 1.05rem;
   }
-  .hope-dialog-nav-top .hero-btn,
+  .hope-dialog-top {
+    margin-bottom: 0.65rem;
+  }
+  .hope-dialog-top .hero-btn {
+    padding: 0.52rem 0.95rem;
+    font-size: 0.84rem;
+    white-space: nowrap;
+  }
+  .hope-dialog-title {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin: 0 0 0.65rem;
+  }
+  .hope-dialog-actions {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+  }
   .hope-dialog-actions .hero-btn {
     width: 100%;
   }
