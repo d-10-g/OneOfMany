@@ -1,0 +1,1003 @@
+[
+  {
+    "slug": "lidar-agent-citizen-archaeology",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/lidar-agent-citizen-archaeology",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Weekend Explorer Swarms: Pietro Miotti's 48-Agent Maya LiDAR Sweep & Open-Data Citizen Archaeology",
+    "tagline": "Public NASA bare-earth LiDAR paired with 48-agent multimodal swarms and multilingual literature RAG turns multi-year jungle expeditions into 72-hour heritage shields.",
+    "cynicBelief": "Archaeological discovery requires million-dollar airborne charters and closed academic silos—while AI citizen science just hallucinates fake ruins in natural limestone hills.",
+    "breakthroughCounter": "In November 2026, Pietro Miotti used 48 multimodal agents (Gemini, Claude, ChatGPT, Grok) on ~1,200 km² of open NASA G-LiHT LiDAR to pinpoint a Maya hilltop complex (plaza, terraces, 8–12m oval pyramid, reservoir) in under 72 hours; when scholars showed it blindly rediscovered a 2025 Estrada-Belli et al. site missing from INAH's public register, it proved both swarm accuracy and the power of pairing open LiDAR (like Luke Auld-Thomas's Valeriana) with deep literature RAG.",
+    "socialNormShift": "Coordinate-redacted sovereign alerts (modeled on GlobalXplorer) routed straight to INAH and Indigenous forest guardians sync scholarly PDFs with zoning registries—halting illegal logging bulldozers before ancient sites are harmed without leaking GPS pins to looters.",
+    "humanStory": {
+      "protagonist": "Ixchel Balam (Maya Ejido Forestry & Heritage Guardian)",
+      "location": "Southern Campeche, Mexico",
+      "snippet": "Spotting an illegal ranching road creeping toward an unmapped ridge, Ixchel runs a 64-agent bare-earth LiDAR + multilingual monograph RAG sweep over 800 km² in twenty minutes, verifies carved stucco masks with INAH by dusk, and locks an emergency legal protection shield overnight with zero coordinates exposed to looters."
+    },
+    "quote": {
+      "text": "We didn't have to fly a plane or cut a single vine—millions of laser points were already sitting in public ecological archives waiting for someone to look.",
+      "author": "Dr. Luke Auld-Thomas",
+      "role": "Archaeologist, Lead Author of the Valeriana G-LiHT Maya City Study",
+      "url": "https://www.cambridge.org/core/journals/antiquity"
+    },
+    "companiesAndLabs": [
+      "Pietro Miotti (Nov 2026 48-Agent Maya G-LiHT Swarm)",
+      "NASA G-LiHT & GEDI Open Canopy Laser Archives",
+      "OpenTopography & NCALM (Fernández-Díaz, Canuto, Estrada-Belli, Šprajc)",
+      "Luke Auld-Thomas (Valeriana) & Stéphen Rostain (Upano Amazon)",
+      "INAH Mexico Archaeological Registry & Indigenous Ejido Rangers",
+      "Sarah Parcak GlobalXplorer Anti-Looting Citizen Protocol"
+    ],
+    "globalPrecedents": [
+      "Nov 2026 Blind 72-Hour 48-Agent Maya Complex Rediscovery",
+      "2024 Valeriana 6,764-Structure Maya City Found in Public 2013 G-LiHT Data",
+      "2024 Upano Valley 2,500-Year-Old Amazonian Urban Road Network",
+      "GlobalXplorer Coordinate-Stripped Tile Standard Preventing Looting"
+    ],
+    "synergyLinks": [
+      "vesuvius-scroll-ai-papyrology",
+      "earth-digital-twin-canopy",
+      "specialized-swarm-robotics",
+      "ai-earth-weather-forecasting"
+    ],
+    "infographic": {
+      "headlineMetric": "1,200 km² / 72h",
+      "headlineLabel": "Open NASA LiDAR + 48-Agent Multi-Model Canopy Sweep",
+      "unit": "Tropical Canopy Screened per Month by Small Heritage Team (km²)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2016,
+          "label": "Machete Transects & Manual GIS Inspection",
+          "value": 15,
+          "display": "15 km²/mo"
+        },
+        {
+          "year": 2024,
+          "label": "Open G-LiHT Re-Analysis (Valeriana & Upano)",
+          "value": 250,
+          "display": "250 km²/mo"
+        },
+        {
+          "year": 2026,
+          "label": "Miotti 48-Agent Multi-Model Swarm (<72h Sweep)",
+          "value": 12000,
+          "display": "1,200 km² / 72h"
+        },
+        {
+          "year": 2031,
+          "label": "Live Canopy Twin + Monograph RAG + INAH Shield",
+          "value": 150000,
+          "display": "Continental Real-Time"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Miotti Sweep Time",
+          "value": "<72 Hours",
+          "detail": "48 agents across Gemini, Claude, ChatGPT & Grok on G-LiHT"
+        },
+        {
+          "label": "New Flight Cost",
+          "value": "$0",
+          "detail": "Repurposes public NASA & OpenTopography ecology point clouds"
+        },
+        {
+          "label": "Valeriana Precedent",
+          "value": "6,764 Sites",
+          "detail": "Maya structures uncovered in open 2013 Campeche LiDAR"
+        },
+        {
+          "label": "Public GPS Leaks",
+          "value": "0.0%",
+          "detail": "Coordinate-masked tiles route pins exclusively to rangers/INAH"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Pietro Miotti (Nov 2026 48-Agent Maya G-LiHT Swarm)",
+        "url": "https://pietromiotti.com/latest/maya-site/"
+      },
+      {
+        "name": "NASA G-LiHT & GEDI Open Canopy Laser Archives",
+        "url": "https://gliht.gsfc.nasa.gov/"
+      },
+      {
+        "name": "OpenTopography & NCALM (Fernández-Díaz, Canuto, Estrada-Belli, Šprajc)",
+        "url": "https://opentopography.org/"
+      },
+      {
+        "name": "Luke Auld-Thomas (Valeriana) & Stéphen Rostain (Upano Amazon)",
+        "url": "https://www.cambridge.org/core/journals/antiquity"
+      },
+      {
+        "name": "INAH Mexico Archaeological Registry & Indigenous Ejido Rangers",
+        "url": "https://www.inah.gob.mx/"
+      },
+      {
+        "name": "Sarah Parcak GlobalXplorer Anti-Looting Citizen Protocol",
+        "url": "https://www.ted.com/participate/ted-prize/prize-winning-wishes/space-archaeology"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Nov 2026 Blind 72-Hour 48-Agent Maya Complex Rediscovery",
+        "url": "https://pietromiotti.com/latest/maya-site/"
+      },
+      {
+        "name": "2024 Valeriana 6,764-Structure Maya City Found in Public 2013 G-LiHT Data",
+        "url": "https://www.cambridge.org/core/journals/antiquity"
+      },
+      {
+        "name": "2024 Upano Valley 2,500-Year-Old Amazonian Urban Road Network",
+        "url": "https://www.science.org/"
+      },
+      {
+        "name": "GlobalXplorer Coordinate-Stripped Tile Standard Preventing Looting",
+        "url": "https://opentopography.org/"
+      }
+    ]
+  },
+  {
+    "slug": "vesuvius-scroll-ai-papyrology",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/vesuvius-scroll-ai-papyrology",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Reading Ashes Without Opening Them: The Vesuvius Challenge & Full-Scroll AI Papyrology",
+    "tagline": "Synchrotron phase-contrast X-rays and open-source 3D transformers virtually unwrap carbonized 79 CE Herculaneum scrolls end-to-end without touching a flake of ash.",
+    "cynicBelief": "Nearly 2,000 Herculaneum scrolls were baked into charcoal by Vesuvius—carbon ink on carbonized papyrus has zero X-ray contrast, and opening them shatters them into dust.",
+    "breakthroughCounter": "Uniting Brent Seales's EduceLab synchrotron CT scans with 3,000+ open-source ML contributors (Nader, Farritor, Schilliger, Roth, Nowak), the Vesuvius Challenge achieved a historic June 2026 milestone: virtually unwrapping and reading an entire unopened scroll (PHerc. 1667) end-to-end—recovering ~1.5 meters of lost 2nd-century BCE Stoic philosophy naming Chrysippus's disciple Aristocreon.",
+    "socialNormShift": "Proving non-destructive full-scroll reading unlocks ethical conservation support to excavate the untouched lower library wings of Herculaneum's Villa of the Papyri while rescuing mummy cartonnage and fire-damaged manuscripts worldwide via prize-driven open science.",
+    "humanStory": {
+      "protagonist": "Dr. Chiara Esposito (Classical Papyrologist) & Global Seminar",
+      "location": "Biblioteca Nazionale, Naples, Italy",
+      "snippet": "Without ever touching a fragile fist-sized lump of 79 CE charcoal, Chiara watches open-source topological tracers flatten 180 fused papyrus wraps from a 4-micron synchrotron scan—reading lost Greek verse over morning espresso with students in Cairo and Oxford."
+    },
+    "quote": {
+      "text": "For nearly three hundred years these scrolls sat on shelves as unreadable lumps of charcoal. Now, for the first time, we have read an entire unopened scroll from beginning to end.",
+      "author": "Vesuvius Challenge & EduceLab Consortium",
+      "role": "June 2026 PHerc. 1667 Full-Scroll Milestone",
+      "url": "https://scrollprize.org/"
+    },
+    "companiesAndLabs": [
+      "Vesuvius Challenge (Nat Friedman, Daniel Gross & Brent Seales)",
+      "University of Kentucky EduceLab (Virtual Unwrapping Physics)",
+      "Open-Source ML Laureates (Nader, Farritor, Schilliger, Roth & Nowak)",
+      "ESRF Grenoble & Diamond Light Source Synchrotron Beamlines",
+      "Biblioteca Nazionale Naples & Oxford Bodleian Libraries",
+      "Google DeepMind (Ithaca & Aeneas Epigraphic Restoration)"
+    ],
+    "globalPrecedents": [
+      "June 2026 Historic First Full Unopened Scroll Read End-to-End (PHerc. 1667)",
+      "2025 PHerc. 172 Recovery of Philodemus's On Vices, Book 1",
+      "2023 $700k Grand Prize: 2,000+ Greek Characters with Zero Hallucination",
+      "2016 En-Gedi Charred Hebrew Scroll Non-Invasive Micro-CT Proof"
+    ],
+    "synergyLinks": [
+      "lidar-agent-citizen-archaeology",
+      "ai-formal-mathematics",
+      "self-driving-labs",
+      "sacred-worth-contemplation"
+    ],
+    "infographic": {
+      "headlineMetric": "1st Full Scroll",
+      "headlineLabel": "PHerc. 1667 Unwrapped End-to-End (June 2026)",
+      "unit": "Complete Unopened Herculaneum Scrolls Virtually Read (Cumulative)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "270 Years of Unreadable Charcoal Rolls",
+          "value": 0,
+          "display": "0 Scrolls"
+        },
+        {
+          "year": 2024,
+          "label": "First 15 Epicurean Columns & Title Pages",
+          "value": 0.15,
+          "display": "First Passages"
+        },
+        {
+          "year": 2026,
+          "label": "PHerc. 1667 Complete Stoic Scroll (1.5m End-to-End)",
+          "value": 1,
+          "display": "1st Full Scroll"
+        },
+        {
+          "year": 2031,
+          "label": "Autonomous Pipeline Across Naples/Oxford + Villa Dig",
+          "value": 300,
+          "display": "300+ Full Scrolls"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Scan Resolution",
+          "value": "4–8 μm",
+          "detail": "Synchrotron phase-contrast X-ray CT detects sub-voxel carbon ink"
+        },
+        {
+          "label": "Physical Damage",
+          "value": "0.00%",
+          "detail": "100% non-invasive; fragile carbonized rolls stay sealed intact"
+        },
+        {
+          "label": "PHerc. 1667 Span",
+          "value": "~1.5 Meters",
+          "detail": "20+ columns of 2nd-century BCE Stoic ethics (Aristocreon)"
+        },
+        {
+          "label": "Open ML Community",
+          "value": "3,000+",
+          "detail": "Global contributors sharing 100% open-source weights & tracers"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Vesuvius Challenge (Nat Friedman, Daniel Gross & Brent Seales)",
+        "url": "https://scrollprize.org/"
+      },
+      {
+        "name": "University of Kentucky EduceLab (Virtual Unwrapping Physics)",
+        "url": "https://educelab.engr.uky.edu/"
+      },
+      {
+        "name": "Open-Source ML Laureates (Nader, Farritor, Schilliger, Roth & Nowak)",
+        "url": "https://github.com/schillij95/ThaumatoAnakalyptor"
+      },
+      {
+        "name": "ESRF Grenoble & Diamond Light Source Synchrotron Beamlines",
+        "url": "https://www.esrf.fr/"
+      },
+      {
+        "name": "Biblioteca Nazionale Naples & Oxford Bodleian Libraries",
+        "url": "https://www.bodleian.ox.ac.uk/"
+      },
+      {
+        "name": "Google DeepMind (Ithaca & Aeneas Epigraphic Restoration)",
+        "url": "https://deepmind.google/discover/blog/restoring-and-attributing-ancient-texts-using-deep-neural-networks/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "June 2026 Historic First Full Unopened Scroll Read End-to-End (PHerc. 1667)",
+        "url": "https://scrollprize.org/"
+      },
+      {
+        "name": "2025 PHerc. 172 Recovery of Philodemus's On Vices, Book 1",
+        "url": "https://www.bodleian.ox.ac.uk/"
+      },
+      {
+        "name": "2023 $700k Grand Prize: 2,000+ Greek Characters with Zero Hallucination",
+        "url": "https://scrollprize.org/"
+      },
+      {
+        "name": "2016 En-Gedi Charred Hebrew Scroll Non-Invasive Micro-CT Proof",
+        "url": "https://www.science.org/journal/sciadv"
+      }
+    ]
+  },
+  {
+    "slug": "geometric-langlands-unification",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/geometric-langlands-unification",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "The Grand Rosetta Stone of Mathematics: Gaitsgory, Raskin & the 1,000-Page Geometric Langlands Proof",
+    "tagline": "A 30-year, nine-mathematician, 1,000-page proof settles the Geometric Langlands Conjecture—unifying algebraic geometry, harmonic analysis, and quantum gauge S-duality.",
+    "cynicBelief": "Modern pure mathematics has fractured into hyper-abstract silos too complex for human minds to unify and wholly divorced from physical reality.",
+    "breakthroughCounter": "Led by Dennis Gaitsgory (2025 Breakthrough Prize Laureate, MPIM Bonn) and Sam Raskin (Yale) with Arinkin, Beraldo, Campbell, Chen, Faergeman, Lin, and Rozenblyum, a monumental 5-paper, ~1,000-page collaboration proved the categorical unramified Geometric Langlands Conjecture—completing Column III of André Weil's Rosetta Stone and mathematically grounding Kapustin–Witten electromagnetic S-duality in 4D quantum gauge theory.",
+    "socialNormShift": "Replaces the myth of the secretive lone genius with open, multi-generational 9-author collaboration—while catalyzing Lean 4 infinity-category blueprints that turn 1,000-page pure-math cathedrals into queryable tools for quantum physicists and number theorists.",
+    "humanStory": {
+      "protagonist": "Dr. Amina Al-Mansoor (Quantum Gauge Physicist) & Dr. Henrik Lindholm (Geometer)",
+      "location": "Max Planck Institute for Mathematics, Bonn, Germany",
+      "snippet": "Facing an intractable strong-coupling magnetic monopole amplitude for topological qubits, Amina and Henrik translate the gauge integral across the proven Gaitsgory–Raskin Langlands bridge into a clean flat connection on the dual group—verifying an exact topological braiding phase by afternoon tea."
+    },
+    "quote": {
+      "text": "Geometric Langlands is a bridge between two completely different continents of mathematics—and when nine friends finally meet in the middle of the span after thirty years, you realize the two continents were always one planet.",
+      "author": "Gaitsgory–Raskin Geometric Langlands Collaboration",
+      "role": "MPIM Bonn & Yale University (2025 Breakthrough Prize Milestone)",
+      "url": "https://www.mpim-bonn.mpg.de/gaitsgory/GLC/"
+    },
+    "companiesAndLabs": [
+      "Max Planck Institute for Mathematics Bonn (Dennis Gaitsgory & Peter Scholze)",
+      "Yale University Mathematics (Sam Raskin & GLC Collaborators)",
+      "GLC Nine-Author Team (Arinkin, Beraldo, Campbell, Chen, Faergeman, Lin, Rozenblyum)",
+      "University of Chicago (Alexander Beilinson & Vladimir Drinfeld)",
+      "Institute for Advanced Study & Caltech (Edward Witten & Anton Kapustin)",
+      "Kerodon & Lean Higher-Category Formalization Community"
+    ],
+    "globalPrecedents": [
+      "2024–2026 Five-Paper ~1,000-Page Proof of Unramified Geometric Langlands",
+      "2025 $3M Breakthrough Prize in Mathematics Awarded to Dennis Gaitsgory",
+      "Kapustin–Witten 4D N=4 Supersymmetric Yang–Mills S-Duality Bridge",
+      "Fargues–Scholze Geometrization Feeding Back to Arithmetic Prime Numbers"
+    ],
+    "synergyLinks": [
+      "ai-formal-mathematics",
+      "kakeya-hilbert-sixth-proofs",
+      "quantum-logical-simulation",
+      "sacred-worth-contemplation"
+    ],
+    "infographic": {
+      "headlineMetric": "~1,000-Page Proof",
+      "headlineLabel": "Full Unramified Geometric Langlands Conjecture Settled",
+      "unit": "Reductive Symmetry Groups Proven in Categorical Geometric Langlands (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 1995,
+          "label": "Beilinson–Drinfeld Vision & Abelian GL_1 Case",
+          "value": 5,
+          "display": "Abelian / GL_1 Foundations"
+        },
+        {
+          "year": 2015,
+          "label": "Derived Geometry & Arinkin–Gaitsgory Nilp Formulation",
+          "value": 35,
+          "display": "Exact Statement Framed"
+        },
+        {
+          "year": 2025,
+          "label": "Gaitsgory–Raskin 9-Author 5-Paper Proof Complete",
+          "value": 100,
+          "display": "100% Unramified Char-0 Proved"
+        },
+        {
+          "year": 2032,
+          "label": "Ramified, Quantum & Lean-Formalized Rosetta Library",
+          "value": 100,
+          "display": "Full Machine-Checked Unification"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Proof Span",
+          "value": "5 Papers",
+          "detail": "Nearly 1,000 interlocking pages built over 30+ years of mentorship"
+        },
+        {
+          "label": "Core Architects",
+          "value": "9 Co-Authors",
+          "detail": "Gaitsgory, Raskin, Arinkin, Beraldo, Campbell, Chen, Faergeman, Lin, Rozenblyum"
+        },
+        {
+          "label": "Physics Mirror",
+          "value": "S-Duality",
+          "detail": "Swaps electric Wilson loops (G) and magnetic 't Hooft lines (G-check)"
+        },
+        {
+          "label": "Information Loss",
+          "value": "0.0%",
+          "detail": "Proven exact categorical equivalence via Kac–Moody & Whittaker sheaves"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Max Planck Institute for Mathematics Bonn (Dennis Gaitsgory & Peter Scholze)",
+        "url": "https://www.mpim-bonn.mpg.de/gaitsgory/GLC/"
+      },
+      {
+        "name": "Yale University Mathematics (Sam Raskin & GLC Collaborators)",
+        "url": "https://math.yale.edu/"
+      },
+      {
+        "name": "GLC Nine-Author Team (Arinkin, Beraldo, Campbell, Chen, Faergeman, Lin, Rozenblyum)",
+        "url": "https://breakthroughprize.org/"
+      },
+      {
+        "name": "University of Chicago (Alexander Beilinson & Vladimir Drinfeld)",
+        "url": "https://math.uchicago.edu/"
+      },
+      {
+        "name": "Institute for Advanced Study & Caltech (Edward Witten & Anton Kapustin)",
+        "url": "https://www.ias.edu/math/langlands"
+      },
+      {
+        "name": "Kerodon & Lean Higher-Category Formalization Community",
+        "url": "https://kerodon.net/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2024–2026 Five-Paper ~1,000-Page Proof of Unramified Geometric Langlands",
+        "url": "https://www.mpim-bonn.mpg.de/gaitsgory/GLC/"
+      },
+      {
+        "name": "2025 $3M Breakthrough Prize in Mathematics Awarded to Dennis Gaitsgory",
+        "url": "https://breakthroughprize.org/"
+      },
+      {
+        "name": "Kapustin–Witten 4D N=4 Supersymmetric Yang–Mills S-Duality Bridge",
+        "url": "https://arxiv.org/abs/hep-th/0604151"
+      },
+      {
+        "name": "Fargues–Scholze Geometrization Feeding Back to Arithmetic Prime Numbers",
+        "url": "https://www.mpim-bonn.mpg.de/"
+      }
+    ]
+  },
+  {
+    "slug": "kakeya-hilbert-sixth-proofs",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/kakeya-hilbert-sixth-proofs",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Needles, Atoms & Fluids: Solving 3D Kakeya, Hilbert's Sixth Problem & Formalized Harmonic Analysis",
+    "tagline": "A historic 2025–2026 golden biennium proves the 3D Kakeya Conjecture, derives fluid laws from Newtonian atoms after 125 years, and brings Lean 4 to frontier wave PDEs.",
+    "cynicBelief": "Century-old foundational riddles like 3D needle packing and Hilbert's 1900 challenge to derive fluid dynamics from bouncing atoms are permanently stalled, while 130-page PDE proofs take half a decade to referee.",
+    "breakthroughCounter": "Within twenty breathtaking months (2025–Oct 2026), Hong Wang and Joshua Zahl solved the century-old 3D Kakeya Conjecture (dim = 3), Yu Deng, Zaher Hani, and Xiao Ma cracked Hilbert's Sixth Problem by deriving Boltzmann and Navier–Stokes fluid equations over arbitrarily long kinetic timescales from Newtonian spheres, Nalini Anantharaman and Laura Monk proved the optimal 1/4 hyperbolic spectral gap, and AI + Lean 4 began verifying frontier harmonic-analysis smoothing bounds.",
+    "socialNormShift": "Coupling modular Lean 4 blueprints (Carleson & Sogge wave-smoothing programs) with collaborative multi-scale analysis retires five-year referee bottlenecks while visibly inspiring a diverse new generation at the summit of pure geometry and mathematical physics.",
+    "humanStory": {
+      "protagonist": "Dr. Sofia Benali (Hypersonic & Clean-Aviation Aerodynamicist)",
+      "location": "Toulouse, France",
+      "snippet": "Designing a stratospheric hydrogen-electric wing where thin air crosses between discrete bouncing molecules and smooth continuum flow, Sofia applies Deng–Hani–Ma's rigorous Hilbert-Sixth error bounds alongside Lean-verified 3D wave-packet bounds—replacing eighty years of empirical guesswork with mathematical certainty."
+    },
+    "quote": {
+      "text": "Kakeya sits at the exact crossroads of geometry, combinatorics, and wave physics—solving it in three dimensions unlocks an entire cascade of theorems about how waves propagate through space.",
+      "author": "Harmonic Analysis & Lean Blueprint Community",
+      "role": "2025–2026 3D Kakeya & Formalized Analysis Milestone",
+      "url": "https://terrytao.wordpress.com/"
+    },
+    "companiesAndLabs": [
+      "NYU Courant / IHÉS & UBC (Hong Wang & Joshua Zahl — 3D Kakeya)",
+      "U. Chicago & U. Michigan (Yu Deng, Zaher Hani & Xiao Ma — Hilbert's 6th)",
+      "Collège de France & U. Bristol (Nalini Anantharaman & Laura Monk)",
+      "Lean 4 Carleson & Harmonic Analysis Blueprint Team (Thiele, Tao et al.)",
+      "UCLA & Princeton Wave-Packet Restriction & Sogge Smoothing Groups",
+      "Mathlib Multi-Scale Measure & Fourier Analysis Maintainers"
+    ],
+    "globalPrecedents": [
+      "2025 127-Page Proof of the 3D Kakeya Conjecture (Dimension Exactly 3)",
+      "2025 Solution of Hilbert's 1900 6th Problem: Long-Time Newton-to-Fluid Limit",
+      "2025 Optimal 1/4 Spectral Gap Proved for Random Hyperbolic Surfaces",
+      "2025–2026 Lean 4 Formalization of Carleson's Theorem & Wave Estimates"
+    ],
+    "synergyLinks": [
+      "ai-formal-mathematics",
+      "geometric-langlands-unification",
+      "ai-earth-weather-forecasting",
+      "fusion-power"
+    ],
+    "infographic": {
+      "headlineMetric": "125-Yr Riddles Solved",
+      "headlineLabel": "3D Kakeya + Hilbert's 6th + Optimal Spectral Gap",
+      "unit": "Referee & Verification Turnaround for 120-Page Harmonic Analysis Proof (Months)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2020,
+          "label": "Manual Lone-Referee LaTeX Bottleneck",
+          "value": 42.0,
+          "display": "3–4 Years"
+        },
+        {
+          "year": 2025,
+          "label": "Carleson Blueprint + Wang–Zahl & Deng–Hani–Ma Era",
+          "value": 6.0,
+          "display": "~6 Months"
+        },
+        {
+          "year": 2026,
+          "label": "Late-2026 AI + Lean 4 Multi-Scale PDE Co-Pilots",
+          "value": 0.8,
+          "display": "~3 Weeks"
+        },
+        {
+          "year": 2031,
+          "label": "Real-Time Compiler-Checked Analysis & Physics Limits",
+          "value": 0.05,
+          "display": "<48 Hours"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "3D Kakeya Dim",
+          "value": "3.000",
+          "detail": "Wang & Zahl proved full Hausdorff & Minkowski dimension in R³"
+        },
+        {
+          "label": "Hilbert 6th Span",
+          "value": "125 Years",
+          "detail": "1900 Paris challenge bridged from F=ma spheres to Navier–Stokes"
+        },
+        {
+          "label": "Spectral Gap",
+          "value": "1/4 Exact",
+          "detail": "Anantharaman & Monk optimal bound on random hyperbolic surfaces"
+        },
+        {
+          "label": "Lanford Barrier",
+          "value": "Shattered",
+          "detail": "Extended 1975 sub-nanosecond gas proof to arbitrary macro times"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "NYU Courant / IHÉS & UBC (Hong Wang & Joshua Zahl — 3D Kakeya)",
+        "url": "https://cims.nyu.edu/"
+      },
+      {
+        "name": "U. Chicago & U. Michigan (Yu Deng, Zaher Hani & Xiao Ma — Hilbert's 6th)",
+        "url": "https://math.uchicago.edu/"
+      },
+      {
+        "name": "Collège de France & U. Bristol (Nalini Anantharaman & Laura Monk)",
+        "url": "https://www.college-de-france.fr/en"
+      },
+      {
+        "name": "Lean 4 Carleson & Harmonic Analysis Blueprint Team (Thiele, Tao et al.)",
+        "url": "https://leanprover-community.github.io/"
+      },
+      {
+        "name": "UCLA & Princeton Wave-Packet Restriction & Sogge Smoothing Groups",
+        "url": "https://terrytao.wordpress.com/"
+      },
+      {
+        "name": "Mathlib Multi-Scale Measure & Fourier Analysis Maintainers",
+        "url": "https://lean-lang.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2025 127-Page Proof of the 3D Kakeya Conjecture (Dimension Exactly 3)",
+        "url": "https://cims.nyu.edu/"
+      },
+      {
+        "name": "2025 Solution of Hilbert's 1900 6th Problem: Long-Time Newton-to-Fluid Limit",
+        "url": "https://math.uchicago.edu/"
+      },
+      {
+        "name": "2025 Optimal 1/4 Spectral Gap Proved for Random Hyperbolic Surfaces",
+        "url": "https://www.college-de-france.fr/en"
+      },
+      {
+        "name": "2025–2026 Lean 4 Formalization of Carleson's Theorem & Wave Estimates",
+        "url": "https://leanprover-community.github.io/"
+      }
+    ]
+  },
+  {
+    "slug": "world-model-tactile-robotics",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/world-model-tactile-robotics",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Robots That Imagine & Feel: Latent Physics World Models Paired with Optical Tactile Skins",
+    "tagline": "Predictive cloth-and-fluid world models paired with 50-micron visuotactile and magnetic e-skins finally conquer Moravec's Paradox—from ripe berries to gentle eldercare.",
+    "cynicBelief": "Robots can win at chess and weld rigid steel car doors, yet hand one a ripe raspberry, a tangled shirt, or a frail human arm and its numb pincers crush it or drop it.",
+    "breakthroughCounter": "Combining flow-matching VLAs and latent physics world models (Physical Intelligence π₀/π₀.₅, NVIDIA Cosmos, DeepMind Gemini Robotics, and 43M-FPS Genesis simulation) with sub-50-micron optical and snap-on magnetic e-skins (GelSight, Meta Digit/Sparsh, AnySkin, Sanctuary AI) gives robots 0.01 N incipient-slip reflexes and physical foresight.",
+    "socialNormShift": "Washable knit e-skins and compliant force shields bring dignity-preserving assistive care into bedrooms, rescue billions of dollars of soft fruit from rotting unpicked without heatstroke stoop labor, and let circular microfactories unscrew lithium batteries without fires.",
+    "humanStory": {
+      "protagonist": "Elena Morales (Oregon Berry Grower) & Her 84-Year-Old Father",
+      "location": "Willamette Valley & Portland, Oregon",
+      "snippet": "At dawn, visuotactile soft grippers imagine hidden stem angles and pluck dead-ripe Marionberries with 0.18 N shear and zero bruising; that evening, washable electronic skin on a home-care assistant feels her father's slightest tremor during hip-rehab transfers and yields with therapist-grade gentleness."
+    },
+    "quote": {
+      "text": "Touch is not just another low-res bumper switch—it is a high-resolution image of physical forces right where the hand meets the world.",
+      "author": "Prof. Edward Adelson & GelSight Pioneers",
+      "role": "MIT CSAIL Perceptual Science Group",
+      "url": "https://www.gelsight.com/"
+    },
+    "companiesAndLabs": [
+      "Physical Intelligence (π₀ & π₀.₅ Flow-Matching VLA Policies)",
+      "MIT CSAIL (GelSight) & Meta FAIR (Digit & Sparsh Touch Models)",
+      "NVIDIA (Cosmos World Foundation Models) & Genesis 43M-FPS Engine",
+      "Google DeepMind (Gemini Robotics Dexterous Manipulation)",
+      "NYU / CMU (AnySkin Magnetic Dermis) & Columbia Bionic Touch",
+      "Sanctuary AI (Phoenix Haptic Hands) & Shadow Robot"
+    ],
+    "globalPrecedents": [
+      "π₀.₅ Zero-Shot Laundry Folding & Unseen Messy Kitchen Generalization",
+      "GelSight / Digit Sub-50-Micron 3D Optical Elastomer Commoditization",
+      "Genesis 43,000,000 FPS Differentiable Soft-Body & Liquid Sim-to-Real",
+      "AnySkin $5 Calibration-Free Snap-On Magnetic Tactile Fingertips"
+    ],
+    "synergyLinks": [
+      "general-purpose-humanoids",
+      "local-microfactories",
+      "ai-formal-mathematics",
+      "specialized-swarm-robotics"
+    ],
+    "infographic": {
+      "headlineMetric": "0.01 N Touch",
+      "headlineLabel": "50 μm Optical/Magnetic Skin + 43M-FPS World Models",
+      "unit": "Minimum Controlled Shear/Slip Force Threshold in Production Grippers (Newtons)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2020,
+          "label": "Numb Pneumatic / Wrist Strain-Gauge Factory Claws",
+          "value": 5.0,
+          "display": "5.00 N (Crushes Berries)"
+        },
+        {
+          "year": 2024,
+          "label": "Vision-Only VLA Wrists (Occluded at Contact)",
+          "value": 0.8,
+          "display": "0.80 N"
+        },
+        {
+          "year": 2026,
+          "label": "GelSight/Digit + AnySkin + π₀.₅ World-Model Fusion",
+          "value": 0.01,
+          "display": "0.01 N (~1 Gram)"
+        },
+        {
+          "year": 2032,
+          "label": "Whole-Body Washable Thermal-Tactile Knit Dermis",
+          "value": 0.002,
+          "display": "0.002 N (Human+)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Tactile Map Res",
+          "value": "<50 μm",
+          "detail": "Commodity CMOS + tricolor gel resolves hair & screw threads"
+        },
+        {
+          "label": "Genesis Sim Speed",
+          "value": "43M FPS",
+          "detail": "430,000x real-time deformable cloth & fluid practice on 1 GPU"
+        },
+        {
+          "label": "Snap-On Pad BOM",
+          "value": "$5–$25",
+          "detail": "Wire-free magnetic elastomer swaps in 2 sec with 0 recalibration"
+        },
+        {
+          "label": "E-Waste Battery Safe",
+          "value": "98% Intact",
+          "detail": "Tactile prying replaces toxic shredding & lithium fire hazards"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Physical Intelligence (π₀ & π₀.₅ Flow-Matching VLA Policies)",
+        "url": "https://www.physicalintelligence.company/"
+      },
+      {
+        "name": "MIT CSAIL (GelSight) & Meta FAIR (Digit & Sparsh Touch Models)",
+        "url": "https://www.gelsight.com/"
+      },
+      {
+        "name": "NVIDIA (Cosmos World Foundation Models) & Genesis 43M-FPS Engine",
+        "url": "https://www.nvidia.com/en-us/ai/cosmos/"
+      },
+      {
+        "name": "Google DeepMind (Gemini Robotics Dexterous Manipulation)",
+        "url": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/"
+      },
+      {
+        "name": "NYU / CMU (AnySkin Magnetic Dermis) & Columbia Bionic Touch",
+        "url": "https://any-skin.github.io/"
+      },
+      {
+        "name": "Sanctuary AI (Phoenix Haptic Hands) & Shadow Robot",
+        "url": "https://www.sanctuary.ai/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "π₀.₅ Zero-Shot Laundry Folding & Unseen Messy Kitchen Generalization",
+        "url": "https://www.physicalintelligence.company/"
+      },
+      {
+        "name": "GelSight / Digit Sub-50-Micron 3D Optical Elastomer Commoditization",
+        "url": "https://www.gelsight.com/"
+      },
+      {
+        "name": "Genesis 43,000,000 FPS Differentiable Soft-Body & Liquid Sim-to-Real",
+        "url": "https://genesis-embodied-ai.github.io/"
+      },
+      {
+        "name": "AnySkin $5 Calibration-Free Snap-On Magnetic Tactile Fingertips",
+        "url": "https://any-skin.github.io/"
+      }
+    ]
+  },
+  {
+    "slug": "ai-earth-weather-forecasting",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/ai-earth-weather-forecasting",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "15-Day Pinpoint Weather on a Single GPU: GenCast, Aurora & Free Monsoon Warnings for Every Village",
+    "tagline": "Probabilistic diffusion models beat 10-megawatt weather supercomputers in 8 minutes on one chip—delivering free 10-day monsoon and flood SMS alerts to every village.",
+    "cynicBelief": "Forecasting past five days is blurry guesswork locked inside $100M rich-country supercomputers, leaving Global South farmers defenseless against sudden floods and cyclones.",
+    "breakthroughCounter": "Google DeepMind's GenCast / WeatherNext (Nature) surpassed ECMWF's gold-standard physics ensemble on 97.2% of 15-day targets in just 8 minutes on a single TPU, while Microsoft's Aurora (air quality, waves, cyclones), operational ECMWF AIFS, NVIDIA CorrDiff 1-km downscaling, and Google Flood Hub (80+ countries) slashed ensemble compute 1,000x–10,000x.",
+    "socialNormShift": "Open-weight ensembles running on modest local GPU racks end weather colonialism—letting Bangladesh, Malawi, and Pacific islands issue free village-scale monsoon voice advisories and anticipatory mobile-money cash 7–10 days before storms strike.",
+    "humanStory": {
+      "protagonist": "Rahima Begum (Smallholder Rice & Jute Farmer)",
+      "location": "Sirajganj District, Jamuna Basin, Bangladesh",
+      "snippet": "Nine days before an upstream Himalayan-foothill cloudburst crests the Jamuna River, a sovereign Dhaka GPU ensemble sends Rahima a clear Bengali voice plan on her solar feature phone—giving her village four sunny days to harvest and dry 100% of their Boro paddy with zero debt."
+    },
+    "quote": {
+      "text": "By generating ensembles of stochastic 15-day weather trajectories in minutes rather than hours, AI weather models democratize world-class extreme-weather foresight for every community on Earth.",
+      "author": "GenCast & UN Early Warnings for All Synthesis",
+      "role": "Google DeepMind, ECMWF & WMO Operational Milestone",
+      "url": "https://deepmind.google/discover/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/"
+    },
+    "companiesAndLabs": [
+      "Google DeepMind (GenCast, GraphCast & WeatherNext)",
+      "Microsoft Research (Aurora 1.3B Earth Foundation Model)",
+      "ECMWF (Operational AIFS Open Ensemble & ERA5 Reanalysis)",
+      "NVIDIA (Earth-2 & CorrDiff 1-km Generative Downscaling)",
+      "Google Flood Hub & UN WMO Early Warnings for All",
+      "U. Chicago EPIC / India 38,000-Farmer AI Monsoon Advisory Trials"
+    ],
+    "globalPrecedents": [
+      "Nature Verified: GenCast Beats ECMWF ENS on 97.2% of 15-Day Targets",
+      "Aurora Global PM2.5 Air Quality in <1 Min & 5-Day Cyclone Track Lead",
+      "Google Flood Hub Free 7-Day Ungauged River Alerts in 80+ Countries",
+      "India Ministry of Agriculture + U. Chicago 38,000-Farmer Monsoon SMS Rollout"
+    ],
+    "synergyLinks": [
+      "iron-sodium-storage",
+      "kakeya-hilbert-sixth-proofs",
+      "earth-digital-twin-canopy",
+      "specialized-swarm-robotics"
+    ],
+    "infographic": {
+      "headlineMetric": "8 Min / 1 TPU",
+      "headlineLabel": "GenCast Beats Supercomputer ENS on 97.2% of Targets",
+      "unit": "Global Population Protected by Pinpoint 7–10 Day Multi-Hazard Warnings (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2020,
+          "label": "Supercomputer-Only NWP (1/3 of Humanity Unwarned)",
+          "value": 45,
+          "display": "45% Covered"
+        },
+        {
+          "year": 2026,
+          "label": "GenCast + Aurora + AIFS + Flood Hub (80+ Nations)",
+          "value": 74,
+          "display": "74% Covered"
+        },
+        {
+          "year": 2029,
+          "label": "Sovereign National GPU Ensembles + Cell Broadcast",
+          "value": 95,
+          "display": "95% Covered"
+        },
+        {
+          "year": 2033,
+          "label": "Universal Free Village-Scale 15-Day Earth Twin",
+          "value": 100,
+          "display": "100% Universal Right"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Win Rate vs. ENS",
+          "value": "97.2%",
+          "detail": "GenCast outperformed world-top physics ensemble across 1,320 targets"
+        },
+        {
+          "label": "Compute Speedup",
+          "value": "~5,000x",
+          "detail": "Single accelerator minutes vs. 10,000+ supercomputer CPU cores"
+        },
+        {
+          "label": "Flood Hub Reach",
+          "value": "460M+ People",
+          "detail": "Free 7-day river-flood warnings live across 80+ countries"
+        },
+        {
+          "label": "Local Downscaling",
+          "value": "1–2 km",
+          "detail": "CorrDiff resolves valley cloudbursts & urban heat 1,000x faster"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Google DeepMind (GenCast, GraphCast & WeatherNext)",
+        "url": "https://deepmind.google/discover/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/"
+      },
+      {
+        "name": "Microsoft Research (Aurora 1.3B Earth Foundation Model)",
+        "url": "https://www.microsoft.com/en-us/research/blog/introducing-aurora-the-first-large-scale-foundation-model-of-the-atmosphere/"
+      },
+      {
+        "name": "ECMWF (Operational AIFS Open Ensemble & ERA5 Reanalysis)",
+        "url": "https://www.ecmwf.int/en/about/media-centre/aifs-blog"
+      },
+      {
+        "name": "NVIDIA (Earth-2 & CorrDiff 1-km Generative Downscaling)",
+        "url": "https://www.nvidia.com/en-us/high-performance-computing/earth-2/"
+      },
+      {
+        "name": "Google Flood Hub & UN WMO Early Warnings for All",
+        "url": "https://sites.research.google/floods/"
+      },
+      {
+        "name": "U. Chicago EPIC / India 38,000-Farmer AI Monsoon Advisory Trials",
+        "url": "https://bfi.uchicago.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Nature Verified: GenCast Beats ECMWF ENS on 97.2% of 15-Day Targets",
+        "url": "https://deepmind.google/discover/blog/gencast-predicts-weather-and-the-risks-of-extreme-conditions-with-sota-accuracy/"
+      },
+      {
+        "name": "Aurora Global PM2.5 Air Quality in <1 Min & 5-Day Cyclone Track Lead",
+        "url": "https://www.microsoft.com/en-us/research/blog/introducing-aurora-the-first-large-scale-foundation-model-of-the-atmosphere/"
+      },
+      {
+        "name": "Google Flood Hub Free 7-Day Ungauged River Alerts in 80+ Countries",
+        "url": "https://sites.research.google/floods/"
+      },
+      {
+        "name": "India Ministry of Agriculture + U. Chicago 38,000-Farmer Monsoon SMS Rollout",
+        "url": "https://www.un.org/en/climatechange/early-warnings-for-all"
+      }
+    ]
+  },
+  {
+    "slug": "memory-safe-formally-verified-infra",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/memory-safe-formally-verified-infra",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Hacking-Proof Critical Infrastructure: Rust, seL4 & AI-Assisted Formal Proofs Ending Hospital Ransomware",
+    "tagline": "Memory-safe Rust, the binary-verified seL4 microkernel, and AI-synthesized Verus/Lean proofs eliminate the 70% memory-bug root cause behind hospital and grid ransomware.",
+    "cynicBelief": "Cybersecurity is a hopeless whack-a-mole war where ransomware syndicates will always find new zero-day bugs to shut down children's hospitals, ambulances, and power grids.",
+    "breakthroughCounter": "Roughly 70% of severe CVEs stem from 1970s C/C++ memory unsafety—already crushed >90% in new Android Rust code. Now kernel-scale Rust, the Isabelle/HOL binary-proven seL4 separation microkernel, DARPA TRACTOR C-to-Rust AI translation, and LLM + Verus/Lean 4 proof synthesis (plus AIxCC autonomous bug patching) seal hospitals and utilities mathematically.",
+    "socialNormShift": "Backed by CISA Secure-by-Design mandates and the EU Cyber Resilience Act, critical software adopts civil-engineering liability standards while rural clinics and municipal water plants deploy free open-source Verified Civic Gateways—starving the ransomware business model to zero.",
+    "humanStory": {
+      "protagonist": "Marcus Vance (Pediatric NICU Nurse)",
+      "location": "Detroit Children's Medical Center, Michigan",
+      "snippet": "At 2:14 AM when a botnet fires a novel exploit at the hospital's imaging gateway, Verified Rust rejects the bounds violation in 4 microseconds while seL4 hardware-isolated partitions guarantee office phishing can never cross into NICU infusion pumps—zero monitors blink, zero ambulances divert."
+    },
+    "quote": {
+      "text": "Memory safety vulnerabilities are a class of defect we know how to eliminate entirely by design—security must be built into the foundation of critical software, not bolted on after hospitals are attacked.",
+      "author": "CISA, NSA & International Cyber Defense Agencies",
+      "role": "Joint Memory-Safe & Secure-by-Design Infrastructure Mandate",
+      "url": "https://www.cisa.gov/securebydesign"
+    },
+    "companiesAndLabs": [
+      "seL4 Foundation & Trustworthy Systems (Prof. Gernot Heiser)",
+      "Rust Foundation, Rust for Linux Kernel & Google Android Security",
+      "DARPA TRACTOR (C-to-Rust AI), PROVERS & AIxCC Hospital Defense",
+      "Verus, Dafny & AWS Verified Stack (Cedar in Lean 4 & Kani)",
+      "CISA Secure by Design & EU Cyber Resilience Act Regulators",
+      "Google Project Zero (Big Sleep), Anthropic & OpenAI Defensive Sweeps"
+    ],
+    "globalPrecedents": [
+      "Google Android Empirical Proof: >90% Drop in New-Code Memory CVEs via Rust",
+      "seL4 Complete Machine-Checked Binary Isolation Proof (Isabelle/HOL)",
+      "DARPA AIxCC Open-Source Autonomous Hospital & Water-Utility Hardening",
+      "EU Cyber Resilience Act & CISA 2026 Memory-Safe Critical Roadmaps"
+    ],
+    "synergyLinks": [
+      "ai-formal-mathematics",
+      "defensive-shields-peace",
+      "healthcare-without-billing",
+      "superconducting-grids"
+    ],
+    "infographic": {
+      "headlineMetric": "-70% Root CVEs",
+      "headlineLabel": "Safe Rust + Proven seL4 Bulkheads + Verus/Lean AI",
+      "unit": "Share of Critical Medical, Water & Grid Gateways on Memory-Safe / Verified Stacks (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "1990s Monolithic C/C++ Patch-Tuesday Vulnerability Era",
+          "value": 8,
+          "display": "8% Memory-Safe"
+        },
+        {
+          "year": 2026,
+          "label": "Linux/Android/Windows Rust + TRACTOR + AIxCC Sweeps",
+          "value": 42,
+          "display": "42% New Core Modules"
+        },
+        {
+          "year": 2029,
+          "label": "Mandatory CISA/CRA Verified Gateways & seL4 OT Diodes",
+          "value": 84,
+          "display": "84% Critical Gateways"
+        },
+        {
+          "year": 2033,
+          "label": "Universal Mathematically Sealed Civic Infrastructure",
+          "value": 98,
+          "display": "98%+ Ransomware-Immune"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Memory Bug Share",
+          "value": "~70% Gone",
+          "detail": "Eliminated at compile time in safe Rust with zero GC pause"
+        },
+        {
+          "label": "seL4 Trusted Core",
+          "value": "~10k LOC",
+          "detail": "Mathematically proven binary isolation stops lateral movement"
+        },
+        {
+          "label": "Proof Cost Drop",
+          "value": "20x–50x",
+          "detail": "AI + Verus/Dafny/Lean 4 automates invariant & C-to-Rust proofs"
+        },
+        {
+          "label": "Android Rust Proof",
+          "value": "223 → <20",
+          "detail": "Real-world collapse in memory-safety CVEs across billions of devices"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "seL4 Foundation & Trustworthy Systems (Prof. Gernot Heiser)",
+        "url": "https://sel4.systems/"
+      },
+      {
+        "name": "Rust Foundation, Rust for Linux Kernel & Google Android Security",
+        "url": "https://rust-for-linux.com/"
+      },
+      {
+        "name": "DARPA TRACTOR (C-to-Rust AI), PROVERS & AIxCC Hospital Defense",
+        "url": "https://aicyberchallenge.com/"
+      },
+      {
+        "name": "Verus, Dafny & AWS Verified Stack (Cedar in Lean 4 & Kani)",
+        "url": "https://github.com/verus-lang/verus"
+      },
+      {
+        "name": "CISA Secure by Design & EU Cyber Resilience Act Regulators",
+        "url": "https://www.cisa.gov/securebydesign"
+      },
+      {
+        "name": "Google Project Zero (Big Sleep), Anthropic & OpenAI Defensive Sweeps",
+        "url": "https://security.googleblog.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Google Android Empirical Proof: >90% Drop in New-Code Memory CVEs via Rust",
+        "url": "https://security.googleblog.com/"
+      },
+      {
+        "name": "seL4 Complete Machine-Checked Binary Isolation Proof (Isabelle/HOL)",
+        "url": "https://sel4.systems/"
+      },
+      {
+        "name": "DARPA AIxCC Open-Source Autonomous Hospital & Water-Utility Hardening",
+        "url": "https://aicyberchallenge.com/"
+      },
+      {
+        "name": "EU Cyber Resilience Act & CISA 2026 Memory-Safe Critical Roadmaps",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1718 @@
+[
+  {
+    "slug": "empirical-ai-economics-telemetry",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/empirical-ai-economics-telemetry",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Real-Time AI Economics: Ronnie Chatterji's NBER Telemetry, Open GDPval Data & Global Welfare Replication",
+    "tagline": "Replacing AI job guesswork with zero-surveillance clean-room telemetry, 220 open real-world GDPval deliverables, and Global South consumer-surplus accounting.",
+    "cynicBelief": "Nobody truly knows what generative AI is doing to jobs or human lives—frontier labs hoard proprietary usage logs while policymakers guess from stale five-year government surveys and toy multiple-choice exams.",
+    "breakthroughCounter": "Led by Dr. Aaron 'Ronnie' Chatterji, NBER Working Paper 34255 analyzed anonymized usage across ~10% of global adults inside strict zero-human-read clean rooms (min-100 cell aggregation), discovering over 70% of consumer AI usage generates non-work household welfare invisible to legacy GDP—while OpenAI's open-sourced 220-task GDPval Gold benchmark and Kiran Garimella et al.'s 200,000-conversation Global South replication turned AI economics into open, falsifiable science.",
+    "socialNormShift": "Frontier AI labs, central banks, and global universities standardize privacy-locked 24-category Signals, open occupational deliverable benchmarks (GDPval), and consented Global South data trusts to trigger 30-day guild upskilling and count household decision-support surplus.",
+    "humanStory": {
+      "protagonist": "Dr. Priya Deshmukh (Pune Labor-Transition Director) & Marcus Vance (Durham Apprentice-Guild Coordinator)",
+      "location": "Pune, India & Durham, North Carolina",
+      "snippet": "Using open GDPval task curves and consented Global South clean-room Signals, Priya audits +$4,800/yr in unpriced family health and coursework surplus while Marcus pivots Durham paralegal and med-tech apprenticeships within 30 days—achieving zero net displacement and +22% early-career wage growth."
+    },
+    "quote": {
+      "text": "When more than seventy percent of frontier AI usage happens outside formal work—helping families navigate health decisions, learn skills, and solve daily problems—traditional GDP misses the largest consumer welfare wave of our lifetime.",
+      "author": "Dr. Aaron \"Ronnie\" Chatterji",
+      "role": "Chief Economist at OpenAI & Mark Burgess & Lisa Benson Burgess Professor, Duke University",
+      "url": "https://www.nber.org/papers/w34255"
+    },
+    "companiesAndLabs": [
+      "OpenAI Economic Research & Signals (Dr. Ronnie Chatterji)",
+      "National Bureau of Economic Research (NBER w34255)",
+      "OpenAI GDPval Open Gold Benchmark (Hugging Face)",
+      "Stanford Digital Economy Lab (Prof. Erik Brynjolfsson, GDP-B)",
+      "Microsoft Research WorkLab (Copilot Enterprise Telemetry)",
+      "SF Fed EmergingTech Economic Research Network (ETERN)"
+    ],
+    "globalPrecedents": [
+      "NBER w34255: ~10% Global Adult Coverage & >70% Non-Work Welfare Discovery (Sept 2025)",
+      "GDPval Open Benchmark: 220 Gold Deliverables Across 44 Occupations in Top 9 GDP Sectors",
+      "Garimella et al. (Sept 2026): 200,000+ Consented Conversations Across India, Nigeria, Brazil & Pakistan",
+      "Chatterji, Holtz et al. (2026) Enterprise Compustat Study & Chatterji, Rock, Talamàs NBER Firms Framework"
+    ],
+    "synergyLinks": [
+      "post-scarcity-economics",
+      "open-macro-cleanroom-policy",
+      "displaced-worker-bridge",
+      "two-sigma-guild-education"
+    ],
+    "infographic": {
+      "headlineMetric": ">70% Life Utility",
+      "headlineLabel": "Unpriced Household AI Welfare Share",
+      "unit": "Telemetry Task Coverage & Verified Household Decision-Support Surplus ($/Yr)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Pre-Telemetry Anecdote Era & Toy MMLU Quizzes",
+          "value": 200,
+          "display": "$200/yr counted"
+        },
+        {
+          "year": 2026,
+          "label": "Chatterji NBER w34255 + 220 Open GDPval Gold Tasks",
+          "value": 2400,
+          "display": "$2,400/yr audited"
+        },
+        {
+          "year": 2030,
+          "label": "Multi-Lab Signals + Global South Citizen Data Trusts",
+          "value": 4600,
+          "display": "$4,600/yr counted"
+        },
+        {
+          "year": 2034,
+          "label": "Official BEA/Eurostat GDP-B + 30-Day Guild API Standard",
+          "value": 6500,
+          "display": "$6,500/yr surplus"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Non-Work Welfare Share",
+          "value": ">70%",
+          "detail": "Practical guidance, health literacy, tutoring & writing outside GDP"
+        },
+        {
+          "label": "GDPval Open Gold Set",
+          "value": "220 Tasks",
+          "detail": "44 digital occupations across top 9 GDP sectors by 14-yr veterans"
+        },
+        {
+          "label": "Global South Replication",
+          "value": "200k+ Chats",
+          "detail": "Garimella et al. consented data across India, Nigeria, Brazil & Pakistan"
+        },
+        {
+          "label": "Clean-Room Privacy Floor",
+          "value": ">=100 Users",
+          "detail": "Zero human prompt reading + strict cell aggregation k-anonymity"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "OpenAI Economic Research & Signals (Dr. Ronnie Chatterji)",
+        "url": "https://www.fuqua.duke.edu/faculty/aaron-chatterji"
+      },
+      {
+        "name": "National Bureau of Economic Research (NBER w34255)",
+        "url": "https://www.nber.org/papers/w34255"
+      },
+      {
+        "name": "OpenAI GDPval Open Gold Benchmark (Hugging Face)",
+        "url": "https://huggingface.co/datasets/openai/gdpval"
+      },
+      {
+        "name": "Stanford Digital Economy Lab (Prof. Erik Brynjolfsson, GDP-B)",
+        "url": "https://digitaleconomy.stanford.edu/"
+      },
+      {
+        "name": "Microsoft Research WorkLab (Copilot Enterprise Telemetry)",
+        "url": "https://www.microsoft.com/en-us/worklab/"
+      },
+      {
+        "name": "SF Fed EmergingTech Economic Research Network (ETERN)",
+        "url": "https://www.frbsf.org/research-and-insights/etern/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "NBER w34255: ~10% Global Adult Coverage & >70% Non-Work Welfare Discovery (Sept 2025)",
+        "url": "https://www.nber.org/papers/w34255"
+      },
+      {
+        "name": "GDPval Open Benchmark: 220 Gold Deliverables Across 44 Occupations in Top 9 GDP Sectors",
+        "url": "https://openai.com/index/gdpval/"
+      },
+      {
+        "name": "Garimella et al. (Sept 2026): 200,000+ Consented Conversations Across India, Nigeria, Brazil & Pakistan",
+        "url": "https://arxiv.org/"
+      },
+      {
+        "name": "Chatterji, Holtz et al. (2026) Enterprise Compustat Study & Chatterji, Rock, Talamàs NBER Firms Framework",
+        "url": "https://www.nber.org/books-and-chapters/economics-transformative-ai/transformative-ai-and-firms"
+      }
+    ]
+  },
+  {
+    "slug": "open-macro-cleanroom-policy",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/open-macro-cleanroom-policy",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Goodbye Five-Year Policy Blindfolds: 2026 Nobel Micro-Stabilization & Live Privacy Clean Rooms",
+    "tagline": "Uniting the 2025 and 2026 Economics Nobels with cryptographic Data Clean Rooms to cure localized shocks in 48 hours without nationwide rate crashes or citizen surveillance.",
+    "cynicBelief": "Central banks and treasuries will always fight recessions in the rearview mirror—throwing millions out of work with blunt nationwide interest-rate hikes based on 90-day-old phone surveys—because live economic visibility would require a surveillance state.",
+    "breakthroughCounter": "Synthesizing the 2026 Economics Nobel (Robert E. Hall & Michael Woodford on microeconomic foundations of stabilization) and the 2025 Nobel (Mokyr, Aghion & Howitt on creative destruction) with Harvard Opportunity Insights and BEA/Eurostat Multi-Party Computation differential-privacy clean rooms lets policymakers detect and relieve zip-code bottlenecks in 48–72 hours with zero centralized personal records.",
+    "socialNormShift": "Retiring blunt nationwide interest-rate sledgehammers and 6-month revised phone polls for automatic, micro-founded zip-code and industry stabilizers running inside mathematically privacy-locked cryptographic clean rooms.",
+    "humanStory": {
+      "protagonist": "Tanya Morales, Owner of a 28-Person Electric-Motor Stator Shop",
+      "location": "Cuyahoga County, Cleveland, Ohio & Rotterdam Supply Corridor",
+      "snippet": "When an undersea landslide disrupted Pacific specialty-alloy lanes, BEA–Fed differential-privacy clean rooms flagged the exact 3-county -19% invoice dip in 48 hours—unlocking recycled-alloy bridge credits and magnet retooling before Friday payroll without a single layoff or mortgage hike."
+    },
+    "quote": {
+      "text": "Macroeconomic stabilization only works when built from real microeconomic behavior and clear forward expectations—not crude top-down aggregates detached from how households and firms actually decide.",
+      "author": "Prof. Michael Woodford & Prof. Robert E. Hall",
+      "role": "2026 Nobel Laureates in Economic Sciences (Columbia & Stanford)",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/"
+    },
+    "companiesAndLabs": [
+      "Harvard Opportunity Insights (Prof. Raj Chetty)",
+      "2026 Nobel Stabilization Research (Hall & Woodford)",
+      "2025 Nobel Growth Lab Network (Mokyr, Aghion & Howitt)",
+      "U.S. Bureau of Economic Analysis (BEA) High-Frequency Desk",
+      "U.S. Census Differential Privacy & Business Formation",
+      "Eurostat Experimental Real-Time Nowcasting"
+    ],
+    "globalPrecedents": [
+      "2026 Nobel Prize in Economic Sciences: Robert E. Hall & Michael Woodford (Micro-Stabilization)",
+      "2025 Nobel Prize in Economic Sciences: Joel Mokyr, Philippe Aghion & Peter Howitt (Creative Destruction)",
+      "Opportunity Insights Economic Tracker: 3-to-5-Day Zip-Code & Income-Quartile Clarity",
+      "Eurostat & US Census Multi-Party Computation / Differential-Privacy Statistical Firewalls"
+    ],
+    "synergyLinks": [
+      "empirical-ai-economics-telemetry",
+      "post-scarcity-economics",
+      "public-digital-payment-rails",
+      "forty-eight-hour-governance"
+    ],
+    "infographic": {
+      "headlineMetric": "48 Hours",
+      "headlineLabel": "Privacy-Safe Bottleneck Detection",
+      "unit": "Economic Shock Detection & Targeted Relief Latency (Days)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Lagging Phone Surveys & 6-Month GDP Revisions",
+          "value": 120,
+          "display": "120-day lag"
+        },
+        {
+          "year": 2027,
+          "label": "Opportunity Insights + BEA/Eurostat Flash Clean Rooms",
+          "value": 14,
+          "display": "14-day weekly"
+        },
+        {
+          "year": 2031,
+          "label": "Hall-Woodford Automatic Zip-Code Stabilizers",
+          "value": 3,
+          "display": "72-hr relief"
+        },
+        {
+          "year": 2035,
+          "label": "Sub-48-Hour MPC Clean-Room & Open Civic Macro Twins",
+          "value": 2,
+          "display": "48-hr precision"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Shock Detection Lag",
+          "value": "48 Hours",
+          "detail": "Down from 90–180 day landline survey & GDP revision blindness"
+        },
+        {
+          "label": "Targeting Precision",
+          "value": "94%",
+          "detail": "Surgical zip-code/NAICS bridges replace 38%-waste blanket bailouts"
+        },
+        {
+          "label": "Centralized Raw IDs",
+          "value": "0 Records",
+          "detail": "MPC + Laplace differential privacy keeps bank records decentralized"
+        },
+        {
+          "label": "Productivity Churn Lift",
+          "value": "+0.9%/yr",
+          "detail": "Aghion-Howitt retooling grants accelerate frontier reallocation"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Harvard Opportunity Insights (Prof. Raj Chetty)",
+        "url": "https://opportunityinsights.org/"
+      },
+      {
+        "name": "2026 Nobel Stabilization Research (Hall & Woodford)",
+        "url": "https://www.nobelprize.org/prizes/economic-sciences/"
+      },
+      {
+        "name": "2025 Nobel Growth Lab Network (Mokyr, Aghion & Howitt)",
+        "url": "https://www.nobelprize.org/prizes/economic-sciences/2025/summary/"
+      },
+      {
+        "name": "U.S. Bureau of Economic Analysis (BEA) High-Frequency Desk",
+        "url": "https://www.bea.gov/"
+      },
+      {
+        "name": "U.S. Census Differential Privacy & Business Formation",
+        "url": "https://www.census.gov/bfs"
+      },
+      {
+        "name": "Eurostat Experimental Real-Time Nowcasting",
+        "url": "https://ec.europa.eu/eurostat/web/experimental-statistics"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2026 Nobel Prize in Economic Sciences: Robert E. Hall & Michael Woodford (Micro-Stabilization)",
+        "url": "https://www.nobelprize.org/prizes/economic-sciences/"
+      },
+      {
+        "name": "2025 Nobel Prize in Economic Sciences: Joel Mokyr, Philippe Aghion & Peter Howitt (Creative Destruction)",
+        "url": "https://www.nobelprize.org/prizes/economic-sciences/2025/summary/"
+      },
+      {
+        "name": "Opportunity Insights Economic Tracker: 3-to-5-Day Zip-Code & Income-Quartile Clarity",
+        "url": "https://tracktherecovery.org/"
+      },
+      {
+        "name": "Eurostat & US Census Multi-Party Computation / Differential-Privacy Statistical Firewalls",
+        "url": "https://ec.europa.eu/eurostat/web/experimental-statistics"
+      }
+    ]
+  },
+  {
+    "slug": "sortition-citizens-assemblies",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/sortition-citizens-assemblies",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Democracy Without Lobbyists: Permanent Citizen Juries Solving Polarized Deadlocks",
+    "tagline": "Pairing elected legislatures with paid, demographically representative Citizen Assemblies from Ireland and East Belgium to Paris to forge 80%+ consensus free of donor capture.",
+    "cynicBelief": "Modern democracies are permanently paralyzed—everyday citizens are too polarized and uninformed to weigh complex trade-offs, while elected lawmakers are held hostage by campaign bundlers and primary attack ads.",
+    "breakthroughCounter": "Across 700+ OECD-documented deliberative processes—including Ireland's constitutional Citizens' Assemblies, Belgium's permanent Ostbelgien Citizens' Council, Paris's permanent 100-citizen Assembly, and Stanford's Deliberative Polling—stratified random civic lotteries with paid jury stipends, childcare, and cross-examined scientists routinely achieve 76%–86% nuanced consensus on 40-year gridlocks.",
+    "socialNormShift": "Institutionalizing permanent rotating Sortition Citizen Chambers alongside city councils and parliaments—shielded by felony anti-lobbying laws and armed with statutory 90-day floor-vote or ballot-referral mandates.",
+    "humanStory": {
+      "protagonist": "Dale Whittaker (54, Electric Freight Driver) & Amina Hassan (Pediatric ER Nurse)",
+      "location": "Ohio–Pennsylvania Regional Citizens' Chamber (Pittsburgh)",
+      "snippet": "Drawn by stratified lottery at $320/day jury pay with zero lobbyists allowed, rural driver Dale and urban nurse Amina co-authored a 3% rural property-tax royalty compact for buried HVDC clean-grid corridors—winning an 84% assembly supermajority and passing the statehouse 89–11 within 90 days."
+    },
+    "quote": {
+      "text": "When you bring a random microcosm of the public together under good conditions—with balanced facts, small-group moderation, and zero campaign donors in the room—people don't polarize; they listen, learn, and solve their hardest shared problems.",
+      "author": "Prof. James Fishkin",
+      "role": "Director, Stanford Deliberative Democracy Lab",
+      "url": "https://deliberation.stanford.edu/"
+    },
+    "companiesAndLabs": [
+      "Stanford Deliberative Democracy Lab (Prof. James Fishkin)",
+      "DemocracyNext (Claudia Chwalisz)",
+      "Sortition Foundation (Open-Source Stratified Lotteries)",
+      "OECD Innovative Citizen Participation Hub",
+      "Healthy Democracy (Oregon Citizens' Initiative Review)",
+      "Ostbelgien Permanent Bürgerrat Secretariat"
+    ],
+    "globalPrecedents": [
+      "Ireland's Citizens' Assemblies (99 Citizens Unlocking Constitutional & Climate Consensus)",
+      "Ostbelgien Model, Belgium (World's First Permanent Sortition Council With Statutory Reply Law)",
+      "Assemblée Citoyenne de Paris (Permanent 100-Citizen Chamber Submitting Council Bills)",
+      "Oregon Citizens' Initiative Review (CIR) & Texas Deliberative Polls (Sparked #1 US Wind Boom)"
+    ],
+    "synergyLinks": [
+      "bridging-consensus-trust",
+      "participatory-municipal-budgeting",
+      "forty-eight-hour-governance",
+      "high-trust-civic-norms"
+    ],
+    "infographic": {
+      "headlineMetric": "82% Consensus",
+      "headlineLabel": "Cross-Partisan Citizen Jury Agreement",
+      "unit": "Supermajority Consensus Rate on Gridlocked Long-Term Policy (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2025,
+          "label": "Donor-Captured Committees & 2 PM Insider Hearings",
+          "value": 49,
+          "display": "51–49 deadlock"
+        },
+        {
+          "year": 2028,
+          "label": "Paid Municipal & Grid-Siting Citizen Lotteries",
+          "value": 74,
+          "display": "74% agreement"
+        },
+        {
+          "year": 2032,
+          "label": "Ostbelgien/Paris Statutory 90-Day Floor Vote Norm",
+          "value": 80,
+          "display": "80% supermajority"
+        },
+        {
+          "year": 2036,
+          "label": "Permanent Bicameral House of Citizens Co-Review",
+          "value": 84,
+          "display": "84% durable trust"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "OECD Documented Waves",
+          "value": "700+ Cases",
+          "detail": "76%–86% typical supermajority across class & party lines"
+        },
+        {
+          "label": "Ostbelgien Adoption",
+          "value": ">80% Enacted",
+          "detail": "Permanent 24-citizen council backed by parliamentary reply mandate"
+        },
+        {
+          "label": "Census Mirror Precision",
+          "value": "+/- 1%",
+          "detail": "$320/day stipend + childcare seats shift nurses, renters & truckers"
+        },
+        {
+          "label": "Campaign Donor Cash",
+          "value": "$0",
+          "detail": "Jurors never run for re-election; felony shield bars lobbyist contact"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Stanford Deliberative Democracy Lab (Prof. James Fishkin)",
+        "url": "https://deliberation.stanford.edu/"
+      },
+      {
+        "name": "DemocracyNext (Claudia Chwalisz)",
+        "url": "https://www.democracynext.org/"
+      },
+      {
+        "name": "Sortition Foundation (Open-Source Stratified Lotteries)",
+        "url": "https://www.sortitionfoundation.org/"
+      },
+      {
+        "name": "OECD Innovative Citizen Participation Hub",
+        "url": "https://www.oecd.org/governance/innovative-citizen-participation/"
+      },
+      {
+        "name": "Healthy Democracy (Oregon Citizens' Initiative Review)",
+        "url": "https://healthydemocracy.org/"
+      },
+      {
+        "name": "Ostbelgien Permanent Bürgerrat Secretariat",
+        "url": "https://buergerdialog.be/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Ireland's Citizens' Assemblies (99 Citizens Unlocking Constitutional & Climate Consensus)",
+        "url": "https://citizensassembly.ie/"
+      },
+      {
+        "name": "Ostbelgien Model, Belgium (World's First Permanent Sortition Council With Statutory Reply Law)",
+        "url": "https://buergerdialog.be/"
+      },
+      {
+        "name": "Assemblée Citoyenne de Paris (Permanent 100-Citizen Chamber Submitting Council Bills)",
+        "url": "https://www.paris.fr/pages/l-assemblee-citoyenne-de-paris-20018"
+      },
+      {
+        "name": "Oregon Citizens' Initiative Review (CIR) & Texas Deliberative Polls (Sparked #1 US Wind Boom)",
+        "url": "https://healthydemocracy.org/"
+      }
+    ]
+  },
+  {
+    "slug": "participatory-municipal-budgeting",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/participatory-municipal-budgeting",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Neighbors Holding the City Checkbook: From Porto Alegre to Paris & Taipei Direct Civic Budgets",
+    "tagline": "Handing residents ages 14+ binding authority over 15% of municipal capital budgets via engineer-priced knapsack ballots and Barcelona's open-source Decidim.",
+    "cynicBelief": "Local taxes vanish into opaque contractor backrooms for downtown donors—yet letting ordinary neighbors and teenagers vote directly on infrastructure budgets would defund sewers for frivolous pet projects.",
+    "breakthroughCounter": "Tested across 11,000+ cities—from Porto Alegre's World Bank-verified leap to 98% sewer/water coverage and lower infant mortality, to Paris's €500M+ Budget Participatif (with 3x equity reserves for lower-income wards) and Barcelona's open-source Decidim across 450+ cities—neighbors consistently prioritize durable basic infrastructure, cut school vandalism >70%, and boost voluntary local tax compliance by +10%–16%.",
+    "socialNormShift": "Cities lock 15% of annual capital infrastructure budgets into ring-fenced neighborhood knapsack ballots open to all residents aged 14+, pairing 60-day civil-engineer turnkey pricing with bundled 10-year maintenance escrows.",
+    "humanStory": {
+      "protagonist": "15-Year-Old Mateo Alvarez & His Grandmother Doña Rosa (71)",
+      "location": "District 9, Queens, New York (Mirrored in Paris, Cascais & Taipei)",
+      "snippet": "Using a real $28M district knapsack ballot weighted 3x for park-starved blocks, Mateo and Doña Rosa funded six bioswale raised crosswalks and three Paris-style Cours Oasis cooling schoolyards—breaking ground in 90 days with live construction tracking on every resident's phone."
+    },
+    "quote": {
+      "text": "When citizens stop merely voting for politicians every four years and start co-authoring and voting directly on real city budgets, tax morale rises, corruption shrinks, and neglected neighborhoods finally come first.",
+      "author": "Arnau Monterde",
+      "role": "Director of Democratic Innovation, Barcelona & Co-Founder of Decidim",
+      "url": "https://decidim.org/"
+    },
+    "companiesAndLabs": [
+      "Decidim Free Open-Source Platform (Barcelona, 450+ Cities)",
+      "Stanford Crowdsourced Democracy Team (Knapsack PB)",
+      "Participatory Budgeting Project (PBP)",
+      "People Powered Global Hub",
+      "Ville de Paris Budget Participatif Engineering Desk",
+      "NYC Civic Engagement Commission (The People's Money)"
+    ],
+    "globalPrecedents": [
+      "Porto Alegre, Brazil (Sewer/Water Coverage 75% -> 98% & Infant Mortality Drop, World Bank Audited)",
+      "Paris Budget Participatif (€500M+ Invested, Cours Oasis Schoolyards & 3x Low-Income Ward Weight)",
+      "Barcelona Decidim Commons (Auditable Open-Source Ruby Platform Across 450+ Governments)",
+      "Cascais (Portugal), Taipei & NYC/Boston Youth PB (Ages 11–14+ Voting Real Capital Dollars)"
+    ],
+    "synergyLinks": [
+      "sortition-citizens-assemblies",
+      "forty-eight-hour-governance",
+      "phone-free-childhood-play-hoods",
+      "community-land-trusts-permanence"
+    ],
+    "infographic": {
+      "headlineMetric": "15% Civic Capital",
+      "headlineLabel": "Binding Neighborhood Checkbook Share",
+      "unit": "Municipal Capital Infrastructure Directly Allocated by Residents (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2025,
+          "label": "Token 0.2% Council Pots & 4-Year Procurement Drag",
+          "value": 0.5,
+          "display": "0.5% token pilots"
+        },
+        {
+          "year": 2028,
+          "label": "Paris/Decidim 5% Charter + 3x Ward Equity Multipliers",
+          "value": 5.0,
+          "display": "5% binding share"
+        },
+        {
+          "year": 2032,
+          "label": "Modular Unit-Price Menus (<12-Mo Build) + Age-14 School PB",
+          "value": 10.0,
+          "display": "10% + Youth PB"
+        },
+        {
+          "year": 2036,
+          "label": "Metro & Utility Knapsack Standard With 10-Yr O&M Escrow",
+          "value": 15.0,
+          "display": "15% civic standard"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Paris Civic Capital",
+          "value": "€500M+",
+          "detail": "1,000+ neighbor-voted projects with 3x low-income district reserve"
+        },
+        {
+          "label": "Porto Alegre Sanitation",
+          "value": "75% -> 98%",
+          "detail": "World Bank-verified clean water surge + +12%–16% tax compliance"
+        },
+        {
+          "label": "Open-Source Decidim",
+          "value": "450+ Cities",
+          "detail": "$0 software license fees + cryptographic proposal-to-invoice audit"
+        },
+        {
+          "label": "Youth Civic Lift",
+          "value": "+14% Turnout",
+          "detail": "Age-14 school PB voters show higher adult voting & >70% less vandalism"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Decidim Free Open-Source Platform (Barcelona, 450+ Cities)",
+        "url": "https://decidim.org/"
+      },
+      {
+        "name": "Stanford Crowdsourced Democracy Team (Knapsack PB)",
+        "url": "https://voxpopuli.stanford.edu/"
+      },
+      {
+        "name": "Participatory Budgeting Project (PBP)",
+        "url": "https://www.participatorybudgeting.org/"
+      },
+      {
+        "name": "People Powered Global Hub",
+        "url": "https://www.peoplepowered.org/"
+      },
+      {
+        "name": "Ville de Paris Budget Participatif Engineering Desk",
+        "url": "https://budgetparticipatif.paris.fr/"
+      },
+      {
+        "name": "NYC Civic Engagement Commission (The People's Money)",
+        "url": "https://www.participate.nyc.gov/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Porto Alegre, Brazil (Sewer/Water Coverage 75% -> 98% & Infant Mortality Drop, World Bank Audited)",
+        "url": "https://openknowledge.worldbank.org/"
+      },
+      {
+        "name": "Paris Budget Participatif (€500M+ Invested, Cours Oasis Schoolyards & 3x Low-Income Ward Weight)",
+        "url": "https://budgetparticipatif.paris.fr/"
+      },
+      {
+        "name": "Barcelona Decidim Commons (Auditable Open-Source Ruby Platform Across 450+ Governments)",
+        "url": "https://decidim.org/"
+      },
+      {
+        "name": "Cascais (Portugal), Taipei & NYC/Boston Youth PB (Ages 11–14+ Voting Real Capital Dollars)",
+        "url": "https://www.participate.nyc.gov/"
+      }
+    ]
+  },
+  {
+    "slug": "cooperative-broadband-energy-trusts",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/cooperative-broadband-energy-trusts",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "25-Gigabit Fiber & Microgrids Owned by the Town: Chattanooga EPB & Citizen Utility Co-ops",
+    "tagline": "Ending private cable and grid monopoly extraction via Chattanooga's $2.7B 25-Gbps smart-grid fiber, Longmont NextLight, and 2,200+ citizen energy cooperatives.",
+    "cynicBelief": "Towns and working families are stuck forever paying $120/month for laggy monopoly internet and enduring multi-day storm blackouts because community-owned utilities can never match Wall Street efficiency.",
+    "breakthroughCounter": "Chattanooga's municipal EPB wired symmetrical 25-Gigabit community fiber alongside 1,200+ self-healing smart-grid switches—generating $2.7B+ in audited local economic value, cutting storm outages >50%, and giving 28,000+ low-income public school students free fiber (HCS EdConnect) with zero tax hikes, echoed by Longmont's #1-rated $50 NextLight ISP and Europe's 2,200+ REScoop citizen energy co-ops.",
+    "socialNormShift": "Communities treat street-level dark fiber glass and solar-sodium substation microgrids as non-extractive municipal or member-owned commons—delivering symmetrical multi-gigabit speed at cost and crediting solar dividends directly onto family utility bills.",
+    "humanStory": {
+      "protagonist": "Marcus & Keisha Reynolds and 13-Year-Old Jayden",
+      "location": "East Chattanooga, Tennessee & Rural Electric Co-op Belt",
+      "snippet": "When tornado-force winds snapped an oak across a nearby feeder line, EPB's fiber-linked IntelliRupters healed the fault in 0.4 seconds without flickering Keisha's telehealth clinic—while flat $58 multi-gigabit fiber and four citizen school-roof solar shares save the family $1,670 every year."
+    },
+    "quote": {
+      "text": "We didn't build community fiber to maximize quarterly shareholder extraction—we built infrastructure for the next fifty years so every child, manufacturer, and family in Chattanooga can compete with anywhere on Earth.",
+      "author": "David Wade",
+      "role": "CEO, EPB of Chattanooga",
+      "url": "https://epb.com/"
+    },
+    "companiesAndLabs": [
+      "EPB of Chattanooga (25 Gbps Fiber & Smart Grid)",
+      "NextLight Municipal Fiber (Longmont, Colorado)",
+      "UTOPIA Fiber & Ammon Open-Access Ring (Utah & Idaho)",
+      "REScoop.eu (2,200+ European Citizen Energy Co-ops)",
+      "Institute for Local Self-Reliance (Community Broadband)",
+      "National Rural Electric Cooperative Association (NRECA)"
+    ],
+    "globalPrecedents": [
+      "Chattanooga EPB: World-First 25 Gbps Community Fiber & $2.69B+ Audited 10-Yr Economic Benefit",
+      "HCS EdConnect (Hamilton County, TN): 28,000+ Low-Income Students Wired With Free Fiber at $0",
+      "Longmont NextLight (#1 Rated US ISP at ~$50/Mo) & Utah UTOPIA Open-Access 15-ISP Competition",
+      "REScoop.eu Federation: 1.5M+ European Citizens Sharing Rooftop Solar, Wind & Heat Dividends"
+    ],
+    "synergyLinks": [
+      "iron-sodium-storage",
+      "perovskite-tandem-solar",
+      "community-land-trusts-permanence",
+      "universal-capital-dividends"
+    ],
+    "infographic": {
+      "headlineMetric": "25 Gbps @ $58",
+      "headlineLabel": "At-Cost Town Fiber & Self-Healing Grid",
+      "unit": "Combined Annual Household Broadband + Net Microgrid Power Bill ($/Yr)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2025,
+          "label": "Captive Cable Monopoly ($110/mo) + Blackout-Prone Grid",
+          "value": 3720,
+          "display": "$3,720/yr monopoly"
+        },
+        {
+          "year": 2028,
+          "label": "Preemption Repeal + Dual-Use Smart-Grid Fiber Bonds",
+          "value": 2850,
+          "display": "$2,850/yr co-op"
+        },
+        {
+          "year": 2032,
+          "label": "Symmetrical 25G Fiber + REScoop Solar-Sodium Shares",
+          "value": 2050,
+          "display": "$2,050/yr (-45%)"
+        },
+        {
+          "year": 2036,
+          "label": "100G Open Civic Glass + VPP Microgrid Bill Credits",
+          "value": 1480,
+          "display": "$1,480/yr abundance"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Chattanooga EPB ROI",
+          "value": "$2.7B+",
+          "detail": "Audited 10-yr local benefit + 9,500+ jobs with $0 property-tax hike"
+        },
+        {
+          "label": "Outage Reduction",
+          "value": ">50% Cut",
+          "detail": "0.4-second fiber-linked IntelliRupter self-healing storm switches"
+        },
+        {
+          "label": "EdConnect Equity",
+          "value": "$0 / Month",
+          "detail": "28,000+ low-income K–12 students receive permanent symmetrical fiber"
+        },
+        {
+          "label": "European REScoops",
+          "value": "2,200+ Co-ops",
+          "detail": "1.5M+ member-owners earning direct rooftop solar & wind dividends"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "EPB of Chattanooga (25 Gbps Fiber & Smart Grid)",
+        "url": "https://epb.com/"
+      },
+      {
+        "name": "NextLight Municipal Fiber (Longmont, Colorado)",
+        "url": "https://mynextlight.com/"
+      },
+      {
+        "name": "UTOPIA Fiber & Ammon Open-Access Ring (Utah & Idaho)",
+        "url": "https://www.utopiafiber.com/"
+      },
+      {
+        "name": "REScoop.eu (2,200+ European Citizen Energy Co-ops)",
+        "url": "https://www.rescoop.eu/"
+      },
+      {
+        "name": "Institute for Local Self-Reliance (Community Broadband)",
+        "url": "https://muninetworks.org/"
+      },
+      {
+        "name": "National Rural Electric Cooperative Association (NRECA)",
+        "url": "https://www.electric.coop/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Chattanooga EPB: World-First 25 Gbps Community Fiber & $2.69B+ Audited 10-Yr Economic Benefit",
+        "url": "https://epb.com/newsroom/press-releases/ten-years-of-epbs-community-wide-fiber-optic-network-generates-269-billion-in-economic-benefit/"
+      },
+      {
+        "name": "HCS EdConnect (Hamilton County, TN): 28,000+ Low-Income Students Wired With Free Fiber at $0",
+        "url": "https://epb.com/about/community/edconnect/"
+      },
+      {
+        "name": "Longmont NextLight (#1 Rated US ISP at ~$50/Mo) & Utah UTOPIA Open-Access 15-ISP Competition",
+        "url": "https://mynextlight.com/"
+      },
+      {
+        "name": "REScoop.eu Federation: 1.5M+ European Citizens Sharing Rooftop Solar, Wind & Heat Dividends",
+        "url": "https://www.rescoop.eu/"
+      }
+    ]
+  },
+  {
+    "slug": "community-land-trusts-permanence",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/community-land-trusts-permanence",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Neighborhoods Immune to Gentrification: Champlain, Brussels & London Community Land Trusts",
+    "tagline": "Separating democratic 99-year trust land from family-owned mass-timber homes so new parks and subways build $50k+ working-family equity with zero displacement.",
+    "cynicBelief": "Every time a city builds a new subway station or park in a working-class neighborhood, speculative land spikes inevitably evict the nurses, teachers, and families living there—unless you trap them in zero-equity public rentals.",
+    "breakthroughCounter": "Born in 1969 Georgia civil-rights organizing and proven across 3,200+ homes at Burlington's Champlain Housing Trust, Houston CLT, London CLT, and Brussels CLTB, Community Land Trusts hold underlying land permanently off the speculative market while families buy the timber home above—delivering 10x lower foreclosure rates in crashes, $35k–$65k+ seller nest-eggs, and infinite subsidy recycling.",
+    "socialNormShift": "Cities bank 25% of transit-corridor and park-adjacent parcels into tripartite Community Land Trusts (1/3 residents, 1/3 neighbors, 1/3 civic stewards) paired with by-right mass-timber construction—ending fear of neighborhood improvements forever.",
+    "humanStory": {
+      "protagonist": "Carla Mendez (Pediatric Physical Therapist) & Devon Brooks (27, School Music Teacher)",
+      "location": "East End Light-Rail Corridor, Houston, Texas (Modeled on Burlington & Brussels)",
+      "snippet": "Seven years after buying her net-zero CLT townhouse for $165,000 two blocks from a new rail stop where speculative lots tripled, Carla sold to growing-family size—walking away with a $54,200 equity check while music teacher Devon bought her exact home that afternoon for $188,000 instead of $490,000."
+    },
+    "quote": {
+      "text": "A Community Land Trust refuses the false choice between displacement and permanent renting: one public investment locks in affordability forever while still helping working families build real wealth.",
+      "author": "Brenda Torpy",
+      "role": "Founding CEO, Champlain Housing Trust (Burlington, Vermont)",
+      "url": "https://www.getchamplain.org/"
+    },
+    "companiesAndLabs": [
+      "Champlain Housing Trust (Burlington, VT — 3,200+ Homes)",
+      "Houston Community Land Trust (HCLT)",
+      "Community Land Trust Brussels (CLTB Passive Timber)",
+      "London Community Land Trust",
+      "Grounded Solutions Network & Center for CLT Innovation",
+      "Lincoln Institute of Land Policy"
+    ],
+    "globalPrecedents": [
+      "New Communities Inc., Albany, Georgia (1969 Civil-Rights Invention by Charles & Shirley Sherrod)",
+      "Champlain Housing Trust (UN World Habitat Award; 10x Lower Foreclosures & 74% Market Graduation)",
+      "Dudley Street Neighborhood Initiative, Boston (Community Eminent Domain & 35 Yrs Zero Displacement)",
+      "Brussels CLTB & Houston CLT (Publicly Backed Mass-Timber & TIRZ Rapid Scaling)"
+    ],
+    "synergyLinks": [
+      "abundant-beautiful-housing",
+      "ending-homelessness-villages",
+      "participatory-municipal-budgeting",
+      "intergenerational-villages"
+    ],
+    "infographic": {
+      "headlineMetric": "10x Safer Equity",
+      "headlineLabel": "Permanent Affordability & Crash Resilience",
+      "unit": "Cumulative Working Families Owning Affordably Per $10M Public Seed (30-Yr Count)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2025,
+          "label": "Expiring 15-Year Tax Credits (0 Homes Left at Year 30)",
+          "value": 85,
+          "display": "85 temp assists"
+        },
+        {
+          "year": 2028,
+          "label": "Pre-Transit CLT Land Banking + Fannie/Freddie Riders",
+          "value": 180,
+          "display": "180 families"
+        },
+        {
+          "year": 2032,
+          "label": "Robotic 6-Story Mass-Timber on CLT Corridors",
+          "value": 310,
+          "display": "310 families"
+        },
+        {
+          "year": 2036,
+          "label": "Multi-Generation Recycled Equity + $21M Family Wealth",
+          "value": 430,
+          "display": "430+ owners"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Foreclosure Safety",
+          "value": "10x Lower",
+          "detail": "Lincoln Institute audit vs. market mortgages during 2008 crash"
+        },
+        {
+          "label": "Seller Nest-Egg Equity",
+          "value": "$35k–$65k+",
+          "detail": "74% of Champlain resellers graduate smoothly to market homes"
+        },
+        {
+          "label": "Starter Price Cut",
+          "value": "-45% to -55%",
+          "detail": "Removes speculative land inflation permanently via 99-yr lease"
+        },
+        {
+          "label": "Subsidy Retention",
+          "value": "100% Forever",
+          "detail": "Zero expiring covenants; one civic grant serves 4+ generations"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Champlain Housing Trust (Burlington, VT — 3,200+ Homes)",
+        "url": "https://www.getchamplain.org/"
+      },
+      {
+        "name": "Houston Community Land Trust (HCLT)",
+        "url": "https://houstonclt.org/"
+      },
+      {
+        "name": "Community Land Trust Brussels (CLTB Passive Timber)",
+        "url": "https://cltb.be/en/"
+      },
+      {
+        "name": "London Community Land Trust",
+        "url": "https://www.londonclt.org/"
+      },
+      {
+        "name": "Grounded Solutions Network & Center for CLT Innovation",
+        "url": "https://groundedsolutions.org/"
+      },
+      {
+        "name": "Lincoln Institute of Land Policy",
+        "url": "https://www.lincolninst.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "New Communities Inc., Albany, Georgia (1969 Civil-Rights Invention by Charles & Shirley Sherrod)",
+        "url": "https://cltweb.org/"
+      },
+      {
+        "name": "Champlain Housing Trust (UN World Habitat Award; 10x Lower Foreclosures & 74% Market Graduation)",
+        "url": "https://www.getchamplain.org/"
+      },
+      {
+        "name": "Dudley Street Neighborhood Initiative, Boston (Community Eminent Domain & 35 Yrs Zero Displacement)",
+        "url": "https://www.dsni.org/"
+      },
+      {
+        "name": "Brussels CLTB & Houston CLT (Publicly Backed Mass-Timber & TIRZ Rapid Scaling)",
+        "url": "https://cltb.be/en/"
+      }
+    ]
+  },
+  {
+    "slug": "right-to-repair-modular-circularity",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/right-to-repair-modular-circularity",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Built to Last 30 Years: EU Digital Product Passports, Vienna Repair Bonuses & Modular Hardware",
+    "tagline": "Ending glued-shut obsolescence with QR Digital Product Passports, Austria's million-voucher 50% Reparaturbonus, and 5-minute screwdriver upgrades.",
+    "cynicBelief": "Manufacturers will always glue batteries shut, lock spare parts with software serialization, and force families onto a three-year replacement treadmill because disposable electronics maximize corporate profits.",
+    "breakthroughCounter": "The EU Right to Repair Directive and Digital Product Passports (mandating 7–10 years of parts/schematics and banning part-pairing), France's retail Durability Index, Austria's 1,000,000+ redeemed 50% Reparaturbonus vouchers, and 10/10 iFixit-scored Framework Laptops and Fairphone 5 devices proved sleek modular heirlooms slash 10-year family hardware costs by 76% while creating 7x more local technician jobs.",
+    "socialNormShift": "Every appliance, vehicle, and computer carries a front-of-box 1–10 Durability Score and laser-etched QR Digital Product Passport—backed by eco-modulated throwaway fees funding 50% citizen repair vouchers and public-library Tool Commons.",
+    "humanStory": {
+      "protagonist": "Lukas Steiner (41, Structural Drafter) & 11-Year-Old Clara",
+      "location": "Neubau Neighborhood Repair Guild & Library of Things, Vienna",
+      "snippet": "In 25 minutes on a Saturday afternoon, Clara upgrades her 8-year-old Framework laptop's neural mainboard and battery with five captive screws for $185 while Lukas scans his 14-year-old espresso maker's QR Digital Passport to sinter a $6.40 valve seat—paying just €34 after Vienna's 50% Reparaturbonus."
+    },
+    "quote": {
+      "text": "Consumer electronics aren't disposable—they fail only because companies chose glue and proprietary locks over screws and open schematics. Give people one screwdriver and modular parts, and a laptop lasts a decade.",
+      "author": "Nirav Patel",
+      "role": "Founder & CEO, Framework Computer",
+      "url": "https://frame.work/"
+    },
+    "companiesAndLabs": [
+      "Framework Computer (10/10 Modular Laptops)",
+      "Fairphone (10-Year Longevity Smartphones)",
+      "iFixit (Global Open Repair Manuals & Teardowns)",
+      "Austrian & Vienna Reparaturbonus Network",
+      "Repair Café International Foundation (2,500+ Hubs)",
+      "The Repair Association (Bipartisan Right-to-Repair)"
+    ],
+    "globalPrecedents": [
+      "EU Right to Repair Directive & Ecodesign Digital Product Passports (7–10 Yrs Parts + Anti-Pairing)",
+      "Austria & Vienna Reparaturbonus: Over 1,000,000 Citizen Repair Vouchers Redeemed (50% up to €200)",
+      "France Mandatory Front-of-Box Repairability & Durability Score (>70% Shopper Shift)",
+      "US Bipartisan Right-to-Repair Laws (CO, MN, CA, NY, OR Covering Tractors, Wheelchairs & Phones)"
+    ],
+    "synergyLinks": [
+      "local-microfactories",
+      "fab-commons-wealth",
+      "purpose-craft-guilds",
+      "post-scarcity-economics"
+    ],
+    "infographic": {
+      "headlineMetric": "-76% Decade Cost",
+      "headlineLabel": "10-Year Family Hardware Spend Saved",
+      "unit": "10-Year Household Electronics, Appliance & Tool Expenditure ($)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Glued 3-Year Replacement Cycle & Part-Pairing Locks",
+          "value": 12500,
+          "display": "$12,500 / 10 yrs"
+        },
+        {
+          "year": 2027,
+          "label": "EU Battery/DPP Rules + French 1–10 Durability Labels",
+          "value": 8200,
+          "display": "$8,200 / 10 yrs"
+        },
+        {
+          "year": 2031,
+          "label": "50% Reparaturbonus + 0% Repair VAT + Modular Laptops",
+          "value": 4900,
+          "display": "$4,900 / 10 yrs"
+        },
+        {
+          "year": 2035,
+          "label": "Universal Modular Slots + Library of Things + Open CAD",
+          "value": 3030,
+          "display": "$3,030 (-76%)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Vienna/Austria Bonus",
+          "value": "1M+ Vouchers",
+          "detail": "Covers 50% up to €200 at 3,500+ local repair craft shops"
+        },
+        {
+          "label": "Modular Upgrade Time",
+          "value": "<5 Minutes",
+          "detail": "Framework & Fairphone 5 achieve 10/10 iFixit screwdriver swaps"
+        },
+        {
+          "label": "Appliance Lifespan",
+          "value": "8 -> 22+ Yrs",
+          "detail": "QR Digital Product Passports + post-year-5 open .STEP CAD files"
+        },
+        {
+          "label": "Local Job Multiplier",
+          "value": "7x More Jobs",
+          "detail": "Skilled neighborhood repair crafts per tonne vs. e-waste shredding"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Framework Computer (10/10 Modular Laptops)",
+        "url": "https://frame.work/"
+      },
+      {
+        "name": "Fairphone (10-Year Longevity Smartphones)",
+        "url": "https://www.fairphone.com/"
+      },
+      {
+        "name": "iFixit (Global Open Repair Manuals & Teardowns)",
+        "url": "https://www.ifixit.com/"
+      },
+      {
+        "name": "Austrian & Vienna Reparaturbonus Network",
+        "url": "https://www.reparaturbonus.at/"
+      },
+      {
+        "name": "Repair Café International Foundation (2,500+ Hubs)",
+        "url": "https://www.repaircafe.org/en/"
+      },
+      {
+        "name": "The Repair Association (Bipartisan Right-to-Repair)",
+        "url": "https://www.repair.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "EU Right to Repair Directive & Ecodesign Digital Product Passports (7–10 Yrs Parts + Anti-Pairing)",
+        "url": "https://commission.europa.eu/energy-climate-change-environment/standards-tools-and-labels/products-labelling-rules-and-requirements/sustainable-products/ecodesign-sustainable-products-regulation_en"
+      },
+      {
+        "name": "Austria & Vienna Reparaturbonus: Over 1,000,000 Citizen Repair Vouchers Redeemed (50% up to €200)",
+        "url": "https://www.reparaturbonus.at/"
+      },
+      {
+        "name": "France Mandatory Front-of-Box Repairability & Durability Score (>70% Shopper Shift)",
+        "url": "https://www.ecologie.gouv.fr/indice-reparabilite"
+      },
+      {
+        "name": "US Bipartisan Right-to-Repair Laws (CO, MN, CA, NY, OR Covering Tractors, Wheelchairs & Phones)",
+        "url": "https://www.repair.org/"
+      }
+    ]
+  },
+  {
+    "slug": "restorative-nordic-rehabilitation",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/restorative-nordic-rehabilitation",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Halden Over Cages: Cutting Recidivism from 70% to 20% Through Restorative Dignity & Craft",
+    "tagline": "Replacing $100k/yr high-crime cages with Norway's Halden dynamic security and UCSF Amend's North Dakota & San Quentin reforms—preventing 1,000+ crimes per 1,000 releases.",
+    "cynicBelief": "Humane prisons with workshops, kitchens, and mentor-officers are 'soft on crime' luxury coddling that only works in homogeneous Scandinavia and would endanger officers and victims in American states.",
+    "breakthroughCounter": "Norway itself had ~65% recidivism in the 1980s before adopting the Halden/Bastøy Normality Principle and 2-year educated Contact Officers—driving 2-year recidivism down to ~16%–20%! Transplanted by UCSF's Amend into North Dakota, Oregon, Washington, and San Quentin, dynamic security slashed solitary confinement >70% and violent prison assaults >50% while healing correctional officers' 59-year life-expectancy crisis.",
+    "socialNormShift": "Upgrading punitive warehouse prisons into secure Accountable Restorative Campuses where 40-hour accredited craft/coding guilds fund direct victim restitution and seamless day-one job handoffs deliver 3x safer streets.",
+    "humanStory": {
+      "protagonist": "Veteran Contact Officer Travis Miller (46) & Timber-Guild Graduate Derrick Hayes (31)",
+      "location": "Missouri River Restorative Campus, North Dakota (Trained With Halden & UCSF Amend)",
+      "snippet": "After five years working 40-hour weeks in the campus CNC mass-timber guild, paying 25% of his apprentice wages into a Victim Restitution Fund, and mentoring with Contact Officer Travis, Derrick walks out Friday morning straight onto a $34/hr framing crew—as staff assaults drop 64% and cohort recidivism falls to 19%."
+    },
+    "quote": {
+      "text": "In almost every prison on Earth, ninety-five percent of incarcerated people are coming home. The only real public-safety question is: who do you want moving in next door to your family—someone broken and furious from a cage, or a skilled craftsman ready to contribute?",
+      "author": "Are Høidal",
+      "role": "Former Governor of Halden Prison, Norwegian Correctional Service",
+      "url": "https://www.kriminalomsorgen.no/information-in-english.265199.no.html"
+    },
+    "companiesAndLabs": [
+      "Amend at UCSF School of Medicine (Dr. Brie Williams)",
+      "Norwegian Correctional Service (Kriminalomsorgen — Halden & Bastøy)",
+      "The Last Mile (Coding & Media Guilds, <5%–8% Recidivism)",
+      "North Dakota Dept. of Corrections & Rehabilitation (DOCR)",
+      "San Quentin Rehabilitation Center Transformation",
+      "Alliance for Safety and Justice (Crime Survivors Speak)"
+    ],
+    "globalPrecedents": [
+      "Norway's 1991 Halden & Bastøy Overhaul: Cut 2-Year Recidivism From ~65% (1980s) to 16%–20%",
+      "North Dakota DOCR + UCSF Amend: >70% Cut in Solitary Confinement & Soaring Officer Retention",
+      "Oregon 'The Norwegian Way' & Washington Pilots: >50% Reduction in Violent Use-of-Force Incidents",
+      "San Quentin Transformation & The Last Mile Coding Guilds (<8% Recidivism Into Tech Careers)"
+    ],
+    "synergyLinks": [
+      "purpose-craft-guilds",
+      "ending-homelessness-villages",
+      "craving-reset-mental-health",
+      "zero-cliff-safety-nets"
+    ],
+    "infographic": {
+      "headlineMetric": "19% Recidivism",
+      "headlineLabel": "3-Year Post-Release Rearrest Rate",
+      "unit": "3-Year Post-Release Recidivism & Repeat Crime Rate (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2025,
+          "label": "Punitive Warehouse Cages ($90k/yr, 59-Yr Officer Life)",
+          "value": 68,
+          "display": "68% rearrested"
+        },
+        {
+          "year": 2028,
+          "label": "Amend Contact Officers + Prolonged Solitary Abolished",
+          "value": 46,
+          "display": "46% rearrested"
+        },
+        {
+          "year": 2032,
+          "label": "40-Hr Accredited Craft Guilds + Victim Restitution Wages",
+          "value": 27,
+          "display": "27% rearrested"
+        },
+        {
+          "year": 2036,
+          "label": "Halden Normality + Zero-Cliff Day-1 Housing & Clean Slate",
+          "value": 19,
+          "display": "19% Nordic tier"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Norway Halden Benchmark",
+          "value": "16%–20%",
+          "detail": "Down from Norway's own ~65% punitive prison failure rate in 1980s"
+        },
+        {
+          "label": "ND Solitary Reduction",
+          "value": ">70% Cut",
+          "detail": "UCSF Amend partnership slashed violent assaults >50% & officer PTSD"
+        },
+        {
+          "label": "Crimes Prevented",
+          "value": "1,000+ / 1k",
+          "detail": "Fewer victimizations per 1,000 graduates + $38M saved in repeat lockups"
+        },
+        {
+          "label": "The Last Mile Guilds",
+          "value": "<8% Return",
+          "detail": "In-prison coding & media apprentices entering prevailing-wage jobs"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Amend at UCSF School of Medicine (Dr. Brie Williams)",
+        "url": "https://amend.us/"
+      },
+      {
+        "name": "Norwegian Correctional Service (Kriminalomsorgen — Halden & Bastøy)",
+        "url": "https://www.kriminalomsorgen.no/information-in-english.265199.no.html"
+      },
+      {
+        "name": "The Last Mile (Coding & Media Guilds, <5%–8% Recidivism)",
+        "url": "https://thelastmile.org/"
+      },
+      {
+        "name": "North Dakota Dept. of Corrections & Rehabilitation (DOCR)",
+        "url": "https://www.docr.nd.gov/"
+      },
+      {
+        "name": "San Quentin Rehabilitation Center Transformation",
+        "url": "https://www.cdcr.ca.gov/san-quentin-transformation/"
+      },
+      {
+        "name": "Alliance for Safety and Justice (Crime Survivors Speak)",
+        "url": "https://allianceforsafetyandjustice.org/crimesurvivorsspeak/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Norway's 1991 Halden & Bastøy Overhaul: Cut 2-Year Recidivism From ~65% (1980s) to 16%–20%",
+        "url": "https://www.kriminalomsorgen.no/information-in-english.265199.no.html"
+      },
+      {
+        "name": "North Dakota DOCR + UCSF Amend: >70% Cut in Solitary Confinement & Soaring Officer Retention",
+        "url": "https://amend.us/"
+      },
+      {
+        "name": "Oregon 'The Norwegian Way' & Washington Pilots: >50% Reduction in Violent Use-of-Force Incidents",
+        "url": "https://amend.us/"
+      },
+      {
+        "name": "San Quentin Transformation & The Last Mile Coding Guilds (<8% Recidivism Into Tech Careers)",
+        "url": "https://www.cdcr.ca.gov/san-quentin-transformation/"
+      }
+    ]
+  },
+  {
+    "slug": "open-science-diamond-publishing",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/open-science-diamond-publishing",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Tearing Down the $40 Paywall: Diamond Open Access, Live Peer Review & 48-Hour Fast Grants",
+    "tagline": "Ending 38%-margin journal tollbooths and 18-month grant bureaucracy via Gates/OSTP Day-1 preprints, Diamond Open Access, eLife live review, and 48-hour Fast Grants.",
+    "cynicBelief": "Serious science inherently requires waiting 18 months on 80-page grant committees until age 44—and paying legacy publishers $40 per PDF or $11,000 APCs to validate peer review.",
+    "breakthroughCounter": "In 2025–2026, the Gates Foundation ended APC subsidies for mandatory verified preprints, the US OSTP Nelson Memo enforced zero-day public access on all federally funded papers and data, EU/SciELO Diamond Open Access proved $0-read/$0-publish hosting costs ~$12/paper, eLife pioneered live signed Reviewed Preprints, and Fast Grants + Focused Research Organizations (FROs) funded bold breakthroughs in 48 hours to 14 days.",
+    "socialNormShift": "Taxpayer- and charity-funded discoveries go live on Day 1 as containerized executable preprints with transparent signed peer assessments—while 25% of science budgets shift to 2-page Fast Grants and 5-year public-domain FROs.",
+    "humanStory": {
+      "protagonist": "Dr. Wanjiku Mwangi (Pediatric Neurologist, Nairobi) & Dr. Maya Lin (27-Year-Old Fast-Grant PI, Boston)",
+      "location": "Kenyatta National Hospital, Nairobi & Boston Open Wet-Lab",
+      "snippet": "Funded in 48 hours via a 2-page Fast Grant instead of waiting until age 44, 27-year-old Maya posted her channelopathy drug screen, raw tensors, and 3 signed eLife peer reviews on Diamond OA at $0 fee—enabling Dr. Mwangi in Nairobi to save a 4-year-old boy's vision that same weekend."
+    },
+    "quote": {
+      "text": "In a crisis—and every day for a family waiting on a medical cure is a crisis—waiting eighteen months to fund an experiment and another year to read the result is an unforgivable institutional choice.",
+      "author": "Prof. Tyler Cowen & Patrick Collison",
+      "role": "Co-Creators of Fast Grants (Mercatus Center / Arc Institute)",
+      "url": "https://fastgrants.org/"
+    },
+    "companiesAndLabs": [
+      "Fast Grants (Mercatus Center) & Arc Institute",
+      "Convergent Research (Focused Research Organizations — FROs)",
+      "eLife (Publish, Review, Curate Preprint Model)",
+      "OpenAlex (Free 250M-Work Open Scholarly Graph)",
+      "Gates Foundation Open Access & VeriXiv Preprints",
+      "cOAlition S & SciELO Diamond Open Access Network"
+    ],
+    "globalPrecedents": [
+      "US White House OSTP Nelson Memo (2026 Full Zero-Embargo Mandate on Federal Papers & Data)",
+      "Gates Foundation 2025 Open Access Refresh (Ended Journal APC Subsidies; Mandated Preprints)",
+      "Fast Grants (260+ Labs Funded in 48 Hrs–14 Days via 2-Page Forms; 78% Pursued Bolder Science)",
+      "SciELO (Latin America), arXiv (~$12/Paper) & EU Council Diamond Open Access Infrastructure"
+    ],
+    "synergyLinks": [
+      "self-driving-labs",
+      "ai-formal-mathematics",
+      "invivo-crispr-cures",
+      "empirical-ai-economics-telemetry"
+    ],
+    "infographic": {
+      "headlineMetric": "Day 0 @ $0",
+      "headlineLabel": "Cure Readability & Fast-Grant Speed",
+      "unit": "Total Grant-to-Public-Cure Delay (Months from Idea to Open Paper)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2023,
+          "label": "18-Mo Grant Queue + 14-Mo $40 Paywall / $10k APC Delay",
+          "value": 32,
+          "display": "32-mo lockup"
+        },
+        {
+          "year": 2026,
+          "label": "OSTP Zero-Embargo + Gates Zero-APC Preprint Mandate",
+          "value": 14,
+          "display": "14-mo transition"
+        },
+        {
+          "year": 2030,
+          "label": "Diamond OA Commons + eLife 11-Day Live PRC Badges",
+          "value": 4,
+          "display": "4-mo fast cycle"
+        },
+        {
+          "year": 2035,
+          "label": "14-Day Fast Grants + FROs + Executable Day-0 Preprints",
+          "value": 0.5,
+          "display": "14-day velocity"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Fast-Grant Decision",
+          "value": "48h–14 Days",
+          "detail": "2-page pitch drops first-lab PI age from 44 back toward 29"
+        },
+        {
+          "label": "Diamond Hosting Cost",
+          "value": "~$12 / Paper",
+          "detail": "Replaces $9,500 APCs & returns $8B+/yr to university labs"
+        },
+        {
+          "label": "OSTP Public Embargo",
+          "value": "0 Days",
+          "detail": "200,000+ US federal papers + raw data free globally on Day 1"
+        },
+        {
+          "label": "Reclaimed Bench Time",
+          "value": "+32% Hours",
+          "detail": "Cuts scientist grant-formatting bureaucracy from 42% down to <10%"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Fast Grants (Mercatus Center) & Arc Institute",
+        "url": "https://fastgrants.org/"
+      },
+      {
+        "name": "Convergent Research (Focused Research Organizations — FROs)",
+        "url": "https://www.convergentresearch.org/"
+      },
+      {
+        "name": "eLife (Publish, Review, Curate Preprint Model)",
+        "url": "https://elifesciences.org/about/peer-review"
+      },
+      {
+        "name": "OpenAlex (Free 250M-Work Open Scholarly Graph)",
+        "url": "https://openalex.org/"
+      },
+      {
+        "name": "Gates Foundation Open Access & VeriXiv Preprints",
+        "url": "https://openaccess.gatesfoundation.org/"
+      },
+      {
+        "name": "cOAlition S & SciELO Diamond Open Access Network",
+        "url": "https://www.coalition-s.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "US White House OSTP Nelson Memo (2026 Full Zero-Embargo Mandate on Federal Papers & Data)",
+        "url": "https://www.whitehouse.gov/ostp/"
+      },
+      {
+        "name": "Gates Foundation 2025 Open Access Refresh (Ended Journal APC Subsidies; Mandated Preprints)",
+        "url": "https://openaccess.gatesfoundation.org/"
+      },
+      {
+        "name": "Fast Grants (260+ Labs Funded in 48 Hrs–14 Days via 2-Page Forms; 78% Pursued Bolder Science)",
+        "url": "https://fastgrants.org/"
+      },
+      {
+        "name": "SciELO (Latin America), arXiv (~$12/Paper) & EU Council Diamond Open Access Infrastructure",
+        "url": "https://scielo.org/"
+      }
+    ]
+  },
+  {
+    "slug": "social-prescribing-loneliness-cure",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/social-prescribing-loneliness-cure",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Prescribing Choirs, Rowing & Community Gardens: Link Workers Healing the Loneliness Epidemic",
+    "tagline": "Embedding salaried Neighborhood Link Workers and micro-funded Men's Sheds, choirs, and gardens into primary care—cutting GP visits 28% and ER trips 24%.",
+    "cynicBelief": "Loneliness is a private personal sadness outside real medicine—when isolated seniors or overwhelmed young parents visit a clinic with chest tightness and insomnia, all an 8-minute doctor can do is prescribe another pill.",
+    "breakthroughCounter": "Chronic isolation carries the mortality risk of 15 cigarettes a day and drives ~20% of primary-care visits. Across 3,500+ UK NHS Link Workers, Compassionate Frome (which cut townwide emergency hospital admissions 14% while neighboring counties rose +28.5%), Canada's Rx: Community, and Singapore's SingHealth coordinators, funded 'warm handoffs' into Men's Sheds, choirs, and gardens cut GP visits ~28%, ER visits ~24%, and return $2.30–$3.40 per $1 spent.",
+    "socialNormShift": "Every primary-care clinic staffs salaried Link Workers with 45-minute 'What matters to you?' intakes and routes 1% of hospital prevention budgets as direct monthly capitation to local choirs, woodshops, rowing clubs, and gardens.",
+    "humanStory": {
+      "protagonist": "Arthur Pendelton (74, Widowed Railway Electrician) & NHS Link Worker Nadia",
+      "location": "Salford Canal Men's Shed, Greater Manchester (Mirrored in Toronto & Singapore)",
+      "snippet": "Visiting his GP nine times in six months after losing his wife of 51 years, Arthur received a warm handoff from Link Worker Nadia into a canal-side Men's Shed restoring wooden rowing skiffs with teenage apprentices—dropping his systolic BP 18 mmHg, ending sleep sedatives, and cutting his ER/GP crisis visits to zero."
+    },
+    "quote": {
+      "text": "No pill in the pharmacopoeia can replace a table where people know your name and miss you if you don't show up on Tuesday morning.",
+      "author": "Sir Sam Everington",
+      "role": "GP Pioneer of Social Prescribing, Bromley by Bow Centre (East London)",
+      "url": "https://www.bbbc.org.uk/"
+    },
+    "companiesAndLabs": [
+      "National Academy for Social Prescribing (NASP — UK)",
+      "Bromley by Bow Centre (East London Integrated Pioneer)",
+      "Compassionate Frome / Health Connections Mendip",
+      "Canadian Institute for Social Prescribing (Rx: Community & PaRx)",
+      "SingHealth Community Hospitals (Singapore Wellbeing Coordinators)",
+      "Australian & International Men's Sheds Association (2,500+ Sheds)"
+    ],
+    "globalPrecedents": [
+      "UK NHS Primary Care Networks: 3,500+ Salaried Link Workers & >2.5M Referrals (-28% GP / -24% A&E)",
+      "Compassionate Frome (BMJ/BJGP Study): -14% Townwide Emergency Hospital Admissions Over 3 Years",
+      "Singapore Healthier SG & SingHealth Inpatient-to-Community Discharge Social Prescriptions",
+      "Canada Rx: Community (78% Loneliness Drop) & PaRx National Park Passes (15,000+ Prescribers)"
+    ],
+    "synergyLinks": [
+      "intergenerational-villages",
+      "healthcare-without-billing",
+      "high-trust-civic-norms",
+      "purpose-craft-guilds"
+    ],
+    "infographic": {
+      "headlineMetric": "-28% GP / -24% ER",
+      "headlineLabel": "Preventable Clinical Crisis Drop",
+      "unit": "Relative Change in Primary Care & Emergency Visits Post-Link Worker (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2025,
+          "label": "7-Min Pill-Only Scripts & 15-Cigarette/Day Isolation",
+          "value": 100,
+          "display": "100% crisis baseline"
+        },
+        {
+          "year": 2028,
+          "label": "Clinic Link Workers + Warm Day-1 Accompaniment",
+          "value": 82,
+          "display": "-18% ER/GP visits"
+        },
+        {
+          "year": 2032,
+          "label": "1% Hospital Capitation Funding Local Sheds & Choirs",
+          "value": 74,
+          "display": "-26% visits ($3.1x ROI)"
+        },
+        {
+          "year": 2036,
+          "label": "Frome-Style Townwide Connectors + Belonging Vital Sign #6",
+          "value": 68,
+          "display": "-32% acute burden"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "GP & A&E Reduction",
+          "value": "-28% / -24%",
+          "detail": "Audited across UK NASP primary-care Link Worker cohorts"
+        },
+        {
+          "label": "Frome Townwide ERs",
+          "value": "-14% Drop",
+          "detail": "While surrounding Somerset counties rose +28.5% over 3 years"
+        },
+        {
+          "label": "Healthcare ROI",
+          "value": "$2.30–$3.40",
+          "detail": "Direct clinical & social value returned per $1 invested"
+        },
+        {
+          "label": "Global Men's Sheds",
+          "value": "2,500+ Barns",
+          "detail": "Shoulder-to-shoulder craft curing late-life male isolation"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "National Academy for Social Prescribing (NASP — UK)",
+        "url": "https://socialprescribingacademy.org.uk/"
+      },
+      {
+        "name": "Bromley by Bow Centre (East London Integrated Pioneer)",
+        "url": "https://www.bbbc.org.uk/"
+      },
+      {
+        "name": "Compassionate Frome / Health Connections Mendip",
+        "url": "https://healthconnectionsmendip.org/"
+      },
+      {
+        "name": "Canadian Institute for Social Prescribing (Rx: Community & PaRx)",
+        "url": "https://www.socialprescribing.ca/"
+      },
+      {
+        "name": "SingHealth Community Hospitals (Singapore Wellbeing Coordinators)",
+        "url": "https://www.who.int/groups/commission-on-social-connection"
+      },
+      {
+        "name": "Australian & International Men's Sheds Association (2,500+ Sheds)",
+        "url": "https://mensshed.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "UK NHS Primary Care Networks: 3,500+ Salaried Link Workers & >2.5M Referrals (-28% GP / -24% A&E)",
+        "url": "https://socialprescribingacademy.org.uk/"
+      },
+      {
+        "name": "Compassionate Frome (BMJ/BJGP Study): -14% Townwide Emergency Hospital Admissions Over 3 Years",
+        "url": "https://healthconnectionsmendip.org/"
+      },
+      {
+        "name": "Singapore Healthier SG & SingHealth Inpatient-to-Community Discharge Social Prescriptions",
+        "url": "https://www.who.int/groups/commission-on-social-connection"
+      },
+      {
+        "name": "Canada Rx: Community (78% Loneliness Drop) & PaRx National Park Passes (15,000+ Prescribers)",
+        "url": "https://www.parkprescriptions.ca/"
+      }
+    ]
+  },
+  {
+    "slug": "public-digital-payment-rails",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/public-digital-payment-rails",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Instant Zero-Fee Civic Money: Brazil's Pix, India's UPI & Privacy-First Public Payment Rails",
+    "tagline": "Retiring the $170B/yr 3% credit-card swipe tax with <2-second, $0-fee public rails (Pix & UPI) upgraded with Swiss Tourbillon / GNU Taler cash-like cryptographic privacy.",
+    "cynicBelief": "Convenient digital money requires either letting private card duopolies skim 3% off every grocery cart and small bakery forever, or surrendering personal freedom to a programmable central-bank surveillance ledger.",
+    "breakthroughCounter": "Brazil's Central Bank built Pix for under $10M—now used by >165M Brazilians (>90% of adults) settling in <2 seconds at $0 citizen fee and bringing 70M+ unbanked citizens into commerce—alongside India's 16B+ monthly UPI transactions, while Swiss National Bank's Project Tourbillon and open-source GNU Taler proved Chaumian blind signatures guarantee 100% paper-cash payer anonymity!",
+    "socialNormShift": "Everyday money movement becomes an open, non-programmable, zero-fee public protocol with offline NFC storm resilience, end-of-shift instant payroll clearing, and mathematical payer anonymity.",
+    "humanStory": {
+      "protagonist": "Mateus Silva (Recife Solar Beach-Cart Vendor) & Hannah Kowalski (Chicago Sourdough Baker)",
+      "location": "Recife, Brazil & Chicago, Illinois",
+      "snippet": "Switching from 2.9% + $0.30 card terminals to open public instant rails saves Hannah's neighborhood bakery $33,400/yr—nearly half her prior net profit—while her 22-year-old apprentice receives Friday shift pay at 3:01 PM for $0.00 and shoppers tap with 100% blind-signature cash privacy."
+    },
+    "quote": {
+      "text": "Public digital infrastructure like Pix proved a central bank doesn't displace private innovation—by providing open, instant, zero-cost settlement rails, it unleashes competition and brings tens of millions of excluded citizens into the economy.",
+      "author": "Roberto Campos Neto",
+      "role": "Architect of Pix & Former Governor, Central Bank of Brazil",
+      "url": "https://www.bcb.gov.br/en/financialstability/pix_en"
+    },
+    "companiesAndLabs": [
+      "Central Bank of Brazil (Pix Instant Ecosystem)",
+      "National Payments Corporation of India (NPCI — UPI)",
+      "Swiss National Bank & BIS Innovation Hub (Project Tourbillon)",
+      "GNU Taler AG (Open-Source Blind-Signature E-Cash)",
+      "BIS Project Nexus (Instant Cross-Border Remittance Mesh)",
+      "ECB SEPA Instant & FedNow Open-Overlay Working Groups"
+    ],
+    "globalPrecedents": [
+      "Brazil Pix: >165M Users (>90% Adults), <2s Settlement, $0 Citizen Fee & 70M+ Newly Included",
+      "India UPI: 16 Billion+ Monthly Transactions Across 600+ Interoperable Banks + Offline UPI Lite X",
+      "SNB Project Tourbillon & GNU Taler: Production Chaumian One-Way Payer Anonymity + Tax Auditability",
+      "EU Instant Payments Regulation (2025+) & BIS Project Nexus (<60s Cross-Border Remittances)"
+    ],
+    "synergyLinks": [
+      "open-macro-cleanroom-policy",
+      "universal-capital-dividends",
+      "zero-cliff-safety-nets",
+      "post-scarcity-economics"
+    ],
+    "infographic": {
+      "headlineMetric": "<2 Sec @ $0",
+      "headlineLabel": "Cash-Private Public Instant Settlement",
+      "unit": "Retail Payment Interchange + Remittance Skim Burden (% of Transaction)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Private Card Duopoly (2.9% + $0.30) & 3-Day ACH Holds",
+          "value": 3.1,
+          "display": "3.1% swipe tax"
+        },
+        {
+          "year": 2027,
+          "label": "Pix/UPI Scale + Mandatory $0 Citizen FedNow/SEPA QR",
+          "value": 0.4,
+          "display": "0.4% transition"
+        },
+        {
+          "year": 2031,
+          "label": "GNU Taler / Tourbillon Blind Privacy + Instant Shift Pay",
+          "value": 0.05,
+          "display": "0.05% wholesale cap"
+        },
+        {
+          "year": 2035,
+          "label": "Global Nexus Mesh + Offline Hardware Enclave Standard",
+          "value": 0.0,
+          "display": "$0 citizen / $0.01 flat"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Brazil Pix Adoption",
+          "value": ">90% Adults",
+          "detail": "165M+ users & 70M+ financially included from a <$10M build"
+        },
+        {
+          "label": "India UPI Scale",
+          "value": "16B+ / Month",
+          "detail": "Open QR + voice 123PAY + offline NFC across 600+ banks"
+        },
+        {
+          "label": "Small Bakery Saved",
+          "value": "+$33.4k / Yr",
+          "detail": "Reclaims ~48% of net shop profit previously lost to card skims"
+        },
+        {
+          "label": "Payer Surveillance",
+          "value": "0% (Cash-Like)",
+          "detail": "Chaumian blind signatures block both state & ad-broker tracking"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Central Bank of Brazil (Pix Instant Ecosystem)",
+        "url": "https://www.bcb.gov.br/en/financialstability/pix_en"
+      },
+      {
+        "name": "National Payments Corporation of India (NPCI — UPI)",
+        "url": "https://www.npci.org.in/what-we-do/upi/product-overview"
+      },
+      {
+        "name": "Swiss National Bank & BIS Innovation Hub (Project Tourbillon)",
+        "url": "https://www.bis.org/about/bisih/topics/cbdc/tourbillon.htm"
+      },
+      {
+        "name": "GNU Taler AG (Open-Source Blind-Signature E-Cash)",
+        "url": "https://taler.net/en/"
+      },
+      {
+        "name": "BIS Project Nexus (Instant Cross-Border Remittance Mesh)",
+        "url": "https://www.bis.org/about/bisih/topics/fmis/nexus.htm"
+      },
+      {
+        "name": "ECB SEPA Instant & FedNow Open-Overlay Working Groups",
+        "url": "https://www.ecb.europa.eu/paym/integration/retail/instant_payments/html/index.en.html"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Brazil Pix: >165M Users (>90% Adults), <2s Settlement, $0 Citizen Fee & 70M+ Newly Included",
+        "url": "https://www.bcb.gov.br/en/financialstability/pix_en"
+      },
+      {
+        "name": "India UPI: 16 Billion+ Monthly Transactions Across 600+ Interoperable Banks + Offline UPI Lite X",
+        "url": "https://www.npci.org.in/what-we-do/upi/product-overview"
+      },
+      {
+        "name": "SNB Project Tourbillon & GNU Taler: Production Chaumian One-Way Payer Anonymity + Tax Auditability",
+        "url": "https://www.bis.org/about/bisih/topics/cbdc/tourbillon.htm"
+      },
+      {
+        "name": "EU Instant Payments Regulation (2025+) & BIS Project Nexus (<60s Cross-Border Remittances)",
+        "url": "https://www.bis.org/about/bisih/topics/fmis/nexus.htm"
+      }
+    ]
+  },
+  {
+    "slug": "phone-free-childhood-play-hoods",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/phone-free-childhood-play-hoods",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Reclaiming Anxious Childhood: Phone-Free School Compacts, Dutch Woonerven & Free-Range Play",
+    "tagline": "Breaking the youth screen-and-isolation trap in one semester via bell-to-bell phone-free schools, 40%-trigger parent pacts, Let Grow independence laws, and 15 km/h living play streets.",
+    "cynicBelief": "Smartphones and social feeds have permanently captured childhood—any parent who holds out isolates their kid socially, and modern suburban streets can never go back to unsupervised 8-year-olds biking in packs.",
+    "breakthroughCounter": "Between 2024 and 2026, bell-to-bell phone-free schools swept Brazil nationally, France, the Netherlands, the UK, and 35+ red and blue U.S. states—restoring lunchroom laughter and lifting low-income math/reading scores nearly 2x within one term—while conditional grade-level parent pacts (Smartphone Free Childhood), bipartisan Let Grow independence laws, Dutch Woonerven, and Barcelona Bicibús bike trains unlocked safe outdoor childhood packs overnight.",
+    "socialNormShift": "Communities flip both halves of the post-2012 trap together: bell-to-bell phone-free schools + Wait-Until-14 / Age-16 zero-knowledge feed shields indoors, paired with free after-school Let Grow playyards and 15 km/h neighborhood Woonerf corridors outdoors.",
+    "humanStory": {
+      "protagonist": "9-Year-Old Maya & Her 28-Kid Elm Street Bicibús Pack",
+      "location": "Carmel, Indiana (Mirrored in Utrecht, Barcelona & Curitiba)",
+      "snippet": "Because 78% of Maya's 4th-grade class parents signed a conditional Smartphone Free Childhood pact, zero kids feel left out: Maya pedals her morning Bicibús down a 15 km/h Woonerf street, laughs through a 78-decibel phone-free lunchroom, and builds creek forts until the porch light clicks on—sleeping 8.5 hours a night."
+    },
+    "quote": {
+      "text": "Overprotection in the real world and underprotection in the virtual world rewired childhood in just five years—and because it's a collective-action trap, the moment schools and parents act together, children get their real-world childhoods back almost overnight.",
+      "author": "Prof. Jonathan Haidt",
+      "role": "NYU Stern School of Business & Author of The Anxious Generation",
+      "url": "https://www.anxiousgeneration.com/"
+    },
+    "companiesAndLabs": [
+      "The Anxious Generation Movement (Prof. Jonathan Haidt)",
+      "Let Grow Free-Play & Independence Project (Lenore Skenazy & Peter Gray)",
+      "Smartphone Free Childhood (Global Conditional Parent Pacts)",
+      "Wait Until 8th Grade-Level Pledge Network",
+      "Global Bicibús & Barcelona Camins Escolars Commons",
+      "Norwegian School of Economics (Abrahamsson Phone-Ban Evidence)"
+    ],
+    "globalPrecedents": [
+      "Bell-to-Bell Phone-Free Schools: Brazil National Law (2025), France, NL, UK & 35+ U.S. States",
+      "Smartphone Free Childhood UK: 150,000+ Parents Across 10,000+ Schools Breaking FOMO Together",
+      "Reasonable Childhood Independence Laws (11+ Bipartisan U.S. States) + Free School Let Grow Play Clubs",
+      "6,000+ Dutch Woonerf 15 km/h Play Streets (#1 UNICEF Child Happiness) & Barcelona Bicibús"
+    ],
+    "synergyLinks": [
+      "high-trust-civic-norms",
+      "two-sigma-guild-education",
+      "intergenerational-villages",
+      "participatory-municipal-budgeting"
+    ],
+    "infographic": {
+      "headlineMetric": "2.4 Hrs/Day Play",
+      "headlineLabel": "Daily Unstructured Outdoor Childhood Play",
+      "unit": "Daily Unstructured Outdoor Face-to-Face Play & Active Roaming (Hours/Day)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "4.8 Hrs Social Feeds, Silent Lunchrooms & <28m Play",
+          "value": 0.45,
+          "display": "27 mins/day low"
+        },
+        {
+          "year": 2026,
+          "label": "Bell-to-Bell Phone-Free Schools + 40% Grade Pacts",
+          "value": 1.2,
+          "display": "1.2 hrs/day rebound"
+        },
+        {
+          "year": 2030,
+          "label": "Free School Let Grow Play Clubs + ZK Age-16 Shield",
+          "value": 1.9,
+          "display": "1.9 hrs/day + sleep"
+        },
+        {
+          "year": 2034,
+          "label": "15 km/h Woonerf Play Streets & 62% Kid Bike/Walk Mesh",
+          "value": 2.4,
+          "display": "2.4 hrs/day thriving"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Phone-Free K–12 Wave",
+          "value": "35+ US States & Brazil",
+          "detail": "Nearly 2x larger math/reading lift for lower-income students"
+        },
+        {
+          "label": "Parent Pact Trigger",
+          "value": "40% of Grade",
+          "detail": "Conditional pledge erases solo-kid FOMO across 10,000+ schools"
+        },
+        {
+          "label": "Teen Sleep Rebound",
+          "value": "+75 Mins/Night",
+          "detail": "Device-level zero-knowledge Age-16 shield ends midnight scroll"
+        },
+        {
+          "label": "Dutch Woonerf Benchmark",
+          "value": "#1 UNICEF",
+          "detail": "15 km/h living play streets cut child traffic risk >75%"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "The Anxious Generation Movement (Prof. Jonathan Haidt)",
+        "url": "https://www.anxiousgeneration.com/"
+      },
+      {
+        "name": "Let Grow Free-Play & Independence Project (Lenore Skenazy & Peter Gray)",
+        "url": "https://letgrow.org/"
+      },
+      {
+        "name": "Smartphone Free Childhood (Global Conditional Parent Pacts)",
+        "url": "https://smartphonefreechildhood.co.uk/"
+      },
+      {
+        "name": "Wait Until 8th Grade-Level Pledge Network",
+        "url": "https://www.waituntil8th.org/"
+      },
+      {
+        "name": "Global Bicibús & Barcelona Camins Escolars Commons",
+        "url": "https://bicibus.eu/"
+      },
+      {
+        "name": "Norwegian School of Economics (Abrahamsson Phone-Ban Evidence)",
+        "url": "https://www.nhh.no/en/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Bell-to-Bell Phone-Free Schools: Brazil National Law (2025), France, NL, UK & 35+ U.S. States",
+        "url": "https://www.anxiousgeneration.com/"
+      },
+      {
+        "name": "Smartphone Free Childhood UK: 150,000+ Parents Across 10,000+ Schools Breaking FOMO Together",
+        "url": "https://smartphonefreechildhood.co.uk/"
+      },
+      {
+        "name": "Reasonable Childhood Independence Laws (11+ Bipartisan U.S. States) + Free School Let Grow Play Clubs",
+        "url": "https://letgrow.org/"
+      },
+      {
+        "name": "6,000+ Dutch Woonerf 15 km/h Play Streets (#1 UNICEF Child Happiness) & Barcelona Bicibús",
+        "url": "https://bicibus.eu/"
+      }
+    ]
+  }
+]

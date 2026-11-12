@@ -1,0 +1,1003 @@
+[
+  {
+    "slug": "thermodynamic-computing-tsus",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/thermodynamic-computing-tsus",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Room-Temperature Thermodynamic Chips: Extropic Z1, p-Bits & Harnessing Thermal Noise for 10,000× AI Efficiency",
+    "tagline": "Sub-threshold CMOS chips stop fighting electron thermal noise and harness it as a native probabilistic engine—slashing generative AI, robotics, and molecular simulation power up to 10,000×.",
+    "cynicBelief": "Generative AI and robotic world models are hitting an insurmountable energy wall—running probabilistic reasoning across billions of devices will devour entire power grids, while quantum computers require $5M millikelvin dilution refrigerators.",
+    "breakthroughCounter": "Extropic's Denoising Thermodynamic Computer Architecture (DTCA) turns ambient 300 K CMOS electron noise into physical probabilistic bits (p-bits, pdits, pmode, pmog)—progressing from the Oct 2025 X0/XTR-0 dev kit and Summer 2026 open-source Torx/Thermalizers/THRML stack to a July 2026 $75M U.S. Commerce LOI and Fall 2026 Z1 tapeout (>500k p-bit M.2 Z1 Stick & >4M p-bit PCIe Z1 Card).",
+    "socialNormShift": "Printing sub-watt Thermodynamic Sampling Units on mature domestic CMOS fabs breaks hyperscaler EUV monopolies, cuts data-center grid strain via hybrid GPU+TSU racks, and replaces 'confidently wrong' AI hallucinations with calibrated Bayesian uncertainty in clinics and aircraft.",
+    "humanStory": {
+      "protagonist": "Elena Rossi (Alpine Search-and-Rescue) & Dr. Mateo Cruz (Rural Clinic Pharmacist)",
+      "location": "Dolomites, Italy & Oaxaca, Mexico",
+      "snippet": "In a 2 AM Dolomites blizzard with zero cell coverage, Elena's backpack quadrotor runs 10,000 avalanche-wind Bayesian trajectories per second on a 0.8-watt Z1-class M.2 stick, while in Oaxaca Dr. Cruz completes Chagas-parasite Boltzmann drug docking before lunch on four cents of rooftop solar power."
+    },
+    "quote": {
+      "text": "Nature doesn't burn megawatts of deterministic logic gates to simulate probability—every warm atom is already a thermodynamic computer. By harmonizing AI algorithms with the physics of matter, we unlock orders-of-magnitude leaps in intelligence per joule.",
+      "author": "Guillaume Verdon",
+      "role": "Founder & CEO, Extropic",
+      "url": "https://extropic.ai/"
+    },
+    "companiesAndLabs": [
+      "Extropic (Z1 Stick, Z1 Card, Z1T & DTCA)",
+      "Extropic Open-Source Stack (Torx, Thermalizers & THRML)",
+      "Purdue University Probabilistic Computing Lab (Prof. Supriyo Datta)",
+      "UC Santa Barbara OPUS Lab (Prof. Kerem Camsari)",
+      "Normal Computing (Thermodynamic SDE & Uncertainty ASICs)",
+      "U.S. Department of Commerce CHIPS R&D ($75M TSU LOI)"
+    ],
+    "globalPrecedents": [
+      "July 2026 U.S. Dept. of Commerce $75M CHIPS R&D Letter of Intent for Domestic TSUs",
+      "Open-Source JAX / THRML & Torx Stochastic Differentiable Programming Ecosystem",
+      "Mature-Node (28–65 nm) Room-Temperature CMOS Foundry Democratization",
+      "IEEE Rebooting Computing Verified Samples-per-Joule Efficiency Benchmarks"
+    ],
+    "synergyLinks": [
+      "altermagnetism-spintronics",
+      "neuromorphic-event-vision",
+      "co-packaged-silicon-photonics",
+      "self-driving-labs"
+    ],
+    "infographic": {
+      "headlineMetric": "100×–10,000×",
+      "headlineLabel": "Sampling Efficiency Gain on 300 K CMOS",
+      "unit": "Relative Generative & Molecular Sampling Efficiency vs. Digital GPU (× Samples/Joule)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2023,
+          "label": "Benchtop Academic p-Bit Arrays (Purdue / UCSB)",
+          "value": 10,
+          "display": "10× Lab Toy Demos"
+        },
+        {
+          "year": 2026,
+          "label": "Extropic Z1 Tapeout (>500k Stick / >4M PCIe) + Torx",
+          "value": 500,
+          "display": "100×–1,000× DTCA Target"
+        },
+        {
+          "year": 2029,
+          "label": "Hybrid GPU + Z1T Transformer & 100M+ p-Bit Racks",
+          "value": 5000,
+          "display": "5,000× Hybrid Scale"
+        },
+        {
+          "year": 2033,
+          "label": "1B+ Spintronic-CMOS Thermal Modes on $15 Chips",
+          "value": 10000,
+          "display": "10,000×+ Physics Native"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Z1 Stick Edge TSU",
+          "value": ">500k p-bits",
+          "detail": "Sub-watt M.2 module for autonomous drones & robots"
+        },
+        {
+          "label": "Z1 Card Server TSU",
+          "value": ">4M p-bits",
+          "detail": "PCIe co-processor offloading iterative GPU sampling"
+        },
+        {
+          "label": "CHIPS Scale-Up LOI",
+          "value": "$75M",
+          "detail": "July 2026 U.S. Commerce domestic CMOS foundry backing"
+        },
+        {
+          "label": "Cryogenics Required",
+          "value": "0 (300 K)",
+          "detail": "Operates on natural room-temperature thermal noise"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Extropic (Z1 Stick, Z1 Card, Z1T & DTCA)",
+        "url": "https://extropic.ai/"
+      },
+      {
+        "name": "Extropic Open-Source Stack (Torx, Thermalizers & THRML)",
+        "url": "https://github.com/extropic-ai"
+      },
+      {
+        "name": "Purdue University Probabilistic Computing Lab (Prof. Supriyo Datta)",
+        "url": "https://engineering.purdue.edu/ECE"
+      },
+      {
+        "name": "UC Santa Barbara OPUS Lab (Prof. Kerem Camsari)",
+        "url": "https://www.ece.ucsb.edu/"
+      },
+      {
+        "name": "Normal Computing (Thermodynamic SDE & Uncertainty ASICs)",
+        "url": "https://www.normalcomputing.ai/"
+      },
+      {
+        "name": "U.S. Department of Commerce CHIPS R&D ($75M TSU LOI)",
+        "url": "https://www.nist.gov/chips"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "July 2026 U.S. Dept. of Commerce $75M CHIPS R&D Letter of Intent for Domestic TSUs",
+        "url": "https://www.nist.gov/chips"
+      },
+      {
+        "name": "Open-Source JAX / THRML & Torx Stochastic Differentiable Programming Ecosystem",
+        "url": "https://github.com/jax-ml/jax"
+      },
+      {
+        "name": "Mature-Node (28–65 nm) Room-Temperature CMOS Foundry Democratization",
+        "url": "https://extropic.ai/"
+      },
+      {
+        "name": "IEEE Rebooting Computing Verified Samples-per-Joule Efficiency Benchmarks",
+        "url": "https://rebootingcomputing.ieee.org/"
+      }
+    ]
+  },
+  {
+    "slug": "chain-theory-quantum-constants",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/chain-theory-quantum-constants",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Chain Theory & Emergent Constants: Rebuilding Physics from Entangled Qudit Networks",
+    "tagline": "Human-AI exploration and Lean 4 formal proofs derive a 10-digit candidate expression for the fine-structure constant from finite entangled qudit networks—reigniting falsifiable foundational physics.",
+    "cynicBelief": "Fundamental physics has been stuck for forty years—string theory spun 10^500 untestable vacua, the Standard Model hand-plugs 26 mysterious measured numbers, and AI can never uncover new laws of nature.",
+    "breakthroughCounter": "In October 2026, Dr. Alex Wissner-Gross introduced Chain Theory—modeling reality as a finite, observer-free network ('chainmail') of maximally entangled qudits—and derived from a single parameter-free axiom a Lean 4-verified candidate expression for the fine-structure constant matching CODATA measurements across 10 significant digits (137.035999190...), sparking rigorous open peer testing of its QED loop and dark sectors.",
+    "socialNormShift": "Publishing foundational physics as machine-checked Lean 4 code alongside crisp 11th-to-12th-digit tabletop experimental predictions replaces decade-long ivory-tower PDF gatekeeping with transparent, live global falsification.",
+    "humanStory": {
+      "protagonist": "Amara Okafor (Quantum-Information Doctoral Researcher)",
+      "location": "Cambridge, Zurich & Nairobi Open Seminar",
+      "snippet": "Instead of tuning twenty-six arbitrary fudge knobs, Amara pushes a parameter-free discrete qudit branch through Lean 4's formal kernel in seconds—comparing predicted hyperfine shifts directly against a Thorium-229 solid-state clock two floors below."
+    },
+    "quote": {
+      "text": "For a century, physics treated fundamental constants as inexplicable numbers handed down from outside the universe. Rebuilding physics from finite quantum information—checked step-by-step by formal proof engines—lets us ask why nature chose these exact numbers.",
+      "author": "Dr. Alex Wissner-Gross",
+      "role": "Physicist, Computer Scientist & Author of Chain Theory",
+      "url": "https://alexwg.org/"
+    },
+    "companiesAndLabs": [
+      "Chain Theory Research Program (Dr. Alex Wissner-Gross)",
+      "Simons Foundation 'It from Qubit' Quantum-Spacetime Consortium",
+      "Lean 4 Formal Verification & PhysLean Community",
+      "Wolfram Physics Project & Discrete Causal Hypergraph Labs",
+      "Laboratoire Kastler Brossel & UC Berkeley Atom-Recoil Alpha Labs",
+      "Northwestern / Harvard Single-Electron g-2 Cavity Metrology"
+    ],
+    "globalPrecedents": [
+      "NIST / CODATA 81-ppt Precision Benchmark of the Fine-Structure Constant",
+      "Machine-Checked Lean 4 Proof Verification of Theoretical Physics Axioms",
+      "Simons 'It from Qubit' Holographic Entanglement-Spacetime Synthesis",
+      "Open-Science Pre-Registered Falsification via 11th–12th Digit Metrology"
+    ],
+    "synergyLinks": [
+      "ai-formal-mathematics",
+      "thorium-229-nuclear-clocks",
+      "quantum-logical-simulation",
+      "thermodynamic-computing-tsus"
+    ],
+    "infographic": {
+      "headlineMetric": "10 Digits (0.6σ)",
+      "headlineLabel": "Parameter-Free Fine-Structure Match in Lean 4",
+      "unit": "Significant Digits of α⁻¹ Tested Against Parameter-Free Discrete Axioms",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2020,
+          "label": "Conceptual It-from-Qubit & 26-Parameter Standard Model",
+          "value": 0,
+          "display": "0 Derived Digits (Hand-Plugged)"
+        },
+        {
+          "year": 2026,
+          "label": "Oct 2026 Chain Theory α(0) Candidate Verified in Lean 4",
+          "value": 10,
+          "display": "10 Digits (~137.035999190)"
+        },
+        {
+          "year": 2029,
+          "label": "Next-Gen Electron g-2, Recoil & QED Running Crucible",
+          "value": 12,
+          "display": "12-Digit Experimental Trial"
+        },
+        {
+          "year": 2033,
+          "label": "Th-229 Clock Drift & Multi-Constant Unified Framework",
+          "value": 19,
+          "display": "19-Digit Clock Constraints"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Free Tunable Knobs",
+          "value": "0",
+          "detail": "Derived from one finite maximally entangled qudit axiom"
+        },
+        {
+          "label": "CODATA Agreement",
+          "value": "10 Digits",
+          "detail": "α⁻¹ ≈ 137.035999190 vs. 137.035999177(21) (0.6σ)"
+        },
+        {
+          "label": "Proof Audit Kernel",
+          "value": "Lean 4",
+          "detail": "Machine-checked combinatorics prevents hidden algebra bugs"
+        },
+        {
+          "label": "Peer Scrutiny Focus",
+          "value": "Loops & Dark",
+          "detail": "Active open tests on QED running & higher-qudit sectors"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Chain Theory Research Program (Dr. Alex Wissner-Gross)",
+        "url": "https://alexwg.org/"
+      },
+      {
+        "name": "Simons Foundation 'It from Qubit' Quantum-Spacetime Consortium",
+        "url": "https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/"
+      },
+      {
+        "name": "Lean 4 Formal Verification & PhysLean Community",
+        "url": "https://lean-lang.org/"
+      },
+      {
+        "name": "Wolfram Physics Project & Discrete Causal Hypergraph Labs",
+        "url": "https://www.wolframphysics.org/"
+      },
+      {
+        "name": "Laboratoire Kastler Brossel & UC Berkeley Atom-Recoil Alpha Labs",
+        "url": "https://www.lkb.upmc.fr/"
+      },
+      {
+        "name": "Northwestern / Harvard Single-Electron g-2 Cavity Metrology",
+        "url": "https://cfp.physics.northwestern.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "NIST / CODATA 81-ppt Precision Benchmark of the Fine-Structure Constant",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      },
+      {
+        "name": "Machine-Checked Lean 4 Proof Verification of Theoretical Physics Axioms",
+        "url": "https://github.com/HEPLean/PhysLean"
+      },
+      {
+        "name": "Simons 'It from Qubit' Holographic Entanglement-Spacetime Synthesis",
+        "url": "https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/"
+      },
+      {
+        "name": "Open-Science Pre-Registered Falsification via 11th–12th Digit Metrology",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      }
+    ]
+  },
+  {
+    "slug": "altermagnetism-spintronics",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/altermagnetism-spintronics",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Altermagnetism: The Third Form of Magnetism Unlocking Terahertz Zero-Stray-Field Memory",
+    "tagline": "Honored with the 2026 Europhysics Prize and confirmed at SLAC in MnTe, altermagnets combine zero stray magnetic fields with terahertz spin currents from abundant, non-toxic elements.",
+    "cynicBelief": "Every magnet is trapped in a 100-year binary: ferromagnets are readable but radiate stray fields that cap bit density and limit speed to gigahertz, while antiferromagnets are terahertz-fast and stray-field-free but unreadable—and spintronics still needs scarce heavy metals.",
+    "breakthroughCounter": "Awarded the 2026 Europhysics Prize (Šmejkal, Sinova & Jungwirth) and proved via SLAC/Stanford's Science observation of chiral altermagnons in MnTe, ORNL's mechanical-strain domain switching, and 2D Co1/4TaSe2 superconductor hybrids, altermagnets deliver 0.00-tesla stray fields (100× denser packing) and picosecond terahertz switching (1,000× faster than MRAM) without scarce heavy elements.",
+    "socialNormShift": "Building zero-standby universal memory from >200 earth-abundant manganese, chromium, and iron compounds eliminates constant DRAM refresh electricity waste while freeing semiconductor supply chains from conflict cobalt, platinum, and iridium.",
+    "humanStory": {
+      "protagonist": "Kwame Mensah (Pediatric Hospital Biomedical Engineer)",
+      "location": "Accra, Ghana & Delft Quantum Testbed",
+      "snippet": "Powered by a single balcony solar panel, Kwame's portable MRI-and-genomic clinic server wakes in picoseconds with zero cooling fans and 0.00 watts of idle DRAM refresh drain—built on 3D-stacked manganese-chromium altermagnetic memory free of conflict minerals."
+    },
+    "quote": {
+      "text": "Altermagnetism removes a century-old blind spot in physics: we finally have magnetic materials with zero disruptive stray fields and terahertz speeds, yet strong spin-polarized currents made from abundant everyday elements.",
+      "author": "Libor Šmejkal, Jairo Sinova & Tomáš Jungwirth",
+      "role": "Co-Recipients of the 2026 EPS Europhysics Prize",
+      "url": "https://www.eps.org/"
+    },
+    "companiesAndLabs": [
+      "Mainz, MPI-PKS & Czech Academy (Šmejkal, Sinova & Jungwirth)",
+      "SLAC National Accelerator Laboratory & Stanford (Chiral MnTe)",
+      "Oak Ridge National Laboratory (Strain-Switched Altermagnetism)",
+      "Paul Scherrer Institut Swiss Light Source (CrSb & MnTe ARPES)",
+      "2D Quantum Heterostructure Labs (Co1/4TaSe2 Superconductor Hybrids)",
+      "IMEC & Global Spintronic MRAM Foundry Consortia"
+    ],
+    "globalPrecedents": [
+      "2026 EPS Condensed Matter Europhysics Prize Citation (Graz, Sept 2026)",
+      "SLAC Science Confirmation of Chiral Altermagnons via Circular-Dichroism RIXS",
+      "EU Critical Raw Materials Act Incentivizing Cobalt- & Platinum-Free Chips",
+      "200+ Open-Access Spin-Group Altermagnetic Candidates Mapped Globally"
+    ],
+    "synergyLinks": [
+      "thermodynamic-computing-tsus",
+      "inverse-materials-design",
+      "quantum-logical-simulation",
+      "neuromorphic-event-vision"
+    ],
+    "infographic": {
+      "headlineMetric": "1,000× Faster (THz)",
+      "headlineLabel": "Zero-Stray-Field Heavy-Metal-Free Spintronics",
+      "unit": "Intrinsic Magnetic Switching Speed (GHz)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2020,
+          "label": "Ferromagnetic CoFeB MRAM (Stray-Field Capped)",
+          "value": 2,
+          "display": "1–3 GHz (Ferromagnetic)"
+        },
+        {
+          "year": 2026,
+          "label": "Europhysics Prize + SLAC MnTe Chiral Altermagnons",
+          "value": 100,
+          "display": "THz Modes Proved; 100 GHz Lab Cells"
+        },
+        {
+          "year": 2029,
+          "label": "300 mm CMOS-Integrated Room-Temp CrSb / MnTe Alt-MRAM",
+          "value": 450,
+          "display": "450 GHz Array Switching"
+        },
+        {
+          "year": 2033,
+          "label": "3D Universal Zero-Standby Memory & Topological Qubits",
+          "value": 1200,
+          "display": "1.2+ THz Picosecond Memory"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Stray Magnetic Field",
+          "value": "0.00 T",
+          "detail": "Unlocks up to 100× tighter 3D vertical bit packing"
+        },
+        {
+          "label": "Switching Speedup",
+          "value": "1,000×",
+          "detail": "Picosecond terahertz spin waves vs. nanosecond MRAM"
+        },
+        {
+          "label": "Platinum / Ir / Co",
+          "value": "0 Required",
+          "detail": "Crystal rotation splits ~1 eV spin bands in Mn, Cr & Fe"
+        },
+        {
+          "label": "Idle Standby Drain",
+          "value": "0.00 W",
+          "detail": "Non-volatile cells retire leaky DRAM capacitor refresh"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Mainz, MPI-PKS & Czech Academy (Šmejkal, Sinova & Jungwirth)",
+        "url": "https://www.fzu.cz/en"
+      },
+      {
+        "name": "SLAC National Accelerator Laboratory & Stanford (Chiral MnTe)",
+        "url": "https://www6.slac.stanford.edu/"
+      },
+      {
+        "name": "Oak Ridge National Laboratory (Strain-Switched Altermagnetism)",
+        "url": "https://www.ornl.gov/"
+      },
+      {
+        "name": "Paul Scherrer Institut Swiss Light Source (CrSb & MnTe ARPES)",
+        "url": "https://www.psi.ch/en"
+      },
+      {
+        "name": "2D Quantum Heterostructure Labs (Co1/4TaSe2 Superconductor Hybrids)",
+        "url": "https://next-gen.materialsproject.org/"
+      },
+      {
+        "name": "IMEC & Global Spintronic MRAM Foundry Consortia",
+        "url": "https://www.imec-int.com/en"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2026 EPS Condensed Matter Europhysics Prize Citation (Graz, Sept 2026)",
+        "url": "https://www.eps.org/"
+      },
+      {
+        "name": "SLAC Science Confirmation of Chiral Altermagnons via Circular-Dichroism RIXS",
+        "url": "https://www6.slac.stanford.edu/"
+      },
+      {
+        "name": "EU Critical Raw Materials Act Incentivizing Cobalt- & Platinum-Free Chips",
+        "url": "https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials_en"
+      },
+      {
+        "name": "200+ Open-Access Spin-Group Altermagnetic Candidates Mapped Globally",
+        "url": "https://next-gen.materialsproject.org/"
+      }
+    ]
+  },
+  {
+    "slug": "thorium-229-nuclear-clocks",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/thorium-229-nuclear-clocks",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Ticks of the Atomic Nucleus: Solid-State Thorium-229 Clocks & Centimeter Gravity Cartography",
+    "tagline": "Vacuum-ultraviolet combs lock onto trillions of shielded Thorium-229 nuclei inside solid CaF2 crystals—targeting 10^-19 precision for unjammable navigation and 1-cm underground aquifer/magma maps.",
+    "cynicBelief": "Ultra-precise optical clocks are fragile lab divas trapped inside vacuum chambers and laser mazes that lose lock if a door slams, while civilian GPS remains trivially easy to jam for $50.",
+    "breakthroughCounter": "Culminating in 2025–2026 breakthroughs by JILA/NIST (Jun Ye), TU Wien (Thorsten Schumm), UCLA (Eric Hudson), and PTB—including closed-loop 148.38 nm VUV locking, temperature sweet-spots, and Sept 2026 Science 4-site Mössbauer crystal mapping—solid CaF2 crystals pack 10^14+ shielded 229Th nuclei with zero vacuum traps.",
+    "socialNormShift": "Fiber-linked solid-state nuclear clocks give aviation and clean grids sovereign, GPS-unjammable timing while turning Einstein's gravitational redshift into a public 1-centimeter X-ray gauge for aquifers, glaciers, and volcanic magma.",
+    "humanStory": {
+      "protagonist": "Dr. Sofia Conti (Campi Flegrei Volcanologist)",
+      "location": "Bay of Naples, Italy & California Central Valley",
+      "snippet": "Bolted inside a weatherproof roadside case with zero vacuum tubes, Sofia's sugar-cube 229Th:CaF2 crystal senses a 4-centimeter deep-magma gravitational redshift weeks before tremors begin—giving Naples calm, false-alarm-free early warning."
+    },
+    "quote": {
+      "text": "Having billions of shielded Thorium-229 nuclei ticking together inside a simple solid crystal transforms timekeeping from a delicate laboratory art into a rugged window on gravity, geology, and the deepest laws of the universe.",
+      "author": "Prof. Jun Ye",
+      "role": "Fellow of JILA & NIST, University of Colorado Boulder",
+      "url": "https://jila.colorado.edu/ye/"
+    },
+    "companiesAndLabs": [
+      "JILA / NIST & CU Boulder (Jun Ye & Chuankun Zhang VUV Comb Team)",
+      "TU Wien & ERC ThoriumNuclearClock Consortium (Thorsten Schumm)",
+      "UCLA Physics & Astronomy Solid-State Nuclear Group (Eric Hudson)",
+      "Physikalisch-Technische Bundesanstalt — PTB Germany (Ekkehard Peik)",
+      "Okayama University & Spring-8 VUV Mössbauer Collaboration",
+      "Menlo Systems & Solid-State 148 nm VUV Comb Pioneers"
+    ],
+    "globalPrecedents": [
+      "ERC Synergy Grant ThoriumNuclearClock Open Crystal & Spectroscopy Milestones",
+      "BIPM International Roadmap for Redefining the SI Second",
+      "NIST / DARPA Resilient Non-GNSS Civilian Timing & Navigation Initiative",
+      "2026 Laboratory Ultralight Dark-Matter Constraints via 229Th:CaF2 Prototypes"
+    ],
+    "synergyLinks": [
+      "chain-theory-quantum-constants",
+      "co-packaged-silicon-photonics",
+      "earth-digital-twin-canopy",
+      "aquifer-rivers-desalination"
+    ],
+    "infographic": {
+      "headlineMetric": "10⁻¹⁹ Target",
+      "headlineLabel": "1-cm Gravity Redshift & 10,000× Dark-Matter Probe",
+      "unit": "Relativistic Geoid Elevation Sensitivity (cm)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2020,
+          "label": "GPS Microwave Cesium Clocks (Meter-Scale Geodesy)",
+          "value": 1000.0,
+          "display": "~1,000 cm (10 m)"
+        },
+        {
+          "year": 2026,
+          "label": "First Closed-Loop 229Th:CaF2 Locks & 4-Site Crystal Map",
+          "value": 100.0,
+          "display": "Lab VUV Comb Lock"
+        },
+        {
+          "year": 2029,
+          "label": "Single-Site CaF2 + Solid-State 148 nm Field Pelican Clocks",
+          "value": 1.0,
+          "display": "1.0 cm Geoid Resolution"
+        },
+        {
+          "year": 2033,
+          "label": "Photonic-Integrated 10⁻¹⁹ Shoebox Nuclear Clocks",
+          "value": 0.1,
+          "display": "1 mm Planetary Cartography"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Nuclear Transition",
+          "value": "8.35 eV",
+          "detail": "148.38 nm (2,020 THz)—only laser-reachable nucleus known"
+        },
+        {
+          "label": "Nuclei per 1 mm³",
+          "value": "10¹⁴+",
+          "detail": "10 billion× more oscillators than gas-trap optical clocks"
+        },
+        {
+          "label": "α-Drift Amplifier",
+          "value": "10,000×",
+          "detail": "Strong-vs.-Coulomb cancellation magnifies dark-matter signals"
+        },
+        {
+          "label": "Vacuum Chambers",
+          "value": "0 Needed",
+          "detail": "Recoil-free Mössbauer lock inside rugged CaF2 crystal"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "JILA / NIST & CU Boulder (Jun Ye & Chuankun Zhang VUV Comb Team)",
+        "url": "https://jila.colorado.edu/"
+      },
+      {
+        "name": "TU Wien & ERC ThoriumNuclearClock Consortium (Thorsten Schumm)",
+        "url": "https://www.tuwien.at/en/"
+      },
+      {
+        "name": "UCLA Physics & Astronomy Solid-State Nuclear Group (Eric Hudson)",
+        "url": "https://www.pa.ucla.edu/"
+      },
+      {
+        "name": "Physikalisch-Technische Bundesanstalt — PTB Germany (Ekkehard Peik)",
+        "url": "https://www.ptb.de/cms/en.html"
+      },
+      {
+        "name": "Okayama University & Spring-8 VUV Mössbauer Collaboration",
+        "url": "https://www.okayama-u.ac.jp/index_e.html"
+      },
+      {
+        "name": "Menlo Systems & Solid-State 148 nm VUV Comb Pioneers",
+        "url": "https://www.menlosystems.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "ERC Synergy Grant ThoriumNuclearClock Open Crystal & Spectroscopy Milestones",
+        "url": "https://erc.europa.eu/"
+      },
+      {
+        "name": "BIPM International Roadmap for Redefining the SI Second",
+        "url": "https://www.bipm.org/en/committees/cc/cctf"
+      },
+      {
+        "name": "NIST / DARPA Resilient Non-GNSS Civilian Timing & Navigation Initiative",
+        "url": "https://www.nist.gov/pml/time-and-frequency-division"
+      },
+      {
+        "name": "2026 Laboratory Ultralight Dark-Matter Constraints via 229Th:CaF2 Prototypes",
+        "url": "https://jila.colorado.edu/"
+      }
+    ]
+  },
+  {
+    "slug": "homochiral-asymmetric-catalysis",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/homochiral-asymmetric-catalysis",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "2026 Chemistry Nobel: Spontaneous Mirror-Symmetry Breaking & Zero-Waste Chiral Synthesis",
+    "tagline": "Nobel Laureates Henri B. Kagan and Kenso Soai explained how tiny imbalances snowball into 100% single-handed life—now paired with AI biocatalysts to cut pharmaceutical solvent waste by 80%.",
+    "cynicBelief": "Making pure single-handed medicines will always require boiling toxic petrochemical solvents and scarce palladium/rhodium, dumping 60 kg of hazardous waste per 1 kg of drug while nobody knows how biology chose left-handed amino acids.",
+    "breakthroughCounter": "The October 2026 Nobel Prize in Chemistry honored Henri B. Kagan (non-linear chiral amplification) and Kenso Soai (asymmetric autocatalysis snowballing tiny isotope imbalances past 99.5% homochirality), while AI-designed biocatalysts and LED flow organocatalysis (Merck, Codexis, Solugen) forge 99.9% enantiopure drugs in room-temperature water with up to 80% less solvent waste.",
+    "socialNormShift": "Replacing sprawling hazardous-solvent batch plants and lazy 50/50 racemic farm sprays with shipping-container aqueous enzyme skids ends petrochemical sacrifice zones, breaks generic drug shortages, and halves agrochemical runoff.",
+    "humanStory": {
+      "protagonist": "Aoife Murphy (Continuous Bioprocess Engineer)",
+      "location": "Cork, Ireland & Hyderabad Municipal Bio-Foundry",
+      "snippet": "Inside sunlit 28 °C glass flow tubes lit by gentle blue LEDs, Aoife's immobilized AI enzymes synthesize 99.98% single-handed pediatric anti-seizure medicine in plain water—slashing waste from 65 kg to under 8 kg per kilogram of cure."
+    },
+    "quote": {
+      "text": "That a vanishingly small chiral imbalance—even between carbon-12 and carbon-13 isotopes—can snow-ball through autocatalysis into near-perfect single-handed purity bridges the non-living chemical cosmos and the living homochiral world.",
+      "author": "Royal Swedish Academy of Sciences",
+      "role": "2026 Nobel Prize in Chemistry Citation (Henri B. Kagan & Kenso Soai)",
+      "url": "https://www.nobelprize.org/prizes/chemistry/"
+    },
+    "companiesAndLabs": [
+      "Henri B. Kagan (Université Paris-Saclay — 2026 Chemistry Nobel)",
+      "Kenso Soai (Tokyo University of Science — 2026 Chemistry Nobel)",
+      "Merck Process R&D (Aqueous Multi-Enzyme Drug Cascades)",
+      "Codexis (AI-Directed Biocatalyst Evolution Platform)",
+      "Solugen (Zero-Wastewater Chemo-Enzymatic Bioforges)",
+      "Continuous-Flow Photoredox & Organocatalysis Consortia"
+    ],
+    "globalPrecedents": [
+      "2026 Nobel Prize in Chemistry for Non-Linear Effects & Asymmetric Autocatalysis",
+      "U.S. EPA Green Chemistry Challenge Awards for Aqueous Enzymatic Cascades",
+      "FDA & EMA Single-Enantiomer Stereoisomeric Drug Purity Frameworks",
+      "ACS Pharmaceutical Roundtable Process Mass Intensity (PMI) Reduction Standard"
+    ],
+    "synergyLinks": [
+      "self-driving-labs",
+      "protein-atomic-nanofabrication",
+      "forever-chemical-cleanup",
+      "precision-fermentation-rewilding"
+    ],
+    "infographic": {
+      "headlineMetric": "-80% Waste",
+      "headlineLabel": "99.9% Enantiopure Aqueous Chiral Synthesis",
+      "unit": "Pharmaceutical Chemical Waste per kg Active Drug (E-Factor, kg/kg)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 1995,
+          "label": "Racemic 50/50 Batch + Chiral Waste Disposal",
+          "value": 95,
+          "display": "95 kg Waste / kg Drug"
+        },
+        {
+          "year": 2015,
+          "label": "Precious-Metal (Rh/Pd) Organic Solvent Catalysis",
+          "value": 45,
+          "display": "45 kg Waste / kg Drug"
+        },
+        {
+          "year": 2026,
+          "label": "Nobel Autocatalysis + AI Enzymes & Blue-LED Flow",
+          "value": 11,
+          "display": "11 kg (-80% Organic Solvents)"
+        },
+        {
+          "year": 2033,
+          "label": "Closed-Loop Self-Driving Aqueous Container Bio-Skids",
+          "value": 2.5,
+          "display": "<3 kg Benign Salt/Water"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Chiral Mirror Purity",
+          "value": ">99.9% ee",
+          "detail": "First-pass stereocontrol eliminates toxic mirror-twin side effects"
+        },
+        {
+          "label": "Organic Solvent Cut",
+          "value": "-80%",
+          "detail": "Runs in 25–35 °C water instead of boiling chlorinated solvents"
+        },
+        {
+          "label": "Farm Spray Tonnage",
+          "value": "-50%",
+          "detail": "Enantiopure crop protection retires inactive 50% racemic ballast"
+        },
+        {
+          "label": "Precious Metals",
+          "value": "0 Rh / Pd",
+          "detail": "Biodegradable AI-designed proteins & visible light replace PGMs"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Henri B. Kagan (Université Paris-Saclay — 2026 Chemistry Nobel)",
+        "url": "https://www.universite-paris-saclay.fr/en"
+      },
+      {
+        "name": "Kenso Soai (Tokyo University of Science — 2026 Chemistry Nobel)",
+        "url": "https://www.tus.ac.jp/en/"
+      },
+      {
+        "name": "Merck Process R&D (Aqueous Multi-Enzyme Drug Cascades)",
+        "url": "https://www.merck.com/research/"
+      },
+      {
+        "name": "Codexis (AI-Directed Biocatalyst Evolution Platform)",
+        "url": "https://www.codexis.com/"
+      },
+      {
+        "name": "Solugen (Zero-Wastewater Chemo-Enzymatic Bioforges)",
+        "url": "https://solugen.com/"
+      },
+      {
+        "name": "Continuous-Flow Photoredox & Organocatalysis Consortia",
+        "url": "https://www.acs.org/greenchemistry.html"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2026 Nobel Prize in Chemistry for Non-Linear Effects & Asymmetric Autocatalysis",
+        "url": "https://www.nobelprize.org/prizes/chemistry/"
+      },
+      {
+        "name": "U.S. EPA Green Chemistry Challenge Awards for Aqueous Enzymatic Cascades",
+        "url": "https://www.epa.gov/greenchemistry"
+      },
+      {
+        "name": "FDA & EMA Single-Enantiomer Stereoisomeric Drug Purity Frameworks",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/development-new-stereoisomeric-drugs"
+      },
+      {
+        "name": "ACS Pharmaceutical Roundtable Process Mass Intensity (PMI) Reduction Standard",
+        "url": "https://www.acs.org/greenchemistry.html"
+      }
+    ]
+  },
+  {
+    "slug": "co-packaged-silicon-photonics",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/co-packaged-silicon-photonics",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Computing with Laser Light: Co-Packaged Silicon Photonics Shattering the Copper Energy Wall",
+    "tagline": "3D-stacked optical chiplets and co-packaged waveguides bring multi-terabit laser I/O straight onto silicon at <1–2 pJ/bit—slashing interconnect power up to 10× and pooling clean-energy campuses.",
+    "cynicBelief": "AI servers are slamming into an immovable copper physics wall—burning nearly half a data center's power just pushing bits inches across wires and forcing 1-gigawatt server furnaces onto stressed urban grids.",
+    "breakthroughCounter": "Between 2025 and late 2026, TSMC COUPE 3D photonic bonding, NVIDIA Spectrum-X / Quantum-X Photonics, Broadcom Bailly 51.2T CPO, Ayar Labs TeraPHY chiplets, Celestial AI Photonic Fabric, and Lightmatter Passage moved 1.6T–6.4T+ laser waveguides directly onto the chip package—cutting link energy 5×–10× and extending lossless reach across kilometers.",
+    "socialNormShift": "Kilometer-reach picojoule optical fabrics let communities replace monolithic 1-GW grid-choking warehouses with modular 15-MW solar/hydro pavilions that heat local greenhouses and apartments while decoupling compute upgrades from RAM e-waste.",
+    "humanStory": {
+      "protagonist": "Astrid Holmberg (Municipal District-Heating & Compute Engineer)",
+      "location": "Luleå River Valley, Sweden",
+      "snippet": "Astrid's quiet 15-MW hydro-powered compute pavilion warms neighborhood winter tomato greenhouses with 55 °C return water while pooling 100 terabytes of shared optical memory seamlessly with two sister valleys miles away at 0.8 picojoules per bit."
+    },
+    "quote": {
+      "text": "Moving optical I/O directly into the processor package shatters both the copper energy wall and the memory wall—allowing thousands of chips across a clean-energy campus to compute as one unified light-speed system.",
+      "author": "Mark Wade",
+      "role": "Co-Founder & CEO, Ayar Labs",
+      "url": "https://ayarlabs.com/"
+    },
+    "companiesAndLabs": [
+      "TSMC (COUPE 3D Compact Universal Photonic Engine)",
+      "NVIDIA (Spectrum-X & Quantum-X Silicon Photonics Switches)",
+      "Broadcom (Bailly 51.2T Co-Packaged Optical Switch)",
+      "Ayar Labs (TeraPHY Optical I/O Chiplets & SuperNova Laser)",
+      "Celestial AI (Photonic Fabric Disaggregated Optical Memory)",
+      "Lightmatter (Passage 3D Wafer-Scale Photonic Interposer)"
+    ],
+    "globalPrecedents": [
+      "Optical Internetworking Forum (OIF) & UCIe Open Optical Chiplet Standards",
+      "Stockholm Data Parks & Luleå Municipal Server-Heat District Heating Mandates",
+      "U.S. ARPA-E ENLITENED Sub-Picojoule Photonic Interconnect Benchmarks",
+      "300 mm CMOS-Compatible Silicon-Nitride Foundry Volume Qualification"
+    ],
+    "synergyLinks": [
+      "thermodynamic-computing-tsus",
+      "quantum-logical-simulation",
+      "superconducting-grids",
+      "orbital-radiative-compute"
+    ],
+    "infographic": {
+      "headlineMetric": "<1–2 pJ/bit",
+      "headlineLabel": "5×–10× Lower Chip-to-Chip Interconnect Power",
+      "unit": "Off-Package High-Speed Interconnect Energy (Picojoules per Bit)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "Copper Traces + Pluggable OSFP Optical Modules",
+          "value": 22.0,
+          "display": "22.0 pJ/bit"
+        },
+        {
+          "year": 2026,
+          "label": "51.2T–400T CPO Switches + COUPE & TeraPHY Chiplets",
+          "value": 2.2,
+          "display": "1.5–3.5 pJ/bit"
+        },
+        {
+          "year": 2029,
+          "label": "Universal 3D XPU + HBM Disaggregated Optical Fabrics",
+          "value": 0.7,
+          "display": "0.7 pJ/bit"
+        },
+        {
+          "year": 2033,
+          "label": "Quantum-Dot Comb Lasers + Hybrid Photonic Dies",
+          "value": 0.15,
+          "display": "0.15 pJ/bit"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Networking Power Cut",
+          "value": "5×–10×",
+          "detail": "Saves tens of megawatts per 100k-XPU clean cluster"
+        },
+        {
+          "label": "Lossless Reach",
+          "value": "2,000 m+",
+          "detail": "Up 1,000× vs. 2-meter high-speed copper cables"
+        },
+        {
+          "label": "Cluster Reliability",
+          "value": "10× MTBF",
+          "detail": "Retires overheating front-panel pluggable laser failures"
+        },
+        {
+          "label": "Memory Utilization",
+          "value": ">90%",
+          "detail": "Optical memory pooling ends stranded HBM board e-waste"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "TSMC (COUPE 3D Compact Universal Photonic Engine)",
+        "url": "https://www.tsmc.com/"
+      },
+      {
+        "name": "NVIDIA (Spectrum-X & Quantum-X Silicon Photonics Switches)",
+        "url": "https://www.nvidia.com/en-us/networking/"
+      },
+      {
+        "name": "Broadcom (Bailly 51.2T Co-Packaged Optical Switch)",
+        "url": "https://www.broadcom.com/"
+      },
+      {
+        "name": "Ayar Labs (TeraPHY Optical I/O Chiplets & SuperNova Laser)",
+        "url": "https://ayarlabs.com/"
+      },
+      {
+        "name": "Celestial AI (Photonic Fabric Disaggregated Optical Memory)",
+        "url": "https://www.celestial.ai/"
+      },
+      {
+        "name": "Lightmatter (Passage 3D Wafer-Scale Photonic Interposer)",
+        "url": "https://lightmatter.co/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Optical Internetworking Forum (OIF) & UCIe Open Optical Chiplet Standards",
+        "url": "https://www.oiforum.com/"
+      },
+      {
+        "name": "Stockholm Data Parks & Luleå Municipal Server-Heat District Heating Mandates",
+        "url": "https://stockholmdataparks.com/"
+      },
+      {
+        "name": "U.S. ARPA-E ENLITENED Sub-Picojoule Photonic Interconnect Benchmarks",
+        "url": "https://arpa-e.energy.gov/"
+      },
+      {
+        "name": "300 mm CMOS-Compatible Silicon-Nitride Foundry Volume Qualification",
+        "url": "https://www.tsmc.com/"
+      }
+    ]
+  },
+  {
+    "slug": "neuromorphic-event-vision",
+    "pillarId": "automation-science",
+    "folderRel": "carbon/02-automation-science/neuromorphic-event-vision",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Milliwatt Insect Brains: Event-Based Retinas & Spiking Neuromorphic Chips for Always-On Edge Intelligence",
+    "tagline": "3D-stacked event retinas fire microsecond spikes only when light changes (>120 dB glare immunity)—powering sub-10-milliwatt spiking reflexes in cars, hearing aids, and camera-free eldercare.",
+    "cynicBelief": "Edge cameras either go snow-blind in tunnel glare, kill wearable batteries in two hours shooting 60 wasteful full frames per second, or stream creepy 24/7 surveillance video of private homes to the cloud.",
+    "breakthroughCounter": "Event-based retinas (Prophesee Metavision GenX320 & Sony IMX636) ditch 1878 movie frames—firing asynchronous 50-μs spikes only on luminance changes across >120 dB dynamic range—paired with spiking neuromorphic processors (Intel Loihi 2 / 1.15B-neuron Hala Point, Innatera T1, SynSense Speck, BrainChip Akida) sipping microwatts to milliwatts locally.",
+    "socialNormShift": "Because stationary faces and rooms emit zero spikes, event-neuromorphic sensors deliver mathematically provable 'privacy-by-physics' for eldercare fall protection alongside 14-day smart hearing aids and glare-proof pedestrian braking.",
+    "humanStory": {
+      "protagonist": "Marco Bellini (Alpine Van Driver) & Mrs. Sato (84, Retired Teacher)",
+      "location": "Lugano, Switzerland & Kyoto, Japan",
+      "snippet": "Exiting a dark Alpine tunnel into blinding wet-road sun, Marco's 4-milliwatt event retina spots a child in shadow in 50 microseconds (>120 dB) and brakes smoothly—while in Kyoto, Mrs. Sato's 2-milliwatt fall guardian protects her independence without ever recording a single bedroom photo."
+    },
+    "quote": {
+      "text": "Frames were invented for human cinema, not machine intelligence. By letting each pixel speak only when the world changes—and processing spikes where memory lives—machines gain biological reflexes at a thousandth of the energy.",
+      "author": "Luca Verre",
+      "role": "Co-Founder & CEO, Prophesee",
+      "url": "https://www.prophesee.ai/"
+    },
+    "companiesAndLabs": [
+      "Prophesee & Sony Semiconductor (GenX320 & IMX636 Event Retinas)",
+      "Intel Labs Neuromorphic Computing (Loihi 2 & 1.15B-Neuron Hala Point)",
+      "SynSense & iniVation (Speck Integrated Retina+SNN SoCs)",
+      "Innatera Nanosystems (Spiking Neural Processor T1)",
+      "BrainChip (Akida Event-Based Edge NPU)",
+      "ETH / University of Zurich Robotics & Perception Group (Davide Scaramuzza)"
+    ],
+    "globalPrecedents": [
+      "EU GDPR Hospital & Eldercare 'Privacy-by-Physics' Zero-Frame Fall Monitoring",
+      "Euro NCAP Vision Zero Night & Tunnel-Glare Pedestrian AEB Protocols",
+      "Open Neuromorphic Consortium (snnTorch, Lava & Tonic Open Toolchains)",
+      "3.5-ms Onboard Event-Driven Obstacle Dodging Verified at UZH Robotics"
+    ],
+    "synergyLinks": [
+      "general-purpose-humanoids",
+      "autonomous-ground-mobility",
+      "thermodynamic-computing-tsus",
+      "altermagnetism-spintronics"
+    ],
+    "infographic": {
+      "headlineMetric": "50 μs / >120 dB",
+      "headlineLabel": "Milliwatt Glare-Proof & Frame-Free Edge Reflex",
+      "unit": "Always-On High-Speed Edge Vision + Neural Reflex Power (Milliwatts)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2020,
+          "label": "60-fps RGB Camera + Embedded Edge GPU",
+          "value": 8000.0,
+          "display": "8,000 mW (8.0 W)"
+        },
+        {
+          "year": 2024,
+          "label": "First-Gen Industrial DVS + Discrete Spiking Dev Boards",
+          "value": 250.0,
+          "display": "250 mW"
+        },
+        {
+          "year": 2026,
+          "label": "Prophesee GenX320 / Sony IMX636 + Speck / Innatera T1",
+          "value": 4.5,
+          "display": "4.5 mW (36 μW Sleep)"
+        },
+        {
+          "year": 2032,
+          "label": "Monolithic 3D Retina + Altermagnetic Synaptic Dies",
+          "value": 0.2,
+          "display": "0.2 mW (Solar-Harvested)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Dynamic Range",
+          "value": ">120 dB",
+          "detail": "1,000,000:1 light contrast sees into dark tunnels & high-beams"
+        },
+        {
+          "label": "Motion Latency",
+          "value": "50 μs",
+          "detail": "10,000+ fps equivalent tracking with zero motion blur"
+        },
+        {
+          "label": "Wake Standby Power",
+          "value": "36 μW",
+          "detail": "Prophesee GenX320 runs years on coin cells or indoor light"
+        },
+        {
+          "label": "Static Faces Stored",
+          "value": "0 Frames",
+          "detail": "Unmoving bedrooms emit 0 bits—intrinsic eldercare privacy"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Prophesee & Sony Semiconductor (GenX320 & IMX636 Event Retinas)",
+        "url": "https://www.prophesee.ai/"
+      },
+      {
+        "name": "Intel Labs Neuromorphic Computing (Loihi 2 & 1.15B-Neuron Hala Point)",
+        "url": "https://www.intel.com/content/www/us/en/research/neuromorphic-computing.html"
+      },
+      {
+        "name": "SynSense & iniVation (Speck Integrated Retina+SNN SoCs)",
+        "url": "https://www.synsense.ai/"
+      },
+      {
+        "name": "Innatera Nanosystems (Spiking Neural Processor T1)",
+        "url": "https://innatera.com/"
+      },
+      {
+        "name": "BrainChip (Akida Event-Based Edge NPU)",
+        "url": "https://brainchip.com/"
+      },
+      {
+        "name": "ETH / University of Zurich Robotics & Perception Group (Davide Scaramuzza)",
+        "url": "https://rpg.ifi.uzh.ch/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "EU GDPR Hospital & Eldercare 'Privacy-by-Physics' Zero-Frame Fall Monitoring",
+        "url": "https://www.synsense.ai/"
+      },
+      {
+        "name": "Euro NCAP Vision Zero Night & Tunnel-Glare Pedestrian AEB Protocols",
+        "url": "https://www.euroncap.com/"
+      },
+      {
+        "name": "Open Neuromorphic Consortium (snnTorch, Lava & Tonic Open Toolchains)",
+        "url": "https://open-neuromorphic.org/"
+      },
+      {
+        "name": "3.5-ms Onboard Event-Driven Obstacle Dodging Verified at UZH Robotics",
+        "url": "https://rpg.ifi.uzh.ch/"
+      }
+    ]
+  }
+]

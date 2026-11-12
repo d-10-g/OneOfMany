@@ -1,0 +1,1432 @@
+[
+  {
+    "slug": "symbiotic-civic-data-centers",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/symbiotic-civic-data-centers",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Symbiotic Terrestrial Data Centers: 65°C District Heating & Civic Shields",
+    "tagline": "Closed-loop liquid AI racks pipe 65°C–80°C warmth straight into city homes and winter greenhouses while legally shielding local ratepayers.",
+    "cynicBelief": "AI data centers are parasitic concrete bunkers—guzzling municipal drinking water, spiking families' electric bills to subsidize billionaire chatbots, roaring with diesel backup gensets, and giving almost nothing back to host towns.",
+    "breakthroughCounter": "Direct-to-chip liquid cooling (30–120 kW/rack) captures >96% of chip heat at 55°C–80°C with near-zero evaporated water (WUE → 0.0 L/kWh). Microsoft and Fortum's Finland rollout warms ~250,000 residents (40% of regional heat), Meta warms 11,000+ Odense homes, and behind-the-meter LFP yards plus isolated large-load tariffs turn compute halls into storm-proof grid stabilizers.",
+    "socialNormShift": "Backed by the EU Energy Efficiency Directive's 2026 waste-heat mandate, isolated large-load ratepayer firewalls, and binding Community Benefit Agreements (CBAs), towns make zero-water cooling, shared district warmth, and dedicated school tax funds non-negotiable conditions of entry.",
+    "humanStory": {
+      "protagonist": "Aino Lindqvist, Municipal District Thermal Engineer",
+      "location": "Espoo & Kirkkonummi, Finland",
+      "snippet": "Stepping onto snow-melted tram cobbles at -14°C with zero fossil smokestacks on the horizon, Aino routes 68°C closed-loop server water into 90,000 apartments, public pools, and winter strawberry conservatories—cutting household heating bills 38%."
+    },
+    "quote": {
+      "text": "Capturing waste heat from data centers at city scale proves digital infrastructure and climate neutralization aren't enemies—the same clean electron that trains a model can warm a quarter-million citizens' homes.",
+      "author": "Markus Rauramo",
+      "role": "President & CEO, Fortum",
+      "url": "https://www.fortum.com/"
+    },
+    "companiesAndLabs": [
+      "Fortum & Microsoft (Espoo Clean Heat)",
+      "Stockholm Data Parks & Stockholm Exergi",
+      "Meta & Fjernvarme Fyn (Odense)",
+      "Amazon AWS & Tallaght Heat Works",
+      "Deep Green & Qarnot Digital Boilers",
+      "Duke Nicholas Institute (Load Flex)"
+    ],
+    "globalPrecedents": [
+      "Microsoft–Fortum 250,000-Resident Finland Waste-Heat Network",
+      "EU Energy Efficiency Directive (EED) Data Center Heat Mandate",
+      "South Dublin Tallaght Municipal District Heating (AWS)",
+      "US Isolated Large-Load Ratepayer Firewall Tariffs (Ohio / NV)"
+    ],
+    "synergyLinks": [
+      "orbital-radiative-compute",
+      "bidirectional-v2g-virtual-plants",
+      "abundant-beautiful-housing",
+      "compute-commons-taxation"
+    ],
+    "infographic": {
+      "headlineMetric": "250,000 Residents",
+      "headlineLabel": "Warmed by Espoo Compute Heat",
+      "unit": "Global Recovered Compute District Heat (TWh/yr)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Nordic, Irish & EU EED Flagships Live",
+          "value": 5,
+          "display": "~5 TWh/yr"
+        },
+        {
+          "year": 2030,
+          "label": "70°C Liquid Racks + Mandatory CBA/EED Rollout",
+          "value": 45,
+          "display": "45+ TWh/yr"
+        },
+        {
+          "year": 2035,
+          "label": "25M+ Homes & Greenhouses on Compute TENs",
+          "value": 180,
+          "display": "180+ TWh/yr"
+        },
+        {
+          "year": 2040,
+          "label": "Primary Urban Winter Heat Backbone in 200+ Cities",
+          "value": 420,
+          "display": "400+ TWh/yr"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Liquid Outlet Temp",
+          "value": "55°C–80°C",
+          "detail": "Direct 4GDH district-heating match via cold plates"
+        },
+        {
+          "label": "Sealed Water Loop",
+          "value": "~0.0 L/kWh",
+          "detail": "Deletes open potable evaporative cooling towers"
+        },
+        {
+          "label": "Espoo Carbon Cut",
+          "value": "-400k t/yr",
+          "detail": "Supplies 40% of regional district heating demand"
+        },
+        {
+          "label": "Ratepayer Shield",
+          "value": "100% Ringfenced",
+          "detail": "Large-load tariffs + CBAs protect household bills"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Fortum & Microsoft (Espoo Clean Heat)",
+        "url": "https://www.fortum.com/"
+      },
+      {
+        "name": "Stockholm Data Parks & Stockholm Exergi",
+        "url": "https://stockholmdataparks.com/"
+      },
+      {
+        "name": "Meta & Fjernvarme Fyn (Odense)",
+        "url": "https://www.fjernvarmefyn.dk/"
+      },
+      {
+        "name": "Amazon AWS & Tallaght Heat Works",
+        "url": "https://www.sdcc.ie/en/"
+      },
+      {
+        "name": "Deep Green & Qarnot Digital Boilers",
+        "url": "https://deepgreen.energy/"
+      },
+      {
+        "name": "Duke Nicholas Institute (Load Flex)",
+        "url": "https://nicholasinstitute.duke.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Microsoft–Fortum 250,000-Resident Finland Waste-Heat Network",
+        "url": "https://www.fortum.com/"
+      },
+      {
+        "name": "EU Energy Efficiency Directive (EED) Data Center Heat Mandate",
+        "url": "https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive_en"
+      },
+      {
+        "name": "South Dublin Tallaght Municipal District Heating (AWS)",
+        "url": "https://www.sdcc.ie/en/"
+      },
+      {
+        "name": "US Isolated Large-Load Ratepayer Firewall Tariffs (Ohio / NV)",
+        "url": "https://puco.ohio.gov/"
+      }
+    ]
+  },
+  {
+    "slug": "solid-state-low-pressure-cells",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/solid-state-low-pressure-cells",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "1-Atmosphere Solid-State Batteries: Ceramic Separators & 10-Minute EVs",
+    "tagline": "Continuous ceramic separators and Li-In anode interphases shatter the 50-atm pressure wall—unlocking non-flammable 450+ Wh/kg packs that charge in 8 minutes.",
+    "cynicBelief": "Solid-state batteries are the perpetual mirage of the auto industry—sprouting short-circuiting lithium dendrites on fast charge and surviving only inside massive 50-atmosphere steel vises.",
+    "breakthroughCounter": "In late 2026, QuantumScape's Osprey platform (built on its continuous-flow Cobra ceramic separator line) achieved 1,000 full cycles (~80% retention) at just 1 atmosphere of pressure with 5–10 minute fast-charge capability, joined by polymer–indium-chloride (InCl₃) smart interphases, Factorial's 1,200-km Solstice road tests, and Samsung SDI's 900 Wh/L silver-carbon cells.",
+    "socialNormShift": "Non-flammable 600-mile packs that add 400 miles in 8 minutes down to -20°C bring effortless EV ownership to the 40% of apartment renters who park on city streets without home garages, while cutting vehicle weight by 350+ kg.",
+    "humanStory": {
+      "protagonist": "Kendra Sato, Pediatric Visiting Mountain Nurse",
+      "location": "Eisenhower Pass, Colorado",
+      "snippet": "Pulling into a -16°C mountain trailhead plaza at 11% charge, Kendra grabs a hot cinnamon latte and walks back out eight minutes later to a fire-safe, clamp-free solid-state crossover sitting at 82% (+430 miles)."
+    },
+    "quote": {
+      "text": "Achieving a thousand cycles with a sulfide solid-state cathode at just one atmosphere of pressure removes the biggest engineering roadblock between solid-state chemistry and everyday passenger vehicles.",
+      "author": "Dr. Siva Sivaram",
+      "role": "President & CEO, QuantumScape",
+      "url": "https://www.quantumscape.com/"
+    },
+    "companiesAndLabs": [
+      "QuantumScape & PowerCo (VW)",
+      "Samsung SDI (S-Line Ag-C)",
+      "Factorial Energy & Mercedes-Benz",
+      "Toyota & Idemitsu Kosan",
+      "CATL & BYD Solid-State Alliance",
+      "Polymer-InCl₃ Interphase Labs"
+    ],
+    "globalPrecedents": [
+      "QuantumScape Osprey 1-Atm 1,000-Cycle Sulfide Proof (2026)",
+      "Mercedes-Benz / Factorial >1,200 km Single-Charge Road Test",
+      "Samsung SDI 900 Wh/L 9-Minute Charge Pilot Line (Suwon)",
+      "EU Digital Battery Passport >96% Mineral Circularity Rule"
+    ],
+    "synergyLinks": [
+      "bidirectional-v2g-virtual-plants",
+      "electrochemical-lithium-brine",
+      "evtol-3d-transit",
+      "general-purpose-humanoids"
+    ],
+    "infographic": {
+      "headlineMetric": "1 Atm • 1,000 Cycles",
+      "headlineLabel": "Zero-Clamp Solid-State Breakthrough",
+      "unit": "Solid-State Automotive Pack Cost ($/kWh)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "B-Samples & Pilot Lines (Cobra / Solstice / S-Line)",
+          "value": 148,
+          "display": "$135–$165/kWh"
+        },
+        {
+          "year": 2030,
+          "label": "Anode-Free Roll-to-Roll & Dry Cathode Gigafactories",
+          "value": 82,
+          "display": "$75–$90/kWh"
+        },
+        {
+          "year": 2035,
+          "label": "580+ Wh/kg Bipolar Packs Undercut ICE Stickers",
+          "value": 54,
+          "display": "$48–$60/kWh"
+        },
+        {
+          "year": 2040,
+          "label": "Million-Mile Structural Mobility & eVTOL Standard",
+          "value": 39,
+          "display": "<$42/kWh"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Stack Pressure",
+          "value": "1.0 Atm",
+          "detail": "Deletes 30–100 atm heavy steel clamping frames"
+        },
+        {
+          "label": "Energy Density",
+          "value": "450+ Wh/kg",
+          "detail": "~1,000+ Wh/L shaves 350+ kg off family EVs"
+        },
+        {
+          "label": "10–80% Fast Charge",
+          "value": "5–10 Mins",
+          "detail": "Dendrite-free Li-In / ceramic plating to -20°C"
+        },
+        {
+          "label": "Flammable Liquid",
+          "value": "0.0 Drops",
+          "detail": "Solid ceramic/sulfide core stable past 300°C"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "QuantumScape & PowerCo (VW)",
+        "url": "https://www.quantumscape.com/"
+      },
+      {
+        "name": "Samsung SDI (S-Line Ag-C)",
+        "url": "https://www.samsungsdi.com/"
+      },
+      {
+        "name": "Factorial Energy & Mercedes-Benz",
+        "url": "https://factorialenergy.com/"
+      },
+      {
+        "name": "Toyota & Idemitsu Kosan",
+        "url": "https://www.idemitsu.com/en/"
+      },
+      {
+        "name": "CATL & BYD Solid-State Alliance",
+        "url": "https://www.catl.com/en/"
+      },
+      {
+        "name": "Polymer-InCl₃ Interphase Labs",
+        "url": "https://pubs.acs.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "QuantumScape Osprey 1-Atm 1,000-Cycle Sulfide Proof (2026)",
+        "url": "https://www.quantumscape.com/resources/blog/"
+      },
+      {
+        "name": "Mercedes-Benz / Factorial >1,200 km Single-Charge Road Test",
+        "url": "https://factorialenergy.com/"
+      },
+      {
+        "name": "Samsung SDI 900 Wh/L 9-Minute Charge Pilot Line (Suwon)",
+        "url": "https://www.samsungsdi.com/"
+      },
+      {
+        "name": "EU Digital Battery Passport >96% Mineral Circularity Rule",
+        "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/batteries_en"
+      }
+    ]
+  },
+  {
+    "slug": "cuprate-pseudogap-superconductors",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/cuprate-pseudogap-superconductors",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Cracking the 40-Year Superconductor Mystery: Cuprate Patchwork & Phase Coherence",
+    "tagline": "Twin Oct–Nov 2026 synchrotron and quantum shot-noise breakthroughs expose hidden 150-nm crystal walls and preformed Cooper pairs—handing engineers a higher-Tc blueprint.",
+    "cynicBelief": "High-temperature superconductivity has been condensed-matter physics' biggest dead end since 1986—forty years of arguing over the pseudogap while ceramic tapes stay brittle and expensive.",
+    "breakthroughCounter": "In Oct 2026 (PRL), Univ. of Warwick and ESRF 3D X-ray diffraction revealed cuprate crystals hide an interior structural patchwork with 150-nm boundary walls suppressing current. Weeks later in Nov 2026 (Science), Leiden/Utrecht/LMU atomic shot-noise spectroscopy proved Cooper pairs already form well above Tc in the pseudogap—isolating phase coherence as the true engineering key.",
+    "socialNormShift": "Replacing ceramic 'shake-and-bake' guesswork with inline X-ray strain engineering drives superconducting tape below copper cost per amp-meter, eliminating scarce fossil-gas helium from rural hospital MRIs and hiding gigawatt power trunks under narrow bike lanes.",
+    "humanStory": {
+      "protagonist": "Haruto Takahashi, Epitaxial Superconductor Engineer",
+      "location": "Yokohama, Japan & Grenoble, France",
+      "snippet": "Watching inline X-ray sensors erase 150-nm patchwork boundaries across meter-wide REBCO ribbons at 30 m/min, Haruto triples critical current for helium-free rural MRIs and a wrist-thick 3.2 GW zero-loss cable buried beneath a canal bike path."
+    },
+    "quote": {
+      "text": "For forty years we treated cuprate crystals as uniform textbooks and debated whether the pseudogap fought or helped superconductivity. Now we can see both the 150-nanometer structural patchwork and the preformed electron pairs—giving materials designers a real target: engineer phase coherence.",
+      "author": "Prof. Mark Senn & 2026 European Cuprate Consortia",
+      "role": "University of Warwick / ESRF ID11 & Leiden Shot-Noise Teams",
+      "url": "https://www.esrf.fr/"
+    },
+    "companiesAndLabs": [
+      "Univ. of Warwick & ESRF Grenoble",
+      "Leiden, Utrecht & LMU Munich",
+      "Faraday Factory Japan & Fujikura",
+      "American Superconductor (AMSC)",
+      "SuperNode Cryogenic Grids",
+      "MetOx International"
+    ],
+    "globalPrecedents": [
+      "Oct 2026 PRL ESRF 3DXRD 150-nm Cuprate Patchwork Discovery",
+      "Nov 2026 Science STM Shot-Noise Preformed Cooper-Pair Proof",
+      "Munich SuperLink 12-km Urban HTS Underground Grid Cable",
+      "Chicago ComEd Resilient Electric Grid (REG) HTS Interconnect"
+    ],
+    "synergyLinks": [
+      "fusion-power",
+      "superconducting-grids",
+      "inverse-materials-design",
+      "self-driving-labs"
+    ],
+    "infographic": {
+      "headlineMetric": "2e Pairs > Tc",
+      "headlineLabel": "Pseudogap Pairing + 150-nm Patchwork Solved",
+      "unit": "2G Cuprate HTS Wire Cost ($/kA-m @ 77K eq.)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Pre-Patchwork Empirical REBCO Spools (~6,000 km/yr)",
+          "value": 45,
+          "display": "$35–$55/kA-m"
+        },
+        {
+          "year": 2030,
+          "label": "Domain-Wall-Erased Wide-Web Tape (3x Higher Jc)",
+          "value": 18,
+          "display": "$15–$22/kA-m"
+        },
+        {
+          "year": 2035,
+          "label": "Phase-Stiff Heterostructures Beat High-Voltage Copper",
+          "value": 7.5,
+          "display": "<$8/kA-m"
+        },
+        {
+          "year": 2040,
+          "label": "Commodity >165K Engineered Superlattice Wire",
+          "value": 3.8,
+          "display": "<$4/kA-m"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Patchwork Wall Width",
+          "value": "~150 nm",
+          "detail": "Oct 2026 ESRF 3DXRD scan exposed hidden bulk barriers"
+        },
+        {
+          "label": "Pseudogap Pairing",
+          "value": "70 meV (2e)",
+          "detail": "Nov 2026 Science shot-noise proved pairs form above Tc"
+        },
+        {
+          "label": "Urban Cable Loss",
+          "value": "~0.0% I²R",
+          "detail": "3.2 GW fits in a 15-cm pipe beneath city bike lanes"
+        },
+        {
+          "label": "Liquid Helium Need",
+          "value": "0 Liters",
+          "detail": "Frees rural MRIs & fusion magnets from fossil helium"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Univ. of Warwick & ESRF Grenoble",
+        "url": "https://www.esrf.fr/"
+      },
+      {
+        "name": "Leiden, Utrecht & LMU Munich",
+        "url": "https://www.universiteitleiden.nl/en/science/physics"
+      },
+      {
+        "name": "Faraday Factory Japan & Fujikura",
+        "url": "https://www.faradaygroup.com/"
+      },
+      {
+        "name": "American Superconductor (AMSC)",
+        "url": "https://www.amsc.com/"
+      },
+      {
+        "name": "SuperNode Cryogenic Grids",
+        "url": "https://supernode.energy/"
+      },
+      {
+        "name": "MetOx International",
+        "url": "https://www.metoxtech.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Oct 2026 PRL ESRF 3DXRD 150-nm Cuprate Patchwork Discovery",
+        "url": "https://warwick.ac.uk/fac/sci/chem/"
+      },
+      {
+        "name": "Nov 2026 Science STM Shot-Noise Preformed Cooper-Pair Proof",
+        "url": "https://www.science.org/"
+      },
+      {
+        "name": "Munich SuperLink 12-km Urban HTS Underground Grid Cable",
+        "url": "https://www.swm.de/english"
+      },
+      {
+        "name": "Chicago ComEd Resilient Electric Grid (REG) HTS Interconnect",
+        "url": "https://www.amsc.com/"
+      }
+    ]
+  },
+  {
+    "slug": "thermal-bricks-industrial-heat",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/thermal-bricks-industrial-heat",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Glowing Firebrick & Carbon Thermal Batteries: 1,500°C Smokeless Factories",
+    "tagline": "Ancient clay firebricks and glowing carbon blocks soak up penny midday solar to deliver 24/7 1,500°C–2,000°C factory heat cheaper than fracked gas.",
+    "cynicBelief": "Cheap afternoon solar is cute for lightbulbs, but cement kilns, chemical plants, and food factories need roaring 24/7 fossil boilers—and chemical batteries are five times too expensive to boil industrial steam.",
+    "breakthroughCounter": "Storing solar directly as 1,500°C–2,000°C heat in quarry firebrick or solid carbon costs ~1/5th of Li-ion batteries at >97% thermal efficiency with zero critical minerals. Rondo scaled brick manufacturing to 90 GWh/yr, Electrified Thermal's Joule Hive hits 1,800°C directly, and Antora's mirrored thermophotovoltaic (TPV) cells turn glowing carbon back into >40%-efficient electricity.",
+    "socialNormShift": "Factories turn from 'hard-to-abate' fossil holdouts into the grid's hungriest midday solar sponges—bolting drop-in brick boxes outside existing steam pipes over a weekend while saving $1.27 trillion in global grid costs.",
+    "humanStory": {
+      "protagonist": "Hector Dominguez, Master Industrial Boiler Operator",
+      "location": "San Joaquin Valley, California",
+      "snippet": "At 2:00 AM on a windless night, Hector's beverage and processing plant runs on rock-steady 550°C steam drawn from 3,000 tons of sun-gold 1,480°C firebrick charged during yesterday's $4/MWh noon solar glut—cutting fuel costs below pipeline gas with zero smog."
+    },
+    "quote": {
+      "text": "Industry uses more energy than transportation or buildings, mostly as heat. By storing low-cost wind and solar in simple brick at 1,500°C, clean industrial heat becomes cheaper than fossil fuels today.",
+      "author": "John O'Donnell",
+      "role": "Founder & Co-CEO, Rondo Energy",
+      "url": "https://rondo.com/"
+    },
+    "companiesAndLabs": [
+      "Rondo Energy & SCG (90 GWh Line)",
+      "Antora Energy (>40% TPV Carbon)",
+      "Electrified Thermal (Joule Hive)",
+      "Kraftblock & MGA Thermal",
+      "Kyoto Group (Heatcube)",
+      "Stanford 149-Country Brick Team"
+    ],
+    "globalPrecedents": [
+      "Rondo Calgren Commercial Operation & 90 GWh/yr Brick Factory",
+      "Antora >40% Solid-State Thermophotovoltaic Efficiency Record",
+      "PepsiCo Netherlands Zero-Gas Kraftblock Thermal Plant",
+      "Stanford PNAS Nexus $1.27T Global Firebrick Grid Savings Study"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "synthetic-sky-fuels",
+      "iron-sodium-storage",
+      "symbiotic-civic-data-centers"
+    ],
+    "infographic": {
+      "headlineMetric": "1,500°C–2,000°C",
+      "headlineLabel": ">97% Efficient Clay & Carbon Heat",
+      "unit": "24/7 Clean Industrial Heat Cost ($/MMBtu)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Commercial Food, Chemical & Ethanol Units Live",
+          "value": 6.5,
+          "display": "$5.50–$8.00/MMBtu"
+        },
+        {
+          "year": 2030,
+          "label": "90+ GWh Fleet Undercuts Pipeline Gas Globally",
+          "value": 4.2,
+          "display": "$3.50–$5.00/MMBtu"
+        },
+        {
+          "year": 2035,
+          "label": "Paired with <$10/MWh Tandems on Cement & Steel",
+          "value": 2.8,
+          "display": "$2.20–$3.50/MMBtu"
+        },
+        {
+          "year": 2040,
+          "label": "Universal Sub-Fossil Smokeless Process Heat",
+          "value": 1.8,
+          "display": "<$2.00/MMBtu"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Thermal Storage Capex",
+          "value": "~$15/kWh-th",
+          "detail": "1/5th cost of Li-ion; built from quarry clay & carbon"
+        },
+        {
+          "label": "TPV Solid-State Cell",
+          "value": ">40% Eff.",
+          "detail": "Antora gold-mirror photon recycling with 0 turbines"
+        },
+        {
+          "label": "Thermal Efficiency",
+          "value": ">97% RTE",
+          "detail": "<1%/day heat loss; 40-year zero-degradation life"
+        },
+        {
+          "label": "Global CO₂ Addressed",
+          "value": "~20% Share",
+          "detail": "Directly replaces fossil steam, kiln & furnace burners"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Rondo Energy & SCG (90 GWh Line)",
+        "url": "https://rondo.com/"
+      },
+      {
+        "name": "Antora Energy (>40% TPV Carbon)",
+        "url": "https://antora.com/"
+      },
+      {
+        "name": "Electrified Thermal (Joule Hive)",
+        "url": "https://electrifiedthermal.com/"
+      },
+      {
+        "name": "Kraftblock & MGA Thermal",
+        "url": "https://kraftblock.com/en/"
+      },
+      {
+        "name": "Kyoto Group (Heatcube)",
+        "url": "https://www.kyotogroup.no/"
+      },
+      {
+        "name": "Stanford 149-Country Brick Team",
+        "url": "https://academic.oup.com/pnasnexus"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Rondo Calgren Commercial Operation & 90 GWh/yr Brick Factory",
+        "url": "https://rondo.com/"
+      },
+      {
+        "name": "Antora >40% Solid-State Thermophotovoltaic Efficiency Record",
+        "url": "https://antora.com/technology/"
+      },
+      {
+        "name": "PepsiCo Netherlands Zero-Gas Kraftblock Thermal Plant",
+        "url": "https://kraftblock.com/en/"
+      },
+      {
+        "name": "Stanford PNAS Nexus $1.27T Global Firebrick Grid Savings Study",
+        "url": "https://academic.oup.com/pnasnexus"
+      }
+    ]
+  },
+  {
+    "slug": "osmotic-tidal-estuary-baseload",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/osmotic-tidal-estuary-baseload",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Moon & River-Mouth Baseload: Nanofluidic Osmotic & Lunar Tidal Power",
+    "tagline": "Bio-sourced nanofluidic membranes at river mouths and gull-wing tidal turbines generate 24/7 weather-immune coastal electricity on zero land.",
+    "cynicBelief": "Marine and osmotic energy have been expensive coastal science projects for fifty years—saltwater fouls subsea gears and plastic osmotic membranes clog and trickle tiny sparks.",
+    "breakthroughCounter": "Sweetch Energy and CNR commissioned OPUS-1 on France's Rhône delta—the world's first grid-connected nanofluidic osmotic plant—using cheap bio-sourced wood-cellulose/clay INOD membranes (5x–10x higher power density, scaling toward 500 MW), while Scotland's MeyGen (>60 GWh) and Orbital O2 floating gull-wing turbines deliver century-predictable lunar baseload.",
+    "socialNormShift": "Installed inside existing river navigation locks, causeways, and fast coastal straits with 15-minute surface maintenance and thriving fish reefs, marine baseload powers cloudy winter port cities without taking a single square meter of farmland.",
+    "humanStory": {
+      "protagonist": "Camille Moreau, Camargue Estuary Ecologist",
+      "location": "Port-Saint-Louis-du-Rhône, France & Orkney, Scotland",
+      "snippet": "On a foggy, windless November evening beside pink Camargue flamingos, Camille watches the Barcarin lock's nanofluidic stacks stream 24/7 electricity to Marseille simply from fresh Rhône water greeting the salty Mediterranean."
+    },
+    "quote": {
+      "text": "Osmotic energy is the missing 24/7 renewable giant: every river mouth on Earth holds a continuous, weather-immune clean power plant that uses zero land and alters not a single molecule of water.",
+      "author": "Nicolas Heuzé",
+      "role": "Co-Founder & CEO, Sweetch Energy",
+      "url": "https://www.sweetchenergy.com/"
+    },
+    "companiesAndLabs": [
+      "Sweetch Energy & CNR (OPUS-1)",
+      "Orbital Marine Power (O2)",
+      "SAE Renewables (MeyGen)",
+      "HydroQuest (FloWatt Normandy)",
+      "SaltPower & REDstack",
+      "CNRS / ENS Nanofluidics Lab"
+    ],
+    "globalPrecedents": [
+      "OPUS-1 World-First Grid Nanofluidic Osmotic Plant (Rhône)",
+      "WEF Top 10 Emerging Tech: Bio-Sourced Nanofluidic Osmosis",
+      "UK Ringfenced Contracts for Difference (CfD) Tidal Fleet",
+      "MeyGen Pentland Firth >60 GWh Storm-Hardened Tidal Record"
+    ],
+    "synergyLinks": [
+      "aquifer-rivers-desalination",
+      "electrochemical-lithium-brine",
+      "superconducting-grids",
+      "iron-sodium-storage"
+    ],
+    "infographic": {
+      "headlineMetric": "8,760 Hrs / Yr",
+      "headlineLabel": "Weather-Immune Estuary & Lunar Power",
+      "unit": "Coastal Osmotic & Tidal Stream LCOE ($/MWh)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "OPUS-1 Rhône Live & UK/French Tidal CfD Farms",
+          "value": 165,
+          "display": "$140–$210/MWh"
+        },
+        {
+          "year": 2030,
+          "label": "Roll-to-Roll Bio-Membranes & Multi-MW OsmoRhône",
+          "value": 88,
+          "display": "$75–$105/MWh"
+        },
+        {
+          "year": 2035,
+          "label": "500 MW Estuary Hubs + Shipyard Gull-Wing Arrays",
+          "value": 54,
+          "display": "$45–$65/MWh"
+        },
+        {
+          "year": 2040,
+          "label": "150+ GW Global Port, Lock & Desal-Brine Fleet",
+          "value": 38,
+          "display": "$32–$45/MWh"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Osmotic Equivalent",
+          "value": "270m Head",
+          "detail": "~27 bar natural salinity pressure where river meets sea"
+        },
+        {
+          "label": "Water vs. Air Density",
+          "value": "832x Denser",
+          "detail": "Compact slow-turning 12-RPM rotors pack hurricane torque"
+        },
+        {
+          "label": "Desal Brine Boost",
+          "value": "4x–6x Watts",
+          "detail": "Turns hypersaline RO reject brine into bonus electricity"
+        },
+        {
+          "label": "OsmoRhône Target",
+          "value": "500 MW",
+          "detail": "Single French delta scales to power ~1.5M citizens 24/7"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Sweetch Energy & CNR (OPUS-1)",
+        "url": "https://www.sweetchenergy.com/"
+      },
+      {
+        "name": "Orbital Marine Power (O2)",
+        "url": "https://www.orbitalmarine.com/"
+      },
+      {
+        "name": "SAE Renewables (MeyGen)",
+        "url": "https://saerenewables.com/tidal-stream/meygen/"
+      },
+      {
+        "name": "HydroQuest (FloWatt Normandy)",
+        "url": "https://www.hydroquest.fr/en/"
+      },
+      {
+        "name": "SaltPower & REDstack",
+        "url": "https://www.redstack.nl/en/"
+      },
+      {
+        "name": "CNRS / ENS Nanofluidics Lab",
+        "url": "https://www.lpens.ens.psl.eu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "OPUS-1 World-First Grid Nanofluidic Osmotic Plant (Rhône)",
+        "url": "https://www.sweetchenergy.com/"
+      },
+      {
+        "name": "WEF Top 10 Emerging Tech: Bio-Sourced Nanofluidic Osmosis",
+        "url": "https://www.weforum.org/"
+      },
+      {
+        "name": "UK Ringfenced Contracts for Difference (CfD) Tidal Fleet",
+        "url": "https://www.gov.uk/government/collections/contracts-for-difference"
+      },
+      {
+        "name": "MeyGen Pentland Firth >60 GWh Storm-Hardened Tidal Record",
+        "url": "https://saerenewables.com/tidal-stream/meygen/"
+      }
+    ]
+  },
+  {
+    "slug": "agrivoltaics-shaded-harvests",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/agrivoltaics-shaded-harvests",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Dual-Harvest Agrivoltaics: Crop-Boosting Solar Canopies & -40% Water",
+    "tagline": "Elevated, wavelength-selective solar louvers shield berries, vegetables, and grazing flocks from heatwaves—boosting harvests up to 60% while tripling farm income.",
+    "cynicBelief": "Utility solar is a rural land grab that paves prime family farmland under oceans of dead black glass, forcing society to choose between growing food and making clean power.",
+    "breakthroughCounter": "Most crops suffer midday stomatal shutdown above 40%–50% peak sun. Field data from NREL InSPIRE, Jack's Solar Garden, 4,000+ Japanese Solar Sharing farms, and Sun'Agri AI louvers prove elevated and spectral-tuned canopies boost berry/tomato yields 15%–60%, slash irrigation water 30%–40%, and raise Land Equivalent Ratios to 1.6x+.",
+    "socialNormShift": "Backed by France's national ≥90%-crop-yield Agrivoltaic Decree, 100,000+ US solar-grazing sheep, and 85x higher EV miles-per-acre than corn ethanol, clean energy shifts from a farmland competitor into climate armor that keeps family farms out of subdivision sprawl.",
+    "humanStory": {
+      "protagonist": "Caleb Byron, Fourth-Generation Market & Berry Farmer",
+      "location": "Longmont, Colorado & Provence, France",
+      "snippet": "Walking in shirt-sleeves through 6°C-cooler ruby-dappled shade during a 39°C July heat dome, Caleb harvests sunburn-free heirloom tomatoes on 38% less Colorado River water while monthly solar co-op checks keep his family deed debt-free."
+    },
+    "quote": {
+      "text": "Under solar panels in arid and warming climates, plants experience less heat stress and keep growing through midday, while the panels themselves run cooler and produce more electricity—everybody under the canopy wins.",
+      "author": "Prof. Greg Barron-Gafford",
+      "role": "Agrivoltaics Pioneer, University of Arizona & Biosphere 2",
+      "url": "https://biosphere2.org/"
+    },
+    "companiesAndLabs": [
+      "Jack's Solar Garden & NREL InSPIRE",
+      "Sun'Agri Dynamic Orchard Louvers",
+      "Next2Sun Vertical Bifacial",
+      "Brite Solar & UbiQD Spectral Glass",
+      "American Solar Grazing Assoc.",
+      "Univ. of Arizona Biosphere 2"
+    ],
+    "globalPrecedents": [
+      "France National Agrivoltaics Decree (≥90% Crop Yield Rule)",
+      "Japan MAFF 4,000+ 'Solar Sharing' Dual-Harvest Farms",
+      "Italy €1.7B PNRR Elevated Vineyard & Olive Agrivoltaics",
+      "US 100,000+ Sheep Regenerative Solar Grazing Rollout"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "specialized-swarm-robotics",
+      "aquifer-rivers-desalination",
+      "precision-fermentation-rewilding"
+    ],
+    "infographic": {
+      "headlineMetric": "1.6x Land Output",
+      "headlineLabel": "-40% Water + Plumper Harvests",
+      "unit": "Global Installed Dual-Harvest Agrivoltaics (GW)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Japan, France, Italy, China & US Co-Op Rollouts",
+          "value": 65,
+          "display": "65+ GW"
+        },
+        {
+          "year": 2030,
+          "label": "Spectral Perovskite Canopies & EU Yield Decrees",
+          "value": 250,
+          "display": "250+ GW"
+        },
+        {
+          "year": 2035,
+          "label": "Standard Heat-Dome & Hail Armor Across Arid Belts",
+          "value": 900,
+          "display": "900+ GW"
+        },
+        {
+          "year": 2040,
+          "label": "Multi-TW Regenerative Farm & Pollinator Canopy",
+          "value": 2500,
+          "display": "2.5+ TW"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Irrigation Saved",
+          "value": "-30% to -40%",
+          "detail": "6°C cooler canopy microclimate cuts evaporation"
+        },
+        {
+          "label": "Hot-Summer Yield",
+          "value": "+15% to +60%",
+          "detail": "Higher tomato, berry, pepper & forage harvests"
+        },
+        {
+          "label": "vs. Fuel Ethanol",
+          "value": "85x Miles/Acre",
+          "detail": "Solar + EVs vastly outperform burning corn for fuel"
+        },
+        {
+          "label": "Net Farm Income",
+          "value": "2x–3x / Acre",
+          "detail": "Stacks steady power royalties atop protected crops"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Jack's Solar Garden & NREL InSPIRE",
+        "url": "https://www.jackssolargarden.com/"
+      },
+      {
+        "name": "Sun'Agri Dynamic Orchard Louvers",
+        "url": "https://sunagri.fr/en/"
+      },
+      {
+        "name": "Next2Sun Vertical Bifacial",
+        "url": "https://next2sun.com/en/"
+      },
+      {
+        "name": "Brite Solar & UbiQD Spectral Glass",
+        "url": "https://www.britesolar.com/"
+      },
+      {
+        "name": "American Solar Grazing Assoc.",
+        "url": "https://solargrazing.org/"
+      },
+      {
+        "name": "Univ. of Arizona Biosphere 2",
+        "url": "https://biosphere2.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "France National Agrivoltaics Decree (≥90% Crop Yield Rule)",
+        "url": "https://www.legifrance.gouv.fr/"
+      },
+      {
+        "name": "Japan MAFF 4,000+ 'Solar Sharing' Dual-Harvest Farms",
+        "url": "https://www.maff.go.jp/e/"
+      },
+      {
+        "name": "Italy €1.7B PNRR Elevated Vineyard & Olive Agrivoltaics",
+        "url": "https://www.mase.gov.it/"
+      },
+      {
+        "name": "US 100,000+ Sheep Regenerative Solar Grazing Rollout",
+        "url": "https://openei.org/wiki/InSPIRE"
+      }
+    ]
+  },
+  {
+    "slug": "bidirectional-v2g-virtual-plants",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/bidirectional-v2g-virtual-plants",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Every Driveway a Power Plant: Bidirectional V2G & Neighborhood Peakers",
+    "tagline": "Parked 95% of their lives, bidirectional EVs and electric school buses earn families $800/yr, guarantee 4-day storm backup, and retire smoky gas peakers in milliseconds.",
+    "cynicBelief": "Mass electric cars plugging in at 6:00 PM will melt neighborhood transformers, force utilities to build dirty gas peakers, and ruin car batteries if shared with the grid.",
+    "breakthroughCounter": "Onboard bidirectional SiC inverters (V2G-AC), universal ISO 15118-20 Plug-and-Charge, and 15-minute snap-in meter collars slashed V2G hardware costs >85%. Octopus Energy's BYD/Renault Power Pack gives drivers 100% free annual home charging, Oakland's 74 V2G school buses power thousands of homes at dusk, and resting cells near 55% SOC actually extends battery life 5%–9%.",
+    "socialNormShift": "Under FERC Order 2222 and California SB 676, households flip from passive utility bill-payers into paid micro-generators—shutting down urban 'Asthma Alley' gas peaker plants while deferring $50B+ in grid pole upgrades.",
+    "humanStory": {
+      "protagonist": "Marcus Delgado, Public-School Music Teacher",
+      "location": "Austin, Texas & Manchester, UK",
+      "snippet": "While sizzling fajitas on a 41°C August evening, Marcus's parked hatchback teams up with 180,000 neighbor EVs in 180 milliseconds—earning $24 before bedtime, driving free all year on 3 AM wind, and keeping his home warm for four days during winter ice storms."
+    },
+    "quote": {
+      "text": "Millions of electric cars sitting in driveways aren't a threat to the grid—orchestrated intelligently, they are the largest, cheapest clean battery humanity will ever build, and drivers get free miles in return.",
+      "author": "Greg Jackson",
+      "role": "Founder & CEO, Octopus Energy Group",
+      "url": "https://octopus.energy/power-pack/"
+    },
+    "companiesAndLabs": [
+      "Octopus Energy (Kraken) & BYD",
+      "Renault Mobilize & Mobility House",
+      "GM Energy & Ford Home Backup",
+      "Base Power & Sunrun VPPs",
+      "Zum & Highland V2G School Buses",
+      "Warwick / Dalhousie V2G Battery Labs"
+    ],
+    "globalPrecedents": [
+      "Octopus UK & France £0/Month Free-Charging V2G Tariffs",
+      "Oakland Unified 100% Electric 74-Bus V2G Utility Fleet",
+      "California SB 676 Bidirectional EV Mandate & FERC 2222",
+      "ISO 15118-20 Universal AC/DC Bidirectional Handshake"
+    ],
+    "synergyLinks": [
+      "solid-state-low-pressure-cells",
+      "perovskite-tandem-solar",
+      "symbiotic-civic-data-centers",
+      "autonomous-ground-mobility"
+    ],
+    "infographic": {
+      "headlineMetric": "$0 / Yr Charging",
+      "headlineLabel": "+$600–$1,000/yr V2G Grid Dividend",
+      "unit": "Global Dispatchable V2G & Residential VPP Fleet (GW)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "UK/EU Free-Mile V2G Bundles & US School-Bus Fleets",
+          "value": 15,
+          "display": "~15 GW"
+        },
+        {
+          "year": 2030,
+          "label": "Native Onboard V2G-AC Standard Across Mass EVs",
+          "value": 120,
+          "display": "120+ GW"
+        },
+        {
+          "year": 2035,
+          "label": "Retires >80% of Fossil Gas Peaker Turbines Globally",
+          "value": 550,
+          "display": "550+ GW"
+        },
+        {
+          "year": 2040,
+          "label": "Planetary Rolling Shock Absorber & Storm Shield",
+          "value": 1500,
+          "display": "1.5+ TW"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Time Parked Idle",
+          "value": "95% of Life",
+          "detail": "30M EVs hold >2,100 GWh—20x US grid battery banks"
+        },
+        {
+          "label": "VPP Response Speed",
+          "value": "<180 ms",
+          "detail": "1,000x faster than spinning up a methane gas turbine"
+        },
+        {
+          "label": "Battery Longevity",
+          "value": "+5% to +9%",
+          "detail": "0.09C trickle + ~55% resting SOC slows calendar fade"
+        },
+        {
+          "label": "Home Storm Backup",
+          "value": "3–5 Days",
+          "detail": "75 kWh EV pack islands essential home loads silently"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Octopus Energy (Kraken) & BYD",
+        "url": "https://octopus.energy/power-pack/"
+      },
+      {
+        "name": "Renault Mobilize & Mobility House",
+        "url": "https://www.mobilize.com/en/"
+      },
+      {
+        "name": "GM Energy & Ford Home Backup",
+        "url": "https://gmenergy.gm.com/"
+      },
+      {
+        "name": "Base Power & Sunrun VPPs",
+        "url": "https://www.basepowercompany.com/"
+      },
+      {
+        "name": "Zum & Highland V2G School Buses",
+        "url": "https://www.ridezum.com/"
+      },
+      {
+        "name": "Warwick / Dalhousie V2G Battery Labs",
+        "url": "https://kraken.tech/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Octopus UK & France £0/Month Free-Charging V2G Tariffs",
+        "url": "https://octopus.energy/power-pack/"
+      },
+      {
+        "name": "Oakland Unified 100% Electric 74-Bus V2G Utility Fleet",
+        "url": "https://www.ridezum.com/"
+      },
+      {
+        "name": "California SB 676 Bidirectional EV Mandate & FERC 2222",
+        "url": "https://www.ferc.gov/ferc-order-no-2222-fact-sheet"
+      },
+      {
+        "name": "ISO 15118-20 Universal AC/DC Bidirectional Handshake",
+        "url": "https://www.iso.org/standard/77840.html"
+      }
+    ]
+  },
+  {
+    "slug": "millimeter-wave-deep-drilling",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/millimeter-wave-deep-drilling",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Vaporizing Basement Granite: 15-km Gyrotron Supercritical Geothermal",
+    "tagline": "1-megawatt fusion millimeter-wave beams vaporize deep granite without bit wear—unlocking 450°C supercritical steam (10x MW/well) beneath any retired coal plant.",
+    "cynicBelief": "Drilling ten miles to 500°C rock everywhere on Earth is science fiction—deep hot granite destroys mechanical diamond bits in hours and hauling ten miles of pipe takes weeks.",
+    "breakthroughCounter": "Quaise Energy (MIT PSFC spinout) routes 1 MW millimeter-wave beams from fusion gyrotrons down hollow oil-rig waveguides to vaporize basement granite with zero downhole moving parts while vitrifying a glass borehole liner. Paired with Mazama's ~390°C+ Oregon superhot rock wells and Iceland's Krafla Magma Testbed, supercritical water (>374°C) delivers 40–50 MWe per well.",
+    "socialNormShift": "Because every nation sits 12–16 km above 450°C rock matching coal-turbine steam temperatures directly, fuel-importing countries repower retired coal plants in place—achieving sovereign 24/7 energy independence on tiny 15-acre pads.",
+    "humanStory": {
+      "protagonist": "Katarzyna Nowak, Repowered Coal-Station Chief Turbine Engineer",
+      "location": "Bełchatów, Central Poland",
+      "snippet": "Miles from any volcano, Katarzyna runs her existing 370 MWe Siemens steam turbine at 3,000 RPM on crystal-clean 460°C supercritical steam piped from eight glass-vitrified boreholes 14 kilometers directly beneath Poland's retired lignite pit."
+    },
+    "quote": {
+      "text": "The total thermal energy stored in deep basement rock dwarfs every fossil fuel deposit combined. With millimeter-wave drilling, geothermal stops being a geographic lottery and becomes universal clean baseload under every country's feet.",
+      "author": "Carlos Araque",
+      "role": "Co-Founder & CEO, Quaise Energy (MIT PSFC Spinout)",
+      "url": "https://www.quaise.energy/"
+    },
+    "companiesAndLabs": [
+      "Quaise Energy & MIT PSFC",
+      "Mazama Energy (Newberry SHR)",
+      "Krafla Magma Testbed (Iceland)",
+      "GA Drilling (PLASMABIT)",
+      "Nabors Industries Hybrid Rigs",
+      "CATF Superhot Rock Initiative"
+    ],
+    "globalPrecedents": [
+      "MIT PSFC / Quaise 95 GHz Granite Vaporization Field Rigs",
+      "Mazama Newberry Volcano >380°C Superhot Rock Demonstrations",
+      "Iceland Krafla Magma Testbed (38-Institute Borehole Lab)",
+      "CATF Global Superhot Rock Coal-Switchyard Repowering Atlas"
+    ],
+    "synergyLinks": [
+      "superhot-geothermal",
+      "fusion-power",
+      "geologic-hydrogen-harvesters",
+      "electrochemical-lithium-brine"
+    ],
+    "infographic": {
+      "headlineMetric": "40–50 MWe / Well",
+      "headlineLabel": "10x Power via 450°C Supercritical Steam",
+      "unit": "Ultra-Deep Supercritical Geothermal LCOE ($/MWh)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Field Gyrotron Granite Rigs & Newberry SHR Pilots",
+          "value": 74,
+          "display": "$65–$85/MWh"
+        },
+        {
+          "year": 2030,
+          "label": "8–12 km Hybrid Beam Wells on Early Coal Retrofits",
+          "value": 44,
+          "display": "$38–$50/MWh"
+        },
+        {
+          "year": 2035,
+          "label": "15 km Continental Basement Access Across EU/Asia/US",
+          "value": 27,
+          "display": "$22–$32/MWh"
+        },
+        {
+          "year": 2040,
+          "label": "Universal 500 MWe Coal-Boiler Replacements",
+          "value": 19,
+          "display": "$15–$24/MWh"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Downhole Bit Wear",
+          "value": "Zero Contact",
+          "detail": "1 MW 95 GHz fusion beam vaporizes granite; 0 bit trips"
+        },
+        {
+          "label": "Supercritical Leap",
+          "value": "10x MW / Well",
+          "detail": ">374°C / 22.1 MPa water carries 5x enthalpy at 2x flow"
+        },
+        {
+          "label": "Coal CAPEX Saved",
+          "value": "-40% to -50%",
+          "detail": "Matches 540°C existing coal turbines & switchyards"
+        },
+        {
+          "label": "500 MWe Land Pad",
+          "value": "~18 Acres",
+          "detail": "100x denser surface footprint than wind or bioenergy"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Quaise Energy & MIT PSFC",
+        "url": "https://www.quaise.energy/"
+      },
+      {
+        "name": "Mazama Energy (Newberry SHR)",
+        "url": "https://mazamaenergy.com/"
+      },
+      {
+        "name": "Krafla Magma Testbed (Iceland)",
+        "url": "https://www.kmt.is/"
+      },
+      {
+        "name": "GA Drilling (PLASMABIT)",
+        "url": "https://www.gadrilling.com/"
+      },
+      {
+        "name": "Nabors Industries Hybrid Rigs",
+        "url": "https://www.nabors.com/"
+      },
+      {
+        "name": "CATF Superhot Rock Initiative",
+        "url": "https://www.catf.us/superhot-rock/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "MIT PSFC / Quaise 95 GHz Granite Vaporization Field Rigs",
+        "url": "https://www.psfc.mit.edu/"
+      },
+      {
+        "name": "Mazama Newberry Volcano >380°C Superhot Rock Demonstrations",
+        "url": "https://mazamaenergy.com/"
+      },
+      {
+        "name": "Iceland Krafla Magma Testbed (38-Institute Borehole Lab)",
+        "url": "https://www.kmt.is/"
+      },
+      {
+        "name": "CATF Global Superhot Rock Coal-Switchyard Repowering Atlas",
+        "url": "https://www.catf.us/superhot-rock/"
+      }
+    ]
+  },
+  {
+    "slug": "electrochemical-lithium-brine",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/electrochemical-lithium-brine",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Zero-Pond Direct Lithium Extraction: Closed-Loop Geothermal Brine Sieves",
+    "tagline": "Atomic-pocket ceramic beads sift >90% of lithium from geothermal and oilfield brines in two hours—returning 99% of water underground with zero desert ponds.",
+    "cynicBelief": "Electric cars just trade oil spills for parched Andean salt flats—draining ancient desert water into sprawling neon evaporation lagoons that bake for eighteen months.",
+    "breakthroughCounter": "Commercial Direct Lithium Extraction (DLE) plants—led by Eramet's 24,000-tpa Centenario plant, Vulcan's zero-carbon Rhine Valley Lionheart project, Lilac's Gen-4 ceramic beads, Standard Lithium/Equinor in Arkansas, and Salton Sea's Project ATLiS—capture >90% of lithium in ~2 hours on 1/50th the land while reinjecting >99% of brine and co-generating 24/7 geothermal power.",
+    "socialNormShift": "Coupling Chile's mandatory DLE wetland protections and California's 80%-local Lithium Valley community tax share with >95% closed-loop battery recycling ends the virgin-extraction treadmill permanently.",
+    "humanStory": {
+      "protagonist": "Lukas Weber, Geothermal-DLE Process Technician",
+      "location": "Landau (Upper Rhine Valley), Germany & El Dorado, Arkansas",
+      "snippet": "Next door to thriving Riesling vineyards with zero open pits or ponds, Lukas harvests snow-white, carbon-negative battery lithium in ninety minutes from 165°C brine that warms 25,000 German homes before 99.5% of the water flows right back underground."
+    },
+    "quote": {
+      "text": "Evaporation ponds belong to the nineteenth century. With closed-loop ion exchange, we double lithium recovery in hours instead of years, return the brine underground, and build a clean battery supply chain communities actually welcome.",
+      "author": "Dr. Dave Snydacker",
+      "role": "Founder & CTO, Lilac Solutions",
+      "url": "https://lilacsolutions.com/"
+    },
+    "companiesAndLabs": [
+      "Vulcan Energy (Zero Carbon Li)",
+      "Lilac Solutions (Gen-4 Ceramic)",
+      "Eramet (Centenario 24k tpa DLE)",
+      "Standard Lithium & Equinor (AR)",
+      "EnergySource Minerals (Salton Sea)",
+      "ElectraLith & Mangrove Lithium"
+    ],
+    "globalPrecedents": [
+      "Eramet Centenario 24,000 tpa Commercial Zero-Pond DLE Launch",
+      "Vulcan €2B Financed Zero-Carbon Geothermal Lithium (Germany)",
+      "US DOE Salton Sea 18M-Ton & USGS Smackover Brine Assessments",
+      "Chile Mandatory DLE Transition & Salar Wetland Protection"
+    ],
+    "synergyLinks": [
+      "solid-state-low-pressure-cells",
+      "superhot-geothermal",
+      "aquifer-rivers-desalination",
+      "iron-sodium-storage"
+    ],
+    "infographic": {
+      "headlineMetric": "2 Hrs vs 18 Mos",
+      "headlineLabel": ">90% Recovery • >99% Brine Returned",
+      "unit": "Zero-Pond Geothermal / Oilfield DLE Cost ($/Ton LCE)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "First 24k-tpa Commercial Zero-Pond Plants Live",
+          "value": 5200,
+          "display": "$4,200–$6,500/t"
+        },
+        {
+          "year": 2030,
+          "label": "Zero-Reagent Electro-DLE + Geothermal Power Credits",
+          "value": 3600,
+          "display": "$3,000–$4,200/t"
+        },
+        {
+          "year": 2035,
+          "label": "70%+ Global Primary Share Across Oil & Brine Pads",
+          "value": 2800,
+          "display": "$2,400–$3,200/t"
+        },
+        {
+          "year": 2040,
+          "label": "Paired with >95% Urban Pack Recycling (Zero Scarcity)",
+          "value": 2300,
+          "display": "<$2,500/t"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Lithium Recovery",
+          "value": "90%–95%",
+          "detail": "Doubles ~45% yield of legacy open desert ponds"
+        },
+        {
+          "label": "Land Footprint",
+          "value": "-98% Land",
+          "detail": "Barn-sized column hall replaces 40 km² lagoons"
+        },
+        {
+          "label": "Salton Sea Reserve",
+          "value": "375M+ EVs",
+          "detail": "18M tons LCE in one California geothermal basin"
+        },
+        {
+          "label": "Brine Reinjection",
+          "value": ">99% Returned",
+          "detail": "Preserves underground pressure & surface wetlands"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Vulcan Energy (Zero Carbon Li)",
+        "url": "https://v-er.eu/"
+      },
+      {
+        "name": "Lilac Solutions (Gen-4 Ceramic)",
+        "url": "https://lilacsolutions.com/"
+      },
+      {
+        "name": "Eramet (Centenario 24k tpa DLE)",
+        "url": "https://www.eramet.com/en/"
+      },
+      {
+        "name": "Standard Lithium & Equinor (AR)",
+        "url": "https://www.standardlithium.com/"
+      },
+      {
+        "name": "EnergySource Minerals (Salton Sea)",
+        "url": "https://www.esminerals.com/"
+      },
+      {
+        "name": "ElectraLith & Mangrove Lithium",
+        "url": "https://www.electralith.tech/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Eramet Centenario 24,000 tpa Commercial Zero-Pond DLE Launch",
+        "url": "https://www.eramet.com/en/"
+      },
+      {
+        "name": "Vulcan €2B Financed Zero-Carbon Geothermal Lithium (Germany)",
+        "url": "https://v-er.eu/"
+      },
+      {
+        "name": "US DOE Salton Sea 18M-Ton & USGS Smackover Brine Assessments",
+        "url": "https://eesa.lbl.gov/"
+      },
+      {
+        "name": "Chile Mandatory DLE Transition & Salar Wetland Protection",
+        "url": "https://www.gob.cl/en/news/national-lithium-strategy/"
+      }
+    ]
+  },
+  {
+    "slug": "radiative-sky-cooling-skins",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/radiative-sky-cooling-skins",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Electricity-Free Air Conditioning: Photonic 8–13 µm Sky-Cooling Skins",
+    "tagline": "98.1%-reflective BaSO₄ paints and photonic metamaterial films beam building heat through Earth's infrared window straight into -270°C outer space using zero watts.",
+    "cynicBelief": "Hotter summers lock humanity into a deadly air-conditioning spiral—billions of compressors crashing evening grids, leaking HFC greenhouse gases, and baking city sidewalks hotter.",
+    "breakthroughCounter": "Passive Daytime Radiative Cooling (PDRC) skins (SkyCool Systems, SpaceCool Inc. across 1,000+ Asian sites, Purdue's 98.1%-reflective BaSO₄ paint, i2Cool) bounce >97% of noon sunlight while radiating ~110 W/m² through the 8–13 µm atmospheric transparency window directly to 3K space—dropping roofs 5°C–8°C below noon shade air at 0.0 watts.",
+    "socialNormShift": "From blackout-proof cool roofs protecting infants in Indian heatwaves to supermarket chiller loops and thermochromic 'Janus' tiles that switch off in winter, cities vent heat off-planet instead of blowing exhaust onto neighbors.",
+    "humanStory": {
+      "protagonist": "Meera Patel, Community Maternity Clinic Pharmacist",
+      "location": "Ahmedabad, India & Stockton, California",
+      "snippet": "On a 44°C May afternoon while bare concrete sears at 68°C next door, Meera lays her bare palm flat on her clinic's cool 37.2°C photonic white roof—protecting newborns during grid storms and cutting summer AC electricity 42%."
+    },
+    "quote": {
+      "text": "Conventional air conditioners just move heat from inside your house to your neighbor's street. Radiative sky cooling sends that heat straight through the atmosphere into deep space—cooling buildings and our planet at the same time.",
+      "author": "Dr. Eli Goldstein & Prof. Aaswath Raman",
+      "role": "Co-Founders, SkyCool Systems (Stanford Photonic Cooling Pioneers)",
+      "url": "https://www.skycoolsystems.com/"
+    },
+    "companiesAndLabs": [
+      "SkyCool Systems (Stanford Spinout)",
+      "SpaceCool Inc. (1,000+ Sites)",
+      "Purdue Ruan Lab (98.1% BaSO₄)",
+      "i2Cool Architectural Coatings",
+      "SolCold & Radi-Cool Metamaterials",
+      "Mahila Housing Trust Cool Roofs"
+    ],
+    "globalPrecedents": [
+      "Purdue 98.1% Solar-Reflective BaSO₄ Guinness-Record Paint",
+      "SpaceCool 1,000+ Commercial Telecom, Retail & Airport Rollouts",
+      "SkyCool Grocery & UAE District-Cooling Hydronic Deployments",
+      "Ahmedabad Cool Roofs Heat Action Plan & CA Title 24 Updates"
+    ],
+    "synergyLinks": [
+      "symbiotic-civic-data-centers",
+      "perovskite-tandem-solar",
+      "abundant-beautiful-housing",
+      "orbital-radiative-compute"
+    ],
+    "infographic": {
+      "headlineMetric": "-5°C to -8°C",
+      "headlineLabel": "Below Noon Shade Air at 0 Watts",
+      "unit": "Installed Photonic Sky-Cooling Coating Cost ($/m²)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2026,
+          "label": "Commercial Paints ($4–$12) & Optical Films ($25+)",
+          "value": 8.5,
+          "display": "$4–$12/m²"
+        },
+        {
+          "year": 2030,
+          "label": "Exterior-Paint Price Parity & Self-Cleaning Skins",
+          "value": 3.0,
+          "display": "$1.80–$4.50/m²"
+        },
+        {
+          "year": 2035,
+          "label": "Janus Winter-Smart Tiles & Pre-Coated Coil Steel",
+          "value": 1.2,
+          "display": "<$1.50/m²"
+        },
+        {
+          "year": 2040,
+          "label": "Zero-Premium Standard Skin on Roofs, Trucks & Planes",
+          "value": 0.6,
+          "display": "<$0.80/m² add-on"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Solar Reflectance",
+          "value": "98.1% Record",
+          "detail": "BaSO₄ / nano-pore Mie scattering blocks UV & NIR heat"
+        },
+        {
+          "label": "Sky-Window Beam",
+          "value": "8–13 µm",
+          "detail": "100+ W/m² slips past H₂O/CO₂ straight to -270°C space"
+        },
+        {
+          "label": "Summer HVAC Saved",
+          "value": "-20% to -42%",
+          "detail": "Shaves peak afternoon AC cliff & cold-storage loads"
+        },
+        {
+          "label": "Refrigerant & Power",
+          "value": "0 W • 0 HFCs",
+          "detail": "Blackout-proof passive heatwave shield for 3B+ people"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "SkyCool Systems (Stanford Spinout)",
+        "url": "https://www.skycoolsystems.com/"
+      },
+      {
+        "name": "SpaceCool Inc. (1,000+ Sites)",
+        "url": "https://spacecool.jp/en/"
+      },
+      {
+        "name": "Purdue Ruan Lab (98.1% BaSO₄)",
+        "url": "https://engineering.purdue.edu/ME"
+      },
+      {
+        "name": "i2Cool Architectural Coatings",
+        "url": "https://www.i2cool.com/"
+      },
+      {
+        "name": "SolCold & Radi-Cool Metamaterials",
+        "url": "https://www.solcold.com/"
+      },
+      {
+        "name": "Mahila Housing Trust Cool Roofs",
+        "url": "https://www.mahilahousingtrust.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Purdue 98.1% Solar-Reflective BaSO₄ Guinness-Record Paint",
+        "url": "https://pubs.acs.org/"
+      },
+      {
+        "name": "SpaceCool 1,000+ Commercial Telecom, Retail & Airport Rollouts",
+        "url": "https://spacecool.jp/en/"
+      },
+      {
+        "name": "SkyCool Grocery & UAE District-Cooling Hydronic Deployments",
+        "url": "https://www.skycoolsystems.com/"
+      },
+      {
+        "name": "Ahmedabad Cool Roofs Heat Action Plan & CA Title 24 Updates",
+        "url": "https://www.mahilahousingtrust.org/"
+      }
+    ]
+  }
+]

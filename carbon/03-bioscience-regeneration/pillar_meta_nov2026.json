@@ -1,0 +1,1718 @@
+[
+  {
+    "slug": "alphagenome2-cellstate-genomics",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/alphagenome2-cellstate-genomics",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Conditional Single-Cell Genomics: DeepMind AlphaGenome 2 & Decoding the Non-Coding Dark Genome",
+    "tagline": "Conditioning 1-megabase DNA sequences across 107M+ single cells doubles causal dark-genome discovery, resolves rare VUS odysseys, and locks gene switches to sick cells.",
+    "cynicBelief": "Sequencing the human genome was overhyped—98% of our DNA is inscrutable non-coding 'dark matter,' leaving millions of rare-disease children stranded with Variants of Uncertain Significance and forcing gene therapies to rely on blunt viral promoters.",
+    "breakthroughCounter": "Released November 11, 2026 by Google DeepMind, AlphaGenome 2 pairs a 1-million-base-pair DNA window with exact single-cell types and activated states across 107M+ cell profiles in 68 tissues—predicting expression, splicing, chromatin, and newly added DNA methylation without retraining, nearly doubling causal variant recall (30% vs. 16%) and direction-of-effect accuracy (43% vs. 23%) on the TenK10K immune cohort.",
+    "socialNormShift": "Replacing seven-year coding-exome diagnostic odysseys with 72-hour $45 whole-genome single-cell triage, ancestry-unbiased pangenome interpretation, and synthetic 'smart-fuse' enhancers that switch therapies on solely inside diseased cells.",
+    "humanStory": {
+      "protagonist": "Mateo, 4-Year-Old Pediatric Neurogenetics Patient & Dr. Elena Vidal",
+      "location": "Barcelona, Spain",
+      "snippet": "Stacking wooden arches in a sunlit Barcelona clinic, Mateo is 14 months seizure-free after conditional single-cell modeling pinpointed an intronic dark-genome splice variant active only in fever-stressed interneurons and designed a cell-state-locked LNP switch."
+    },
+    "quote": {
+      "text": "By conditioning long-range DNA sequence models directly on individual cell types and dynamic cellular states, we can finally watch how non-coding variants rewire human biology in the exact cells where disease begins.",
+      "author": "Pushmeet Kohli & Google DeepMind Genomics Team",
+      "role": "VP of Research & Science Lead, Google DeepMind (AlphaGenome 2 Release, Nov 2026)",
+      "url": "https://deepmind.google/"
+    },
+    "companiesAndLabs": [
+      "Google DeepMind (AlphaGenome 2 & API)",
+      "Garvan Institute & MCRI (TenK10K Cohort)",
+      "Human Cell Atlas Consortium",
+      "Arc Institute (Evo 2 Genomic Model)",
+      "Genomics England (Generation Study)",
+      "Dyno Therapeutics & Manifold Bio"
+    ],
+    "globalPrecedents": [
+      "AlphaGenome 2 Research API & Antigravity Agentic Skills (Nov 2026)",
+      "Australia TenK10K 28-Immune-Cell-Type Benchmark",
+      "Human Pangenome Reference Consortium",
+      "NIH Undiagnosed Diseases Network (UDN)"
+    ],
+    "synergyLinks": [
+      "invivo-crispr-cures",
+      "autoimmune-cart-treg-reset",
+      "epigenetic-healthspan",
+      "self-driving-labs"
+    ],
+    "infographic": {
+      "headlineMetric": "30% vs 16%",
+      "headlineLabel": "Nearly 2x Causal sc-eQTL Discovery (TenK10K)",
+      "unit": "Causal Non-Coding Variant Mechanistic Resolution (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Bulk-Tissue Averaged Models (Enformer / AlphaGenome 1)",
+          "value": 16,
+          "display": "16% Recall"
+        },
+        {
+          "year": 2026,
+          "label": "AlphaGenome 2 Conditional Single-Cell Release (Nov 2026)",
+          "value": 30,
+          "display": "30% Recall (2x)"
+        },
+        {
+          "year": 2030,
+          "label": "3D Diploid + Perturb-Seq Clinical Dark-Genome Triage",
+          "value": 65,
+          "display": "~65% Resolved"
+        },
+        {
+          "year": 2034,
+          "label": "Virtual Cell Twin + Universal 72-Hr Newborn Closure",
+          "value": 85,
+          "display": ">85% Resolved"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Single-Cell Training",
+          "value": "107M+ Cells",
+          "detail": "68 human & mouse tissues + 1-Mb DNA context window"
+        },
+        {
+          "label": "Direction Accuracy",
+          "value": "43% vs 23%",
+          "detail": "Nearly doubles up-vs-down gene activity prediction"
+        },
+        {
+          "label": "Few-Cell Adaptation",
+          "value": "~12 Cells",
+          "detail": "Adapts to unseen rare cell states with zero retraining"
+        },
+        {
+          "label": "New Epigenetic Track",
+          "value": "Methylation",
+          "detail": "Base-resolution DNA methylation alongside splicing & ATAC"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Google DeepMind (AlphaGenome 2 & API)",
+        "url": "https://deepmind.google/"
+      },
+      {
+        "name": "Garvan Institute & MCRI (TenK10K Cohort)",
+        "url": "https://www.garvan.org.au/"
+      },
+      {
+        "name": "Human Cell Atlas Consortium",
+        "url": "https://www.humancellatlas.org/"
+      },
+      {
+        "name": "Arc Institute (Evo 2 Genomic Model)",
+        "url": "https://arcinstitute.org/"
+      },
+      {
+        "name": "Genomics England (Generation Study)",
+        "url": "https://www.genomicsengland.co.uk/"
+      },
+      {
+        "name": "Dyno Therapeutics & Manifold Bio",
+        "url": "https://www.dynotx.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "AlphaGenome 2 Research API & Antigravity Agentic Skills (Nov 2026)",
+        "url": "https://deepmind.google/"
+      },
+      {
+        "name": "Australia TenK10K 28-Immune-Cell-Type Benchmark",
+        "url": "https://www.garvan.org.au/"
+      },
+      {
+        "name": "Human Pangenome Reference Consortium",
+        "url": "https://humanpangenome.org/"
+      },
+      {
+        "name": "NIH Undiagnosed Diseases Network (UDN)",
+        "url": "https://undiagnosed.hms.harvard.edu/"
+      }
+    ]
+  },
+  {
+    "slug": "autoimmune-cart-treg-reset",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/autoimmune-cart-treg-reset",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Rebooting Rogue Immune Systems: Single-Dose Autoimmune CAR-T & 2025 Nobel Regulatory T-Cell Therapies",
+    "tagline": "Chemo-free mRNA/LNP CAR-T deep B-cell resets and 2025 Nobel-winning FOXP3 CAR-Treg peacekeepers turn lifelong autoimmune biologics into multi-year drug-free remission.",
+    "cynicBelief": "Autoimmune diseases like lupus, multiple sclerosis, Type 1 diabetes, and scleroderma are incurable life sentences—big pharma profits forever selling $60,000/year immunosuppressants that invite infections without ever fixing the root cause.",
+    "breakthroughCounter": "Dr. Georg Schett's Erlangen CD19 CAR-T trials proved 100% of refractory lupus patients could throw away all immunosuppressants for years after a deep B-cell reboot; Cartesian's chemo-free mRNA CAR-T and Capstan's in vivo LNP CAR-T eliminated hospital conditioning; and 2025 Medicine Nobel laureates Brunkow, Ramsdell, and Sakaguchi (FOXP3 & Tregs) inspired living CAR-Treg peacekeepers shielding islets and joints.",
+    "socialNormShift": "Replacing $1.8M thirty-year chronic biologic subscriptions and four-year women's diagnostic delays with $15 pre-symptomatic autoantibody screening (Bavaria's Fr1da model) and $1,200 outpatient immune resets.",
+    "humanStory": {
+      "protagonist": "Linnea Hoffmann, 31-Year-Old Concert Violinist",
+      "location": "Nuremberg, Germany & Seattle, USA",
+      "snippet": "Rosining her bow backstage at Nuremberg's Meistersingerhalle without joint stiffness or a pill organizer, Linnea marks 26 months completely off steroids and biologics after two outpatient in vivo CD19 CAR-mRNA infusions factory-reset her B-cells."
+    },
+    "quote": {
+      "text": "The immune system possesses dedicated cellular peacekeepers that prevent self-destruction; learning to harness peripheral tolerance lets us restore harmony rather than bludgeoning immunity into silence.",
+      "author": "Drs. Shimon Sakaguchi, Mary E. Brunkow & Fred Ramsdell",
+      "role": "2025 Nobel Prize in Physiology or Medicine Laureates (Peripheral Immune Tolerance)",
+      "url": "https://www.nobelprize.org/prizes/medicine/2025/summary/"
+    },
+    "companiesAndLabs": [
+      "FAU Erlangen-Nuremberg (Prof. Georg Schett)",
+      "Sonoma Biotherapeutics (FOXP3 CAR-Tregs)",
+      "Cartesian Therapeutics (Descartes-08 mRNA CAR-T)",
+      "Cabaletta Bio (rese-cel) & Kyverna (KYV-101)",
+      "Capstan Therapeutics / AbbVie (In Vivo LNP CAR-T)",
+      "Quell Therapeutics & GentiBio"
+    ],
+    "globalPrecedents": [
+      "2025 Nobel Prize in Medicine (Brunkow, Ramsdell & Sakaguchi — Tregs)",
+      "Erlangen NEJM Multi-Year Drug-Free Lupus CAR-T Remission",
+      "Bavaria Fr1da >200,000-Child Autoantibody Screening Study",
+      "German Academic Point-of-Care CAR-T Hospital Exemption"
+    ],
+    "synergyLinks": [
+      "invivo-crispr-cures",
+      "alphagenome2-cellstate-genomics",
+      "personalized-mrna-cancer-vaccines",
+      "healthcare-without-billing"
+    ],
+    "infographic": {
+      "headlineMetric": "0 Drugs",
+      "headlineLabel": "Multi-Year Drug-Free Autoimmune Remission",
+      "unit": "Share of Treated Severe Autoimmune Patients in Drug-Free Remission (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Lifelong Steroids & Biologics Maintenance Baseline",
+          "value": 4,
+          "display": "<5% Drug-Free"
+        },
+        {
+          "year": 2026,
+          "label": "Erlangen CD19 CAR-T, Chemo-Free mRNA CAR-T & 2025 Treg Nobel",
+          "value": 82,
+          "display": "80–100% (SLE Phase I/II)"
+        },
+        {
+          "year": 2030,
+          "label": "Outpatient In Vivo LNP CAR-mRNA + Off-the-Shelf FOXP3 CAR-Tregs",
+          "value": 86,
+          "display": ">85% Across 15+ Diseases"
+        },
+        {
+          "year": 2034,
+          "label": "Pre-Symptomatic Autoantibody Screen + Early Tolerance Reset",
+          "value": 93,
+          "display": ">92% Organ Damage Prevented"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Erlangen SLE Cohort",
+          "value": "100% DORIS",
+          "detail": "Complete drug-free lupus remission sustained 2–4+ years"
+        },
+        {
+          "label": "mRNA CAR-T Safety",
+          "value": "Zero Chemo",
+          "detail": "Cartesian Phase IIb MG success with zero lymphodepletion/CRS"
+        },
+        {
+          "label": "2025 Medicine Nobel",
+          "value": "FOXP3 Tregs",
+          "detail": "Brunkow, Ramsdell & Sakaguchi peacekeeper T-cell mechanism"
+        },
+        {
+          "label": "30-Yr Cost Collapse",
+          "value": "-99.9%",
+          "detail": "$1.8M chronic biologic pens replaced by ~$1,200 LNP reset"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "FAU Erlangen-Nuremberg (Prof. Georg Schett)",
+        "url": "https://www.uk-erlangen.de/"
+      },
+      {
+        "name": "Sonoma Biotherapeutics (FOXP3 CAR-Tregs)",
+        "url": "https://sonomabio.com/"
+      },
+      {
+        "name": "Cartesian Therapeutics (Descartes-08 mRNA CAR-T)",
+        "url": "https://www.cartesiantherapeutics.com/"
+      },
+      {
+        "name": "Cabaletta Bio (rese-cel) & Kyverna (KYV-101)",
+        "url": "https://www.cabalettabio.com/"
+      },
+      {
+        "name": "Capstan Therapeutics / AbbVie (In Vivo LNP CAR-T)",
+        "url": "https://www.abbvie.com/"
+      },
+      {
+        "name": "Quell Therapeutics & GentiBio",
+        "url": "https://quell-tx.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2025 Nobel Prize in Medicine (Brunkow, Ramsdell & Sakaguchi — Tregs)",
+        "url": "https://www.nobelprize.org/prizes/medicine/2025/summary/"
+      },
+      {
+        "name": "Erlangen NEJM Multi-Year Drug-Free Lupus CAR-T Remission",
+        "url": "https://www.nejm.org/"
+      },
+      {
+        "name": "Bavaria Fr1da >200,000-Child Autoantibody Screening Study",
+        "url": "https://www.typ1diabetes-frueherkennung.de/"
+      },
+      {
+        "name": "German Academic Point-of-Care CAR-T Hospital Exemption",
+        "url": "https://www.uk-erlangen.de/"
+      }
+    ]
+  },
+  {
+    "slug": "optogenetics-sight-neural-circuits",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/optogenetics-sight-neural-circuits",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "2026 Medicine Nobel: Optogenetic Light-Gated Ion Channels Restoring Sight & Calming Seizures",
+    "tagline": "Algal channelrhodopsins honored with the 2026 Medicine Nobel turn surviving inner-eye neurons into goggle-free light sensors and pause seizures in milliseconds.",
+    "cynicBelief": "Total blindness from dead retinal rods and cones is irreversible biological loss, and drug-resistant epilepsy still forces patients to choose between brain-resecting surgery or numbing sedation.",
+    "breakthroughCounter": "Awarded the October 2026 Nobel Prize in Physiology or Medicine, Karl Deisseroth, Peter Hegemann, and Georg Nagel turned green-algal channelrhodopsins into millisecond neural switches—now powering mutation-agnostic human sight restoration in retinitis pigmentosa and dry AMD (GenSight GS030, goggle-free Nanoscope MCO-010, Science PRIMA) alongside non-destructive red-light potassium opsin seizure control.",
+    "socialNormShift": "Replacing $850,000 single-gene retinal surgeries (helping just 1% of patients) and irreversible brain ablations with a universal $650 10-minute intravitreal sight injection that works across all 100+ blindness mutations.",
+    "humanStory": {
+      "protagonist": "Henri Moreau, 58-Year-Old Retired Bookbinder",
+      "location": "Lyon, France & Berlin, Germany",
+      "snippet": "Walking without a white cane in Lyon's Parc de la Tête d'Or twelve years after retinitis pigmentosa destroyed his rods and cones, Henri picks up an autumn chestnut leaf beside his granddaughter thanks to a goggle-free ambient-light opsin injection."
+    },
+    "quote": {
+      "text": "What began with curiosity about how a microscopic green pond alga swims toward light gave humanity a way to speak the brain's exact millisecond language—and to return light to human eyes.",
+      "author": "Profs. Karl Deisseroth, Peter Hegemann & Georg Nagel",
+      "role": "2026 Nobel Prize in Physiology or Medicine Laureates",
+      "url": "https://www.nobelprize.org/"
+    },
+    "companiesAndLabs": [
+      "Deisseroth Lab, Stanford University",
+      "Nanoscope Therapeutics (MCO-010 Ambient Opsin)",
+      "GenSight Biologics (GS030 ChrimsonR)",
+      "Science Corporation (PRIMA & Biohybrid Interfaces)",
+      "UMG Göttingen / OptoGenTech (Optical Cochlear)",
+      "Ray Therapeutics (ChRmine Retinal Opsins)"
+    ],
+    "globalPrecedents": [
+      "2026 Nobel Prize in Medicine (Deisseroth, Hegemann & Nagel)",
+      "Nanoscope RESTORE Randomized Goggle-Free Acuity Trial",
+      "Science Corp PRIMAvera +23-Letter AMD Reading Recovery",
+      "Aravind Eye Care High-Volume Outpatient Intravitreal Model"
+    ],
+    "synergyLinks": [
+      "organ-bioprinting-bionics",
+      "non-opioid-nav18-pain-relief",
+      "craving-reset-mental-health",
+      "epigenetic-healthspan"
+    ],
+    "infographic": {
+      "headlineMetric": "100+ Genes",
+      "headlineLabel": "Bypassed by One Pan-Genetic Sight Vial ($650 Target)",
+      "unit": "Bilateral Inherited/Degenerative Blindness Restoration Cost ($ USD)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Single-Gene Subretinal Surgery (Luxturna, 1% of RP Only)",
+          "value": 850000,
+          "display": "$850,000"
+        },
+        {
+          "year": 2026,
+          "label": "2026 Nobel + Goggle-Free MCO-010 & PRIMA Pivotal Success",
+          "value": 95000,
+          "display": "~$95,000 (Launch Est.)"
+        },
+        {
+          "year": 2030,
+          "label": "Pan-Genetic Outpatient Intravitreal Scale (500k Doses/Batch)",
+          "value": 3200,
+          "display": "$3,200"
+        },
+        {
+          "year": 2034,
+          "label": "Global Eye-Camp Tiered Access (Aravind / WHO Pool)",
+          "value": 650,
+          "display": "$650 Bilateral"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "2026 Medicine Nobel",
+          "value": "Optogenetics",
+          "detail": "Deisseroth, Hegemann & Nagel light-gated channelrhodopsins"
+        },
+        {
+          "label": "Daylight Eyewear",
+          "value": "Zero Goggles",
+          "detail": "Nanoscope MCO-010 restores acuity in ordinary ambient light"
+        },
+        {
+          "label": "Microliter Physics",
+          "value": "10,000x Less",
+          "detail": "50-µL eye drop lets 1 bioreactor brew 500,000 sight doses"
+        },
+        {
+          "label": "Optical Seizure Stop",
+          "value": "400 ms",
+          "detail": "Red-shifted KCR potassium opsins pause seizures non-destructively"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Deisseroth Lab, Stanford University",
+        "url": "https://web.stanford.edu/group/dlab/"
+      },
+      {
+        "name": "Nanoscope Therapeutics (MCO-010 Ambient Opsin)",
+        "url": "https://nanostherapeutics.com/"
+      },
+      {
+        "name": "GenSight Biologics (GS030 ChrimsonR)",
+        "url": "https://www.gensight-biologics.com/"
+      },
+      {
+        "name": "Science Corporation (PRIMA & Biohybrid Interfaces)",
+        "url": "https://science.xyz/"
+      },
+      {
+        "name": "UMG Göttingen / OptoGenTech (Optical Cochlear)",
+        "url": "https://www.auditory-neuroscience.uni-goettingen.de/"
+      },
+      {
+        "name": "Ray Therapeutics (ChRmine Retinal Opsins)",
+        "url": "https://www.raytherapeutics.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2026 Nobel Prize in Medicine (Deisseroth, Hegemann & Nagel)",
+        "url": "https://www.nobelprize.org/"
+      },
+      {
+        "name": "Nanoscope RESTORE Randomized Goggle-Free Acuity Trial",
+        "url": "https://nanostherapeutics.com/"
+      },
+      {
+        "name": "Science Corp PRIMAvera +23-Letter AMD Reading Recovery",
+        "url": "https://science.xyz/"
+      },
+      {
+        "name": "Aravind Eye Care High-Volume Outpatient Intravitreal Model",
+        "url": "https://aravind.org/"
+      }
+    ]
+  },
+  {
+    "slug": "personalized-mrna-cancer-vaccines",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/personalized-mrna-cancer-vaccines",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Bespoke Tumor Assassins: 4-Week Neoantigen mRNA Cancer Vaccines & Solid-Tumor CARVac",
+    "tagline": "AI ranks up to 34 patient-unique tumor mutations and prints a custom mRNA vaccine in weeks—cutting melanoma death in half and waking multi-year T-cells in pancreatic cancer.",
+    "cynicBelief": "Scientists have promised 'cancer vaccines' for fifty years while deadly solid tumors like pancreatic and metastatic melanoma keep mutating around chemotherapy and roaring back from invisible micrometastases.",
+    "breakthroughCounter": "Turning cancer's unique mutations into its tracking beacon, Moderna & Merck's 34-neoantigen mRNA-4157 (V940) cut 3-year melanoma recurrence/death by 49% and distant metastasis by 62%, BioNTech/Genentech's autogene cevumeran (BNT122) induced multi-year patrolling CD8+ T-cells in pancreatic cancer, CARVac shrank refractory solid tumors, and Britain's NHS Cancer Vaccine Launch Pad scaled access across public hospitals.",
+    "socialNormShift": "Moving post-surgical oncology from six months of hair-losing 'just-in-case' chemotherapy to ctDNA minimal-residual blood radar paired with $950, 14-day cell-free hospital-printed neoantigen boosters—free at the point of care.",
+    "humanStory": {
+      "protagonist": "Marcus Osei, 54-Year-Old Geography Teacher",
+      "location": "Leeds, United Kingdom",
+      "snippet": "Lacing his muddy trail-running shoes four years after surviving pancreatic adenocarcinoma, Marcus remains at 0.00% ctDNA thanks to an NHS Launch Pad mRNA vaccine encoding 28 mutant flags unique to his excised tumor."
+    },
+    "quote": {
+      "text": "Every tumor writes its own unique genetic fingerprint of mutations; personalized mRNA lets us read that exact fingerprint and train the patient's immune system to hunt down every remaining cancer cell.",
+      "author": "Prof. Uğur Şahin & Dr. Özlem Türeci",
+      "role": "Co-Founders, BioNTech",
+      "url": "https://www.biontech.com/"
+    },
+    "companiesAndLabs": [
+      "Moderna & Merck (mRNA-4157 / V940)",
+      "BioNTech & Genentech (Autogene Cevumeran / BNT122)",
+      "BioNTech Solid-Tumor CARVac (BNT211)",
+      "NHS England Cancer Vaccine Launch Pad",
+      "Memorial Sloan Kettering Olayan Cancer Vaccine Center",
+      "Elicio Therapeutics (ELI-002 Amphiphile KRAS)"
+    ],
+    "globalPrecedents": [
+      "UK NHS Cancer Vaccine Launch Pad (10,000 Public Patients Target)",
+      "KEYNOTE-942 3-Year Melanoma -49% Recurrence/Death Data",
+      "MSKCC/BioNTech Nature Multi-Year Pancreatic T-Cell Memory",
+      "BioNTech Kigali BioNTainer Modular African mRNA Hub"
+    ],
+    "synergyLinks": [
+      "autoimmune-cart-treg-reset",
+      "alphagenome2-cellstate-genomics",
+      "cell-free-on-demand-biomanufacturing",
+      "self-driving-labs"
+    ],
+    "infographic": {
+      "headlineMetric": "-49% / -62%",
+      "headlineLabel": "Melanoma Relapse & Distant Metastasis Cut (V940)",
+      "unit": "Biopsy-to-Needle Custom Vaccine Turnaround (Days)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Early Plasmid Fermentation Clinical Batches",
+          "value": 49,
+          "display": "~49 Days ($120k)"
+        },
+        {
+          "year": 2026,
+          "label": "Automated Phase III GMP Lines & NHS Launch Pad",
+          "value": 28,
+          "display": "~28 Days"
+        },
+        {
+          "year": 2030,
+          "label": "Cell-Free Enzymatic dbDNA + Regional BioNTainer Hubs",
+          "value": 13,
+          "display": "12–14 Days (<$950)"
+        },
+        {
+          "year": 2034,
+          "label": "Hospital Pharmacy Microfluidic Cartridge Print",
+          "value": 7,
+          "display": "7 Days Universal"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Distant Metastasis",
+          "value": "-62% Drop",
+          "detail": "mRNA-4157 + pembrolizumab vs. pembrolizumab alone at 3 yrs"
+        },
+        {
+          "label": "Bespoke Targets",
+          "value": "Up to 34",
+          "detail": "AI-ranked mutant neoantigens absent from healthy tissues"
+        },
+        {
+          "label": "Pancreatic Memory",
+          "value": "3+ Years",
+          "detail": "BNT122 killer CD8+ T-cells patrol years post-PDAC surgery"
+        },
+        {
+          "label": "Public Rollout",
+          "value": "30+ NHS Trusts",
+          "detail": "NHS England Cancer Vaccine Launch Pad free at point of care"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Moderna & Merck (mRNA-4157 / V940)",
+        "url": "https://www.modernatx.com/"
+      },
+      {
+        "name": "BioNTech & Genentech (Autogene Cevumeran / BNT122)",
+        "url": "https://www.biontech.com/"
+      },
+      {
+        "name": "BioNTech Solid-Tumor CARVac (BNT211)",
+        "url": "https://www.biontech.com/"
+      },
+      {
+        "name": "NHS England Cancer Vaccine Launch Pad",
+        "url": "https://www.england.nhs.uk/cancer/nhs-cancer-vaccine-launch-pad/"
+      },
+      {
+        "name": "Memorial Sloan Kettering Olayan Cancer Vaccine Center",
+        "url": "https://www.mskcc.org/"
+      },
+      {
+        "name": "Elicio Therapeutics (ELI-002 Amphiphile KRAS)",
+        "url": "https://elicio.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "UK NHS Cancer Vaccine Launch Pad (10,000 Public Patients Target)",
+        "url": "https://www.england.nhs.uk/cancer/nhs-cancer-vaccine-launch-pad/"
+      },
+      {
+        "name": "KEYNOTE-942 3-Year Melanoma -49% Recurrence/Death Data",
+        "url": "https://www.thelancet.com/"
+      },
+      {
+        "name": "MSKCC/BioNTech Nature Multi-Year Pancreatic T-Cell Memory",
+        "url": "https://www.nature.com/"
+      },
+      {
+        "name": "BioNTech Kigali BioNTainer Modular African mRNA Hub",
+        "url": "https://www.biontech.com/"
+      }
+    ]
+  },
+  {
+    "slug": "gene-edited-xenotransplants",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/gene-edited-xenotransplants",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "69-Edit Donor Kidneys: CRISPR-Humanized Porcine Organs Ending Dialysis Waitlists",
+    "tagline": "Multiplex CRISPR knocks out 3 rejection sugars and 59 retroviruses while adding 7 human shield genes—freeing clinical-trial patients from dialysis and saving Medicare billions.",
+    "cynicBelief": "Xenotransplantation has been 'ten years away' for forty years because animal organs trigger violent hyperacute blood clots in minutes and risk unleashing cross-species retroviruses.",
+    "breakthroughCounter": "Between 2024 and 2026, eGenesis (69-edit EGEN-2784: 3 glycan knockouts, 59 inactivated PERVs, 7 human transgenes) and United Therapeutics / Revivicor (10-edit UKidney) won FDA clearance for formal multi-patient clinical trials after living recipients at Mass General and NYU Langone walked home completely off dialysis for months on end.",
+    "socialNormShift": "Ending the 17-deaths-a-day transplant ration list, black-market organ trafficking, and the $45B/year Medicare dialysis trap via scheduled pre-dialysis transplants that bridge humanity cleanly to 2030s autologous 3D bioprinting.",
+    "humanStory": {
+      "protagonist": "Darnell Washington, 49-Year-Old Postal Supervisor & Little League Coach",
+      "location": "Birmingham, Alabama, USA",
+      "snippet": "Drinking a full glass of cold orange juice without fluid rationing 18 months after a scheduled 69-edit thymokidney transplant at UAB, Darnell never spent another Monday chained to a commercial dialysis recliner."
+    },
+    "quote": {
+      "text": "No human being should ever die waiting for a stranger's tragedy to provide an organ. Multiplex genome engineering turns organ transplantation from desperate scarcity into scheduled abundance.",
+      "author": "Dr. Robert Montgomery",
+      "role": "Chair of Surgery & Director, NYU Langone Transplant Institute",
+      "url": "https://nyulangone.org/"
+    },
+    "companiesAndLabs": [
+      "eGenesis (EGEN-2784 69-Edit Kidney)",
+      "United Therapeutics & Revivicor (UKidney & UThymoKidney)",
+      "Mass General Brigham Transplant Center",
+      "NYU Langone & UAB Transplant Institutes",
+      "Eledon Pharmaceuticals (Tegoprubart Anti-CD40L)",
+      "Columbia Center for Translational Immunology"
+    ],
+    "globalPrecedents": [
+      "FDA IND Multi-Patient Trials Cleared (UKidney & EGEN-2784, 2025–2026)",
+      "Nature 69-Edit Porcine Genome & Complete PERV Inactivation",
+      "Medicare Universal End-Stage Renal Disease (ESRD) Coverage",
+      "FDA/WHO Designated Pathogen-Free (DPF) Biosecure Herd Standard"
+    ],
+    "synergyLinks": [
+      "organ-bioprinting-bionics",
+      "invivo-crispr-cures",
+      "autoimmune-cart-treg-reset",
+      "precision-fermentation-rewilding"
+    ],
+    "infographic": {
+      "headlineMetric": "69 Edits",
+      "headlineLabel": "0 PERVs · 0 Hyperacute Clots · FDA Trials Live",
+      "unit": "5-Year Per-Patient Renal Care Medical Cost ($ USD)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "5 Years Chronic Hemodialysis (~50% Mortality)",
+          "value": 520000,
+          "display": "$520,000+"
+        },
+        {
+          "year": 2026,
+          "label": "First Multi-Patient FDA Phase I–III Xenokidney Trials",
+          "value": 260000,
+          "display": "~$260,000"
+        },
+        {
+          "year": 2030,
+          "label": "Commercial Scheduled Pre-Dialysis Xenokidney + Treg Taper",
+          "value": 115000,
+          "display": "$115,000 (-78%)"
+        },
+        {
+          "year": 2034,
+          "label": "Herd-Scale Xeno Bridge + Autologous Bioprinted Handoff",
+          "value": 65000,
+          "display": "$65,000 All-In"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Retrovirus Safety",
+          "value": "59 / 59 KO",
+          "detail": "CRISPR permanently disables all porcine endogenous retroviruses"
+        },
+        {
+          "label": "Waitlist Rescued",
+          "value": "100,000+",
+          "detail": "Ends 17 daily US waitlist deaths & HLA matching racial delays"
+        },
+        {
+          "label": "Medicare Savings",
+          "value": "~$405k / Pt",
+          "detail": "Replaces $104k/yr chronic dialysis chairs with normal work life"
+        },
+        {
+          "label": "Ethical Horizon",
+          "value": "10-Yr Bridge",
+          "detail": "Saves dying patients now while iPSC 3D bioprinting matures"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "eGenesis (EGEN-2784 69-Edit Kidney)",
+        "url": "https://www.egenesisbio.com/"
+      },
+      {
+        "name": "United Therapeutics & Revivicor (UKidney & UThymoKidney)",
+        "url": "https://www.unither.com/"
+      },
+      {
+        "name": "Mass General Brigham Transplant Center",
+        "url": "https://www.massgeneral.org/transplants"
+      },
+      {
+        "name": "NYU Langone & UAB Transplant Institutes",
+        "url": "https://nyulangone.org/"
+      },
+      {
+        "name": "Eledon Pharmaceuticals (Tegoprubart Anti-CD40L)",
+        "url": "https://eledon.com/"
+      },
+      {
+        "name": "Columbia Center for Translational Immunology",
+        "url": "https://www.vagelos.columbia.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "FDA IND Multi-Patient Trials Cleared (UKidney & EGEN-2784, 2025–2026)",
+        "url": "https://www.fda.gov/"
+      },
+      {
+        "name": "Nature 69-Edit Porcine Genome & Complete PERV Inactivation",
+        "url": "https://www.nature.com/"
+      },
+      {
+        "name": "Medicare Universal End-Stage Renal Disease (ESRD) Coverage",
+        "url": "https://www.cms.gov/"
+      },
+      {
+        "name": "FDA/WHO Designated Pathogen-Free (DPF) Biosecure Herd Standard",
+        "url": "https://www.who.int/"
+      }
+    ]
+  },
+  {
+    "slug": "citizen-edna-groundwater-atlas",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/citizen-edna-groundwater-atlas",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "A Genome Lab in Every Backpack: Citizen eDNA Watershed Swabs & the Global Groundwater Biome Atlas",
+    "tagline": "One 500-mL syringe filter and a pocket Nanopore sequencer identify hundreds of river, ocean, air, and subterranean aquifer species—catching invasives two years early with zero traps.",
+    "cynicBelief": "We are sleepwalking through mass extinction completely blind—auditing an ecosystem takes $20,000 trapping expeditions, while underground aquifers and remote rivers collapse before science even counts what lived there.",
+    "breakthroughCounter": "Between 2024 and 2026, UNESCO & NatureMetrics citizen eDNA expeditions across 100+ countries, pocket Oxford Nanopore MinION sequencers, repurposed national air-quality filters, and the Global Groundwater eDNA Initiative (GReG) turned cups of water and breeze into real-time multi-kingdom biodiversity censuses—rediscovering species missing for 87 years without harming a single animal.",
+    "socialNormShift": "Ending 'empty green forest' carbon fraud and extractive parachute science via CARE-governed in-country field sequencing that pays verified Biodiversity Stewardship Dividends directly to Indigenous and rural communities.",
+    "humanStory": {
+      "protagonist": "Valentina Quispe (14) & Awajún River Guardian Mateo Wampís",
+      "location": "Río Marañón Watershed, Northern Peru",
+      "snippet": "Filtering 500 mL of dawn river and village-well water without a single net, Valentina and Mateo sequence 142 fish species, pure aquifer stygofauna, and a 'lost' harlequin frog by lunchtime in their solar schoolhouse—unlocking direct community stewardship dividends."
+    },
+    "quote": {
+      "text": "With a simple syringe filter in the hands of a child or ranger, every drop of river, ocean, and groundwater speaks the names of the hundreds of creatures that depend on it.",
+      "author": "Dr. Kat Bruce",
+      "role": "Founder, NatureMetrics",
+      "url": "https://www.naturemetrics.com/"
+    },
+    "companiesAndLabs": [
+      "Global Groundwater eDNA Initiative (GReG / Eawag)",
+      "UNESCO IOC eDNA Expeditions & OBIS",
+      "NatureMetrics",
+      "Oxford Nanopore Technologies (MinION Field Sequencing)",
+      "Global Biodiversity Information Facility (GBIF)",
+      "International Barcode of Life (BIOSCAN) & iNaturalist"
+    ],
+    "globalPrecedents": [
+      "UNESCO 20+ Marine World Heritage Youth eDNA Census",
+      "Current Biology National Air-Quality Filter eDNA Networks",
+      "CARE Principles for Indigenous Data Sovereignty",
+      "Re:wild Lost Species eDNA Rediscoveries (87-Yr Golden Mole)"
+    ],
+    "synergyLinks": [
+      "assisted-coral-cryobanks",
+      "forever-chemical-cleanup",
+      "nitrogen-fixing-perennial-crops",
+      "earth-digital-twin-canopy"
+    ],
+    "infographic": {
+      "headlineMetric": "$35 / Swab",
+      "headlineLabel": "500x Cheaper Multi-Kingdom Census · Zero Animal Harm",
+      "unit": "All-In Multi-Taxa Watershed Biodiversity Survey Cost ($ USD)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Traditional Multi-Taxa Trapping & Microscope Expedition",
+          "value": 18000,
+          "display": "$18,000 / Site"
+        },
+        {
+          "year": 2026,
+          "label": "Mail-In Citizen eDNA Kits & Portable MinION Field Hubs",
+          "value": 95,
+          "display": "$95 / Sample"
+        },
+        {
+          "year": 2030,
+          "label": "250,000 Schools, Wells (GReG) & Air Stations Multiplexed",
+          "value": 35,
+          "display": "$35 / Census"
+        },
+        {
+          "year": 2034,
+          "label": "Autonomous Solar Port Sippers & $12 Field Chips",
+          "value": 12,
+          "display": "$12 Real-Time"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Aquifer Frontier",
+          "value": "97% Water",
+          "detail": "GReG maps subterranean stygofauna purifying global groundwater"
+        },
+        {
+          "label": "Invasive Warning",
+          "value": "+24 Months",
+          "detail": "Spots invasive mussels/carp 2 yrs earlier ($423B/yr global risk)"
+        },
+        {
+          "label": "Field Turnaround",
+          "value": "4 Hours",
+          "detail": "Pocket MinION sequences offline under Indigenous data sovereignty"
+        },
+        {
+          "label": "Animal Mortality",
+          "value": "0.0%",
+          "detail": "Replaces gill nets, electrofishing & pitfall traps with 1 cup of water"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Global Groundwater eDNA Initiative (GReG / Eawag)",
+        "url": "https://www.eawag.ch/"
+      },
+      {
+        "name": "UNESCO IOC eDNA Expeditions & OBIS",
+        "url": "https://obis.org/"
+      },
+      {
+        "name": "NatureMetrics",
+        "url": "https://www.naturemetrics.com/"
+      },
+      {
+        "name": "Oxford Nanopore Technologies (MinION Field Sequencing)",
+        "url": "https://nanoporetech.com/"
+      },
+      {
+        "name": "Global Biodiversity Information Facility (GBIF)",
+        "url": "https://www.gbif.org/"
+      },
+      {
+        "name": "International Barcode of Life (BIOSCAN) & iNaturalist",
+        "url": "https://ibol.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "UNESCO 20+ Marine World Heritage Youth eDNA Census",
+        "url": "https://www.unesco.org/en/edna-expeditions"
+      },
+      {
+        "name": "Current Biology National Air-Quality Filter eDNA Networks",
+        "url": "https://www.cell.com/current-biology/home"
+      },
+      {
+        "name": "CARE Principles for Indigenous Data Sovereignty",
+        "url": "https://www.gida-global.org/care"
+      },
+      {
+        "name": "Re:wild Lost Species eDNA Rediscoveries (87-Yr Golden Mole)",
+        "url": "https://www.rewild.org/"
+      }
+    ]
+  },
+  {
+    "slug": "mof-atmospheric-water-carbon",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/mof-atmospheric-water-carbon",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "2025 Chemistry Nobel: Metal-Organic Frameworks Pulling Pure Drinking Water from Bone-Dry Desert Air",
+    "tagline": "Crystalline sponges packing a soccer field into one gram pull pure drinking water from 14% desert air using free sunlight and cut industrial CO2 capture heat in half.",
+    "cynicBelief": "Atmospheric water machines are energy-guzzling dehumidifier gimmicks that freeze solid below 25% desert humidity, while carbon capture wastes half a power plant's energy boiling toxic amine solvents.",
+    "breakthroughCounter": "Honored with the 2025 Nobel Prize in Chemistry, Omar M. Yaghi, Susumu Kitagawa, and Richard Robson created Metal-Organic Frameworks (MOFs): aluminum MOF-303 plucks pure H2O out of 10%–15% Death Valley and Arabian desert air powered purely by mild sunlight (Atoco, Water Harvesting Inc.), while BASF/Svante's multi-ton CALF-20 and COF-999 slash CO2 capture regeneration energy by ~50%.",
+    "socialNormShift": "Leapfrogging pipelines and $30/ton diesel water-tanker cartels for 2.2 billion landlocked arid citizens via off-grid rooftop 'solar water panels' pouring PFAS-free drinking water under 2 cents per liter.",
+    "humanStory": {
+      "protagonist": "Layla Al-Zaben, 28-Year-Old Agronomy & Water Technician",
+      "location": "Wadi Rum Plateau, Jordan",
+      "snippet": "At 14% desert humidity with zero grid wires or pipelines, Layla opens her village clinic's tap to pour 420 liters/day of crisp mineralized water exhaled by rooftop aluminum MOF-303 panels warmed by morning sunlight."
+    },
+    "quote": {
+      "text": "Imagine a world where no child or village is ever hostage to drought, pipelines, or dry aquifers—because clean water is harvested freely from the sky anywhere on Earth.",
+      "author": "Prof. Omar M. Yaghi",
+      "role": "2025 Nobel Laureate in Chemistry & Pioneer of Reticular Chemistry, UC Berkeley",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2025/summary/"
+    },
+    "companiesAndLabs": [
+      "Berkeley Global Science Institute & Yaghi Lab",
+      "Atoco (Reticular Water & Carbon Capture)",
+      "Water Harvesting Inc. (WaHa)",
+      "Svante Technologies & Univ. of Calgary (CALF-20)",
+      "BASF Commercial Ton-Scale MOF Manufacturing",
+      "NuMat Technologies (NUMAT)"
+    ],
+    "globalPrecedents": [
+      "2025 Nobel Prize in Chemistry (Kitagawa, Robson & Yaghi)",
+      "Nature Water Death Valley <15% RH Solar MOF-303 Field Proof",
+      "Svante Commercial Rotary CALF-20 Carbon Capture Megafactory",
+      "Nature COF-999 Durable 60°C Open-Air Carbon Capture"
+    ],
+    "synergyLinks": [
+      "aquifer-rivers-desalination",
+      "synthetic-sky-fuels",
+      "inverse-materials-design",
+      "self-healing-living-bioconcrete"
+    ],
+    "infographic": {
+      "headlineMetric": "<2¢ / Liter",
+      "headlineLabel": "Pure Solar Water at 14% Desert Humidity",
+      "unit": "Off-Grid Arid Drinking Water Cost ($ USD per Liter)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Arid Diesel Tanker Trucks / Bottled Jugs (Dehumidifiers Fail)",
+          "value": 0.30,
+          "display": "$0.15–$0.50 / L"
+        },
+        {
+          "year": 2026,
+          "label": "2025 Nobel + Commercial Atoco/WaHa Cycled MOF-303 Units",
+          "value": 0.06,
+          "display": "$0.06 / L"
+        },
+        {
+          "year": 2030,
+          "label": "Aqueous Boiling-Water Green MOF Synthesis ($8/kg Al-MOF)",
+          "value": 0.018,
+          "display": "$0.018 / L"
+        },
+        {
+          "year": 2034,
+          "label": "Universal Rooftop Sky-Tap Appliances Worldwide",
+          "value": 0.012,
+          "display": "1.2¢ / Liter"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Internal Surface",
+          "value": "7,000 m²/g",
+          "detail": "One gram of MOF crystal holds an entire soccer field of pores"
+        },
+        {
+          "label": "Arid Threshold",
+          "value": "10%–15% RH",
+          "detail": "Works in bone-dry Death Valley air where cold coils freeze"
+        },
+        {
+          "label": "CALF-20 CO2 Heat",
+          "value": "-50% Energy",
+          "detail": "Steam-stable rotary MOF halves regeneration heat vs. amines"
+        },
+        {
+          "label": "Sky Reservoir",
+          "value": "13,000 km³",
+          "detail": "Atmosphere holds more fresh water than all Earth's rivers combined"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Berkeley Global Science Institute & Yaghi Lab",
+        "url": "https://globalscience.berkeley.edu/"
+      },
+      {
+        "name": "Atoco (Reticular Water & Carbon Capture)",
+        "url": "https://atoco.com/"
+      },
+      {
+        "name": "Water Harvesting Inc. (WaHa)",
+        "url": "https://wahainc.com/"
+      },
+      {
+        "name": "Svante Technologies & Univ. of Calgary (CALF-20)",
+        "url": "https://svanteinc.com/"
+      },
+      {
+        "name": "BASF Commercial Ton-Scale MOF Manufacturing",
+        "url": "https://www.basf.com/"
+      },
+      {
+        "name": "NuMat Technologies (NUMAT)",
+        "url": "https://www.numat.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "2025 Nobel Prize in Chemistry (Kitagawa, Robson & Yaghi)",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2025/summary/"
+      },
+      {
+        "name": "Nature Water Death Valley <15% RH Solar MOF-303 Field Proof",
+        "url": "https://www.nature.com/natwater/"
+      },
+      {
+        "name": "Svante Commercial Rotary CALF-20 Carbon Capture Megafactory",
+        "url": "https://svanteinc.com/"
+      },
+      {
+        "name": "Nature COF-999 Durable 60°C Open-Air Carbon Capture",
+        "url": "https://www.nature.com/"
+      }
+    ]
+  },
+  {
+    "slug": "bacteriophage-ai-antibiotics",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/bacteriophage-ai-antibiotics",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Defeating Superbugs Forever: Programmable CRISPR Phage Cocktails & AI Narrow-Spectrum Antibiotics",
+    "tagline": "Generative AI invents gut-sparing antibiotic classes in one step while CRISPR-Cas3 phages shred resistance plasmids and trap superbugs in an evolutionary checkmate.",
+    "cynicBelief": "Superbugs evolve resistance faster than chemists can invent drugs and big pharma abandoned antibiotics—marching humanity back to a pre-penicillin Dark Age killing ten million people a year.",
+    "breakthroughCounter": "Generative AI models (MIT Collins & McMaster SyntheMol, Abaucin, and UIUC's microbiome-sparing Lolamicin) ended the 33-year structural antibiotic drought, while CRISPR-Cas3 bacteriophages (Locus Biosciences, SNIPR Biome, BiomX) and Brussels' 100-patient Magistral Phage framework achieved 77% clinical improvement and forced bacteria to drop efflux resistance pumps.",
+    "socialNormShift": "Pairing UK NHS-style 'Netflix fire-extinguisher' readiness subscriptions with Belgian hospital Magistral Phage compounding—delivering 90-minute strain-matched cures without carpet-bombing the gut or overprescribing pills.",
+    "humanStory": {
+      "protagonist": "Luc Peeters, 66-Year-Old Retired Tram Driver",
+      "location": "Brussels, Belgium & Mumbai, India",
+      "snippet": "Facing above-the-knee amputation from a pan-resistant Pseudomonas prosthetic biofilm, Luc walks home unassisted eight days after Brussels' hospital phage pharmacy matched and brewed a 3-phage CRISPR-Cas3 cocktail in 90 minutes."
+    },
+    "quote": {
+      "text": "A chemical pill is static while bacteria evolve—but a programmable CRISPR phage plus generative narrow-spectrum design lets medicine adapt faster than any superbug on Earth.",
+      "author": "Prof. Steffanie Strathdee",
+      "role": "Co-Director, UC San Diego Center for Innovative Phage Applications and Therapeutics (IPATH)",
+      "url": "https://medschool.ucsd.edu/som/medicine/divisions/idgph/research/center-innovative-phage-applications-and-therapeutics/"
+    },
+    "companiesAndLabs": [
+      "MIT Jameel Clinic (Collins Lab) & McMaster (Stokes SyntheMol)",
+      "Locus Biosciences (LBP-EC01 CRISPR-Cas3 Phage)",
+      "SNIPR Biome (SNIPR001) & BiomX",
+      "UIUC Hergenrother Lab (Lolamicin Gut-Sparing Antibiotic)",
+      "Queen Astrid Military Hospital Brussels & UCSD IPATH",
+      "UPenn César de la Fuente Lab (APEX De-Extinction Peptides)"
+    ],
+    "globalPrecedents": [
+      "Belgium Magistral Phage Framework (Nature Microbiology 100-Case Proof)",
+      "UK NHS £20M/Yr Delinked 'Fire-Extinguisher' Antibiotic Subscription",
+      "Nature Lolamicin 100% Gut-Microbiome-Sparing Sepsis Cure",
+      "Cell-Free Endotoxin-Free On-Demand Phage Synthesis"
+    ],
+    "synergyLinks": [
+      "cell-free-on-demand-biomanufacturing",
+      "invivo-crispr-cures",
+      "self-driving-labs",
+      "citizen-edna-groundwater-atlas"
+    ],
+    "infographic": {
+      "headlineMetric": "90-Min Match",
+      "headlineLabel": "CRISPR-Cas3 Phage + Gut-Safe AI Antibiotics",
+      "unit": "Time From MDR Superbug Swab to Precision Targeted Therapy (Hours)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Empirical Broad-Spectrum Guessing + 3-Day Petri Culture",
+          "value": 72,
+          "display": "72 Hours"
+        },
+        {
+          "year": 2026,
+          "label": "Belgian Magistral Phage Hubs & Rapid Nanopore ID",
+          "value": 12,
+          "display": "~12 Hours"
+        },
+        {
+          "year": 2030,
+          "label": "Optical AI Phageogram + On-Site Cell-Free Phage Print",
+          "value": 1.5,
+          "display": "90 Minutes"
+        },
+        {
+          "year": 2034,
+          "label": "Automated Point-of-Care Sequence-to-Cocktail Cartridge",
+          "value": 0.75,
+          "display": "45 Minutes"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Magistral Outcomes",
+          "value": "77.2%",
+          "detail": "Clinical improvement in 100 last-resort superbug patients (Brussels)"
+        },
+        {
+          "label": "Gut Flora Saved",
+          "value": "~100%",
+          "detail": "Lolamicin & CRISPR phages prevent secondary C. difficile colitis"
+        },
+        {
+          "label": "AI Synthesis Cost",
+          "value": "<$100 / 1-Step",
+          "detail": "SyntheMol invents novel Acinetobacter classes from simple blocks"
+        },
+        {
+          "label": "Escape Trap",
+          "value": "Checkmate",
+          "detail": "Dropping phage-targeted efflux pumps restores $4 generic sensitivity"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "MIT Jameel Clinic (Collins Lab) & McMaster (Stokes SyntheMol)",
+        "url": "https://jclinic.mit.edu/"
+      },
+      {
+        "name": "Locus Biosciences (LBP-EC01 CRISPR-Cas3 Phage)",
+        "url": "https://www.locus-bio.com/"
+      },
+      {
+        "name": "SNIPR Biome (SNIPR001) & BiomX",
+        "url": "https://sniprbiome.com/"
+      },
+      {
+        "name": "UIUC Hergenrother Lab (Lolamicin Gut-Sparing Antibiotic)",
+        "url": "https://chemistry.illinois.edu/"
+      },
+      {
+        "name": "Queen Astrid Military Hospital Brussels & UCSD IPATH",
+        "url": "https://medschool.ucsd.edu/"
+      },
+      {
+        "name": "UPenn César de la Fuente Lab (APEX De-Extinction Peptides)",
+        "url": "https://delafuentelab.upenn.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Belgium Magistral Phage Framework (Nature Microbiology 100-Case Proof)",
+        "url": "https://www.nature.com/nmicrobiol/"
+      },
+      {
+        "name": "UK NHS £20M/Yr Delinked 'Fire-Extinguisher' Antibiotic Subscription",
+        "url": "https://www.england.nhs.uk/"
+      },
+      {
+        "name": "Nature Lolamicin 100% Gut-Microbiome-Sparing Sepsis Cure",
+        "url": "https://www.nature.com/"
+      },
+      {
+        "name": "Cell-Free Endotoxin-Free On-Demand Phage Synthesis",
+        "url": "https://jewettlab.stanford.edu/"
+      }
+    ]
+  },
+  {
+    "slug": "self-healing-living-bioconcrete",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/self-healing-living-bioconcrete",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Carbon-Negative Cities of Living Stone: Microalgae Bioconcrete, Brimstone Cement & Mycelium Walls",
+    "tagline": "Coral-inspired microalgae blocks, carbon-free calcium-silicate Portland cement, fireproof mycelium walls, and self-healing Bacillus spores turn 150-year cities into carbon sinks.",
+    "cynicBelief": "Concrete causes 8% of global CO2 because 60% is chemically locked inside baking limestone at 1,450°C—no solar panel can change rock chemistry, and rusting rebar inevitably cracks every bridge in fifty years.",
+    "breakthroughCounter": "Prometheus Materials grows ASTM-certified microalgae bioconcrete at room temperature; Brimstone (calcium-silicate basalt refining) and Sublime Systems (ambient solar electrochemistry) make true Portland cement with zero limestone CO2; and TU Delft / Basilisk Bacillus spores wake on rainwater contact to knit bridge cracks shut with fresh limestone—doubling infrastructure life past 120+ years.",
+    "socialNormShift": "Updating 1950s recipe building codes to ASTM C1157 strength-and-carbon performance procurement across the ~45% of concrete bought by governments, while turning crop-waste burning into Class-A fireproof mycelium housing insulation.",
+    "humanStory": {
+      "protagonist": "Noor Van Der Berg, Civil Infrastructure Drone Inspector",
+      "location": "Rotterdam, Netherlands",
+      "snippet": "Inspecting a Maas River viaduct four winters after its carbon-negative Brimstone pour, Noor zooms onto a 0.6-mm winter crane crack already sealed watertight by gleaming white bacterial calcite—zero lane closures required."
+    },
+    "quote": {
+      "text": "Nature has grown strong, self-repairing limestone reefs at ocean temperature for half a billion years; learning from coral and microbes transforms the built environment from a carbon source into a living carbon sink.",
+      "author": "Prof. Wil Srubar",
+      "role": "Co-Founder, Prometheus Materials & Living Materials Pioneer, CU Boulder",
+      "url": "https://prometheusmaterials.com/"
+    },
+    "companiesAndLabs": [
+      "Prometheus Materials (ProZero Microalgae Bioconcrete)",
+      "Brimstone (Carbon-Negative Calcium-Silicate OPC)",
+      "Sublime Systems (Electrochemical Cement)",
+      "Basilisk & TU Delft (Prof. Henk Jonkers Self-Healing Concrete)",
+      "Mogu & Ecovative (Fireproof Mycelium Insulation)",
+      "Neustark & CarbonCure (Mineralized CO2 Concrete)"
+    ],
+    "globalPrecedents": [
+      "US DOE $1.6B Clean Cement Commercial Demonstration Awards",
+      "ASTM C90 & C1157 Performance-Based Cement Standards",
+      "MIT Science Advances 2,000-Year Self-Healing Roman Pantheon Proof",
+      "Netherlands Rijkswaterstaat Self-Healing Viaduct & Tunnel Pours"
+    ],
+    "synergyLinks": [
+      "mof-atmospheric-water-carbon",
+      "abundant-beautiful-housing",
+      "perovskite-tandem-solar",
+      "assisted-coral-cryobanks"
+    ],
+    "infographic": {
+      "headlineMetric": "120+ Yrs",
+      "headlineLabel": "Self-Healing Lifespan · Carbon-Negative Stone",
+      "unit": "Embodied Carbon Intensity (kg CO2 per Cubic Meter of Concrete)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "1,450°C Fossil Limestone Rotary Kiln Concrete",
+          "value": 340,
+          "display": "+340 kg CO2/m³"
+        },
+        {
+          "year": 2026,
+          "label": "First Commercial Sublime, Prometheus & Neustark Pours",
+          "value": 95,
+          "display": "+95 kg CO2/m³"
+        },
+        {
+          "year": 2030,
+          "label": "Public Buy-Clean Standard (Brimstone + Microalgae + Spores)",
+          "value": -25,
+          "display": "-25 kg CO2/m³ (Sink)"
+        },
+        {
+          "year": 2034,
+          "label": "Global Carbon-Vault Cities + Basalt Rebar 150-Yr Standard",
+          "value": -65,
+          "display": "-65 kg CO2/m³ Stored"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Microalgae Cure",
+          "value": "25–35°C",
+          "detail": "Prometheus grows ASTM load-bearing blocks without 1,450°C kilns"
+        },
+        {
+          "label": "Autonomous Heal",
+          "value": "0.8 mm Cracks",
+          "detail": "Dormant Bacillus spores wake on rain contact to seal scars"
+        },
+        {
+          "label": "Bridge Lifespan",
+          "value": "2x–3x Longer",
+          "detail": "120–150+ yr service cuts replacement cement demand in half"
+        },
+        {
+          "label": "Mycelium Safety",
+          "value": "Class-A Fire",
+          "detail": "7-day crop-waste fungal panels char cleanly with zero toxic smoke"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Prometheus Materials (ProZero Microalgae Bioconcrete)",
+        "url": "https://prometheusmaterials.com/"
+      },
+      {
+        "name": "Brimstone (Carbon-Negative Calcium-Silicate OPC)",
+        "url": "https://www.brimstone.com/"
+      },
+      {
+        "name": "Sublime Systems (Electrochemical Cement)",
+        "url": "https://sublimesystems.com/"
+      },
+      {
+        "name": "Basilisk & TU Delft (Prof. Henk Jonkers Self-Healing Concrete)",
+        "url": "https://basiliskconcrete.com/en/"
+      },
+      {
+        "name": "Mogu & Ecovative (Fireproof Mycelium Insulation)",
+        "url": "https://mogu.bio/"
+      },
+      {
+        "name": "Neustark & CarbonCure (Mineralized CO2 Concrete)",
+        "url": "https://www.neustark.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "US DOE $1.6B Clean Cement Commercial Demonstration Awards",
+        "url": "https://www.energy.gov/oced/"
+      },
+      {
+        "name": "ASTM C90 & C1157 Performance-Based Cement Standards",
+        "url": "https://www.astm.org/"
+      },
+      {
+        "name": "MIT Science Advances 2,000-Year Self-Healing Roman Pantheon Proof",
+        "url": "https://www.science.org/journal/sciadv"
+      },
+      {
+        "name": "Netherlands Rijkswaterstaat Self-Healing Viaduct & Tunnel Pours",
+        "url": "https://basiliskconcrete.com/en/"
+      }
+    ]
+  },
+  {
+    "slug": "nitrogen-fixing-perennial-crops",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/nitrogen-fixing-perennial-crops",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Crops That Fertilize Themselves: Nitrogen-Fixing Root Microbes & Deep-Rooted Perennial Grains",
+    "tagline": "Seed-coat microbes spoon-feeding sky nitrogen onto cereal roots and 3-meter-rooted perennial rice and wheat harvest for 4–5 years from one planting—halving diesel and healing dead zones.",
+    "cynicBelief": "Feeding eight billion people forces farmers to burn natural gas for synthetic fertilizer that poisons rivers into ocean dead zones, while annual plowing erodes 24 billion tons of topsoil a year.",
+    "breakthroughCounter": "Pivot Bio's non-transgenic gene-edited root microbes (PROVEN 40) already spoon-feed atmospheric N2 across millions of US corn and wheat acres with zero rain washout or N2O spikes; UC Santa Cruz discovered nature's first 'nitroplast' organelle (Science, 2024); and Yunnan University's PR23 perennial rice harvested 8 consecutive full-yield crops from a single planting while The Land Institute's 3-meter Kernza roots cut groundwater nitrate leaching >85%.",
+    "socialNormShift": "Decoupling rural farmers from geopolitical natural-gas fertilizer shocks, cutting smallholder women's transplanting labor by 58%, and paying farmers Municipal Clean-Well Dividends instead of building $30M town water-treatment plants.",
+    "humanStory": {
+      "protagonist": "Lin Mei, 52-Year-Old Terraced Paddy Farmer & Caleb Lindqvist, Iowa Grain Grower",
+      "location": "Menglian County, Yunnan, China & Des Moines River, USA",
+      "snippet": "Leaving her diesel rototiller parked for the fourth straight year, Lin Mei harvests 6.8 tonnes/hectare of PR23 perennial rice resprouting from living rhizomes—while Caleb's Kernza and microbial corn cut creek nitrates by 88%."
+    },
+    "quote": {
+      "text": "For ten thousand years, humanity fed itself by disturbing ecosystems every single spring. Perennial, self-fertilizing grain crops let farms work like native prairies—building deep soil while harvesting abundant grain.",
+      "author": "Dr. Rachel Stroer & Dr. Lee DeHaan",
+      "role": "President & Lead Kernza Scientist, The Land Institute",
+      "url": "https://landinstitute.org/"
+    },
+    "companiesAndLabs": [
+      "Pivot Bio (PROVEN 40 & On-Seed Diazotrophs)",
+      "Yunnan University Perennial Rice Team (PR23)",
+      "The Land Institute (Kernza Perennial Grain)",
+      "UC Santa Cruz & Berkeley Lab (Nitroplast Organelle)",
+      "ENSA Consortium (Cambridge / Gates Symbiosis)",
+      "Univ. of Minnesota Forever Green Initiative"
+    ],
+    "globalPrecedents": [
+      "Nature Sustainability PR23 8-Harvest Yield Parity (>40,000 Farms)",
+      "Pivot Bio 5M+ Annual US Commercial Corn/Wheat Acres",
+      "Science 2024 Discovery of Eukaryotic Nitrogen-Fixing Nitroplast",
+      "Minnesota Municipal Wellhead Kernza Nitrate-Protection Compacts"
+    ],
+    "synergyLinks": [
+      "precision-fermentation-rewilding",
+      "citizen-edna-groundwater-atlas",
+      "specialized-swarm-robotics",
+      "forever-chemical-cleanup"
+    ],
+    "infographic": {
+      "headlineMetric": "8 Harvests",
+      "headlineLabel": "From 1 Planting (PR23) · -85% Nitrate Runoff",
+      "unit": "4-Year Per-Hectare Seed, Tillage & Synthetic Fertilizer Input Cost ($ USD)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Annual Plowing + 100% Synthetic Haber-Bosch Urea",
+          "value": 2340,
+          "display": "$2,340 / ha"
+        },
+        {
+          "year": 2026,
+          "label": "40-lb/Acre Seed Microbes + First-Gen PR23/Kernza Zones",
+          "value": 1380,
+          "display": "$1,380 / ha"
+        },
+        {
+          "year": 2030,
+          "label": "80-lb/Acre Diazotrophs + Multi-Year Perennial Rotations",
+          "value": 580,
+          "display": "$580 / ha (-75%)"
+        },
+        {
+          "year": 2034,
+          "label": "100% Bio-Nitrogen + Perennial Staples + Clean-Well Credits",
+          "value": 290,
+          "display": "$290 / ha (Net Profit+)"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Root Depth",
+          "value": "3+ Meters",
+          "detail": "10-ft Kernza roots lock ~1 t/ha/yr soil carbon & stop erosion"
+        },
+        {
+          "label": "Well Nitrate Cut",
+          "value": "-85% to -99%",
+          "detail": "Eliminates groundwater leaching & coastal ocean dead zones"
+        },
+        {
+          "label": "Farmer Labor Saved",
+          "value": "-58% Labor",
+          "detail": "PR23 eliminates 3 years of mud plowing & seedling transplanting"
+        },
+        {
+          "label": "Sky N2 Supply",
+          "value": "78,000 t/ha",
+          "detail": "Free atmospheric N2 above every hectare unlocked at room temp"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Pivot Bio (PROVEN 40 & On-Seed Diazotrophs)",
+        "url": "https://www.pivotbio.com/"
+      },
+      {
+        "name": "Yunnan University Perennial Rice Team (PR23)",
+        "url": "http://www.ynu.edu.cn/"
+      },
+      {
+        "name": "The Land Institute (Kernza Perennial Grain)",
+        "url": "https://landinstitute.org/"
+      },
+      {
+        "name": "UC Santa Cruz & Berkeley Lab (Nitroplast Organelle)",
+        "url": "https://www.ucsc.edu/"
+      },
+      {
+        "name": "ENSA Consortium (Cambridge / Gates Symbiosis)",
+        "url": "https://www.ensa.ac.uk/"
+      },
+      {
+        "name": "Univ. of Minnesota Forever Green Initiative",
+        "url": "https://forevergreen.umn.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Nature Sustainability PR23 8-Harvest Yield Parity (>40,000 Farms)",
+        "url": "https://www.nature.com/natsustain/"
+      },
+      {
+        "name": "Pivot Bio 5M+ Annual US Commercial Corn/Wheat Acres",
+        "url": "https://www.pivotbio.com/"
+      },
+      {
+        "name": "Science 2024 Discovery of Eukaryotic Nitrogen-Fixing Nitroplast",
+        "url": "https://www.science.org/"
+      },
+      {
+        "name": "Minnesota Municipal Wellhead Kernza Nitrate-Protection Compacts",
+        "url": "https://forevergreen.umn.edu/"
+      }
+    ]
+  },
+  {
+    "slug": "non-opioid-nav18-pain-relief",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/non-opioid-nav18-pain-relief",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Ending Pain Without Addiction: Selective NaV1.8 Peripheral Sodium-Channel Blockers",
+    "tagline": "FDA-approved suzetrigine (Journavx) blocks pain signals 31,000x selectively out on peripheral nerves—with zero brain receptors, zero euphoria, and zero opioid addiction potential.",
+    "cynicBelief": "Since morphine was isolated in 1804, severe surgical and trauma pain has forced an agonizing choice: leave patients suffering on weak Tylenol, or prescribe central opioids that hijack brain dopamine and fuel fatal addiction.",
+    "breakthroughCounter": "Inspired by rare human families born with painless SCN9A/SCN10A mutations, Vertex won landmark January 2025 FDA approval for suzetrigine (Journavx)—the first new non-opioid painkiller class in >25 years. Blocking NaV1.8 peripheral nociceptor channels with >31,000x selectivity and zero receptors in the central human brain, it relieves surgical pain with zero addiction or respiratory arrest.",
+    "socialNormShift": "Backed by the Jan 2025 US NOPAIN Act and state bans on 'fail-an-opioid-first' step therapy, replacing teen wisdom-tooth and C-section oxycodone scripts with non-scheduled peripheral blockers—while bringing unscheduled trauma pain relief to the 80% of low-income nations blocked from importing morphine.",
+    "humanStory": {
+      "protagonist": "Caleb Miller, 36-Year-Old Volunteer Firefighter & Carpenter",
+      "location": "Huntington, West Virginia, USA",
+      "snippet": "Forty-eight hours after open shoulder and collarbone reconstruction in a county devastated by opioids, Caleb helps his nine-year-old daughter build a cardboard bridge with calm pain control, clear cognition, and zero narcotic pills in his house."
+    },
+    "quote": {
+      "text": "By targeting sodium channels that exist exclusively on peripheral pain-sensing neurons and nowhere inside the human brain, we can unplug severe pain at its source without touching consciousness or addiction circuits.",
+      "author": "Prof. Stephen G. Waxman",
+      "role": "Bridget M. Flaherty Professor of Neurology, Neuroscience & Pharmacology, Yale School of Medicine",
+      "url": "https://medicine.yale.edu/lab/waxman/"
+    },
+    "companiesAndLabs": [
+      "Vertex Pharmaceuticals (Journavx / Suzetrigine & VX-993)",
+      "Yale Center for Neuroscience & Regeneration (Waxman Lab)",
+      "Latigo Biotherapeutics (LTG-001 NaV1.8)",
+      "Eli Lilly & SiteOne Therapeutics (STC-004)",
+      "Sangamo Therapeutics (ST-503 Epigenetic SCN9A Silencer)",
+      "NIH HEAL Non-Addictive Analgesic Consortium"
+    ],
+    "globalPrecedents": [
+      "FDA Approval of Journavx (Jan 30, 2025 — Non-Scheduled / Zero CSA Control)",
+      "US Bipartisan NOPAIN Act Separate Medicare Coverage (Jan 2025)",
+      "Massachusetts & Maine Anti-Opioid Step-Therapy Ban Statutes",
+      "NEJM Phase III >2,000-Patient Postsurgical Analgesia Trials"
+    ],
+    "synergyLinks": [
+      "craving-reset-mental-health",
+      "optogenetics-sight-neural-circuits",
+      "alphagenome2-cellstate-genomics",
+      "healthcare-without-billing"
+    ],
+    "infographic": {
+      "headlineMetric": "0% Addiction",
+      "headlineLabel": ">31,000x NaV1.8 Selective · Zero Brain Receptors",
+      "unit": "Rate of New Persistent Opioid Use After Routine Surgery (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Routine Post-Op Oxycodone/Hydrocodone Discharge Default",
+          "value": 6.2,
+          "display": "~6.2% Gateway Risk"
+        },
+        {
+          "year": 2026,
+          "label": "FDA Journavx Launch + US NOPAIN Act Outpatient Rollout",
+          "value": 3.8,
+          "display": "~3.8% (Dropping Fast)"
+        },
+        {
+          "year": 2030,
+          "label": "IV Hospital VX-993 + Dual NaV1.7/1.8 Multimodal Default",
+          "value": 0.6,
+          "display": "<0.6%"
+        },
+        {
+          "year": 2034,
+          "label": "Universal <$2 Generic Peripheral Packs Globally",
+          "value": 0.0,
+          "display": "~0.0% Opioid Gateway"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "CNS Receptors",
+          "value": "Zero (0)",
+          "detail": "NaV1.8 is absent from human brain: zero euphoria or slowed breathing"
+        },
+        {
+          "label": "Isoform Precision",
+          "value": ">31,000x",
+          "detail": "Selectivity over cardiac NaV1.5 & central NaV1.1 channels"
+        },
+        {
+          "label": "DEA Scheduling",
+          "value": "Unscheduled",
+          "detail": "Zero abuse potential unlocks trauma wards in 80% of LMICs"
+        },
+        {
+          "label": "Policy Catalyst",
+          "value": "NOPAIN Act",
+          "detail": "Mandates Medicare coverage & bans 'fail-an-opioid-first' rules"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Vertex Pharmaceuticals (Journavx / Suzetrigine & VX-993)",
+        "url": "https://www.vrtx.com/"
+      },
+      {
+        "name": "Yale Center for Neuroscience & Regeneration (Waxman Lab)",
+        "url": "https://medicine.yale.edu/lab/waxman/"
+      },
+      {
+        "name": "Latigo Biotherapeutics (LTG-001 NaV1.8)",
+        "url": "https://www.latigobio.com/"
+      },
+      {
+        "name": "Eli Lilly & SiteOne Therapeutics (STC-004)",
+        "url": "https://www.lilly.com/"
+      },
+      {
+        "name": "Sangamo Therapeutics (ST-503 Epigenetic SCN9A Silencer)",
+        "url": "https://www.sangamo.com/"
+      },
+      {
+        "name": "NIH HEAL Non-Addictive Analgesic Consortium",
+        "url": "https://heal.nih.gov/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "FDA Approval of Journavx (Jan 30, 2025 — Non-Scheduled / Zero CSA Control)",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-novel-non-opioid-treatment-moderate-severe-acute-pain"
+      },
+      {
+        "name": "US Bipartisan NOPAIN Act Separate Medicare Coverage (Jan 2025)",
+        "url": "https://www.cms.gov/"
+      },
+      {
+        "name": "Massachusetts & Maine Anti-Opioid Step-Therapy Ban Statutes",
+        "url": "https://malegislature.gov/"
+      },
+      {
+        "name": "NEJM Phase III >2,000-Patient Postsurgical Analgesia Trials",
+        "url": "https://www.nejm.org/"
+      }
+    ]
+  },
+  {
+    "slug": "cell-free-on-demand-biomanufacturing",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/cell-free-on-demand-biomanufacturing",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "Just-Add-Water Rural Pharmacies: Freeze-Dried Cell-Free Ribosomes & AI Universal Antivenoms",
+    "tagline": "Freeze-dried ribosome pellets brew sub-$1 vaccines in 4 hours without freezers while Nobel-powered AI mini-proteins neutralize lethal cobra neurotoxins in a $5 pocket pen.",
+    "cynicBelief": "Biologic medicines will always fail the rural Global South—half of liquid vaccines spoil when village power fails, and 138,000 snakebite victims still die yearly because 1895 horse-serum antivenoms cost hundreds of dollars, need fridges, and trigger anaphylaxis.",
+    "breakthroughCounter": "Freeze-dried cell-free transcription-translation (TX-TL) pellets (Jewett & Collins Labs, Tierra, Sutro) store ribosomes dry past 37°C to brew conjugate vaccines, phages, and insulin in hours upon adding water—paired with David Baker & DTU's Jan 2025 Nature RFdiffusion breakthrough designing >78°C-stable de novo mini-proteins that rescue 80–100% of lethal cobra neurotoxin exposures with zero horse serum.",
+    "socialNormShift": "Replacing fragile -70°C dry-ice monopolies and Victorian horse farms with cryptographically verified digital DNA files beamed to village shoebox incubators—and $5 room-temperature snakebite EpiPens in every rural schoolbag.",
+    "humanStory": {
+      "protagonist": "Amina Hassan, Rural Clinical Officer & Baraka Kenga (9)",
+      "location": "Kilifi County, Coastal Kenya",
+      "snippet": "Twenty minutes after a black mamba strikes Baraka's ankle, Amina pulls an unrefrigerated $5 AI mini-binder autoinjector from a 32°C drawer to reverse paralysis in 12 minutes—while a shoebox cell-free incubator brews 150 fresh cholera shots beside her."
+    },
+    "quote": {
+      "text": "By designing hyper-stable toxin-neutralizing proteins from scratch with AI and brewing medicines in freeze-dried cell-free systems, lifesaving biologics finally belong in a rural backpack rather than just a rich-world hospital freezer.",
+      "author": "Prof. David Baker & Prof. Andreas H. Laustsen-Kiel",
+      "role": "2024 Chemistry Nobel Laureate (UW IPD) & DTU Tropical Pharmacology Lead",
+      "url": "https://www.ipd.uw.edu/"
+    },
+    "companiesAndLabs": [
+      "UW Institute for Protein Design (Prof. David Baker)",
+      "Technical University of Denmark (DTU — Prof. Andreas Laustsen-Kiel)",
+      "Stanford / Northwestern Jewett Lab (iVAX Cell-Free Vaccines)",
+      "Tierra Biosciences & Sutro Biopharma (GMP CFPS)",
+      "Ophirex (Varespladib Field Snakebite Pills) & Scripps Research",
+      "MIT Jameel Clinic / Collins Lab"
+    ],
+    "globalPrecedents": [
+      "Nature Jan 2025 Baker/DTU De Novo Snake-Venom Neutralizing Proteins",
+      "Science Advances iVAX <$1 Freeze-Dried Cell-Free Conjugate Vaccines",
+      "WHO Global Strategy to Halve Snakebite Deaths & Amputations",
+      "DARPA BioMOD & ISS Orbital Point-of-Care Cell-Free Pharmacy Demos"
+    ],
+    "synergyLinks": [
+      "protein-atomic-nanofabrication",
+      "bacteriophage-ai-antibiotics",
+      "personalized-mrna-cancer-vaccines",
+      "zero-g-biomanufacturing"
+    ],
+    "infographic": {
+      "headlineMetric": "$5 / Pen",
+      "headlineLabel": "78°C-Stable AI Antivenom · <$1 Just-Add-Water Shots",
+      "unit": "Point-of-Care Rural Antivenom Dose Cost ($ USD, Cold-Chain-Free)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "1895 Refrigerated Horse-Serum IV Vials (High Anaphylaxis)",
+          "value": 450,
+          "display": "$150–$600+ / Course"
+        },
+        {
+          "year": 2026,
+          "label": "Jan 2025 Nature AI Mini-Binders + Ophirex Phase II Field Pills",
+          "value": 85,
+          "display": "~$85 Early Pre-Clinic/Pilot"
+        },
+        {
+          "year": 2030,
+          "label": "Microbial/Cell-Free Pan-Elapid & Viper Autoinjector Rollout",
+          "value": 6,
+          "display": "$5–$7 Pocket Pen"
+        },
+        {
+          "year": 2034,
+          "label": "Universal Open-Source Royalty-Free Village Stocking",
+          "value": 4,
+          "display": "$4 Universal Pen"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Heat Resilience",
+          "value": ">78°C Stable",
+          "detail": "De novo AI mini-binders survive desert pockets with zero fridge"
+        },
+        {
+          "label": "Snakebite Burden",
+          "value": "138k Lives/Yr",
+          "detail": "Plus 400k amputations targeted by rapid 12-kDa tissue penetration"
+        },
+        {
+          "label": "iVAX Brew Speed",
+          "value": "<4 Hours",
+          "detail": "Add water + DNA to 37°C dry ribosome pellets for <$1 vaccines"
+        },
+        {
+          "label": "Horse Serum Risk",
+          "value": "0.0%",
+          "detail": "100% synthetic pure binders eliminate equine anaphylactic shock"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "UW Institute for Protein Design (Prof. David Baker)",
+        "url": "https://www.ipd.uw.edu/"
+      },
+      {
+        "name": "Technical University of Denmark (DTU — Prof. Andreas Laustsen-Kiel)",
+        "url": "https://www.bioengineering.dtu.dk/"
+      },
+      {
+        "name": "Stanford / Northwestern Jewett Lab (iVAX Cell-Free Vaccines)",
+        "url": "https://jewettlab.stanford.edu/"
+      },
+      {
+        "name": "Tierra Biosciences & Sutro Biopharma (GMP CFPS)",
+        "url": "https://www.tierrabiosciences.com/"
+      },
+      {
+        "name": "Ophirex (Varespladib Field Snakebite Pills) & Scripps Research",
+        "url": "https://www.ophirex.com/"
+      },
+      {
+        "name": "MIT Jameel Clinic / Collins Lab",
+        "url": "https://jclinic.mit.edu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Nature Jan 2025 Baker/DTU De Novo Snake-Venom Neutralizing Proteins",
+        "url": "https://www.nature.com/articles/s41586-024-08393-x"
+      },
+      {
+        "name": "Science Advances iVAX <$1 Freeze-Dried Cell-Free Conjugate Vaccines",
+        "url": "https://www.science.org/journal/sciadv"
+      },
+      {
+        "name": "WHO Global Strategy to Halve Snakebite Deaths & Amputations",
+        "url": "https://www.who.int/health-topics/snakebite"
+      },
+      {
+        "name": "DARPA BioMOD & ISS Orbital Point-of-Care Cell-Free Pharmacy Demos",
+        "url": "https://jewettlab.stanford.edu/"
+      }
+    ]
+  }
+]

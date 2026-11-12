@@ -1,0 +1,580 @@
+[
+  {
+    "slug": "citizen-science-ai-renaissance",
+    "pillarId": "synergy-horizons",
+    "folderRel": "carbon/06-synergy-horizons/citizen-science-ai-renaissance",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "The Amateur Golden Age: How Open Satellites, eDNA & AI Swarms Turn Curious Citizens into Frontier Pioneers",
+    "tagline": "Uniting Pietro Miotti's 48-agent Maya LiDAR sweep, Vesuvius Challenge student scroll decoders, Vera C. Rubin Zooniverse sky patrols, and $40 creek eDNA blitzes to shatter 20th-century credential gatekeeping.",
+    "cynicBelief": "Real scientific discovery requires a tenured university lab and a $50M grant—in the age of AI, ordinary students and retirees have nothing meaningful left to contribute except passive scrolling.",
+    "breakthroughCounter": "When open public petabyte archives meet multimodal AI agent swarms, curious citizens gain the reconnaissance power of 50 graduate researchers! In 2024–2026, students decoded 2,000-year-old charred Herculaneum scrolls (Vesuvius Challenge), Pietro Miotti's 48-agent swarm flagged an unregistered Maya pyramid complex across 1,200 km² of NASA LiDAR in <72 hours, Vera C. Rubin opened 10M nightly sky alerts to Zooniverse, and school kids mapped rare species with $40 creek eDNA filters.",
+    "socialNormShift": "Reclaiming the true Latin root of 'amateur' (amator—one who loves) by turning neighborhood libraries and Afternoon Guilds into respectful citizen-scholar expedition basecamps with anti-looting guardrails.",
+    "humanStory": {
+      "protagonist": "Mateo (17, High-School Ecology Guild) & Eleanor (68, Retired Civil Drafter)",
+      "location": "Oaxaca Cloud Forest, Mexico & Glasgow Public Library Studio, Scotland",
+      "snippet": "In the morning, Mateo's biology class filters 500 mL of creek water to rediscover a 'locally extinct' salamander via nanopore eDNA; after lunch, he teams up online with Eleanor to verify subtle ancient terrace walls flagged by a 32-agent LiDAR sweep for INAH heritage guardians."
+    },
+    "quote": {
+      "text": "For centuries, those charred scrolls sat unreadable—until open X-ray scans and thousands of brilliant young minds around the world proved that curiosity plus open AI can recover lost libraries.",
+      "author": "Dr. Brent Seales",
+      "role": "Professor of Computer Science, University of Kentucky & Co-Founder, Vesuvius Challenge",
+      "url": "https://scrollprize.org/"
+    },
+    "companiesAndLabs": [
+      "Vesuvius Challenge (Scroll Prize Global Community)",
+      "Pietro Miotti 48-Agent NASA LiDAR Experiment",
+      "Zooniverse (Galaxy Zoo: Rubin & Rubin Comet Catchers)",
+      "NSF–DOE Vera C. Rubin Observatory",
+      "Global Biodiversity Information Facility (GBIF) & eBioAtlas",
+      "Eterna & Foldit Citizen Biochemistry"
+    ],
+    "globalPrecedents": [
+      "Vesuvius Challenge Grand Prize Decoding of Carbonized Herculaneum Papyri (2024–2026)",
+      "Pietro Miotti Nov 2026 1,200 km² NASA LiDAR 48-Agent Triage & INAH Registry Sync",
+      "Vera C. Rubin 60-Second Zero-Paywall Public Transient Sky Stream (June 2026)",
+      "UNESCO Open Science & Fuzzy-Coordinate Archaeological Heritage Guardrails"
+    ],
+    "synergyLinks": [
+      "lidar-agent-citizen-archaeology",
+      "vesuvius-scroll-ai-papyrology",
+      "rubin-citizen-sky-patrol",
+      "citizen-edna-groundwater-atlas",
+      "two-sigma-guild-education"
+    ],
+    "infographic": {
+      "headlineMetric": "<72 Hours",
+      "headlineLabel": "1,200 km² LiDAR Swept by 48 Citizen AI Agents + 2.7M Volunteers",
+      "unit": "Active Registered Global Citizen-Science & Open-AI Contributors (Millions)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2012,
+          "label": "Early Web Crowdsourcing Era (Manual Click-Only Galaxy Zoo & Foldit)",
+          "value": 0.8,
+          "display": "0.8M citizens"
+        },
+        {
+          "year": 2024,
+          "label": "Vesuvius Challenge Students Decode First Lost Greek Scroll Passages",
+          "value": 2.5,
+          "display": "2.5M citizens"
+        },
+        {
+          "year": 2026,
+          "label": "Rubin 10M/Night Alerts + 48-Agent LiDAR Swarms + $40 School eDNA",
+          "value": 4.2,
+          "display": "4.2M+ active"
+        },
+        {
+          "year": 2033,
+          "label": "Universal Afternoon School Guilds & Retiree Studios Co-Authoring Science",
+          "value": 25.0,
+          "display": "25M+ pioneers"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "LiDAR Agent Triage",
+          "value": "48 Agents",
+          "detail": "Swept 1,200 km² of NASA jungle LiDAR in <72 hours (Nov 2026)"
+        },
+        {
+          "label": "Scroll Mystery Solved",
+          "value": "270 Years",
+          "detail": "Students read 79 AD Herculaneum charcoal via 8 µm X-ray CT + AI"
+        },
+        {
+          "label": "Rubin Open Sky Feed",
+          "value": "$0 Paywall",
+          "detail": "10M nightly changes streamed to Zooniverse in 60 seconds"
+        },
+        {
+          "label": "Aquifer/Creek eDNA",
+          "value": "~$40 Filter",
+          "detail": "Maps 300+ watershed species from 1 liter of water, zero harm"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Vesuvius Challenge (Scroll Prize Global Community)",
+        "url": "https://scrollprize.org/"
+      },
+      {
+        "name": "Pietro Miotti 48-Agent NASA LiDAR Experiment",
+        "url": "https://pietromiotti.com/latest/maya-site/"
+      },
+      {
+        "name": "Zooniverse (Galaxy Zoo: Rubin & Rubin Comet Catchers)",
+        "url": "https://www.zooniverse.org/"
+      },
+      {
+        "name": "NSF–DOE Vera C. Rubin Observatory",
+        "url": "https://rubinobservatory.org/"
+      },
+      {
+        "name": "Global Biodiversity Information Facility (GBIF) & eBioAtlas",
+        "url": "https://www.gbif.org/"
+      },
+      {
+        "name": "Eterna & Foldit Citizen Biochemistry",
+        "url": "https://eternagame.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Vesuvius Challenge Grand Prize Decoding of Carbonized Herculaneum Papyri (2024–2026)",
+        "url": "https://scrollprize.org/"
+      },
+      {
+        "name": "Pietro Miotti Nov 2026 1,200 km² NASA LiDAR 48-Agent Triage & INAH Registry Sync",
+        "url": "https://pietromiotti.com/latest/maya-site/"
+      },
+      {
+        "name": "Vera C. Rubin 60-Second Zero-Paywall Public Transient Sky Stream (June 2026)",
+        "url": "https://rubinobservatory.org/"
+      },
+      {
+        "name": "UNESCO Open Science & Fuzzy-Coordinate Archaeological Heritage Guardrails",
+        "url": "https://www.unesco.org/en/open-science"
+      }
+    ]
+  },
+  {
+    "slug": "planetary-civic-infrastructure-pact",
+    "pillarId": "synergy-horizons",
+    "folderRel": "carbon/06-synergy-horizons/planetary-civic-infrastructure-pact",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "The Great Infrastructure Peace: Turning Data Centers, Solar Farms & Grids into Beloved Hometown Treasures",
+    "tagline": "Ending NIMBY zero-sum battles by making every megawatt perform three hometown jobs at once: 65°C server heat warming 18,000 homes and winter greenhouses, +30%-yield shaded berry farms, repowered coal switchyards, and co-op bill dividends.",
+    "cynicBelief": "Clean energy and AI infrastructure are doomed to stall in endless county moratoriums because data centers guzzle rivers and hike residential power bills while solar arrays pave over family farms.",
+    "breakthroughCounter": "Communities weren't rejecting clean tech—they were rejecting extractive single-use boxes! In 2025–2026, closed-loop 65°C liquid-cooled data centers cut Mäntsälä's fossil town heating >60% with zero water evaporation, elevated agrivoltaic canopies delivered up to 160% combined food-plus-power yields while saving 35% farm water, retiring coal switchyards plugged directly into fusion/geothermal hubs, and Chattanooga/Danish-style energy & fiber co-ops mailed cash rebates straight to ratepayers!",
+    "socialNormShift": "Replacing razor-wire 'Fence & Boil' speculation with a 5-Clause Municipal Symbiotic Infrastructure Charter—flipping 5-year NIMBY lawsuits into 89% neighbor Polis consensus and 48-day permits.",
+    "humanStory": {
+      "protagonist": "Mayor Ingrid Solberg & Fourth-Generation Berry Grower Sam Miller",
+      "location": "Duluth-Superior Symbiotic Conservatory & County Energy Co-Op, Minnesota",
+      "snippet": "In -18°C January snow, Duluth families pick fresh strawberries inside a glass civic conservatory heated 100% free by closed-loop 65°C water from a zero-evaporation AI hall whose 100-hour iron-air battery backs up local hospitals and mails every co-op household a $420 December dividend."
+    },
+    "quote": {
+      "text": "When data-center waste heat warms thousands of local apartments instead of vanishing into the sky, digital infrastructure becomes one of the cleanest, most welcomed neighbors in the city.",
+      "author": "Stockholm Data Parks & Mäntsälä District Energy Model",
+      "role": "Nordic Municipal Waste-Heat Symbiosis Pioneers (Stockholm Exergi & Nivos Energia)",
+      "url": "https://stockholmdataparks.com/"
+    },
+    "companiesAndLabs": [
+      "Stockholm Exergi — Stockholm Data Parks",
+      "Nivos Energia (Mäntsälä Data-Center District Heating, Finland)",
+      "Fraunhofer ISE Agrivoltaics Research",
+      "NREL InSPIRE Network & Jack's Solar Garden",
+      "EPB Chattanooga Community Fiber & Smart Grid",
+      "U.S. DOE Coal-to-Clean Energy Communities Initiative"
+    ],
+    "globalPrecedents": [
+      "Mäntsälä (Finland) >60% Municipal Heating Supplied by Recovered Server Heat",
+      "EU Energy Efficiency Directive (2023/1791) Mandatory Data-Center Heat Reuse Rule",
+      "Fraunhofer / German DIN SPEC 91434 Dual-Harvest Agrivoltaic Yield Standards (Up to 160% LER)",
+      "EPB Chattanooga $2.7B+ Community Value & Danish Citizen Co-Ownership Mandate"
+    ],
+    "synergyLinks": [
+      "symbiotic-civic-data-centers",
+      "agrivoltaics-shaded-harvests",
+      "fusion-power",
+      "cooperative-broadband-energy-trusts",
+      "bridging-consensus-trust"
+    ],
+    "infographic": {
+      "headlineMetric": "0 Gal Water",
+      "headlineLabel": "+ 65°C Home Heating + 160% Dual Farm-Solar Yield",
+      "unit": "Share of Server Electricity Recycled Into Useful Hometown Heating (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2022,
+          "label": "Legacy Air/Evaporative Data Centers (Boils River Water, 0% Heat Reused)",
+          "value": 2,
+          "display": "<2% reused"
+        },
+        {
+          "year": 2026,
+          "label": "Nordic / EU Directive Pioneers (Mäntsälä, Stockholm, Microsoft Denmark)",
+          "value": 62,
+          "display": "62% town heat"
+        },
+        {
+          "year": 2030,
+          "label": "Standard Closed-Loop 65°C Direct-to-Chip Civic Heat & Greenhouse Hubs",
+          "value": 85,
+          "display": "85% heat reused"
+        },
+        {
+          "year": 2035,
+          "label": "Full Symbiotic Loop (Co-Op Owned + Coal Switchyard + Agrivoltaics)",
+          "value": 92,
+          "display": ">90% civic reuse"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Evaporative Water",
+          "value": "0 Gallons",
+          "detail": "Closed-loop liquid cooling protects local rivers & aquifers 100%"
+        },
+        {
+          "label": "Town Fossil Heat Cut",
+          "value": "-60%+ Proven",
+          "detail": "65°C server water heats homes, pools & winter berry greenhouses"
+        },
+        {
+          "label": "Agrivoltaic Yield",
+          "value": "Up to 160%",
+          "detail": "Shaded crops use -35% irrigation water while doubling farm income"
+        },
+        {
+          "label": "Permitting Speedup",
+          "value": "5 Yrs → 48d",
+          "detail": "89% neighbor Polis support saves builders $50M+ in lawsuit delays"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Stockholm Exergi — Stockholm Data Parks",
+        "url": "https://stockholmdataparks.com/"
+      },
+      {
+        "name": "Nivos Energia (Mäntsälä Data-Center District Heating, Finland)",
+        "url": "https://www.nivos.fi/"
+      },
+      {
+        "name": "Fraunhofer ISE Agrivoltaics Research",
+        "url": "https://www.ise.fraunhofer.de/en/key-topics/agrivoltaics.html"
+      },
+      {
+        "name": "NREL InSPIRE Network & Jack's Solar Garden",
+        "url": "https://openei.org/wiki/InSPIRE"
+      },
+      {
+        "name": "EPB Chattanooga Community Fiber & Smart Grid",
+        "url": "https://epb.com/"
+      },
+      {
+        "name": "U.S. DOE Coal-to-Clean Energy Communities Initiative",
+        "url": "https://energycommunities.gov/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Mäntsälä (Finland) >60% Municipal Heating Supplied by Recovered Server Heat",
+        "url": "https://www.nivos.fi/"
+      },
+      {
+        "name": "EU Energy Efficiency Directive (2023/1791) Mandatory Data-Center Heat Reuse Rule",
+        "url": "https://energy.ec.europa.eu/"
+      },
+      {
+        "name": "Fraunhofer / German DIN SPEC 91434 Dual-Harvest Agrivoltaic Yield Standards (Up to 160% LER)",
+        "url": "https://www.ise.fraunhofer.de/"
+      },
+      {
+        "name": "EPB Chattanooga $2.7B+ Community Value & Danish Citizen Co-Ownership Mandate",
+        "url": "https://epb.com/"
+      }
+    ]
+  },
+  {
+    "slug": "open-empirical-abundance-compass",
+    "pillarId": "synergy-horizons",
+    "folderRel": "carbon/06-synergy-horizons/open-empirical-abundance-compass",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Steering Abundance with Open Eyes: Live Privacy-Safe Telemetry + Participatory Citizen Democracy",
+    "tagline": "Replacing blind 1934 factory GDP and 18-month survey lags with Chatterji's NBER privacy-safe AI telemetry, 2026 Nobel micro-stabilization clean rooms, Polis bridging, and permanent citizen assemblies.",
+    "cynicBelief": "Democracies are flying completely blind and polarized into the AI era—measuring 2026 cognitive tools with 1934 steel-mill GDP while central banks react years too late and outrage algorithms tear voters apart.",
+    "breakthroughCounter": "In 2025–2026, Duke's Aaron Chatterji et al. (NBER w34255) proved zero-human-eyes privacy telemetry across ~10% of global adults (revealing 70%+ is unpriced household decision/learning surplus!) alongside open GDPval task benchmarks and Garimella et al.'s Global South expansion. Paired with 2026 Economics Nobel laureates Robert Hall & Michael Woodford's micro-founded stabilization in cryptographic Data Clean Rooms, Polis bridging, and Ostbelgien-style Sortition Citizens' Assemblies, democracies steer abundance in 7 days with 80%+ public trust!",
+    "socialNormShift": "Flipping authoritarian surveillance on its head: keeping every individual citizen 100% cryptographically private while making aggregate economic pulse, consumer surplus, and citizen assembly choices 100% public.",
+    "humanStory": {
+      "protagonist": "75-Citizen Sortition Assembly (Including Rosa, Bakery Owner & Luis, Bilingual Clerk)",
+      "location": "Guadalajara Civic Compass Hall, Mexico & Eupen (Ostbelgien), Belgium",
+      "snippet": "Spotting a -9% bilingual call-center hiring dip in 7-day differentially private payroll cleanrooms six months before legacy stats, Guadalajara's paid citizen jury runs a 14,000-resident Polis poll (86% consensus) to route Compute Commons funds straight into 90%-wage Paramedic and Timber Guild bridges."
+    },
+    "quote": {
+      "text": "Roughly seventy percent of consumer AI usage is non-work decision support, learning, and writing—creating massive, unpriced consumer welfare that traditional GDP statistics completely miss unless we build privacy-preserving empirical measurement.",
+      "author": "Prof. Aaron \"Ronnie\" Chatterji",
+      "role": "Professor of Business & Public Policy, Duke University & Lead Author, NBER WP 34255",
+      "url": "https://www.nber.org/papers/w34255"
+    },
+    "companiesAndLabs": [
+      "National Bureau of Economic Research (Chatterji et al. WP 34255)",
+      "2026 Nobel Prize in Economics — Robert E. Hall & Michael Woodford",
+      "Stanford Digital Economy Lab (GDP-B Unpriced Welfare)",
+      "Opportunity Insights (Harvard Privacy-Safe Micro-Data)",
+      "Computational Democracy Project (Polis)",
+      "Federation for Innovation in Democracy — Europe (FIDE Sortition)"
+    ],
+    "globalPrecedents": [
+      "Chatterji, Cunningham, Deming et al. (NBER WP 34255) Zero-Human-Eyes AI Telemetry & Open GDPval",
+      "Oct 2026 Economics Nobel for Microeconomic Foundations of Macroeconomic Stabilisation",
+      "Garimella et al. Global South Multilingual & Informal-Economy AI Telemetry",
+      "Ostbelgien (Belgium) Permanent Sortition Citizens' Council & Taiwan vTaiwan Polis"
+    ],
+    "synergyLinks": [
+      "empirical-ai-economics-telemetry",
+      "open-macro-cleanroom-policy",
+      "bridging-consensus-trust",
+      "sortition-citizens-assemblies",
+      "displaced-worker-bridge"
+    ],
+    "infographic": {
+      "headlineMetric": "18 Mo → 7d",
+      "headlineLabel": "Privacy-Safe Economic Pulse + >70% Unpriced Household Surplus",
+      "unit": "Policy Visibility Lag From Local Labor Shift to Verified Action (Weeks)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2020,
+          "label": "1934 GDP + Manual Census/Labor Surveys (18-Month Rearview Mirror)",
+          "value": 78,
+          "display": "~78 weeks lag"
+        },
+        {
+          "year": 2025,
+          "label": "Chatterji NBER WP 34255 Telemetry + GDPval + Opportunity Insights",
+          "value": 12,
+          "display": "Quarterly pulse"
+        },
+        {
+          "year": 2026,
+          "label": "2026 Nobel Micro-Stabilization + Differential-Privacy Data Clean Rooms",
+          "value": 2,
+          "display": "14-day cleanroom"
+        },
+        {
+          "year": 2030,
+          "label": "7-Day Abundance Compass + Polis + Sortition Assemblies Triggering Auto-Bridges",
+          "value": 1,
+          "display": "7-day live helm"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Non-Work AI Surplus",
+          "value": ">70% Usage",
+          "detail": "NBER w34255 proved household guidance, learning & writing dominate"
+        },
+        {
+          "label": "Human Eyes on Chats",
+          "value": "Zero (0)",
+          "detail": "Automated secure-enclave classifiers + differential privacy"
+        },
+        {
+          "label": "Polis Cross-Party",
+          "value": "80%–89%",
+          "detail": "Bridging math surfaces broad neighbor consensus over 6% extremes"
+        },
+        {
+          "label": "2026 Nobel Anchor",
+          "value": "Hall & Woodford",
+          "detail": "Micro-founded household expectations guide credible stabilization"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "National Bureau of Economic Research (Chatterji et al. WP 34255)",
+        "url": "https://www.nber.org/papers/w34255"
+      },
+      {
+        "name": "2026 Nobel Prize in Economics — Robert E. Hall & Michael Woodford",
+        "url": "https://www.nobelprize.org/prizes/economic-sciences/2026/summary/"
+      },
+      {
+        "name": "Stanford Digital Economy Lab (GDP-B Unpriced Welfare)",
+        "url": "https://digitaleconomy.stanford.edu/"
+      },
+      {
+        "name": "Opportunity Insights (Harvard Privacy-Safe Micro-Data)",
+        "url": "https://opportunityinsights.org/"
+      },
+      {
+        "name": "Computational Democracy Project (Polis)",
+        "url": "https://compdemocracy.org/Polis/"
+      },
+      {
+        "name": "Federation for Innovation in Democracy — Europe (FIDE Sortition)",
+        "url": "https://fide.eu/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Chatterji, Cunningham, Deming et al. (NBER WP 34255) Zero-Human-Eyes AI Telemetry & Open GDPval",
+        "url": "https://www.nber.org/papers/w34255"
+      },
+      {
+        "name": "Oct 2026 Economics Nobel for Microeconomic Foundations of Macroeconomic Stabilisation",
+        "url": "https://www.nobelprize.org/prizes/economic-sciences/2026/summary/"
+      },
+      {
+        "name": "Garimella et al. Global South Multilingual & Informal-Economy AI Telemetry",
+        "url": "https://www.nber.org/papers/w34255"
+      },
+      {
+        "name": "Ostbelgien (Belgium) Permanent Sortition Citizens' Council & Taiwan vTaiwan Polis",
+        "url": "https://oidp.net/"
+      }
+    ]
+  },
+  {
+    "slug": "physics-of-intelligence-convergence",
+    "pillarId": "synergy-horizons",
+    "folderRel": "carbon/06-synergy-horizons/physics-of-intelligence-convergence",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": false,
+    "title": "When Compute Mirrors Nature: Thermodynamic Chips, Altermagnets, Photonics & Conditional Bio-AI",
+    "tagline": "Proving AI will never need to boil the oceans—as Extropic's Z1 room-temperature p-bits, terahertz altermagnets, silicon photonics, Lean 4 formal math, and DeepMind's AlphaGenome 2 slash sampling energy 1,000×–10,000×.",
+    "cynicBelief": "Frontier AI is trapped on a brute-force treadmill doomed to devour 25% of Earth's power grid, boil rivers, and hallucinate forever because digital chips burn megawatts faking probability over hot copper wires.",
+    "breakthroughCounter": "Extrapolating 2024 copper GPUs was just like 1955 pundits extrapolating hot vacuum tubes! In 2025–2026, Extropic's Z1 chips surfed room-temperature thermal noise (p-bits) for 1,000×–10,000× probabilistic sampling efficiency, altermagnets unlocked picosecond THz spin memory, co-packaged photonics replaced hot copper with laser light, Lean 4 + Geometric Langlands / Kakeya / Hilbert's 6th + Chain Theory grounded exact proof, and DeepMind's AlphaGenome 2 decoded 1-megabase single-cell non-coding DNA!",
+    "socialNormShift": "Moving artificial intelligence off megawatt brute-force copper racks onto nature's own frugal 20-watt playbook—enabling solar-powered rural clinics to design verified single-cell genomic cures offline.",
+    "humanStory": {
+      "protagonist": "Dr. Joseph Kato & 6-Year-Old Patient Amara",
+      "location": "Solar-Powered Pediatric Rare-Disease Clinic, Kampala & Boston Collaboratory",
+      "snippet": "Drawing just 400 watts from two rooftop solar panels—less than a kitchen toaster—Joseph's photonic-thermodynamic workstation runs AlphaGenome 2 across 1 million base pairs of Amara's non-coding DNA conditioned on gut macrophages, pinpointing her hidden enhancer switch and sampling a verified CRISPR cure in 18 minutes."
+    },
+    "quote": {
+      "text": "Generative AI is fundamentally probabilistic, yet we've been burning vast amounts of energy forcing deterministic digital transistors to fight thermal noise—when thermal noise itself is the ultimate free random sampler.",
+      "author": "Dr. Guillaume Verdon",
+      "role": "Physicist & Founder/CEO, Extropic",
+      "url": "https://extropic.ai/"
+    },
+    "companiesAndLabs": [
+      "Extropic (Z1 / Z1T Room-Temp Thermodynamic Chips & THRML)",
+      "Google DeepMind (AlphaGenome 2 Single-Cell DNA Model)",
+      "NVIDIA Silicon Photonics (Spectrum-X CPO) & TSMC COUPE",
+      "Ayar Labs & Lightmatter Optical Interconnects",
+      "Geometric Langlands / Kakeya / Hilbert's 6th Math Teams",
+      "Lean FRO (Lean 4 Formal Verification Engine)"
+    ],
+    "globalPrecedents": [
+      "Extropic Z1 Room-Temperature p-Bit Hardware & THRML 1,000×–10,000× Sampling Gain (2025–2026)",
+      "Google DeepMind AlphaGenome 2 Conditional 1-Mb Single-Cell Non-Coding DNA Breakthrough (2026)",
+      "Photoemission Confirmation of Terahertz Altermagnetism (Nature, Krempaský et al.)",
+      "2025–2026 Proofs of Geometric Langlands (Gaitsgory et al.), 3D Kakeya (Wang & Zahl) & Hilbert's 6th"
+    ],
+    "synergyLinks": [
+      "thermodynamic-computing-tsus",
+      "altermagnetism-spintronics",
+      "co-packaged-silicon-photonics",
+      "geometric-langlands-unification",
+      "kakeya-hilbert-sixth-proofs",
+      "chain-theory-quantum-constants",
+      "alphagenome2-cellstate-genomics"
+    ],
+    "infographic": {
+      "headlineMetric": "1,000×–10,000×",
+      "headlineLabel": "Frugal Thermodynamic Sampling + 1-Mb Single-Cell Bio-AI",
+      "unit": "Relative Probabilistic AI Sampling Energy Efficiency vs. 2024 CMOS GPU (×)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Synchronous Copper CMOS GPUs Fighting Thermal Noise (1× Baseline)",
+          "value": 1,
+          "display": "1× GPU baseline"
+        },
+        {
+          "year": 2026,
+          "label": "Co-Packaged Silicon Photonics + Extropic Z1 p-Bit Prototypes",
+          "value": 50,
+          "display": "50×–100× system"
+        },
+        {
+          "year": 2029,
+          "label": "Heterogeneous Z1T Thermodynamic + Photonic + Altermagnet Pods",
+          "value": 1000,
+          "display": "1,000× frugal"
+        },
+        {
+          "year": 2034,
+          "label": "Full Physics-Native Compute Matching Brain-Scale 20W Frugal Regimes",
+          "value": 10000,
+          "display": "10,000× leap"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Sampling Energy Cut",
+          "value": "Up to 10,000×",
+          "detail": "Room-temp kBT silicon p-bits sample Boltzmann laws natively"
+        },
+        {
+          "label": "Altermagnet Memory",
+          "value": "Terahertz (ps)",
+          "detail": "Zero stray magnetic fields + 1,000× faster spin switching"
+        },
+        {
+          "label": "Optical Interconnect",
+          "value": "<1–3 pJ / bit",
+          "detail": "Co-packaged laser waveguides end 70% copper wire heat loss"
+        },
+        {
+          "label": "AlphaGenome 2 Reach",
+          "value": "1 Mb × 1 Cell",
+          "detail": "Conditional single-cell state doubles non-coding variant hits"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Extropic (Z1 / Z1T Room-Temp Thermodynamic Chips & THRML)",
+        "url": "https://extropic.ai/"
+      },
+      {
+        "name": "Google DeepMind (AlphaGenome 2 Single-Cell DNA Model)",
+        "url": "https://deepmind.google/"
+      },
+      {
+        "name": "NVIDIA Silicon Photonics (Spectrum-X CPO) & TSMC COUPE",
+        "url": "https://www.nvidia.com/"
+      },
+      {
+        "name": "Ayar Labs & Lightmatter Optical Interconnects",
+        "url": "https://ayarlabs.com/"
+      },
+      {
+        "name": "Geometric Langlands / Kakeya / Hilbert's 6th Math Teams",
+        "url": "https://www.mpim-bonn.mpg.de/"
+      },
+      {
+        "name": "Lean FRO (Lean 4 Formal Verification Engine)",
+        "url": "https://lean-lang.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Extropic Z1 Room-Temperature p-Bit Hardware & THRML 1,000×–10,000× Sampling Gain (2025–2026)",
+        "url": "https://extropic.ai/"
+      },
+      {
+        "name": "Google DeepMind AlphaGenome 2 Conditional 1-Mb Single-Cell Non-Coding DNA Breakthrough (2026)",
+        "url": "https://deepmind.google/"
+      },
+      {
+        "name": "Photoemission Confirmation of Terahertz Altermagnetism (Nature, Krempaský et al.)",
+        "url": "https://www.nature.com/articles/s41586-023-06907-7"
+      },
+      {
+        "name": "2025–2026 Proofs of Geometric Langlands (Gaitsgory et al.), 3D Kakeya (Wang & Zahl) & Hilbert's 6th",
+        "url": "https://lean-lang.org/"
+      }
+    ]
+  }
+]

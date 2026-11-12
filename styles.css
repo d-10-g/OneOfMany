@@ -1537,6 +1537,13 @@ button, a, summary, input[type="range"] {
   margin-bottom: 2.6rem;
 }
 
+/* Defer layout/paint of off-screen 120-card pillar sections below the initial fold */
+#home-view:not(.searching) .pillar-section,
+#home-view.searching .pillar-section + .pillar-section {
+  content-visibility: auto;
+  contain-intrinsic-size: auto none auto 950px;
+}
+
 .pillar-section-header {
   margin-bottom: 1.1rem;
   padding-bottom: 0.65rem;

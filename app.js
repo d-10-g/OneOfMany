@@ -96,8 +96,12 @@
   const ctaExploreBtn = document.getElementById("cta-explore-atlas");
   const ctaRandomBtn = document.getElementById("cta-random-pathway");
 
+  const inlineCountAllEl = document.getElementById("inline-count-all");
   if (sideCountAllEl) {
     sideCountAllEl.textContent = String(catalog.items.length);
+  }
+  if (inlineCountAllEl) {
+    inlineCountAllEl.textContent = String(catalog.items.length);
   }
 
   function escapeHtml(str) {
@@ -433,6 +437,28 @@
       ],
       slug: "bridging-consensus-trust",
     },
+    {
+      myth: "“Terrestrial AI data centers inevitably drain local rivers and jack up residential electric bills.”",
+      reality:
+        "Closed-loop liquid-cooled AI racks output 55–80 °C water ideal for municipal 4th-Generation District Heating: Microsoft & Fortum's Espoo/Kirkkonummi campuses warm 40% of regional Finnish homes (250,000 residents), Meta Odense heats 11,000+ Danish homes, and legally binding Community Benefit Agreements pair zero-evaporation cooling with residential ratepayer shields.",
+      proofLinks: [
+        { label: "Fortum-Microsoft Heat", url: "https://www.fortum.com/" },
+        { label: "Meta Odense District Heat", url: "https://sustainability.atmeta.com/" },
+        { label: "Extropic Z1 1000× Efficiency", url: "https://www.extropic.ai/" },
+      ],
+      slug: "symbiotic-civic-data-centers",
+    },
+    {
+      myth: "“Frontier discovery now belongs exclusively to billion-dollar labs—independent citizens can't find anything new.”",
+      reality:
+        "Public petabyte archives + agentic AI sparked a citizen-science renaissance: Pietro Miotti's 48-agent AI swarm scanned 1,200 km² of NASA LiDAR in <72 hours to spot an unregistered Maya pyramid complex, Vesuvius Challenge competitors unwrapped 2,000-year-old Herculaneum scrolls (PHerc. 1667), and Zooniverse volunteers co-discover asteroids on Vera C. Rubin sky patrols.",
+      proofLinks: [
+        { label: "Miotti Maya LiDAR Swarm", url: "https://pietromiotti.com/latest/maya-site/" },
+        { label: "Vesuvius Challenge", url: "https://scrollprize.org/" },
+        { label: "Rubin Sky Patrol", url: "https://rubinobservatory.org/" },
+      ],
+      slug: "lidar-agent-citizen-archaeology",
+    },
   ];
 
   function renderMythBusters() {
@@ -546,7 +572,7 @@
       kicker: "SYNERGY 04 // EARTH AS A LIVING SANCTUARY",
       name: "Zero-Water AI Compute & Pollution-Free Materials",
       inputs: [
-        { label: "🚀 Starship Reusable Heavy Lift", slug: "reusable-superheavy-access" },
+        { label: "🚀 Starship Reusable Heavy Lift", slug: "reusable-starship-heavy-lift" },
         { label: "🛰️ 3-Kelvin Orbital Radiative Compute", slug: "orbital-radiative-compute" },
         { label: "🪨 Inverse Iron-Nitride & Asteroid Metals", slug: "inverse-materials-design" },
       ],
@@ -554,6 +580,7 @@
       resultDesc:
         "Sun-synchronous orbital data centers cool AI racks into the 3 K vacuum of space using zero terrestrial river water, while AI-designed rare-earth-free magnets and deep-space metallic refining end toxic open-pit rainforest mining.",
       slugs: [
+        "reusable-starship-heavy-lift",
         "orbital-radiative-compute",
         "inverse-materials-design",
         "asteroid-cislunar-resources",
@@ -576,6 +603,24 @@
         "bridging-consensus-trust",
         "two-sigma-guild-education",
         "purpose-craft-guilds",
+      ],
+    },
+    {
+      kicker: "SYNERGY 06 // SYMBIOTIC INFRASTRUCTURE & OPEN DISCOVERY",
+      name: "District-Heating Data Centers, Thermodynamic Chips & Citizen Science",
+      inputs: [
+        { label: "⚡ District-Heating Civic Data Centers", slug: "symbiotic-civic-data-centers" },
+        { label: "🤖 Extropic Z1 Thermodynamic Silicon", slug: "thermodynamic-computing-tsus" },
+        { label: "🤝 Open AI Macro Telemetry & Citizen Swarms", slug: "empirical-ai-economics-telemetry" },
+      ],
+      resultTitle: "Compute Warms Whole Cities, Slashes Energy 1,000× & Democratizes Science",
+      resultDesc:
+        "Liquid-cooled AI campuses pipe 65 °C heat directly into municipal home radiators under ratepayer-shielded civic pacts, room-temperature thermodynamic chips turn thermal noise into 1,000× leaner sampling, and open telemetry + public LiDAR/telescope archives empower independent citizens and economists worldwide.",
+      slugs: [
+        "symbiotic-civic-data-centers",
+        "thermodynamic-computing-tsus",
+        "lidar-agent-citizen-archaeology",
+        "empirical-ai-economics-telemetry",
       ],
     },
   ];
@@ -759,16 +804,19 @@
   // Voices & Human Stories
   function renderVoicesAndStories() {
     if (!voicesQuotesPanelEl || !voicesStoriesPanelEl) return;
-    // Curate 9 standout quotes across all 6 pillars
+    // Curate 12 standout quotes across all 6 pillars (including Nov 2026 breakthroughs)
     const featuredSlugs = [
       "fusion-power",
-      "perovskite-tandem-solar",
-      "superhot-geothermal",
-      "ai-formal-mathematics",
-      "protein-atomic-nanofabrication",
+      "symbiotic-civic-data-centers",
+      "thermodynamic-computing-tsus",
+      "lidar-agent-citizen-archaeology",
+      "alphagenome2-cellstate-genomics",
       "invivo-crispr-cures",
+      "empirical-ai-economics-telemetry",
       "ending-homelessness-villages",
       "bridging-consensus-trust",
+      "rubin-citizen-sky-patrol",
+      "vesuvius-scroll-ai-papyrology",
       "cynicism-to-agency",
     ];
     const quoteItems = featuredSlugs.map((s) => itemsBySlug.get(s)).filter(Boolean);
@@ -793,13 +841,16 @@
 
     const storySlugs = [
       "fusion-power",
-      "aerial-hyperlocal-logistics",
+      "symbiotic-civic-data-centers",
+      "lidar-agent-citizen-archaeology",
+      "vesuvius-scroll-ai-papyrology",
+      "alphagenome2-cellstate-genomics",
       "organ-bioprinting-bionics",
       "abundant-beautiful-housing",
+      "empirical-ai-economics-telemetry",
       "two-sigma-guild-education",
-      "intergenerational-villages",
       "earth-digital-twin-canopy",
-      "spinning-orbital-gardens",
+      "rubin-citizen-sky-patrol",
       "cost-of-living-collapse",
     ];
     const storyItems = storySlugs.map((s) => itemsBySlug.get(s)).filter(Boolean);
@@ -916,6 +967,22 @@
       slug: "precision-fermentation-rewilding",
       sourceLabel: "FONAFIFO Costa Rica",
       sourceUrl: "https://www.fonafifo.go.cr/en/",
+    },
+    {
+      place: "🇫🇮 Espoo & 🇩🇰 Odense",
+      model: "Data-Center Municipal District Heating",
+      fact: "Liquid-cooled AI campuses pipe 60 °C waste heat directly into public district heating networks—warming 250,000 Finnish residents in Espoo/Kirkkonummi and 11,000+ homes in Odense.",
+      slug: "symbiotic-civic-data-centers",
+      sourceLabel: "Fortum District Heat",
+      sourceUrl: "https://www.fortum.com/",
+    },
+    {
+      place: "🇮🇪 Ireland & 🇫🇷 Paris",
+      model: "Sortition Citizens' Assemblies",
+      fact: "Representative everyday citizens drawn by civic lottery deliberate with domain scientists—breaking decades-long partisan deadlocks and turning city streets into green school plazas.",
+      slug: "sortition-citizens-assemblies",
+      sourceLabel: "Ireland Citizens' Assembly",
+      sourceUrl: "https://citizensassembly.ie/",
     },
   ];
 
@@ -1189,6 +1256,7 @@
 
     // Hide editorial home modules when user types a live search query so results appear immediately at top
     const hideEditorial = state.searchQuery.trim().length > 1;
+    homeViewEl?.classList.toggle("searching", hideEditorial);
     ["mythbuster-section", "synergy-section", "budget-section", "voices-section", "global-section"].forEach(
       (secId) => {
         const el = document.getElementById(secId);
@@ -1250,7 +1318,7 @@
 
     catalogSectionsEl.innerHTML =
       sectionsHtml ||
-      `<div class="budget-simulator-card"><h3>No pathways matched your search.</h3><p>Try clearing filters or searching for terms like <code>fusion</code>, <code>CRISPR</code>, <code>Vienna</code>, <code>Fervo</code>, or <code>Starship</code>.</p></div>`;
+      `<div class="budget-simulator-card"><h3>No pathways matched your search.</h3><p>Try clearing filters or searching for terms like <code>AlphaGenome</code>, <code>Extropic</code>, <code>Maya LiDAR</code>, <code>Chatterji</code>, <code>fusion</code>, or <code>Vienna</code>.</p></div>`;
   }
 
   // ==================== 8. DETAIL READER & INFOGRAPHIC DOSSIER ====================
