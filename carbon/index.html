@@ -10,8 +10,8 @@
     } catch (_) {}
   </script>
   <script>window.__CARBON_SUBPATH_ENTRY__ = true;</script>
-  <title>OneOfMany: Carbon Edition (/carbon/) — A Bold, Data-Grounded Atlas of a Delightful Future</title>
-  <meta name="description" content="Explore 120 SOTA pathways (240 deep reports and visual storyboards) countering modern cynicism with real late-2026 breakthroughs, citizen science, global civic proofs, human stories, and interactive infographics.">
+  <title>OneOfMany: Carbon Edition (/carbon/) — Abundant Energy, Automation &amp; Humane Conventions</title>
+  <meta name="description" content="Explore 126 SOTA pathways (252 deep reports and visual storyboards) showing how near-free clean energy and physical/cognitive automation dissolve zero-sum scarcity and unfreeze humane social conventions.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -39,19 +39,20 @@
             <span class="brand-title">OneOfMany</span>
             <span class="brand-badge">CARBON</span>
           </span>
-          <span class="brand-subtitle">SOTA Breakthroughs &amp; Reimagined Norms</span>
+          <span class="brand-subtitle">Abundance Engines &amp; Humane Conventions</span>
         </span>
       </a>
     </div>
 
     <nav class="section-jump-nav" aria-label="Interactive sections">
       <a href="#home" class="jump-pill" data-jump="hero-anchor">Overview</a>
+      <a href="#home" class="jump-pill" data-jump="shared-reality-section">Shared Reality</a>
       <a href="#home" class="jump-pill" data-jump="mythbuster-section">Myth-Busters</a>
       <a href="#home" class="jump-pill" data-jump="synergy-section">Synergies</a>
       <a href="#home" class="jump-pill" data-jump="budget-section">2036 Budget</a>
-      <a href="#home" class="jump-pill" data-jump="voices-section">Voices &amp; Stories</a>
+      <a href="#home" class="jump-pill" data-jump="voices-section">Voices</a>
       <a href="#home" class="jump-pill" data-jump="global-section">Global Proof</a>
-      <a href="#home" class="jump-pill" data-jump="atlas-directory">120 Pathways</a>
+      <a href="#home" class="jump-pill" data-jump="atlas-directory">126 Pathways</a>
     </nav>
 
     <div class="topbar-right">
@@ -63,14 +64,14 @@
           <input
             type="search"
             id="global-search"
-            placeholder="Search 120 pathways, companies, quotes…"
-            aria-label="Search Carbon pathways, companies, quotes, and global solutions"
+            placeholder="Search 126 pathways, norms, labs…"
+            aria-label="Search Carbon pathways, social conventions, companies, quotes, and global solutions"
           >
           <kbd class="search-kbd" aria-hidden="true">/</kbd>
         </div>
       </search>
 
-      <button id="surprise-hope-btn" class="action-pill-btn" type="button" aria-label="Open a random breakthrough spotlight">
+      <button id="surprise-hope-btn" class="action-pill-btn" type="button" aria-label="Open breakthrough shuffle spotlight">
         <span aria-hidden="true">✨</span>
         <span class="hide-compact">Dose of Hope</span>
       </button>
@@ -98,26 +99,28 @@
     <aside id="sidebar" class="sidebar" aria-label="Carbon pathway directory" hidden inert>
       <div class="sidebar-header">
         <div class="sidebar-top-row">
-          <span class="sidebar-mobile-title">Carbon Atlas (120 Pathways)</span>
+          <span class="sidebar-mobile-title">Carbon Atlas (126 Pathways)</span>
           <button id="sidebar-close-btn" class="sidebar-collapse-btn" type="button" aria-label="Collapse pathway directory">
             <span aria-hidden="true">⟨</span> Hide
           </button>
         </div>
 
         <div class="pillar-chip-grid" role="group" aria-label="Filter directory by pillar">
-          <button class="pillar-chip active" type="button" data-pillar="all">All <span id="side-count-all" class="chip-num">120</span></button>
-          <button class="pillar-chip" type="button" data-pillar="abundant-energy">⚡ Energy</button>
-          <button class="pillar-chip" type="button" data-pillar="automation-science">🤖 Robotics</button>
-          <button class="pillar-chip" type="button" data-pillar="bioscience-regeneration">🧬 Bio</button>
-          <button class="pillar-chip" type="button" data-pillar="social-norms">🤝 Society</button>
-          <button class="pillar-chip" type="button" data-pillar="space-frontier">🚀 Space</button>
-          <button class="pillar-chip" type="button" data-pillar="synergy-horizons">🌈 Synergy</button>
+          <button class="pillar-chip active" type="button" data-pillar="all" aria-pressed="true">All <span id="side-count-all" class="chip-num">126</span></button>
+          <button class="pillar-chip" type="button" data-pillar="abundant-energy" aria-pressed="false">⚡ Energy</button>
+          <button class="pillar-chip" type="button" data-pillar="automation-science" aria-pressed="false">🤖 Robotics</button>
+          <button class="pillar-chip" type="button" data-pillar="bioscience-regeneration" aria-pressed="false">🧬 Bio</button>
+          <button class="pillar-chip" type="button" data-pillar="social-norms" aria-pressed="false">🤝 Society</button>
+          <button class="pillar-chip" type="button" data-pillar="space-frontier" aria-pressed="false">🚀 Space</button>
+          <button class="pillar-chip" type="button" data-pillar="synergy-horizons" aria-pressed="false">🌈 Synergy</button>
         </div>
 
-        <div class="lens-filter-row" role="group" aria-label="Special filter lenses">
-          <button class="lens-btn active" type="button" data-lens="all">All</button>
-          <button class="lens-btn" type="button" data-lens="new">✨ New SOTA</button>
-          <button class="lens-btn" type="button" data-lens="urgent">🚨 Triage</button>
+        <div class="lens-filter-row" role="group" aria-label="Filter directory by lens">
+          <button class="lens-btn active" type="button" data-lens="all" aria-pressed="true">All</button>
+          <button class="lens-btn" type="button" data-lens="conventions" aria-pressed="false">🤝 Conventions</button>
+          <button class="lens-btn" type="button" data-lens="abundance" aria-pressed="false">⚡ Tech Engine</button>
+          <button class="lens-btn" type="button" data-lens="urgent" aria-pressed="false">🚨 Triage</button>
+          <button class="lens-btn" type="button" data-lens="deeplab" aria-pressed="false">🔬 Deep Lab</button>
         </div>
       </div>
 
@@ -140,51 +143,50 @@
           <div class="hero-grid-layout">
             <div class="hero-copy-col">
               <div class="hero-eyebrow-row">
-                <span class="eyebrow-pill"><span class="live-pulse-dot" aria-hidden="true"></span> 🌱 CARBON EDITION • NOVEMBER 2026 SOTA</span>
-                <span class="eyebrow-pill subtle">120 PATHWAYS • 240 REPORTS &amp; STORYBOARDS</span>
+                <span class="eyebrow-pill"><span class="live-pulse-dot" aria-hidden="true"></span> 🌱 CARBON EDITION • ABUNDANCE × EMPATHY</span>
+                <span class="eyebrow-pill subtle">126 PATHWAYS • 252 REPORTS &amp; STORYBOARDS</span>
               </div>
               <h1 id="main-heading" tabindex="-1" class="hero-display-title">
-                A Vastly Brighter Future Is Already Being Built—Here Are the Receipts.
+                Abundant Energy &amp; Automation Are How We Heal Scarcity—and Unfreeze “Things Have Always Been This Way.”
               </h1>
               <p class="hero-lead-text">
-                Modern culture mistakes cynicism for wisdom. Yet between 2024 and November 2026, independent breakthroughs in
-                <a href="#carbon-abundant-energy-fusion-power?mode=report" class="inline-ref-link"><strong>20-compact fusion</strong></a>,
-                <a href="#carbon-abundant-energy-symbiotic-civic-data-centers?mode=report" class="inline-ref-link"><strong>district-heating civic data centers</strong></a>,
-                <a href="#carbon-automation-science-thermodynamic-computing-tsus?mode=report" class="inline-ref-link"><strong>Extropic thermodynamic chips</strong></a>,
-                <a href="#carbon-bioscience-regeneration-alphagenome2-cellstate-genomics?mode=report" class="inline-ref-link"><strong>AlphaGenome 2 single-cell genomics</strong></a>,
-                <a href="#carbon-bioscience-regeneration-invivo-crispr-cures?mode=report" class="inline-ref-link"><strong>one-dose <em>in vivo</em> CRISPR cures</strong></a>,
-                <a href="#carbon-automation-science-lidar-agent-citizen-archaeology?mode=report" class="inline-ref-link"><strong>citizen-AI LiDAR discovery</strong></a>, and
-                <a href="#carbon-social-norms-empirical-ai-economics-telemetry?mode=report" class="inline-ref-link"><strong>open empirical AI economics</strong></a>
-                crossed from dream to steel, silicon, and clinical reality. Paired with <strong>boldly reimagined social norms</strong> already proven in places like
-                <a href="#carbon-social-norms-abundant-beautiful-housing?mode=report" class="inline-ref-link">Vienna</a>,
-                <a href="#carbon-bioscience-regeneration-healthcare-without-billing?mode=report" class="inline-ref-link">Singapore</a>,
-                <a href="#carbon-social-norms-ending-homelessness-villages?mode=report" class="inline-ref-link">Finland</a>,
-                <a href="#carbon-social-norms-bridging-consensus-trust?mode=report" class="inline-ref-link">Taiwan</a>, and
+                The technical and the humane are intimately intertwined. Moving toward essentially free clean energy
+                (<a href="#carbon-abundant-energy-fusion-power?mode=report" class="inline-ref-link"><strong>20T-compact fusion</strong></a>,
+                <a href="#carbon-abundant-energy-perovskite-tandem-solar?mode=report" class="inline-ref-link"><strong>35.5% solar</strong></a>,
+                <a href="#carbon-abundant-energy-symbiotic-civic-data-centers?mode=report" class="inline-ref-link"><strong>city-warming data centers</strong></a>)
+                and physical + cognitive automation
+                (<a href="#carbon-automation-science-general-purpose-humanoids?mode=report" class="inline-ref-link"><strong>tactile robotics</strong></a>,
+                <a href="#carbon-bioscience-regeneration-craving-reset-mental-health?mode=report" class="inline-ref-link"><strong>GLP-1 craving resets</strong></a>,
+                <a href="#carbon-synergy-horizons-hidden-consumer-surplus-abundance?mode=report" class="inline-ref-link"><strong>hidden GDP-B consumer surplus</strong></a>)
+                dissolves the zero-sum <a href="#carbon-synergy-horizons-scarcity-mindset-to-abundance-trust?mode=report" class="inline-ref-link"><strong>scarcity mindset</strong></a>—unlocking compassionate conventions already working on Tuesday mornings in
+                <a href="#carbon-social-norms-universal-capital-dividends?mode=report" class="inline-ref-link">Alaska, Norway &amp; Connecticut</a>,
                 <a href="#carbon-social-norms-forty-eight-hour-governance?mode=report" class="inline-ref-link">Estonia</a>,
-                humanity has every tool needed to build a joyful, restorative, post-scarcity civilization.
+                <a href="#carbon-social-norms-iceland-planet-youth-belonging?mode=report" class="inline-ref-link">Iceland</a>,
+                <a href="#carbon-bioscience-regeneration-buurtzorg-autonomous-neighborhood-care?mode=report" class="inline-ref-link">the Netherlands</a>, and
+                <a href="#carbon-social-norms-abundant-beautiful-housing?mode=report" class="inline-ref-link">Vienna</a>.
               </p>
 
               <div class="hero-cta-row">
-                <button id="cta-explore-atlas" class="hero-btn primary" type="button">
-                  Explore All 120 Pathways ↓
-                </button>
                 <button id="cta-random-pathway" class="hero-btn secondary" type="button">
-                  ✨ Open a Delightful Breakthrough
+                  ✨ Shuffle Breakthroughs
+                </button>
+                <button id="cta-explore-atlas" class="hero-btn primary" type="button">
+                  Explore All 126 Pathways ↓
                 </button>
               </div>
 
               <div class="hero-kpi-strip">
                 <a href="#atlas-directory" class="hero-kpi hero-kpi-link">
-                  <span class="hero-kpi-val">120 / 240</span>
+                  <span class="hero-kpi-val">126 / 252</span>
                   <span class="hero-kpi-lbl">Pathways &amp; Artifacts</span>
+                </a>
+                <a href="#carbon-synergy-horizons-hidden-consumer-surplus-abundance?mode=report" class="hero-kpi hero-kpi-link">
+                  <span class="hero-kpi-val">+$35k/yr</span>
+                  <span class="hero-kpi-lbl">Hidden Surplus (GDP-B)</span>
                 </a>
                 <a href="#carbon-abundant-energy-fusion-power?mode=report" class="hero-kpi hero-kpi-link">
                   <span class="hero-kpi-val">$0.003/kWh</span>
                   <span class="hero-kpi-lbl">Clean Energy Horizon</span>
-                </a>
-                <a href="#carbon-bioscience-regeneration-precision-fermentation-rewilding?mode=report" class="hero-kpi hero-kpi-link">
-                  <span class="hero-kpi-val">1B Hectares</span>
-                  <span class="hero-kpi-lbl">Returned to Wild Forests</span>
                 </a>
                 <a href="#carbon-synergy-horizons-cost-of-living-collapse?mode=report" class="hero-kpi hero-kpi-link">
                   <span class="hero-kpi-val">-70%</span>
@@ -247,10 +249,10 @@
                 <rect x="312" y="298" width="32" height="28" rx="5" fill="#8b5cf6" opacity="0.82"/>
                 <!-- Floating Labels -->
                 <g font-family="JetBrains Mono, monospace" font-size="10" font-weight="700" fill="currentColor" opacity="0.82">
-                  <text x="190" y="78">20T FUSION • 35.5% SOLAR</text>
-                  <text x="312" y="140">AI LABS</text>
-                  <text x="310" y="222">CRISPR BIO</text>
-                  <text x="68" y="140">ORBITAL</text>
+                  <text x="190" y="78">FREE ENERGY • AUTOMATION</text>
+                  <text x="312" y="140">GDP-B SURPLUS</text>
+                  <text x="310" y="222">HUMANE CARE</text>
+                  <text x="58" y="140">CITIZEN FUNDS</text>
                   <text x="64" y="222">CIVIC TRUST</text>
                 </g>
               </svg>
@@ -266,11 +268,28 @@
           <button id="clear-search-btn" class="text-btn" type="button">Reset all filters ×</button>
         </div>
 
+        <!-- INTERACTIVE MODULE 0: SHARED REALITY & UNFREEZING "THINGS HAVE ALWAYS BEEN THIS WAY" -->
+        <section id="shared-reality-section" class="interactive-section scroll-reveal" aria-labelledby="shared-reality-heading">
+          <div class="section-header-row">
+            <div>
+              <span class="section-kicker">01 // OUR SHARED REALITY &amp; UNFREEZING CONVENTIONS</span>
+              <h2 id="shared-reality-heading" class="section-title">What Is Already Happening Quietly—and How Energy + Automation Unfreeze Our Systems</h2>
+              <p class="section-sub">GDP completely misses zero-price abundance already in your pocket, while frozen 20th-century rules keep housing, healthcare, and debt artificially scarce. Explore both sides of our shared reality.</p>
+            </div>
+            <div class="sub-tab-pills" role="group" aria-label="Choose shared reality perspective">
+              <button class="sub-tab active" type="button" data-reality-tab="surplus" aria-pressed="true">📈 Hidden Abundance Already Here</button>
+              <button class="sub-tab" type="button" data-reality-tab="unfreeze" aria-pressed="false">🔓 Unfreezing “Always Been This Way”</button>
+            </div>
+          </div>
+          <div id="reality-surplus-panel" class="reality-surplus-shell"></div>
+          <div id="reality-unfreeze-panel" class="unfreeze-grid" hidden></div>
+        </section>
+
         <!-- INTERACTIVE MODULE 1: CYNIC MYTH-BUSTER FLIP DECK -->
         <section id="mythbuster-section" class="interactive-section scroll-reveal" aria-labelledby="mythbuster-heading">
           <div class="section-header-row">
             <div>
-              <span class="section-kicker">01 // COUNTERING MODERN DOOMERISM</span>
+              <span class="section-kicker">02 // COUNTERING MODERN DOOMERISM</span>
               <h2 id="mythbuster-heading" class="section-title">“That Will Never Happen Because…” — Tap Any Myth to See What Already Broke Through</h2>
               <p class="section-sub">Cynical conventional wisdom is almost always five years out of date. Click any card below to flip from tired fatalism to verified 2025–2026 engineering and international proof.</p>
             </div>
@@ -283,14 +302,14 @@
         <section id="synergy-section" class="interactive-section scroll-reveal" aria-labelledby="synergy-heading">
           <div class="section-header-row">
             <div>
-              <span class="section-kicker">02 // CROSS-DOMAIN CONVERGENCE</span>
-              <h2 id="synergy-heading" class="section-title">The Synergy Reactor: Why Exponential Curves Multiply Instead of Add</h2>
-              <p class="section-sub">Pessimists analyze technologies in isolation. Select any convergence recipe below to trace how cheap clean energy, autonomous science, precision biology, and upgraded civic rules unlock miracles none could achieve alone.</p>
+              <span class="section-kicker">03 // INTERTWINED TECH &amp; SOCIAL CONVERGENCE</span>
+              <h2 id="synergy-heading" class="section-title">The Synergy Reactor: How Free Energy &amp; Automation Unlock Humane Conventions</h2>
+              <p class="section-sub">Tech-bro optimism ignores empathy; static politics ignores abundance. Select any convergence recipe below to trace how sub-penny clean power and automation make generous social rules fiscally effortless.</p>
             </div>
           </div>
           <div class="synergy-reactor-shell">
-            <div class="synergy-recipes-list" id="synergy-recipes-list" role="tablist" aria-label="Synergy recipes"></div>
-            <div class="synergy-stage-card" id="synergy-stage-card" role="tabpanel"></div>
+            <div class="synergy-recipes-list" id="synergy-recipes-list" role="group" aria-label="Synergy convergence recipes"></div>
+            <div class="synergy-stage-card" id="synergy-stage-card"></div>
           </div>
         </section>
 
@@ -298,7 +317,7 @@
         <section id="budget-section" class="interactive-section scroll-reveal" aria-labelledby="budget-heading">
           <div class="section-header-row">
             <div>
-              <span class="section-kicker">03 // DEFLATIONARY ABUNDANCE AT YOUR KITCHEN TABLE</span>
+              <span class="section-kicker">04 // DEFLATIONARY ABUNDANCE AT YOUR KITCHEN TABLE</span>
               <h2 id="budget-heading" class="section-title">Interactive Simulator: Your Household Life from the 2026 Squeeze to 2036 Abundance</h2>
               <p class="section-sub">Drag the timeline slider to see how factory mass-timber housing, sub-penny clean power, local vertical &amp; fermented foods, billing-free AI direct care, and shared electric pods transform a median family's monthly budget and free time.</p>
             </div>
@@ -318,10 +337,10 @@
                   <span>2036 Abundance</span>
                 </div>
               </div>
-              <div class="budget-presets">
-                <button class="preset-btn" type="button" data-year="2026">2026 Baseline</button>
-                <button class="preset-btn" type="button" data-year="2030">2030 Leapfrog</button>
-                <button class="preset-btn active" type="button" data-year="2035">2035 Flourishing</button>
+              <div class="budget-presets" role="group" aria-label="Budget year presets">
+                <button class="preset-btn" type="button" data-year="2026" aria-pressed="false">2026 Baseline</button>
+                <button class="preset-btn" type="button" data-year="2030" aria-pressed="false">2030 Leapfrog</button>
+                <button class="preset-btn active" type="button" data-year="2035" aria-pressed="true">2035 Flourishing</button>
               </div>
             </div>
 
@@ -334,13 +353,13 @@
         <section id="voices-section" class="interactive-section scroll-reveal" aria-labelledby="voices-heading">
           <div class="section-header-row">
             <div>
-              <span class="section-kicker">04 // REAL BUILDERS &amp; LIVED TOMORROWS</span>
+              <span class="section-kicker">05 // REAL BUILDERS &amp; LIVED TOMORROWS</span>
               <h2 id="voices-heading" class="section-title">Voices from the Frontier &amp; Human Postcards from the Near Future</h2>
-              <p class="section-sub">Authentic perspectives from Nobel laureates, lab directors, company founders, and civic pioneers—paired with vivid stories of everyday lives transformed.</p>
+              <p class="section-sub">Authentic perspectives from nurses, economists, Nobel laureates, company founders, and civic pioneers—paired with vivid stories of everyday lives transformed.</p>
             </div>
-            <div class="sub-tab-pills" role="tablist" aria-label="Switch between Researcher Quotes and Human Stories">
-              <button class="sub-tab active" type="button" data-voice-tab="quotes" role="tab" aria-selected="true">🎙️ Researcher &amp; Founder Quotes</button>
-              <button class="sub-tab" type="button" data-voice-tab="stories" role="tab" aria-selected="false">🌅 Human Postcards from Tomorrow</button>
+            <div class="sub-tab-pills" role="group" aria-label="Choose Voices or Human Postcards">
+              <button class="sub-tab active" type="button" data-voice-tab="quotes" aria-pressed="true">🎙️ Researcher &amp; Pioneer Quotes</button>
+              <button class="sub-tab" type="button" data-voice-tab="stories" aria-pressed="false">🌅 Human Postcards from Tomorrow</button>
             </div>
           </div>
           <div id="voices-quotes-panel" class="quotes-masonry"></div>
@@ -351,32 +370,43 @@
         <section id="global-section" class="interactive-section scroll-reveal" aria-labelledby="global-heading">
           <div class="section-header-row">
             <div>
-              <span class="section-kicker">05 // REIMAGINING SOCIAL CONVENTIONS</span>
-              <h2 id="global-heading" class="section-title">“Politics &amp; Human Nature Will Never Allow That” — 12 Places Already Doing It Today</h2>
-              <p class="section-sub">Every time someone calls universal housing, zero street homelessness, district-heating data centers, sortition citizens' assemblies, or non-polarized consensus “utopian,” point them to a country or city where it is already Tuesday morning.</p>
+              <span class="section-kicker">06 // REIMAGINING SOCIAL CONVENTIONS</span>
+              <h2 id="global-heading" class="section-title">“Politics &amp; Human Nature Will Never Allow That” — 15 Places Already Doing It Today</h2>
+              <p class="section-sub">Every time someone calls citizen wealth dividends, 3-minute digital government, boss-free neighborhood nursing, pennies-on-the-dollar medical debt abolition, or universal housing “utopian,” point them to a place where it is already Tuesday morning.</p>
             </div>
           </div>
           <div id="global-proof-grid" class="global-proof-grid"></div>
         </section>
 
-        <!-- DIRECTORY OF ALL 120 CARBON PATHWAYS -->
+        <!-- DIRECTORY OF ALL 126 CARBON PATHWAYS -->
         <section id="atlas-directory" class="interactive-section" aria-labelledby="directory-heading">
           <div class="section-header-row">
             <div>
-              <span class="section-kicker">06 // THE COMPLETE CARBON LIBRARY</span>
-              <h2 id="directory-heading" class="section-title">Explore All 120 Pathways (240 Deep Reports &amp; Visual Storyboards)</h2>
-              <p class="section-sub">Every pathway pairs a thorough November 2026 SOTA examination, verified company &amp; research links, citizen-science &amp; global precedents, human stories, and quantitative trajectories with a cinematic 3-act storyboard.</p>
+              <span class="section-kicker">07 // THE COMPLETE CARBON LIBRARY</span>
+              <h2 id="directory-heading" class="section-title">Explore All 126 Pathways (252 Deep Reports &amp; Visual Storyboards)</h2>
+              <p class="section-sub">Filter between <strong>Humane Conventions</strong>, <strong>Energy &amp; Automation Engines</strong>, and <strong>Deep-Lab Frontiers</strong>. Every pathway pairs a November 2026 SOTA report with verified precedents, human stories, and a 3-act storyboard.</p>
             </div>
           </div>
 
-          <div class="inline-pillar-bar" role="group" aria-label="Quick filter by pillar">
-            <button class="pillar-chip active" type="button" data-pillar="all">All (<span id="inline-count-all">120</span>)</button>
-            <button class="pillar-chip" type="button" data-pillar="abundant-energy">⚡ Energy</button>
-            <button class="pillar-chip" type="button" data-pillar="automation-science">🤖 Robotics</button>
-            <button class="pillar-chip" type="button" data-pillar="bioscience-regeneration">🧬 Bio</button>
-            <button class="pillar-chip" type="button" data-pillar="social-norms">🤝 Society</button>
-            <button class="pillar-chip" type="button" data-pillar="space-frontier">🚀 Space</button>
-            <button class="pillar-chip" type="button" data-pillar="synergy-horizons">🌈 Synergy</button>
+          <div class="directory-filter-stack">
+            <div class="inline-pillar-bar" role="group" aria-label="Quick filter by pillar">
+              <button class="pillar-chip active" type="button" data-pillar="all" aria-pressed="true">All (<span id="inline-count-all">126</span>)</button>
+              <button class="pillar-chip" type="button" data-pillar="abundant-energy" aria-pressed="false">⚡ Energy</button>
+              <button class="pillar-chip" type="button" data-pillar="automation-science" aria-pressed="false">🤖 Robotics</button>
+              <button class="pillar-chip" type="button" data-pillar="bioscience-regeneration" aria-pressed="false">🧬 Bio</button>
+              <button class="pillar-chip" type="button" data-pillar="social-norms" aria-pressed="false">🤝 Society</button>
+              <button class="pillar-chip" type="button" data-pillar="space-frontier" aria-pressed="false">🚀 Space</button>
+              <button class="pillar-chip" type="button" data-pillar="synergy-horizons" aria-pressed="false">🌈 Synergy</button>
+            </div>
+
+            <div class="inline-lens-bar" role="group" aria-label="Quick filter by curation lens">
+              <button class="lens-btn active" type="button" data-lens="all" aria-pressed="true">All 126</button>
+              <button class="lens-btn" type="button" data-lens="conventions" aria-pressed="false">🤝 Humane Conventions</button>
+              <button class="lens-btn" type="button" data-lens="abundance" aria-pressed="false">⚡ Energy &amp; Automation</button>
+              <button class="lens-btn" type="button" data-lens="new" aria-pressed="false">✨ New SOTA</button>
+              <button class="lens-btn" type="button" data-lens="urgent" aria-pressed="false">🚨 Urgent Triage</button>
+              <button class="lens-btn" type="button" data-lens="deeplab" aria-pressed="false">🔬 Deep Lab (13)</button>
+            </div>
           </div>
 
           <div id="catalog-sections" class="catalog-sections"></div>
@@ -396,17 +426,17 @@
             <span id="detail-folder-path" class="folder-code"></span>
           </div>
 
-          <div class="detail-mode-tabs" role="tablist" aria-label="Document view mode">
-            <button class="mode-tab active" type="button" data-mode="report" role="tab" aria-selected="true">
+          <div class="detail-mode-tabs" role="group" aria-label="Document view mode">
+            <button class="mode-tab active" type="button" data-mode="report" aria-pressed="true">
               📘 Deep Report
             </button>
-            <button class="mode-tab" type="button" data-mode="storyboard" role="tab" aria-selected="false">
+            <button class="mode-tab" type="button" data-mode="storyboard" aria-pressed="false">
               🎬 Storyboard
             </button>
-            <button class="mode-tab" type="button" data-mode="infographic" role="tab" aria-selected="false">
+            <button class="mode-tab" type="button" data-mode="infographic" aria-pressed="false">
               📊 Infographic Dossier
             </button>
-            <button class="mode-tab" type="button" data-mode="split" role="tab" aria-selected="false">
+            <button class="mode-tab" type="button" data-mode="split" aria-pressed="false">
               ◫ Split View
             </button>
           </div>
@@ -457,7 +487,7 @@
         <div class="footer-inner">
           <div>
             <strong>OneOfMany — Carbon Edition (Nov 2026)</strong>
-            <p>120 SOTA Pathways • 240 Deep Reports &amp; Visual Storyboards • Grounded in real physics, clinical data, citizen science, and global civic proofs.</p>
+            <p>126 SOTA Pathways • 252 Deep Reports &amp; Visual Storyboards • Abundant clean energy &amp; automation intertwined with humane social conventions.</p>
           </div>
           <div class="footer-links">
             <a href="../">Root Flagship (<code>/</code>)</a>
@@ -473,10 +503,15 @@
   <dialog id="hope-modal" class="hope-dialog" closedby="any" aria-labelledby="hope-modal-title">
     <div class="hope-dialog-inner">
       <div class="hope-dialog-top">
-        <button id="hope-shuffle-btn" class="hero-btn secondary" type="button" autofocus>🎲 Another Breakthrough</button>
+        <button id="hope-shuffle-btn" class="hero-btn secondary" type="button" autofocus>Show Me Another</button>
         <form method="dialog">
           <button class="icon-btn" type="submit" aria-label="Close spotlight dialog">✕</button>
         </form>
+      </div>
+      <div class="hope-lens-strip" role="group" aria-label="Filter breakthrough shuffle focus">
+        <button class="hope-lens-pill active" type="button" data-hope-lens="intertwined" aria-pressed="true">✨ Intertwined</button>
+        <button class="hope-lens-pill" type="button" data-hope-lens="conventions" aria-pressed="false">🤝 Humane Conventions</button>
+        <button class="hope-lens-pill" type="button" data-hope-lens="abundance" aria-pressed="false">⚡ Energy &amp; Automation</button>
       </div>
       <h2 id="hope-modal-title" class="hope-dialog-title">Loading breakthrough…</h2>
       <div id="hope-modal-body" class="hope-dialog-body"></div>

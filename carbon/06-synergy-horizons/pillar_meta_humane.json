@@ -1,0 +1,288 @@
+[
+  {
+    "slug": "hidden-consumer-surplus-abundance",
+    "pillarId": "synergy-horizons",
+    "folderRel": "carbon/06-synergy-horizons/hidden-consumer-surplus-abundance",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "The Invisible $35,000 Raise: Seeing the Consumer-Surplus Miracles Already Here—and Unfreezing What Still Hurts",
+    "tagline": "Honoring real rent and medical pain while revealing $35,000/yr of invisible digital, energy, and biomedical abundance already in every pocket—and pulling housing, healthcare, and childcare onto that exact same curve.",
+    "cynicBelief": "Modern progress is a mirage—everything that actually matters to a working family gets more expensive every decade, technology only produces addictive toys for billionaires, and ordinary households haven't gained real ground since 1995.",
+    "breakthroughCounter": "We live inside a stark Two-Speed Economy: every sector open to clean-tech learning curves, software, and automation plunged 70%–99.8% in price (solar PV -99.8%, batteries -97%, genome sequencing $100M to $100, global video calls $180/hr to $0, encyclopedias and AI tutors $0). Erik Brynjolfsson's PNAS GDP-B choice experiments prove households already enjoy $25,000–$35,000+/yr in uncounted welfare, and Ronnie Chatterji's NBER WP 34255 shows >70% of AI use serves unpriced family life—pointing directly to how we unfreeze housing, medical billing, and care next.",
+    "socialNormShift": "Replacing 1930s price-only GDP blindfolds with Stanford GDP-B consumer-surplus accounting while systematically removing the 20th-century zoning, medical-coding, and utility monopolies that kept rent, healthcare, and childcare off the abundance learning curve.",
+    "humanStory": {
+      "protagonist": "Marisol Vega (41, Home-Health Aide & Mother of Two) & Abuela Lucía (69)",
+      "location": "Jackson Heights, Queens, New York & Puebla, Mexico",
+      "snippet": "In 1998, Marisol's mom spent $120/month on scratchy 12-minute calling cards; in 2026, Marisol already holds $35,000/yr of invisible miracles ($0 nightly HD bedtime stories with Abuela, an AI reading tutor for her dyslexic son, $4 generic heart meds)—and by 2033, mass-timber YIMBY housing and $65 Direct Primary Care finally pull her rent and doctor bills onto that same deflationary curve."
+    },
+    "quote": {
+      "text": "GDP measures what we pay for, not what actually improves our lives. When an encyclopedia, a global video call, or a life-guiding tool drops in price from thousands of dollars to zero, GDP records nothing—even as ordinary families gain tens of thousands of dollars in real well-being.",
+      "author": "Prof. Erik Brynjolfsson",
+      "role": "Jerry Yang and Akiko Yamazaki Professor & Director of the Stanford Digital Economy Lab (PNAS GDP-B Co-Author)",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1815663116"
+    },
+    "companiesAndLabs": [
+      "Stanford Digital Economy Lab (Brynjolfsson, Collis & Eggers GDP-B)",
+      "National Bureau of Economic Research (Chatterji et al. NBER w34255)",
+      "U.S. Bureau of Labor Statistics (Two-Speed Sectoral CPI Series)",
+      "Our World in Data (Solar -99.8% & Battery -97% Learning Curves)",
+      "National Human Genome Research Institute ($100M to $100 Sequencing)",
+      "Direct Primary Care Coalition & Buurtzorg Neighborhood Nursing"
+    ],
+    "globalPrecedents": [
+      "Brynjolfsson, Collis & Eggers PNAS Incentive-Compatible GDP-B Consumer Surplus Audits (2019–2026)",
+      "Chatterji et al. NBER WP 34255: >70% of Global Frontier AI Usage Serves Non-Work Household Welfare",
+      "Wright's Law Clean-Tech Deflation: Solar PV (-99.8%), Lithium Batteries (-97%) & Genomes ($100M to $100)",
+      "Vienna Housing, Austin YIMBY (-18% Rent), Buurtzorg Nursing & Undue Medical Debt Abolition"
+    ],
+    "synergyLinks": [
+      "cost-of-living-collapse",
+      "empirical-ai-economics-telemetry",
+      "post-scarcity-economics",
+      "bipartisan-yimby-parking-liberation"
+    ],
+    "infographic": {
+      "headlineMetric": "+$35,000 / Yr",
+      "headlineLabel": "Unpriced Household Consumer Surplus Already Here (Expanding to Essentials)",
+      "unit": "Verified Annual Household Consumer Surplus & Demonetized Essential Savings ($/Yr)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 1998,
+          "label": "Pre-Broadband Era ($3/Min Calls, $1,500 Encyclopedias, $100M Genomes)",
+          "value": 1800,
+          "display": "$1.8k/yr surplus"
+        },
+        {
+          "year": 2019,
+          "label": "Brynjolfsson PNAS GDP-B Baseline (Free Video, Maps, Search, Wikipedia)",
+          "value": 26000,
+          "display": "$26k/yr invisible"
+        },
+        {
+          "year": 2026,
+          "label": "AI Tutors & Health Literacy (NBER >70% Life Utility) + $100 Genomes",
+          "value": 35000,
+          "display": "$35k/yr already here"
+        },
+        {
+          "year": 2035,
+          "label": "Housing, Direct Care, Solar Power & Food Join the Abundance Curve",
+          "value": 98000,
+          "display": "$98k/yr full thriving"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Replaced 1990s Gear",
+          "value": ">$50,000",
+          "detail": "Video phone, GPS, Britannica, camcorder, library & translator in 1 pocket"
+        },
+        {
+          "label": "Non-Work AI Utility",
+          "value": ">70%",
+          "detail": "NBER WP 34255 share going to family health literacy, tutoring & life tasks"
+        },
+        {
+          "label": "Solar & Genome Drop",
+          "value": "-99.8%",
+          "detail": "Solar modules since 1976 & human genome sequencing ($100M to $100)"
+        },
+        {
+          "label": "Next Sectors Unfrozen",
+          "value": "3 Bottlenecks",
+          "detail": "Housing, medical billing & energy/care pulled onto learning curves"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Stanford Digital Economy Lab (Brynjolfsson, Collis & Eggers GDP-B)",
+        "url": "https://digitaleconomy.stanford.edu/"
+      },
+      {
+        "name": "National Bureau of Economic Research (Chatterji et al. NBER w34255)",
+        "url": "https://www.nber.org/papers/w34255"
+      },
+      {
+        "name": "U.S. Bureau of Labor Statistics (Two-Speed Sectoral CPI Series)",
+        "url": "https://www.bls.gov/cpi/"
+      },
+      {
+        "name": "Our World in Data (Solar -99.8% & Battery -97% Learning Curves)",
+        "url": "https://ourworldindata.org/cheap-renewables-growth"
+      },
+      {
+        "name": "National Human Genome Research Institute ($100M to $100 Sequencing)",
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
+      },
+      {
+        "name": "Direct Primary Care Coalition & Buurtzorg Neighborhood Nursing",
+        "url": "https://www.dpcare.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Brynjolfsson, Collis & Eggers PNAS Incentive-Compatible GDP-B Consumer Surplus Audits (2019–2026)",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.1815663116"
+      },
+      {
+        "name": "Chatterji et al. NBER WP 34255: >70% of Global Frontier AI Usage Serves Non-Work Household Welfare",
+        "url": "https://www.nber.org/papers/w34255"
+      },
+      {
+        "name": "Wright's Law Clean-Tech Deflation: Solar PV (-99.8%), Lithium Batteries (-97%) & Genomes ($100M to $100)",
+        "url": "https://ourworldindata.org/cheap-renewables-growth"
+      },
+      {
+        "name": "Vienna Housing, Austin YIMBY (-18% Rent), Buurtzorg Nursing & Undue Medical Debt Abolition",
+        "url": "https://unduemedicaldebt.org/"
+      }
+    ]
+  },
+  {
+    "slug": "scarcity-mindset-to-abundance-trust",
+    "pillarId": "synergy-horizons",
+    "folderRel": "carbon/06-synergy-horizons/scarcity-mindset-to-abundance-trust",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Healing the Zero-Sum Brain: Why Free Energy & Automation Are the Keys to Ending Human Scarcity Politics",
+    "tagline": "Uniting Mullainathan & Shafir's 13-IQ-point cognitive bandwidth science and Benjamin Friedman's 200-year moral history with near-free clean energy, robotics, and citizen dividends to cure zero-sum fear.",
+    "cynicBelief": "Human beings are hardwired by evolution to be tribal, envious, and zero-sum—no matter how much clean energy or automation we invent, politics will stay nasty, fearful, and polarized forever.",
+    "breakthroughCounter": "Behavioral science and history prove the opposite: Sendhil Mullainathan and Eldar Shafir (Science, 2013) demonstrated that financial scarcity literally taxes 13–14 IQ points of human cognitive bandwidth (worse than losing a full night's sleep), while Benjamin M. Friedman showed across two centuries that broadly shared material abundance reliably makes societies more generous, tolerant, and open. Pairing near-free clean energy and automation with citizen dividends and 90% wage bridges heals survival tunneling at its physical root.",
+    "socialNormShift": "Recognizing technical abundance (sub-penny clean energy + physical/knowledge automation) and humane social conventions (universal citizen dividends, 90% transition bridges, demonetized essentials) as two halves of a single key that restores human cognitive bandwidth and civic trust.",
+    "humanStory": {
+      "protagonist": "Derrick Hollis (44, Former Stamping Machinist & Robotics Guild Mentor) & Ananya Nair (36, Solar-Ag Steward)",
+      "location": "Youngstown, Ohio & Villupuram District, Tamil Nadu, India",
+      "snippet": "In 2024, plant-closure anxiety kept Derrick locked in survival-tunneling distrust of machines and newcomers; by 2033, backed by a 90% Danish-style Guild Wage Bridge, $14/mo clean power, and Ohio's Citizen Compute Dividend, Derrick coaches teen robotics teams and co-chairs a cross-partisan town assembly welcoming new neighbors."
+    },
+    "quote": {
+      "text": "Scarcity doesn't just mean having less money in your wallet—it captures the mind itself, taxing thirteen IQ points of mental bandwidth. Relieve chronic material scarcity, and you don't make people lazy; you give human beings their full intelligence, patience, and generosity back.",
+      "author": "Prof. Sendhil Mullainathan",
+      "role": "Professor of Computation and Behavioral Science, MIT (Co-Author of Scarcity & 2013 Science Bandwidth Study)",
+      "url": "https://www.science.org/doi/10.1126/science.1238041"
+    },
+    "companiesAndLabs": [
+      "Science Bandwidth Consortium (Mullainathan, Shafir, Mani & Zhao)",
+      "Harvard Dept. of Economics (Prof. Benjamin M. Friedman Historical Archive)",
+      "Alaska Permanent Fund & Norway Sovereign Citizen Wealth Funds",
+      "Connecticut Baby Bonds Trust (Universal Birth-Cohort Seed Capital)",
+      "Danish Flexicurity 90% Wage & Guild Retraining System",
+      "Commonwealth Fusion Systems & Sub-Penny Solar/Storage Labs"
+    ],
+    "globalPrecedents": [
+      "Mani, Mullainathan, Shafir & Zhao (Science, 2013): 13–14 IQ Bandwidth Recovery Post-Harvest",
+      "Benjamin M. Friedman (The Moral Consequences of Economic Growth): 200-Yr Tolerance & Reform Proof",
+      "Alaska Permanent Fund (1982–2026), Connecticut Baby Bonds & Dauphin Mincome (-8.5% Hospitalizations)",
+      "Danish 90% Flexicurity Wage Bridge Enabling Zero-Panic Industrial Automation"
+    ],
+    "synergyLinks": [
+      "cynicism-to-agency",
+      "universal-capital-dividends",
+      "fusion-power",
+      "hidden-consumer-surplus-abundance"
+    ],
+    "infographic": {
+      "headlineMetric": "+13–14 IQ Pts",
+      "headlineLabel": "Human Cognitive Bandwidth Recovered When Material Scarcity Lifts",
+      "unit": "Recovered Household Cognitive Bandwidth & Civic Trust Index (0–100 Composite)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2024,
+          "label": "Peak Survival Tunneling ($7,400/Mo Squeeze + Stagnant Wage Anxiety)",
+          "value": 34,
+          "display": "-13 IQ scarcity tax"
+        },
+        {
+          "year": 2027,
+          "label": "Baby Bonds + Medical Debt Abolition + Early YIMBY Rent Relief",
+          "value": 52,
+          "display": "52/100 breathing room"
+        },
+        {
+          "year": 2031,
+          "label": "Sub-Penny Solar/Storage + 90% Guild Wage Bridges + Direct Care",
+          "value": 76,
+          "display": "76/100 high-trust lift"
+        },
+        {
+          "year": 2035,
+          "label": "Free Clean Energy + Robotics + Citizen Dividends (+13.5 IQ Restored)",
+          "value": 92,
+          "display": "92/100 civic flourishing"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Bandwidth Restored",
+          "value": "+13–14 IQ",
+          "detail": "Mullainathan & Shafir Science audit when chronic bill dread lifts"
+        },
+        {
+          "label": "Dauphin Health Proof",
+          "value": "-8.5% Admits",
+          "detail": "Hospital & mental-health drop during Canada's guaranteed-floor pilot"
+        },
+        {
+          "label": "Automation Trust Bridge",
+          "value": "90% Wage",
+          "detail": "Danish Flexicurity floor turning robot dread into union allyship"
+        },
+        {
+          "label": "Universal Citizen Stake",
+          "value": "100% Owners",
+          "detail": "Alaska, Norway & CT Baby Bonds turning AI/energy gains into dividends"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Science Bandwidth Consortium (Mullainathan, Shafir, Mani & Zhao)",
+        "url": "https://www.science.org/doi/10.1126/science.1238041"
+      },
+      {
+        "name": "Harvard Dept. of Economics (Prof. Benjamin M. Friedman Historical Archive)",
+        "url": "https://economics.harvard.edu/people/benjamin-m-friedman"
+      },
+      {
+        "name": "Alaska Permanent Fund & Norway Sovereign Citizen Wealth Funds",
+        "url": "https://apfc.org/"
+      },
+      {
+        "name": "Connecticut Baby Bonds Trust (Universal Birth-Cohort Seed Capital)",
+        "url": "https://portal.ct.gov/ott/ct-baby-bonds"
+      },
+      {
+        "name": "Danish Flexicurity 90% Wage & Guild Retraining System",
+        "url": "https://star.dk/en/about-the-danish-agency-for-labour-market-and-recruitment/flexicurity/"
+      },
+      {
+        "name": "Commonwealth Fusion Systems & Sub-Penny Solar/Storage Labs",
+        "url": "https://www.cfs.energy/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Mani, Mullainathan, Shafir & Zhao (Science, 2013): 13–14 IQ Bandwidth Recovery Post-Harvest",
+        "url": "https://www.science.org/doi/10.1126/science.1238041"
+      },
+      {
+        "name": "Benjamin M. Friedman (The Moral Consequences of Economic Growth): 200-Yr Tolerance & Reform Proof",
+        "url": "https://economics.harvard.edu/people/benjamin-m-friedman"
+      },
+      {
+        "name": "Alaska Permanent Fund (1982–2026), Connecticut Baby Bonds & Dauphin Mincome (-8.5% Hospitalizations)",
+        "url": "https://apfc.org/"
+      },
+      {
+        "name": "Danish 90% Flexicurity Wage Bridge Enabling Zero-Panic Industrial Automation",
+        "url": "https://star.dk/en/about-the-danish-agency-for-labour-market-and-recruitment/flexicurity/"
+      }
+    ]
+  }
+]

@@ -17,9 +17,12 @@
 
   const VALID_DOC_MODES = new Set(["report", "storyboard", "infographic", "split"]);
 
+  const BASE_DOC_TITLE = document.title;
+
   const state = {
     pillarFilter: "all",
-    lensFilter: "all", // 'all' | 'new' | 'urgent'
+    lensFilter: "all", // 'all' | 'conventions' | 'abundance' | 'new' | 'urgent' | 'deeplab'
+    hopeLens: "intertwined", // 'intertwined' | 'conventions' | 'abundance'
     searchQuery: "",
     activeItemId: null,
     docMode: "report", // 'report' | 'storyboard' | 'infographic' | 'split'
@@ -52,6 +55,8 @@
   const catalogSectionsEl = document.getElementById("catalog-sections");
 
   // Interactive Home Containers
+  const realitySurplusPanelEl = document.getElementById("reality-surplus-panel");
+  const realityUnfreezePanelEl = document.getElementById("reality-unfreeze-panel");
   const mythGridEl = document.getElementById("mythbuster-grid");
   const flipAllMythsBtn = document.getElementById("flip-all-myths-btn");
   const synergyRecipesEl = document.getElementById("synergy-recipes-list");
@@ -262,91 +267,182 @@
     return `<span class="quote-author">${escapeHtml(quote?.author)}</span>`;
   }
 
-  const HOPE_DECK_STORAGE_KEY = "oom_carbon_hope_deck_v1";
+  const HOPE_DECK_STORAGE_KEY = "oom_carbon_hope_deck_v2";
+  const VALID_HOPE_LENSES = new Set(["intertwined", "conventions", "abundance"]);
+
+  function shuffleArray(arr) {
+    const copy = arr.slice();
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
+
+  function isEligibleForLens(item, lens) {
+    if (item.isDeepLab) return false;
+    if (lens === "conventions") return Boolean(item.isConventionBreaker);
+    if (lens === "abundance") return !item.isConventionBreaker;
+    return true;
+  }
+
+  function buildFreshLensQueue(lens, lastId) {
+    let queue = [];
+    if (lens === "intertwined") {
+      const convIds = shuffleArray(
+        catalog.items.filter((i) => !i.isDeepLab && i.isConventionBreaker).map((i) => i.id)
+      );
+      const abunIds = shuffleArray(
+        catalog.items.filter((i) => !i.isDeepLab && !i.isConventionBreaker).map((i) => i.id)
+      );
+      const maxLen = Math.max(convIds.length, abunIds.length);
+      const convFirst = Math.random() < 0.55;
+      for (let idx = 0; idx < maxLen; idx++) {
+        if (convFirst) {
+          if (idx < convIds.length) queue.push(convIds[idx]);
+          if (idx < abunIds.length) queue.push(abunIds[idx]);
+        } else {
+          if (idx < abunIds.length) queue.push(abunIds[idx]);
+          if (idx < convIds.length) queue.push(convIds[idx]);
+        }
+      }
+    } else {
+      queue = shuffleArray(
+        catalog.items.filter((i) => isEligibleForLens(i, lens)).map((i) => i.id)
+      );
+    }
+
+    if (queue.length === 0) {
+      queue = shuffleArray(catalog.items.map((i) => i.id));
+    }
+
+    // Prevent back-to-back repeat right across the reshuffle boundary
+    if (queue.length > 1 && queue[0] === lastId) {
+      const swapIdx = 1 + Math.floor(Math.random() * (queue.length - 1));
+      [queue[0], queue[swapIdx]] = [queue[swapIdx], queue[0]];
+    }
+    return queue;
+  }
 
   const hopeDeck = (function loadHopeDeck() {
+    const blank = {
+      lens: "intertwined",
+      queues: { intertwined: [], conventions: [], abundance: [] },
+      lastIds: { intertwined: null, conventions: null, abundance: null },
+    };
     try {
       const raw = sessionStorage.getItem(HOPE_DECK_STORAGE_KEY);
-      if (raw) {
-        const parsed = JSON.parse(raw);
-        const seenInQueue = new Set();
-        const validQueue = Array.isArray(parsed?.queue)
-          ? parsed.queue.filter((id) => {
-              if (!itemsById.has(id) || seenInQueue.has(id)) return false;
-              seenInQueue.add(id);
-              return true;
-            })
-          : [];
-        const validLastId =
-          typeof parsed?.lastId === "string" && itemsById.has(parsed.lastId)
-            ? parsed.lastId
-            : null;
-        return { queue: validQueue, lastId: validLastId };
+      if (!raw) return blank;
+      const parsed = JSON.parse(raw);
+      const savedLens = VALID_HOPE_LENSES.has(parsed?.lens) ? parsed.lens : "intertwined";
+      const queues = { intertwined: [], conventions: [], abundance: [] };
+      const lastIds = { intertwined: null, conventions: null, abundance: null };
+      for (const lens of VALID_HOPE_LENSES) {
+        const seen = new Set();
+        const rawQ = parsed?.queues?.[lens];
+        if (Array.isArray(rawQ)) {
+          queues[lens] = rawQ.filter((id) => {
+            const item = itemsById.get(id);
+            if (!item || seen.has(id) || !isEligibleForLens(item, lens)) return false;
+            seen.add(id);
+            return true;
+          });
+        }
+        const lid = parsed?.lastIds?.[lens];
+        lastIds[lens] = typeof lid === "string" && itemsById.has(lid) ? lid : null;
       }
-    } catch (_) {}
-    return { queue: [], lastId: null };
+      return { lens: savedLens, queues, lastIds };
+    } catch (_) {
+      return blank;
+    }
   })();
+
+  state.hopeLens = hopeDeck.lens;
+
+  function syncHopeLensButtons() {
+    document.querySelectorAll("[data-hope-lens]").forEach((btn) => {
+      const active = btn.dataset.hopeLens === state.hopeLens;
+      btn.classList.toggle("active", active);
+      btn.setAttribute("aria-pressed", String(active));
+    });
+  }
 
   function saveHopeDeck() {
     try {
+      hopeDeck.lens = state.hopeLens;
       sessionStorage.setItem(HOPE_DECK_STORAGE_KEY, JSON.stringify(hopeDeck));
     } catch (_) {}
   }
 
   function drawNextBreakthroughItem() {
     if (catalog.items.length === 0) return null;
-
-    if (hopeDeck.queue.length === 0) {
-      const shuffledIds = catalog.items.map((item) => item.id);
-      for (let i = shuffledIds.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffledIds[i], shuffledIds[j]] = [shuffledIds[j], shuffledIds[i]];
-      }
-      // Prevent back-to-back repeat right across the reshuffle boundary
-      if (shuffledIds.length > 1 && shuffledIds[0] === hopeDeck.lastId) {
-        const swapIdx = 1 + Math.floor(Math.random() * (shuffledIds.length - 1));
-        [shuffledIds[0], shuffledIds[swapIdx]] = [shuffledIds[swapIdx], shuffledIds[0]];
-      }
-      hopeDeck.queue = shuffledIds;
+    const lens = VALID_HOPE_LENSES.has(state.hopeLens) ? state.hopeLens : "intertwined";
+    if (!Array.isArray(hopeDeck.queues[lens]) || hopeDeck.queues[lens].length === 0) {
+      hopeDeck.queues[lens] = buildFreshLensQueue(lens, hopeDeck.lastIds[lens]);
     }
-
-    const nextId = hopeDeck.queue.shift();
-    hopeDeck.lastId = nextId;
+    const nextId = hopeDeck.queues[lens].shift();
+    hopeDeck.lastIds[lens] = nextId;
     saveHopeDeck();
     return itemsById.get(nextId) ?? catalog.items[0];
   }
 
+  function renderCompactProofPills(item, maxTotal) {
+    const pills = [];
+    const precs = Array.isArray(item.precedentLinks) ? item.precedentLinks.slice(0, 2) : [];
+    for (const g of precs) {
+      pills.push(
+        `<a href="${escapeHtml(g.url)}" target="_blank" rel="noopener noreferrer" class="org-pill">🌍 ${escapeHtml(g.name)} ↗</a>`
+      );
+    }
+    const comps = Array.isArray(item.companyLinks) ? item.companyLinks : [];
+    for (const c of comps) {
+      if (pills.length >= maxTotal) break;
+      pills.push(
+        `<a href="${escapeHtml(c.url)}" target="_blank" rel="noopener noreferrer" class="org-pill">🏢 ${escapeHtml(c.name)} ↗</a>`
+      );
+    }
+    return pills.slice(0, maxTotal).join("");
+  }
+
   function populateHopeModal() {
+    syncHopeLensButtons();
     const randomItem = drawNextBreakthroughItem();
     if (!randomItem || !hopeDialogEl) return;
     hopeModalTitleEl.textContent = `${randomItem.pillarEmoji} ${randomItem.title}`;
-    const citeAttr = randomItem.quote?.url ? ` cite="${escapeHtml(randomItem.quote.url)}"` : "";
     hopeModalBodyEl.innerHTML = `
-      <div class="dossier-box cynic-box" style="margin-bottom:0.85rem;">
-        <span class="dossier-label">😒 The Cynic's Old Belief</span>
-        <p style="margin:0;font-size:0.9rem;">“${escapeHtml(randomItem.cynicBelief)}”</p>
-      </div>
-      <div class="dossier-box reality-box" style="margin-bottom:0.85rem;">
-        <span class="dossier-label">🌱 What Actually Broke Through</span>
-        <p style="margin:0;font-size:0.9rem;">${escapeHtml(randomItem.breakthroughCounter)}</p>
-      </div>
-      <figure class="quote-card" style="padding:1rem;margin-bottom:0.8rem;">
-        <blockquote${citeAttr} style="font-size:0.92rem;margin-bottom:0.65rem;">“${escapeHtml(randomItem.quote.text)}”</blockquote>
-        <figcaption>
-          <div>
-            ${renderQuoteAuthorLink(randomItem.quote)}
-            <span class="quote-role">${escapeHtml(randomItem.quote.role)}</span>
+      <div class="hope-card-stack">
+        <div class="dossier-box cynic-box">
+          <span class="dossier-label">😒 “Things Have Always Been This Way”</span>
+          <p style="margin:0;font-size:0.86rem;">“${escapeHtml(randomItem.cynicBelief)}”</p>
+        </div>
+        <div class="dossier-box reality-box">
+          <div class="hope-reality-head">
+            <span class="dossier-label">🌱 What Is Already Happening</span>
+            <span class="metric-chip">${escapeHtml(randomItem.infographic.headlineMetric)}</span>
           </div>
-          <span class="metric-chip">${escapeHtml(randomItem.infographic.headlineMetric)}</span>
-        </figcaption>
-      </figure>
-      <div class="card-OrgsRow" style="margin-bottom:0;">
-        ${renderCompanyLinkPills(randomItem, 3)}
+          <p style="margin:0;font-size:0.87rem;">${escapeHtml(randomItem.breakthroughCounter)}</p>
+        </div>
+        <div class="dossier-box norm-box">
+          <span class="dossier-label" style="color:var(--accent-amber);">🤝 How Abundance &amp; Humane Rules Intertwine</span>
+          <p style="margin:0;font-size:0.85rem;">${escapeHtml(randomItem.socialNormShift)}</p>
+        </div>
+        <div class="card-OrgsRow" style="margin-bottom:0;">
+          ${renderCompactProofPills(randomItem, 3)}
+        </div>
       </div>
     `;
     hopeOpenBtn.href = `#${randomItem.id}?mode=report`;
     hopeDialogEl.scrollTop = 0;
   }
+
+  document.querySelectorAll("[data-hope-lens]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const nextLens = btn.dataset.hopeLens;
+      if (!VALID_HOPE_LENSES.has(nextLens)) return;
+      state.hopeLens = nextLens;
+      populateHopeModal();
+    });
+  });
 
   function openHopeModal() {
     if (!hopeDialogEl) return;
@@ -371,6 +467,213 @@
   });
 
   // ==================== 5. INTERACTIVE MODULE DATA & RENDERERS ====================
+  const HIDDEN_ABUNDANCE_GAINS = [
+    {
+      name: "Zero-Price Knowledge, Maps & Video Welfare (GDP-B)",
+      badge: "+$30,000+/yr value",
+      desc: "Erik Brynjolfsson's GDP-B experiments show families would demand tens of thousands per year before giving up free search, GPS navigation, encyclopedias, and video calls—yet traditional GDP counts free abundance as $0.",
+      slug: "hidden-consumer-surplus-abundance",
+    },
+    {
+      name: "Everyday Household AI Utility Outside Paid Work",
+      badge: ">70% non-work",
+      desc: "NBER telemetry (Chatterji et al.) across 700M+ users found over 70% of real-world AI use is personal tutoring, medical translation, kitchen planning, and life problem-solving—delivering massive unbilled household surplus.",
+      slug: "empirical-ai-economics-telemetry",
+    },
+    {
+      name: "Solar Photovoltaics & Stationary Battery Collapse",
+      badge: "-99.8% module cost",
+      desc: "Solar cells plunged from $100/W in 1976 to ~$0.09/W while certified perovskite-silicon tandems hit 35.5% efficiency—putting humanity on a physical trajectory toward near-zero marginal electricity.",
+      slug: "perovskite-tandem-solar",
+    },
+    {
+      name: "Genome Reading & One-Dose Molecular Medicine",
+      badge: "$100M → $100",
+      desc: "Sequencing a human genome fell a million-fold in 23 years, while AlphaGenome 2 and single-infusion in vivo CRISPR turn lifelong chronic illnesses into one-time outpatient cures.",
+      slug: "alphagenome2-cellstate-genomics",
+    },
+    {
+      name: "Biological Craving & Pain Circuit Resets",
+      badge: "GLP-1 + NaV1.8",
+      desc: "Incretin therapies unexpectedly quiet alcohol, opioid, and gambling cravings by ~40–50%, while selective NaV1.8 blockers silence acute pain without touching addictive brain opioid receptors.",
+      slug: "craving-reset-mental-health",
+    },
+  ];
+
+  const FROZEN_BOTTLENECK_FIXES = [
+    {
+      name: "Housing Frozen by 1950s Parking & Lot Mandates",
+      badge: "Austin -22% rent",
+      desc: "Rent isn't high because of physics—it's frozen zoning. Abolishing parking minimums + legalizing starter apartments in Austin & bipartisan Montana, paired with robotic timber factories, puts housing on the solar curve.",
+      slug: "bipartisan-yimby-parking-liberation",
+    },
+    {
+      name: "Care Crushed by Billing & Management Bureaucracy",
+      badge: "-40% admin waste",
+      desc: "Dutch Buurtzorg's 15,000 nurses work in self-managing 12-person neighborhood teams with zero middle managers, while Singapore direct accounts + ambient AI scribes return clinicians to human bedside empathy.",
+      slug: "buurtzorg-autonomous-neighborhood-care",
+    },
+    {
+      name: "Predatory Medical Debt & Scarcity Bandwidth Tax",
+      badge: "1¢ abolishes $1",
+      desc: "Hospitals sell delinquent bills for pennies; Cook County, Toledo, and North Carolina's 99-hospital pact proved public pools can abolish billions in family medical debt at ~1¢ on the dollar.",
+      slug: "medical-debt-abolition-pools",
+    },
+    {
+      name: "Grid Ratepayer Anxiety vs. Symbiotic Clean Compute",
+      badge: "250k homes warmed",
+      desc: "Instead of raising local electric bills, closed-loop liquid AI campuses in Espoo and Odense pipe 65 °C heat directly into municipal home radiators under strict ratepayer-shield pacts.",
+      slug: "symbiotic-civic-data-centers",
+    },
+    {
+      name: "Zero-Sum Wage Fear vs. Universal Citizen Equity",
+      badge: "$320k/citizen fund",
+      desc: "Free energy + robotics only feel threatening if returns accrue to a few owners. Alaska's 44-year dividend, Norway's $1.8T fund, and Connecticut Baby Bonds prove every citizen can own shares in abundance.",
+      slug: "scarcity-mindset-to-abundance-trust",
+    },
+  ];
+
+  const UNFREEZE_CARDS = [
+    {
+      tag: "🇳🇴🇺🇸 CITIZEN WEALTH COMMONS",
+      metric: "44 Yrs Proven",
+      title: "Alaska, Norway & Connecticut Citizen Funds",
+      frozen: "“Automation and resource wealth inevitably flow to billionaires while workers fight over crumbs.”",
+      tuesday: "Conservative Alaska has mailed annual resource dividends since 1982, Norway holds ~$320,000 per citizen, and Connecticut's Baby Bonds endow every child born in poverty.",
+      multiplier: "Sovereign compute & clean-energy equity funds turn AI and robotic productivity directly into household capital dividends.",
+      slug: "universal-capital-dividends",
+    },
+    {
+      tag: "🇪🇪 ZERO-BUREAUCRACY STATE",
+      metric: "99% Online • 3 Min",
+      title: "Estonia's Once-Only Digital Government",
+      frozen: "“Government permits, taxes, and benefits will always mean forms in triplicate and six-month lines.”",
+      tuesday: "Estonia's open X-Road rails outlaw agencies asking citizens for the same fact twice—delivering 3-minute taxes, citizen-owned health audit logs, and 2% of GDP saved every year.",
+      multiplier: "Cryptographic agentic workflows + 48-hour physics permit twins slash green housing and grid build times from years to days.",
+      slug: "forty-eight-hour-governance",
+    },
+    {
+      tag: "🧬 COMPASSIONATE NEURO-MEDICINE",
+      metric: "-40% Craving Risk",
+      title: "GLP-1 & Focused-Ultrasound Craving Resets",
+      frozen: "“Addiction is a permanent moral failure punishable only by prison cells or lifelong relapse.”",
+      tuesday: "Large real-world cohorts show GLP-1 therapies quiet alcohol, nicotine, and opioid reward loops alongside metabolic illness, removing shame from recovery.",
+      multiplier: "Paired with Finland-style Housing First villages, biological craving resets heal the street crisis at lower cost than shelters and jails.",
+      slug: "craving-reset-mental-health",
+    },
+    {
+      tag: "🇳🇱 BOSS-FREE NEIGHBORHOOD CARE",
+      metric: "15,000 Nurses",
+      title: "Dutch Buurtzorg Autonomous Care Teams",
+      frozen: "“Modern healthcare requires armies of middle managers, minute-by-minute billing codes, and 7-minute visits.”",
+      tuesday: "15,000 Dutch nurses operate in self-managing 12-person neighborhood teams with a tiny ~50-person back office—cutting total per-patient costs ~40% with #1 satisfaction.",
+      multiplier: "Ambient clinical AI scribes eliminate the last 15% of charting so human nurses spend 100% of their time over coffee with elders.",
+      slug: "buurtzorg-autonomous-neighborhood-care",
+    },
+    {
+      tag: "🇮🇸 BELONGING OVER ISOLATION",
+      metric: "42% → 5% Youth Shift",
+      title: "Iceland's Planet Youth Leisure-Card Pact",
+      frozen: "“Teen anxiety, screen isolation, and substance abuse are irreversible side effects of modernity.”",
+      tuesday: "Reykjavik gave every child a universal ~$500/yr club voucher for music, martial arts, and soccer plus parent curfews—cutting teen drunkenness from 42% to ~5%.",
+      multiplier: "2-hour AI morning mastery frees school afternoons for real-world sports, maker guilds, and phone-free neighborhood belonging.",
+      slug: "iceland-planet-youth-belonging",
+    },
+    {
+      tag: "🇺🇸 PENNIES-ON-THE-DOLLAR JUBILEE",
+      metric: "$4B+ Wiped in NC",
+      title: "Municipal & State Medical Debt Abolition",
+      frozen: "“Unpaid hospital bills must hound sick working families into collections for decades.”",
+      tuesday: "Cook County, Toledo, NYC, and North Carolina's 99-hospital pact bought and erased billions in medical debt for pennies on the dollar—no forms required.",
+      multiplier: "Lifting the 13-IQ-point scarcity bandwidth tax restores family credit and trust while billing-free preventative care stops new debt at the root.",
+      slug: "medical-debt-abolition-pools",
+    },
+  ];
+
+  function renderSharedReality() {
+    if (realitySurplusPanelEl) {
+      const renderRows = (list, amberBadge) =>
+        list
+          .map((row) => {
+            const item = itemsBySlug.get(row.slug);
+            const href = item ? `#${item.id}?mode=report` : "#atlas-directory";
+            return `
+              <div class="surplus-row">
+                <div class="surplus-row-top">
+                  <a href="${href}" class="surplus-row-name">${escapeHtml(row.name)} →</a>
+                  <span class="surplus-row-badge ${amberBadge ? "amber" : ""}">${escapeHtml(row.badge)}</span>
+                </div>
+                <p class="surplus-row-desc">${escapeHtml(row.desc)}</p>
+              </div>
+            `;
+          })
+          .join("");
+
+      realitySurplusPanelEl.innerHTML = `
+        <article class="reality-col-card abundance-col">
+          <span class="reality-col-kicker" style="color:var(--accent-emerald);">🌱 ALREADY IN OUR SHARED REALITY</span>
+          <h3 class="reality-col-title">The Unmeasured Consumer-Surplus Boom</h3>
+          <p class="reality-col-sub">Because GDP measures only what you pay for, when technology makes miracles nearly free, they vanish from headlines even as they enrich daily life:</p>
+          <div class="surplus-list">${renderRows(HIDDEN_ABUNDANCE_GAINS, false)}</div>
+        </article>
+        <article class="reality-col-card squeeze-col">
+          <span class="reality-col-kicker" style="color:var(--accent-amber);">🔓 WHY ESSENTIALS STILL SQUEEZE—AND THE FIX</span>
+          <h3 class="reality-col-title">Moving Housing, Care &amp; Power onto the Abundance Curve</h3>
+          <p class="reality-col-sub">Rent, healthcare, and utilities hurt because frozen 20th-century conventions block supply. Cheap energy + automation + proven civic rules unfreeze them:</p>
+          <div class="surplus-list">${renderRows(FROZEN_BOTTLENECK_FIXES, true)}</div>
+        </article>
+      `;
+    }
+
+    if (realityUnfreezePanelEl) {
+      realityUnfreezePanelEl.innerHTML = UNFREEZE_CARDS.map((c) => {
+        const item = itemsBySlug.get(c.slug);
+        const href = item ? `#${item.id}?mode=report` : "#atlas-directory";
+        return `
+          <article class="unfreeze-card">
+            <div>
+              <div class="unfreeze-head">
+                <span class="section-kicker" style="margin:0;">${escapeHtml(c.tag)}</span>
+                <span class="metric-chip">${escapeHtml(c.metric)}</span>
+              </div>
+              <h3 class="unfreeze-title">${escapeHtml(c.title)}</h3>
+            </div>
+            <div class="unfreeze-beats">
+              <div class="unfreeze-beat frozen">
+                <span class="unfreeze-beat-lbl" style="color:var(--accent-rose);">😒 Frozen Assumption</span>
+                ${escapeHtml(c.frozen)}
+              </div>
+              <div class="unfreeze-beat tuesday">
+                <span class="unfreeze-beat-lbl" style="color:var(--accent-emerald);">🌍 Already Tuesday Morning</span>
+                ${escapeHtml(c.tuesday)}
+              </div>
+              <div class="unfreeze-beat multiplier">
+                <span class="unfreeze-beat-lbl" style="color:var(--accent-amber);">⚡ Energy &amp; Automation Multiplier</span>
+                ${escapeHtml(c.multiplier)}
+              </div>
+            </div>
+            <div>
+              <a href="${href}" class="card-btn primary">Explore Full Blueprint →</a>
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+  }
+
+  document.querySelectorAll("[data-reality-tab]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const target = btn.dataset.realityTab;
+      document.querySelectorAll("[data-reality-tab]").forEach((b) => {
+        const active = b.dataset.realityTab === target;
+        b.classList.toggle("active", active);
+        b.setAttribute("aria-pressed", String(active));
+      });
+      if (realitySurplusPanelEl) realitySurplusPanelEl.hidden = target !== "surplus";
+      if (realityUnfreezePanelEl) realityUnfreezePanelEl.hidden = target !== "unfreeze";
+    });
+  });
+
   const MYTH_CARDS = [
     {
       myth: "“Commercial fusion is 30 years away—and always will be.”",
@@ -525,7 +828,25 @@
   // Synergy Reactor Data
   const SYNERGY_RECIPES = [
     {
-      kicker: "SYNERGY 01 // DESERT TO GARDEN",
+      kicker: "SYNERGY 01 // HEALING THE SCARCITY MINDSET",
+      name: "Near-Free Energy × Automation × Citizen Equity Unfreezes Society",
+      inputs: [
+        { label: "⚡ $0.003/kWh Clean Energy", slug: "fusion-power" },
+        { label: "🤖 Physical & Cognitive Automation", slug: "general-purpose-humanoids" },
+        { label: "🤝 Alaska/Norway Citizen Equity Funds", slug: "universal-capital-dividends" },
+      ],
+      resultTitle: "Zero-Sum Tribal Fear Dissolves into High-Trust Civic Generosity",
+      resultDesc:
+        "Scarcity taxes human bandwidth by ~13 IQ points and fuels zero-sum politics. When abundant clean power and robotics collapse essential living costs while universal capital funds give every household ownership in automation, changing frozen 'always been this way' conventions becomes politically effortless.",
+      slugs: [
+        "scarcity-mindset-to-abundance-trust",
+        "hidden-consumer-surplus-abundance",
+        "universal-capital-dividends",
+        "fusion-power",
+      ],
+    },
+    {
+      kicker: "SYNERGY 02 // DESERT TO GARDEN",
       name: "Continental Freshwater Rivers & Billion-Hectare Rewilding",
       inputs: [
         { label: "⚡ $0.003/kWh Fusion & 35.5% Solar", slug: "fusion-power" },
@@ -630,7 +951,7 @@
     synergyRecipesEl.innerHTML = SYNERGY_RECIPES.map((r, i) => {
       const active = i === state.activeSynergyIdx;
       return `
-        <button class="synergy-recipe-btn ${active ? "active" : ""}" type="button" role="tab" aria-selected="${active}" data-syn-idx="${i}">
+        <button class="synergy-recipe-btn ${active ? "active" : ""}" type="button" aria-pressed="${active}" data-syn-idx="${i}">
           <span class="recipe-kicker">${escapeHtml(r.kicker)}</span>
           <span class="recipe-name">${escapeHtml(r.name)}</span>
         </button>
@@ -784,7 +1105,9 @@
     budgetBarsGridEl.innerHTML = rowsHtml;
 
     document.querySelectorAll(".preset-btn").forEach((btn) => {
-      btn.classList.toggle("active", Number(btn.dataset.year) === state.budgetYear);
+      const active = Number(btn.dataset.year) === state.budgetYear;
+      btn.classList.toggle("active", active);
+      btn.setAttribute("aria-pressed", String(active));
     });
   }
 
@@ -804,20 +1127,20 @@
   // Voices & Human Stories
   function renderVoicesAndStories() {
     if (!voicesQuotesPanelEl || !voicesStoriesPanelEl) return;
-    // Curate 12 standout quotes across all 6 pillars (including Nov 2026 breakthroughs)
+    // Curate 12 standout quotes across humane conventions & SOTA engines
     const featuredSlugs = [
+      "scarcity-mindset-to-abundance-trust",
+      "hidden-consumer-surplus-abundance",
+      "buurtzorg-autonomous-neighborhood-care",
+      "iceland-planet-youth-belonging",
       "fusion-power",
       "symbiotic-civic-data-centers",
-      "thermodynamic-computing-tsus",
-      "lidar-agent-citizen-archaeology",
-      "alphagenome2-cellstate-genomics",
-      "invivo-crispr-cures",
+      "craving-reset-mental-health",
+      "universal-capital-dividends",
       "empirical-ai-economics-telemetry",
       "ending-homelessness-villages",
       "bridging-consensus-trust",
-      "rubin-citizen-sky-patrol",
-      "vesuvius-scroll-ai-papyrology",
-      "cynicism-to-agency",
+      "lidar-agent-citizen-archaeology",
     ];
     const quoteItems = featuredSlugs.map((s) => itemsBySlug.get(s)).filter(Boolean);
 
@@ -840,17 +1163,17 @@
       .join("");
 
     const storySlugs = [
+      "buurtzorg-autonomous-neighborhood-care",
+      "medical-debt-abolition-pools",
+      "iceland-planet-youth-belonging",
+      "bipartisan-yimby-parking-liberation",
+      "hidden-consumer-surplus-abundance",
       "fusion-power",
       "symbiotic-civic-data-centers",
+      "craving-reset-mental-health",
+      "forty-eight-hour-governance",
+      "universal-capital-dividends",
       "lidar-agent-citizen-archaeology",
-      "vesuvius-scroll-ai-papyrology",
-      "alphagenome2-cellstate-genomics",
-      "organ-bioprinting-bionics",
-      "abundant-beautiful-housing",
-      "empirical-ai-economics-telemetry",
-      "two-sigma-guild-education",
-      "earth-digital-twin-canopy",
-      "rubin-citizen-sky-patrol",
       "cost-of-living-collapse",
     ];
     const storyItems = storySlugs.map((s) => itemsBySlug.get(s)).filter(Boolean);
@@ -879,7 +1202,7 @@
       document.querySelectorAll("[data-voice-tab]").forEach((b) => {
         const active = b.dataset.voiceTab === target;
         b.classList.toggle("active", active);
-        b.setAttribute("aria-selected", String(active));
+        b.setAttribute("aria-pressed", String(active));
       });
       if (voicesQuotesPanelEl) voicesQuotesPanelEl.hidden = target !== "quotes";
       if (voicesStoriesPanelEl) voicesStoriesPanelEl.hidden = target !== "stories";
@@ -889,12 +1212,60 @@
   // Global Proof Atlas
   const GLOBAL_PROOFS = [
     {
+      place: "🇳🇴 Norway, Alaska & CT",
+      model: "Universal Citizen Wealth & Baby Bonds",
+      fact: "Norway's $1.8T Sovereign Fund (~$320k/citizen), conservative Alaska's 44-year Permanent Fund Dividend, and Connecticut's Baby Bonds prove capital commons enrich every family.",
+      slug: "universal-capital-dividends",
+      sourceLabel: "NBIM & Alaska PFD",
+      sourceUrl: "https://www.nbim.no/",
+    },
+    {
+      place: "🇪🇪 Estonia",
+      model: "X-Road 99% Digital Once-Only State",
+      fact: "99% of public services online 24/7, 3-minute tax filing, citizen-owned medical audit logs, and 2% of GDP saved annually in eliminated paper bureaucracy.",
+      slug: "forty-eight-hour-governance",
+      sourceLabel: "e-Estonia X-Road",
+      sourceUrl: "https://e-estonia.com/solutions/interoperability-services/x-road/",
+    },
+    {
+      place: "🇳🇱 Netherlands",
+      model: "Buurtzorg 15,000 Boss-Free Nurses",
+      fact: "15,000 neighborhood nurses work in autonomous 12-person teams with zero middle managers—cutting per-patient care costs ~40% while earning #1 patient and staff joy.",
+      slug: "buurtzorg-autonomous-neighborhood-care",
+      sourceLabel: "Buurtzorg Nederland",
+      sourceUrl: "https://www.buurtzorg.com/",
+    },
+    {
+      place: "🇮🇸 Reykjavik, Iceland",
+      model: "Planet Youth Belonging Pact (42% → 5%)",
+      fact: "Universal ~$500/yr after-school club Leisure Cards plus neighborhood parent pacts slashed teen drunkenness from 42% to ~5%—now replicated across 35+ countries.",
+      slug: "iceland-planet-youth-belonging",
+      sourceLabel: "Planet Youth",
+      sourceUrl: "https://planetyouth.org/",
+    },
+    {
+      place: "🇺🇸 North Carolina & Cook County",
+      model: "1¢-on-the-Dollar Medical Debt Abolition",
+      fact: "Cook County, Toledo, NYC, and North Carolina's 99-hospital pact wiped out billions in past-due medical bills for working families at pennies on the dollar with zero forms.",
+      slug: "medical-debt-abolition-pools",
+      sourceLabel: "Undue Medical Debt",
+      sourceUrl: "https://unduemedicaldebt.org/",
+    },
+    {
       place: "🇦🇹 Vienna, Austria",
       model: "60% Social & Co-Op Housing",
       fact: "Over 60% of residents live in architecturally stunning municipal or limited-profit apartments with rooftop pools and nurseries—keeping inner-city rents ~half of London or Dublin.",
       slug: "abundant-beautiful-housing",
       sourceLabel: "Wiener Wohnen",
       sourceUrl: "https://www.wienerwohnen.at/",
+    },
+    {
+      place: "🇺🇸 Austin & Montana",
+      model: "Bipartisan Zoning & Parking Liberation",
+      fact: "Abolishing 1950s parking mandates and legalizing abundant starter homes drove Austin real rents down 14%–22% and sparked the bipartisan 'Montana Miracle' housing boom.",
+      slug: "bipartisan-yimby-parking-liberation",
+      sourceLabel: "Pew Housing Reform",
+      sourceUrl: "https://www.pewtrusts.org/en/topics/housing",
     },
     {
       place: "🇸🇬 Singapore",
@@ -913,28 +1284,12 @@
       sourceUrl: "https://ysaatio.fi/en/housing-first/",
     },
     {
-      place: "🇪🇪 Estonia",
-      model: "X-Road 99% Digital State",
-      fact: "99% of public services online 24/7, 3-minute tax filing, citizen-owned medical logs, and 2% of GDP saved annually in eliminated paper bureaucracy.",
-      slug: "forty-eight-hour-governance",
-      sourceLabel: "e-Estonia X-Road",
-      sourceUrl: "https://e-estonia.com/solutions/interoperability-services/x-road/",
-    },
-    {
       place: "🇹🇼 Taiwan",
       model: "vTaiwan & Polis Consensus",
       fact: "Replaced outrage-driven comment threads with Polis bridging-consensus maps—turning 26+ polarized tech & civic disputes into >80% cross-party legislation.",
       slug: "bridging-consensus-trust",
       sourceLabel: "vTaiwan Official",
       sourceUrl: "https://info.vtaiwan.tw/",
-    },
-    {
-      place: "🇳🇴 Norway & Alaska",
-      model: "Universal Citizen Wealth Dividends",
-      fact: "Norway's $1.8T Sovereign Fund (~$320k per citizen) and Alaska's 44-year Permanent Fund Dividend prove resource & capital commons can enrich every household.",
-      slug: "universal-capital-dividends",
-      sourceLabel: "NBIM Sovereign Fund",
-      sourceUrl: "https://www.nbim.no/",
     },
     {
       place: "🇯🇵 Tokyo, Japan",
@@ -975,14 +1330,6 @@
       slug: "symbiotic-civic-data-centers",
       sourceLabel: "Fortum District Heat",
       sourceUrl: "https://www.fortum.com/",
-    },
-    {
-      place: "🇮🇪 Ireland & 🇫🇷 Paris",
-      model: "Sortition Citizens' Assemblies",
-      fact: "Representative everyday citizens drawn by civic lottery deliberate with domain scientists—breaking decades-long partisan deadlocks and turning city streets into green school plazas.",
-      slug: "sortition-citizens-assemblies",
-      sourceLabel: "Ireland Citizens' Assembly",
-      sourceUrl: "https://citizensassembly.ie/",
     },
   ];
 
@@ -1171,19 +1518,28 @@
     }
   }
 
+  // Also number SYNERGY_RECIPES kickers cleanly 01..07
+  SYNERGY_RECIPES.forEach((r, idx) => {
+    r.kicker = r.kicker.replace(/^SYNERGY \d+/, `SYNERGY 0${idx + 1}`);
+  });
+
   // ==================== 7. DIRECTORY & FILTERING ====================
   function getFilteredItems() {
     const q = state.searchQuery.trim().toLowerCase();
     return catalog.items.filter((item) => {
       if (state.pillarFilter !== "all" && item.pillarId !== state.pillarFilter) return false;
+      if (state.lensFilter === "conventions" && (!item.isConventionBreaker || item.isDeepLab)) return false;
+      if (state.lensFilter === "abundance" && (item.isConventionBreaker || item.isDeepLab)) return false;
       if (state.lensFilter === "new" && !item.isNewInCarbon) return false;
       if (state.lensFilter === "urgent" && !item.isUrgentSocial) return false;
+      if (state.lensFilter === "deeplab" && !item.isDeepLab) return false;
       if (!q) return true;
       return (
         item.title.toLowerCase().includes(q) ||
         item.tagline.toLowerCase().includes(q) ||
         item.cynicBelief.toLowerCase().includes(q) ||
         item.breakthroughCounter.toLowerCase().includes(q) ||
+        item.socialNormShift.toLowerCase().includes(q) ||
         item.quote.author.toLowerCase().includes(q) ||
         item.quote.text.toLowerCase().includes(q) ||
         item.companiesAndLabs.join(" ").toLowerCase().includes(q) ||
@@ -1203,7 +1559,11 @@
         const linksHtml = pItems
           .map((item) => {
             const isActive = item.id === state.activeItemId;
-            const badge = item.isNewInCarbon
+            const badge = item.isDeepLab
+              ? `<span class="mini-tag mini-lab">LAB</span>`
+              : item.isConventionBreaker
+              ? `<span class="mini-tag mini-conv">NORM</span>`
+              : item.isNewInCarbon
               ? `<span class="mini-tag mini-new">NEW</span>`
               : item.isUrgentSocial
               ? `<span class="mini-tag mini-urgent">TRIAGE</span>`
@@ -1257,12 +1617,17 @@
     // Hide editorial home modules when user types a live search query so results appear immediately at top
     const hideEditorial = state.searchQuery.trim().length > 1;
     homeViewEl?.classList.toggle("searching", hideEditorial);
-    ["mythbuster-section", "synergy-section", "budget-section", "voices-section", "global-section"].forEach(
-      (secId) => {
-        const el = document.getElementById(secId);
-        if (el) el.hidden = hideEditorial;
-      }
-    );
+    [
+      "shared-reality-section",
+      "mythbuster-section",
+      "synergy-section",
+      "budget-section",
+      "voices-section",
+      "global-section",
+    ].forEach((secId) => {
+      const el = document.getElementById(secId);
+      if (el) el.hidden = hideEditorial;
+    });
 
     const sectionsHtml = catalog.pillars
       .map((pillar) => {
@@ -1271,12 +1636,16 @@
 
         const cardsHtml = pItems
           .map((item) => {
-            const newChip = item.isNewInCarbon
+            const newChip = item.isDeepLab
+              ? `<span class="mini-tag mini-lab">🔬 DEEP LAB</span>`
+              : item.isConventionBreaker
+              ? `<span class="mini-tag mini-conv">🤝 CONVENTION</span>`
+              : item.isNewInCarbon
               ? `<span class="mini-tag mini-new">✨ NEW SOTA</span>`
               : item.isUrgentSocial
               ? `<span class="mini-tag mini-urgent">🚨 TRIAGE</span>`
               : "";
-            const orgsHtml = renderCompanyLinkPills(item, 3);
+            const orgsHtml = renderCompactProofPills(item, 3);
 
             return `
               <article class="topic-card">
@@ -1318,7 +1687,7 @@
 
     catalogSectionsEl.innerHTML =
       sectionsHtml ||
-      `<div class="budget-simulator-card"><h3>No pathways matched your search.</h3><p>Try clearing filters or searching for terms like <code>AlphaGenome</code>, <code>Extropic</code>, <code>Maya LiDAR</code>, <code>Chatterji</code>, <code>fusion</code>, or <code>Vienna</code>.</p></div>`;
+      `<div class="budget-simulator-card"><h3>No pathways matched your search.</h3><p>Try clearing filters or searching for terms like <code>Buurtzorg</code>, <code>Planet Youth</code>, <code>consumer surplus</code>, <code>Alaska</code>, <code>Estonia</code>, <code>GLP-1</code>, or <code>fusion</code>.</p></div>`;
   }
 
   // ==================== 8. DETAIL READER & INFOGRAPHIC DOSSIER ====================
@@ -1497,7 +1866,7 @@
     document.querySelectorAll(".mode-tab").forEach((btn) => {
       const isAct = btn.dataset.mode === state.docMode;
       btn.classList.toggle("active", isAct);
-      btn.setAttribute("aria-selected", String(isAct));
+      btn.setAttribute("aria-pressed", String(isAct));
     });
 
     readerLayoutEl.classList.remove("split-mode", "infographic-only");
@@ -1552,12 +1921,15 @@
 
     const updateDOM = () => {
       if (state.activeItemId && itemsById.has(state.activeItemId)) {
+        const currentItem = itemsById.get(state.activeItemId);
+        document.title = `${currentItem.title} | OneOfMany Carbon Edition`;
         homeViewEl.hidden = true;
         detailViewEl.hidden = false;
         renderDetailContent();
         window.scrollTo({ top: 0, behavior: "instant" });
       } else {
         state.activeItemId = null;
+        document.title = BASE_DOC_TITLE;
         detailViewEl.hidden = true;
         homeViewEl.hidden = false;
         renderHomeCatalog();
@@ -1595,6 +1967,7 @@
 
   const HOME_SECTION_ANCHORS = new Set([
     "hero-anchor",
+    "shared-reality-section",
     "mythbuster-section",
     "synergy-section",
     "budget-section",
@@ -1661,7 +2034,9 @@
     btn.addEventListener("click", () => {
       state.pillarFilter = btn.dataset.pillar;
       document.querySelectorAll(".pillar-chip").forEach((b) => {
-        b.classList.toggle("active", b.dataset.pillar === state.pillarFilter);
+        const active = b.dataset.pillar === state.pillarFilter;
+        b.classList.toggle("active", active);
+        b.setAttribute("aria-pressed", String(active));
       });
       renderSidebar();
       if (state.activeItemId) {
@@ -1676,7 +2051,9 @@
     btn.addEventListener("click", () => {
       state.lensFilter = btn.dataset.lens;
       document.querySelectorAll(".lens-btn").forEach((b) => {
-        b.classList.toggle("active", b.dataset.lens === state.lensFilter);
+        const active = b.dataset.lens === state.lensFilter;
+        b.classList.toggle("active", active);
+        b.setAttribute("aria-pressed", String(active));
       });
       renderSidebar();
       if (state.activeItemId) {
@@ -1703,10 +2080,14 @@
     state.lensFilter = "all";
     if (globalSearchInput) globalSearchInput.value = "";
     document.querySelectorAll(".pillar-chip").forEach((b) => {
-      b.classList.toggle("active", b.dataset.pillar === "all");
+      const active = b.dataset.pillar === "all";
+      b.classList.toggle("active", active);
+      b.setAttribute("aria-pressed", String(active));
     });
     document.querySelectorAll(".lens-btn").forEach((b) => {
-      b.classList.toggle("active", b.dataset.lens === "all");
+      const active = b.dataset.lens === "all";
+      b.classList.toggle("active", active);
+      b.setAttribute("aria-pressed", String(active));
     });
     renderSidebar();
     renderHomeCatalog();
@@ -1770,6 +2151,7 @@
 
   // ==================== 11. BOOTSTRAP ====================
   setSidebarOpen(false);
+  renderSharedReality();
   renderMythBusters();
   renderSynergyReactor();
   renderBudgetSimulator();

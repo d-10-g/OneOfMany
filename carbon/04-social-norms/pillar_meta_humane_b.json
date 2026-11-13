@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "bipartisan-yimby-parking-liberation",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/bipartisan-yimby-parking-liberation",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Unfreezing the 1970s Street: How Austin, Minneapolis & the \"Montana Miracle\" Proved Building Drops Rents 18%",
+    "tagline": "Ending arbitrary $60,000 parking-stall mandates, single-stair bans, and 1970s lot freezes—uniting Texas, Minnesota, and Montana reformers with mass-timber robotics to bring back $135,000 starter homes.",
+    "cynicBelief": "Runaway $2,500 rents and four-lane asphalt strip malls are just inevitable laws of modern capitalism—and building new apartments only invites luxury gentrification that raises neighborhood prices even faster.",
+    "breakthroughCounter": "Almost every U.S. neighborhood was legally frozen between 1950 and 1978 by arbitrary parking minimums ($30,000–$75,000 per concrete stall), single-stair bans, and duplex prohibitions. When Minneapolis (2040 Plan), Austin (parking repeal + HOME 3-homes-per-lot), and Republican-led Montana (2023 bipartisan duplex/ADU legalization) unfroze housing supply, Austin rents dropped 14%–22% in real terms and Minneapolis held 6-year rent growth to ~1% while median wages climbed over 20%.",
+    "socialNormShift": "Cross-partisan coalitions of property-rights conservatives, climate urbanists, carpenters, and Habitat for Humanity abolish minimum parking mandates, legalize 6-story single-stair courtyard buildings and backyard cottages by-right, and pair flexible Tokyo-style zoning with factory mass-timber starter homes.",
+    "humanStory": {
+      "protagonist": "Elena Reyes (29, NICU Nurse & Fiddler) & Caleb Miller (32, HVAC & Mass-Timber Carpenter)",
+      "location": "South Austin, Texas & Kalispell, Montana",
+      "snippet": "After Austin repealed parking minimums and legalized three starter homes per lot, Elena's apartment rent fell $310/month at renewal before she bought a $168,000 sunlit mass-timber courtyard townhome on a former 18-car asphalt lot—while in Montana, Caleb built a by-right backyard cottage for his widowed mom in six weeks with zero zoning lawsuits."
+    },
+    "quote": {
+      "text": "Minimum parking requirements subsidize cars, punish people who cannot afford cars, drive up the cost of every apartment, and pave over the very neighborhoods people love.",
+      "author": "Prof. Donald Shoup",
+      "role": "Distinguished Research Professor of Urban Planning, UCLA & Author of The High Cost of Free Parking",
+      "url": "https://luskin.ucla.edu/person/donald-shoup"
+    },
+    "companiesAndLabs": [
+      "Parking Reform Network (National Mandate Abolition Map)",
+      "Pew Charitable Trusts Housing Policy Initiative",
+      "Frontier Institute (Montana Miracle Coalition)",
+      "Sightline Institute (Single-Stair & Middle Housing Research)",
+      "City of Austin HOME Initiative & Development Services",
+      "YIMBY Action & Cross-Partisan State Chapters"
+    ],
+    "globalPrecedents": [
+      "Austin, TX Parking Repeal + HOME 3-Lot Reform: -14% to -22% Real Rent Drop (2023–2026)",
+      "Minneapolis 2040 Plan & Parking Abolition: ~1% Cumulative Rent Growth vs. +31% US (Pew Audit)",
+      "The Montana Miracle (SB 323, SB 528, SB 382): Bipartisan Statewide Duplex, ADU & By-Right Reform",
+      "Tokyo National 12-Zone Flexible By-Right Housing Law & Washington SB 5491 6-Story Single-Stair Act"
+    ],
+    "synergyLinks": [
+      "abundant-beautiful-housing",
+      "community-land-trusts-permanence",
+      "autonomous-ground-mobility",
+      "forty-eight-hour-governance"
+    ],
+    "infographic": {
+      "headlineMetric": "-18% Real Rent",
+      "headlineLabel": "Verified Austin Rent Drop After Supply & Parking Reform",
+      "unit": "Added Asphalt Mandate & Regulatory Cost Per Starter Home ($ USD)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 1978,
+          "label": "Peak Downzoning Freeze: 2-Stall Mandate + Duplex & Single-Stair Bans",
+          "value": 95000,
+          "display": "$95k red-tape tax"
+        },
+        {
+          "year": 2020,
+          "label": "Minneapolis 2040 + Early California/Oregon ADU Legalization",
+          "value": 62000,
+          "display": "$62k mandate drag"
+        },
+        {
+          "year": 2026,
+          "label": "Austin HOME + Montana Miracle + WA Single-Stair + 80+ Parking Repeals",
+          "value": 24000,
+          "display": "$24k soft cost"
+        },
+        {
+          "year": 2033,
+          "label": "By-Right Courtyard Timber + Autonomous Pods + 48-Hr Digital Permits",
+          "value": 2500,
+          "display": "$2.5k stamp fee"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Hidden Parking Stall Tax",
+          "value": "$30k–$75k",
+          "detail": "Cost per mandated underground or structured stall forced onto renters"
+        },
+        {
+          "label": "Austin Real Rent Relief",
+          "value": "-14% to -22%",
+          "detail": "Verified 2023–2026 decline from peak after ~50,000 permitted homes"
+        },
+        {
+          "label": "Minneapolis 6-Yr Rent",
+          "value": "+1% Total",
+          "detail": "2017–2023 Pew audit while median wages rose >20% & homelessness fell 12%"
+        },
+        {
+          "label": "Single-Stair Floor Efficiency",
+          "value": "88% Livable",
+          "detail": "European/WA point-access courtyards vs. 68% hotel-hallway boxes"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Parking Reform Network (National Mandate Abolition Map)",
+        "url": "https://parkingreform.org/"
+      },
+      {
+        "name": "Pew Charitable Trusts Housing Policy Initiative",
+        "url": "https://www.pewtrusts.org/en/projects/housing-policy-initiative"
+      },
+      {
+        "name": "Frontier Institute (Montana Miracle Coalition)",
+        "url": "https://frontierinstitute.org/"
+      },
+      {
+        "name": "Sightline Institute (Single-Stair & Middle Housing Research)",
+        "url": "https://www.sightline.org/"
+      },
+      {
+        "name": "City of Austin HOME Initiative & Development Services",
+        "url": "https://www.austintexas.gov/department/home-initiative"
+      },
+      {
+        "name": "YIMBY Action & Cross-Partisan State Chapters",
+        "url": "https://yimbyaction.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Austin, TX Parking Repeal + HOME 3-Lot Reform: -14% to -22% Real Rent Drop (2023–2026)",
+        "url": "https://www.austintexas.gov/department/home-initiative"
+      },
+      {
+        "name": "Minneapolis 2040 Plan & Parking Abolition: ~1% Cumulative Rent Growth vs. +31% US (Pew Audit)",
+        "url": "https://www.pewtrusts.org/en/research-and-analysis/articles/2024/01/04/minneapolis-land-use-reforms-offer-a-blueprint-for-housing-affordability"
+      },
+      {
+        "name": "The Montana Miracle (SB 323, SB 528, SB 382): Bipartisan Statewide Duplex, ADU & By-Right Reform",
+        "url": "https://frontierinstitute.org/"
+      },
+      {
+        "name": "Tokyo National 12-Zone Flexible By-Right Housing Law & Washington SB 5491 6-Story Single-Stair Act",
+        "url": "https://www.sightline.org/"
+      }
+    ]
+  }
+]

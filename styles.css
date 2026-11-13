@@ -58,6 +58,8 @@
   .carbon-hero,
   .topic-card,
   .myth-card,
+  .reality-col-card,
+  .unfreeze-card,
   .synergy-stage-card,
   .budget-simulator-card,
   .quote-card,
@@ -70,11 +72,18 @@
   }
   .pillar-chip.active,
   .lens-btn.active,
+  .hope-lens-pill.active,
+  .sub-tab.active,
   .mode-tab.active,
   .preset-btn.active,
   .synergy-recipe-btn.active {
     outline: 2px solid Highlight;
   }
+}
+
+:where(a:any-link, button, summary, input[type="range"]):focus-visible {
+  outline: 2px solid var(--accent-emerald);
+  outline-offset: 2px;
 }
 
 /* Theme toggle icon visibility branching without JS */
@@ -510,26 +519,27 @@ button, a, summary, input[type="range"] {
 
 .lens-filter-row {
   display: flex;
-  gap: 0.32rem;
+  flex-wrap: wrap;
+  gap: 0.3rem;
 }
 
 .lens-btn {
-  flex: 1;
   border: 1px solid var(--border-subtle);
   background: transparent;
   color: var(--text-secondary);
   font-family: var(--font-sans);
   font-size: 0.72rem;
-  font-weight: 600;
-  padding: 0.28rem 0.45rem;
-  border-radius: 7px;
+  font-weight: 700;
+  padding: 0.28rem 0.54rem;
+  border-radius: 999px;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .lens-btn.active {
-  background: var(--bg-elevated);
-  color: var(--text-primary);
-  border-color: var(--border-strong);
+  background: var(--accent-amber-soft);
+  color: var(--accent-amber);
+  border-color: var(--accent-amber);
 }
 
 .sidebar-nav {
@@ -603,6 +613,16 @@ button, a, summary, input[type="range"] {
 .mini-urgent {
   background: var(--accent-rose-soft);
   color: var(--accent-rose);
+}
+
+.mini-conv {
+  background: var(--accent-sky-soft);
+  color: var(--accent-sky);
+}
+
+.mini-lab {
+  background: var(--accent-violet-soft);
+  color: var(--accent-violet);
 }
 
 .sidebar-footer {
@@ -960,6 +980,178 @@ button, a, summary, input[type="range"] {
 .secondary-pill-btn:hover {
   border-color: var(--accent-emerald);
   color: var(--accent-emerald);
+}
+
+/* ==================== 00. SHARED REALITY & UNFREEZING CONVENTIONS ==================== */
+.reality-surplus-shell {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 23rem), 1fr));
+  gap: 1.15rem;
+}
+
+.reality-col-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 18px;
+  padding: 1.35rem 1.45rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.reality-col-card.abundance-col {
+  border-top: 4px solid var(--accent-emerald);
+}
+
+.reality-col-card.squeeze-col {
+  border-top: 4px solid var(--accent-amber);
+}
+
+.reality-col-kicker {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.reality-col-title {
+  font-family: var(--font-display);
+  font-size: 1.16rem;
+  font-weight: 800;
+  margin: 0 0 0.45rem;
+}
+
+.reality-col-sub {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0 0 0.95rem;
+}
+
+.surplus-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.68rem;
+}
+
+.surplus-row {
+  background: var(--bg-canvas);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 0.78rem 0.92rem;
+}
+
+.surplus-row-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.surplus-row-name {
+  font-weight: 700;
+  font-size: 0.86rem;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.surplus-row-name:hover {
+  color: var(--accent-emerald);
+  text-decoration: underline;
+}
+
+.surplus-row-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.12rem 0.48rem;
+  border-radius: 999px;
+  background: var(--accent-emerald-soft);
+  color: var(--accent-emerald);
+  white-space: nowrap;
+}
+
+.surplus-row-badge.amber {
+  background: var(--accent-amber-soft);
+  color: var(--accent-amber);
+}
+
+.surplus-row-desc {
+  font-size: 0.79rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.unfreeze-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 21.5rem), 1fr));
+  gap: 1rem;
+}
+
+.unfreeze-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 18px;
+  padding: 1.25rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.8rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.unfreeze-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.unfreeze-title {
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 800;
+  margin: 0.35rem 0 0;
+}
+
+.unfreeze-beats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.unfreeze-beat {
+  border-radius: 10px;
+  padding: 0.58rem 0.72rem;
+  font-size: 0.8rem;
+  line-height: 1.48;
+  background: var(--bg-canvas);
+  border-left: 3px solid var(--border-strong);
+}
+
+.unfreeze-beat.frozen {
+  border-left-color: var(--accent-rose);
+}
+
+.unfreeze-beat.tuesday {
+  border-left-color: var(--accent-emerald);
+  background: var(--bg-soft-tint);
+}
+
+.unfreeze-beat.multiplier {
+  border-left-color: var(--accent-amber);
+  background: var(--bg-warm-tint);
+}
+
+.unfreeze-beat-lbl {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.15rem;
 }
 
 /* ==================== 01. MYTH-BUSTER DECK ==================== */
@@ -1664,11 +1856,18 @@ a.org-pill:hover {
   background: var(--bg-soft-tint);
 }
 
-.inline-pillar-bar {
+.directory-filter-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-bottom: 1.35rem;
+}
+
+.inline-pillar-bar,
+.inline-lens-bar {
   display: flex;
   flex-wrap: wrap;
   gap: 0.42rem;
-  margin-bottom: 1.35rem;
 }
 
 .syn-node-link,
@@ -2281,7 +2480,7 @@ a.myth-proof-pill:hover {
 }
 
 .hope-dialog-inner {
-  padding: 1.65rem 1.8rem;
+  padding: 1.35rem 1.55rem;
 }
 
 .hope-dialog-top {
@@ -2289,24 +2488,94 @@ a.myth-proof-pill:hover {
   align-items: center;
   justify-content: space-between;
   gap: 0.65rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.55rem;
+}
+
+.hope-lens-strip {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.15rem;
+}
+
+.hope-lens-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.hope-lens-pill {
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.73rem;
+  font-weight: 700;
+  padding: 0.28rem 0.62rem;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.hope-lens-pill.active {
+  background: var(--accent-emerald-soft);
+  color: var(--accent-emerald);
+  border-color: var(--accent-emerald);
 }
 
 .hope-dialog-title {
   font-family: var(--font-display);
-  font-size: 1.45rem;
+  font-size: 1.36rem;
   font-weight: 800;
-  margin: 0 0 0.85rem;
+  line-height: 1.22;
+  margin: 0 0 0.68rem;
+}
+
+.hope-card-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.62rem;
+}
+
+.hope-card-stack .dossier-box {
+  padding: 0.82rem 0.98rem;
+}
+
+.dossier-box.norm-box {
+  border-left: 4px solid var(--accent-amber);
+  background: var(--bg-warm-tint);
+}
+
+.hope-reality-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.3rem;
+}
+
+.hope-reality-head .dossier-label {
+  margin-bottom: 0;
 }
 
 .hope-dialog-actions {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin-top: 1.35rem;
-  padding-top: 1rem;
+  margin-top: 0.95rem;
+  padding-top: 0.8rem;
   border-top: 1px solid var(--border-subtle);
+}
+
+.hope-deck-progress {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
 }
 
 .carbon-footer {
@@ -2434,10 +2703,11 @@ a.myth-proof-pill:hover {
   .markdown-pane {
     padding: 1.35rem 1.15rem;
   }
-  .inline-pillar-bar {
+  .inline-pillar-bar,
+  .inline-lens-bar {
     flex-wrap: nowrap;
     overflow-x: auto;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.35rem;
   }
   .traj-row {
     grid-template-columns: 110px minmax(0, 1fr) 90px;
@@ -2478,24 +2748,37 @@ a.myth-proof-pill:hover {
     width: min(56vw, 215px);
   }
   .hope-dialog-inner {
-    padding: 1rem 1.05rem;
+    padding: 0.9rem 0.95rem;
   }
   .hope-dialog-top {
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.45rem;
   }
   .hope-dialog-top .hero-btn {
-    padding: 0.52rem 0.95rem;
+    padding: 0.48rem 0.95rem;
     font-size: 0.84rem;
     white-space: nowrap;
   }
+  .hope-lens-strip {
+    margin-bottom: 0.5rem;
+  }
+  .hope-lens-pill {
+    font-size: 0.69rem;
+    padding: 0.24rem 0.52rem;
+  }
   .hope-dialog-title {
-    font-size: 1.25rem;
-    line-height: 1.25;
-    margin: 0 0 0.65rem;
+    font-size: 1.18rem;
+    line-height: 1.22;
+    margin: 0 0 0.52rem;
+  }
+  .hope-card-stack {
+    gap: 0.48rem;
+  }
+  .hope-card-stack .dossier-box {
+    padding: 0.66rem 0.8rem;
   }
   .hope-dialog-actions {
-    margin-top: 1rem;
-    padding-top: 0.8rem;
+    margin-top: 0.72rem;
+    padding-top: 0.65rem;
   }
   .hope-dialog-actions .hero-btn {
     width: 100%;

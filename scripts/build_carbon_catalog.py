@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Builds data/carbon-catalog.js from all 120 Carbon Edition pathways across the 6 pillars,
+Builds data/carbon-catalog.js from all Carbon Edition pathways across the 6 pillars,
 enriching each pathway with its full REPORT.md, STORYBOARD.md, structured infographic
-and human-story metadata, and verified external/internal reference links.
+and human-story metadata, curation lenses (humane conventions vs. abundance engine vs. deep lab),
+and verified external/internal reference links.
 """
 import json
 import re
@@ -11,6 +12,45 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CARBON_DIR = ROOT / "carbon"
+
+DEEP_LAB_SLUGS = {
+    "cuprate-pseudogap-superconductors",
+    "chain-theory-quantum-constants",
+    "altermagnetism-spintronics",
+    "thorium-229-nuclear-clocks",
+    "homochiral-asymmetric-catalysis",
+    "geometric-langlands-unification",
+    "kakeya-hilbert-sixth-proofs",
+    "ai-formal-mathematics",
+    "quantum-logical-simulation",
+    "desi-dynamical-dark-energy",
+    "icecube-neutrino-multimessenger",
+    "ocean-worlds-astrobiology-probes",
+    "lunar-farside-radio-cosmology",
+}
+
+CROSS_PILLAR_CONVENTION_SLUGS = {
+    "symbiotic-civic-data-centers",
+    "agrivoltaics-shaded-harvests",
+    "bidirectional-v2g-virtual-plants",
+    "autonomous-ground-mobility",
+    "local-microfactories",
+    "lidar-agent-citizen-archaeology",
+    "vesuvius-scroll-ai-papyrology",
+    "craving-reset-mental-health",
+    "healthcare-without-billing",
+    "buurtzorg-autonomous-neighborhood-care",
+    "non-opioid-nav18-pain-relief",
+    "citizen-edna-groundwater-atlas",
+    "rubin-citizen-sky-patrol",
+    "cost-of-living-collapse",
+    "cynicism-to-agency",
+    "hidden-consumer-surplus-abundance",
+    "scarcity-mindset-to-abundance-trust",
+    "citizen-science-ai-renaissance",
+    "planetary-civic-infrastructure-pact",
+    "open-empirical-abundance-compass",
+}
 
 PILLARS = [
     {
@@ -23,7 +63,7 @@ PILLARS = [
         "emoji": "⚡",
         "color": "#d97706",
         "darkColor": "#fbbf24",
-        "description": "Turning clean power from a scarce, hunted fuel into a sub-penny technology—via 20-compact fusion, 35.5% tandem solar & agrivoltaics, millimeter-wave deep geothermal, symbiotic civic district-heating data centers, 1-atm solid-state batteries, cuprate superconductors, and desalination rivers.",
+        "description": "Moving toward essentially free clean power to dissolve zero-sum scarcity—via 20T-compact fusion, 35.5% tandem solar & agrivoltaics, everywhere geothermal, symbiotic district-heating data centers, 1-atm solid-state storage, and desalination rivers.",
     },
     {
         "id": "automation-science",
@@ -35,31 +75,37 @@ PILLARS = [
         "emoji": "🤖",
         "color": "#0284c7",
         "darkColor": "#38bdf8",
-        "description": "Extropic thermodynamic chips (Z1), Chain Theory & Thorium-229 nuclear clocks, altermagnetic spintronics, Geometric Langlands & 3D Kakeya proofs, citizen-AI LiDAR & Herculaneum scroll unwrapping, self-driving wet labs, and tactile robotics.",
+        "description": "Physical and cognitive automation freeing human bandwidth: helpful humanoids & tactile robotics, self-driving wet labs, Extropic thermodynamic chips, citizen-AI LiDAR & scroll discovery, car-light green boulevards, and neighborhood Fab-Commons.",
     },
     {
         "id": "bioscience-regeneration",
         "num": "03",
         "dir": "03-bioscience-regeneration",
-        "meta_files": ["pillar_meta.json", "pillar_meta_nov2026.json"],
+        "meta_files": ["pillar_meta.json", "pillar_meta_humane.json", "pillar_meta_nov2026.json"],
         "title": "Bioscience, Medicine & Planetary Regeneration",
         "shortTitle": "Bio & Ecology",
         "emoji": "🧬",
         "color": "#059669",
         "darkColor": "#34d399",
-        "description": "AlphaGenome 2 single-cell non-coding genomics, one-dose in vivo CRISPR & CAR-T autoimmune resets, personalized mRNA cancer vaccines, citizen groundwater eDNA, Nobel MOF water/carbon harvesters, living bioconcrete, and billion-hectare rewilding.",
+        "description": "Biological healing paired with humane care: GLP-1 & non-opioid craving/pain resets, Dutch Buurtzorg zero-boss nursing, Singapore billing-free direct care, one-dose in vivo CRISPR cures, AlphaGenome 2, and solar proteins rewilding a billion hectares.",
     },
     {
         "id": "social-norms",
         "num": "04",
         "dir": "04-social-norms",
-        "meta_files": ["pillar_meta_a.json", "pillar_meta_b.json", "pillar_meta_nov2026.json"],
+        "meta_files": [
+            "pillar_meta_a.json",
+            "pillar_meta_b.json",
+            "pillar_meta_humane_a.json",
+            "pillar_meta_humane_b.json",
+            "pillar_meta_nov2026.json",
+        ],
         "title": "Reimagining Society, Economics & Flourishing",
         "shortTitle": "Society & Norms",
         "emoji": "🤝",
         "color": "#e11d48",
         "darkColor": "#fb7185",
-        "description": "Empirical AI macro-telemetry & GDPval (Chatterji/NBER), privacy-safe Data Clean Rooms, sortition citizens' assemblies, municipal utility & land trusts, Vienna/Singapore/Tokyo abundant housing, Finland Housing First, Taiwan Polis consensus, and Estonia 48-hour governance.",
+        "description": "Unfreezing 'things have always been this way' with proven global receipts: Alaska/Norway/CT citizen funds, Estonia 3-minute governance, Iceland Planet Youth (42%→5%), municipal medical debt abolition, Austin/Montana/Vienna abundant housing, Finland Housing First, and Ronnie Chatterji's NBER AI welfare telemetry.",
     },
     {
         "id": "space-frontier",
@@ -71,19 +117,19 @@ PILLARS = [
         "emoji": "🚀",
         "color": "#7c3aed",
         "darkColor": "#a78bfa",
-        "description": "Going to space to heal and understand the cosmos: Vera C. Rubin citizen sky patrols, DESI + Euclid dynamical dark energy, Nobel IceCube neutrino astronomy, Starship heavy lift, 3-minute orbital wildfire shields, zero-water radiative compute, and Europa/Enceladus ocean probes.",
+        "description": "Going to space to protect and uplift Earth: 3-minute orbital wildfire shields, zero-water space radiative AI compute, GPS hurricane/tsunami sounding, citizen sky patrols, Starship reusable heavy lift, and rainforest-sparing off-Earth metals.",
     },
     {
         "id": "synergy-horizons",
         "num": "06",
         "dir": "06-synergy-horizons",
-        "meta_files": ["pillar_meta.json", "pillar_meta_nov2026.json"],
+        "meta_files": ["pillar_meta.json", "pillar_meta_humane.json", "pillar_meta_nov2026.json"],
         "title": "The Synergy Engine & Human Agency",
         "shortTitle": "Synergies",
         "emoji": "🌈",
         "color": "#0d9488",
         "darkColor": "#2dd4bf",
-        "description": "Where every exponential curve converges: the citizen-AI discovery renaissance, symbiotic civic infrastructure pacts, open empirical abundance economics, thermodynamic-photonic intelligence, the 70% household cost collapse, and the antidote to doomerism.",
+        "description": "How near-free energy and automation heal the zero-sum scarcity mindset: the invisible $35,000 consumer-surplus raise already in our shared reality, the 70% household cost collapse, symbiotic civic infrastructure pacts, and the antidote to doomerism.",
     },
 ]
 
@@ -145,6 +191,15 @@ def build():
             words = len(report_md.split())
             read_mins = max(4, round(words / 230))
 
+            is_deep_lab = bool(entry.get("isDeepLab", slug in DEEP_LAB_SLUGS))
+            is_convention_breaker = bool(
+                entry.get(
+                    "isConventionBreaker",
+                    (pillar["id"] == "social-norms" or slug in CROSS_PILLAR_CONVENTION_SLUGS)
+                    and not is_deep_lab,
+                )
+            )
+
             item_id = f"carbon-{pillar['id']}-{slug}"
             items.append({
                 "id": item_id,
@@ -157,6 +212,8 @@ def build():
                 "folderRel": f"carbon/{pillar['dir']}/{slug}",
                 "isNewInCarbon": bool(entry.get("isNewInCarbon", False)),
                 "isUrgentSocial": bool(entry.get("isUrgentSocial", False)),
+                "isDeepLab": is_deep_lab,
+                "isConventionBreaker": is_convention_breaker,
                 "title": entry["title"],
                 "tagline": entry["tagline"],
                 "heading": h1,
@@ -183,11 +240,13 @@ def build():
     out_dir = ROOT / "data"
     out_dir.mkdir(exist_ok=True)
     payload = {
-        "edition": "Carbon Edition (v2.0)",
+        "edition": "Carbon Edition (v2.1)",
         "generatedAt": str(date.today()),
         "totalPathways": len(items),
         "totalDocuments": len(items) * 2,
         "newSotaPathways": sum(1 for i in items if i["isNewInCarbon"]),
+        "conventionPathways": sum(1 for i in items if i["isConventionBreaker"]),
+        "deepLabPathways": sum(1 for i in items if i["isDeepLab"]),
         "pillars": PILLARS,
         "items": items,
     }
@@ -198,7 +257,9 @@ def build():
     )
     print(
         f"Built data/carbon-catalog.js with {len(items)} Carbon pathways "
-        f"({len(items)*2} Carbon documents, {payload['newSotaPathways']} brand-new SOTA pathways)."
+        f"({len(items)*2} docs: {payload['conventionPathways']} convention-breakers, "
+        f"{len(items) - payload['conventionPathways'] - payload['deepLabPathways']} abundance-engine, "
+        f"{payload['deepLabPathways']} deep-lab)."
     )
 
 

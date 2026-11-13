@@ -1,0 +1,288 @@
+[
+  {
+    "slug": "iceland-planet-youth-belonging",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/iceland-planet-youth-belonging",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Iceland's \"Planet Youth\" Miracle: Slashing Teen Addiction from 42% to 5% Through Belonging, Not Preaching",
+    "tagline": "Replacing failed 'Just Say No' lectures with universal $700/yr municipal Leisure Cards, collective parent pacts, 60-day local school diagnostics, and natural neurochemical mastery.",
+    "cynicBelief": "Teenage binge drinking, vaping, cannabis, and algorithmic dopamine addiction are unstoppable rites of adolescence—scare-tactic assemblies get laughed out of the gym, police curfews breed resentment, and overwhelmed parents cannot fight peer pressure alone.",
+    "breakthroughCounter": "In 1998, Iceland suffered Europe's worst teen substance crisis (42% of 15–16-year-olds drunk in the past month, 23% smoking daily, 17% trying cannabis). Guided by psychologist Dr. Harvey Milkman's natural neurochemical mastery science, sociologist Dr. Inga Dóra Sigfúsdóttir, Jón Sigfússon, and Reykjavik's Mayor, Iceland funded universal municipal Leisure Cards (Frístundakortið, ~$550–$750/yr per child) for professional after-school music, sports, dance, and theater clubs alongside collective neighborhood parent pacts and 60-day school well-being surveys—slashing teen drunkenness from 42% to ~5% and exporting Planet Youth to 35+ countries.",
+    "socialNormShift": "Cities treat adolescent belonging and natural dopamine mastery as universal public infrastructure—pairing unconditional youth Leisure Cards, neighborhood parent outside-hour pacts, and rapid 60-day anonymized school telemetry with shorter-workweek family dinners.",
+    "humanStory": {
+      "protagonist": "Kári Björnsson (15-Year-Old Reykjavik Sound-Stage Bassist) & Saoirse Kelly (16-Year-Old Galway Planet Youth Rower)",
+      "location": "Breiðholt, Reykjavik & Galway, West of Ireland",
+      "snippet": "Instead of drifting through wet bus stops at 4:00 PM scrolling algorithmic feeds or drinking cheap spirits, Kári taps his municipal Frístundakortið card into a warm Breiðholt music and climbing guild four afternoons a week before 6:30 PM family dinner—part of a generation that cut teen drunkenness 88% while turning tiny Iceland into a World Cup and global music powerhouse."
+    },
+    "quote": {
+      "text": "Kids do not become addicted simply to chemicals—they seek neurochemical changes in how they feel. When a community surrounds every teenager with mentored mastery, music, sport, and family warmth, natural highs outcompete artificial drugs almost every time.",
+      "author": "Dr. Harvey Milkman & Jón Sigfússon",
+      "role": "Co-Architects of the Icelandic Prevention Model & Planet Youth Global Network",
+      "url": "https://planetyouth.org/the-icelandic-prevention-model/"
+    },
+    "companiesAndLabs": [
+      "Planet Youth Global Guidance Center (Reykjavik)",
+      "Icelandic Centre for Social Research and Analysis (ICSRA, Reykjavik University)",
+      "City of Reykjavik Leisure Card (Frístundakortið) System",
+      "Planet Youth Western Region Ireland (Galway, Mayo & Roscommon)",
+      "Metropolitan State University of Denver (Dr. Harvey Milkman Natural Highs Lab)",
+      "The Martinsburg Initiative & Appalachian Planet Youth Coalitions (WV)"
+    ],
+    "globalPrecedents": [
+      "Iceland 25-Year Turnaround: Teen Past-Month Drunkenness Cut From 42% (1998) to ~5%",
+      "Daily Teen Smoking Slashed From 23% to ~2% & Cannabis From 17% to ~5% Nationwide",
+      "Reykjavik Universal Frístundakortið (~$550–$750/yr per Child Age 6–18, >80% Club Uptake)",
+      "Planet Youth Replication Across 35+ Countries (Ireland, Scotland, Chile, Spain, Australia & US)"
+    ],
+    "synergyLinks": [
+      "craving-reset-mental-health",
+      "phone-free-childhood-play-hoods",
+      "two-sigma-guild-education",
+      "post-labor-meaning"
+    ],
+    "infographic": {
+      "headlineMetric": "42% -> 5%",
+      "headlineLabel": "Iceland Teen Past-Month Drunkenness Collapse",
+      "unit": "15–16-Year-Olds Reporting Intoxication in Past 30 Days (%)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 1998,
+          "label": "Peak Crisis Era (Unmentored Afternoons & Failed Scare Assemblies)",
+          "value": 42,
+          "display": "42% drunk/month"
+        },
+        {
+          "year": 2007,
+          "label": "Reykjavik Leisure Card Launch + Parent Pacts + 60-Day ICSRA Surveys",
+          "value": 20,
+          "display": "20% drunk/month"
+        },
+        {
+          "year": 2018,
+          "label": "National Club Mastery Culture + World Cup / Indie Music Boom",
+          "value": 6,
+          "display": "6% drunk/month"
+        },
+        {
+          "year": 2026,
+          "label": "35+ Country Planet Youth Standard + Phone-Free Schools & 35-Hr Family Weeks",
+          "value": 5,
+          "display": "5% drunk/month"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Teen Intoxication Drop",
+          "value": "42% to ~5%",
+          "detail": "88% relative reduction among 15–16-year-olds across two decades"
+        },
+        {
+          "label": "Daily Teen Smoking",
+          "value": "23% to ~2%",
+          "detail": "Paired with cannabis dropping from 17% down to ~5% without youth jails"
+        },
+        {
+          "label": "Universal Leisure Card",
+          "value": "~$700 / Yr",
+          "detail": "Unconditional per-child grant (ages 6–18) funding 3–5x/wk mentored clubs"
+        },
+        {
+          "label": "Diagnostic Turnaround",
+          "value": "60 Days",
+          "detail": "Hyperlocal school survey data returned to neighborhood parents & coaches"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Planet Youth Global Guidance Center (Reykjavik)",
+        "url": "https://planetyouth.org/"
+      },
+      {
+        "name": "Icelandic Centre for Social Research and Analysis (ICSRA, Reykjavik University)",
+        "url": "https://en.ru.is/icsra/"
+      },
+      {
+        "name": "City of Reykjavik Leisure Card (Frístundakortið) System",
+        "url": "https://reykjavik.is/en/leisure-card"
+      },
+      {
+        "name": "Planet Youth Western Region Ireland (Galway, Mayo & Roscommon)",
+        "url": "https://planetyouth.ie/"
+      },
+      {
+        "name": "Metropolitan State University of Denver (Dr. Harvey Milkman Natural Highs Lab)",
+        "url": "https://www.msudenver.edu/"
+      },
+      {
+        "name": "The Martinsburg Initiative & Appalachian Planet Youth Coalitions (WV)",
+        "url": "https://themartinsburginitiative.com/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Iceland 25-Year Turnaround: Teen Past-Month Drunkenness Cut From 42% (1998) to ~5%",
+        "url": "https://planetyouth.org/the-icelandic-prevention-model/"
+      },
+      {
+        "name": "Daily Teen Smoking Slashed From 23% to ~2% & Cannabis From 17% to ~5% Nationwide",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6990668/"
+      },
+      {
+        "name": "Reykjavik Universal Frístundakortið (~$550–$750/yr per Child Age 6–18, >80% Club Uptake)",
+        "url": "https://reykjavik.is/en/leisure-card"
+      },
+      {
+        "name": "Planet Youth Replication Across 35+ Countries (Ireland, Scotland, Chile, Spain, Australia & US)",
+        "url": "https://planetyouth.org/about-us/"
+      }
+    ]
+  },
+  {
+    "slug": "medical-debt-abolition-pools",
+    "pillarId": "social-norms",
+    "folderRel": "carbon/04-social-norms/medical-debt-abolition-pools",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "Erasing Billions for Pennies: How Cities, States & Civic Pools Are Abolishing Medical Debt Right Now",
+    "tagline": "Turning predatory 1-cent-on-the-dollar hospital debt markets inside out via civic abolition pools, North Carolina's $4B 99-hospital compact, and upstream billing-free care.",
+    "cynicBelief": "Medical bankruptcy is an untouchable iron law of American life—until gridlocked national politics passes a once-in-a-century healthcare overhaul, local towns, states, and neighbors are powerless to rescue millions of working families hounded over unpaid hospital bills.",
+    "breakthroughCounter": "Former debt-collection executives Craig Antico and Jerry Ashton exposed the industry's open secret: hospitals routinely sell aged unpaid bills on secondary debt markets for less than 1 cent on the dollar, where predatory buyers hound sick families for 100 cents. Founding Undue Medical Debt (formerly RIP Medical Debt, now led by CEO Allison Sesso), they bought and abolished $20B+ in bills for pennies—sparking public buyout pools across Cook County, Toledo, New Orleans, NYC, Connecticut, Arizona, and New Jersey, culminating in North Carolina leveraging federal Medicaid funds so all 99 acute hospitals erased $4 billion in debt back to 2014 for 2 million residents.",
+    "socialNormShift": "Cities, states, and faith/civic pools abolish historical medical debt portfolios at 100-to-1 leverage while banning medical bills from credit reports and mandating automated presumptive charity care plus direct zero-billing prevention upstream.",
+    "humanStory": {
+      "protagonist": "Elena Morales (Toledo Pediatric NICU Mom & Bakery Manager) & Marcus Greene (Charlotte Auto Machinist)",
+      "location": "Toledo, Ohio & Charlotte, North Carolina",
+      "snippet": "After three years of dreading unknown phone numbers over a $19,400 emergency neonatal bill, Elena opens a bright yellow Undue Medical Debt envelope funded by Toledo's municipal pool declaring 100% of her balance abolished tax-free—while in Charlotte, North Carolina's 99-hospital HASP compact wipes out Marcus's 2019 surgical debt automatically and restores his mortgage eligibility overnight."
+    },
+    "quote": {
+      "text": "No one chooses to get sick, be in an accident, or have a baby arrive early. Medical debt is not a moral failing—it is a structural artifact that communities can erase for pennies on the dollar while we fix healthcare at the root.",
+      "author": "Allison Sesso (CEO) & Founders Craig Antico & Jerry Ashton",
+      "role": "Undue Medical Debt (Formerly RIP Medical Debt — $20B+ Abolished)",
+      "url": "https://unduemedicaldebt.org/"
+    },
+    "companiesAndLabs": [
+      "Undue Medical Debt (Formerly RIP Medical Debt — $20B+ Erased)",
+      "North Carolina DHHS Healthcare Access & Stabilization Program (HASP)",
+      "Cook County Medical Debt Relief Initiative (Chicago, IL)",
+      "Dollar For (Automated Hospital Charity-Care Enforcement)",
+      "KFF (Kaiser Family Foundation) Burden of Medical Debt Project",
+      "NBER & Academic Upstream Hospital Debt Policy Evaluators"
+    ],
+    "globalPrecedents": [
+      "North Carolina 99-Hospital Compact: $4 Billion Erased Back to 2014 for 2 Million Residents",
+      "Cook County, Toledo, NYC, New Orleans, CT, AZ & NJ Public Buyout Pools ($100 -> $10,000 Leverage)",
+      "Undue Medical Debt Milestone: $20+ Billion Abolished Across 14+ Million Households Tax-Free",
+      "State Credit-Report Medical Debt Bans (CO, NY, MN, CT, CA, IL, VA & RI)"
+    ],
+    "synergyLinks": [
+      "healthcare-without-billing",
+      "sovereign-debt-jubilee",
+      "invivo-crispr-cures",
+      "zero-cliff-safety-nets"
+    ],
+    "infographic": {
+      "headlineMetric": "$1 -> $100+",
+      "headlineLabel": "Civic Medical Debt Abolition Leverage Ratio",
+      "unit": "Cumulative U.S. Medical Debt Abolished via Civic Pools & Hospital Compacts ($B)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2016,
+          "label": "Early RIP Medical Debt Faith & Donor Drives",
+          "value": 0.3,
+          "display": "$0.3B abolished"
+        },
+        {
+          "year": 2022,
+          "label": "Cook County & Toledo Pioneer Municipal ARPA Buyouts",
+          "value": 8.5,
+          "display": "$8.5B abolished"
+        },
+        {
+          "year": 2026,
+          "label": "Undue $20B+ Milestone + NC $4B / 99-Hospital Medicaid Compact",
+          "value": 26.0,
+          "display": "$26B+ abolished"
+        },
+        {
+          "year": 2031,
+          "label": "50-State Upstream Hospital Compacts + Zero-Billing Direct Care",
+          "value": 140.0,
+          "display": "$140B+ cleared"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Secondary Market Price",
+          "value": "<$0.01 / $1",
+          "detail": "100x+ civic leverage buying distressed debt portfolios directly"
+        },
+        {
+          "label": "North Carolina Compact",
+          "value": "$4B / 2M People",
+          "detail": "100% of 99 eligible hospitals erased low/mid-income debt back to 2014"
+        },
+        {
+          "label": "Undue Civic Abolition",
+          "value": "$20B+ Erased",
+          "detail": "Zero application forms & $0 IRS gift-tax liability for 14M+ families"
+        },
+        {
+          "label": "Credit-Report Shield",
+          "value": "10+ States",
+          "detail": "State statutory bans barring medical bills from credit scores & home liens"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Undue Medical Debt (Formerly RIP Medical Debt — $20B+ Erased)",
+        "url": "https://unduemedicaldebt.org/"
+      },
+      {
+        "name": "North Carolina DHHS Healthcare Access & Stabilization Program (HASP)",
+        "url": "https://www.ncdhhs.gov/medical-debt-relief"
+      },
+      {
+        "name": "Cook County Medical Debt Relief Initiative (Chicago, IL)",
+        "url": "https://www.cookcountyil.gov/service/medical-debt-relief-initiative"
+      },
+      {
+        "name": "Dollar For (Automated Hospital Charity-Care Enforcement)",
+        "url": "https://dollarfor.org/"
+      },
+      {
+        "name": "KFF (Kaiser Family Foundation) Burden of Medical Debt Project",
+        "url": "https://www.kff.org/health-costs/issue-brief/the-burden-of-medical-debt-in-the-united-states/"
+      },
+      {
+        "name": "NBER & Academic Upstream Hospital Debt Policy Evaluators",
+        "url": "https://www.nber.org/papers/w32315"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "North Carolina 99-Hospital Compact: $4 Billion Erased Back to 2014 for 2 Million Residents",
+        "url": "https://www.cms.gov/newsroom/press-releases/cms-approves-north-carolinas-innovative-plan-help-relieve-medical-debt-and-improve-access-care"
+      },
+      {
+        "name": "Cook County, Toledo, NYC, New Orleans, CT, AZ & NJ Public Buyout Pools ($100 -> $10,000 Leverage)",
+        "url": "https://unduemedicaldebt.org/government-partnerships/"
+      },
+      {
+        "name": "Undue Medical Debt Milestone: $20+ Billion Abolished Across 14+ Million Households Tax-Free",
+        "url": "https://unduemedicaldebt.org/"
+      },
+      {
+        "name": "State Credit-Report Medical Debt Bans (CO, NY, MN, CT, CA, IL, VA & RI)",
+        "url": "https://www.commonwealthfund.org/publications/fund-reports/2024/feb/state-protections-against-medical-debt-look-policies-across-us"
+      }
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "buurtzorg-autonomous-neighborhood-care",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/buurtzorg-autonomous-neighborhood-care",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "title": "15,000 Nurses, Zero Bosses: How Dutch \"Buurtzorg\" & Ambient AI Cut Care Costs 40% Through Human Warmth",
+    "tagline": "Replacing stopwatch-timed 6-minute elder-care billing codes and corporate middle management with self-governing 12-nurse neighborhood teams and zero-keyboard ambient voice AI.",
+    "cynicBelief": "Aging populations will inevitably bankrupt healthcare unless giant home-care corporations squeeze nurses onto strict 6-minute task timers, barcode scanners, and layers of compliance managers—making lonely, assembly-line elder care an unavoidable price of efficiency.",
+    "breakthroughCounter": "Founded around a kitchen table in Almelo in 2006 by community nurse Jos de Blok under the motto 'Humanity over bureaucracy,' Buurtzorg Nederland scaled to 15,000+ nurses across ~950 self-managing 12-nurse neighborhood teams with zero middle managers and fewer than 50 back-office staff—using ~50% fewer billed hours, cutting per-patient costs 30%–40% (verified by Ernst & Young and KPMG), slashing emergency hospitalizations by a third, halving nurse sick leave, and winning Dutch Best Employer five times.",
+    "socialNormShift": "Public health systems replace fee-for-minute task fragmentation with holistic neighborhood-team outcomes contracts and on-device ambient clinical voice AI scribes—using automation strictly to erase back-office charting so nurses start every visit over unhurried coffee.",
+    "humanStory": {
+      "protagonist": "Anouk van Dijk (Utrecht Buurtzorg District Nurse) & Hendrik Vermeer (81-Year-Old Widowed Baker)",
+      "location": "Utrecht, Netherlands & Duluth, Minnesota",
+      "snippet": "Instead of three rushed strangers scanning barcodes for six-minute compression-stocking and pill tasks, Anouk sits with Hendrik over Tuesday morning coffee, spots a dizzying diuretic schedule and a loose porch step, rallies his neighbor Bram and GP within 48 hours, and restores Hendrik to full independence in six weeks while ambient voice AI files the Omaha System chart invisibly."
+    },
+    "quote": {
+      "text": "Start always from the perspective of the patient, keep things small and simple, and trust professionals to do what they were trained to do: build human relationships that restore independence rather than feed a bureaucracy.",
+      "author": "Jos de Blok",
+      "role": "Community Nurse & Founder of Buurtzorg Nederland ('Humanity Over Bureaucracy')",
+      "url": "https://www.buurtzorg.com/about-us/"
+    },
+    "companiesAndLabs": [
+      "Buurtzorg Nederland (Almelo Back-Office & 950+ Teams)",
+      "Ecare & BuurtzorgWeb Open IT Platform",
+      "The Omaha System Holistic Nursing Taxonomy",
+      "KPMG & Commonwealth Fund Health Delivery Audits",
+      "Ernst & Young (EY) Dutch Home-Care Actuarial Review",
+      "Buurtzorg Britain & Ireland / Global Sister Networks"
+    ],
+    "globalPrecedents": [
+      "Buurtzorg Nederland: 4 Nurses (2006) to 15,000+ Nurses & <8% Overhead With Zero Bosses",
+      "EY & KPMG Independent Audits: ~50% Fewer Billed Hours & 30%–40% Lower Per-Patient Cost",
+      "Dutch Best Employer of the Year (5x Winner) With Nurse Sick Leave Cut >50%",
+      "24+ Country Adaptations Across Sweden, Japan, UK NHS, Germany, Taiwan & US Pilots"
+    ],
+    "synergyLinks": [
+      "healthcare-without-billing",
+      "intergenerational-villages",
+      "social-prescribing-loneliness-cure",
+      "epigenetic-healthspan"
+    ],
+    "infographic": {
+      "headlineMetric": "-40% Care Cost",
+      "headlineLabel": "Holistic 12-Nurse Teams + Zero Bosses (EY / KPMG Verified)",
+      "unit": "Share of Nurse Shift Spent in Unhurried Human Care & Family Coaching (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2005,
+          "label": "Industrial Stopwatch Care (6-Min Codes & 25% Admin Overhead)",
+          "value": 42,
+          "display": "42% human care time"
+        },
+        {
+          "year": 2015,
+          "label": "Buurtzorg Nederland + BuurtzorgWeb Omaha System Scale-Up",
+          "value": 72,
+          "display": "72% human care time"
+        },
+        {
+          "year": 2026,
+          "label": "15,000+ Nurses + On-Device Ambient Clinical Voice Scribes",
+          "value": 89,
+          "display": "89% human care time"
+        },
+        {
+          "year": 2032,
+          "label": "Global Neighborhood Care Standard + Passive Home Biosensing",
+          "value": 94,
+          "display": "94% human care time"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Per-Patient Total Cost",
+          "value": "-30% to -40%",
+          "detail": "EY & KPMG verified savings via ~50% fewer total hours to independence"
+        },
+        {
+          "label": "Back-Office Overhead",
+          "value": "<8% vs 25%",
+          "detail": "<50 Almelo admin staff & ~20 coaches for 15,000+ nurses, zero bosses"
+        },
+        {
+          "label": "Unplanned ER Admissions",
+          "value": "-33% Drop",
+          "detail": "Same trusted nurse spots early clinical and household hazards over coffee"
+        },
+        {
+          "label": "Nurse Sick Leave & Burnout",
+          "value": "-55% Lower",
+          "detail": "5-time Dutch Best Employer of the Year with #1 patient satisfaction"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Buurtzorg Nederland (Almelo Back-Office & 950+ Teams)",
+        "url": "https://www.buurtzorg.com/"
+      },
+      {
+        "name": "Ecare & BuurtzorgWeb Open IT Platform",
+        "url": "https://www.ecare.nl/"
+      },
+      {
+        "name": "The Omaha System Holistic Nursing Taxonomy",
+        "url": "https://www.omahasystem.org/"
+      },
+      {
+        "name": "KPMG & Commonwealth Fund Health Delivery Audits",
+        "url": "https://www.commonwealthfund.org/publications/case-study/2015/may/home-care-autonomous-teams-netherlands-buurtzorg-model"
+      },
+      {
+        "name": "Ernst & Young (EY) Dutch Home-Care Actuarial Review",
+        "url": "https://www.buurtzorg.com/about-us/buurtzorg-model/"
+      },
+      {
+        "name": "Buurtzorg Britain & Ireland / Global Sister Networks",
+        "url": "https://buurtzorgbritainandireland.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Buurtzorg Nederland: 4 Nurses (2006) to 15,000+ Nurses & <8% Overhead With Zero Bosses",
+        "url": "https://www.buurtzorg.com/about-us/"
+      },
+      {
+        "name": "EY & KPMG Independent Audits: ~50% Fewer Billed Hours & 30%–40% Lower Per-Patient Cost",
+        "url": "https://www.commonwealthfund.org/publications/case-study/2015/may/home-care-autonomous-teams-netherlands-buurtzorg-model"
+      },
+      {
+        "name": "Dutch Best Employer of the Year (5x Winner) With Nurse Sick Leave Cut >50%",
+        "url": "https://corporate-rebels.com/blog/buurtzorg"
+      },
+      {
+        "name": "24+ Country Adaptations Across Sweden, Japan, UK NHS, Germany, Taiwan & US Pilots",
+        "url": "https://www.buurtzorg.com/international/"
+      }
+    ]
+  }
+]
