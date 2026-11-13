@@ -588,6 +588,33 @@
       multiplier: "Lifting the 13-IQ-point scarcity bandwidth tax restores family credit and trust while billing-free preventative care stops new debt at the root.",
       slug: "medical-debt-abolition-pools",
     },
+    {
+      tag: "🇬🇧🇪🇸 WORKER-OWNED AUTOMATION",
+      metric: "2,800+ UK EOTs",
+      title: "Employee Ownership Trusts & Mondragon 4-Day Shops",
+      frozen: "“Retiring Boomer shops must be gutted by private equity, and shop-floor robots always mean pink slips.”",
+      tuesday: "2,800+ UK firms (~548k worker-owners) and Spain's 70,000-owner Mondragon federation hand retiring shops to employees with >2× median retirement wealth.",
+      multiplier: "When workers own the HVAC firm or bakery, installing cobots, AI agents, and rooftop solar funds a 4-day workweek and annual dividends instead of layoffs.",
+      slug: "worker-ownership-trusts-mondragon",
+    },
+    {
+      tag: "🇮🇹🇧🇪 ZERO-RESTRAINT MENTAL HEALTH",
+      metric: "0% Locked Wards",
+      title: "Trieste Open-Door Clinics, Geel Homes & Civilian Vans",
+      frozen: "“Severe mental illness leaves cities only two grim options: locked psychiatric cages or armed 911 street tragedy.”",
+      tuesday: "Trieste closed its asylum for 24/7 walk-in centers and union-wage social co-ops at ~€78/capita (0% restraints, -40% suicides), while Geel families host boarders for 700 years.",
+      multiplier: "Civilian CAHOOTS/STAR vans + opt-in passive sleep/voice relapse alerts + metabolic psychiatry bring gentle kitchen-table help days before crisis.",
+      slug: "trieste-geel-community-mental-health",
+    },
+    {
+      tag: "🇺🇸🇳🇴 ZERO TRAFFIC DEATHS",
+      metric: "9+ Yrs • 0 Deaths",
+      title: "Hoboken's $500 Daylighting & Oslo's Kid-Safe Streets",
+      frozen: "“40,000 U.S. road deaths a year and kids trapped in backseats until 16 are the unavoidable price of mobility.”",
+      tuesday: "Dense Hoboken, NJ has recorded ZERO traffic deaths since January 2017 using $500 corner daylighting and 20 mph streets, joined by Oslo and 500+ Paris School Streets.",
+      multiplier: "360° LiDAR electric shuttles (80%+ fewer injury crashes) + smart crosswalks end road carnage and turn asphalt back into safe neighborhood porches.",
+      slug: "vision-zero-streets-transit-freedom",
+    },
   ];
 
   function renderSharedReality() {
@@ -1132,15 +1159,15 @@
       "scarcity-mindset-to-abundance-trust",
       "hidden-consumer-surplus-abundance",
       "buurtzorg-autonomous-neighborhood-care",
+      "trieste-geel-community-mental-health",
+      "worker-ownership-trusts-mondragon",
+      "palaces-for-the-people-tool-libraries",
       "iceland-planet-youth-belonging",
       "fusion-power",
       "symbiotic-civic-data-centers",
       "craving-reset-mental-health",
       "universal-capital-dividends",
       "empirical-ai-economics-telemetry",
-      "ending-homelessness-villages",
-      "bridging-consensus-trust",
-      "lidar-agent-citizen-archaeology",
     ];
     const quoteItems = featuredSlugs.map((s) => itemsBySlug.get(s)).filter(Boolean);
 
@@ -1164,17 +1191,17 @@
 
     const storySlugs = [
       "buurtzorg-autonomous-neighborhood-care",
+      "dementia-villages-green-house-elders",
+      "vision-zero-streets-transit-freedom",
+      "lawyer-free-civic-justice-clean-slate",
+      "community-solar-gardens-bill-shields",
+      "universal-culinary-school-kitchens",
+      "neuvola-baby-box-parental-start",
       "medical-debt-abolition-pools",
       "iceland-planet-youth-belonging",
       "bipartisan-yimby-parking-liberation",
       "hidden-consumer-surplus-abundance",
-      "fusion-power",
       "symbiotic-civic-data-centers",
-      "craving-reset-mental-health",
-      "forty-eight-hour-governance",
-      "universal-capital-dividends",
-      "lidar-agent-citizen-archaeology",
-      "cost-of-living-collapse",
     ];
     const storyItems = storySlugs.map((s) => itemsBySlug.get(s)).filter(Boolean);
 
@@ -1330,6 +1357,30 @@
       slug: "symbiotic-civic-data-centers",
       sourceLabel: "Fortum District Heat",
       sourceUrl: "https://www.fortum.com/",
+    },
+    {
+      place: "🇮🇹 Trieste & 🇧🇪 Geel",
+      model: "Zero-Restraint Community Mental Health",
+      fact: "Trieste replaced its asylum with 24/7 open-door neighborhood centers and union-wage co-ops at ~€78/capita (0% restraints, -40% suicides), alongside Geel's 700-year family care.",
+      slug: "trieste-geel-community-mental-health",
+      sourceLabel: "WHO Trieste Model",
+      sourceUrl: "https://www.triestementalhealth.org/",
+    },
+    {
+      place: "🇺🇸 Hoboken & 🇳🇴 Oslo",
+      model: "9+ Years Zero Traffic Fatalities",
+      fact: "Hoboken, NJ has gone 9+ consecutive years with zero traffic deaths of any kind via $500 corner daylighting and 20 mph streets, matched by Oslo's zero pedestrian/cyclist deaths.",
+      slug: "vision-zero-streets-transit-freedom",
+      sourceLabel: "Vision Zero Hoboken",
+      sourceUrl: "https://www.vzhoboken.com/",
+    },
+    {
+      place: "🇧🇷 Brazil & 🇩🇰 Copenhagen",
+      model: "40M Farm-to-School & 90% Organic Kitchens",
+      fact: "Brazil's PNAE feeds 40M+ students daily with ≥30% family-farm produce by law, while Copenhagen shifted 900+ public kitchens to ~90% organic scratch cooking with zero budget hike.",
+      slug: "universal-culinary-school-kitchens",
+      sourceLabel: "Brazil PNAE & Madhus",
+      sourceUrl: "https://frac.org/programs/national-school-lunch-program/free-school-meals-for-all",
     },
   ];
 

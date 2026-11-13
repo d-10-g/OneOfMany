@@ -1,0 +1,147 @@
+[
+  {
+    "slug": "community-solar-gardens-bill-shields",
+    "pillarId": "abundant-energy",
+    "folderRel": "carbon/01-abundant-energy/community-solar-gardens-bill-shields",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "isConventionBreaker": true,
+    "isDeepLab": false,
+    "title": "$0-Upfront Clean Power for Renters: Subscriber Community Solar, Debt-Free Heat Pumps & 0-Second Permits",
+    "tagline": "Ending the homeowner-only rooftop gap with $0-upfront portable community solar bill credits, meter-attached Pay-As-You-Save heat pumps, and NREL's 0-second SolarAPP+ permitting.",
+    "cynicBelief": "Clean energy is a regressive luxury subsidy for affluent suburban homeowners with sunny south-facing roofs, 760 FICO scores, and $25,000 cash—leaving the ~50% of households who rent apartments or live under shaded roofs trapped paying rising gas and grid maintenance bills.",
+    "breakthroughCounter": "Subscriber Community Solar Gardens across Minnesota, New York, Illinois, and Colorado (backed by the U.S. DOE National Community Solar Partnership alongside citizen cooperatives like Spain's Som Energia and the UK's Repowering London) give renters $0-upfront, zero-FICO-check subscriptions delivering guaranteed 5%–20% monthly utility bill credits that follow them when they move; Inclusive Utility Investment ('Pay As You Save' & BlocPower in Ithaca, NY) attaches heat pumps to the utility meter so net bills drop from Day 1 with zero personal debt; and NREL's free SolarAPP+ software replaces 6-week permit queues with 0-second automated code compliance.",
+    "socialNormShift": "Public utility commissions make clean-energy bill shields automatic opt-out infrastructure for low-income renters, enforce 0-second automated municipal permitting to crush U.S. soft costs toward Australian $1/W benchmarks, and attach building electrification tariffs to meters rather than personal credit scores.",
+    "humanStory": {
+      "protagonist": "Tasha Robinson (34, Pediatric Dental Hygienist & Third-Floor Renter) & Enric Valls (Som Energia Co-op Engineer)",
+      "location": "South Minneapolis, Minnesota, Ithaca, New York & Girona, Spain",
+      "snippet": "Without owning a roof, signing a loan, or undergoing a FICO check, Tasha enrolls her walkup apartment in an automatic consolidated-bill community solar garden for an instant 18% electric bill cut—while an Ithaca-style meter-attached heat pump replaces her landlord's wheezing oil boiler with Day-1 net winter savings and zero personal debt."
+    },
+    "quote": {
+      "text": "Clean energy shouldn't require owning a suburban roof, holding $25,000 in savings, or waiting two months at City Hall. When you pair 0-second automated permitting with $0-upfront community solar and meter-attached heat pumps, clean electrons cut working renters' bills on Day One.",
+      "author": "Donnel Baird & U.S. DOE National Community Solar Partnership",
+      "role": "Founder of BlocPower (Ithaca Citywide Electrification) & Federal Renter Solar Access Initiative",
+      "url": "https://www.energy.gov/communitysolar/community-solar"
+    },
+    "companiesAndLabs": [
+      "U.S. DOE National Community Solar Partnership (NCSP)",
+      "NREL SolarAPP+ Automated Instant Permitting Platform",
+      "BlocPower Turnkey Neighborhood Electrification (Ithaca, NY)",
+      "RMI Soft-Cost & Inclusive Utility Investment Research",
+      "Som Energia Citizen Renewable Cooperative (Spain)",
+      "Repowering London Urban Social-Housing Solar Co-ops (UK)"
+    ],
+    "globalPrecedents": [
+      "Minnesota, New York, Illinois & Colorado Subscriber Community Solar (5%–20% Guaranteed Renter Bill Credits, $0 Upfront)",
+      "NREL SolarAPP+ 0-Second Automated Code Compliance Across Hundreds of U.S. Jurisdictions (~2 Weeks Saved per Install)",
+      "Ithaca, NY BlocPower & Pay-As-You-Save Meter-Attached Heat Pumps (Day-1 Net Bill Savings, Zero Personal Debt)",
+      "Som Energia (85,000+ Citizen Members, Spain) & Repowering London Brixton Estate Tenant-Owned Solar"
+    ],
+    "synergyLinks": [
+      "perovskite-tandem-solar",
+      "bidirectional-v2g-virtual-plants",
+      "cooperative-broadband-energy-trusts",
+      "forty-eight-hour-governance"
+    ],
+    "infographic": {
+      "headlineMetric": "$0 Upfront / -20% Bill",
+      "headlineLabel": "Portable Renter Solar Credits + 0-Sec SolarAPP+ Permits",
+      "unit": "Installed Residential Clean-Power Soft-Cost & Permit Overhead ($/Watt)",
+      "lowerIsBetter": true,
+      "trajectory": [
+        {
+          "year": 2018,
+          "label": "Paper Permit Queues (6 Weeks) & Homeowner-Only Rooftop Loans",
+          "value": 2.1,
+          "display": "$2.10/W soft cost"
+        },
+        {
+          "year": 2024,
+          "label": "SolarAPP+ Rollout + State Consolidated-Bill Community Solar",
+          "value": 1.45,
+          "display": "$1.45/W soft cost"
+        },
+        {
+          "year": 2026,
+          "label": "Auto-Enrolled Renter Solar Gardens + Meter-Attached PAYS Heat Pumps",
+          "value": 0.9,
+          "display": "$0.90/W soft cost"
+        },
+        {
+          "year": 2031,
+          "label": "35% Perovskite Tandems + Universal 0-Second Permits & Bill Shields",
+          "value": 0.4,
+          "display": "$0.40/W soft cost"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Renter Monthly Bill Cut",
+          "value": "5%–20% Guaranteed",
+          "detail": "$0 upfront, zero roof needed, zero FICO check & portable across moves"
+        },
+        {
+          "label": "SolarAPP+ Permit Time",
+          "value": "0 Seconds",
+          "detail": "Replaces 4–8 week municipal queues; saves ~2 weeks total install time"
+        },
+        {
+          "label": "Heat-Pump Personal Debt",
+          "value": "$0 Debt / Liens",
+          "detail": "Pay-As-You-Save meter tariff capped below verified monthly energy savings"
+        },
+        {
+          "label": "Unlocked Household Share",
+          "value": "~50% of Homes",
+          "detail": "Opens clean power to renters, walkup apartments & shaded urban roofs"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "U.S. DOE National Community Solar Partnership (NCSP)",
+        "url": "https://www.energy.gov/communitysolar/community-solar"
+      },
+      {
+        "name": "NREL SolarAPP+ Automated Instant Permitting Platform",
+        "url": "https://solarapp.nrel.gov/"
+      },
+      {
+        "name": "BlocPower Turnkey Neighborhood Electrification (Ithaca, NY)",
+        "url": "https://www.blocpower.io/"
+      },
+      {
+        "name": "RMI Soft-Cost & Inclusive Utility Investment Research",
+        "url": "https://www.rmi.org/"
+      },
+      {
+        "name": "Som Energia Citizen Renewable Cooperative (Spain)",
+        "url": "https://www.somenergia.coop/en/"
+      },
+      {
+        "name": "Repowering London Urban Social-Housing Solar Co-ops (UK)",
+        "url": "https://www.repowering.org.uk/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Minnesota, New York, Illinois & Colorado Subscriber Community Solar (5%–20% Guaranteed Renter Bill Credits, $0 Upfront)",
+        "url": "https://www.energy.gov/communitysolar/community-solar"
+      },
+      {
+        "name": "NREL SolarAPP+ 0-Second Automated Code Compliance Across Hundreds of U.S. Jurisdictions (~2 Weeks Saved per Install)",
+        "url": "https://solarapp.nrel.gov/"
+      },
+      {
+        "name": "Ithaca, NY BlocPower & Pay-As-You-Save Meter-Attached Heat Pumps (Day-1 Net Bill Savings, Zero Personal Debt)",
+        "url": "https://www.blocpower.io/"
+      },
+      {
+        "name": "Som Energia (85,000+ Citizen Members, Spain) & Repowering London Brixton Estate Tenant-Owned Solar",
+        "url": "https://www.somenergia.coop/en/"
+      }
+    ]
+  }
+]

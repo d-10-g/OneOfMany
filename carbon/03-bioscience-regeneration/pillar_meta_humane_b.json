@@ -1,0 +1,147 @@
+[
+  {
+    "slug": "trieste-geel-community-mental-health",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/trieste-geel-community-mental-health",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "isConventionBreaker": true,
+    "isDeepLab": false,
+    "title": "Open Doors, Zero Restraints: How Trieste, Geel & Civilian Crisis Teams Replaced Locked Wards with Belonging",
+    "tagline": "Ending the false choice between locked psychiatric jails and sidewalk abandonment through Trieste's 24/7 open-door cooperatives, Geel's 700-year host families, unarmed STAR/CAHOOTS vans, and gentle prodromal AI.",
+    "cynicBelief": "Societies face a grim, unchangeable binary for severe mental illness: either lock people inside coercive psychiatric asylums and county jails with mechanical restraints, or abandon them to sidewalks, subway platforms, and tragic armed police 911 encounters.",
+    "breakthroughCounter": "Following Franco Basaglia's reform and Law 180 (1978), WHO Collaborating Centre Trieste completely closed its 1,200-bed asylum and shifted 94% of its mental health budget into 24/7 open-door neighborhood centers, housing, and union-wage Type-B social cooperatives—achieving 0% mechanical restraints, near-zero chronic psychiatric homelessness, and a ~40% suicide drop for just ~€77–€79 per capita. Meanwhile, Geel, Belgium has welcomed adults with schizophrenia as family 'boarders' for 700+ years, and Eugene's CAHOOTS plus Denver's STAR unarmed vans cut subsequent minor offenses ~34% (Stanford SIEPR) without arrests or force.",
+    "socialNormShift": "Cities redirect institutional jail-and-ward spending into 24/7 open-door neighborhood hospitality centers, union-wage social cooperatives, Geel-style nurse-backed host families, and unarmed 911 medic-clinician vans—augmented by opt-in on-device sleep/voice prodromal alerts, metabolic neuro-psychiatry, and ambient scribes so gentle kitchen-table care arrives days before crisis.",
+    "humanStory": {
+      "protagonist": "Matteo Furlan (29, Barista-Roaster at Il Posto delle Fragole Co-op) & Hendrick Peeters (Geel Host-Family Baker)",
+      "location": "Trieste, Italy, Geel, Belgium & Denver, Colorado",
+      "snippet": "When Matteo's opt-in phone sleep-rhythm monitor flags three nights of 3:00 AM manic fragmentation, his neighborhood Barcola open-door nurse drops by over espresso four days before a 911 crisis can erupt—adjusting his metabolic anti-inflammatory regimen while keeping Matteo's union barista job, apartment, and dignity 100% intact with zero locked doors."
+    },
+    "quote": {
+      "text": "When we unlocked the asylum gates in Trieste, we learned that freedom itself is therapeutic: if you surround a person in crisis with an open neighborhood door, a home, a real paycheck in a social cooperative, and human respect rather than leather straps, society becomes safer and kinder at lower cost.",
+      "author": "Franco Basaglia Tradition & WHO Collaborating Centre Trieste",
+      "role": "Architects of Italian Law 180 & WHO Global Reference Model for Rights-Based Community Mental Health",
+      "url": "https://www.who.int/publications/i/item/9789240025707"
+    },
+    "companiesAndLabs": [
+      "Trieste Department of Mental Health (WHO Collaborating Centre)",
+      "World Health Organization (WHO) Rights-Based Mental Health Guidance",
+      "OPZ Geel Family Foster Care Program (Gezinsverpleging, Belgium)",
+      "White Bird Clinic CAHOOTS Mobile Crisis Team (Eugene, OR)",
+      "Denver Support Team Assisted Response (STAR) Program",
+      "Stanford SIEPR Empirical Evaluation Lab (Dee & Pyne STAR Audit)"
+    ],
+    "globalPrecedents": [
+      "Trieste Open-Door Model (1978–Present): 1,200-Bed Asylum Closed, 0% Restraints, 94% Community Budget, ~€78/Capita & -40% Suicide Rate",
+      "Geel, Belgium 700-Year Gezinsverpleging: Psychiatric Boarders Welcomed Into Local Families With 24/7 Nurse Support",
+      "Denver STAR Civilian Crisis Vans: -34% Subsequent Minor Offenses & 4x Cheaper Than Armed Police Dispatch (Stanford SIEPR)",
+      "Eugene CAHOOTS (35+ Years): ~24,000 Annual Behavioral Calls Resolved With <1% Requiring Police Backup"
+    ],
+    "synergyLinks": [
+      "craving-reset-mental-health",
+      "ending-homelessness-villages",
+      "buurtzorg-autonomous-neighborhood-care",
+      "social-prescribing-loneliness-cure"
+    ],
+    "infographic": {
+      "headlineMetric": "0% Restraints / -40% Suicide",
+      "headlineLabel": "Trieste 94% Community Budget + STAR Civilian Crisis Vans",
+      "unit": "Share of Public Mental Health Spending Invested in Open Community Care, Housing & Work Co-ops (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 1973,
+          "label": "Locked Asylum & Jail Era (1,200 San Giovanni Beds, ~95% Institutional)",
+          "value": 6,
+          "display": "6% community care"
+        },
+        {
+          "year": 1998,
+          "label": "Trieste Law 180 Full Asylum Closure + Type-B Union Co-ops + CAHOOTS",
+          "value": 82,
+          "display": "82% community care"
+        },
+        {
+          "year": 2026,
+          "label": "WHO Trieste Gold Standard (94% Community) + Denver STAR 911 Scale-Up",
+          "value": 94,
+          "display": "94% community care"
+        },
+        {
+          "year": 2032,
+          "label": "Open-Door Hubs + Opt-In Prodromal Sleep/Voice AI + Metabolic Psychiatry",
+          "value": 96,
+          "display": "96% community care"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Mechanical Restraints",
+          "value": "0% Used",
+          "detail": "Zero locked seclusion rooms or straps across Trieste's entire city network"
+        },
+        {
+          "label": "Trieste Total Cost",
+          "value": "~€78 / Capita",
+          "detail": "94% spent in neighborhoods & Type-B work co-ops; ~40% drop in suicide"
+        },
+        {
+          "label": "Denver STAR Recidivism",
+          "value": "-34% Drop",
+          "detail": "Stanford SIEPR verified fall in minor offenses via unarmed medic-clinician vans"
+        },
+        {
+          "label": "Geel Family Tradition",
+          "value": "700+ Years",
+          "detail": "Generations of ordinary Belgian families hosting 'boarders' with 24/7 RN backup"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Trieste Department of Mental Health (WHO Collaborating Centre)",
+        "url": "https://www.triestementalhealth.org/"
+      },
+      {
+        "name": "World Health Organization (WHO) Rights-Based Mental Health Guidance",
+        "url": "https://www.who.int/publications/i/item/9789240025707"
+      },
+      {
+        "name": "OPZ Geel Family Foster Care Program (Gezinsverpleging, Belgium)",
+        "url": "https://www.opzgeel.be/"
+      },
+      {
+        "name": "White Bird Clinic CAHOOTS Mobile Crisis Team (Eugene, OR)",
+        "url": "https://whitebirdclinic.org/cahoots/"
+      },
+      {
+        "name": "Denver Support Team Assisted Response (STAR) Program",
+        "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Public-Health-Environment/Community-Behavioral-Health/Behavioral-Health-Strategies/Support-Team-Assisted-Response-STAR-Program"
+      },
+      {
+        "name": "Stanford SIEPR Empirical Evaluation Lab (Dee & Pyne STAR Audit)",
+        "url": "https://siepr.stanford.edu/publications/working-paper/alternative-police-mental-health-calls-community-based-response"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Trieste Open-Door Model (1978–Present): 1,200-Bed Asylum Closed, 0% Restraints, 94% Community Budget, ~€78/Capita & -40% Suicide Rate",
+        "url": "https://www.who.int/publications/i/item/9789240025707"
+      },
+      {
+        "name": "Geel, Belgium 700-Year Gezinsverpleging: Psychiatric Boarders Welcomed Into Local Families With 24/7 Nurse Support",
+        "url": "https://www.opzgeel.be/"
+      },
+      {
+        "name": "Denver STAR Civilian Crisis Vans: -34% Subsequent Minor Offenses & 4x Cheaper Than Armed Police Dispatch (Stanford SIEPR)",
+        "url": "https://siepr.stanford.edu/publications/working-paper/alternative-police-mental-health-calls-community-based-response"
+      },
+      {
+        "name": "Eugene CAHOOTS (35+ Years): ~24,000 Annual Behavioral Calls Resolved With <1% Requiring Police Backup",
+        "url": "https://whitebirdclinic.org/cahoots/"
+      }
+    ]
+  }
+]

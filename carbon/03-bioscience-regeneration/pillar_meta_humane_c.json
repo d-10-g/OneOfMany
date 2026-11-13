@@ -1,0 +1,292 @@
+[
+  {
+    "slug": "dementia-villages-green-house-elders",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/dementia-villages-green-house-elders",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "isConventionBreaker": true,
+    "isDeepLab": false,
+    "title": "Ending Warehouse Nursing Homes: Dutch \"Hogeweyk\" Dementia Villages, Green House Cottages & Gentle Care Robotics",
+    "tagline": "Retiring 120-bed fluorescent nursing corridors and chemical sedation in favor of statutory-budget Dutch dementia neighborhoods, 10-elder Medicaid cottages, camera-free radar sensors, and gentle transfer robotics.",
+    "cynicBelief": "Growing old with Alzheimer's or physical frailty inevitably means spending your final years under fluorescent lights in a 120-bed institutional corridor—isolated behind keypad doors, woken at 5:30 AM on hospital schedules, and sedated with antipsychotics because dignified small-home care is 'only for billionaires.'",
+    "breakthroughCounter": "De Hogeweyk in Weesp, Netherlands (opened 2009 on the exact same Dutch statutory Wlz daily long-term care tariff as conventional nursing homes) and France's public Village Landais Alzheimer in Dax replaced hospital wings with safe 4-acre neighborhood squares, real grocery stores, gardens, cafés, and 6-to-7-person normal homes where caregivers in street clothes cook fresh dinner alongside residents—while Dr. Bill Thomas's Green House Project (~400 cottages across 30+ U.S. states, ~45% Medicaid) proved 16%–30% fewer hospital readmissions, fewer pressure ulcers, and 4x–5x lower COVID-19 case and mortality rates at comparable public cost.",
+    "socialNormShift": "Societies outlaw new 100-bed institutional nursing wings and redirect statutory Medicaid/Wlz budgets into 6-to-12-elder hearth cottages and walkable dementia villages—pairing universal shahbaz caregivers with gentle tactile transfer robotics, zero-camera millimeter-wave fall radar, and circadian daylight lighting.",
+    "humanStory": {
+      "protagonist": "Willem Bakker (79-Year-Old Retired Choir Teacher With Advanced Alzheimer's) & Clara Robinson (62-Year-Old Certified Shahbaz Universal Caregiver)",
+      "location": "Weesp, Netherlands & Tupelo, Mississippi",
+      "snippet": "Instead of pacing a locked linoleum corridor in sedated panic at 4:00 PM, Willem walks beneath birch trees to De Hogeweyk's neighborhood bakery for fresh apples, peels potatoes at a 7-resident oak hearth table, and sleeps deeply under circadian amber light—while across the Atlantic in Tupelo, Clara assists a frail retired seamstress out of bed with zero back strain using a soft-tactile transfer cradle."
+    },
+    "quote": {
+      "text": "The tragedy of the traditional nursing home is not simply medical complication—it is the institutional plagues of loneliness, helplessness, and boredom. When elders live around a real hearth in a real home, human dignity heals what hospital corridors broke.",
+      "author": "Dr. Bill Thomas & Yvonne van Amerongen",
+      "role": "Founder of The Green House Project & Co-Founder of De Hogeweyk Dementia Village",
+      "url": "https://thegreenhouseproject.org/"
+    },
+    "companiesAndLabs": [
+      "De Hogeweyk Dementia Village & Be Advice (Weesp, Netherlands)",
+      "The Green House Project (~400 Small Homes Across 30+ U.S. States)",
+      "Village Landais Alzheimer Public Research Village (Dax, Nouvelle-Aquitaine, France)",
+      "Health Services Research / Brown & UNC Elder-Care Actuarial Consortium",
+      "JAMDA Small-Home Infection & Mortality Resilience Research Group",
+      "Soft-Tactile Transfer Robotics & 60-GHz Privacy Radar Care Consortium"
+    ],
+    "globalPrecedents": [
+      "De Hogeweyk (Weesp, NL): 27 Normal 6–7-Person Homes & Village Square on Standard Dutch Wlz Public Tariff",
+      "The Green House Project (US): ~400 Homes in 30+ States (~45% Medicaid) With 16%–30% Fewer Readmissions",
+      "JAMDA Empirical Audit: ~4x–5x Lower COVID-19 Infection & Mortality Rates vs. Traditional Nursing Homes",
+      "Village Landais Alzheimer (Dax, France): Publicly Funded Bastide Village & INSERM Longitudinal Cohort"
+    ],
+    "synergyLinks": [
+      "buurtzorg-autonomous-neighborhood-care",
+      "intergenerational-villages",
+      "general-purpose-humanoids",
+      "epigenetic-healthspan"
+    ],
+    "infographic": {
+      "headlineMetric": "4x–5x Safer",
+      "headlineLabel": "Small-Home Mortality Resilience & -30% Readmissions at Equal Public Tariff",
+      "unit": "Share of Direct Caregiver Hours Spent in Unhurried Daily Living vs. Institutional Triage (%)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2003,
+          "label": "120-Bed Warehouse Nursing Wings (5:30 AM Med Carts & Chemical Restraints)",
+          "value": 34,
+          "display": "34% relational care"
+        },
+        {
+          "year": 2012,
+          "label": "De Hogeweyk (Weesp) & Early U.S. Green House Medicaid Cottages",
+          "value": 68,
+          "display": "68% relational care"
+        },
+        {
+          "year": 2026,
+          "label": "~400 Green Houses + Village Landais + Privacy mmWave Radar & Circadian LEDs",
+          "value": 84,
+          "display": "84% relational care"
+        },
+        {
+          "year": 2032,
+          "label": "Universal Small-Home Elder Standard + Gentle Tactile Lift Robotics",
+          "value": 93,
+          "display": "93% relational care"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Hospital Readmissions",
+          "value": "-16% to -30%",
+          "detail": "Health Services Research verified drop in avoidable Medicare rehospitalizations"
+        },
+        {
+          "label": "Outbreak Mortality Risk",
+          "value": "4x–5x Lower",
+          "detail": "JAMDA verified COVID-19 case & death reduction in 10–12-bed Green Houses"
+        },
+        {
+          "label": "Public Cost Parity",
+          "value": "Same Wlz / ~45% Medicaid",
+          "detail": "De Hogeweyk runs on standard Dutch Wlz daily tariff; ~45% US Green House Medicaid"
+        },
+        {
+          "label": "Aide Back Injury & Churn",
+          "value": "-75% Lifting Strain",
+          "detail": "Gentle tactile transfer robotics + universal shahbaz role slash caregiver turnover"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "De Hogeweyk Dementia Village & Be Advice (Weesp, Netherlands)",
+        "url": "https://hogeweyk.dementiavillage.com/"
+      },
+      {
+        "name": "The Green House Project (~400 Small Homes Across 30+ U.S. States)",
+        "url": "https://thegreenhouseproject.org/"
+      },
+      {
+        "name": "Village Landais Alzheimer Public Research Village (Dax, Nouvelle-Aquitaine, France)",
+        "url": "https://villagelandais.landes.fr/"
+      },
+      {
+        "name": "Health Services Research / Brown & UNC Elder-Care Actuarial Consortium",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886352/"
+      },
+      {
+        "name": "JAMDA Small-Home Infection & Mortality Resilience Research Group",
+        "url": "https://jamda.com/"
+      },
+      {
+        "name": "Soft-Tactile Transfer Robotics & 60-GHz Privacy Radar Care Consortium",
+        "url": "https://thegreenhouseproject.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "De Hogeweyk (Weesp, NL): 27 Normal 6–7-Person Homes & Village Square on Standard Dutch Wlz Public Tariff",
+        "url": "https://hogeweyk.dementiavillage.com/"
+      },
+      {
+        "name": "The Green House Project (US): ~400 Homes in 30+ States (~45% Medicaid) With 16%–30% Fewer Readmissions",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886352/"
+      },
+      {
+        "name": "JAMDA Empirical Audit: ~4x–5x Lower COVID-19 Infection & Mortality Rates vs. Traditional Nursing Homes",
+        "url": "https://jamda.com/"
+      },
+      {
+        "name": "Village Landais Alzheimer (Dax, France): Publicly Funded Bastide Village & INSERM Longitudinal Cohort",
+        "url": "https://villagelandais.landes.fr/"
+      }
+    ]
+  },
+  {
+    "slug": "sponge-cities-cooling-green-corridors",
+    "pillarId": "bioscience-regeneration",
+    "folderRel": "carbon/03-bioscience-regeneration/sponge-cities-cooling-green-corridors",
+    "v1Slug": null,
+    "v1TrackId": null,
+    "isNewInCarbon": true,
+    "isUrgentSocial": true,
+    "isConventionBreaker": true,
+    "isDeepLab": false,
+    "title": "Beating 115°F Asphalt Without Concrete Megapipes: Medellín's Green Corridors, Paris Oasis Yards & Sponge Parks",
+    "tagline": "Replacing heat-trapping asphalt and multi-billion-dollar underground storm tunnels with $16.3M cooling forest corridors, open neighborhood Oasis schoolyards, sunken cloudburst parks, and orbital thermal digital twins.",
+    "cynicBelief": "Hotter summers and violent cloudburst floods leave cities only one bleak choice: seal families indoors behind roaring air conditioners that dump waste heat onto poorer tree-starved blocks, and spend tens of billions blasting deeper concrete storm sewers under gridlocked asphalt.",
+    "breakthroughCounter": "Starting in 2016 for just ~$16.3 million, Medellín ripped up sun-baked medians and concrete channels to plant 30 interconnected biodiverse Green Corridors across 18 major roads and 12 waterways while training 150+ disadvantaged residents as municipal botanical gardeners—dropping citywide ambient heat ~2 °C (and corridor temperatures 3 °C–4.5 °C+). Meanwhile, Paris depaved 130+ asphalt schoolyards into 3 °C–8 °C cooler Cours Oasis micro-forests open to elderly neighbors on heatwave weekends, and Copenhagen's Enghaveparken plus Philadelphia's Green City, Clean Waters replaced multi-billion-dollar concrete storm megapipes with sunken rain-absorbing sponge parks.",
+    "socialNormShift": "Cities adopt a statutory 300-Meter Cool Green Refuge right and 'Green-First' stormwater procurement—combining open neighborhood Oasis schoolyards and native botanical corridors with orbital thermal digital twins, passive radiative sky-cooling roofs, solar autonomous drip irrigation, and curb lanes reclaimed from surface parking.",
+    "humanStory": {
+      "protagonist": "Luz Elena Morales (Former Informal Street Vendor Turned Medellín Municipal Botanical Gardener) & Marcel Moreau (83-Year-Old Walk-Up Tenant in Paris's 19th Arrondissement)",
+      "location": "Comuna 8 / Avenida Oriental, Medellín & Belleville, Paris",
+      "snippet": "Where Avenida Oriental once radiated 42 °C exhaust off bare concrete, Luz Elena prunes towering bamboo, guayacán, and heliconia canopies that dropped street heat 4 °C and brought green parrots back to working-class barrios—while in Belleville during an August heatwave, Marcel walks ninety meters into a shaded, mist-cooled Cours Oasis schoolyard opened free to neighborhood seniors."
+    },
+    "quote": {
+      "text": "When we tore up bare concrete medians along Avenida Oriental and planted multi-layered native forest corridors tended by neighbors from our own barrios, the whole city exhaled—two degrees cooler, cleaner to breathe, and alive with birds again.",
+      "author": "Alcaldía de Medellín Botanical Engineering & Ashden Cooling Team",
+      "role": "Architects of Medellín's 30 Corredores Verdes (Ashden Award for Cooling by Nature)",
+      "url": "https://ashden.org/winners/alcaldia-de-medellin/"
+    },
+    "companiesAndLabs": [
+      "Alcaldía de Medellín & Joaquín Antonio Uribe Botanical Garden (Corredores Verdes)",
+      "Ville de Paris — Les Cours Oasis Urban Depaving & Open Schoolyard Program",
+      "Copenhagen Skybrudsplan & TREDJE NATUR (Enghaveparken Cloudburst Sponge Park)",
+      "Philadelphia Water Department — Green City, Clean Waters (Greened Acres Program)",
+      "C40 Cities Cool Cities & Cloudburst Adaptation Knowledge Hub",
+      "Orbital Thermal Heat-Island Digital Twin & Radiative Sky-Cooling Civic Labs"
+    ],
+    "globalPrecedents": [
+      "Medellín Corredores Verdes ($16.3M): 30 Forest Corridors Cut City Heat ~2 °C & Corridor Heat 3 °C–4.5 °C+",
+      "Paris Les Cours Oasis: 130+ Depaved Schoolyards (3 °C–8 °C Cooler) Opened as Weekend Senior Heat Refuges",
+      "Copenhagen Enghaveparken & Skybrudsplan: 22,600 m³ Cloudburst Sponge Park Cheaper Than Deep Concrete Tunnels",
+      "Philadelphia Green City, Clean Waters: 2,800+ Greened Acres Slashing Combined Sewer Overflows >3 Billion Gal/Yr"
+    ],
+    "synergyLinks": [
+      "radiative-sky-cooling-skins",
+      "earth-digital-twin-canopy",
+      "phone-free-childhood-play-hoods",
+      "autonomous-ground-mobility"
+    ],
+    "infographic": {
+      "headlineMetric": "-2°C to -4.5°C",
+      "headlineLabel": "Medellín $16.3M Green Corridors + Paris Open Oasis Schoolyards",
+      "unit": "Neighborhood Peak Summer Heat-Island Reduction (°C Cooler vs. Bare Asphalt Baseline)",
+      "lowerIsBetter": false,
+      "trajectory": [
+        {
+          "year": 2014,
+          "label": "Sealed Asphalt Medians, Locked Schoolyards & Grey Storm Sewers",
+          "value": 0.2,
+          "display": "-0.2 °C baseline"
+        },
+        {
+          "year": 2019,
+          "label": "Medellín 30 Green Corridors ($16.3M) & Copenhagen Enghaveparken Sponge Park",
+          "value": 2.5,
+          "display": "-2.0 to -3.5 °C cooling"
+        },
+        {
+          "year": 2026,
+          "label": "130+ Paris Oasis Yards + Philadelphia 2,800+ Greened Acres + Thermal Twins",
+          "value": 4.8,
+          "display": "-3.5 to -6.0 °C cooling"
+        },
+        {
+          "year": 2032,
+          "label": "Sponge Corridors + Radiative Sky-Cooling Roofs + Reclaimed AV Parking Canopies",
+          "value": 7.5,
+          "display": "-6.0 to -8.5 °C cooling"
+        }
+      ],
+      "kpis": [
+        {
+          "label": "Medellín Corridor Capex",
+          "value": "$16.3M Total",
+          "detail": "30 interconnected road & waterway corridors cutting citywide heat ~2 °C"
+        },
+        {
+          "label": "Oasis Schoolyard Cooling",
+          "value": "-3 °C to -8 °C",
+          "detail": "130+ depaved Paris schoolyards opened free to seniors during heatwaves"
+        },
+        {
+          "label": "Stormwater Infrastructure",
+          "value": "30%–60% Cheaper",
+          "detail": "Copenhagen & Philadelphia sponge parks vs. deep concrete storm megapipes"
+        },
+        {
+          "label": "Local Green Livelihoods",
+          "value": "150+ Barrio Gardeners",
+          "detail": "Medellín Botanical Garden trained disadvantaged residents in living-wage arboriculture"
+        }
+      ]
+    },
+    "companyLinks": [
+      {
+        "name": "Alcaldía de Medellín & Joaquín Antonio Uribe Botanical Garden (Corredores Verdes)",
+        "url": "https://ashden.org/winners/alcaldia-de-medellin/"
+      },
+      {
+        "name": "Ville de Paris — Les Cours Oasis Urban Depaving & Open Schoolyard Program",
+        "url": "https://www.paris.fr/pages/les-cours-oasis-7389"
+      },
+      {
+        "name": "Copenhagen Skybrudsplan & TREDJE NATUR (Enghaveparken Cloudburst Sponge Park)",
+        "url": "https://stateofgreen.com/en/solutions/climate-adaptation-of-enghaveparken/"
+      },
+      {
+        "name": "Philadelphia Water Department — Green City, Clean Waters (Greened Acres Program)",
+        "url": "https://water.phila.gov/green-city/"
+      },
+      {
+        "name": "C40 Cities Cool Cities & Cloudburst Adaptation Knowledge Hub",
+        "url": "https://www.c40knowledgehub.org/"
+      },
+      {
+        "name": "Orbital Thermal Heat-Island Digital Twin & Radiative Sky-Cooling Civic Labs",
+        "url": "https://www.c40knowledgehub.org/"
+      }
+    ],
+    "precedentLinks": [
+      {
+        "name": "Medellín Corredores Verdes ($16.3M): 30 Forest Corridors Cut City Heat ~2 °C & Corridor Heat 3 °C–4.5 °C+",
+        "url": "https://ashden.org/winners/alcaldia-de-medellin/"
+      },
+      {
+        "name": "Paris Les Cours Oasis: 130+ Depaved Schoolyards (3 °C–8 °C Cooler) Opened as Weekend Senior Heat Refuges",
+        "url": "https://www.paris.fr/pages/les-cours-oasis-7389"
+      },
+      {
+        "name": "Copenhagen Enghaveparken & Skybrudsplan: 22,600 m³ Cloudburst Sponge Park Cheaper Than Deep Concrete Tunnels",
+        "url": "https://stateofgreen.com/en/solutions/climate-adaptation-of-enghaveparken/"
+      },
+      {
+        "name": "Philadelphia Green City, Clean Waters: 2,800+ Greened Acres Slashing Combined Sewer Overflows >3 Billion Gal/Yr",
+        "url": "https://water.phila.gov/green-city/"
+      }
+    ]
+  }
+]
